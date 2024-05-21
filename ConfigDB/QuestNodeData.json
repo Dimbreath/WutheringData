@@ -25,7 +25,7 @@
   },
   {
     "Key": "135000001_4",
-    "Data": "{\"Type\":\"ChildQuest\",\"Id\":4,\"Desc\":\"\",\"Condition\":{\"Type\":\"Kill\",\"ExistTargets\":[],\"TargetsToAwake\":[135000690,135000689,135000688]},\"TidTip\":\"Quest_135000001_ChildQuestTip_0_6\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Locations\",\"Locations\":[{\"X\":43994,\"Y\":75897,\"Z\":25}]},\"Range\":3000},\"EnterActions\":[],\"FinishActions\":[{\"Name\":\"SetEntityVisible\",\"Params\":{\"Visible\":true,\"EntityIds\":[135000911]},\"ActionGuid\":\"a69f6668d5274c03be98d468f27ac0ac\",\"ActionId\":3000001}]}"
+    "Data": "{\"Type\":\"ChildQuest\",\"Id\":4,\"Desc\":\"\",\"Condition\":{\"Type\":\"Kill\",\"ExistTargets\":[],\"TargetsToAwake\":[135000690,135000689,135000688]},\"TidTip\":\"Quest_135000001_ChildQuestTip_0_6\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Locations\",\"Locations\":[{\"X\":43994,\"Y\":75897,\"Z\":25}]},\"Range\":3000},\"EnterActions\":[],\"FinishActions\":[{\"Name\":\"SetEntityVisible\",\"Params\":{\"Visible\":true,\"EntityIds\":[135000911]},\"ActionGuid\":\"a69f6668d5274c03be98d468f27ac0ac\",\"ActionId\":3000001}],\"RewardId\":44001}"
   },
   {
     "Key": "135000001_3",
@@ -233,7 +233,7 @@
   },
   {
     "Key": "126700023_7",
-    "Data": "{\"Type\":\"Sequence\",\"Id\":7,\"Desc\":\"\",\"SaveConfig\":{\"DisableRollbackWhileReconnect\":true}}"
+    "Data": "{\"Type\":\"Sequence\",\"Id\":7,\"Desc\":\"\",\"SaveConfig\":{\"DisableRollbackWhileReconnect\":true,\"EnterActions\":[{\"Name\":\"SetEntityVisible\",\"Params\":{\"Visible\":false,\"EntityIds\":[310000541]},\"ActionGuid\":\"19faf14806ef42d1a78a0dd40fee3a5f\",\"ActionId\":3000016}]}}"
   },
   {
     "Key": "126700023_4",
@@ -241,11 +241,11 @@
   },
   {
     "Key": "126700023_5",
-    "Data": "{\"Type\":\"ChildQuest\",\"Id\":5,\"Desc\":\"寻找宝箱\",\"Condition\":{\"Type\":\"CheckEntityState\",\"Conditions\":[{\"EntityId\":310000541,\"State\":\"关卡.Common.状态.激活\"}]},\"TidTip\":\"Quest_126700023_ChildQuestTip_0_5\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Locations\",\"Locations\":[{\"X\":-42136.7,\"Y\":130859.81,\"Z\":3282.75,\"A\":116.99994659423828}]}},\"EnterActions\":[],\"FinishActions\":[{\"Name\":\"PlayFlow\",\"Params\":{\"FlowListName\":\"剧情_世界事件_倾听动物之声_放鸽子\",\"FlowId\":1,\"StateId\":2},\"ActionId\":3000023,\"ActionGuid\":\"cc4edeafea5f4b47a164032a1c3b9b87\"}]}"
+    "Data": "{\"Type\":\"ChildQuest\",\"Id\":5,\"Desc\":\"寻找宝箱\",\"Condition\":{\"Type\":\"CheckEntityState\",\"Conditions\":[{\"EntityId\":310000541,\"State\":\"关卡.Common.状态.激活\"}]},\"TidTip\":\"Quest_126700023_ChildQuestTip_0_5\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Locations\",\"Locations\":[{\"X\":-42136.7,\"Y\":130859.81,\"Z\":3282.75,\"A\":116.99994659423828}]}},\"EnterActions\":[],\"FinishActions\":[]}"
   },
   {
     "Key": "126700023_6",
-    "Data": "{\"Type\":\"ChildQuest\",\"Id\":6,\"Desc\":\"交任务\",\"Condition\":{\"Type\":\"DoInteract\",\"AddOptions\":[{\"EntityId\":126000181,\"Option\":{\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_世界事件_倾听动物之声_放鸽子\",\"FlowId\":1,\"StateId\":3}},\"DoIntactType\":\"Direct\",\"Guid\":\"9327bc29113d46258fc05efd4f793dd5\"}}]},\"TidTip\":\"Quest_126700023_ChildQuestTip_0_6\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Entities\",\"EntityIds\":[126000181]}},\"EnterActions\":[],\"FinishActions\":[],\"RewardId\":41114}"
+    "Data": "{\"Type\":\"ChildQuest\",\"Id\":6,\"Desc\":\"交任务\",\"Condition\":{\"Type\":\"DoInteract\",\"AddOptions\":[{\"EntityId\":126000181,\"Option\":{\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_世界事件_倾听动物之声_放鸽子\",\"FlowId\":1,\"StateId\":3}},\"DoIntactType\":\"Direct\",\"Guid\":\"9327bc29113d46258fc05efd4f793dd5\"}}]},\"TidTip\":\"Quest_126700023_ChildQuestTip_0_6\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Entities\",\"EntityIds\":[126000181]}},\"EnterActions\":[{\"Name\":\"PlayFlow\",\"Params\":{\"FlowListName\":\"剧情_世界事件_倾听动物之声_放鸽子\",\"FlowId\":1,\"StateId\":2},\"ActionGuid\":\"ecbf3ec8c4de4b2abfebecfb785366fb\",\"ActionId\":3000017}],\"FinishActions\":[],\"RewardId\":41114}"
   },
   {
     "Key": "126700023_3",
@@ -1361,7 +1361,7 @@
   },
   {
     "Key": "30000000_5",
-    "Data": "{\"Type\":\"ParallelSelect\",\"Id\":5,\"Desc\":\"监测离开商店任务回退\",\"Count\":1}"
+    "Data": "{\"Type\":\"ParallelSelect\",\"Id\":5,\"Desc\":\"监测离开商店任务回退\",\"Count\":1,\"SaveConfig\":{}}"
   },
   {
     "Key": "30000000_7",
@@ -1733,7 +1733,7 @@
   },
   {
     "Key": "140000004_14",
-    "Data": "{\"Type\":\"ChildQuest\",\"Id\":14,\"Desc\":\"[站桩]7_07 鳞人被击败\",\"Condition\":{\"Type\":\"PlayFlow\",\"Flow\":{\"FlowListName\":\"剧情_新主线_第五章1\",\"FlowId\":3,\"StateId\":6}},\"TidTip\":\"Quest_140000004_ChildQuestTip_140_158\",\"EnterActions\":[{\"Name\":\"FadeInScreen\",\"Params\":{\"ScreenType\":\"Black\"},\"ActionGuid\":\"000f63d770584bfe92123440f5119623\",\"ActionId\":3000275},{\"Name\":\"ChangeEntityState\",\"Params\":{\"Type\":\"Directly\",\"EntityId\":110001073,\"State\":\"关卡.无音区.净化\"},\"ActionGuid\":\"3d56e84dc0b34f39a99d24e0697b52e8\",\"ActionId\":3000279},{\"Name\":\"SetPlayerOperationRestriction\",\"Params\":{\"Type\":\"EnableAll\"},\"ActionGuid\":\"6feaa5730d484c91b192a1e03e3ad097\",\"ActionId\":3000280},{\"Name\":\"ChangeEntityState\",\"Params\":{\"Type\":\"Directly\",\"EntityId\":140800714,\"State\":\"关卡.Common.状态.常态\"},\"ActionGuid\":\"a50b17811281413798d2f681465ffa83\",\"ActionId\":3000281},{\"Name\":\"DestroyEntity\",\"Params\":{\"EntityIds\":[140800714]},\"ActionGuid\":\"7efce7824f9645aa9aaf59951c818be4\",\"ActionId\":3000288}],\"FinishActions\":[{\"Name\":\"ChangeEntityState\",\"Params\":{\"Type\":\"Directly\",\"EntityId\":140800588,\"State\":\"关卡.Common.状态.激活\"},\"ActionGuid\":\"e77404c51375456eadcf51716f139908\",\"ActionId\":3000289},{\"Name\":\"ShowTargetRange\",\"Params\":{\"DelayShow\":true,\"RangeEntities\":[140000214]},\"ActionGuid\":\"4605f24ca40740cdb232c2957d67fe4f\",\"ActionId\":3000292},{\"Name\":\"SetReviveRegion\",\"Params\":{\"SetReviveType\":\"Remove\",\"ReviveId\":14000008},\"ActionGuid\":\"ac19274769eb4faba1e756e9c673f673\",\"ActionId\":3000300}],\"TrackTarget\":{\"TrackType\":{\"Type\":\"Locations\",\"Locations\":[]}}}"
+    "Data": "{\"Type\":\"ChildQuest\",\"Id\":14,\"Desc\":\"[站桩]7_07 鳞人被击败\",\"Condition\":{\"Type\":\"PlayFlow\",\"Flow\":{\"FlowListName\":\"剧情_新主线_第五章1\",\"FlowId\":3,\"StateId\":6}},\"TidTip\":\"Quest_140000004_ChildQuestTip_140_158\",\"EnterActions\":[{\"Name\":\"FadeInScreen\",\"Params\":{\"ScreenType\":\"Black\"},\"ActionGuid\":\"000f63d770584bfe92123440f5119623\",\"ActionId\":3000275},{\"Name\":\"ChangeEntityState\",\"Params\":{\"Type\":\"Directly\",\"EntityId\":110001073,\"State\":\"关卡.无音区.净化\"},\"ActionGuid\":\"3d56e84dc0b34f39a99d24e0697b52e8\",\"ActionId\":3000279},{\"Name\":\"SetPlayerOperationRestriction\",\"Params\":{\"Type\":\"EnableAll\"},\"ActionGuid\":\"6feaa5730d484c91b192a1e03e3ad097\",\"ActionId\":3000280},{\"Name\":\"ChangeEntityState\",\"Params\":{\"Type\":\"Directly\",\"EntityId\":140800714,\"State\":\"关卡.Common.状态.常态\"},\"ActionGuid\":\"a50b17811281413798d2f681465ffa83\",\"ActionId\":3000281},{\"Name\":\"DestroyEntity\",\"Params\":{\"EntityIds\":[140800714]},\"ActionGuid\":\"7efce7824f9645aa9aaf59951c818be4\",\"ActionId\":3000288}],\"FinishActions\":[{\"Name\":\"ChangeEntityState\",\"Params\":{\"Type\":\"Directly\",\"EntityId\":140800588,\"State\":\"关卡.Common.状态.激活\"},\"ActionGuid\":\"e77404c51375456eadcf51716f139908\",\"ActionId\":3000289},{\"Name\":\"ShowTargetRange\",\"Params\":{\"DelayShow\":true,\"RangeEntities\":[140000214]},\"ActionGuid\":\"4605f24ca40740cdb232c2957d67fe4f\",\"ActionId\":3000292},{\"Name\":\"SetReviveRegion\",\"Params\":{\"SetReviveType\":\"Remove\",\"ReviveId\":14000008},\"ActionGuid\":\"ac19274769eb4faba1e756e9c673f673\",\"ActionId\":3000300}],\"TrackTarget\":{\"TrackType\":{\"Type\":\"Locations\",\"Locations\":[]}},\"RewardId\":20801}"
   },
   {
     "Key": "140000004_15",
@@ -1745,7 +1745,7 @@
   },
   {
     "Key": "140000004_18",
-    "Data": "{\"Type\":\"ChildQuest\",\"Id\":18,\"Desc\":\"\",\"Condition\":{\"Type\":\"DoInteract\",\"AddOptions\":[{\"EntityId\":140800660,\"Option\":{\"Guid\":\"226c06728d0742e19a6b3ac07b63a304\",\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_新主线_第五章1\",\"FlowId\":4,\"StateId\":1}},\"DoIntactType\":\"Auto\"}}]},\"TidTip\":\"Quest_140000004_ChildQuestTip_0_56\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Entities\",\"EntityIds\":[140800660]},\"EffectOption\":{\"Type\":\"AutoChange\",\"EnterRange\":30,\"LeaveRange\":40}},\"EnterActions\":[{\"Name\":\"OpenSystemBoard\",\"Params\":{\"SystemType\":\"ConfirmBox\",\"BoardId\":181},\"ActionGuid\":\"e4ce1fd1fcb34679acccd078482e9893\",\"ActionId\":3000115},{\"Name\":\"SetTimeLockState\",\"Params\":{\"LockState\":\"Unlock\"},\"ActionGuid\":\"4d1619a5f2004559a97f470dd751092c\",\"ActionId\":3000153}],\"FinishActions\":[{\"Name\":\"AwakeEntity\",\"Params\":{\"EntityIds\":[140800094,140800093]},\"ActionGuid\":\"ffd5a5201e1e4d07bd434b8469027a7c\",\"ActionId\":3000151}]}"
+    "Data": "{\"Type\":\"ChildQuest\",\"Id\":18,\"Desc\":\"\",\"Condition\":{\"Type\":\"DoInteract\",\"AddOptions\":[{\"EntityId\":140800660,\"Option\":{\"Guid\":\"226c06728d0742e19a6b3ac07b63a304\",\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_新主线_第五章1\",\"FlowId\":4,\"StateId\":1}},\"DoIntactType\":\"Auto\"}}]},\"TidTip\":\"Quest_140000004_ChildQuestTip_0_56\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Entities\",\"EntityIds\":[140800660]},\"EffectOption\":{\"Type\":\"AutoChange\",\"EnterRange\":30,\"LeaveRange\":40}},\"EnterActions\":[{\"Name\":\"OpenSystemBoard\",\"Params\":{\"SystemType\":\"ConfirmBox\",\"BoardId\":181},\"ActionGuid\":\"e4ce1fd1fcb34679acccd078482e9893\",\"ActionId\":3000115},{\"Name\":\"SetTimeLockState\",\"Params\":{\"LockState\":\"Unlock\"},\"ActionGuid\":\"4d1619a5f2004559a97f470dd751092c\",\"ActionId\":3000153}],\"FinishActions\":[{\"Name\":\"AwakeEntity\",\"Params\":{\"EntityIds\":[140800094,140800093]},\"ActionGuid\":\"ffd5a5201e1e4d07bd434b8469027a7c\",\"ActionId\":3000151}],\"RewardId\":20802}"
   },
   {
     "Key": "140000004_17",
@@ -4525,7 +4525,7 @@
   },
   {
     "Key": "125000080_91",
-    "Data": "{\"Type\":\"ChildQuest\",\"Id\":91,\"Desc\":\"\",\"Condition\":{\"Type\":\"PlayFlow\",\"Flow\":{\"FlowListName\":\"剧情_角色_忌炎线\",\"FlowId\":1,\"StateId\":1}},\"TidTip\":\"Quest_125000080_ChildQuestTip_0_20\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Entities\",\"EntityIds\":[]}},\"EnterActions\":[],\"FinishActions\":[{\"Name\":\"PromptQuestChapterUI\",\"Params\":{\"ChapterState\":0},\"ActionId\":3000024,\"ActionGuid\":\"ac2a43bdb7a74dbb88ebd062344de0d1\"},{\"Name\":\"AwakeEntity\",\"Params\":{\"EntityIds\":[125000576,125000802,125000803,125000804]},\"ActionGuid\":\"d4a4de0991f74fff849c80bd2c10713d\",\"ActionId\":3000005}],\"HideUi\":true}"
+    "Data": "{\"Type\":\"ChildQuest\",\"Id\":91,\"Desc\":\"\",\"Condition\":{\"Type\":\"PlayFlow\",\"Flow\":{\"FlowListName\":\"剧情_角色_忌炎线\",\"FlowId\":1,\"StateId\":1}},\"TidTip\":\"Quest_125000080_ChildQuestTip_0_20\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Entities\",\"EntityIds\":[]}},\"EnterActions\":[],\"FinishActions\":[{\"Name\":\"PromptQuestChapterUI\",\"Params\":{\"ChapterState\":0},\"ActionId\":3000024,\"ActionGuid\":\"ac2a43bdb7a74dbb88ebd062344de0d1\"},{\"Name\":\"AwakeEntity\",\"Params\":{\"EntityIds\":[125000802,125000803,125000804]},\"ActionGuid\":\"d4a4de0991f74fff849c80bd2c10713d\",\"ActionId\":3000005}],\"HideUi\":true}"
   },
   {
     "Key": "125000080_173",
@@ -4545,7 +4545,7 @@
   },
   {
     "Key": "125000080_205",
-    "Data": "{\"Type\":\"ChildQuest\",\"Id\":205,\"Desc\":\"\",\"Condition\":{\"Type\":\"ReachArea\",\"Pos\":{\"X\":-85330,\"Y\":72485,\"Z\":4115.35},\"Range\":400},\"TidTip\":\"Quest_125000080_ChildQuestTip_0_22\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Locations\",\"Locations\":[{\"X\":-85305,\"Y\":72105,\"Z\":4115.35,\"A\":-53.00019073486328}]},\"Range\":2000,\"EffectOption\":{\"Type\":\"AutoChange\",\"EnterRange\":75,\"LeaveRange\":150}},\"EnterActions\":[],\"FinishActions\":[]}"
+    "Data": "{\"Type\":\"ChildQuest\",\"Id\":205,\"Desc\":\"\",\"Condition\":{\"Type\":\"ReachArea\",\"Pos\":{\"X\":-85330,\"Y\":72485,\"Z\":4115.35},\"Range\":400},\"TidTip\":\"Quest_125000080_ChildQuestTip_0_22\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Locations\",\"Locations\":[{\"X\":-85305,\"Y\":72105,\"Z\":4115.35,\"A\":-53.00019073486328}]},\"Range\":2000,\"EffectOption\":{\"Type\":\"AutoChange\",\"EnterRange\":75,\"LeaveRange\":150}},\"EnterActions\":[{\"Name\":\"AwakeEntity\",\"Params\":{\"EntityIds\":[125000576]},\"ActionGuid\":\"4606a9eb9bd64854862560a469aa08d1\",\"ActionId\":3000007}],\"FinishActions\":[]}"
   },
   {
     "Key": "125000080_206",
@@ -5577,7 +5577,7 @@
   },
   {
     "Key": "136000001_40",
-    "Data": "{\"Type\":\"ChildQuest\",\"Id\":40,\"Desc\":\"\",\"Condition\":{\"Type\":\"HandInItems\",\"HandInItems\":{\"Items\":[{\"HandInType\":\"ItemIds\",\"ItemIds\":[70050025],\"Count\":1}],\"RepeatItems\":false,\"TidDescText\":\"Quest_136000001_HandInItemsDesc_0_4\"},\"AddOption\":{\"EntityId\":136002958,\"Option\":{\"TidContent\":\"Quest_136000001_InteractContent_0_30\",\"Guid\":\"8841e228a9264cf79182def29eccfe35\",\"Type\":{\"Type\":\"Actions\",\"Actions\":[]},\"DoIntactType\":\"Direct\"}},\"ItemVars\":[{\"Type\":\"ItemIds\",\"ItemId\":70050025,\"Var\":{\"Type\":\"Int\",\"Source\":\"Self\",\"Name\":\"\"}}]},\"TidTip\":\"Quest_136000001_ChildQuestTip_0_42\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Entities\",\"EntityIds\":[136002958]}},\"EnterActions\":[{\"Name\":\"AwakeEntity\",\"Params\":{\"EntityIds\":[136002958]},\"ActionGuid\":\"fc7c0a26df794199ad91ec8b07a9babc\",\"ActionId\":3000033}],\"FinishActions\":[{\"Name\":\"PlayFlow\",\"Params\":{\"FlowListName\":\"剧情_遗落原乡_剧场_二级POI任务\",\"FlowId\":4,\"StateId\":19},\"ActionGuid\":\"f43dcffce13c4bbe97d860846ab91cf1\",\"ActionId\":3000066},{\"Name\":\"FadeInScreen\",\"Params\":{\"Ease\":{\"Type\":2,\"Duration\":1},\"ScreenType\":\"Black\"},\"ActionGuid\":\"999deb4dda3e4d9eb24a999d344f8716\",\"ActionId\":3000047},{\"Name\":\"DestroyEntity\",\"Params\":{\"EntityIds\":[136002685]},\"ActionGuid\":\"18b30a9512dc44fb9a154dc8a31209ed\",\"ActionId\":3000034},{\"Name\":\"AwakeEntity\",\"Params\":{\"EntityIds\":[136002686]},\"ActionGuid\":\"6ea1cdee90be4092b76c0d1c0f7f682b\",\"ActionId\":3000043},{\"Name\":\"PlayFlow\",\"Params\":{\"FlowListName\":\"剧情_遗落原乡_剧场_二级POI任务\",\"FlowId\":4,\"StateId\":20},\"ActionGuid\":\"05635798b2c0462296516de4c2edeac6\",\"ActionId\":3000071},{\"Name\":\"PlayFlow\",\"Params\":{\"FlowListName\":\"剧情_遗落原乡_剧场_二级POI任务\",\"FlowId\":4,\"StateId\":21},\"ActionGuid\":\"49bb64bcb13d4d238dc3a7d71c5f2f68\",\"ActionId\":3000074},{\"Name\":\"DestroyEntity\",\"Params\":{\"EntityIds\":[136002685]},\"ActionGuid\":\"8d141d2fa1234a0790968ce1b759e13e\",\"ActionId\":3000055},{\"Name\":\"AwakeEntity\",\"Params\":{\"EntityIds\":[136002679]},\"ActionGuid\":\"c0f29b4ea41243e8b4c2670c7b00e693\",\"ActionId\":3000067}]}"
+    "Data": "{\"Type\":\"ChildQuest\",\"Id\":40,\"Desc\":\"\",\"Condition\":{\"Type\":\"HandInItems\",\"HandInItems\":{\"Items\":[{\"HandInType\":\"ItemIds\",\"ItemIds\":[70050025],\"Count\":1}],\"RepeatItems\":false,\"TidDescText\":\"Quest_136000001_HandInItemsDesc_0_4\"},\"AddOption\":{\"EntityId\":136002684,\"Option\":{\"TidContent\":\"Quest_136000001_InteractContent_0_30\",\"Guid\":\"8841e228a9264cf79182def29eccfe35\",\"Type\":{\"Type\":\"Actions\",\"Actions\":[]},\"DoIntactType\":\"Direct\"}},\"ItemVars\":[{\"Type\":\"ItemIds\",\"ItemId\":70050025,\"Var\":{\"Type\":\"Int\",\"Source\":\"Self\",\"Name\":\"\"}}]},\"TidTip\":\"Quest_136000001_ChildQuestTip_0_42\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Entities\",\"EntityIds\":[136002684]}},\"EnterActions\":[],\"FinishActions\":[{\"Name\":\"PlayFlow\",\"Params\":{\"FlowListName\":\"剧情_遗落原乡_剧场_二级POI任务\",\"FlowId\":4,\"StateId\":19},\"ActionGuid\":\"f43dcffce13c4bbe97d860846ab91cf1\",\"ActionId\":3000066},{\"Name\":\"FadeInScreen\",\"Params\":{\"Ease\":{\"Type\":2,\"Duration\":1},\"ScreenType\":\"Black\"},\"ActionGuid\":\"999deb4dda3e4d9eb24a999d344f8716\",\"ActionId\":3000047},{\"Name\":\"DestroyEntity\",\"Params\":{\"EntityIds\":[136002685]},\"ActionGuid\":\"18b30a9512dc44fb9a154dc8a31209ed\",\"ActionId\":3000034},{\"Name\":\"AwakeEntity\",\"Params\":{\"EntityIds\":[136002686]},\"ActionGuid\":\"6ea1cdee90be4092b76c0d1c0f7f682b\",\"ActionId\":3000043},{\"Name\":\"PlayFlow\",\"Params\":{\"FlowListName\":\"剧情_遗落原乡_剧场_二级POI任务\",\"FlowId\":4,\"StateId\":20},\"ActionGuid\":\"05635798b2c0462296516de4c2edeac6\",\"ActionId\":3000071},{\"Name\":\"PlayFlow\",\"Params\":{\"FlowListName\":\"剧情_遗落原乡_剧场_二级POI任务\",\"FlowId\":4,\"StateId\":21},\"ActionGuid\":\"49bb64bcb13d4d238dc3a7d71c5f2f68\",\"ActionId\":3000074},{\"Name\":\"DestroyEntity\",\"Params\":{\"EntityIds\":[136002685]},\"ActionGuid\":\"8d141d2fa1234a0790968ce1b759e13e\",\"ActionId\":3000055},{\"Name\":\"AwakeEntity\",\"Params\":{\"EntityIds\":[136002679]},\"ActionGuid\":\"c0f29b4ea41243e8b4c2670c7b00e693\",\"ActionId\":3000067}]}"
   },
   {
     "Key": "142000002_1",
@@ -5645,7 +5645,7 @@
   },
   {
     "Key": "102000000_195",
-    "Data": "{\"Type\":\"Sequence\",\"Id\":195,\"Desc\":\"战斗\",\"SaveConfig\":{\"DisableRollbackWhileReconnect\":false,\"PosRollbackCfg\":{\"RangeEntityId\":102800026,\"PositionEntityId\":102800089}}}"
+    "Data": "{\"Type\":\"Sequence\",\"Id\":195,\"Desc\":\"战斗\",\"SaveConfig\":{\"DisableRollbackWhileReconnect\":true,\"PosRollbackCfg\":{\"RangeEntityId\":102800026,\"PositionEntityId\":102800089}}}"
   },
   {
     "Key": "102000000_14",
@@ -5681,7 +5681,7 @@
   },
   {
     "Key": "102000000_196",
-    "Data": "{\"Type\":\"Sequence\",\"Id\":196,\"Desc\":\"大楼底部战斗\",\"SaveConfig\":{\"DisableRollbackWhileReconnect\":false,\"EnterActions\":[{\"Name\":\"ChangeEntityState\",\"Params\":{\"Type\":\"Directly\",\"EntityId\":102800081,\"State\":\"关卡.Common.状态.常态\"},\"ActionGuid\":\"c3569e461eea4e6daa682d11e38d860b\",\"ActionId\":3000123}],\"PosRollbackCfg\":{\"RangeEntityId\":102800026,\"PositionEntityId\":102800083}}}"
+    "Data": "{\"Type\":\"Sequence\",\"Id\":196,\"Desc\":\"大楼底部战斗\",\"SaveConfig\":{\"DisableRollbackWhileReconnect\":true,\"EnterActions\":[{\"Name\":\"ChangeEntityState\",\"Params\":{\"Type\":\"Directly\",\"EntityId\":102800081,\"State\":\"关卡.Common.状态.常态\"},\"ActionGuid\":\"c3569e461eea4e6daa682d11e38d860b\",\"ActionId\":3000123}],\"PosRollbackCfg\":{\"RangeEntityId\":102800026,\"PositionEntityId\":102800083}}}"
   },
   {
     "Key": "102000000_155",
@@ -8489,7 +8489,7 @@
   },
   {
     "Key": "135000005_62",
-    "Data": "{\"Type\":\"Sequence\",\"Id\":62,\"Desc\":\"最终决战\",\"SaveConfig\":{},\"DisableOnline\":true}"
+    "Data": "{\"Type\":\"Sequence\",\"Id\":62,\"Desc\":\"最终决战\",\"SaveConfig\":{\"EnterActions\":[{\"Name\":\"EnableLevelPlay\",\"Params\":{\"Configs\":[{\"LevelPlayId\":135000030,\"Enable\":false},{\"LevelPlayId\":135000031,\"Enable\":false}]},\"ActionGuid\":\"540a07c8a0dd4a2aa31eb2c75bb2f7b8\",\"ActionId\":3000149}]},\"DisableOnline\":true}"
   },
   {
     "Key": "136000000_36",
@@ -8665,7 +8665,7 @@
   },
   {
     "Key": "135000005_63",
-    "Data": "{\"Type\":\"Sequence\",\"Id\":63,\"Desc\":\"\",\"SaveConfig\":{},\"DisableOnline\":true}"
+    "Data": "{\"Type\":\"Sequence\",\"Id\":63,\"Desc\":\"\",\"SaveConfig\":{\"EnterActions\":[{\"Name\":\"EnableLevelPlay\",\"Params\":{\"Configs\":[{\"LevelPlayId\":135000026,\"Enable\":false}]},\"ActionGuid\":\"0d77c77b5c794899bce04aa15ea170fe\",\"ActionId\":3000148}]},\"DisableOnline\":true}"
   },
   {
     "Key": "134000004_102",
@@ -10085,7 +10085,7 @@
   },
   {
     "Key": "114000018_137",
-    "Data": "{\"Type\":\"ChildQuest\",\"Id\":137,\"Desc\":\"\",\"Condition\":{\"Type\":\"PlayFlow\",\"Flow\":{\"FlowListName\":\"剧情_剧情_角色_吟霖线新\",\"FlowId\":104,\"StateId\":1}},\"TidTip\":\"Quest_114000018_ChildQuestTip_0_86\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Locations\",\"Locations\":[]}},\"EnterActions\":[{\"Name\":\"AddPlayBubble\",\"Params\":{\"EntityIds\":[114800073,114000945],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_剧情_角色_吟霖线新\",\"FlowId\":107,\"StateId\":10}},\"ActionGuid\":\"d786eae2f7fa4e33bfdf73fc0c2ed5f7\",\"ActionId\":3000058}],\"FinishActions\":[],\"RewardId\":70702}"
+    "Data": "{\"Type\":\"ChildQuest\",\"Id\":137,\"Desc\":\"\",\"Condition\":{\"Type\":\"PlayFlow\",\"Flow\":{\"FlowListName\":\"剧情_剧情_角色_吟霖线新\",\"FlowId\":104,\"StateId\":1}},\"TidTip\":\"Quest_114000018_ChildQuestTip_0_86\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Locations\",\"Locations\":[]}},\"EnterActions\":[{\"Name\":\"AddPlayBubble\",\"Params\":{\"EntityIds\":[114800073,114000945],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_剧情_角色_吟霖线新\",\"FlowId\":107,\"StateId\":10}},\"ActionGuid\":\"d786eae2f7fa4e33bfdf73fc0c2ed5f7\",\"ActionId\":3000058}],\"FinishActions\":[]}"
   },
   {
     "Key": "136000001_63",
@@ -10749,7 +10749,7 @@
   },
   {
     "Key": "34000002_9",
-    "Data": "{\"Type\":\"QuestFailed\",\"Id\":9,\"Desc\":\"\",\"FailedCondition\":{\"IsTransferFailure\":true,\"IsTeamDeathFailure\":true,\"CanGiveUp\":true,\"RangeLimiting\":{\"Point\":{\"X\":72500,\"Y\":-49000,\"Z\":20},\"Range\":3000}},\"FinishActions\":[]}"
+    "Data": "{\"Type\":\"QuestFailed\",\"Id\":9,\"Desc\":\"\",\"FailedCondition\":{\"IsTransferFailure\":true,\"IsTeamDeathFailure\":true,\"CanGiveUp\":true},\"FinishActions\":[]}"
   },
   {
     "Key": "34000002_7",
@@ -13341,7 +13341,7 @@
   },
   {
     "Key": "880800000_4",
-    "Data": "{\"Type\":\"ChildQuest\",\"Id\":4,\"Desc\":\"与主NPC了解情况\",\"Condition\":{\"Type\":\"DoInteract\",\"AddOptions\":[{\"EntityId\":109002516,\"Option\":{\"TidContent\":\"Quest_880800000_InteractContent_0_2\",\"Guid\":\"6adcf9ef92b94f98b8b6f296ad8ffdbe\",\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_活动_V1.0收集活动\",\"FlowId\":2,\"StateId\":1}},\"DoIntactType\":\"Option\"}}]},\"TidTip\":\"Quest_880800000_ChildQuestTip_0_2\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Entities\",\"EntityIds\":[109002516]}}}"
+    "Data": "{\"Type\":\"ChildQuest\",\"Id\":4,\"Desc\":\"与主NPC了解情况\",\"Condition\":{\"Type\":\"DoInteract\",\"AddOptions\":[{\"EntityId\":109002516,\"Option\":{\"TidContent\":\"Quest_880800000_InteractContent_0_2\",\"Guid\":\"6adcf9ef92b94f98b8b6f296ad8ffdbe\",\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_活动_V1.0收集活动\",\"FlowId\":2,\"StateId\":1}},\"DoIntactType\":\"Option\"}}]},\"TidTip\":\"Quest_880800000_ChildQuestTip_0_2\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Entities\",\"EntityIds\":[109002516]}},\"RewardId\":44001}"
   },
   {
     "Key": "880800000_3",
@@ -13913,7 +13913,7 @@
   },
   {
     "Key": "102000000_268",
-    "Data": "{\"Type\":\"Sequence\",\"Id\":268,\"Desc\":\"\",\"SaveConfig\":{\"DisableRollbackWhileReconnect\":false,\"EnterActions\":[{\"Name\":\"AwakeEntity\",\"Params\":{\"EntityIds\":[102002480,102002476,102002478,102002477,102002481,102002479]},\"ActionGuid\":\"907300728cc94ba6b2eabce74dec79fb\",\"ActionId\":3000070},{\"Name\":\"Wait\",\"Params\":{\"Time\":1},\"ActionGuid\":\"91cccdc91ffe489db837ecfa31dc2163\",\"ActionId\":3000071},{\"Name\":\"AwakeEntity\",\"Params\":{\"EntityIds\":[102002470,102002469,102002467,102002471,102002472,102002474,102002482,102002468,102002475,102002483,102002484,875800003]},\"ActionGuid\":\"5d95ec2b3bdd415c951892820ab0aecd\",\"ActionId\":3000072},{\"Name\":\"FadeOutScreen\",\"Params\":{\"Ease\":{\"Type\":2,\"Duration\":1}},\"ActionGuid\":\"0189f355d4f149ed87d954bc3793303f\",\"ActionId\":3000004}],\"PosRollbackCfg\":{\"RangeEntityId\":102800026,\"PositionEntityId\":102800060}}}"
+    "Data": "{\"Type\":\"Sequence\",\"Id\":268,\"Desc\":\"\",\"SaveConfig\":{\"DisableRollbackWhileReconnect\":true,\"EnterActions\":[{\"Name\":\"AwakeEntity\",\"Params\":{\"EntityIds\":[102002480,102002476,102002478,102002477,102002481,102002479]},\"ActionGuid\":\"907300728cc94ba6b2eabce74dec79fb\",\"ActionId\":3000070},{\"Name\":\"Wait\",\"Params\":{\"Time\":1},\"ActionGuid\":\"91cccdc91ffe489db837ecfa31dc2163\",\"ActionId\":3000071},{\"Name\":\"AwakeEntity\",\"Params\":{\"EntityIds\":[102002470,102002469,102002467,102002471,102002472,102002474,102002482,102002468,102002475,102002483,102002484,875800003]},\"ActionGuid\":\"5d95ec2b3bdd415c951892820ab0aecd\",\"ActionId\":3000072},{\"Name\":\"FadeOutScreen\",\"Params\":{\"Ease\":{\"Type\":2,\"Duration\":1}},\"ActionGuid\":\"0189f355d4f149ed87d954bc3793303f\",\"ActionId\":3000004}],\"PosRollbackCfg\":{\"RangeEntityId\":102800026,\"PositionEntityId\":102800060}}}"
   },
   {
     "Key": "102000000_269",
@@ -13941,7 +13941,7 @@
   },
   {
     "Key": "102000000_275",
-    "Data": "{\"Type\":\"Sequence\",\"Id\":275,\"Desc\":\"\",\"SaveConfig\":{\"DisableRollbackWhileReconnect\":false,\"EnterActions\":[],\"PosRollbackCfg\":{\"RangeEntityId\":102800026,\"PositionEntityId\":102800090}}}"
+    "Data": "{\"Type\":\"Sequence\",\"Id\":275,\"Desc\":\"\",\"SaveConfig\":{\"DisableRollbackWhileReconnect\":true,\"EnterActions\":[],\"PosRollbackCfg\":{\"RangeEntityId\":102800026,\"PositionEntityId\":102800090}}}"
   },
   {
     "Key": "102000000_276",
@@ -16177,11 +16177,11 @@
   },
   {
     "Key": "29800011_7",
-    "Data": "{\"Type\":\"ParallelSelect\",\"Id\":7,\"Desc\":\"\",\"Count\":1}"
+    "Data": "{\"Type\":\"ParallelSelect\",\"Id\":7,\"Desc\":\"\",\"Count\":1,\"SaveConfig\":{}}"
   },
   {
     "Key": "29800011_9",
-    "Data": "{\"Type\":\"Sequence\",\"Id\":9,\"Desc\":\"\",\"SaveConfig\":{}}"
+    "Data": "{\"Type\":\"Sequence\",\"Id\":9,\"Desc\":\"\"}"
   },
   {
     "Key": "29800011_8",
@@ -16265,7 +16265,7 @@
   },
   {
     "Key": "102000000_326",
-    "Data": "{\"Type\":\"Sequence\",\"Id\":326,\"Desc\":\"大楼底部战斗\",\"SaveConfig\":{\"DisableRollbackWhileReconnect\":false,\"EnterActions\":[{\"Name\":\"ChangeEntityState\",\"Params\":{\"Type\":\"Directly\",\"EntityId\":102800081,\"State\":\"关卡.Common.状态.常态\"},\"ActionGuid\":\"348034c766814b54af1455d00b558c27\",\"ActionId\":3000124}],\"PosRollbackCfg\":{\"RangeEntityId\":102800026,\"PositionEntityId\":102800083}}}"
+    "Data": "{\"Type\":\"Sequence\",\"Id\":326,\"Desc\":\"大楼底部战斗\",\"SaveConfig\":{\"DisableRollbackWhileReconnect\":true,\"EnterActions\":[{\"Name\":\"ChangeEntityState\",\"Params\":{\"Type\":\"Directly\",\"EntityId\":102800081,\"State\":\"关卡.Common.状态.常态\"},\"ActionGuid\":\"348034c766814b54af1455d00b558c27\",\"ActionId\":3000124}],\"PosRollbackCfg\":{\"RangeEntityId\":102800026,\"PositionEntityId\":102800083}}}"
   },
   {
     "Key": "102000000_328",
@@ -16305,7 +16305,7 @@
   },
   {
     "Key": "102000000_339",
-    "Data": "{\"Type\":\"Sequence\",\"Id\":339,\"Desc\":\"\",\"SaveConfig\":{\"DisableRollbackWhileReconnect\":false,\"PosRollbackCfg\":{\"RangeEntityId\":102800026,\"PositionEntityId\":102800090}}}"
+    "Data": "{\"Type\":\"Sequence\",\"Id\":339,\"Desc\":\"\",\"SaveConfig\":{\"DisableRollbackWhileReconnect\":true,\"PosRollbackCfg\":{\"RangeEntityId\":102800026,\"PositionEntityId\":102800090}}}"
   },
   {
     "Key": "102000000_340",
