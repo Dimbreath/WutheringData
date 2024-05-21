@@ -1,0 +1,333 @@
+[
+  {
+    "Id": 100,
+    "Type": 0,
+    "Sort": 40,
+    "TimeIsDisplay": 0,
+    "ShowTabTime": true,
+    "PreConditionGroupId": 13000010,
+    "PreShowGuideQuest": [
+      139000003
+    ],
+    "TabResource": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconActivityAll.SP_IconActivityAll",
+    "TabSprite": [
+      "/Game/Aki/UI/UIResources/UiActivity/Atlas/ActivityTabIcon/SP_AtcivityTab_16.SP_AtcivityTab_16"
+    ],
+    "Name": "Activity_100_Title",
+    "Title": "Activity_100_Title",
+    "DescTheme": "",
+    "Desc": "Activity_100_Desc",
+    "BgResource": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ActivityParkourBg1.T_ActivityParkourBg1",
+    "PreviewDrop": 5020201,
+    "HelpId": 46
+  },
+  {
+    "Id": 100100001,
+    "Type": 2,
+    "Sort": 10,
+    "TimeIsDisplay": 0,
+    "ShowTabTime": false,
+    "PreConditionGroupId": 12980023,
+    "PreShowGuideQuest": null,
+    "TabResource": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconActivityAll.SP_IconActivityAll",
+    "TabSprite": [
+      "/Game/Aki/UI/UIResources/UiActivity/Atlas/ActivityTabIcon/SP_AtcivityTab_07.SP_AtcivityTab_07"
+    ],
+    "Name": "Mail_Activity_100100001_Title",
+    "Title": "Activity_100100001_Title",
+    "DescTheme": "",
+    "Desc": "Activity_100100001_Desc",
+    "BgResource": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_BgBig1.T_BgBig1",
+    "PreviewDrop": 0,
+    "HelpId": 50
+  },
+  {
+    "Id": 100300001,
+    "Type": 3,
+    "Sort": 20,
+    "TimeIsDisplay": 0,
+    "ShowTabTime": false,
+    "PreConditionGroupId": 13000016,
+    "PreShowGuideQuest": [
+      310000041
+    ],
+    "TabResource": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconActivityAll.SP_IconActivityAll",
+    "TabSprite": [
+      "/Game/Aki/UI/UIResources/UiActivity/Atlas/ActivityTabIcon/SP_AtcivityTab_04.SP_AtcivityTab_04"
+    ],
+    "Name": "Activity_100300001_Title",
+    "Title": "Activity_100300001_Title",
+    "DescTheme": "",
+    "Desc": "Activity_100300001_Desc",
+    "BgResource": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ActivityTowerGuideBg.T_ActivityTowerGuideBg",
+    "PreviewDrop": 5020302,
+    "HelpId": 54
+  },
+  {
+    "Id": 100400001,
+    "Type": 4,
+    "Sort": 55,
+    "TimeIsDisplay": 0,
+    "ShowTabTime": false,
+    "PreConditionGroupId": 12980023,
+    "PreShowGuideQuest": null,
+    "TabResource": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconActivityAll.SP_IconActivityAll",
+    "TabSprite": [
+      "/Game/Aki/UI/UIResources/UiActivity/Atlas/ActivityTabIcon/SP_AtcivityTab_10.SP_AtcivityTab_10"
+    ],
+    "Name": "Activity_100400001_Title",
+    "Title": "Activity_100400001_Title",
+    "DescTheme": "",
+    "Desc": "",
+    "BgResource": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ActivityRoleLevelBg.T_ActivityRoleLevelBg",
+    "PreviewDrop": 0,
+    "HelpId": 52
+  },
+  {
+    "Id": 100500001,
+    "Type": 5,
+    "Sort": 60,
+    "TimeIsDisplay": 0,
+    "ShowTabTime": false,
+    "PreConditionGroupId": 12980023,
+    "PreShowGuideQuest": null,
+    "TabResource": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconActivityAll.SP_IconActivityAll",
+    "TabSprite": [
+      "/Game/Aki/UI/UIResources/UiActivity/Atlas/ActivityTabIcon/SP_AtcivityTab_06.SP_AtcivityTab_06",
+      "/Game/Aki/UI/UIResources/UiActivity/Atlas/ActivityTabIcon/SP_AtcivityTab_05.SP_AtcivityTab_05"
+    ],
+    "Name": "Activity_100500001_Title",
+    "Title": "Activity_100500001_Title",
+    "DescTheme": "",
+    "Desc": "",
+    "BgResource": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ActivityComBg.T_ActivityComBg",
+    "PreviewDrop": 0,
+    "HelpId": 53
+  },
+  {
+    "Id": 101,
+    "Type": 1,
+    "Sort": 35,
+    "TimeIsDisplay": 0,
+    "ShowTabTime": true,
+    "PreConditionGroupId": 13000010,
+    "PreShowGuideQuest": [
+      880800000
+    ],
+    "TabResource": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconActivityAll.SP_IconActivityAll",
+    "TabSprite": [
+      "/Game/Aki/UI/UIResources/UiActivity/Atlas/ActivityTabIcon/SP_AtcivityTab_09.SP_AtcivityTab_09"
+    ],
+    "Name": "Activity_101_Title",
+    "Title": "Activity_101_Title",
+    "DescTheme": "",
+    "Desc": "Activity_101_Desc",
+    "BgResource": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ActivityComBg.T_ActivityComBg",
+    "PreviewDrop": 5031010,
+    "HelpId": 57
+  },
+  {
+    "Id": 100600001,
+    "Type": 6,
+    "Sort": 15,
+    "TimeIsDisplay": 0,
+    "ShowTabTime": true,
+    "PreConditionGroupId": 13000029,
+    "PreShowGuideQuest": [
+      310000043
+    ],
+    "TabResource": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconActivityAll.SP_IconActivityAll",
+    "TabSprite": [
+      "/Game/Aki/UI/UIResources/UiActivity/Atlas/ActivityTabIcon/SP_AtcivityTab_08.SP_AtcivityTab_08"
+    ],
+    "Name": "Activity_120000001_Title",
+    "Title": "Activity_120000001_Title",
+    "DescTheme": "",
+    "Desc": "Activity_120000001_Desc",
+    "BgResource": "/Game/Aki/UI/UIResources/Common/Image/BgCg/T_ActivityBg2_UI.T_ActivityBg2_UI",
+    "PreviewDrop": 5010111,
+    "HelpId": 51
+  },
+  {
+    "Id": 100700001,
+    "Type": 7,
+    "Sort": 45,
+    "TimeIsDisplay": 0,
+    "ShowTabTime": true,
+    "PreConditionGroupId": 13000022,
+    "PreShowGuideQuest": null,
+    "TabResource": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconActivityAll.SP_IconActivityAll",
+    "TabSprite": [
+      "/Game/Aki/UI/UIResources/UiActivity/Atlas/ActivityTabIcon/SP_AtcivityTab_13.SP_AtcivityTab_13"
+    ],
+    "Name": "Activity_100700001_Title",
+    "Title": "Activity_100700001_Title",
+    "DescTheme": "",
+    "Desc": "Activity_100700001_Desc",
+    "BgResource": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ActivityDoubleBg1.T_ActivityDoubleBg1",
+    "PreviewDrop": 0,
+    "HelpId": 56
+  },
+  {
+    "Id": 100800001,
+    "Type": 9,
+    "Sort": 30,
+    "TimeIsDisplay": 0,
+    "ShowTabTime": true,
+    "PreConditionGroupId": 13000024,
+    "PreShowGuideQuest": [
+      11800001
+    ],
+    "TabResource": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconActivityAll.SP_IconActivityAll",
+    "TabSprite": [
+      "/Game/Aki/UI/UIResources/UiActivity/Atlas/ActivityTabIcon/SP_AtcivityTab_17.SP_AtcivityTab_17"
+    ],
+    "Name": "Activity_100800001_Title",
+    "Title": "Activity_100800001_Title",
+    "DescTheme": "",
+    "Desc": "Activity_100800001_Desc",
+    "BgResource": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_BgBig2.T_BgBig2",
+    "PreviewDrop": 5033020,
+    "HelpId": 60
+  },
+  {
+    "Id": 100900001,
+    "Type": 8,
+    "Sort": 25,
+    "TimeIsDisplay": 0,
+    "ShowTabTime": true,
+    "PreConditionGroupId": 12980024,
+    "PreShowGuideQuest": null,
+    "TabResource": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconActivityAll.SP_IconActivityAll",
+    "TabSprite": [
+      "/Game/Aki/UI/UIResources/UiActivity/Atlas/ActivityTabIcon/SP_AtcivityTab_02.SP_AtcivityTab_02"
+    ],
+    "Name": "Activity_100900001_Title",
+    "Title": "Activity_100900001_Title",
+    "DescTheme": "",
+    "Desc": "",
+    "BgResource": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ActivityRoleOntrialBg.T_ActivityRoleOntrialBg",
+    "PreviewDrop": 0,
+    "HelpId": 58
+  },
+  {
+    "Id": 100900002,
+    "Type": 8,
+    "Sort": 25,
+    "TimeIsDisplay": 0,
+    "ShowTabTime": true,
+    "PreConditionGroupId": 12980024,
+    "PreShowGuideQuest": null,
+    "TabResource": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconActivityAll.SP_IconActivityAll",
+    "TabSprite": [
+      "/Game/Aki/UI/UIResources/UiActivity/Atlas/ActivityTabIcon/SP_AtcivityTab_03.SP_AtcivityTab_03"
+    ],
+    "Name": "Activity_100900001_Title",
+    "Title": "Activity_100900001_Title",
+    "DescTheme": "",
+    "Desc": "",
+    "BgResource": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ActivityRoleOntrialBg.T_ActivityRoleOntrialBg",
+    "PreviewDrop": 0,
+    "HelpId": 58
+  },
+  {
+    "Id": 101000001,
+    "Type": 10,
+    "Sort": 28,
+    "TimeIsDisplay": 0,
+    "ShowTabTime": true,
+    "PreConditionGroupId": 13000025,
+    "PreShowGuideQuest": null,
+    "TabResource": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconActivityAll.SP_IconActivityAll",
+    "TabSprite": [
+      "/Game/Aki/UI/UIResources/UiActivity/Atlas/ActivityTabIcon/SP_AtcivityTab_01.SP_AtcivityTab_01"
+    ],
+    "Name": "Activity_101000001_Title",
+    "Title": "Activity_101000001_Title",
+    "DescTheme": "",
+    "Desc": "Activity_101000001_Desc",
+    "BgResource": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ActivityComBg.T_ActivityComBg",
+    "PreviewDrop": 70505,
+    "HelpId": 69
+  },
+  {
+    "Id": 101000002,
+    "Type": 10,
+    "Sort": 28,
+    "TimeIsDisplay": 0,
+    "ShowTabTime": true,
+    "PreConditionGroupId": 13000026,
+    "PreShowGuideQuest": null,
+    "TabResource": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconActivityAll.SP_IconActivityAll",
+    "TabSprite": [
+      "/Game/Aki/UI/UIResources/UiActivity/Atlas/ActivityTabIcon/SP_AtcivityTab_12.SP_AtcivityTab_12"
+    ],
+    "Name": "Activity_101000002_Title",
+    "Title": "Activity_101000002_Title",
+    "DescTheme": "",
+    "Desc": "Activity_101000002_Desc",
+    "BgResource": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ActivityComBg.T_ActivityComBg",
+    "PreviewDrop": 70710,
+    "HelpId": 69
+  },
+  {
+    "Id": 101100001,
+    "Type": 11,
+    "Sort": 12,
+    "TimeIsDisplay": 1,
+    "ShowTabTime": false,
+    "PreConditionGroupId": 13000018,
+    "PreShowGuideQuest": null,
+    "TabResource": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconActivityAll.SP_IconActivityAll",
+    "TabSprite": [
+      "/Game/Aki/UI/UIResources/UiActivity/Atlas/ActivityTabIcon/SP_AtcivityTab_11.SP_AtcivityTab_11"
+    ],
+    "Name": "Activity_101100001_Title",
+    "Title": "Activity_101100001_Title",
+    "DescTheme": "",
+    "Desc": "",
+    "BgResource": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ActivityVisionCollect.T_ActivityVisionCollect",
+    "PreviewDrop": 0,
+    "HelpId": 67
+  },
+  {
+    "Id": 101200001,
+    "Type": 12,
+    "Sort": 12,
+    "TimeIsDisplay": 0,
+    "ShowTabTime": true,
+    "PreConditionGroupId": 13000023,
+    "PreShowGuideQuest": null,
+    "TabResource": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconActivityAll.SP_IconActivityAll",
+    "TabSprite": [
+      "/Game/Aki/UI/UIResources/UiActivity/Atlas/ActivityTabIcon/SP_AtcivityTab_18.SP_AtcivityTab_18"
+    ],
+    "Name": "Activity_101200001_Title",
+    "Title": "Activity_101200001_Title",
+    "DescTheme": "",
+    "Desc": "",
+    "BgResource": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ActivityAdventureBg.T_ActivityAdventureBg",
+    "PreviewDrop": 0,
+    "HelpId": 71
+  },
+  {
+    "Id": 100700002,
+    "Type": 7,
+    "Sort": 45,
+    "TimeIsDisplay": 0,
+    "ShowTabTime": true,
+    "PreConditionGroupId": 13000031,
+    "PreShowGuideQuest": null,
+    "TabResource": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconActivityAll.SP_IconActivityAll",
+    "TabSprite": [
+      "/Game/Aki/UI/UIResources/UiActivity/Atlas/ActivityTabIcon/SP_AtcivityTab_14.SP_AtcivityTab_14"
+    ],
+    "Name": "Activity_100700003_Title",
+    "Title": "Activity_100700003_Title",
+    "DescTheme": "",
+    "Desc": "Activity_100700003_Desc",
+    "BgResource": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ActivityDoubleBg3.T_ActivityDoubleBg3",
+    "PreviewDrop": 0,
+    "HelpId": 66
+  }
+]

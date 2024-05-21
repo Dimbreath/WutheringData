@@ -1,0 +1,199 @@
+[
+  {
+    "Id": 1,
+    "InitValue": 14000,
+    "InitRecoveryRate": 2400,
+    "InitMax": 14000,
+    "MarkTag": [
+      "功能.功能制作.禁止体力恢复"
+    ],
+    "ResistTag": null,
+    "TriggerRange1": {
+      "Min": 0.0,
+      "Max": 0.0
+    },
+    "TriggerType1": 0,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": null,
+    "TriggerRange2": {
+      "Min": 9999.0,
+      "Max": 10000.0
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": null,
+    "TriggerRange3": {
+      "Min": 9999.0,
+      "Max": 10000.0
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": null
+  },
+  {
+    "Id": 2,
+    "InitValue": 0,
+    "InitRecoveryRate": -5000,
+    "InitMax": 10000,
+    "MarkTag": [
+      "功能.逻辑状态标识.剧情中"
+    ],
+    "ResistTag": null,
+    "TriggerRange1": {
+      "Min": 9999.0,
+      "Max": 10000.0
+    },
+    "TriggerType1": 0,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": [
+      640006011
+    ],
+    "TriggerRange2": {
+      "Min": 9999.0,
+      "Max": 10000.0
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": null,
+    "TriggerRange3": {
+      "Min": 9999.0,
+      "Max": 10000.0
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": null
+  },
+  {
+    "Id": 3,
+    "InitValue": 0,
+    "InitRecoveryRate": -1000,
+    "InitMax": 10000,
+    "MarkTag": [
+      "功能.逻辑状态标识.无敌",
+      "角色.Common.技能通用标识.极限闪避",
+      "角色.Common.技能通用标识.大招",
+      "行为状态.位置状态.水中",
+      "角色.BaseRole.技能通用标识.幻象变身中",
+      "Damage.Frozen"
+    ],
+    "ResistTag": null,
+    "TriggerRange1": {
+      "Min": 9999.0,
+      "Max": 10000.0
+    },
+    "TriggerType1": 1,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": [
+      80011012,
+      80011013
+    ],
+    "TriggerRange2": {
+      "Min": 9999.0,
+      "Max": 10000.0
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": null,
+    "TriggerRange3": {
+      "Min": 9999.0,
+      "Max": 10000.0
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": null
+  },
+  {
+    "Id": 4,
+    "InitValue": 0,
+    "InitRecoveryRate": 0,
+    "InitMax": 10000,
+    "MarkTag": null,
+    "ResistTag": null,
+    "TriggerRange1": {
+      "Min": 9999.0,
+      "Max": 10000.0
+    },
+    "TriggerType1": 1,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": [
+      800100003090
+    ],
+    "TriggerRange2": {
+      "Min": 9999.0,
+      "Max": 10000.0
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": null,
+    "TriggerRange3": {
+      "Min": 9999.0,
+      "Max": 10000.0
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": null
+  },
+  {
+    "Id": 5,
+    "InitValue": 0,
+    "InitRecoveryRate": -100,
+    "InitMax": 2000,
+    "MarkTag": null,
+    "ResistTag": null,
+    "TriggerRange1": {
+      "Min": 0.0,
+      "Max": 0.0
+    },
+    "TriggerType1": 0,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": null,
+    "TriggerRange2": {
+      "Min": 9999.0,
+      "Max": 10000.0
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": null,
+    "TriggerRange3": {
+      "Min": 9999.0,
+      "Max": 10000.0
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": null
+  },
+  {
+    "Id": 6,
+    "InitValue": 0,
+    "InitRecoveryRate": -5000,
+    "InitMax": 10000,
+    "MarkTag": [
+      "功能.逻辑状态标识.剧情中",
+      "关卡.孢子.孢子计量停止"
+    ],
+    "ResistTag": null,
+    "TriggerRange1": {
+      "Min": 9999.0,
+      "Max": 10000.0
+    },
+    "TriggerType1": 1,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": [
+      631060002
+    ],
+    "TriggerRange2": {
+      "Min": 9999.0,
+      "Max": 10000.0
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": null,
+    "TriggerRange3": {
+      "Min": 9999.0,
+      "Max": 10000.0
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": null
+  }
+]

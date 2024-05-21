@@ -1,0 +1,536 @@
+[
+  {
+    "Id": "FemaleS",
+    "ClimbDetectPoints": [
+      {
+        "X": 0.0,
+        "Y": -20.0,
+        "Z": 45.0
+      },
+      {
+        "X": 0.0,
+        "Y": 20.0,
+        "Z": 45.0
+      },
+      {
+        "X": 0.0,
+        "Y": -20.0,
+        "Z": -20.0
+      },
+      {
+        "X": 0.0,
+        "Y": 20.0,
+        "Z": -20.0
+      }
+    ],
+    "DetectRadius": 20.0,
+    "ClimbRadius": 34.0,
+    "ClimbFromTop": {
+      "X": -40.0,
+      "Y": 0.0,
+      "Z": -114.0
+    },
+    "ClimbVault": {
+      "X": 41.0,
+      "Y": 0.0,
+      "Z": 57.0
+    },
+    "ClimbOnTop": {
+      "X": 41.0,
+      "Y": 0.0,
+      "Z": 121.0
+    },
+    "VaultRange": {
+      "Min": -30.0,
+      "Max": 45.0
+    },
+    "UpArriveRange": {
+      "Min": -50.0,
+      "Max": 10.0
+    },
+    "ClimbSprintVault": {
+      "X": 98.0,
+      "Y": 0.0,
+      "Z": 72.5
+    },
+    "SprintVaultRange": {
+      "Min": -40.0,
+      "Max": 25.0
+    },
+    "ForwardBlockHeight": 55.0,
+    "ForwardBlockRadius": 20.0,
+    "ForwardBlockDistance": {
+      "Min": 10.0,
+      "Max": 80.0
+    },
+    "SprintVaultLongNeedDistance": 45.0,
+    "SprintVaultLongHeight": 20.0,
+    "SprintVaultLongRange": {
+      "Min": 20.0,
+      "Max": 200.0
+    },
+    "BlockUpOffset": {
+      "X": -35.0,
+      "Y": 0.0,
+      "Z": 148.0
+    },
+    "BlockUpDetectRadius": 20.0,
+    "BlockUpDetectDistance": 150.0,
+    "BlockUpBackDistance": 180.0,
+    "BlockUpBackMinDist": 34.0,
+    "BlockUpFinalMove": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 300.0
+    },
+    "BlockUpVerticalRange": {
+      "Min": 0.0,
+      "Max": 209.0
+    }
+  },
+  {
+    "Id": "FemaleM",
+    "ClimbDetectPoints": [
+      {
+        "X": 0.0,
+        "Y": -20.0,
+        "Z": 45.0
+      },
+      {
+        "X": 0.0,
+        "Y": 20.0,
+        "Z": 45.0
+      },
+      {
+        "X": 0.0,
+        "Y": -20.0,
+        "Z": -20.0
+      },
+      {
+        "X": 0.0,
+        "Y": 20.0,
+        "Z": -20.0
+      }
+    ],
+    "DetectRadius": 20.0,
+    "ClimbRadius": 35.599998474121094,
+    "ClimbFromTop": {
+      "X": -40.0,
+      "Y": 0.0,
+      "Z": -154.0
+    },
+    "ClimbVault": {
+      "X": 46.0,
+      "Y": 0.0,
+      "Z": 72.0
+    },
+    "ClimbOnTop": {
+      "X": 46.0,
+      "Y": 0.0,
+      "Z": 154.0
+    },
+    "VaultRange": {
+      "Min": -30.0,
+      "Max": 45.0
+    },
+    "UpArriveRange": {
+      "Min": -50.0,
+      "Max": 10.0
+    },
+    "ClimbSprintVault": {
+      "X": 116.0,
+      "Y": 0.0,
+      "Z": 92.5
+    },
+    "SprintVaultRange": {
+      "Min": -50.0,
+      "Max": 28.0
+    },
+    "ForwardBlockHeight": 60.0,
+    "ForwardBlockRadius": 25.0,
+    "ForwardBlockDistance": {
+      "Min": 10.0,
+      "Max": 90.0
+    },
+    "SprintVaultLongNeedDistance": 50.0,
+    "SprintVaultLongHeight": 30.0,
+    "SprintVaultLongRange": {
+      "Min": 50.0,
+      "Max": 200.0
+    },
+    "BlockUpOffset": {
+      "X": -37.0,
+      "Y": 0.0,
+      "Z": 161.0
+    },
+    "BlockUpDetectRadius": 20.0,
+    "BlockUpDetectDistance": 150.0,
+    "BlockUpBackDistance": 180.0,
+    "BlockUpBackMinDist": 32.0,
+    "BlockUpFinalMove": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 300.0
+    },
+    "BlockUpVerticalRange": {
+      "Min": 0.0,
+      "Max": 237.0
+    }
+  },
+  {
+    "Id": "FemaleXL",
+    "ClimbDetectPoints": [
+      {
+        "X": 0.0,
+        "Y": -20.0,
+        "Z": 45.0
+      },
+      {
+        "X": 0.0,
+        "Y": 20.0,
+        "Z": 45.0
+      },
+      {
+        "X": 0.0,
+        "Y": -20.0,
+        "Z": -20.0
+      },
+      {
+        "X": 0.0,
+        "Y": 20.0,
+        "Z": -20.0
+      }
+    ],
+    "DetectRadius": 20.0,
+    "ClimbRadius": 35.599998474121094,
+    "ClimbFromTop": {
+      "X": -40.0,
+      "Y": 0.0,
+      "Z": -171.0
+    },
+    "ClimbVault": {
+      "X": 44.0,
+      "Y": 0.0,
+      "Z": 76.0
+    },
+    "ClimbOnTop": {
+      "X": 49.0,
+      "Y": 0.0,
+      "Z": 160.0
+    },
+    "VaultRange": {
+      "Min": -30.0,
+      "Max": 45.0
+    },
+    "UpArriveRange": {
+      "Min": -50.0,
+      "Max": 10.0
+    },
+    "ClimbSprintVault": {
+      "X": 122.0,
+      "Y": 0.0,
+      "Z": 96.0999984741211
+    },
+    "SprintVaultRange": {
+      "Min": -50.0,
+      "Max": 35.0
+    },
+    "ForwardBlockHeight": 80.0,
+    "ForwardBlockRadius": 30.0,
+    "ForwardBlockDistance": {
+      "Min": 10.0,
+      "Max": 90.0
+    },
+    "SprintVaultLongNeedDistance": 55.0,
+    "SprintVaultLongHeight": 40.0,
+    "SprintVaultLongRange": {
+      "Min": 60.0,
+      "Max": 200.0
+    },
+    "BlockUpOffset": {
+      "X": -39.0,
+      "Y": 0.0,
+      "Z": 160.0
+    },
+    "BlockUpDetectRadius": 20.0,
+    "BlockUpDetectDistance": 150.0,
+    "BlockUpBackDistance": 180.0,
+    "BlockUpBackMinDist": 32.0,
+    "BlockUpFinalMove": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 300.0
+    },
+    "BlockUpVerticalRange": {
+      "Min": 0.0,
+      "Max": 240.0
+    }
+  },
+  {
+    "Id": "MaleM",
+    "ClimbDetectPoints": [
+      {
+        "X": 0.0,
+        "Y": -20.0,
+        "Z": 45.0
+      },
+      {
+        "X": 0.0,
+        "Y": 20.0,
+        "Z": 45.0
+      },
+      {
+        "X": 0.0,
+        "Y": -20.0,
+        "Z": -20.0
+      },
+      {
+        "X": 0.0,
+        "Y": 20.0,
+        "Z": -20.0
+      }
+    ],
+    "DetectRadius": 20.0,
+    "ClimbRadius": 35.599998474121094,
+    "ClimbFromTop": {
+      "X": -46.0,
+      "Y": 0.0,
+      "Z": -157.0
+    },
+    "ClimbVault": {
+      "X": 45.0,
+      "Y": 0.0,
+      "Z": 72.0
+    },
+    "ClimbOnTop": {
+      "X": 45.0,
+      "Y": 0.0,
+      "Z": 157.0
+    },
+    "VaultRange": {
+      "Min": -30.0,
+      "Max": 45.0
+    },
+    "UpArriveRange": {
+      "Min": -50.0,
+      "Max": 10.0
+    },
+    "ClimbSprintVault": {
+      "X": 114.0,
+      "Y": 0.0,
+      "Z": 92.5
+    },
+    "SprintVaultRange": {
+      "Min": -50.0,
+      "Max": 28.0
+    },
+    "ForwardBlockHeight": 60.0,
+    "ForwardBlockRadius": 25.0,
+    "ForwardBlockDistance": {
+      "Min": 10.0,
+      "Max": 90.0
+    },
+    "SprintVaultLongNeedDistance": 50.0,
+    "SprintVaultLongHeight": 30.0,
+    "SprintVaultLongRange": {
+      "Min": 50.0,
+      "Max": 200.0
+    },
+    "BlockUpOffset": {
+      "X": -37.0,
+      "Y": 0.0,
+      "Z": 160.0
+    },
+    "BlockUpDetectRadius": 20.0,
+    "BlockUpDetectDistance": 150.0,
+    "BlockUpBackDistance": 180.0,
+    "BlockUpBackMinDist": 32.0,
+    "BlockUpFinalMove": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 300.0
+    },
+    "BlockUpVerticalRange": {
+      "Min": 0.0,
+      "Max": 239.0
+    }
+  },
+  {
+    "Id": "MaleXL",
+    "ClimbDetectPoints": [
+      {
+        "X": 0.0,
+        "Y": -20.0,
+        "Z": 45.0
+      },
+      {
+        "X": 0.0,
+        "Y": 20.0,
+        "Z": 45.0
+      },
+      {
+        "X": 0.0,
+        "Y": -20.0,
+        "Z": -20.0
+      },
+      {
+        "X": 0.0,
+        "Y": 20.0,
+        "Z": -20.0
+      }
+    ],
+    "DetectRadius": 20.0,
+    "ClimbRadius": 35.599998474121094,
+    "ClimbFromTop": {
+      "X": -53.0,
+      "Y": 0.0,
+      "Z": -154.0
+    },
+    "ClimbVault": {
+      "X": 51.0,
+      "Y": 0.0,
+      "Z": 78.0
+    },
+    "ClimbOnTop": {
+      "X": 48.0,
+      "Y": 0.0,
+      "Z": 170.0
+    },
+    "VaultRange": {
+      "Min": -30.0,
+      "Max": 45.0
+    },
+    "UpArriveRange": {
+      "Min": -50.0,
+      "Max": 10.0
+    },
+    "ClimbSprintVault": {
+      "X": 128.0,
+      "Y": 0.0,
+      "Z": 102.0
+    },
+    "SprintVaultRange": {
+      "Min": -50.0,
+      "Max": 38.0
+    },
+    "ForwardBlockHeight": 80.0,
+    "ForwardBlockRadius": 30.0,
+    "ForwardBlockDistance": {
+      "Min": 10.0,
+      "Max": 90.0
+    },
+    "SprintVaultLongNeedDistance": 45.0,
+    "SprintVaultLongHeight": 50.0,
+    "SprintVaultLongRange": {
+      "Min": 50.0,
+      "Max": 200.0
+    },
+    "BlockUpOffset": {
+      "X": -36.0,
+      "Y": 0.0,
+      "Z": 160.0
+    },
+    "BlockUpDetectRadius": 20.0,
+    "BlockUpDetectDistance": 150.0,
+    "BlockUpBackDistance": 180.0,
+    "BlockUpBackMinDist": 32.0,
+    "BlockUpFinalMove": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 300.0
+    },
+    "BlockUpVerticalRange": {
+      "Min": 0.0,
+      "Max": 245.0
+    }
+  },
+  {
+    "Id": "MaleS",
+    "ClimbDetectPoints": [
+      {
+        "X": 0.0,
+        "Y": -20.0,
+        "Z": 45.0
+      },
+      {
+        "X": 0.0,
+        "Y": 20.0,
+        "Z": 45.0
+      },
+      {
+        "X": 0.0,
+        "Y": -20.0,
+        "Z": -20.0
+      },
+      {
+        "X": 0.0,
+        "Y": 20.0,
+        "Z": -20.0
+      }
+    ],
+    "DetectRadius": 20.0,
+    "ClimbRadius": 35.0,
+    "ClimbFromTop": {
+      "X": -40.0,
+      "Y": 0.0,
+      "Z": -114.0
+    },
+    "ClimbVault": {
+      "X": 38.0,
+      "Y": 0.0,
+      "Z": 60.0
+    },
+    "ClimbOnTop": {
+      "X": 45.0,
+      "Y": 0.0,
+      "Z": 130.0
+    },
+    "VaultRange": {
+      "Min": -30.0,
+      "Max": 45.0
+    },
+    "UpArriveRange": {
+      "Min": -50.0,
+      "Max": 10.0
+    },
+    "ClimbSprintVault": {
+      "X": 99.0,
+      "Y": 0.0,
+      "Z": 78.0
+    },
+    "SprintVaultRange": {
+      "Min": -40.0,
+      "Max": 25.0
+    },
+    "ForwardBlockHeight": 55.0,
+    "ForwardBlockRadius": 20.0,
+    "ForwardBlockDistance": {
+      "Min": 10.0,
+      "Max": 80.0
+    },
+    "SprintVaultLongNeedDistance": 45.0,
+    "SprintVaultLongHeight": 20.0,
+    "SprintVaultLongRange": {
+      "Min": 20.0,
+      "Max": 200.0
+    },
+    "BlockUpOffset": {
+      "X": -35.0,
+      "Y": 0.0,
+      "Z": 148.0
+    },
+    "BlockUpDetectRadius": 20.0,
+    "BlockUpDetectDistance": 150.0,
+    "BlockUpBackDistance": 180.0,
+    "BlockUpBackMinDist": 34.0,
+    "BlockUpFinalMove": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 300.0
+    },
+    "BlockUpVerticalRange": {
+      "Min": 0.0,
+      "Max": 213.0
+    }
+  }
+]

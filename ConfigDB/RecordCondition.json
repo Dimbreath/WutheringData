@@ -1,0 +1,567 @@
+[
+  {
+    "TypeId": 2,
+    "Type": "GetPhantomQualityLevelUp",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "quality",
+        "Value": "int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "level",
+        "Value": "int"
+      }
+    ],
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 3,
+    "Type": "RoleWereAndActivateFetters",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "num",
+        "Value": "int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "quality",
+        "Value": "int"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "suit",
+        "Value": "int"
+      }
+    ],
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 4,
+    "Type": "TerminalLevelUp",
+    "Nullenable": null,
+    "Param1": null,
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 5,
+    "Type": "GetWeaponQualityLevelUp",
+    "Nullenable": [
+      1,
+      2
+    ],
+    "Param1": [
+      {
+        "Key": "quality",
+        "Value": "int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "level",
+        "Value": "int"
+      }
+    ],
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 6,
+    "Type": "PropertiesRoleLevelUp",
+    "Nullenable": [
+      1,
+      2
+    ],
+    "Param1": [
+      {
+        "Key": "type",
+        "Value": "int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "level",
+        "Value": "int"
+      }
+    ],
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 7,
+    "Type": "RoleSkillLevelUp",
+    "Nullenable": [
+      1
+    ],
+    "Param1": [
+      {
+        "Key": "num",
+        "Value": "int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "level",
+        "Value": "int"
+      }
+    ],
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 8,
+    "Type": "ActiveDeliveryPoint",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "int"
+      }
+    ],
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 9,
+    "Type": "ActiveDeliveryPointInRegion",
+    "Nullenable": [
+      1
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "int"
+      }
+    ],
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 10,
+    "Type": "GetWorldCollection",
+    "Nullenable": null,
+    "Param1": null,
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 11,
+    "Type": "GetLightCatReward",
+    "Nullenable": null,
+    "Param1": null,
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 12,
+    "Type": "GetBoxReward",
+    "Nullenable": null,
+    "Param1": null,
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 13,
+    "Type": "QuestFinish",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "int"
+      }
+    ],
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 14,
+    "Type": "ConsumeItem",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "int"
+      }
+    ],
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 15,
+    "Type": "GetDungeonReward",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "int"
+      }
+    ],
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 16,
+    "Type": "GetLevePlayReward",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "int"
+      }
+    ],
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 17,
+    "Type": "测试",
+    "Nullenable": null,
+    "Param1": null,
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 18,
+    "Type": "CapturePhantom",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "Quality",
+        "Value": "Int"
+      }
+    ],
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 19,
+    "Type": "FinishDungeon",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "int"
+      }
+    ],
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 20,
+    "Type": "FinishCook",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "int"
+      }
+    ],
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 21,
+    "Type": "FinishSynthesis",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "int"
+      }
+    ],
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 22,
+    "Type": "FinishForge",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "int"
+      }
+    ],
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 23,
+    "Type": "XRoleEquipXQualityWeapon",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "quality",
+        "Value": "int"
+      }
+    ],
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 24,
+    "Type": "ActiveXTeleport",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "i_array"
+      }
+    ],
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 25,
+    "Type": "InstanceTypeFinishCount",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "CustomTypes",
+        "Value": "int"
+      }
+    ],
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 26,
+    "Type": "LevelPlayCompleteCount",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "LevelType",
+        "Value": "int"
+      }
+    ],
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 27,
+    "Type": "SoundBoxReachXLevel",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "DragonPoolId",
+        "Value": "int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "level",
+        "Value": "int"
+      }
+    ],
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 28,
+    "Type": "PhantomProgress",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "num",
+        "Value": "int"
+      }
+    ],
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 29,
+    "Type": "PassTowerFloor",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "Difficulty",
+        "Value": "int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "AreaNum",
+        "Value": "int"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "Floor",
+        "Value": "int"
+      }
+    ],
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 30,
+    "Type": "PassTowerStarCount",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "Difficulty",
+        "Value": "int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "AreaNum",
+        "Value": "int"
+      }
+    ],
+    "Param3": [
+      {
+        "Key": "Star",
+        "Value": "int"
+      }
+    ],
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 31,
+    "Type": "PassLordLayer",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "int"
+      }
+    ],
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 33,
+    "Type": "CommemorativeCoinsStoreConsumeXTimes",
+    "Nullenable": null,
+    "Param1": null,
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 34,
+    "Type": "PhantomIdentifyYQualityXNum",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "Quality",
+        "Value": "Int"
+      }
+    ],
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 35,
+    "Type": "GetXPlayLevelTypeFirstPassReward",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "LevelType",
+        "Value": "int"
+      }
+    ],
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 36,
+    "Type": "PassXDifficultyRogue",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "InstId",
+        "Value": "Int"
+      }
+    ],
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 37,
+    "Type": "PassExploreLevel",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "Country",
+        "Value": "int"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Level",
+        "Value": "int"
+      }
+    ],
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  }
+]

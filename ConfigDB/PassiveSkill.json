@@ -1,0 +1,1183 @@
+[
+  {
+    "Id": 14010021,
+    "SkillDesc": "【测试】拥有特定tag且血量在50%到80%之间时，为角色附加特定buff",
+    "Cdtime": 12.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "AttributeChangedTrigger",
+    "TriggerPreset": [
+      "0",
+      "3"
+    ],
+    "TriggerParams": "{\n    \"CheckAttackerTags\": [\n        \"角色.R2T1JueyuanMd10011.BUFFID.回血buff\",\n        \"角色.R2T1JueyuanMd10011.BUFFID.地面蓄力标记\"\n    ]\n}",
+    "TriggerFormula": "MatchAnyTag(Owner, CheckAttackerTags) \nAND \nNewValue / GetAttributeByID(Owner,2) < 0.5 \nAND \nNewValue>OldValue",
+    "SubSkillAction": [
+      14010022,
+      14010023
+    ],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "720"
+    ]
+  },
+  {
+    "Id": 14010022,
+    "SkillDesc": "子技能1",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "",
+    "TriggerPreset": null,
+    "TriggerParams": "{}",
+    "TriggerFormula": "FALSE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "715#1"
+    ]
+  },
+  {
+    "Id": 14010031,
+    "SkillDesc": "【测试】拥有特定tag且血量在50%到80%之间时，为角色移除特定buff",
+    "Cdtime": 12.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "AttributeChangedTrigger",
+    "TriggerPreset": [
+      "0",
+      "3"
+    ],
+    "TriggerParams": "{\n    \"CheckAttackerTags\": [\n        \"角色.R2T1JueyuanMd10011.BUFFID.回血buff\",\n        \"角色.R2T1JueyuanMd10011.BUFFID.地面蓄力标记\"\n    ]\n}",
+    "TriggerFormula": "MatchAnyTag(Owner, CheckAttackerTags) \nAND \n( NewValue / GetAttributeByID(Owner,2) <= 0.5 \nOR \nNewValue / GetAttributeByID(Owner,2) > 0.8 )",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "720#-1"
+    ]
+  },
+  {
+    "Id": 14010041,
+    "SkillDesc": "【测试】累积血量扣减1000点时，添加特定buff",
+    "Cdtime": 12.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "",
+    "TriggerPreset": null,
+    "TriggerParams": "{\n    \"CheckAttackerTags\": [\n        \"角色.R2T1JueyuanMd10011.BUFFID.回血buff\",\n        \"角色.R2T1JueyuanMd10011.BUFFID.地面蓄力标记\"\n    ]\n}",
+    "TriggerFormula": "Accumulate(NewValue-OldValue, 1000)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "720"
+    ]
+  },
+  {
+    "Id": 14010023,
+    "SkillDesc": "子技能2",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "",
+    "TriggerPreset": null,
+    "TriggerParams": "{}",
+    "TriggerFormula": "FALSE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "715#1"
+    ]
+  },
+  {
+    "Id": 14010051,
+    "SkillDesc": "【测试】消耗一半特殊能量1时，获得短时间的攻击力加成",
+    "Cdtime": 5.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "AttributeChangedTrigger",
+    "TriggerPreset": [
+      "0",
+      "62"
+    ],
+    "TriggerParams": "{\n    \"CheckAttackerTags\": [\n        \"行为状态.逻辑状态.进入战斗\"\n    ]\n}",
+    "TriggerFormula": "MatchAnyTag(Owner, CheckAttackerTags) \nAND\nNewValue<OldValue\nAND\n(OldValue-NewValue)/GetAttributeByID(Owner,61)>=0.5",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "821"
+    ]
+  },
+  {
+    "Id": 14010061,
+    "SkillDesc": "【测试】强化E技能命中敌人时，获得短时间的攻击力加成",
+    "Cdtime": 5.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "SkillID==1502101",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "821"
+    ]
+  },
+  {
+    "Id": 14010071,
+    "SkillDesc": "【测试】女主血量低于50%时，受击获得短时间的攻击力加成",
+    "Cdtime": 5.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeHitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "GetAttributeByID(Owner,3) / GetAttributeByID(Owner,2)>0.5",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "821"
+    ]
+  },
+  {
+    "Id": 95010011,
+    "SkillDesc": "【测试】进战后，血量低于50%时，受击获得短时间的攻击力加成",
+    "Cdtime": 5.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeHitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{\n    \"CheckOwnerTags\": [\n        \"行为状态.逻辑状态.进入战斗\"\n    ]\n}",
+    "TriggerFormula": "MatchAnyTag(Owner, CheckOwnerTags) \nAND GetAttributeByID(Owner,3)/GetAttributeByID(Owner,2)>0.5",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "821"
+    ]
+  },
+  {
+    "Id": 95010021,
+    "SkillDesc": "【测试】进战后，血量低于50%时，怪物攻击可以触发回血",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{\n    \"CheckOwnerTags\": [\n        \"行为状态.逻辑状态.进入战斗\"\n    ]\n}",
+    "TriggerFormula": "MatchAnyTag(Owner, CheckOwnerTags) \nAND GetAttributeByID(Owner,3)/GetAttributeByID(Owner,2)>0.5",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "5"
+    ]
+  },
+  {
+    "Id": 95010031,
+    "SkillDesc": "【测试】瘫痪后，血量低于50%时，怪物每次受击可以触发回血",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeHitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{\n    \"CheckOwnerTags\": [\n        \"怪物.common.状态标识.瘫痪中\"\n    ]\n}",
+    "TriggerFormula": "MatchAnyTag(Owner, CheckOwnerTags) \nAND GetAttributeByID(Owner,3)/GetAttributeByID(Owner,2)>0.5",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "5"
+    ]
+  },
+  {
+    "Id": 14010081,
+    "SkillDesc": "【测试】受击时，伤害量大于生命值10%时会触发回血",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeHitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>(GetAttributeByID(Owner,2)*0.1)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "5"
+    ]
+  },
+  {
+    "Id": 14010091,
+    "SkillDesc": "【测试】每受击3次触发一次回血",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeHitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "Accumulate(1,3,DamageValue>0)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "5"
+    ]
+  },
+  {
+    "Id": 14010101,
+    "SkillDesc": "【测试】每消耗一半体力触发一次回血",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "AttributeChangedTrigger",
+    "TriggerPreset": [
+      "0",
+      "70"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "Accumulate(NewValue-OldValue,\nGetAttributeByID(Owner,69)*0.5, NewValue<OldValue)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "5"
+    ]
+  },
+  {
+    "Id": 14010052,
+    "SkillDesc": "【测试】消耗一半特殊能量1时，获得短时间的攻击力加成",
+    "Cdtime": 5.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "AttributeChangedTrigger",
+    "TriggerPreset": [
+      "0",
+      "62"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "NewValue<OldValue\nAND\n(OldValue-NewValue)/GetAttributeByID(Owner,61)>=0.5",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "800100003015"
+    ]
+  },
+  {
+    "Id": 14010053,
+    "SkillDesc": "【测试】消耗一半特殊能量1时，获得短时间的攻击力加成",
+    "Cdtime": 5.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "AttributeChangedTrigger",
+    "TriggerPreset": [
+      "0",
+      "62"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "NewValue<OldValue\nAND\n(OldValue-NewValue)/GetAttributeByID(Owner,61)>=0.5",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "1502700077#-1"
+    ]
+  },
+  {
+    "Id": 14010054,
+    "SkillDesc": "【测试】消耗一半特殊能量1时，获得短时间的攻击力加成",
+    "Cdtime": 5.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "AttributeChangedTrigger",
+    "TriggerPreset": [
+      "0",
+      "62"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "NewValue<OldValue\nAND\n(OldValue-NewValue)/GetAttributeByID(Owner,61)>=0.5",
+    "SubSkillAction": [
+      14010055
+    ],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "821"
+    ]
+  },
+  {
+    "Id": 14010055,
+    "SkillDesc": "",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "",
+    "TriggerPreset": null,
+    "TriggerParams": "{}",
+    "TriggerFormula": "FALSE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "800100003015"
+    ]
+  },
+  {
+    "Id": 1302101064,
+    "SkillDesc": "核心被动打击机制\n队伍命中带惩罚印记的敌人时，对全体敌人造成伤害",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "temp_hittrigger1.0",
+    "TriggerPreset": [
+      "2"
+    ],
+    "TriggerParams": "{\n    \"CheckMonsterTags\": [\n        \"角色.R2T1YinlinMd10011.状态.电荷附着\"\n    ],\n\"CheckOwnerTags\": [\n        \"角色.R2T1YinlinMd10011.状态.核心被动冷却\"\n    ]\n}",
+    "TriggerFormula": "MatchAnyTag(Victim, CheckMonsterTags)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1302101065"
+    ]
+  },
+  {
+    "Id": 95010041,
+    "SkillDesc": "暗法受击时，销毁子弹77023001001\n让暗法使用77023001这个技能即可",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeHitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "FALSE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBullet",
+    "SkillActionParams": [
+      "77023001001"
+    ]
+  },
+  {
+    "Id": 95010051,
+    "SkillDesc": "暗-蛊魂乐师（行为状态.逻辑状态.技能中.全身动作）标签添加时触发子弹（77023001001）生成",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.逻辑状态.技能中.全身动作",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "FALSE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "77023001001"
+    ]
+  },
+  {
+    "Id": 95010052,
+    "SkillDesc": "暗-蛊魂乐师（行为状态.逻辑状态.技能中.全身动作）标签移除时触发子弹（77023001001）生成",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.逻辑状态.技能中.全身动作",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "FALSE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "77023001001"
+    ]
+  },
+  {
+    "Id": 95010061,
+    "SkillDesc": "暗-蛊魂乐师技能（77023004）开始时触发子弹（77023001001）生成",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "77023001",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "FALSE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "77023001001"
+    ]
+  },
+  {
+    "Id": 95010062,
+    "SkillDesc": "暗-蛊魂乐师技能（77023004）结束时触发子弹（77023001001）生成",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "77023001",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "FALSE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "77023001001"
+    ]
+  },
+  {
+    "Id": 95010071,
+    "SkillDesc": "光-流放共鸣者受到伤害时，若自身有护盾，会产生子弹（77027005001）",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeHitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "GetShieldValue(Owner)>0",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "77027005001"
+    ]
+  },
+  {
+    "Id": 95010081,
+    "SkillDesc": "光-流放共鸣者受到伤害时，若自身无护盾，会释放技能（77027002）",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeHitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "GetShieldValue(Owner)==0",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "StartSkill",
+    "SkillActionParams": [
+      "77027002"
+    ]
+  },
+  {
+    "Id": 95010091,
+    "SkillDesc": "女主闪避销毁普攻3的飞剑子弹",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "100001",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBullet",
+    "SkillActionParams": [
+      "1502003002"
+    ]
+  },
+  {
+    "Id": 95010092,
+    "SkillDesc": "女主闪避销毁普攻3的飞剑子弹",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "100002",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBullet",
+    "SkillActionParams": [
+      "1502003002"
+    ]
+  },
+  {
+    "Id": 95010101,
+    "SkillDesc": "女主有普攻4标签时销毁普攻3的飞剑子弹",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "角色.R2T1PlayerFemaleMd10011.技能ID.普攻4",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBullet",
+    "SkillActionParams": [
+      "1502003002"
+    ]
+  },
+  {
+    "Id": 95010102,
+    "SkillDesc": "女主没有普攻3标签时销毁普攻3的飞剑子弹",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "角色.R2T1PlayerFemaleMd10011.技能ID.普攻3",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBullet",
+    "SkillActionParams": [
+      "1502003002"
+    ]
+  },
+  {
+    "Id": 95010111,
+    "SkillDesc": "女主拥有护盾时受击会产生子弹1502003002",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeHitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "GetShieldValue(Owner)>0",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "1502003002"
+    ]
+  },
+  {
+    "Id": 95010121,
+    "SkillDesc": "女主前闪触发极限闪避",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "100001",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "StartSkill",
+    "SkillActionParams": [
+      "100006"
+    ]
+  },
+  {
+    "Id": 1302101065,
+    "SkillDesc": "Rogue专属buff效果--空中攻击命中一个【惩罚印记】的敌人会触发大招的雷电伤害，触发CD为18s，每次使用【千面魅影】会刷新CD",
+    "Cdtime": 0.5,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{\n\"CheckOwnerTags\": [\n        \"Rogue.Role.Yinlin.额外大招落雷CD\"\n    ],\n\"CheckMonsterTags\": [\n        \"角色.R2T1YinlinMd10011.状态.电荷附着\"\n    ]\n}",
+    "TriggerFormula": "!MatchAnyTag(Owner, CheckOwnerTags) \nAND\nBulletID==1302060001\nAND\nMatchAnyTag(Victim,CheckMonsterTags)",
+    "SubSkillAction": [
+      1302101066
+    ],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "1302040101"
+    ]
+  },
+  {
+    "Id": 1302101066,
+    "SkillDesc": "",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "",
+    "TriggerPreset": null,
+    "TriggerParams": "{}",
+    "TriggerFormula": "FALSE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "921302000051"
+    ]
+  },
+  {
+    "Id": 95010131,
+    "SkillDesc": "女主触发极限闪避时，产生子弹1502003002",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "LimitDodgeTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "1502003002"
+    ]
+  },
+  {
+    "Id": 95010141,
+    "SkillDesc": "女主消耗体力时，产生子弹1502003002",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TeamAttributeChangeTrigger",
+    "TriggerPreset": [
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "NewValue<OldValue",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "1502003002"
+    ]
+  },
+  {
+    "Id": 30000007001,
+    "SkillDesc": "声骸套装-触发治疗时给队友加攻击力",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "Attacker==Owner",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "30000007002"
+    ]
+  },
+  {
+    "Id": 1302101090,
+    "SkillDesc": "退场时移除标记",
+    "Cdtime": 0.5,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.逻辑状态.后台",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "1302101091"
+    ]
+  },
+  {
+    "Id": 1503952030,
+    "SkillDesc": "维里奈空中1回血",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "1503011",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "GetAttributeByID(Owner,62)>0",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1503952021",
+      "1503952022",
+      "1503952023",
+      "1503105001",
+      "1503952035"
+    ]
+  },
+  {
+    "Id": 1503952031,
+    "SkillDesc": "维里奈空中2回血",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "1503012",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "GetAttributeByID(Owner,62)>0",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1503952021",
+      "1503952022",
+      "1503952023",
+      "1503105001",
+      "1503952036"
+    ]
+  },
+  {
+    "Id": 1503952032,
+    "SkillDesc": "维里奈空中3回血",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "1503013",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "GetAttributeByID(Owner,62)>0",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1503952021",
+      "1503952022",
+      "1503952023",
+      "1503105001",
+      "1503952037"
+    ]
+  },
+  {
+    "Id": 921302000001,
+    "SkillDesc": "普攻给敌人附着【缚罪标记】时额外触发「审判攻击」",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{\"CheckMonsterTags\": [\n        \"角色.R2T1YinlinMd10011.状态.连锁敌人\",\n\"角色.R2T1YinlinMd10011.状态.连锁敌人强化\",\n\"角色.R2T1YinlinMd10011.状态.电荷附着\"\n    ]\n}",
+    "TriggerFormula": "(SkillType==0\nOR\nSkillType==5)\nAND\n!MatchAnyTag(Victim,CheckMonsterTags)\nAND\nVictim!=Owner\nAND\nBulletID!=1302020130",
+    "SubSkillAction": null,
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "1302020130"
+    ]
+  },
+  {
+    "Id": 900312000262,
+    "SkillDesc": "【护盾】护盾存在时，获得E/R会额外造成【冰冻伤害】，造成最大生命值10%的伤害。子弹（900312000141）",
+    "Cdtime": 3.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "GetShieldValue(Owner)>0",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "900312000141"
+    ]
+  },
+  {
+    "Id": 900312000272,
+    "SkillDesc": "【护盾】【Key】护盾存在时每受到伤害时，在自身范围召唤冰爆，造成最大生命值X%的伤害。（10秒）（触发器）（900312000121）",
+    "Cdtime": 10.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeDamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "GetShieldValue(Owner)>0",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "900312000121"
+    ]
+  },
+  {
+    "Id": 938000301104,
+    "SkillDesc": "【鸣钟之龟】拥有护盾时，所有攻击命中可以对敌人造成额外冰属性伤害，间隔1s子弹（280003004）",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "GetShieldValue(Owner)>0",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "280003004"
+    ]
+  },
+  {
+    "Id": 938000301106,
+    "SkillDesc": "拥有护盾时，e技能攻击敌人加30点大招能量，有内置cd8s buff：938000301107",
+    "Cdtime": 8.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "GetShieldValue(Owner)>0",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "938000301107"
+    ]
+  },
+  {
+    "Id": 921202100006,
+    "SkillDesc": "炽霞连续移动射击被动",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "角色.R2T1MaxiaofangMd10011.技能标识.移动射击技能持续",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "921202100068"
+    ]
+  },
+  {
+    "Id": 300110,
+    "SkillDesc": "关卡-无音区-祈池村-随机QTE能量",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "关卡.无音区.祈池村.随机QTE能量",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "StartSkill",
+    "SkillActionParams": [
+      "300110"
+    ]
+  },
+  {
+    "Id": 300210,
+    "SkillDesc": "关卡-无音区-荒石高地-环境落雷",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "关卡.无音区.荒石高地.环境落雷",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "StartSkill",
+    "SkillActionParams": [
+      "300210"
+    ]
+  },
+  {
+    "Id": 300410,
+    "SkillDesc": "关卡-无音区-怨鸟泽-杀怪掉球",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "关卡.无音区.怨鸟泽.杀怪掉球",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "StartSkill",
+    "SkillActionParams": [
+      "300410"
+    ]
+  },
+  {
+    "Id": 300510,
+    "SkillDesc": "关卡-无音区-荒石高地2-环境落雷",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "关卡.无音区.荒石高地2.环境落雷",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "StartSkill",
+    "SkillActionParams": [
+      "300510"
+    ]
+  },
+  {
+    "Id": 300520,
+    "SkillDesc": "关卡-无音区-荒石高地2-重攻击落雷",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "关卡.无音区.荒石高地2.重攻击触发落雷",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "StartSkill",
+    "SkillActionParams": [
+      "300520"
+    ]
+  },
+  {
+    "Id": 300570,
+    "SkillDesc": "关卡-无音区-遗落原乡-周期产球",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "关卡.无音区.遗落原乡.周期产球",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "StartSkill",
+    "SkillActionParams": [
+      "300570"
+    ]
+  },
+  {
+    "Id": 300580,
+    "SkillDesc": "关卡-无音区-虎口山脉-周期产球",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "关卡.无音区.虎口山脉.周期产球",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "StartSkill",
+    "SkillActionParams": [
+      "300580"
+    ]
+  }
+]

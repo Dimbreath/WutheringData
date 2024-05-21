@@ -1,0 +1,2916 @@
+[
+  {
+    "Id": 1,
+    "DistanceRange": [
+      200.0,
+      500.0,
+      700.0,
+      900.0,
+      2500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      50.0,
+      0.0,
+      0.0,
+      50.0
+    ],
+    "MiddleActionRates": [
+      20.0,
+      20.0,
+      20.0,
+      20.0,
+      20.0
+    ],
+    "FarActionRates": [
+      50.0,
+      0.0,
+      20.0,
+      20.0,
+      10.0
+    ],
+    "TurnSpeeds": [
+      180.0,
+      180.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 1000.0,
+      "Max": 2000.0
+    },
+    "SumWanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 2,
+    "DistanceRange": [
+      200.0,
+      400.0,
+      700.0,
+      900.0,
+      2500.0
+    ],
+    "NearActionRates": [
+      20.0,
+      20.0,
+      25.0,
+      25.0,
+      10.0
+    ],
+    "MiddleActionRates": [
+      20.0,
+      20.0,
+      25.0,
+      25.0,
+      10.0
+    ],
+    "FarActionRates": [
+      50.0,
+      50.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      90.0,
+      60.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 180.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 70051,
+    "DistanceRange": [
+      250.0,
+      400.0,
+      600.0,
+      900.0,
+      1900.0
+    ],
+    "NearActionRates": [
+      0.0,
+      100.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      15.0,
+      10.0,
+      35.0,
+      35.0,
+      5.0
+    ],
+    "FarActionRates": [
+      50.0,
+      0.0,
+      25.0,
+      25.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      90.0,
+      60.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 180.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 70052,
+    "DistanceRange": [
+      0.0,
+      400.0,
+      600.0,
+      900.0,
+      1900.0
+    ],
+    "NearActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      90.0,
+      60.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 180.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 70053,
+    "DistanceRange": [
+      500.0,
+      800.0,
+      1000.0,
+      1500.0,
+      2500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      100.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      40.0,
+      60.0,
+      0.0
+    ],
+    "FarActionRates": [
+      30.0,
+      0.0,
+      50.0,
+      20.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 70055,
+    "DistanceRange": [
+      900.0,
+      1200.0,
+      1500.0,
+      2000.0,
+      2500.0
+    ],
+    "NearActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      90.0,
+      60.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 270.0,
+    "WanderTime": {
+      "Min": 800.0,
+      "Max": 1000.0
+    },
+    "SumWanderTime": {
+      "Min": 800.0,
+      "Max": 1000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 70065,
+    "DistanceRange": [
+      100.0,
+      300.0,
+      600.0,
+      800.0,
+      1500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      95.0,
+      0.0,
+      0.0,
+      5.0
+    ],
+    "MiddleActionRates": [
+      15.0,
+      10.0,
+      35.0,
+      35.0,
+      5.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 70068,
+    "DistanceRange": [
+      100.0,
+      400.0,
+      700.0,
+      1200.0,
+      1500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      95.0,
+      0.0,
+      0.0,
+      5.0
+    ],
+    "MiddleActionRates": [
+      10.0,
+      15.0,
+      35.0,
+      35.0,
+      5.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 70070,
+    "DistanceRange": [
+      500.0,
+      800.0,
+      1000.0,
+      1500.0,
+      2500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      80.0,
+      10.0,
+      10.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      35.0,
+      30.0,
+      30.0,
+      5.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 3000.0
+    },
+    "SumWanderTime": {
+      "Min": 3000.0,
+      "Max": 3000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 70072,
+    "DistanceRange": [
+      100.0,
+      500.0,
+      800.0,
+      1200.0,
+      2500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      80.0,
+      10.0,
+      10.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      40.0,
+      40.0,
+      10.0,
+      10.0,
+      0.0
+    ],
+    "FarActionRates": [
+      60.0,
+      0.0,
+      20.0,
+      20.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 700727,
+    "DistanceRange": [
+      100.0,
+      500.0,
+      800.0,
+      1200.0,
+      2500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      80.0,
+      10.0,
+      10.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      40.0,
+      40.0,
+      10.0,
+      10.0,
+      0.0
+    ],
+    "FarActionRates": [
+      60.0,
+      0.0,
+      20.0,
+      20.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 8000.0,
+      "Max": 10000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 70074,
+    "DistanceRange": [
+      100.0,
+      400.0,
+      700.0,
+      1200.0,
+      1500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      95.0,
+      0.0,
+      0.0,
+      5.0
+    ],
+    "MiddleActionRates": [
+      10.0,
+      15.0,
+      35.0,
+      35.0,
+      5.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 70075,
+    "DistanceRange": [
+      200.0,
+      300.0,
+      600.0,
+      900.0,
+      1500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      90.0,
+      5.0,
+      5.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      30.0,
+      30.0,
+      5.0,
+      5.0,
+      30.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      180.0,
+      180.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 70076,
+    "DistanceRange": [
+      100.0,
+      500.0,
+      800.0,
+      1000.0,
+      2500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      40.0,
+      0.0,
+      30.0,
+      30.0,
+      0.0
+    ],
+    "FarActionRates": [
+      40.0,
+      0.0,
+      30.0,
+      30.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 1500.0,
+      "Max": 2000.0
+    },
+    "SumWanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 70092,
+    "DistanceRange": [
+      300.0,
+      500.0,
+      800.0,
+      2000.0,
+      3800.0
+    ],
+    "NearActionRates": [
+      0.0,
+      40.0,
+      30.0,
+      30.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 1000.0,
+      "Max": 2000.0
+    },
+    "SumWanderTime": {
+      "Min": 2000.0,
+      "Max": 3000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 70092001,
+    "DistanceRange": [
+      100.0,
+      300.0,
+      600.0,
+      800.0,
+      1500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      95.0,
+      0.0,
+      0.0,
+      5.0
+    ],
+    "MiddleActionRates": [
+      50.0,
+      0.0,
+      25.0,
+      25.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 1000.0,
+      "Max": 2000.0
+    },
+    "SumWanderTime": {
+      "Min": 1000.0,
+      "Max": 2000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 70094,
+    "DistanceRange": [
+      250.0,
+      350.0,
+      500.0,
+      700.0,
+      1500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      50.0,
+      0.0,
+      0.0,
+      50.0
+    ],
+    "MiddleActionRates": [
+      20.0,
+      20.0,
+      0.0,
+      0.0,
+      60.0
+    ],
+    "FarActionRates": [
+      80.0,
+      0.0,
+      0.0,
+      0.0,
+      20.0
+    ],
+    "TurnSpeeds": [
+      90.0,
+      60.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 180.0,
+    "WanderTime": {
+      "Min": 1000.0,
+      "Max": 2000.0
+    },
+    "SumWanderTime": {
+      "Min": 2000.0,
+      "Max": 3000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 70072001,
+    "DistanceRange": [
+      1000.0,
+      1500.0,
+      2000.0,
+      2500.0,
+      3000.0
+    ],
+    "NearActionRates": [
+      0.0,
+      100.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 5000.0,
+      "Max": 8000.0
+    },
+    "SumWanderTime": {
+      "Min": 5000.0,
+      "Max": 8000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 70100,
+    "DistanceRange": [
+      300.0,
+      550.0,
+      1000.0,
+      1500.0,
+      2000.0
+    ],
+    "NearActionRates": [
+      0.0,
+      100.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      60.0,
+      90.0,
+      120.0,
+      120.0
+    ],
+    "RunTurnSpeed": 180.0,
+    "WanderTime": {
+      "Min": 5000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 5000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 77005,
+    "DistanceRange": [
+      250.0,
+      400.0,
+      700.0,
+      900.0,
+      2500.0
+    ],
+    "NearActionRates": [
+      50.0,
+      50.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      50.0,
+      50.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "FarActionRates": [
+      50.0,
+      50.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      90.0,
+      60.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 180.0,
+    "WanderTime": {
+      "Min": 1000.0,
+      "Max": 3000.0
+    },
+    "SumWanderTime": {
+      "Min": 1000.0,
+      "Max": 3000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 77012,
+    "DistanceRange": [
+      200.0,
+      400.0,
+      700.0,
+      900.0,
+      2500.0
+    ],
+    "NearActionRates": [
+      50.0,
+      50.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      50.0,
+      50.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "FarActionRates": [
+      50.0,
+      50.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      90.0,
+      60.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 180.0,
+    "WanderTime": {
+      "Min": 1000.0,
+      "Max": 2000.0
+    },
+    "SumWanderTime": {
+      "Min": 5000.0,
+      "Max": 7000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 77021,
+    "DistanceRange": [
+      300.0,
+      500.0,
+      700.0,
+      900.0,
+      2500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      50.0,
+      25.0,
+      25.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      30.0,
+      30.0,
+      20.0,
+      20.0,
+      0.0
+    ],
+    "FarActionRates": [
+      50.0,
+      0.0,
+      25.0,
+      25.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      90.0,
+      60.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 180.0,
+    "WanderTime": {
+      "Min": 1000.0,
+      "Max": 2000.0
+    },
+    "SumWanderTime": {
+      "Min": 2000.0,
+      "Max": 3000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 77022,
+    "DistanceRange": [
+      500.0,
+      800.0,
+      1400.0,
+      2000.0,
+      2500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      100.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 77024,
+    "DistanceRange": [
+      100.0,
+      500.0,
+      1000.0,
+      7000.0,
+      8000.0
+    ],
+    "NearActionRates": [
+      0.0,
+      20.0,
+      40.0,
+      40.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      75.0,
+      0.0,
+      0.0,
+      0.0,
+      25.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      180.0,
+      95.0,
+      90.0,
+      90.0
+    ],
+    "RunTurnSpeed": 270.0,
+    "WanderTime": {
+      "Min": 5000.0,
+      "Max": 6000.0
+    },
+    "SumWanderTime": {
+      "Min": 8000.0,
+      "Max": 10000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 77025,
+    "DistanceRange": [
+      200.0,
+      2500.0,
+      5000.0,
+      7000.0,
+      8000.0
+    ],
+    "NearActionRates": [
+      0.0,
+      50.0,
+      25.0,
+      25.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      30.0,
+      30.0,
+      20.0,
+      20.0,
+      0.0
+    ],
+    "FarActionRates": [
+      50.0,
+      0.0,
+      25.0,
+      25.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      90.0,
+      60.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 180.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 5000.0,
+      "Max": 6000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 77026,
+    "DistanceRange": [
+      100.0,
+      600.0,
+      900.0,
+      1200.0,
+      2500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      80.0,
+      10.0,
+      10.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      30.0,
+      30.0,
+      20.0,
+      20.0,
+      0.0
+    ],
+    "FarActionRates": [
+      50.0,
+      0.0,
+      25.0,
+      25.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 77027,
+    "DistanceRange": [
+      100.0,
+      600.0,
+      900.0,
+      1200.0,
+      2500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      80.0,
+      10.0,
+      10.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      30.0,
+      30.0,
+      20.0,
+      20.0,
+      0.0
+    ],
+    "FarActionRates": [
+      50.0,
+      0.0,
+      25.0,
+      25.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 77028,
+    "DistanceRange": [
+      200.0,
+      500.0,
+      800.0,
+      1000.0,
+      2500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      100.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      25.0,
+      25.0,
+      50.0
+    ],
+    "FarActionRates": [
+      80.0,
+      0.0,
+      0.0,
+      0.0,
+      20.0
+    ],
+    "TurnSpeeds": [
+      120.0,
+      60.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 180.0,
+    "WanderTime": {
+      "Min": 5000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 5000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 77029,
+    "DistanceRange": [
+      0.0,
+      500.0,
+      800.0,
+      1000.0,
+      2500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      100.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      180.0,
+      180.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 77033,
+    "DistanceRange": [
+      300.0,
+      700.0,
+      1000.0,
+      2000.0,
+      2500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      100.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      60.0,
+      90.0,
+      120.0,
+      120.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 5000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 5000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 77036,
+    "DistanceRange": [
+      500.0,
+      800.0,
+      1000.0,
+      1500.0,
+      2500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      100.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      40.0,
+      60.0,
+      0.0
+    ],
+    "FarActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 77038,
+    "DistanceRange": [
+      400.0,
+      700.0,
+      1000.0,
+      2000.0,
+      2500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      100.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      180.0,
+      180.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 8000.0,
+      "Max": 10000.0
+    },
+    "SumWanderTime": {
+      "Min": 4000.0,
+      "Max": 10000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 80002,
+    "DistanceRange": [
+      200.0,
+      500.0,
+      800.0,
+      1000.0,
+      2300.0
+    ],
+    "NearActionRates": [
+      0.0,
+      0.0,
+      20.0,
+      80.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "FarActionRates": [
+      80.0,
+      0.0,
+      20.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      180.0,
+      270.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 120.0,
+    "WanderTime": {
+      "Min": 800.0,
+      "Max": 1200.0
+    },
+    "SumWanderTime": {
+      "Min": 3000.0,
+      "Max": 3000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 80003,
+    "DistanceRange": [
+      200.0,
+      500.0,
+      800.0,
+      1000.0,
+      2300.0
+    ],
+    "NearActionRates": [
+      0.0,
+      0.0,
+      20.0,
+      80.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "FarActionRates": [
+      80.0,
+      0.0,
+      20.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      180.0,
+      270.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 270.0,
+    "WanderTime": {
+      "Min": 800.0,
+      "Max": 1000.0
+    },
+    "SumWanderTime": {
+      "Min": 1500.0,
+      "Max": 1500.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 80005,
+    "DistanceRange": [
+      0.0,
+      500.0,
+      800.0,
+      1000.0,
+      1500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      0.0,
+      20.0,
+      80.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "FarActionRates": [
+      80.0,
+      0.0,
+      20.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      180.0,
+      270.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 270.0,
+    "WanderTime": {
+      "Min": 800.0,
+      "Max": 1000.0
+    },
+    "SumWanderTime": {
+      "Min": 1500.0,
+      "Max": 1500.0
+    },
+    "OnlyForward": true
+  },
+  {
+    "Id": 80006,
+    "DistanceRange": [
+      500.0,
+      1000.0,
+      1500.0,
+      2000.0,
+      5000.0
+    ],
+    "NearActionRates": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      100.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      100.0
+    ],
+    "FarActionRates": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      100.0
+    ],
+    "TurnSpeeds": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "RunTurnSpeed": 0.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 80004001,
+    "DistanceRange": [
+      200.0,
+      500.0,
+      1000.0,
+      1500.0,
+      2000.0
+    ],
+    "NearActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      50.0,
+      0.0,
+      25.0,
+      25.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      180.0,
+      180.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 8000.0,
+      "Max": 15000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 80004002,
+    "DistanceRange": [
+      200.0,
+      500.0,
+      1000.0,
+      1500.0,
+      2000.0
+    ],
+    "NearActionRates": [
+      20.0,
+      0.0,
+      40.0,
+      40.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      50.0,
+      0.0,
+      25.0,
+      25.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 5000.0,
+      "Max": 8000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 80004003,
+    "DistanceRange": [
+      200.0,
+      500.0,
+      1000.0,
+      1500.0,
+      2000.0
+    ],
+    "NearActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "FarActionRates": [
+      20.0,
+      0.0,
+      40.0,
+      40.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 1000.0,
+      "Max": 2000.0
+    },
+    "SumWanderTime": {
+      "Min": 0.0,
+      "Max": 1500.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 80008,
+    "DistanceRange": [
+      200.0,
+      500.0,
+      1000.0,
+      1500.0,
+      2000.0
+    ],
+    "NearActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "FarActionRates": [
+      20.0,
+      0.0,
+      40.0,
+      40.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 5000.0,
+      "Max": 8000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 80015,
+    "DistanceRange": [
+      200.0,
+      500.0,
+      1000.0,
+      1500.0,
+      2000.0
+    ],
+    "NearActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "FarActionRates": [
+      20.0,
+      0.0,
+      40.0,
+      40.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 5000.0,
+      "Max": 8000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 70066,
+    "DistanceRange": [
+      0.0,
+      200.0,
+      500.0,
+      700.0,
+      1500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      40.0,
+      30.0,
+      30.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      20.0,
+      20.0,
+      30.0,
+      30.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 80007,
+    "DistanceRange": [
+      0.0,
+      500.0,
+      800.0,
+      1000.0,
+      1500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      0.0,
+      20.0,
+      80.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "FarActionRates": [
+      80.0,
+      0.0,
+      20.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      180.0,
+      270.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 270.0,
+    "WanderTime": {
+      "Min": 800.0,
+      "Max": 1000.0
+    },
+    "SumWanderTime": {
+      "Min": 1500.0,
+      "Max": 1500.0
+    },
+    "OnlyForward": true
+  },
+  {
+    "Id": 80010,
+    "DistanceRange": [
+      200.0,
+      500.0,
+      1000.0,
+      1500.0,
+      2000.0
+    ],
+    "NearActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "FarActionRates": [
+      20.0,
+      0.0,
+      40.0,
+      40.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 5000.0,
+      "Max": 8000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 80016,
+    "DistanceRange": [
+      100.0,
+      500.0,
+      800.0,
+      1500.0,
+      2000.0
+    ],
+    "NearActionRates": [
+      20.0,
+      0.0,
+      40.0,
+      40.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 1000.0,
+      "Max": 2000.0
+    },
+    "SumWanderTime": {
+      "Min": 0.0,
+      "Max": 1500.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 80011,
+    "DistanceRange": [
+      0.0,
+      300.0,
+      500.0,
+      1000.0,
+      2000.0
+    ],
+    "NearActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "FarActionRates": [
+      20.0,
+      0.0,
+      40.0,
+      40.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      180.0,
+      270.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 100.0,
+      "Max": 200.0
+    },
+    "SumWanderTime": {
+      "Min": 100.0,
+      "Max": 200.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 77041,
+    "DistanceRange": [
+      100.0,
+      600.0,
+      900.0,
+      1200.0,
+      2500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      80.0,
+      10.0,
+      10.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      30.0,
+      30.0,
+      20.0,
+      20.0,
+      0.0
+    ],
+    "FarActionRates": [
+      60.0,
+      0.0,
+      20.0,
+      20.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 5000.0,
+      "Max": 8000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 77045,
+    "DistanceRange": [
+      0.0,
+      200.0,
+      1000.0,
+      2000.0,
+      2500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      100.0
+    ],
+    "MiddleActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 480.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 5000.0,
+      "Max": 6000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 70108,
+    "DistanceRange": [
+      100.0,
+      300.0,
+      600.0,
+      900.0,
+      1500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      95.0,
+      0.0,
+      0.0,
+      5.0
+    ],
+    "MiddleActionRates": [
+      40.0,
+      40.0,
+      10.0,
+      10.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      180.0,
+      120.0,
+      120.0,
+      120.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 5000.0,
+      "Max": 8000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 70078,
+    "DistanceRange": [
+      700.0,
+      1000.0,
+      1500.0,
+      2000.0,
+      2500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      100.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      25.0,
+      25.0,
+      50.0
+    ],
+    "FarActionRates": [
+      80.0,
+      0.0,
+      0.0,
+      0.0,
+      20.0
+    ],
+    "TurnSpeeds": [
+      90.0,
+      60.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 180.0,
+    "WanderTime": {
+      "Min": 5000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 5000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 80014001,
+    "DistanceRange": [
+      300.0,
+      600.0,
+      1000.0,
+      1500.0,
+      2500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      100.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      100.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 180.0,
+    "WanderTime": {
+      "Min": 2000.0,
+      "Max": 2000.0
+    },
+    "SumWanderTime": {
+      "Min": 2000.0,
+      "Max": 4000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 80017,
+    "DistanceRange": [
+      500.0,
+      1000.0,
+      1500.0,
+      2000.0,
+      5000.0
+    ],
+    "NearActionRates": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      100.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      100.0
+    ],
+    "FarActionRates": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      100.0
+    ],
+    "TurnSpeeds": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "RunTurnSpeed": 0.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 77042,
+    "DistanceRange": [
+      300.0,
+      500.0,
+      800.0,
+      1200.0,
+      2000.0
+    ],
+    "NearActionRates": [
+      0.0,
+      80.0,
+      10.0,
+      10.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "FarActionRates": [
+      80.0,
+      0.0,
+      10.0,
+      10.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      90.0,
+      60.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 1000.0,
+      "Max": 2000.0
+    },
+    "SumWanderTime": {
+      "Min": 5000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 70111,
+    "DistanceRange": [
+      0.0,
+      500.0,
+      800.0,
+      1000.0,
+      2500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      100.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      60.0,
+      60.0,
+      60.0,
+      60.0
+    ],
+    "RunTurnSpeed": 60.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 70113,
+    "DistanceRange": [
+      250.0,
+      300.0,
+      500.0,
+      1500.0,
+      2000.0
+    ],
+    "NearActionRates": [
+      0.0,
+      90.0,
+      0.0,
+      0.0,
+      10.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      90.0,
+      0.0,
+      0.0,
+      10.0
+    ],
+    "FarActionRates": [
+      90.0,
+      0.0,
+      0.0,
+      0.0,
+      10.0
+    ],
+    "TurnSpeeds": [
+      90.0,
+      60.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 180.0,
+    "WanderTime": {
+      "Min": 1000.0,
+      "Max": 1500.0
+    },
+    "SumWanderTime": {
+      "Min": 1000.0,
+      "Max": 1500.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 77047,
+    "DistanceRange": [
+      200.0,
+      500.0,
+      800.0,
+      1200.0,
+      1500.0
+    ],
+    "NearActionRates": [
+      25.0,
+      25.0,
+      25.0,
+      25.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      50.0,
+      0.0,
+      25.0,
+      25.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 70116,
+    "DistanceRange": [
+      100.0,
+      300.0,
+      600.0,
+      800.0,
+      1500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      20.0,
+      0.0,
+      40.0,
+      40.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 2000.0,
+      "Max": 2100.0
+    },
+    "SumWanderTime": {
+      "Min": 4000.0,
+      "Max": 4100.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 701161,
+    "DistanceRange": [
+      500.0,
+      1000.0,
+      1500.0,
+      2000.0,
+      2500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 2000.0,
+      "Max": 2100.0
+    },
+    "SumWanderTime": {
+      "Min": 4000.0,
+      "Max": 4100.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 77048,
+    "DistanceRange": [
+      1000.0,
+      1500.0,
+      2000.0,
+      2500.0,
+      3000.0
+    ],
+    "NearActionRates": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      100.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      100.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      30.0,
+      30.0,
+      30.0,
+      30.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 2000.0,
+      "Max": 2100.0
+    },
+    "SumWanderTime": {
+      "Min": 4000.0,
+      "Max": 4100.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 70119,
+    "DistanceRange": [
+      1000.0,
+      1500.0,
+      2000.0,
+      2500.0,
+      3000.0
+    ],
+    "NearActionRates": [
+      0.0,
+      100.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 5000.0,
+      "Max": 8000.0
+    },
+    "SumWanderTime": {
+      "Min": 5000.0,
+      "Max": 8000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 80009,
+    "DistanceRange": [
+      500.0,
+      900.0,
+      1500.0,
+      2000.0,
+      4000.0
+    ],
+    "NearActionRates": [
+      0.0,
+      100.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      180.0,
+      180.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 180.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 4000.0
+    },
+    "SumWanderTime": {
+      "Min": 3000.0,
+      "Max": 4000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 70109,
+    "DistanceRange": [
+      1000.0,
+      1500.0,
+      2000.0,
+      2500.0,
+      3000.0
+    ],
+    "NearActionRates": [
+      0.0,
+      100.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 5000.0,
+      "Max": 8000.0
+    },
+    "OnlyForward": false
+  }
+]

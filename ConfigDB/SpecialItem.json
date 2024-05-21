@@ -1,0 +1,49 @@
+[
+  {
+    "Id": 70140001,
+    "SpecialItemType": 0,
+    "UseInstance": true,
+    "BanTags": [
+      "行为状态.逻辑状态.进入战斗",
+      "行为状态.逻辑状态.技能中"
+    ],
+    "AllowTags": [
+      "行为状态.位置状态.地面",
+      "行为状态.逻辑状态.拍照范围中"
+    ]
+  },
+  {
+    "Id": 70140002,
+    "SpecialItemType": 0,
+    "UseInstance": false,
+    "BanTags": [
+      "关卡.道具.怨鸟泽.禁止使用龙卷",
+      "怪物.AiShengGuYuan.孤鸯常驻战斗子镜头"
+    ],
+    "AllowTags": [
+      "行为状态.位置状态.地面",
+      "关卡.道具.怨鸟泽.可使用龙卷区域"
+    ]
+  },
+  {
+    "Id": 70139304,
+    "SpecialItemType": 1,
+    "UseInstance": false,
+    "BanTags": null,
+    "AllowTags": null
+  },
+  {
+    "Id": 70140011,
+    "SpecialItemType": 1,
+    "UseInstance": true,
+    "BanTags": null,
+    "AllowTags": null
+  },
+  {
+    "Id": 70139300,
+    "SpecialItemType": 1,
+    "UseInstance": false,
+    "BanTags": null,
+    "AllowTags": null
+  }
+]
