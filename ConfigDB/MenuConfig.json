@@ -2153,7 +2153,7 @@
     "SubSort": 1,
     "SubImage": "/Game/Aki/UI/UIResources/UiSet/Atlas/SP_SETxitongshezhi2.SP_SETxitongshezhi2",
     "Name": "MenuConfig_103_Name",
-    "Platform": 0,
+    "Platform": 2,
     "FunctionSort": 12,
     "FunctionImage": "/Game/Aki/UI/UIResources/UiSet/Atlas/SP_SETcaozuo.SP_SETcaozuo",
     "SetType": 2,
@@ -2726,6 +2726,37 @@
       0,
       1,
       2
+    ],
+    "KeyMap": "",
+    "ButtonText": "",
+    "OpenView": "",
+    "RelationFunction": null,
+    "ConditionGroup": 0
+  },
+  {
+    "Id": 10301,
+    "FunctionId": 103,
+    "OptionsDefault": 0,
+    "MainType": 6,
+    "SubName": "MenuConfig_89_SubName",
+    "SubType": 1,
+    "SubSort": 1,
+    "SubImage": "/Game/Aki/UI/UIResources/UiSet/Atlas/SP_SETxitongshezhi2.SP_SETxitongshezhi2",
+    "Name": "MenuConfig_103_Name",
+    "Platform": 1,
+    "FunctionSort": 12,
+    "FunctionImage": "/Game/Aki/UI/UIResources/UiSet/Atlas/SP_SETcaozuo.SP_SETcaozuo",
+    "SetType": 2,
+    "SliderRange": null,
+    "SliderDefault": 0.0,
+    "Digits": 0,
+    "OptionsName": [
+      "MenuConfig_55_OptionsName_0",
+      "MenuConfig_55_OptionsName_1"
+    ],
+    "OptionsValue": [
+      0,
+      1
     ],
     "KeyMap": "",
     "ButtonText": "",
