@@ -29,6 +29,53 @@
       8004,
       8005,
       8006
+    ],
+    "DungeonRoleOpenTimeMap": null
+  },
+  {
+    "Id": 2,
+    "RoguelikeSettleBgS": "/Game/Aki/UI/UIResources/Common/Image/BgCg/T_RogueAccountsBg.T_RogueAccountsBg",
+    "RoguelikeSettleBgNormal": "/Game/Aki/UI/UIResources/Common/Image/BgCg/T_RogueBg.T_RogueBg",
+    "RoguelikeRoomFloatTipsNoHeadIcon": "/Game/Aki/UI/UIResources/UiTips/Atlas/SP_RogueBossIcon.SP_RogueBossIcon",
+    "RoguelikeRoomFloatTipsSpecialIcon": "Game/Aki/UI/UIResources/UiTips/Atlas/SP_RogueSpecialIcon.SP_RogueSpecialIcon",
+    "RoguelikeSettleS": 100,
+    "RoguelikeSettleA": 80,
+    "RoguelikeSettleB": 50,
+    "RoguelikeSettleC": 0,
+    "PointItem": 80100002,
+    "PointItemMaxCount": 100000,
+    "TokenItem": 80100001,
+    "WeekTokenMaxCount": 5200,
+    "SkillPoint": 80100003,
+    "SkillPointMaxCount": 600,
+    "InsideCurrency": 80100000,
+    "GuideInstArray": [
+      8100
+    ],
+    "GuideInstRoleIdArray": [
+      5200012,
+      5200011
+    ],
+    "DungeonList": [
+      8007,
+      8008,
+      8009,
+      8010,
+      8011
+    ],
+    "DungeonRoleOpenTimeMap": [
+      {
+        "Key": 5200051,
+        "Value": 1064
+      },
+      {
+        "Key": 5200049,
+        "Value": 1064
+      },
+      {
+        "Key": 5200050,
+        "Value": 1064
+      }
     ]
   }
 ]

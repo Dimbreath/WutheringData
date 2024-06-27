@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "ActivityId": 100600001,
     "SeasonName": "8002",
     "PointItem": 80100002,
     "InstanceDungeonEntrance": 8002,
@@ -26,6 +27,44 @@
         "Key": 8006,
         "Value": 3505
       }
-    ]
+    ],
+    "ShopId": 201,
+    "Achievement": 7,
+    "ParamId": 2,
+    "RogueThemeType": "0"
+  },
+  {
+    "Id": 2,
+    "ActivityId": 100600002,
+    "SeasonName": "8002",
+    "PointItem": 80100002,
+    "InstanceDungeonEntrance": 8002,
+    "TabIcon": "",
+    "FirstPassRewardMap": [
+      {
+        "Key": 8007,
+        "Value": 3511
+      },
+      {
+        "Key": 8008,
+        "Value": 3512
+      },
+      {
+        "Key": 8009,
+        "Value": 3513
+      },
+      {
+        "Key": 8010,
+        "Value": 3514
+      },
+      {
+        "Key": 8011,
+        "Value": 3515
+      }
+    ],
+    "ShopId": 204,
+    "Achievement": 8,
+    "ParamId": 2,
+    "RogueThemeType": "ZhongQu"
   }
 ]

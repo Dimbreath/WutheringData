@@ -764,6 +764,17 @@
     "ShareDis": 0.0
   },
   {
+    "Id": 77049,
+    "LoseDelay": {
+      "Min": 2000.0,
+      "Max": 3000.0
+    },
+    "AiSenseIds": [
+      77049
+    ],
+    "ShareDis": 0.0
+  },
+  {
     "Id": 800021,
     "LoseDelay": {
       "Min": 0.0,
@@ -839,6 +850,18 @@
     },
     "AiSenseIds": [
       800101
+    ],
+    "ShareDis": 0.0
+  },
+  {
+    "Id": 77032,
+    "LoseDelay": {
+      "Min": 2000.0,
+      "Max": 3000.0
+    },
+    "AiSenseIds": [
+      77032,
+      170001
     ],
     "ShareDis": 0.0
   }

@@ -780,5 +780,249 @@
     "RoleList": [
       1403
     ]
+  },
+  {
+    "Id": 10033,
+    "FormulaItemId": 80010033,
+    "FoodItemId": 80000033,
+    "TypeId": 1,
+    "Unlock": false,
+    "Name": "雪莲酥",
+    "ConsumeItems": [
+      {
+        "ItemId": 42310220,
+        "Count": 2
+      },
+      {
+        "ItemId": 80050000,
+        "Count": 3
+      },
+      {
+        "ItemId": 80050003,
+        "Count": 1
+      }
+    ],
+    "Proficiency": 20,
+    "MaxProficiencyCount": 20,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": [
+      1304
+    ]
+  },
+  {
+    "Id": 10034,
+    "FormulaItemId": 80010034,
+    "FoodItemId": 80000034,
+    "TypeId": 1,
+    "Unlock": false,
+    "Name": "雀翎辣肉",
+    "ConsumeItems": [
+      {
+        "ItemId": 42310200,
+        "Count": 1
+      },
+      {
+        "ItemId": 42400030,
+        "Count": 3
+      },
+      {
+        "ItemId": 80050001,
+        "Count": 2
+      }
+    ],
+    "Proficiency": 20,
+    "MaxProficiencyCount": 20,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": [
+      1205
+    ]
+  },
+  {
+    "Id": 10007,
+    "FormulaItemId": 80010007,
+    "FoodItemId": 80000007,
+    "TypeId": 3,
+    "Unlock": false,
+    "Name": "咸奶茶",
+    "ConsumeItems": [
+      {
+        "ItemId": 80050004,
+        "Count": 3
+      },
+      {
+        "ItemId": 80050005,
+        "Count": 3
+      },
+      {
+        "ItemId": 80050008,
+        "Count": 3
+      },
+      {
+        "ItemId": 80021006,
+        "Count": 1
+      }
+    ],
+    "Proficiency": 40,
+    "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10018,
+    "FormulaItemId": 80010018,
+    "FoodItemId": 80000018,
+    "TypeId": 3,
+    "Unlock": false,
+    "Name": "香柠炖肉",
+    "ConsumeItems": [
+      {
+        "ItemId": 42400030,
+        "Count": 4
+      },
+      {
+        "ItemId": 42310070,
+        "Count": 3
+      },
+      {
+        "ItemId": 80050008,
+        "Count": 2
+      },
+      {
+        "ItemId": 80021006,
+        "Count": 1
+      }
+    ],
+    "Proficiency": 40,
+    "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10022,
+    "FormulaItemId": 80010022,
+    "FoodItemId": 80000022,
+    "TypeId": 3,
+    "Unlock": false,
+    "Name": "菱果炒盐雀",
+    "ConsumeItems": [
+      {
+        "ItemId": 80020002,
+        "Count": 1
+      },
+      {
+        "ItemId": 42310110,
+        "Count": 2
+      },
+      {
+        "ItemId": 42400010,
+        "Count": 3
+      },
+      {
+        "ItemId": 80021006,
+        "Count": 1
+      }
+    ],
+    "Proficiency": 40,
+    "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10027,
+    "FormulaItemId": 80010027,
+    "FoodItemId": 80000027,
+    "TypeId": 3,
+    "Unlock": false,
+    "Name": "糖醋里脊",
+    "ConsumeItems": [
+      {
+        "ItemId": 80020003,
+        "Count": 1
+      },
+      {
+        "ItemId": 42400030,
+        "Count": 4
+      },
+      {
+        "ItemId": 80050000,
+        "Count": 4
+      },
+      {
+        "ItemId": 80021007,
+        "Count": 1
+      }
+    ],
+    "Proficiency": 60,
+    "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10028,
+    "FormulaItemId": 80010028,
+    "FoodItemId": 80000028,
+    "TypeId": 3,
+    "Unlock": false,
+    "Name": "油辣豆腐",
+    "ConsumeItems": [
+      {
+        "ItemId": 80020000,
+        "Count": 1
+      },
+      {
+        "ItemId": 80020004,
+        "Count": 4
+      },
+      {
+        "ItemId": 42400010,
+        "Count": 2
+      },
+      {
+        "ItemId": 80021006,
+        "Count": 1
+      }
+    ],
+    "Proficiency": 60,
+    "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10030,
+    "FormulaItemId": 80010030,
+    "FoodItemId": 80000030,
+    "TypeId": 3,
+    "Unlock": false,
+    "Name": "酿肉豆腐",
+    "ConsumeItems": [
+      {
+        "ItemId": 80020001,
+        "Count": 1
+      },
+      {
+        "ItemId": 80020004,
+        "Count": 2
+      },
+      {
+        "ItemId": 42400030,
+        "Count": 4
+      },
+      {
+        "ItemId": 80021006,
+        "Count": 1
+      }
+    ],
+    "Proficiency": 60,
+    "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
   }
 ]

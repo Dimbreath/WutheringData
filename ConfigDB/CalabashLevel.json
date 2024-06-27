@@ -913,8 +913,8 @@
   },
   {
     "Level": 20,
-    "LevelUpExp": 9999999,
-    "LevelUpCondition": 502005,
+    "LevelUpExp": 350,
+    "LevelUpCondition": 502006,
     "TempCatchGain": 1000,
     "BuffIds": null,
     "BuffDescription": "",
@@ -1004,6 +1004,54 @@
       {
         "Key": 2,
         "Value": 100
+      }
+    ]
+  },
+  {
+    "Level": 21,
+    "LevelUpExp": 9999999,
+    "LevelUpCondition": 502006,
+    "TempCatchGain": 1000,
+    "BuffIds": null,
+    "BuffDescription": "",
+    "LevelUpDescription": "CalabashLevel_21_LevelUpDescription",
+    "QualityDescription": "CalabashLevel_5_QualityDescription",
+    "BuffDescriptionMap": [
+      {
+        "Key": 0,
+        "Value": 1000
+      },
+      {
+        "Key": 1,
+        "Value": 500
+      },
+      {
+        "Key": 2,
+        "Value": 0
+      },
+      {
+        "Key": 3,
+        "Value": 0
+      }
+    ],
+    "Cost": 12,
+    "RewardId": 4321,
+    "QualityDropWeight": [
+      {
+        "Key": 5,
+        "Value": 100
+      },
+      {
+        "Key": 4,
+        "Value": 0
+      },
+      {
+        "Key": 3,
+        "Value": 0
+      },
+      {
+        "Key": 2,
+        "Value": 0
       }
     ]
   }

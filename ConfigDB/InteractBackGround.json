@@ -2,7 +2,7 @@
   {
     "Id": 1003,
     "ViewName": "CookRootView",
-    "Title": "",
+    "Title": "Text_MakingDishes_Text",
     "TitleSpritePath": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconCooking.SP_IconCooking",
     "ContentSpritePath": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_BlackIconCooking.SP_BlackIconCooking",
     "CostItemList": null,
@@ -165,6 +165,18 @@
     "ContentSpritePath": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_BlackIconDrug.SP_BlackIconDrug",
     "CostItemList": [
       2
+    ],
+    "IsHelpButtonVisible": false,
+    "HelpGroupId": 0
+  },
+  {
+    "Id": 10113,
+    "ViewName": "ShopView10113",
+    "Title": "NpcSystemBackground_10104_Title",
+    "TitleSpritePath": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconGift.SP_IconGift",
+    "ContentSpritePath": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_BlackIconGift.SP_BlackIconGift",
+    "CostItemList": [
+      44010025
     ],
     "IsHelpButtonVisible": false,
     "HelpGroupId": 0

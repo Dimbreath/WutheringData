@@ -1672,7 +1672,7 @@
     "AttributesDescriptionParams": [
       "4"
     ],
-    "NodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_QiushuiM1_UI.T_IconDevice_QiushuiM2_UI"
+    "NodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_QiushuiM1_UI.T_IconDevice_QiushuiM1_UI"
   },
   {
     "Id": 68,
@@ -1697,7 +1697,7 @@
       "100%",
       "15%"
     ],
-    "NodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_QiushuiM2_UI.T_IconDevice_QiushuiM1_UI"
+    "NodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_QiushuiM2_UI.T_IconDevice_QiushuiM2_UI"
   },
   {
     "Id": 69,
@@ -2679,5 +2679,305 @@
       "556.67%"
     ],
     "NodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_JianxinM6_UI.T_IconDevice_JianxinM6_UI"
+  },
+  {
+    "Id": 115,
+    "GroupId": 1304,
+    "GroupIndex": 1,
+    "NodeType": 1,
+    "NodeIndex": "ResonantChain_460_NodeIndex",
+    "NodeName": "ResonantChain_115_NodeName",
+    "AttributesDescription": "ResonantChain_115_AttributesDescription",
+    "BgDescription": "PrefabTextItem_Empty_Text",
+    "BuffIds": [
+      1304900100
+    ],
+    "AddProp": null,
+    "ActivateConsume": [
+      {
+        "Key": 10001304,
+        "Value": 1
+      }
+    ],
+    "AttributesDescriptionParams": [
+      "4",
+      "6",
+      "20%"
+    ],
+    "NodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_JinxiM1_UI.T_IconDevice_JinxiM1_UI"
+  },
+  {
+    "Id": 116,
+    "GroupId": 1304,
+    "GroupIndex": 2,
+    "NodeType": 1,
+    "NodeIndex": "ResonantChain_464_NodeIndex",
+    "NodeName": "ResonantChain_116_NodeName",
+    "AttributesDescription": "ResonantChain_116_AttributesDescription",
+    "BgDescription": "PrefabTextItem_Empty_Text",
+    "BuffIds": [
+      1304900200
+    ],
+    "AddProp": null,
+    "ActivateConsume": [
+      {
+        "Key": 10001304,
+        "Value": 1
+      }
+    ],
+    "AttributesDescriptionParams": [
+      "4",
+      "50",
+      "4",
+      "1"
+    ],
+    "NodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_JinxiM2_UI.T_IconDevice_JinxiM2_UI"
+  },
+  {
+    "Id": 117,
+    "GroupId": 1304,
+    "GroupIndex": 3,
+    "NodeType": 1,
+    "NodeIndex": "ResonantChain_468_NodeIndex",
+    "NodeName": "ResonantChain_117_NodeName",
+    "AttributesDescription": "ResonantChain_117_AttributesDescription",
+    "BgDescription": "PrefabTextItem_Empty_Text",
+    "BuffIds": [
+      1304900300
+    ],
+    "AddProp": null,
+    "ActivateConsume": [
+      {
+        "Key": 10001304,
+        "Value": 1
+      }
+    ],
+    "AttributesDescriptionParams": [
+      "25%",
+      "2",
+      "20"
+    ],
+    "NodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_JinxiM3_UI.T_IconDevice_JinxiM3_UI"
+  },
+  {
+    "Id": 118,
+    "GroupId": 1304,
+    "GroupIndex": 4,
+    "NodeType": 1,
+    "NodeIndex": "ResonantChain_472_NodeIndex",
+    "NodeName": "ResonantChain_118_NodeName",
+    "AttributesDescription": "ResonantChain_118_AttributesDescription",
+    "BgDescription": "PrefabTextItem_Empty_Text",
+    "BuffIds": [
+      1304900400
+    ],
+    "AddProp": null,
+    "ActivateConsume": [
+      {
+        "Key": 10001304,
+        "Value": 1
+      }
+    ],
+    "AttributesDescriptionParams": [
+      "20%",
+      "20"
+    ],
+    "NodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_JinxiM4_UI.T_IconDevice_JinxiM4_UI"
+  },
+  {
+    "Id": 119,
+    "GroupId": 1304,
+    "GroupIndex": 5,
+    "NodeType": 1,
+    "NodeIndex": "ResonantChain_476_NodeIndex",
+    "NodeName": "ResonantChain_119_NodeName",
+    "AttributesDescription": "ResonantChain_119_AttributesDescription",
+    "BgDescription": "PrefabTextItem_Empty_Text",
+    "BuffIds": [
+      1304900500
+    ],
+    "AddProp": null,
+    "ActivateConsume": [
+      {
+        "Key": 10001304,
+        "Value": 1
+      }
+    ],
+    "AttributesDescriptionParams": [
+      "120%"
+    ],
+    "NodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_JinxiM5_UI.T_IconDevice_JinxiM5_UI"
+  },
+  {
+    "Id": 120,
+    "GroupId": 1304,
+    "GroupIndex": 6,
+    "NodeType": 1,
+    "NodeIndex": "ResonantChain_480_NodeIndex",
+    "NodeName": "ResonantChain_120_NodeName",
+    "AttributesDescription": "ResonantChain_120_AttributesDescription",
+    "BgDescription": "PrefabTextItem_Empty_Text",
+    "BuffIds": [
+      1304900600
+    ],
+    "AddProp": null,
+    "ActivateConsume": [
+      {
+        "Key": 10001304,
+        "Value": 1
+      }
+    ],
+    "AttributesDescriptionParams": [
+      "45%",
+      "45%"
+    ],
+    "NodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_JinxiM6_UI.T_IconDevice_JinxiM6_UI"
+  },
+  {
+    "Id": 121,
+    "GroupId": 1205,
+    "GroupIndex": 1,
+    "NodeType": 1,
+    "NodeIndex": "ResonantChain_484_NodeIndex",
+    "NodeName": "ResonantChain_121_NodeName",
+    "AttributesDescription": "ResonantChain_121_AttributesDescription",
+    "BgDescription": "PrefabTextItem_Empty_Text",
+    "BuffIds": [
+      1205900110
+    ],
+    "AddProp": null,
+    "ActivateConsume": [
+      {
+        "Key": 10001205,
+        "Value": 1
+      }
+    ],
+    "AttributesDescriptionParams": [
+      "10%"
+    ],
+    "NodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_ChangliM1_UI.T_IconDevice_ChangliM1_UI"
+  },
+  {
+    "Id": 122,
+    "GroupId": 1205,
+    "GroupIndex": 2,
+    "NodeType": 1,
+    "NodeIndex": "ResonantChain_488_NodeIndex",
+    "NodeName": "ResonantChain_122_NodeName",
+    "AttributesDescription": "ResonantChain_122_AttributesDescription",
+    "BgDescription": "PrefabTextItem_Empty_Text",
+    "BuffIds": [
+      1205900210
+    ],
+    "AddProp": null,
+    "ActivateConsume": [
+      {
+        "Key": 10001205,
+        "Value": 1
+      }
+    ],
+    "AttributesDescriptionParams": [
+      "25%",
+      "8"
+    ],
+    "NodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_ChangliM2_UI.T_IconDevice_ChangliM2_UI"
+  },
+  {
+    "Id": 123,
+    "GroupId": 1205,
+    "GroupIndex": 3,
+    "NodeType": 1,
+    "NodeIndex": "ResonantChain_492_NodeIndex",
+    "NodeName": "ResonantChain_123_NodeName",
+    "AttributesDescription": "ResonantChain_123_AttributesDescription",
+    "BgDescription": "PrefabTextItem_Empty_Text",
+    "BuffIds": [
+      1205900310
+    ],
+    "AddProp": null,
+    "ActivateConsume": [
+      {
+        "Key": 10001205,
+        "Value": 1
+      }
+    ],
+    "AttributesDescriptionParams": [
+      "80%"
+    ],
+    "NodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_ChangliM3_UI.T_IconDevice_ChangliM3_UI"
+  },
+  {
+    "Id": 124,
+    "GroupId": 1205,
+    "GroupIndex": 4,
+    "NodeType": 1,
+    "NodeIndex": "ResonantChain_496_NodeIndex",
+    "NodeName": "ResonantChain_124_NodeName",
+    "AttributesDescription": "ResonantChain_124_AttributesDescription",
+    "BgDescription": "PrefabTextItem_Empty_Text",
+    "BuffIds": [
+      1205900410
+    ],
+    "AddProp": null,
+    "ActivateConsume": [
+      {
+        "Key": 10001205,
+        "Value": 1
+      }
+    ],
+    "AttributesDescriptionParams": [
+      "20%",
+      "30"
+    ],
+    "NodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_ChangliM4_UI.T_IconDevice_ChangliM4_UI"
+  },
+  {
+    "Id": 125,
+    "GroupId": 1205,
+    "GroupIndex": 5,
+    "NodeType": 1,
+    "NodeIndex": "ResonantChain_500_NodeIndex",
+    "NodeName": "ResonantChain_125_NodeName",
+    "AttributesDescription": "ResonantChain_125_AttributesDescription",
+    "BgDescription": "PrefabTextItem_Empty_Text",
+    "BuffIds": [
+      1205900510
+    ],
+    "AddProp": null,
+    "ActivateConsume": [
+      {
+        "Key": 10001205,
+        "Value": 1
+      }
+    ],
+    "AttributesDescriptionParams": [
+      "50%",
+      "50%"
+    ],
+    "NodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_ChangliM5_UI.T_IconDevice_ChangliM5_UI"
+  },
+  {
+    "Id": 126,
+    "GroupId": 1205,
+    "GroupIndex": 6,
+    "NodeType": 1,
+    "NodeIndex": "ResonantChain_504_NodeIndex",
+    "NodeName": "ResonantChain_126_NodeName",
+    "AttributesDescription": "ResonantChain_126_AttributesDescription",
+    "BgDescription": "PrefabTextItem_Empty_Text",
+    "BuffIds": [
+      1205900610
+    ],
+    "AddProp": null,
+    "ActivateConsume": [
+      {
+        "Key": 10001205,
+        "Value": 1
+      }
+    ],
+    "AttributesDescriptionParams": [
+      "40%"
+    ],
+    "NodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconDevice/T_IconDevice_ChangliM6_UI.T_IconDevice_ChangliM6_UI"
   }
 ]

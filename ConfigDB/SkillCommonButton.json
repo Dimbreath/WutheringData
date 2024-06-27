@@ -5,7 +5,12 @@
     "ButtonType": 1,
     "ActionType": 1,
     "SkillId": 100010,
-    "SkillIdTagMap": null,
+    "SkillIdTagMap": [
+      {
+        "Key": "角色.R2T1ChangLiMd10011.buff相关.心眼",
+        "Value": 1205106
+      }
+    ],
     "SkillIconTags": [
       "幻象.声骸角色.叮咚咚.跳跃"
     ],
@@ -23,7 +28,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "角色.R2T1ChangLiMd10011.buff相关.心眼",
+        "Value": 12051310
+      }
+    ]
   },
   {
     "Id": 1001,
@@ -170,6 +180,10 @@
       {
         "Key": "角色.Common.技能通用标识.拉取巨物可用",
         "Value": 1002
+      },
+      {
+        "Key": "行为状态.逻辑状态.拍照装备中",
+        "Value": 1003
       }
     ]
   },

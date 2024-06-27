@@ -611,7 +611,7 @@
     "LightSequence": ""
   },
   {
-    "Id": 55,
+    "Id": 57,
     "ParentViewName": "RoguelikeAchievementView",
     "ChildViewName": "RoguelikeAchievementView",
     "TabName": "Achievement_Rogue_Name",
@@ -620,20 +620,7 @@
     "UiCameraSettingsName": "",
     "UiCameraBlendName": "",
     "BackViewBlendName": "",
-    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconRogueSpeComplete.SP_IconRogueSpeComplete",
-    "LightSequence": ""
-  },
-  {
-    "Id": 57,
-    "ParentViewName": "RoguelikeAchievementView",
-    "ChildViewName": "RoguelikeAchievementView",
-    "TabName": "Achievement_Rogue_Name",
-    "TabIndex": 4,
-    "FunctionId": 0,
-    "UiCameraSettingsName": "",
-    "UiCameraBlendName": "",
-    "BackViewBlendName": "",
-    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconRogueRoleComplete.SP_IconRogueRoleComplete",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconRogueUnlock.SP_IconRogueUnlock",
     "LightSequence": ""
   },
   {
@@ -660,6 +647,58 @@
     "UiCameraBlendName": "",
     "BackViewBlendName": "",
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_VisionbookRecovery.SP_VisionbookRecovery",
+    "LightSequence": ""
+  },
+  {
+    "Id": 60,
+    "ParentViewName": "BossRushMainView",
+    "ChildViewName": "BossRushSelectView",
+    "TabName": "",
+    "TabIndex": 1,
+    "FunctionId": 0,
+    "UiCameraSettingsName": "",
+    "UiCameraBlendName": "",
+    "BackViewBlendName": "",
+    "Icon": "",
+    "LightSequence": ""
+  },
+  {
+    "Id": 61,
+    "ParentViewName": "BossRushMainView",
+    "ChildViewName": "BossRushLevelDetailView",
+    "TabName": "",
+    "TabIndex": 2,
+    "FunctionId": 0,
+    "UiCameraSettingsName": "",
+    "UiCameraBlendName": "",
+    "BackViewBlendName": "",
+    "Icon": "",
+    "LightSequence": ""
+  },
+  {
+    "Id": 62,
+    "ParentViewName": "BossRushMainView",
+    "ChildViewName": "BossRushBuffSelectView",
+    "TabName": "",
+    "TabIndex": 3,
+    "FunctionId": 0,
+    "UiCameraSettingsName": "",
+    "UiCameraBlendName": "",
+    "BackViewBlendName": "",
+    "Icon": "",
+    "LightSequence": ""
+  },
+  {
+    "Id": 55,
+    "ParentViewName": "RoguelikeAchievementView",
+    "ChildViewName": "RoguelikeAchievementView",
+    "TabName": "Achievement_Rogue_Name",
+    "TabIndex": 3,
+    "FunctionId": 0,
+    "UiCameraSettingsName": "",
+    "UiCameraBlendName": "",
+    "BackViewBlendName": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconRogueRoleComplete.SP_IconRogueRoleComplete",
     "LightSequence": ""
   }
 ]

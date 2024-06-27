@@ -2638,6 +2638,21 @@
     "NeedClose": true
   },
   {
+    "Id": 180,
+    "Title": "ConfirmBox_180_Title",
+    "Content": "ConfirmBox_180_Content",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_180_ButtonText_0",
+      "ConfirmBox_180_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": false,
+    "UiShowType": 0,
+    "NeedClose": true
+  },
+  {
     "Id": 181,
     "Title": "ConfirmBox_180_Title",
     "Content": "ConfirmBox_181_Content",
@@ -2710,24 +2725,65 @@
     "NeedClose": true
   },
   {
-    "Id": 180,
-    "Title": "ConfirmBox_180_Title",
-    "Content": "ConfirmBox_180_Content",
+    "Id": 186,
+    "Title": "ConfirmBox_186_Title",
+    "Content": "ConfirmBox_186_Content",
     "SecondaryContent": "",
-    "ButtonText": [
-      "ConfirmBox_180_ButtonText_0",
-      "ConfirmBox_180_ButtonText_1"
-    ],
+    "ButtonText": null,
     "DelayTime": 0,
     "DelayButtonIndex": 0,
     "NeedMaskClose": false,
+    "UiShowType": 0,
+    "NeedClose": false
+  },
+  {
+    "Id": 188,
+    "Title": "ConfirmBox_1_Title",
+    "Content": "Bossrush_TeamNotFull_Text",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_1_ButtonText_0",
+      "ConfirmBox_1_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": true,
+    "UiShowType": 0,
+    "NeedClose": true
+  },
+  {
+    "Id": 189,
+    "Title": "ConfirmBox_189_Title",
+    "Content": "ConfirmBox_189_Content",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_100_ButtonText_0",
+      "ConfirmBox_100_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": true,
     "UiShowType": 0,
     "NeedClose": true
   },
   {
     "Id": 195,
-    "Title": "ConfirmBox_1_Title",
+    "Title": "ConfirmBox_195_Title",
     "Content": "ConfirmBox_195_Content",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_195_ButtonText_0"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": true,
+    "UiShowType": 0,
+    "NeedClose": true
+  },
+  {
+    "Id": 200,
+    "Title": "ConfirmBox_1_Title",
+    "Content": "ConfirmBox_200_Content",
     "SecondaryContent": "",
     "ButtonText": [
       "ConfirmBox_1_ButtonText_0",

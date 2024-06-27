@@ -264,6 +264,27 @@
     "SortIndex": 11
   },
   {
+    "AreaId": 14,
+    "Level": 2,
+    "CountryId": 1,
+    "DeliveryMarkId": 1014,
+    "AreaName": "MapAreaVolume_CXS",
+    "Title": "Area_14_Title",
+    "Father": 1,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 0,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": null,
+    "WuYinQuId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "/Game/Aki/Data/PathLine/Pathline_EdgeWall/BP_BasePathLine_Edgewall.BP_BasePathLine_Edgewall",
+    "DeliveryMarkType": 1,
+    "SortIndex": 12
+  },
+  {
     "AreaId": 100,
     "Level": 4,
     "CountryId": 1,
@@ -3736,7 +3757,7 @@
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
     "AtmosphereId": 0,
-    "EdgeWallName": "/Game/Aki/Data/PathLine/Pathline_EdgeWall/BP_BasePathLine_Edgewall_1-0_BLY.BP_BasePathLine_Edgewall_1-0_BLY",
+    "EdgeWallName": "/Game/Aki/Data/PathLine/Pathline_EdgeWall/BP_BasePathLine_Edgewall_1-1.BP_BasePathLine_Edgewall_1-1",
     "DeliveryMarkType": 0,
     "SortIndex": 0
   },
@@ -3788,6 +3809,321 @@
         "Value": 91
       }
     ],
+    "WuYinQuId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1601,
+    "Level": 4,
+    "CountryId": 1,
+    "DeliveryMarkId": 0,
+    "AreaName": "MapAreaVolume_CXS_XJL_YBYJ_Top",
+    "Title": "Area_1601_Title",
+    "Father": 1612,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": null,
+    "WuYinQuId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1602,
+    "Level": 4,
+    "CountryId": 1,
+    "DeliveryMarkId": 0,
+    "AreaName": "MapAreaVolume_CXS_XJL_YBYJ_Middle",
+    "Title": "Area_1602_Title",
+    "Father": 1612,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": null,
+    "WuYinQuId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1603,
+    "Level": 4,
+    "CountryId": 1,
+    "DeliveryMarkId": 0,
+    "AreaName": "MapAreaVolume_CXS_XJL_YBYJ_Bottom",
+    "Title": "Area_1603_Title",
+    "Father": 1612,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": null,
+    "WuYinQuId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1611,
+    "Level": 3,
+    "CountryId": 1,
+    "DeliveryMarkId": 201101,
+    "AreaName": "MapAreaVolume_CXS_XGT",
+    "Title": "Area_1611_Title",
+    "Father": 14,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": null,
+    "WuYinQuId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1612,
+    "Level": 3,
+    "CountryId": 1,
+    "DeliveryMarkId": 201102,
+    "AreaName": "MapAreaVolume_CXS_XJL",
+    "Title": "Area_1612_Title",
+    "Father": 14,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": null,
+    "WuYinQuId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1613,
+    "Level": 3,
+    "CountryId": 1,
+    "DeliveryMarkId": 201103,
+    "AreaName": "MapAreaVolume_CXS_HZ",
+    "Title": "Area_1613_Title",
+    "Father": 14,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": null,
+    "WuYinQuId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1614,
+    "Level": 3,
+    "CountryId": 1,
+    "DeliveryMarkId": 201104,
+    "AreaName": "MapAreaVolume_CXS_TQM",
+    "Title": "Area_1614_Title",
+    "Father": 14,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": null,
+    "WuYinQuId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1615,
+    "Level": 3,
+    "CountryId": 1,
+    "DeliveryMarkId": 201105,
+    "AreaName": "MapAreaVolume_CXS_YLJ",
+    "Title": "Area_1615_Title",
+    "Father": 14,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": null,
+    "WuYinQuId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1616,
+    "Level": 3,
+    "CountryId": 1,
+    "DeliveryMarkId": 201106,
+    "AreaName": "MapAreaVolume_CXS_WLG",
+    "Title": "Area_1616_Title",
+    "Father": 14,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": null,
+    "WuYinQuId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1617,
+    "Level": 3,
+    "CountryId": 1,
+    "DeliveryMarkId": 201107,
+    "AreaName": "MapAreaVolume_CXS_PLY",
+    "Title": "Area_1617_Title",
+    "Father": 14,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": null,
+    "WuYinQuId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1631,
+    "Level": 4,
+    "CountryId": 1,
+    "DeliveryMarkId": 0,
+    "AreaName": "MapAreaVolume_CXS_TQM_HMQ_Top",
+    "Title": "Area_1631_Title",
+    "Father": 1614,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": null,
+    "WuYinQuId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1632,
+    "Level": 4,
+    "CountryId": 1,
+    "DeliveryMarkId": 0,
+    "AreaName": "MapAreaVolume_CXS_TQM_HMQ_Middle",
+    "Title": "Area_1632_Title",
+    "Father": 1614,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": null,
+    "WuYinQuId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1633,
+    "Level": 4,
+    "CountryId": 1,
+    "DeliveryMarkId": 0,
+    "AreaName": "MapAreaVolume_CXS_TQM_HMQ_Bottom",
+    "Title": "Area_1633_Title",
+    "Father": 1614,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": null,
+    "WuYinQuId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1641,
+    "Level": 4,
+    "CountryId": 1,
+    "DeliveryMarkId": 0,
+    "AreaName": "MapAreaVolume_CXS_WLG_MLT_Top",
+    "Title": "Area_1641_Title",
+    "Father": 1616,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": null,
+    "WuYinQuId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1642,
+    "Level": 4,
+    "CountryId": 1,
+    "DeliveryMarkId": 0,
+    "AreaName": "MapAreaVolume_CXS_WLG_MLT_Bottom",
+    "Title": "Area_1642_Title",
+    "Father": 1616,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",

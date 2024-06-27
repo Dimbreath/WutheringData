@@ -1686,5 +1686,101 @@
     "RoleList": null,
     "ComposeContent": "",
     "ComposeBackground": ""
+  },
+  {
+    "Id": 8,
+    "FormulaItemId": 0,
+    "ItemId": 36000001,
+    "FormulaType": 2,
+    "Name": "1级声骸经验",
+    "ConsumeItems": [
+      {
+        "ItemId": 42500090,
+        "Count": 3
+      },
+      {
+        "ItemId": 2,
+        "Count": 1500
+      }
+    ],
+    "UnlockCondition": 0,
+    "Proficiency": 0,
+    "MaxProficiencyCount": 0,
+    "TypeId": 4,
+    "Unlock": true,
+    "LimitCount": 8,
+    "RoleList": null,
+    "ComposeContent": "",
+    "ComposeBackground": ""
+  },
+  {
+    "Id": 9,
+    "FormulaItemId": 0,
+    "ItemId": 36000002,
+    "FormulaType": 2,
+    "Name": "2级声骸经验",
+    "ConsumeItems": [
+      {
+        "ItemId": 42500090,
+        "Count": 6
+      },
+      {
+        "ItemId": 2,
+        "Count": 2500
+      }
+    ],
+    "UnlockCondition": 0,
+    "Proficiency": 0,
+    "MaxProficiencyCount": 0,
+    "TypeId": 4,
+    "Unlock": true,
+    "LimitCount": 8,
+    "RoleList": null,
+    "ComposeContent": "",
+    "ComposeBackground": ""
+  },
+  {
+    "Id": 10,
+    "FormulaItemId": 0,
+    "ItemId": 36000013,
+    "FormulaType": 2,
+    "Name": "4级鉴定器",
+    "ConsumeItems": [
+      {
+        "ItemId": 36000012,
+        "Count": 5
+      }
+    ],
+    "UnlockCondition": 0,
+    "Proficiency": 0,
+    "MaxProficiencyCount": 0,
+    "TypeId": 4,
+    "Unlock": true,
+    "LimitCount": 0,
+    "RoleList": null,
+    "ComposeContent": "",
+    "ComposeBackground": ""
+  },
+  {
+    "Id": 11,
+    "FormulaItemId": 0,
+    "ItemId": 36000014,
+    "FormulaType": 2,
+    "Name": "5级鉴定器",
+    "ConsumeItems": [
+      {
+        "ItemId": 36000013,
+        "Count": 5
+      }
+    ],
+    "UnlockCondition": 0,
+    "Proficiency": 0,
+    "MaxProficiencyCount": 0,
+    "TypeId": 4,
+    "Unlock": true,
+    "LimitCount": 0,
+    "RoleList": null,
+    "ComposeContent": "",
+    "ComposeBackground": ""
   }
 ]

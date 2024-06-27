@@ -2486,7 +2486,7 @@
       "普攻"
     ],
     "AddBuffId": [
-      621310211
+      621310212
     ]
   },
   {
@@ -4290,7 +4290,8 @@
     ],
     "AddBuffId": [
       621310215,
-      621310220
+      621310220,
+      1301999001
     ]
   },
   {
@@ -4533,9 +4534,7 @@
     "CommandId": [
       13020601
     ],
-    "GuideId": [
-      2429146
-    ],
+    "GuideId": null,
     "InputEnums": [
       "大招",
       "普攻"
@@ -4902,7 +4901,727 @@
       "普攻"
     ],
     "AddBuffId": [
-      621310211
+      621310212
+    ]
+  },
+  {
+    "Id": 12050101,
+    "NextRoleGuideId": 0,
+    "KeyId": [
+      "攻击;1205001",
+      "攻击;1205001",
+      "攻击;1205001",
+      "攻击;1205001",
+      "攻击;1205001"
+    ],
+    "IconText": [
+      "ComboTeaching_99990001_IconText_0",
+      "ComboTeaching_99990001_IconText_1",
+      "ComboTeaching_99990001_IconText_2",
+      "ComboTeaching_99990001_IconText_3",
+      "ComboTeaching_12050401_IconText_0"
+    ],
+    "IconTagText": null,
+    "DescriptionTitle": "ComboTeaching_12050101_DescriptionTitle",
+    "DescriptionContent": "ComboTeaching_12050101_DescriptionContent",
+    "CommandId": [
+      12050101,
+      12050102,
+      12050103,
+      12050104,
+      12050105
+    ],
+    "GuideId": null,
+    "InputEnums": [
+      "普攻"
+    ],
+    "AddBuffId": [
+      621310221,
+      622910015
+    ]
+  },
+  {
+    "Id": 12050402,
+    "NextRoleGuideId": 0,
+    "KeyId": [
+      "跳跃;100010",
+      "攻击;1205001",
+      "攻击;1205001",
+      "攻击;1205001",
+      "攻击;1205001",
+      "攻击;1205001",
+      "攻击;1205001"
+    ],
+    "IconText": [
+      "ComboTeaching_99990004_IconText_0",
+      "ComboTeaching_99990001_IconText_0",
+      "ComboTeaching_99990001_IconText_1",
+      "ComboTeaching_99990001_IconText_2",
+      "ComboTeaching_99990001_IconText_3",
+      "ComboTeaching_12050401_IconText_1",
+      "ComboTeaching_12050401_IconText_2"
+    ],
+    "IconTagText": null,
+    "DescriptionTitle": "ComboTeaching_12050402_DescriptionTitle",
+    "DescriptionContent": "ComboTeaching_12050402_DescriptionContent",
+    "CommandId": [
+      12050201,
+      12050202,
+      12050203,
+      12050204,
+      12050205,
+      12050206,
+      12050207
+    ],
+    "GuideId": null,
+    "InputEnums": [
+      "普攻",
+      "跳跃"
+    ],
+    "AddBuffId": [
+      621310221
+    ]
+  },
+  {
+    "Id": 12050403,
+    "NextRoleGuideId": 0,
+    "KeyId": [
+      "攻击#0.2;1205001",
+      "攻击;1205001",
+      "攻击;1205001",
+      "攻击;1205001",
+      "攻击;1205001",
+      "攻击;1205001",
+      "攻击;1205001",
+      "攻击;1205001"
+    ],
+    "IconText": [
+      "ComboTeaching_99990003_IconText_0",
+      "ComboTeaching_99990001_IconText_2",
+      "ComboTeaching_99990001_IconText_3",
+      "ComboTeaching_12050401_IconText_1",
+      "ComboTeaching_12050401_IconText_2",
+      "ComboTeaching_99990001_IconText_2",
+      "ComboTeaching_99990001_IconText_3",
+      "ComboTeaching_12050401_IconText_0"
+    ],
+    "IconTagText": [
+      "ComboTeaching_99990001_IconTagText_0",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "DescriptionTitle": "ComboTeaching_12050403_DescriptionTitle",
+    "DescriptionContent": "ComboTeaching_12050403_DescriptionContent",
+    "CommandId": [
+      12050301,
+      12050204,
+      12050205,
+      12050206,
+      12050207,
+      12050103,
+      12050104,
+      12050105
+    ],
+    "GuideId": null,
+    "InputEnums": [
+      "普攻"
+    ],
+    "AddBuffId": [
+      621310221
+    ]
+  },
+  {
+    "Id": 12050301,
+    "NextRoleGuideId": 0,
+    "KeyId": [
+      "技能;1205201",
+      "攻击;1205001"
+    ],
+    "IconText": [
+      "ComboTeaching_99990002_IconText_0",
+      "ComboTeaching_12050401_IconText_0"
+    ],
+    "IconTagText": null,
+    "DescriptionTitle": "ComboTeaching_12050301_DescriptionTitle",
+    "DescriptionContent": "ComboTeaching_12050301_DescriptionContent",
+    "CommandId": [
+      12050401,
+      12050105
+    ],
+    "GuideId": null,
+    "InputEnums": [
+      "普攻",
+      "技能"
+    ],
+    "AddBuffId": [
+      621310219,
+      621310221
+    ]
+  },
+  {
+    "Id": 12050401,
+    "NextRoleGuideId": 0,
+    "KeyId": [
+      "技能;1205201",
+      "跳跃;100010"
+    ],
+    "IconText": [
+      "ComboTeaching_99990002_IconText_0",
+      "ComboTeaching_12050401_IconText_1"
+    ],
+    "IconTagText": null,
+    "DescriptionTitle": "ComboTeaching_12050401_DescriptionTitle",
+    "DescriptionContent": "ComboTeaching_12050401_DescriptionContent",
+    "CommandId": [
+      12050401,
+      12050501
+    ],
+    "GuideId": null,
+    "InputEnums": [
+      "跳跃",
+      "技能"
+    ],
+    "AddBuffId": [
+      621310219,
+      621310221
+    ]
+  },
+  {
+    "Id": 12050201,
+    "NextRoleGuideId": 0,
+    "KeyId": [
+      "攻击;1205001",
+      "攻击;1205001",
+      "攻击;1205001",
+      "攻击;1205001",
+      "跳跃;100010"
+    ],
+    "IconText": [
+      "ComboTeaching_99990001_IconText_0",
+      "ComboTeaching_99990001_IconText_1",
+      "ComboTeaching_99990001_IconText_2",
+      "ComboTeaching_99990001_IconText_3",
+      "ComboTeaching_12050401_IconText_1"
+    ],
+    "IconTagText": null,
+    "DescriptionTitle": "ComboTeaching_12050201_DescriptionTitle",
+    "DescriptionContent": "ComboTeaching_12050201_DescriptionContent",
+    "CommandId": [
+      12050101,
+      12050102,
+      12050103,
+      12050104,
+      12050501
+    ],
+    "GuideId": null,
+    "InputEnums": [
+      "普攻",
+      "跳跃"
+    ],
+    "AddBuffId": [
+      621310219,
+      621310221,
+      622910031
+    ]
+  },
+  {
+    "Id": 12050501,
+    "NextRoleGuideId": 0,
+    "KeyId": [
+      "攻击#0.2;1205001"
+    ],
+    "IconText": [
+      "ComboTeaching_99990003_IconText_0"
+    ],
+    "IconTagText": [
+      "ComboTeaching_99990001_IconTagText_0"
+    ],
+    "DescriptionTitle": "ComboTeaching_12050501_DescriptionTitle",
+    "DescriptionContent": "ComboTeaching_12050501_DescriptionContent",
+    "CommandId": [
+      12050601
+    ],
+    "GuideId": null,
+    "InputEnums": [
+      "普攻"
+    ],
+    "AddBuffId": [
+      1101002006,
+      1101007020
+    ]
+  },
+  {
+    "Id": 12050601,
+    "NextRoleGuideId": 0,
+    "KeyId": [
+      "大招;1205401",
+      "攻击#0.2;1205001"
+    ],
+    "IconText": [
+      "ComboTeaching_99990006_IconText_0",
+      "ComboTeaching_99990003_IconText_0"
+    ],
+    "IconTagText": null,
+    "DescriptionTitle": "ComboTeaching_12050601_DescriptionTitle",
+    "DescriptionContent": "ComboTeaching_12050601_DescriptionContent",
+    "CommandId": [
+      12050701,
+      12050601
+    ],
+    "GuideId": null,
+    "InputEnums": [
+      "大招",
+      "普攻"
+    ],
+    "AddBuffId": [
+      621310215,
+      621310220
+    ]
+  },
+  {
+    "Id": 13040101,
+    "NextRoleGuideId": 0,
+    "KeyId": [
+      "攻击;1304001",
+      "攻击;1304001",
+      "攻击;1304001",
+      "攻击;1304001"
+    ],
+    "IconText": [
+      "ComboTeaching_99990001_IconText_0",
+      "ComboTeaching_99990001_IconText_1",
+      "ComboTeaching_99990001_IconText_2",
+      "ComboTeaching_99990001_IconText_3"
+    ],
+    "IconTagText": null,
+    "DescriptionTitle": "ComboTeaching_13040101_DescriptionTitle",
+    "DescriptionContent": "ComboTeaching_13040101_DescriptionContent",
+    "CommandId": [
+      13040101,
+      13040102,
+      13040103,
+      13040104
+    ],
+    "GuideId": null,
+    "InputEnums": [
+      "普攻"
+    ],
+    "AddBuffId": [
+      621310221
+    ]
+  },
+  {
+    "Id": 13040201,
+    "NextRoleGuideId": 0,
+    "KeyId": [
+      "跳跃;100010",
+      "攻击;1304001"
+    ],
+    "IconText": [
+      "ComboTeaching_99990004_IconText_0",
+      "ComboTeaching_99990005_IconText_0"
+    ],
+    "IconTagText": null,
+    "DescriptionTitle": "ComboTeaching_13040201_DescriptionTitle",
+    "DescriptionContent": "ComboTeaching_13040201_DescriptionContent",
+    "CommandId": [
+      13040201,
+      13040202
+    ],
+    "GuideId": null,
+    "InputEnums": [
+      "普攻",
+      "跳跃"
+    ],
+    "AddBuffId": [
+      621310221
+    ]
+  },
+  {
+    "Id": 13040301,
+    "NextRoleGuideId": 0,
+    "KeyId": [
+      "攻击#0.2;1304001"
+    ],
+    "IconText": [
+      "ComboTeaching_99990003_IconText_0"
+    ],
+    "IconTagText": [
+      "ComboTeaching_99990001_IconTagText_0"
+    ],
+    "DescriptionTitle": "ComboTeaching_13040301_DescriptionTitle",
+    "DescriptionContent": "ComboTeaching_13040301_DescriptionContent",
+    "CommandId": [
+      13040301
+    ],
+    "GuideId": null,
+    "InputEnums": [
+      "普攻"
+    ],
+    "AddBuffId": [
+      621310221
+    ]
+  },
+  {
+    "Id": 13040401,
+    "NextRoleGuideId": 0,
+    "KeyId": [
+      "技能;1304200"
+    ],
+    "IconText": [
+      "ComboTeaching_99990002_IconText_0"
+    ],
+    "IconTagText": null,
+    "DescriptionTitle": "ComboTeaching_13040401_DescriptionTitle",
+    "DescriptionContent": "ComboTeaching_13040401_DescriptionContent",
+    "CommandId": [
+      13040401
+    ],
+    "GuideId": null,
+    "InputEnums": [
+      "技能"
+    ],
+    "AddBuffId": [
+      621310219,
+      621310221
+    ]
+  },
+  {
+    "Id": 13040501,
+    "NextRoleGuideId": 0,
+    "KeyId": [
+      "攻击;1304001",
+      "攻击;1304001",
+      "攻击;1304001",
+      "攻击;1304001",
+      "技能;1304210"
+    ],
+    "IconText": [
+      "ComboTeaching_99990001_IconText_0",
+      "ComboTeaching_99990001_IconText_1",
+      "ComboTeaching_99990001_IconText_2",
+      "ComboTeaching_99990001_IconText_3",
+      "ComboTeaching_13040401_IconText_4"
+    ],
+    "IconTagText": null,
+    "DescriptionTitle": "ComboTeaching_13040501_DescriptionTitle",
+    "DescriptionContent": "ComboTeaching_13040501_DescriptionContent",
+    "CommandId": [
+      13040101,
+      13040102,
+      13040103,
+      13040104,
+      13040402
+    ],
+    "GuideId": null,
+    "InputEnums": [
+      "普攻",
+      "技能"
+    ],
+    "AddBuffId": [
+      621310219,
+      621310221,
+      1304999999,
+      622910015
+    ]
+  },
+  {
+    "Id": 13040502,
+    "NextRoleGuideId": 0,
+    "KeyId": [
+      "攻击;1304001",
+      "攻击;1304001",
+      "攻击;1304001",
+      "攻击;1304001",
+      "技能;1304210",
+      "技能;1304110"
+    ],
+    "IconText": [
+      "ComboTeaching_99990001_IconText_0",
+      "ComboTeaching_99990001_IconText_1",
+      "ComboTeaching_99990001_IconText_2",
+      "ComboTeaching_99990001_IconText_3",
+      "ComboTeaching_13040401_IconText_4",
+      "ComboTeaching_13040502_IconText_0"
+    ],
+    "IconTagText": null,
+    "DescriptionTitle": "ComboTeaching_13040502_DescriptionTitle",
+    "DescriptionContent": "ComboTeaching_13040502_DescriptionContent",
+    "CommandId": [
+      13040101,
+      13040102,
+      13040103,
+      13040104,
+      13040402,
+      13040701
+    ],
+    "GuideId": null,
+    "InputEnums": [
+      "普攻",
+      "技能"
+    ],
+    "AddBuffId": [
+      621310219,
+      621310221,
+      1304999999
+    ]
+  },
+  {
+    "Id": 13040503,
+    "NextRoleGuideId": 0,
+    "KeyId": [
+      "跳跃;100010",
+      "攻击#0.2;1304001"
+    ],
+    "IconText": [
+      "ComboTeaching_99990004_IconText_0",
+      "ComboTeaching_99990005_IconText_0"
+    ],
+    "IconTagText": [
+      "",
+      "ComboTeaching_99990001_IconTagText_0"
+    ],
+    "DescriptionTitle": "ComboTeaching_13040503_DescriptionTitle",
+    "DescriptionContent": "ComboTeaching_13040503_DescriptionContent",
+    "CommandId": [
+      13040201,
+      13040601
+    ],
+    "GuideId": null,
+    "InputEnums": [
+      "普攻",
+      "跳跃"
+    ],
+    "AddBuffId": [
+      621310221,
+      1304001002,
+      1304001003
+    ]
+  },
+  {
+    "Id": 13040504,
+    "NextRoleGuideId": 0,
+    "KeyId": [
+      "跳跃;100010",
+      "攻击;1304001",
+      "攻击;1304001",
+      "攻击;1304001",
+      "攻击;1304001",
+      "攻击;1304001"
+    ],
+    "IconText": [
+      "ComboTeaching_99990004_IconText_0",
+      "ComboTeaching_13040401_IconText_0",
+      "ComboTeaching_13040401_IconText_1",
+      "ComboTeaching_13040401_IconText_2",
+      "ComboTeaching_13040401_IconText_3",
+      "ComboTeaching_13040503_IconText_0"
+    ],
+    "IconTagText": null,
+    "DescriptionTitle": "ComboTeaching_13040504_DescriptionTitle",
+    "DescriptionContent": "ComboTeaching_13040504_DescriptionContent",
+    "CommandId": [
+      13040201,
+      13040501,
+      13040502,
+      13040503,
+      13040504,
+      13040602
+    ],
+    "GuideId": null,
+    "InputEnums": [
+      "普攻",
+      "跳跃"
+    ],
+    "AddBuffId": [
+      621310219,
+      621310221,
+      1304001002,
+      1304001003
+    ]
+  },
+  {
+    "Id": 13040505,
+    "NextRoleGuideId": 13040506,
+    "KeyId": [
+      "攻击;1304001",
+      "攻击;1304001",
+      "攻击;1304001",
+      "攻击;1304001",
+      "技能;1304210"
+    ],
+    "IconText": [
+      "ComboTeaching_99990001_IconText_0",
+      "ComboTeaching_99990001_IconText_1",
+      "ComboTeaching_99990001_IconText_2",
+      "ComboTeaching_99990001_IconText_3",
+      "ComboTeaching_13040401_IconText_4"
+    ],
+    "IconTagText": null,
+    "DescriptionTitle": "ComboTeaching_13040505_DescriptionTitle",
+    "DescriptionContent": "ComboTeaching_13040505_DescriptionContent",
+    "CommandId": [
+      13040101,
+      13040102,
+      13040103,
+      13040104,
+      13040402
+    ],
+    "GuideId": null,
+    "InputEnums": [
+      "普攻",
+      "技能"
+    ],
+    "AddBuffId": [
+      621310219,
+      621310221,
+      1304999999
+    ]
+  },
+  {
+    "Id": 13040506,
+    "NextRoleGuideId": 0,
+    "KeyId": [
+      "攻击;1304001",
+      "攻击;1304001",
+      "攻击;1304001",
+      "攻击;1304001",
+      "技能;1304310"
+    ],
+    "IconText": [
+      "ComboTeaching_13040401_IconText_0",
+      "ComboTeaching_13040401_IconText_1",
+      "ComboTeaching_13040401_IconText_2",
+      "ComboTeaching_13040401_IconText_3",
+      "ComboTeaching_13040501_IconText_0"
+    ],
+    "IconTagText": null,
+    "DescriptionTitle": "ComboTeaching_13040505_DescriptionTitle",
+    "DescriptionContent": "ComboTeaching_13040505_DescriptionContent",
+    "CommandId": [
+      13040501,
+      13040502,
+      13040503,
+      13040504,
+      13040801
+    ],
+    "GuideId": null,
+    "InputEnums": [
+      "普攻",
+      "技能"
+    ],
+    "AddBuffId": [
+      621310219,
+      621310221,
+      622910015
+    ]
+  },
+  {
+    "Id": 13040601,
+    "NextRoleGuideId": 0,
+    "KeyId": [
+      "大招;1304300"
+    ],
+    "IconText": [
+      "ComboTeaching_99990006_IconText_0"
+    ],
+    "IconTagText": null,
+    "DescriptionTitle": "ComboTeaching_13040601_DescriptionTitle",
+    "DescriptionContent": "ComboTeaching_13040601_DescriptionContent",
+    "CommandId": [
+      13040901
+    ],
+    "GuideId": null,
+    "InputEnums": [
+      "大招"
+    ],
+    "AddBuffId": [
+      621310215,
+      621310220
+    ]
+  },
+  {
+    "Id": 13041503,
+    "NextRoleGuideId": 0,
+    "KeyId": [
+      "攻击;1304001",
+      "攻击;1304001",
+      "攻击;1304001",
+      "攻击;1304001",
+      "技能;1304210",
+      "攻击#0.2;1304001"
+    ],
+    "IconText": [
+      "ComboTeaching_99990001_IconText_0",
+      "ComboTeaching_99990001_IconText_1",
+      "ComboTeaching_99990001_IconText_2",
+      "ComboTeaching_99990001_IconText_3",
+      "ComboTeaching_13040401_IconText_4",
+      "ComboTeaching_13040503_IconText_0"
+    ],
+    "IconTagText": null,
+    "DescriptionTitle": "ComboTeaching_13040503_DescriptionTitle",
+    "DescriptionContent": "ComboTeaching_13040503_DescriptionContent",
+    "CommandId": [
+      13040101,
+      13040102,
+      13040103,
+      13040104,
+      13040402,
+      13040601
+    ],
+    "GuideId": null,
+    "InputEnums": [
+      "普攻",
+      "技能"
+    ],
+    "AddBuffId": [
+      621310219,
+      621310221,
+      1304999999
+    ]
+  },
+  {
+    "Id": 13041504,
+    "NextRoleGuideId": 0,
+    "KeyId": [
+      "攻击;1304001",
+      "攻击;1304001",
+      "攻击;1304001",
+      "攻击;1304001",
+      "技能;1304210"
+    ],
+    "IconText": [
+      "ComboTeaching_99990001_IconText_0",
+      "ComboTeaching_99990001_IconText_1",
+      "ComboTeaching_99990001_IconText_2",
+      "ComboTeaching_99990001_IconText_3",
+      "ComboTeaching_13040401_IconText_4"
+    ],
+    "IconTagText": null,
+    "DescriptionTitle": "ComboTeaching_13040504_DescriptionTitle",
+    "DescriptionContent": "ComboTeaching_13040504_DescriptionContent",
+    "CommandId": [
+      13040101,
+      13040102,
+      13040103,
+      13040104,
+      13040402
+    ],
+    "GuideId": null,
+    "InputEnums": [
+      "普攻",
+      "技能"
+    ],
+    "AddBuffId": [
+      621310219,
+      621310221,
+      1304999999
     ]
   }
 ]

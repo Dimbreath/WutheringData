@@ -10458,12 +10458,6 @@
     "IsTip": false
   },
   {
-    "Id": 1100142,
-    "DebugText": "肉鸽引导副本不支持此操作",
-    "Text": "ErrorCode_1100142_Text",
-    "IsTip": false
-  },
-  {
     "Id": 53,
     "DebugText": "服务器内部错误",
     "Text": "ErrorCode_53_Text",
@@ -10489,9 +10483,9 @@
   },
   {
     "Id": 57,
-    "DebugText": "消息超出频率控制",
+    "DebugText": "操作频率过快，请稍后再试。",
     "Text": "ErrorCode_57_Text",
-    "IsTip": false
+    "IsTip": true
   },
   {
     "Id": 58,
@@ -10533,6 +10527,12 @@
     "Id": 64,
     "DebugText": "功能未开启",
     "Text": "ErrorCode_64_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100142,
+    "DebugText": "肉鸽引导副本不支持此操作",
+    "Text": "ErrorCode_1100142_Text",
     "IsTip": false
   },
   {
@@ -11226,6 +11226,18 @@
     "IsTip": false
   },
   {
+    "Id": 2000017,
+    "DebugText": "不能依附自己",
+    "Text": "ErrorCode_2000017_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2000018,
+    "DebugText": "不允许循环依附",
+    "Text": "ErrorCode_2000018_Text",
+    "IsTip": false
+  },
+  {
     "Id": 600092,
     "DebugText": "联机挂起中实体状态改变失败",
     "Text": "ErrorCode_600092_Text",
@@ -11235,6 +11247,12 @@
     "Id": 1400038,
     "DebugText": "前置卡组未完成",
     "Text": "ErrorCode_1400038_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2000019,
+    "DebugText": "依赖目标信息缺失",
+    "Text": "ErrorCode_2000019_Text",
     "IsTip": false
   },
   {
@@ -11286,7 +11304,7 @@
     "IsTip": false
   },
   {
-    "Id": 2000017,
+    "Id": 2000020,
     "DebugText": "挑战失败",
     "Text": "ErrorCode_2000020_Text",
     "IsTip": true
@@ -11370,16 +11388,16 @@
     "IsTip": false
   },
   {
-    "Id": 1500097,
-    "DebugText": "战斗打包协议请求异常",
-    "Text": "ErrorCode_1500097_Text",
-    "IsTip": false
-  },
-  {
     "Id": 1900054,
     "DebugText": "活动过期",
     "Text": "ErrorCode_1900054_Text",
     "IsTip": true
+  },
+  {
+    "Id": 1500097,
+    "DebugText": "战斗打包协议请求异常",
+    "Text": "ErrorCode_1500097_Text",
+    "IsTip": false
   },
   {
     "Id": 65,
@@ -11424,9 +11442,39 @@
     "IsTip": true
   },
   {
+    "Id": 900062,
+    "DebugText": "场景全局实体不存在",
+    "Text": "ErrorCode_900062_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 900063,
+    "DebugText": "行为执行者为空",
+    "Text": "ErrorCode_900063_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 900064,
+    "DebugText": "发射子弹找不到施加者",
+    "Text": "ErrorCode_900064_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 900065,
+    "DebugText": "发射子弹找不到目标",
+    "Text": "ErrorCode_900065_Text",
+    "IsTip": false
+  },
+  {
     "Id": 1800041,
     "DebugText": "您的客户端版本过低，请立即更新",
     "Text": "ErrorCode_1800041_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2000021,
+    "DebugText": "{0}",
+    "Text": "ErrorCode_2000021_Text",
     "IsTip": true
   },
   {
@@ -11478,45 +11526,135 @@
     "IsTip": false
   },
   {
+    "Id": 200318,
+    "DebugText": "记忆收集配置找不到",
+    "Text": "ErrorCode_200318_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200319,
+    "DebugText": "功能未开启",
+    "Text": "ErrorCode_200319_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200320,
+    "DebugText": "记忆收集未解锁",
+    "Text": "ErrorCode_200320_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200321,
+    "DebugText": "奖励已领取",
+    "Text": "ErrorCode_200321_Text",
+    "IsTip": false
+  },
+  {
     "Id": 1400045,
     "DebugText": "Js文件不存在",
     "Text": "ErrorCode_1400045_Text",
     "IsTip": false
   },
   {
-    "Id": 200318,
+    "Id": 200322,
+    "DebugText": "请求角色数量过多",
+    "Text": "ErrorCode_200322_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200323,
     "DebugText": "该配方已解锁",
     "Text": "ErrorCode_200323_Text",
     "IsTip": true
   },
   {
-    "Id": 200319,
+    "Id": 200324,
     "DebugText": "该配方已解锁",
     "Text": "ErrorCode_200324_Text",
     "IsTip": true
   },
   {
-    "Id": 200320,
+    "Id": 200325,
     "DebugText": "该配方已解锁",
     "Text": "ErrorCode_200325_Text",
     "IsTip": true
   },
   {
-    "Id": 200321,
+    "Id": 200326,
     "DebugText": "配方购买数量错误",
     "Text": "ErrorCode_200326_Text",
     "IsTip": true
   },
   {
-    "Id": 200322,
+    "Id": 200327,
     "DebugText": "配方购买数量错误",
     "Text": "ErrorCode_200327_Text",
     "IsTip": true
   },
   {
-    "Id": 200323,
+    "Id": 200328,
     "DebugText": "配方购买数量错误",
     "Text": "ErrorCode_200328_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1800042,
+    "DebugText": "客户端分支校验失败",
+    "Text": "ErrorCode_1800042_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2200002,
+    "DebugText": "活动尚未开启",
+    "Text": "ErrorCode_2200002_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2200003,
+    "DebugText": "活动积分奖励不存在",
+    "Text": "ErrorCode_2200003_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2200004,
+    "DebugText": "活动关卡奖励不存在",
+    "Text": "ErrorCode_2200004_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2200005,
+    "DebugText": "活动积分奖励目标尚未达成",
+    "Text": "ErrorCode_2200005_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2200006,
+    "DebugText": "活动积分奖励目标尚未达成",
+    "Text": "ErrorCode_2200006_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2200007,
+    "DebugText": "活动奖励已经领取",
+    "Text": "ErrorCode_2200007_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2200008,
+    "DebugText": "活动增益选择不合法",
+    "Text": "ErrorCode_2200008_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2200009,
+    "DebugText": "活动配置不存在",
+    "Text": "ErrorCode_2200009_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200010,
+    "DebugText": "活动角色选择不合法",
+    "Text": "ErrorCode_2200010_Text",
     "IsTip": true
   },
   {
@@ -11634,13 +11772,157 @@
     "IsTip": false
   },
   {
-    "Id": 1800042,
-    "DebugText": "客户端分支校验失败",
-    "Text": "ErrorCode_1800042_Text",
+    "Id": 2200011,
+    "DebugText": "活动组件不存在",
+    "Text": "ErrorCode_2200011_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900056,
+    "DebugText": "角色未解锁",
+    "Text": "ErrorCode_1900056_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900057,
+    "DebugText": "灵感事件未触发",
+    "Text": "ErrorCode_1900057_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900058,
+    "DebugText": "建筑未解锁",
+    "Text": "ErrorCode_1900058_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900059,
+    "DebugText": "找不到建筑升级曲线",
+    "Text": "ErrorCode_1900059_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900060,
+    "DebugText": "建筑已经解锁",
+    "Text": "ErrorCode_1900058_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 900066,
+    "DebugText": "转盘活动配置不存在",
+    "Text": "ErrorCode_900066_Text",
     "IsTip": true
   },
   {
-    "Id": 200324,
+    "Id": 900067,
+    "DebugText": "转盘活动未开启",
+    "Text": "ErrorCode_900067_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 900068,
+    "DebugText": "转盘活动已经完成",
+    "Text": "ErrorCode_900068_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 900069,
+    "DebugText": "转盘活动前置任务未完成",
+    "Text": "ErrorCode_900069_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 900070,
+    "DebugText": "转盘活动当前轮次配置不存在",
+    "Text": "ErrorCode_900070_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 600093,
+    "DebugText": "加载中",
+    "Text": "ErrorCode_600093_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 600094,
+    "DebugText": "传送中",
+    "Text": "ErrorCode_600094_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100224,
+    "DebugText": "没有有效的肉鸽赛季",
+    "Text": "ErrorCode_1100224_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900061,
+    "DebugText": "找不到委托配置",
+    "Text": "ErrorCode_1900059_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900062,
+    "DebugText": "找不到角色配置",
+    "Text": "ErrorCode_1900060_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900063,
+    "DebugText": "找不到角色培养配置",
+    "Text": "ErrorCode_1900061_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900064,
+    "DebugText": "找不到建筑配置",
+    "Text": "ErrorCode_1900062_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900065,
+    "DebugText": "消耗道具配置错误",
+    "Text": "ErrorCode_1900063_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100225,
+    "DebugText": "肉鸽没有当前主控角色",
+    "Text": "ErrorCode_1100225_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100226,
+    "DebugText": "肉鸽副本与赛季不匹配",
+    "Text": "ErrorCode_1100226_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100227,
+    "DebugText": "肉鸽增益处理逻辑找不到",
+    "Text": "ErrorCode_1100227_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100228,
+    "DebugText": "肉鸽增益配置找不到",
+    "Text": "ErrorCode_1100228_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100229,
+    "DebugText": "肉鸽声骸配置找不到",
+    "Text": "ErrorCode_1100229_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100230,
+    "DebugText": "肉鸽角色配置找不到",
+    "Text": "ErrorCode_1100230_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200329,
     "DebugText": "今日尝试次数过于频繁，请于服务器时间次日04:00后再尝试",
     "Text": "ErrorCode_200329_Text",
     "IsTip": true
@@ -11652,27 +11934,369 @@
     "IsTip": false
   },
   {
-    "Id": 600093,
+    "Id": 1800043,
+    "DebugText": "当前已有等待异步调用返回的操作",
+    "Text": "ErrorCode_1800043_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100231,
+    "DebugText": "肉鸽热度词条最大数量配置找不到",
+    "Text": "ErrorCode_1100231_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100232,
+    "DebugText": "肉鸽热度词条超过最大数量",
+    "Text": "ErrorCode_1100232_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100233,
+    "DebugText": "肉鸽热度词条配置找不到",
+    "Text": "ErrorCode_1100233_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100234,
+    "DebugText": "肉鸽试用角色暂未开启",
+    "Text": "ErrorCode_1100234_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100235,
+    "DebugText": "肉哥引导副本不支持退出",
+    "Text": "ErrorCode_1100235_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 600095,
     "DebugText": "挂起中不能交互",
     "Text": "ErrorCode_600095_Text",
     "IsTip": false
   },
   {
-    "Id": 1900056,
+    "Id": 1900066,
     "DebugText": "敏感词反序列化失败",
     "Text": "ErrorCode_1900064_Text",
     "IsTip": false
   },
   {
-    "Id": 1100224,
+    "Id": 2000022,
+    "DebugText": "设置同步位置时实体不存在",
+    "Text": "ErrorCode_2000022_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2000023,
+    "DebugText": "设置同步位置时组件不存在",
+    "Text": "ErrorCode_2000023_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2000024,
+    "DebugText": "设置同步位置时参数错误",
+    "Text": "ErrorCode_2000024_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2000025,
+    "DebugText": "取消同步位置时不是主控",
+    "Text": "ErrorCode_2000025_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1100236,
     "DebugText": "肉鸽主角色属性被切换,请切换回原属性",
     "Text": "Rogue_Attribute_Switch_Error",
+    "IsTip": true
+  },
+  {
+    "Id": 200330,
+    "DebugText": "未找到任务配置",
+    "Text": "ErrorCode_200330_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200331,
+    "DebugText": "活动已关闭",
+    "Text": "ErrorCode_200331_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200332,
+    "DebugText": "任务未接取",
+    "Text": "ErrorCode_200332_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200333,
+    "DebugText": "任务未完成",
+    "Text": "ErrorCode_200333_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200334,
+    "DebugText": "奖励已接取",
+    "Text": "ErrorCode_200334_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1500098,
+    "DebugText": "上下文校验失败",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200012,
+    "DebugText": "请至少选择一个角色再开始挑战",
+    "Text": "ErrorCode_2200012_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1500099,
+    "DebugText": "没有状态机组件",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500100,
+    "DebugText": "创建状态机失败",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500101,
+    "DebugText": "状态机执行行为时预创建下文需要有前文",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500102,
+    "DebugText": "状态机执行行为校验上下文失败",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500103,
+    "DebugText": "播蒙太奇缺少前文",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500104,
+    "DebugText": "播蒙太奇上下文校验失败",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200013,
+    "DebugText": "有增益词条未选择，请选择后再开启挑战",
+    "Text": "ErrorCode_2200013_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1600028,
+    "DebugText": "不能销毁伴生物",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500105,
+    "DebugText": "播蒙太奇配置检查失败",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200014,
+    "DebugText": "活动关卡尚未开启",
+    "Text": "ErrorCode_2200014_Text",
     "IsTip": true
   },
   {
     "Id": 72,
     "DebugText": "未登录完成时收到需要路由到游戏服的数据包（消息无法路由）",
     "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100237,
+    "DebugText": "肉鸽路线房间配置为空",
+    "Text": "ErrorCode_1100237_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100238,
+    "DebugText": "肉鸽界面已选择完毕",
+    "Text": "ErrorCode_1100238_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100239,
+    "DebugText": "肉鸽增益不支持刷新",
+    "Text": "ErrorCode_1100239_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100240,
+    "DebugText": "肉鸽刷新消耗配置找不到",
+    "Text": "ErrorCode_1100240_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100241,
+    "DebugText": "肉鸽未达到最高成数",
+    "Text": "ErrorCode_1100241_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100242,
+    "DebugText": "找不到房间对应的子关卡",
+    "Text": "ErrorCode_1100078_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100243,
+    "DebugText": "肉鸽热度词条参数配置找不到",
+    "Text": "ErrorCode_1100243_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100244,
+    "DebugText": "肉鸽副本id和赛季id不匹配",
+    "Text": "ErrorCode_1100244_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100245,
+    "DebugText": "肉鸽赛季天赋树配置找不到",
+    "Text": "ErrorCode_1100245_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100246,
+    "DebugText": "肉鸽增益选择界面不存在",
+    "Text": "ErrorCode_1100246_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100247,
+    "DebugText": "肉鸽商品已出售, 不能重复购买",
+    "Text": "ErrorCode_1100247_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100248,
+    "DebugText": "肉鸽奇物配置找不到",
+    "Text": "ErrorCode_1100248_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100249,
+    "DebugText": "打包肉鸽增益数据失败",
+    "Text": "ErrorCode_1100249_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200015,
+    "DebugText": "范围组件内实体重复添加",
+    "Text": "ErrorCode_2200015_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200016,
+    "DebugText": "范围组件内实体不存在",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200335,
+    "DebugText": "奖励配置找不到",
+    "Text": "ErrorCode_200352_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200336,
+    "DebugText": "活动未开启",
+    "Text": "ErrorCode_200353_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200337,
+    "DebugText": "奖励已领取",
+    "Text": "ErrorCode_200354_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200338,
+    "DebugText": "未到领奖时间",
+    "Text": "ErrorCode_200355_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 600096,
+    "DebugText": "死亡后不能交互",
+    "Text": "ErrorCode_600096_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200339,
+    "DebugText": "兑换中,请稍后重试",
+    "Text": "ErrorCode_200356_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2000026,
+    "DebugText": "控物已经被放置",
+    "Text": "ErrorCode_2000032_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 600097,
+    "DebugText": "联机挂起实体",
+    "Text": "ErrorCode_600097_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1800044,
+    "DebugText": "对方加入多人游戏失败",
+    "Text": "ErrorCode_1800044_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1800045,
+    "DebugText": "加入多人游戏失败",
+    "Text": "ErrorCode_1800045_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900067,
+    "DebugText": "登录繁忙，请稍候重试",
+    "Text": "ErrorCode_1900081_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900068,
+    "DebugText": "登录繁忙，请稍候重试",
+    "Text": "ErrorCode_1900082_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900069,
+    "DebugText": "请输入正确的账密",
+    "Text": "ErrorCode_1900083_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900070,
+    "DebugText": "登录繁忙，请稍候重试",
+    "Text": "ErrorCode_1900094_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900071,
+    "DebugText": "声匣探索度已满",
+    "Text": "ErrorCode_1900095_Text",
     "IsTip": false
   }
 ]

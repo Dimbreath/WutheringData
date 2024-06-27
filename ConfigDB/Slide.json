@@ -36,7 +36,8 @@
     "SkiHorizontalInputSpeedThreshold": {
       "Min": 800.0,
       "Max": 2000.0
-    }
+    },
+    "SpeedReduceCurve": ""
   },
   {
     "Id": "1",
@@ -75,7 +76,8 @@
     "SkiHorizontalInputSpeedThreshold": {
       "Min": 400.0,
       "Max": 1800.0
-    }
+    },
+    "SpeedReduceCurve": ""
   },
   {
     "Id": "2",
@@ -114,7 +116,8 @@
     "SkiHorizontalInputSpeedThreshold": {
       "Min": 800.0,
       "Max": 2000.0
-    }
+    },
+    "SpeedReduceCurve": ""
   },
   {
     "Id": "3",
@@ -153,7 +156,8 @@
     "SkiHorizontalInputSpeedThreshold": {
       "Min": 800.0,
       "Max": 2000.0
-    }
+    },
+    "SpeedReduceCurve": ""
   },
   {
     "Id": "4",
@@ -192,6 +196,47 @@
     "SkiHorizontalInputSpeedThreshold": {
       "Min": 400.0,
       "Max": 1800.0
-    }
+    },
+    "SpeedReduceCurve": ""
+  },
+  {
+    "Id": "5",
+    "FallingLateralFrictions": [
+      {
+        "Key": 0,
+        "Value": 0.15000000596046448
+      },
+      {
+        "Key": 30,
+        "Value": 0.25
+      },
+      {
+        "Key": 75,
+        "Value": 0.5
+      },
+      {
+        "Key": 85,
+        "Value": 0.949999988079071
+      }
+    ],
+    "SlideFriction": 500.0,
+    "SlideAccel": 4000.0,
+    "SlideAccelUp": 0.5,
+    "SlideAccelDown": 1.0,
+    "MaxSlideHorizontalSeed": 1500.0,
+    "SlideModeSwitchRange": {
+      "Min": 25.0,
+      "Max": 75.0
+    },
+    "Ski": true,
+    "SkiMaxSpHor": 800.0,
+    "SkiMaxSpVer": 1200.0,
+    "JumpRate": 0.20000000298023224,
+    "TurnSpeed": 60.0,
+    "SkiHorizontalInputSpeedThreshold": {
+      "Min": 400.0,
+      "Max": 1800.0
+    },
+    "SpeedReduceCurve": ""
   }
 ]

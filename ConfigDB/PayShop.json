@@ -1,6 +1,7 @@
 [
   {
     "Id": 1,
+    "ShopTabViewType": 1,
     "DynamicTabId": 34,
     "Sort": 1,
     "Name": "PayShop_1_Name",
@@ -13,6 +14,7 @@
   },
   {
     "Id": 2,
+    "ShopTabViewType": 2,
     "DynamicTabId": 35,
     "Sort": 2,
     "Name": "PayShop_2_Name",
@@ -25,6 +27,7 @@
   },
   {
     "Id": 3,
+    "ShopTabViewType": 3,
     "DynamicTabId": 35,
     "Sort": 3,
     "Name": "PayShop_3_Name",
@@ -37,6 +40,7 @@
   },
   {
     "Id": 4,
+    "ShopTabViewType": 4,
     "DynamicTabId": 36,
     "Sort": 4,
     "Name": "PayShop_4_Name",
@@ -51,6 +55,7 @@
   },
   {
     "Id": 100,
+    "ShopTabViewType": 5,
     "DynamicTabId": 37,
     "Sort": 100,
     "Name": "PayShop_100_Name",
@@ -63,6 +68,7 @@
   },
   {
     "Id": 201,
+    "ShopTabViewType": 7,
     "DynamicTabId": 58,
     "Sort": 201,
     "Name": "PayShop_100_Name",
@@ -75,6 +81,7 @@
   },
   {
     "Id": 5,
+    "ShopTabViewType": 6,
     "DynamicTabId": 53,
     "Sort": 101,
     "Name": "PayShop_5_Name",
@@ -85,5 +92,18 @@
     "Notice": "",
     "Enable": true,
     "Icon": "/Game/Aki/UI/UIResources/UiShop/Atlas/SP_ShopGongkaipinyu.SP_ShopGongkaipinyu"
+  },
+  {
+    "Id": 204,
+    "ShopTabViewType": 7,
+    "DynamicTabId": 58,
+    "Sort": 202,
+    "Name": "PayShop_100_Name",
+    "Money": [
+      80100001
+    ],
+    "Notice": "",
+    "Enable": true,
+    "Icon": "/Game/Aki/UI/UIResources/UiShop/Atlas/SP_ShopMaodinggouru.SP_ShopMaodinggouru"
   }
 ]

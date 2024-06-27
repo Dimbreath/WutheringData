@@ -32,7 +32,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "BattleView",
@@ -67,7 +68,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "MailBoxView",
@@ -102,7 +104,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "WorldMapView",
@@ -137,7 +140,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "RoleRootView",
@@ -166,13 +170,14 @@
     "ScenePath": "/Game/Aki/Map/UISceneLevel/UI_Scene/UL_UIMap_Character",
     "IsPermanent": false,
     "StartBlackScreen": {
-      "ShowAnimName": "",
-      "HideAnimName": ""
+      "ShowAnimName": "Start",
+      "HideAnimName": "Close"
     },
     "CloseBlackScreen": {
-      "ShowAnimName": "",
-      "HideAnimName": ""
-    }
+      "ShowAnimName": "Start",
+      "HideAnimName": "Close"
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "RoleBreachView",
@@ -207,7 +212,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "RoleSkillView",
@@ -242,7 +248,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "RoleLevelUpView",
@@ -277,7 +284,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "RolePhantomSkillView",
@@ -312,7 +320,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "ShopView",
@@ -347,7 +356,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "AreaView",
@@ -382,7 +392,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "LoadingView",
@@ -417,7 +428,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "LoginView",
@@ -452,7 +464,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ItemTipsView",
@@ -487,7 +500,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "QuestView",
@@ -522,7 +536,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "NewItemTipsView",
@@ -557,7 +572,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "FunctionView",
@@ -592,7 +608,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "ItemHintView",
@@ -627,7 +644,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "EditFormationView",
@@ -662,7 +680,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "Start",
       "HideAnimName": "Close"
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "RoleFadeInOrOutView",
@@ -697,7 +716,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "HelpView",
@@ -732,7 +752,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "QuestMapView",
@@ -767,7 +788,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "InventoryView",
@@ -802,7 +824,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "GuideBigWorldTextView",
@@ -837,7 +860,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "GuidePictureAndTextView",
@@ -872,7 +896,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "GmView",
@@ -907,7 +932,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ItemRewardView",
@@ -942,7 +968,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ScrollingTipsView",
@@ -977,7 +1004,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ConfirmBoxView",
@@ -1012,7 +1040,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CipherView",
@@ -1047,7 +1076,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoleSelectionView",
@@ -1082,7 +1112,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "EditBattleTeamView",
@@ -1117,7 +1148,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "SelectedRoleView",
@@ -1152,7 +1184,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "PlotSubtitleView",
@@ -1187,7 +1220,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "NetWorkMaskView",
@@ -1222,7 +1256,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "GamePlayTimerView",
@@ -1257,7 +1292,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CreateCharacterView",
@@ -1292,7 +1328,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "WeaponRootView",
@@ -1327,7 +1364,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "WeaponReplaceView",
@@ -1362,7 +1400,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "WeaponBreachSuccessView",
@@ -1397,7 +1436,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "WeaponResonanceSuccessView",
@@ -1432,7 +1472,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "MingSuView",
@@ -1467,7 +1508,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "InstanceBeInviteView",
@@ -1502,7 +1544,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "InstanceInvitePlayerView",
@@ -1537,7 +1580,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "LoginStatusView",
@@ -1572,7 +1616,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "QuestHintView",
@@ -1607,7 +1652,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "TapeRootView",
@@ -1642,7 +1688,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "TapeReplaceView",
@@ -1677,7 +1724,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "InventoryPcView",
@@ -1712,7 +1760,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "AccessPathPcView",
@@ -1747,7 +1796,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "PhantomExploreView",
@@ -1782,7 +1832,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ConfirmBoxRootView",
@@ -1817,7 +1868,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "InteractionHintView",
@@ -1852,7 +1904,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "VolumeView",
@@ -1887,7 +1940,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ItemRewardWithMouseView",
@@ -1922,7 +1976,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "PowerView",
@@ -1957,13 +2012,14 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "LevelUpView",
     "Type": "Float",
     "LoadAsync": true,
-    "ShowCursorType": 0,
+    "ShowCursorType": 2,
     "ObstructUi": null,
     "EffectStart": "",
     "EffectBone": "",
@@ -1992,7 +2048,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ResonanceDetailView",
@@ -2027,7 +2084,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "TimeOfDayView",
@@ -2062,7 +2120,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "DeadView",
@@ -2097,7 +2156,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ReviveView",
@@ -2132,7 +2192,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "WorldLevelUpView",
@@ -2167,7 +2228,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "WorldLevelInfoView",
@@ -2202,7 +2264,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "WorldLevelChangeConfirmView",
@@ -2237,7 +2300,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "GenericPromptView",
@@ -2272,7 +2336,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "PlotView",
@@ -2307,7 +2372,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "PlotViewHUD",
@@ -2342,7 +2408,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "JoinTeamView",
@@ -2377,7 +2444,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "InstanceDungeonEntranceView",
@@ -2412,7 +2480,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "InstanceDungeonVictoryView",
@@ -2447,7 +2516,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "InstanceDungeonFailView",
@@ -2482,7 +2552,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "InstanceDungeonEntranceTipView",
@@ -2517,7 +2588,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "MarqueeView",
@@ -2552,7 +2624,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "PlotTransitionView",
@@ -2587,7 +2660,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "BattleSequenceQteView",
@@ -2622,7 +2696,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "SceneGameplayTipView",
@@ -2657,7 +2732,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "DebugCmdView",
@@ -2692,7 +2768,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RegionalQuestView",
@@ -2727,7 +2804,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RegionalQuestRewardView",
@@ -2762,7 +2840,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "SceneGameplayItemRewardView",
@@ -2797,7 +2876,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "MenuView",
@@ -2832,7 +2912,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "UseBuffItemView",
@@ -2867,7 +2948,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RegionContributionLevelView",
@@ -2902,7 +2984,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "MailContentView",
@@ -2937,7 +3020,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "VideoView",
@@ -2972,7 +3056,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "SneakView",
@@ -3007,7 +3092,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "SneakFailView",
@@ -3042,7 +3128,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "MailAttachmentPickedView",
@@ -3077,7 +3164,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "LoginAgeTipView",
@@ -3112,7 +3200,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "UidView",
@@ -3147,7 +3236,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "NetWorkConfirmBoxView",
@@ -3182,7 +3272,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CommonSuccessView",
@@ -3217,7 +3308,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "TextLanguageSettingView",
@@ -3252,7 +3344,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "FriendView",
@@ -3287,7 +3380,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "FriendProcessView",
@@ -3322,7 +3416,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "FriendAlterRemarkView",
@@ -3357,7 +3452,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "FriendSearchView",
@@ -3392,7 +3488,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "FriendBlackListView",
@@ -3427,7 +3524,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "SelectedFriendChatView",
@@ -3462,7 +3560,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "PhantomExploreSetView",
@@ -3497,7 +3596,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ChatView",
@@ -3532,7 +3632,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "ChatOption",
@@ -3567,7 +3668,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ChatExpressionView",
@@ -3602,7 +3704,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "PayShopRootView",
@@ -3637,7 +3740,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "GiftPackageDetailsView",
@@ -3672,7 +3776,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "OnlineWorldHallView",
@@ -3707,7 +3812,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "OnlineWorldSearchView",
@@ -3742,7 +3848,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "OnlineApplyView",
@@ -3777,7 +3884,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "OnlineMultipleApplyView",
@@ -3812,7 +3920,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CommonExchangeView",
@@ -3847,7 +3956,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "GachaMainView",
@@ -3882,7 +3992,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "GachaRecordView",
@@ -3917,7 +4028,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "GachaResultView",
@@ -3952,7 +4064,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "GachaScanView",
@@ -3987,7 +4100,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "PhantomBattleFettersView",
@@ -4022,7 +4136,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "PhantomBattleEquipView",
@@ -4057,7 +4172,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "VoiceLanguageDownloadView",
@@ -4092,7 +4208,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "TimeOfDaySecondView",
@@ -4127,7 +4244,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "VoiceLanguageSelectView",
@@ -4162,7 +4280,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "DeliverView",
@@ -4197,7 +4316,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "DeliverChoiceView",
@@ -4232,7 +4352,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "AcquireView",
@@ -4267,7 +4388,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ExchangePopView",
@@ -4302,7 +4424,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "TutorialView",
@@ -4337,7 +4460,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "TutorialTipView",
@@ -4372,7 +4496,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "AdventureGuideView",
@@ -4407,7 +4532,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "AdventureTargetView",
@@ -4442,7 +4568,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "MonsterDetectView",
@@ -4477,7 +4604,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "SilentAreaView",
@@ -4512,7 +4640,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "SoundAreaView",
@@ -4547,7 +4676,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "InventoryGiftView",
@@ -4582,7 +4712,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "InfoDisplayImgView",
@@ -4617,7 +4748,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "InfoDisplayTypeOneView",
@@ -4652,7 +4784,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "InfoDisplayTypeTwoView",
@@ -4687,7 +4820,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "InfoDisplayTypeThreeView",
@@ -4722,7 +4856,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "InfoDisplayTypeFourView",
@@ -4757,7 +4892,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RolePreviewView",
@@ -4792,7 +4928,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "WeaponPreviewView",
@@ -4827,7 +4964,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "RoleSkillTreeInfoView",
@@ -4862,7 +5000,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "DailyTaskView",
@@ -4897,7 +5036,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "DailyTaskSelectTipsView",
@@ -4932,7 +5072,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CookRootView",
@@ -4967,7 +5108,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "MonthCardView",
@@ -5002,7 +5144,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "MonthCardRewardView",
@@ -5037,7 +5180,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "SkillLevelUpView",
@@ -5072,7 +5216,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "AttributeView",
@@ -5107,7 +5252,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoleQuestView",
@@ -5142,7 +5288,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ReportView",
@@ -5177,7 +5324,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CookPopView",
@@ -5212,7 +5360,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoleFavorInfoView",
@@ -5247,7 +5396,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoleFavorHintView",
@@ -5282,7 +5432,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "FunctionOpenView",
@@ -5317,7 +5468,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CookPopFixView",
@@ -5352,7 +5504,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "SingleTimeTowerView",
@@ -5387,7 +5540,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "SingleTimeTowerChallengeView",
@@ -5422,7 +5576,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "SingleTimeTowerTeamView",
@@ -5457,7 +5612,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "SingleTimeTowerDetailView",
@@ -5492,7 +5648,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "SingleTimeTowerVictoryView",
@@ -5527,7 +5684,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "SingleTimeTowerFailView",
@@ -5562,7 +5720,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "EventConditionFloatTips",
@@ -5597,7 +5756,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ChallengeAchieveFloatTips",
@@ -5632,7 +5792,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ChallengeSuccessFloatTips",
@@ -5667,7 +5828,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ChallengeFailedFloatTips",
@@ -5702,7 +5864,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "AdditionalTasksFloatTips",
@@ -5737,7 +5900,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "DelegateCompletionFloatTips",
@@ -5772,7 +5936,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "DungeonClearanceFloatTips",
@@ -5807,7 +5972,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "DungeonAutoExitFloatTips",
@@ -5842,7 +6008,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CountDownFloatTips",
@@ -5877,7 +6044,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ChapterStartFloatTips",
@@ -5912,7 +6080,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ChapterEndFloatTips",
@@ -5947,7 +6116,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "GuideTipsView",
@@ -5982,7 +6152,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "GuideFocusView",
@@ -6017,7 +6188,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "GuideTutorialTipsView",
@@ -6052,7 +6224,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "GuideTutorialView",
@@ -6087,7 +6260,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ReputationRewardsView",
@@ -6122,7 +6296,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ReputationTips",
@@ -6157,7 +6332,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "InfluenceAreaSelectView",
@@ -6192,7 +6368,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "InfluenceReputationView",
@@ -6227,7 +6404,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "ReputationDetailsView",
@@ -6262,7 +6440,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "CycleTowerView",
@@ -6297,7 +6476,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CycleTowerChallengeView",
@@ -6332,7 +6512,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CycleTowerTeamView",
@@ -6367,7 +6548,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "InfluenceSearchView",
@@ -6402,7 +6584,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ResonanceDetailNewView",
@@ -6437,7 +6620,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "InstanceDungeonReward",
@@ -6472,7 +6656,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "InstanceDungeonMonsterPreView",
@@ -6507,7 +6692,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "PlotTransitionViewPop",
@@ -6542,7 +6728,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CycleTowerSeasonInfoView",
@@ -6577,7 +6764,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ExploreFailView",
@@ -6612,7 +6800,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ExploreSuccessView",
@@ -6647,7 +6836,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CycleTowerRewardView",
@@ -6682,7 +6872,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CycleTowerClearInfoView",
@@ -6717,7 +6908,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "BattlePassMainView",
@@ -6752,7 +6944,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "CycleTowerVictoryView",
@@ -6787,7 +6980,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "TowerDetailView",
@@ -6822,7 +7016,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "BattlePassBuyLevelView",
@@ -6857,7 +7052,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "BattlePassPayView",
@@ -6892,7 +7088,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ComposeRootView",
@@ -6927,7 +7124,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "ForgingRootView",
@@ -6962,7 +7160,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "RewardPopView",
@@ -6997,7 +7196,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "GameplayEnterView",
@@ -7032,7 +7232,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "GameplayFirstPassView",
@@ -7067,7 +7268,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "PrepareCountdownFloatTips",
@@ -7102,7 +7304,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "DrawMainView",
@@ -7137,7 +7340,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoleHandBookRootView",
@@ -7172,7 +7376,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "RoleHandBookSelectionView",
@@ -7207,7 +7412,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "RoleHandBookPerformanceView",
@@ -7242,7 +7448,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CycleTowerSeasonRewardView",
@@ -7277,7 +7484,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "AdviceCreateView",
@@ -7312,7 +7520,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "AdviceRoleView",
@@ -7347,7 +7556,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "AdviceView",
@@ -7382,7 +7592,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "AdviceSortWordView",
@@ -7417,7 +7628,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "AdviceWordView",
@@ -7452,7 +7664,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "AdviceExpressionView",
@@ -7487,7 +7700,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ResolutionListView",
@@ -7522,7 +7736,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "BrightnessView",
@@ -7557,7 +7772,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ConcertoResponseView",
@@ -7592,7 +7808,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ConcertoResponseDescriptionView",
@@ -7627,7 +7844,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "BattlePassUnlockView",
@@ -7662,7 +7880,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "AdviceInfoView",
@@ -7697,7 +7916,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "BattlePassUpLevelView",
@@ -7732,11 +7952,12 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "BattlePassFirstOpenView",
-    "Type": "Pop",
+    "Type": "Normal",
     "LoadAsync": true,
     "ShowCursorType": 1,
     "ObstructUi": null,
@@ -7758,7 +7979,7 @@
     "IsFullScreen": false,
     "CommonPopBg": -1,
     "CommonPopBgKey": "",
-    "ScenePath": "",
+    "ScenePath": "/Game/Aki/Map/UISceneLevel/UI_Scene/UL_UIMap_Character",
     "IsPermanent": false,
     "StartBlackScreen": {
       "ShowAnimName": "",
@@ -7767,7 +7988,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "SubLevelLoadingView",
@@ -7802,7 +8024,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "PlotPhotoView",
@@ -7837,7 +8060,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "PhotographView",
@@ -7872,7 +8096,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "PhotographSetupView",
@@ -7907,7 +8132,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "PhotoSaveView",
@@ -7942,7 +8168,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "TimeOfDayLoadingView",
@@ -7977,7 +8204,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "PhantomHandBookView",
@@ -8012,7 +8240,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "WeaponHandBookView",
@@ -8047,7 +8276,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "MonsterHandBookView",
@@ -8082,7 +8312,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ItemHandBookView",
@@ -8117,7 +8348,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "AnimalHandBookView",
@@ -8152,7 +8384,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ChipHandBookView",
@@ -8187,7 +8420,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "HandBookPhotoView",
@@ -8222,7 +8456,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "GeographyHandBookView",
@@ -8257,7 +8492,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "HandBookEntranceView",
@@ -8292,7 +8528,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "UseReviveItemView",
@@ -8327,7 +8564,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "PhantomBattleRecommendView",
@@ -8362,7 +8600,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CalabashUnlockItemView",
@@ -8397,7 +8636,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "InstanceDungeonAreaView",
@@ -8432,7 +8672,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "PhantomBattleSelectedView",
@@ -8467,7 +8708,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "QuestHandBookView",
@@ -8502,7 +8744,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "TimeTrackControlView",
@@ -8537,7 +8780,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "AchievementMainView",
@@ -8572,7 +8816,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "AchievementDetailView",
@@ -8607,7 +8852,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "AchievementFinishView",
@@ -8642,7 +8888,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ExploreProgressView",
@@ -8677,7 +8924,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "DailyTaskEndTips",
@@ -8712,7 +8960,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "BattleUiSetView",
@@ -8747,7 +8996,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoleBreachSuccessView",
@@ -8782,7 +9032,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "LoginServerView",
@@ -8817,7 +9068,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CookSuccessView",
@@ -8852,7 +9104,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "DailyTaskHubView",
@@ -8887,7 +9140,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "NewSoundAreaView",
@@ -8922,7 +9176,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoleElementView",
@@ -8957,7 +9212,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "RoleGenderChangeView",
@@ -8992,7 +9248,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "AdviceMutiSentenceSelectView",
@@ -9027,7 +9284,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ComboTeachingView",
@@ -9062,7 +9320,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoleAttributeDetailView",
@@ -9097,7 +9356,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "CommonActivityView",
@@ -9132,7 +9392,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "OnlineChallengeApplyView",
@@ -9167,7 +9428,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "OnlineChallengeStateView",
@@ -9202,7 +9464,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CalabashUpgradeSuccessView",
@@ -9237,7 +9500,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "PersonalRootView",
@@ -9272,7 +9536,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "PersonalOptionView",
@@ -9307,7 +9572,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "PersonalBirthView",
@@ -9342,7 +9608,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "PersonalEditView",
@@ -9377,7 +9644,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "PersonalRoleShowView",
@@ -9412,7 +9680,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "ActivityRunView",
@@ -9447,7 +9716,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ActivityRunSuccessView",
@@ -9482,7 +9752,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ActivityRunFailView",
@@ -9517,7 +9788,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "LoginDebugView",
@@ -9552,7 +9824,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "LoginDebugPlayerNameView",
@@ -9587,7 +9860,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "OnlineMatchSuccessView",
@@ -9622,7 +9896,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "OnlineSettingView",
@@ -9657,7 +9932,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CommonRewardView",
@@ -9692,7 +9968,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CompositeRewardView",
@@ -9727,7 +10004,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ExploreRewardView",
@@ -9762,7 +10040,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "PhantomBattleFettersObtainView",
@@ -9797,7 +10076,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "TeamRoleSelectView",
@@ -9832,7 +10112,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "TeamRoleSelectWithModelView",
@@ -9867,7 +10148,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ComboTeachingFloatTips",
@@ -9902,7 +10184,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "TurntableControlView",
@@ -9937,7 +10220,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "OnlineProcessView",
@@ -9972,7 +10256,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CommunicateView",
@@ -10007,7 +10292,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CommonItemSelectViewLeft",
@@ -10042,7 +10328,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CommonItemSelectViewRight",
@@ -10077,7 +10364,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "VisionEquipmentView",
@@ -10112,7 +10400,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "VisionLevelUpView",
@@ -10147,7 +10436,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "FilterView",
@@ -10182,7 +10472,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "VisionSlotView",
@@ -10217,7 +10508,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "VisionIntensifyView",
@@ -10252,7 +10544,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "VisionRecommendView",
@@ -10287,7 +10580,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "SortView",
@@ -10322,7 +10616,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "SignalDecodeView",
@@ -10357,7 +10652,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "InstanceDungeonGuideView",
@@ -10392,7 +10688,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "TabGuideView",
@@ -10427,7 +10724,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "QuestFailRangeTipsView",
@@ -10462,7 +10760,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CalabashRootView",
@@ -10497,7 +10796,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "CookLevelView",
@@ -10532,7 +10832,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "CookRoleView",
@@ -10567,7 +10868,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "ManufactureHelpRoleView",
@@ -10602,7 +10904,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "ComposeLevelView",
@@ -10637,7 +10940,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "PhotographEntityView",
@@ -10672,7 +10976,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoleLevelUpSuccessAttributeView",
@@ -10707,7 +11012,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoleLevelUpSuccessEffectView",
@@ -10742,7 +11048,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CommonSingleInputView",
@@ -10777,7 +11084,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CommonMultiInputView",
@@ -10812,7 +11120,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoleSkillInputView",
@@ -10847,7 +11156,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoguePhantomSelectView",
@@ -10882,7 +11192,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoguePhantomReplaceView",
@@ -10917,7 +11228,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoguePhantomSelectResultView",
@@ -10952,7 +11264,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoleBuffSelectView",
@@ -10987,7 +11300,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoleReplaceView",
@@ -11022,7 +11336,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RogueRoleSelectResultView",
@@ -11057,7 +11372,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CommonSelectView",
@@ -11092,7 +11408,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CommonSelectResultView",
@@ -11127,7 +11444,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RogueBuffSelectView",
@@ -11162,7 +11480,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "PingView",
@@ -11197,7 +11516,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "SundialControlView",
@@ -11232,7 +11552,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RogueInfoView",
@@ -11267,7 +11588,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RogueShopView",
@@ -11302,7 +11624,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "LogUploadView",
@@ -11337,7 +11660,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ExitSkillView",
@@ -11372,7 +11696,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "TowerRewardView",
@@ -11407,7 +11732,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "TowerApplyFloorDataView",
@@ -11442,7 +11768,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "TowerNormalView",
@@ -11477,7 +11804,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "Start",
       "HideAnimName": "Close"
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "TowerFloorView",
@@ -11512,7 +11840,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "TowerVariationView",
@@ -11547,7 +11876,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "Start",
       "HideAnimName": "Close"
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "TowerResetView",
@@ -11582,7 +11912,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "TowerRecommendView",
@@ -11617,7 +11948,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "TowerFloorDetailView",
@@ -11652,7 +11984,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "TowerReviewView",
@@ -11687,7 +12020,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoguelikeSelectRoleView",
@@ -11722,7 +12056,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoguelikeSettleView",
@@ -11757,7 +12092,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoguelikeExitTips",
@@ -11792,7 +12128,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoguelikeRoomFloatTips",
@@ -11827,7 +12164,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "FrozenQteView",
@@ -11862,7 +12200,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "FadeLoadingView",
@@ -11897,7 +12236,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "SignalDeviceView",
@@ -11932,7 +12272,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "BattleFloatTipsView",
@@ -11967,7 +12308,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "LordGymEntranceView",
@@ -12002,7 +12344,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "RoguelikeSkillView",
@@ -12037,7 +12380,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "VisionIdentifyView",
@@ -12072,7 +12416,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoguelikeSkillOverView",
@@ -12107,7 +12452,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "QuestRewardView",
@@ -12142,7 +12488,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoleNewJoinView",
@@ -12175,9 +12522,10 @@
       "HideAnimName": "Close"
     },
     "CloseBlackScreen": {
-      "ShowAnimName": "",
-      "HideAnimName": ""
-    }
+      "ShowAnimName": "None",
+      "HideAnimName": "Close"
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoleNewJoinTipView",
@@ -12212,7 +12560,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "SoundAreaPlayTips",
@@ -12228,10 +12577,10 @@
     "CloseAudioEvent": "",
     "DelayTime": 0,
     "EffectDelayTime": 0,
-    "SetMaskActive": true,
+    "SetMaskActive": false,
     "TimeDilation": 1.0,
     "IsAllowFightInput": true,
-    "CanOpenViewByShortcutKey": false,
+    "CanOpenViewByShortcutKey": true,
     "IsShortKeysExitView": false,
     "ScenePointTag": "",
     "NeedGc": false,
@@ -12247,7 +12596,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ExploreDetailView",
@@ -12282,7 +12632,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "QuickRoleSelectView",
@@ -12317,7 +12668,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoguelikeActivityView",
@@ -12352,7 +12704,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoguelikeMemoryPlaceView",
@@ -12387,7 +12740,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoguelikeTokenOverView",
@@ -12422,7 +12776,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoguelikeAchievementView",
@@ -12457,7 +12812,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ExploreLevelView",
@@ -12492,7 +12848,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ExploreLevelPreviewView",
@@ -12527,7 +12884,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ExploreLevelRewardView",
@@ -12562,7 +12920,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoguelikeRandomEventView",
@@ -12597,7 +12956,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RolePreviewRootView",
@@ -12632,7 +12992,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "ConfirmBoxMiddleView",
@@ -12667,7 +13028,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "VisionLookOverView",
@@ -12702,7 +13064,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "VisionFilterView",
@@ -12737,7 +13100,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "CdKeyInputView",
@@ -12772,7 +13136,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "LoginQueueTipsView",
@@ -12807,7 +13172,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ActivityRewardPopUpView",
@@ -12842,7 +13208,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "InteractQteView",
@@ -12877,7 +13244,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "LordGymChallengeRecordView",
@@ -12912,7 +13280,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "LordGymUnlockTipView",
@@ -12947,7 +13316,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ItemDeliverView",
@@ -12982,7 +13352,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "PlotLogoView",
@@ -13017,7 +13388,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoleNewJoinRootView",
@@ -13052,7 +13424,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": true
   },
   {
     "ViewName": "NewMissionTips",
@@ -13087,7 +13460,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "QuestLockPreview",
@@ -13122,7 +13496,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ToolWindowView",
@@ -13157,7 +13532,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "FlowChapterEndTips",
@@ -13192,7 +13568,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "FlowChapterStartTips",
@@ -13227,7 +13604,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "GachaSelectionView",
@@ -13262,7 +13640,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "SignalDeviceGuideView",
@@ -13297,7 +13676,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "HelpGuideView",
@@ -13332,7 +13712,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "TowerGuideView",
@@ -13367,7 +13748,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "TowerUnlockView",
@@ -13402,7 +13784,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "SilentAreaRewardPreviewPopView",
@@ -13437,7 +13820,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "OnlineInstanceMatchTips",
@@ -13472,7 +13856,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ConfirmBoxMiddleWithoutItemView",
@@ -13507,7 +13892,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "DestroyPreviewView",
@@ -13542,7 +13928,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RogueAttributeDetailView",
@@ -13577,7 +13964,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "MowingRewardView",
@@ -13612,7 +14000,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "VisionSkinView",
@@ -13647,7 +14036,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoleIntroductionView",
@@ -13682,7 +14072,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "AchievementCompleteTipsView",
@@ -13717,7 +14108,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "VisionNewQualityView",
@@ -13752,7 +14144,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RepeatKeyTipsView",
@@ -13787,7 +14180,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RogueEventResultView",
@@ -13822,7 +14216,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "RoguelikeUnlockTips",
@@ -13857,7 +14252,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "ChangeActionTipsView",
@@ -13892,7 +14288,8 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
   },
   {
     "ViewName": "VisionRecoveryResultView",
@@ -13927,6 +14324,943 @@
     "CloseBlackScreen": {
       "ShowAnimName": "",
       "HideAnimName": ""
-    }
+    },
+    "SkipAnim": false
+  },
+  {
+    "ViewName": "AchievementRewardItemView",
+    "Type": "Float",
+    "LoadAsync": true,
+    "ShowCursorType": 2,
+    "ObstructUi": null,
+    "EffectStart": "",
+    "EffectBone": "",
+    "MontageStart": "",
+    "AudioEvent": "",
+    "OpenAudioEvent": "",
+    "CloseAudioEvent": "",
+    "DelayTime": 0,
+    "EffectDelayTime": 0,
+    "SetMaskActive": true,
+    "TimeDilation": 1.0,
+    "IsAllowFightInput": true,
+    "CanOpenViewByShortcutKey": true,
+    "IsShortKeysExitView": false,
+    "ScenePointTag": "",
+    "NeedGc": false,
+    "IsFullScreen": false,
+    "CommonPopBg": -1,
+    "CommonPopBgKey": "",
+    "ScenePath": "",
+    "IsPermanent": false,
+    "StartBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "CloseBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "SkipAnim": false
+  },
+  {
+    "ViewName": "RoleTagDetailView",
+    "Type": "Pop",
+    "LoadAsync": true,
+    "ShowCursorType": 1,
+    "ObstructUi": null,
+    "EffectStart": "",
+    "EffectBone": "",
+    "MontageStart": "",
+    "AudioEvent": "",
+    "OpenAudioEvent": "",
+    "CloseAudioEvent": "",
+    "DelayTime": 0,
+    "EffectDelayTime": 0,
+    "SetMaskActive": true,
+    "TimeDilation": 1.0,
+    "IsAllowFightInput": false,
+    "CanOpenViewByShortcutKey": false,
+    "IsShortKeysExitView": true,
+    "ScenePointTag": "",
+    "NeedGc": false,
+    "IsFullScreen": false,
+    "CommonPopBg": -1,
+    "CommonPopBgKey": "",
+    "ScenePath": "",
+    "IsPermanent": false,
+    "StartBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "CloseBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "SkipAnim": false
+  },
+  {
+    "ViewName": "QuickChatView",
+    "Type": "Pop",
+    "LoadAsync": true,
+    "ShowCursorType": 1,
+    "ObstructUi": null,
+    "EffectStart": "",
+    "EffectBone": "",
+    "MontageStart": "",
+    "AudioEvent": "",
+    "OpenAudioEvent": "",
+    "CloseAudioEvent": "",
+    "DelayTime": 0,
+    "EffectDelayTime": 0,
+    "SetMaskActive": true,
+    "TimeDilation": 1.0,
+    "IsAllowFightInput": false,
+    "CanOpenViewByShortcutKey": false,
+    "IsShortKeysExitView": true,
+    "ScenePointTag": "",
+    "NeedGc": false,
+    "IsFullScreen": false,
+    "CommonPopBg": -1,
+    "CommonPopBgKey": "",
+    "ScenePath": "",
+    "IsPermanent": false,
+    "StartBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "CloseBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "SkipAnim": false
+  },
+  {
+    "ViewName": "BossRushMainView",
+    "Type": "Normal",
+    "LoadAsync": false,
+    "ShowCursorType": 1,
+    "ObstructUi": null,
+    "EffectStart": "",
+    "EffectBone": "",
+    "MontageStart": "",
+    "AudioEvent": "",
+    "OpenAudioEvent": "",
+    "CloseAudioEvent": "",
+    "DelayTime": 0,
+    "EffectDelayTime": 0,
+    "SetMaskActive": true,
+    "TimeDilation": 1.0,
+    "IsAllowFightInput": false,
+    "CanOpenViewByShortcutKey": false,
+    "IsShortKeysExitView": true,
+    "ScenePointTag": "",
+    "NeedGc": false,
+    "IsFullScreen": false,
+    "CommonPopBg": -1,
+    "CommonPopBgKey": "",
+    "ScenePath": "",
+    "IsPermanent": false,
+    "StartBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "CloseBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "SkipAnim": false
+  },
+  {
+    "ViewName": "LongShanView",
+    "Type": "Normal",
+    "LoadAsync": true,
+    "ShowCursorType": 1,
+    "ObstructUi": null,
+    "EffectStart": "",
+    "EffectBone": "",
+    "MontageStart": "",
+    "AudioEvent": "",
+    "OpenAudioEvent": "",
+    "CloseAudioEvent": "",
+    "DelayTime": 0,
+    "EffectDelayTime": 0,
+    "SetMaskActive": true,
+    "TimeDilation": 1.0,
+    "IsAllowFightInput": false,
+    "CanOpenViewByShortcutKey": false,
+    "IsShortKeysExitView": true,
+    "ScenePointTag": "",
+    "NeedGc": false,
+    "IsFullScreen": false,
+    "CommonPopBg": -1,
+    "CommonPopBgKey": "",
+    "ScenePath": "",
+    "IsPermanent": false,
+    "StartBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "CloseBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "SkipAnim": false
+  },
+  {
+    "ViewName": "RoguelikeSpecialDetailView",
+    "Type": "Normal",
+    "LoadAsync": true,
+    "ShowCursorType": 1,
+    "ObstructUi": null,
+    "EffectStart": "",
+    "EffectBone": "",
+    "MontageStart": "",
+    "AudioEvent": "",
+    "OpenAudioEvent": "",
+    "CloseAudioEvent": "",
+    "DelayTime": 0,
+    "EffectDelayTime": 0,
+    "SetMaskActive": true,
+    "TimeDilation": 1.0,
+    "IsAllowFightInput": false,
+    "CanOpenViewByShortcutKey": false,
+    "IsShortKeysExitView": true,
+    "ScenePointTag": "",
+    "NeedGc": false,
+    "IsFullScreen": false,
+    "CommonPopBg": -1,
+    "CommonPopBgKey": "",
+    "ScenePath": "",
+    "IsPermanent": false,
+    "StartBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "CloseBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "SkipAnim": false
+  },
+  {
+    "ViewName": "RoguelikeSelectSpecialView",
+    "Type": "Normal",
+    "LoadAsync": true,
+    "ShowCursorType": 1,
+    "ObstructUi": null,
+    "EffectStart": "",
+    "EffectBone": "",
+    "MontageStart": "",
+    "AudioEvent": "",
+    "OpenAudioEvent": "",
+    "CloseAudioEvent": "",
+    "DelayTime": 0,
+    "EffectDelayTime": 0,
+    "SetMaskActive": true,
+    "TimeDilation": 1.0,
+    "IsAllowFightInput": false,
+    "CanOpenViewByShortcutKey": false,
+    "IsShortKeysExitView": true,
+    "ScenePointTag": "",
+    "NeedGc": false,
+    "IsFullScreen": false,
+    "CommonPopBg": -1,
+    "CommonPopBgKey": "",
+    "ScenePath": "",
+    "IsPermanent": false,
+    "StartBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "CloseBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "SkipAnim": false
+  },
+  {
+    "ViewName": "LongShanUnlockView",
+    "Type": "Float",
+    "LoadAsync": true,
+    "ShowCursorType": 2,
+    "ObstructUi": null,
+    "EffectStart": "",
+    "EffectBone": "",
+    "MontageStart": "",
+    "AudioEvent": "",
+    "OpenAudioEvent": "",
+    "CloseAudioEvent": "",
+    "DelayTime": 0,
+    "EffectDelayTime": 0,
+    "SetMaskActive": true,
+    "TimeDilation": 1.0,
+    "IsAllowFightInput": true,
+    "CanOpenViewByShortcutKey": true,
+    "IsShortKeysExitView": true,
+    "ScenePointTag": "",
+    "NeedGc": false,
+    "IsFullScreen": false,
+    "CommonPopBg": -1,
+    "CommonPopBgKey": "",
+    "ScenePath": "",
+    "IsPermanent": false,
+    "StartBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "CloseBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "SkipAnim": false
+  },
+  {
+    "ViewName": "RoguelikeInstanceEntrySelectView",
+    "Type": "Pop",
+    "LoadAsync": true,
+    "ShowCursorType": 1,
+    "ObstructUi": null,
+    "EffectStart": "",
+    "EffectBone": "",
+    "MontageStart": "",
+    "AudioEvent": "",
+    "OpenAudioEvent": "",
+    "CloseAudioEvent": "",
+    "DelayTime": 0,
+    "EffectDelayTime": 0,
+    "SetMaskActive": true,
+    "TimeDilation": 0.0,
+    "IsAllowFightInput": false,
+    "CanOpenViewByShortcutKey": false,
+    "IsShortKeysExitView": true,
+    "ScenePointTag": "",
+    "NeedGc": false,
+    "IsFullScreen": false,
+    "CommonPopBg": 1,
+    "CommonPopBgKey": "",
+    "ScenePath": "",
+    "IsPermanent": false,
+    "StartBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "CloseBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "SkipAnim": false
+  },
+  {
+    "ViewName": "DifficultUnlockTipView",
+    "Type": "Float",
+    "LoadAsync": true,
+    "ShowCursorType": 2,
+    "ObstructUi": null,
+    "EffectStart": "",
+    "EffectBone": "",
+    "MontageStart": "",
+    "AudioEvent": "",
+    "OpenAudioEvent": "",
+    "CloseAudioEvent": "",
+    "DelayTime": 0,
+    "EffectDelayTime": 0,
+    "SetMaskActive": true,
+    "TimeDilation": 1.0,
+    "IsAllowFightInput": true,
+    "CanOpenViewByShortcutKey": true,
+    "IsShortKeysExitView": true,
+    "ScenePointTag": "",
+    "NeedGc": false,
+    "IsFullScreen": false,
+    "CommonPopBg": -1,
+    "CommonPopBgKey": "",
+    "ScenePath": "",
+    "IsPermanent": false,
+    "StartBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "CloseBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "SkipAnim": false
+  },
+  {
+    "ViewName": "CollectItemView",
+    "Type": "Normal",
+    "LoadAsync": true,
+    "ShowCursorType": 1,
+    "ObstructUi": null,
+    "EffectStart": "",
+    "EffectBone": "",
+    "MontageStart": "",
+    "AudioEvent": "",
+    "OpenAudioEvent": "",
+    "CloseAudioEvent": "",
+    "DelayTime": 0,
+    "EffectDelayTime": 0,
+    "SetMaskActive": true,
+    "TimeDilation": 1.0,
+    "IsAllowFightInput": false,
+    "CanOpenViewByShortcutKey": false,
+    "IsShortKeysExitView": false,
+    "ScenePointTag": "",
+    "NeedGc": false,
+    "IsFullScreen": false,
+    "CommonPopBg": -1,
+    "CommonPopBgKey": "",
+    "ScenePath": "",
+    "IsPermanent": false,
+    "StartBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "CloseBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "SkipAnim": false
+  },
+  {
+    "ViewName": "FragmentedCluesView",
+    "Type": "Pop",
+    "LoadAsync": true,
+    "ShowCursorType": 1,
+    "ObstructUi": null,
+    "EffectStart": "",
+    "EffectBone": "",
+    "MontageStart": "",
+    "AudioEvent": "",
+    "OpenAudioEvent": "",
+    "CloseAudioEvent": "",
+    "DelayTime": 0,
+    "EffectDelayTime": 0,
+    "SetMaskActive": true,
+    "TimeDilation": 1.0,
+    "IsAllowFightInput": false,
+    "CanOpenViewByShortcutKey": false,
+    "IsShortKeysExitView": false,
+    "ScenePointTag": "",
+    "NeedGc": false,
+    "IsFullScreen": false,
+    "CommonPopBg": 7,
+    "CommonPopBgKey": "",
+    "ScenePath": "",
+    "IsPermanent": false,
+    "StartBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "CloseBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "SkipAnim": false
+  },
+  {
+    "ViewName": "ObtainFragmentView",
+    "Type": "Pop",
+    "LoadAsync": true,
+    "ShowCursorType": 1,
+    "ObstructUi": null,
+    "EffectStart": "",
+    "EffectBone": "",
+    "MontageStart": "",
+    "AudioEvent": "",
+    "OpenAudioEvent": "",
+    "CloseAudioEvent": "",
+    "DelayTime": 0,
+    "EffectDelayTime": 0,
+    "SetMaskActive": true,
+    "TimeDilation": 1.0,
+    "IsAllowFightInput": false,
+    "CanOpenViewByShortcutKey": false,
+    "IsShortKeysExitView": false,
+    "ScenePointTag": "",
+    "NeedGc": false,
+    "IsFullScreen": false,
+    "CommonPopBg": 7,
+    "CommonPopBgKey": "",
+    "ScenePath": "",
+    "IsPermanent": false,
+    "StartBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "CloseBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "SkipAnim": false
+  },
+  {
+    "ViewName": "MemoryFragmentMainView",
+    "Type": "Normal",
+    "LoadAsync": false,
+    "ShowCursorType": 1,
+    "ObstructUi": null,
+    "EffectStart": "",
+    "EffectBone": "",
+    "MontageStart": "",
+    "AudioEvent": "",
+    "OpenAudioEvent": "",
+    "CloseAudioEvent": "",
+    "DelayTime": 0,
+    "EffectDelayTime": 0,
+    "SetMaskActive": true,
+    "TimeDilation": 1.0,
+    "IsAllowFightInput": false,
+    "CanOpenViewByShortcutKey": false,
+    "IsShortKeysExitView": true,
+    "ScenePointTag": "",
+    "NeedGc": false,
+    "IsFullScreen": false,
+    "CommonPopBg": -1,
+    "CommonPopBgKey": "",
+    "ScenePath": "",
+    "IsPermanent": false,
+    "StartBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "CloseBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "SkipAnim": false
+  },
+  {
+    "ViewName": "MemoryDetailView",
+    "Type": "Normal",
+    "LoadAsync": true,
+    "ShowCursorType": 1,
+    "ObstructUi": null,
+    "EffectStart": "",
+    "EffectBone": "",
+    "MontageStart": "",
+    "AudioEvent": "",
+    "OpenAudioEvent": "",
+    "CloseAudioEvent": "",
+    "DelayTime": 0,
+    "EffectDelayTime": 0,
+    "SetMaskActive": true,
+    "TimeDilation": 1.0,
+    "IsAllowFightInput": false,
+    "CanOpenViewByShortcutKey": false,
+    "IsShortKeysExitView": true,
+    "ScenePointTag": "",
+    "NeedGc": false,
+    "IsFullScreen": false,
+    "CommonPopBg": -1,
+    "CommonPopBgKey": "",
+    "ScenePath": "",
+    "IsPermanent": false,
+    "StartBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "CloseBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "SkipAnim": false
+  },
+  {
+    "ViewName": "ExploreMissionView",
+    "Type": "Pop",
+    "LoadAsync": true,
+    "ShowCursorType": 1,
+    "ObstructUi": null,
+    "EffectStart": "",
+    "EffectBone": "",
+    "MontageStart": "",
+    "AudioEvent": "",
+    "OpenAudioEvent": "",
+    "CloseAudioEvent": "",
+    "DelayTime": 0,
+    "EffectDelayTime": 0,
+    "SetMaskActive": true,
+    "TimeDilation": 1.0,
+    "IsAllowFightInput": false,
+    "CanOpenViewByShortcutKey": false,
+    "IsShortKeysExitView": false,
+    "ScenePointTag": "",
+    "NeedGc": false,
+    "IsFullScreen": false,
+    "CommonPopBg": 3,
+    "CommonPopBgKey": "",
+    "ScenePath": "",
+    "IsPermanent": false,
+    "StartBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "CloseBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "SkipAnim": false
+  },
+  {
+    "ViewName": "RemainStarWarningTips",
+    "Type": "Float",
+    "LoadAsync": true,
+    "ShowCursorType": 2,
+    "ObstructUi": null,
+    "EffectStart": "",
+    "EffectBone": "",
+    "MontageStart": "",
+    "AudioEvent": "",
+    "OpenAudioEvent": "",
+    "CloseAudioEvent": "",
+    "DelayTime": 0,
+    "EffectDelayTime": 0,
+    "SetMaskActive": true,
+    "TimeDilation": 1.0,
+    "IsAllowFightInput": true,
+    "CanOpenViewByShortcutKey": false,
+    "IsShortKeysExitView": false,
+    "ScenePointTag": "",
+    "NeedGc": false,
+    "IsFullScreen": false,
+    "CommonPopBg": -1,
+    "CommonPopBgKey": "",
+    "ScenePath": "",
+    "IsPermanent": false,
+    "StartBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "CloseBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "SkipAnim": false
+  },
+  {
+    "ViewName": "RoleBreakPreviewView",
+    "Type": "Pop",
+    "LoadAsync": true,
+    "ShowCursorType": 1,
+    "ObstructUi": null,
+    "EffectStart": "",
+    "EffectBone": "",
+    "MontageStart": "",
+    "AudioEvent": "",
+    "OpenAudioEvent": "",
+    "CloseAudioEvent": "",
+    "DelayTime": 0,
+    "EffectDelayTime": 0,
+    "SetMaskActive": true,
+    "TimeDilation": 1.0,
+    "IsAllowFightInput": false,
+    "CanOpenViewByShortcutKey": false,
+    "IsShortKeysExitView": false,
+    "ScenePointTag": "",
+    "NeedGc": false,
+    "IsFullScreen": false,
+    "CommonPopBg": -1,
+    "CommonPopBgKey": "",
+    "ScenePath": "",
+    "IsPermanent": false,
+    "StartBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "CloseBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "SkipAnim": false
+  },
+  {
+    "ViewName": "ActivityTurntableRewardView",
+    "Type": "Pop",
+    "LoadAsync": true,
+    "ShowCursorType": 1,
+    "ObstructUi": null,
+    "EffectStart": "",
+    "EffectBone": "",
+    "MontageStart": "",
+    "AudioEvent": "",
+    "OpenAudioEvent": "",
+    "CloseAudioEvent": "",
+    "DelayTime": 0,
+    "EffectDelayTime": 0,
+    "SetMaskActive": true,
+    "TimeDilation": 0.0,
+    "IsAllowFightInput": false,
+    "CanOpenViewByShortcutKey": false,
+    "IsShortKeysExitView": false,
+    "ScenePointTag": "",
+    "NeedGc": false,
+    "IsFullScreen": false,
+    "CommonPopBg": -1,
+    "CommonPopBgKey": "",
+    "ScenePath": "",
+    "IsPermanent": false,
+    "StartBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "CloseBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "SkipAnim": false
+  },
+  {
+    "ViewName": "PlotTipsView",
+    "Type": "HUD",
+    "LoadAsync": true,
+    "ShowCursorType": 2,
+    "ObstructUi": null,
+    "EffectStart": "",
+    "EffectBone": "",
+    "MontageStart": "",
+    "AudioEvent": "",
+    "OpenAudioEvent": "",
+    "CloseAudioEvent": "",
+    "DelayTime": 0,
+    "EffectDelayTime": 0,
+    "SetMaskActive": true,
+    "TimeDilation": 1.0,
+    "IsAllowFightInput": true,
+    "CanOpenViewByShortcutKey": true,
+    "IsShortKeysExitView": false,
+    "ScenePointTag": "",
+    "NeedGc": false,
+    "IsFullScreen": false,
+    "CommonPopBg": -1,
+    "CommonPopBgKey": "",
+    "ScenePath": "",
+    "IsPermanent": false,
+    "StartBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "CloseBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "SkipAnim": false
+  },
+  {
+    "ViewName": "ActivityUnlockTipView",
+    "Type": "Float",
+    "LoadAsync": true,
+    "ShowCursorType": 2,
+    "ObstructUi": null,
+    "EffectStart": "",
+    "EffectBone": "",
+    "MontageStart": "",
+    "AudioEvent": "",
+    "OpenAudioEvent": "",
+    "CloseAudioEvent": "",
+    "DelayTime": 0,
+    "EffectDelayTime": 0,
+    "SetMaskActive": true,
+    "TimeDilation": 1.0,
+    "IsAllowFightInput": true,
+    "CanOpenViewByShortcutKey": true,
+    "IsShortKeysExitView": false,
+    "ScenePointTag": "",
+    "NeedGc": false,
+    "IsFullScreen": false,
+    "CommonPopBg": -1,
+    "CommonPopBgKey": "",
+    "ScenePath": "",
+    "IsPermanent": false,
+    "StartBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "CloseBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "SkipAnim": false
+  },
+  {
+    "ViewName": "HandBookRoleView",
+    "Type": "Normal",
+    "LoadAsync": true,
+    "ShowCursorType": 1,
+    "ObstructUi": null,
+    "EffectStart": "",
+    "EffectBone": "",
+    "MontageStart": "",
+    "AudioEvent": "",
+    "OpenAudioEvent": "",
+    "CloseAudioEvent": "",
+    "DelayTime": 0,
+    "EffectDelayTime": 0,
+    "SetMaskActive": true,
+    "TimeDilation": 1.0,
+    "IsAllowFightInput": false,
+    "CanOpenViewByShortcutKey": false,
+    "IsShortKeysExitView": true,
+    "ScenePointTag": "",
+    "NeedGc": false,
+    "IsFullScreen": false,
+    "CommonPopBg": -1,
+    "CommonPopBgKey": "",
+    "ScenePath": "/Game/Aki/Map/UISceneLevel/UI_Scene/UL_UIMap_Character",
+    "IsPermanent": false,
+    "StartBlackScreen": {
+      "ShowAnimName": "Start",
+      "HideAnimName": "Close"
+    },
+    "CloseBlackScreen": {
+      "ShowAnimName": "Start",
+      "HideAnimName": "Close"
+    },
+    "SkipAnim": false
+  },
+  {
+    "ViewName": "HandBookQuestPlotView",
+    "Type": "Normal",
+    "LoadAsync": true,
+    "ShowCursorType": 1,
+    "ObstructUi": null,
+    "EffectStart": "",
+    "EffectBone": "",
+    "MontageStart": "",
+    "AudioEvent": "",
+    "OpenAudioEvent": "",
+    "CloseAudioEvent": "",
+    "DelayTime": 0,
+    "EffectDelayTime": 0,
+    "SetMaskActive": true,
+    "TimeDilation": 1.0,
+    "IsAllowFightInput": false,
+    "CanOpenViewByShortcutKey": false,
+    "IsShortKeysExitView": true,
+    "ScenePointTag": "",
+    "NeedGc": false,
+    "IsFullScreen": false,
+    "CommonPopBg": -1,
+    "CommonPopBgKey": "",
+    "ScenePath": "/Game/Aki/Map/UISceneLevel/UI_Scene/UL_UIMap_Character",
+    "IsPermanent": false,
+    "StartBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "CloseBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "SkipAnim": false
+  },
+  {
+    "ViewName": "RogueScoreUnit",
+    "Type": "HUD",
+    "LoadAsync": true,
+    "ShowCursorType": 2,
+    "ObstructUi": null,
+    "EffectStart": "",
+    "EffectBone": "",
+    "MontageStart": "",
+    "AudioEvent": "",
+    "OpenAudioEvent": "",
+    "CloseAudioEvent": "",
+    "DelayTime": 0,
+    "EffectDelayTime": 0,
+    "SetMaskActive": true,
+    "TimeDilation": 1.0,
+    "IsAllowFightInput": true,
+    "CanOpenViewByShortcutKey": true,
+    "IsShortKeysExitView": false,
+    "ScenePointTag": "",
+    "NeedGc": false,
+    "IsFullScreen": false,
+    "CommonPopBg": -1,
+    "CommonPopBgKey": "",
+    "ScenePath": "",
+    "IsPermanent": false,
+    "StartBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "CloseBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "SkipAnim": false
+  },
+  {
+    "ViewName": "RogueEventResultViewOneByOne",
+    "Type": "Normal",
+    "LoadAsync": true,
+    "ShowCursorType": 1,
+    "ObstructUi": null,
+    "EffectStart": "",
+    "EffectBone": "",
+    "MontageStart": "",
+    "AudioEvent": "",
+    "OpenAudioEvent": "",
+    "CloseAudioEvent": "",
+    "DelayTime": 0,
+    "EffectDelayTime": 0,
+    "SetMaskActive": true,
+    "TimeDilation": 1.0,
+    "IsAllowFightInput": false,
+    "CanOpenViewByShortcutKey": false,
+    "IsShortKeysExitView": true,
+    "ScenePointTag": "",
+    "NeedGc": false,
+    "IsFullScreen": false,
+    "CommonPopBg": -1,
+    "CommonPopBgKey": "",
+    "ScenePath": "",
+    "IsPermanent": false,
+    "StartBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "CloseBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "SkipAnim": false
+  },
+  {
+    "ViewName": "RogueEventResultViewAll",
+    "Type": "Normal",
+    "LoadAsync": true,
+    "ShowCursorType": 1,
+    "ObstructUi": null,
+    "EffectStart": "",
+    "EffectBone": "",
+    "MontageStart": "",
+    "AudioEvent": "",
+    "OpenAudioEvent": "",
+    "CloseAudioEvent": "",
+    "DelayTime": 0,
+    "EffectDelayTime": 0,
+    "SetMaskActive": true,
+    "TimeDilation": 1.0,
+    "IsAllowFightInput": false,
+    "CanOpenViewByShortcutKey": false,
+    "IsShortKeysExitView": true,
+    "ScenePointTag": "",
+    "NeedGc": false,
+    "IsFullScreen": false,
+    "CommonPopBg": -1,
+    "CommonPopBgKey": "",
+    "ScenePath": "",
+    "IsPermanent": false,
+    "StartBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "CloseBlackScreen": {
+      "ShowAnimName": "",
+      "HideAnimName": ""
+    },
+    "SkipAnim": false
   }
 ]

@@ -320,7 +320,7 @@
   {
     "Id": "鳞人无音区占用",
     "OccupationType": "SilentArea",
-    "OccupationData": "{\"LevelPlayIds\":[110000002],\"AssociatedEntities\":[110001073,129000002,110000092]}",
+    "OccupationData": "{\"LevelPlayIds\":[110000002],\"AssociatedEntities\":[110001073,110000092]}",
     "OccupationNameStringKey": "OccupationConfig_鳞人无音区占用_Nam"
   },
   {
@@ -364,5 +364,17 @@
     "OccupationType": "Npc",
     "OccupationData": "",
     "OccupationNameStringKey": "OccupationConfig_漂泊者_Name"
+  },
+  {
+    "Id": "changli",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "Empty"
+  },
+  {
+    "Id": "xinyi",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "Empty"
   }
 ]

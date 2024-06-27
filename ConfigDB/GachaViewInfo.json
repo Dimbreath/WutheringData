@@ -360,6 +360,114 @@
     ]
   },
   {
+    "Id": 100003,
+    "Type": 2,
+    "SummaryTitle": "Text_SummaryTitle100003_Text",
+    "SummaryDescribe": "Text_SummaryDescribe100001_Text",
+    "ThemeColor": "F3DC9EFF",
+    "ContentTexturePath": "/Game/Aki/UI/UIResources/Common/Image/Luckdraw/T_LuckdraRoleJinxi.T_LuckdraRoleJinxi",
+    "ContentTextureBgPath": "/Game/Aki/UI/UIResources/Common/Image/Luckdraw/T_LuckdraRoleJinxiBg.T_LuckdraRoleJinxiBg",
+    "UnderBgTexturePath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_LuckdrawBg06.T_LuckdrawBg06",
+    "TagNotSelectedSpritePath": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_TabJinxiNor.SP_TabJinxiNor",
+    "TagSelectedSpritePath": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_TabJinxiSele.SP_TabJinxiSele",
+    "WeaponPrefabPath": "",
+    "UpList": [
+      1102,
+      1402,
+      1602
+    ],
+    "ShowIdList": [
+      1304
+    ],
+    "PreviewIdList": [
+      1304,
+      1102,
+      1402,
+      1602
+    ]
+  },
+  {
+    "Id": 100004,
+    "Type": 2,
+    "SummaryTitle": "Text_SummaryTitle100004_Text",
+    "SummaryDescribe": "Text_SummaryDescribe100002_Text",
+    "ThemeColor": "A73E42FF",
+    "ContentTexturePath": "/Game/Aki/UI/UIResources/Common/Image/Luckdraw/T_LuckdraRoleChangli.T_LuckdraRoleChangli",
+    "ContentTextureBgPath": "/Game/Aki/UI/UIResources/Common/Image/Luckdraw/T_LuckdraRoleChangliBg.T_LuckdraRoleChangliBg",
+    "UnderBgTexturePath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_LuckdrawBg05.T_LuckdrawBg05",
+    "TagNotSelectedSpritePath": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_TabChangliNor.SP_TabChangliNor",
+    "TagSelectedSpritePath": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_TabChangliSele.SP_TabChangliSele",
+    "WeaponPrefabPath": "",
+    "UpList": [
+      1103,
+      1601,
+      1204
+    ],
+    "ShowIdList": [
+      1205
+    ],
+    "PreviewIdList": [
+      1205,
+      1103,
+      1601,
+      1204
+    ]
+  },
+  {
+    "Id": 200003,
+    "Type": 3,
+    "SummaryTitle": "Text_SummaryTitle200003_Text",
+    "SummaryDescribe": "Text_SummaryDescribe200001_Text",
+    "ThemeColor": "42C2F1FF",
+    "ContentTexturePath": "/Game/Aki/UI/UIResources/Common/Image/Luckdraw/T_LuckdraWeapon09.T_LuckdraWeapon09",
+    "ContentTextureBgPath": "",
+    "UnderBgTexturePath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_LuckdrawBg56.T_LuckdrawBg56",
+    "TagNotSelectedSpritePath": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_TabPermanentWeaponNor06.SP_TabPermanentWeaponNor06",
+    "TagSelectedSpritePath": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_TabPermanentWeaponSele06.SP_TabPermanentWeaponSele06",
+    "WeaponPrefabPath": "/Game/Aki/UI/UIResources/UiLuckdraw/Prefabs/UiItem_LuckdraWeapon09.UiItem_LuckdraWeapon09",
+    "UpList": [
+      21010024,
+      21020044,
+      21040044
+    ],
+    "ShowIdList": [
+      21010026
+    ],
+    "PreviewIdList": [
+      21010026,
+      21010024,
+      21020044,
+      21040044
+    ]
+  },
+  {
+    "Id": 200004,
+    "Type": 3,
+    "SummaryTitle": "Text_SummaryTitle200004_Text",
+    "SummaryDescribe": "Text_SummaryDescribe200002_Text",
+    "ThemeColor": "F25B62FF",
+    "ContentTexturePath": "/Game/Aki/UI/UIResources/Common/Image/Luckdraw/T_LuckdraWeapon08.T_LuckdraWeapon08",
+    "ContentTextureBgPath": "",
+    "UnderBgTexturePath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_LuckdrawBg55.T_LuckdrawBg55",
+    "TagNotSelectedSpritePath": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_TabPermanentWeaponNor05.SP_TabPermanentWeaponNor05",
+    "TagSelectedSpritePath": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_TabPermanentWeaponSele05.SP_TabPermanentWeaponSele05",
+    "WeaponPrefabPath": "/Game/Aki/UI/UIResources/UiLuckdraw/Prefabs/UiItem_LuckdraWeapon08.UiItem_LuckdraWeapon08",
+    "UpList": [
+      21020024,
+      21050064,
+      21030044
+    ],
+    "ShowIdList": [
+      21020016
+    ],
+    "PreviewIdList": [
+      21020016,
+      21020024,
+      21050064,
+      21030044
+    ]
+  },
+  {
     "Id": 51,
     "Type": 6,
     "SummaryTitle": "Text_SummaryTitle41_Text",
@@ -367,7 +475,7 @@
     "ThemeColor": "FFFFFFFF",
     "ContentTexturePath": "/Game/Aki/UI/UIResources/Common/Image/Luckdraw/T_LuckdraRoleJianxin.T_LuckdraRoleJianxin",
     "ContentTextureBgPath": "/Game/Aki/UI/UIResources/Common/Image/Luckdraw/T_LuckdraRoleJianxinBg.T_LuckdraRoleJianxinBg",
-    "UnderBgTexturePath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_LuckdrawBg05.T_LuckdrawBg05",
+    "UnderBgTexturePath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_LuckdrawBg07.T_LuckdrawBg07",
     "TagNotSelectedSpritePath": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_TabJianxinNor.SP_TabJianxinNor",
     "TagSelectedSpritePath": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_TabJianxinSele.SP_TabJianxinSele",
     "WeaponPrefabPath": "",
@@ -387,7 +495,7 @@
     "ThemeColor": "FFFFFFFF",
     "ContentTexturePath": "/Game/Aki/UI/UIResources/Common/Image/Luckdraw/T_LuckdraRoleKakaluo.T_LuckdraRoleKakaluo",
     "ContentTextureBgPath": "/Game/Aki/UI/UIResources/Common/Image/Luckdraw/T_LuckdraRoleKakaluoBg.T_LuckdraRoleKakaluoBg",
-    "UnderBgTexturePath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_LuckdrawBg05.T_LuckdrawBg05",
+    "UnderBgTexturePath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_LuckdrawBg07.T_LuckdrawBg07",
     "TagNotSelectedSpritePath": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_TabKakaluoNor.SP_TabKakaluoNor",
     "TagSelectedSpritePath": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_TabKakaluoSele.SP_TabKakaluoSele",
     "WeaponPrefabPath": "",
@@ -407,7 +515,7 @@
     "ThemeColor": "FFFFFFFF",
     "ContentTexturePath": "/Game/Aki/UI/UIResources/Common/Image/Luckdraw/T_LuckdraRoleWeilinai.T_LuckdraRoleWeilinai",
     "ContentTextureBgPath": "/Game/Aki/UI/UIResources/Common/Image/Luckdraw/T_LuckdraRoleWeilinaiBg.T_LuckdraRoleWeilinaiBg",
-    "UnderBgTexturePath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_LuckdrawBg05.T_LuckdrawBg05",
+    "UnderBgTexturePath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_LuckdrawBg07.T_LuckdrawBg07",
     "TagNotSelectedSpritePath": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_TabWeilinaiNor.SP_TabWeilinaiNor",
     "TagSelectedSpritePath": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_TabWeilinaiSele.SP_TabWeilinaiSele",
     "WeaponPrefabPath": "",
@@ -427,7 +535,7 @@
     "ThemeColor": "FFFFFFFF",
     "ContentTexturePath": "/Game/Aki/UI/UIResources/Common/Image/Luckdraw/T_LuckdraRoleLingyang.T_LuckdraRoleLingyang",
     "ContentTextureBgPath": "/Game/Aki/UI/UIResources/Common/Image/Luckdraw/T_LuckdraRoleLingyangBg.T_LuckdraRoleLingyangBg",
-    "UnderBgTexturePath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_LuckdrawBg05.T_LuckdrawBg05",
+    "UnderBgTexturePath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_LuckdrawBg07.T_LuckdrawBg07",
     "TagNotSelectedSpritePath": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_TabLingyangNor.SP_TabLingyangNor",
     "TagSelectedSpritePath": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_TabLingyangSele.SP_TabLingyangSele",
     "WeaponPrefabPath": "",
@@ -447,7 +555,7 @@
     "ThemeColor": "FFFFFFFF",
     "ContentTexturePath": "/Game/Aki/UI/UIResources/Common/Image/Luckdraw/T_LuckdraRoleAnke.T_LuckdraRoleAnke",
     "ContentTextureBgPath": "/Game/Aki/UI/UIResources/Common/Image/Luckdraw/T_LuckdraRoleAnkeBg.T_LuckdraRoleAnkeBg",
-    "UnderBgTexturePath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_LuckdrawBg05.T_LuckdrawBg05",
+    "UnderBgTexturePath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_LuckdrawBg07.T_LuckdrawBg07",
     "TagNotSelectedSpritePath": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_TabAnkeNor.SP_TabAnkeNor",
     "TagSelectedSpritePath": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_TabAnkeSele.SP_TabAnkeSele",
     "WeaponPrefabPath": "",

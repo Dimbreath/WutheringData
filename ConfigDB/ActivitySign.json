@@ -1,6 +1,7 @@
 [
   {
     "Id": 100100001,
+    "Type": 1,
     "SignRewards": [
       {
         "ItemId": 50001,
@@ -37,5 +38,43 @@
     "PreviewList": [
       100704
     ]
+  },
+  {
+    "Id": 100100002,
+    "Type": 2,
+    "SignRewards": [
+      {
+        "ItemId": 50001,
+        "Count": 1
+      },
+      {
+        "ItemId": 50001,
+        "Count": 1
+      },
+      {
+        "ItemId": 50002,
+        "Count": 2
+      },
+      {
+        "ItemId": 50001,
+        "Count": 1
+      },
+      {
+        "ItemId": 50001,
+        "Count": 1
+      },
+      {
+        "ItemId": 50001,
+        "Count": 1
+      },
+      {
+        "ItemId": 50002,
+        "Count": 3
+      }
+    ],
+    "ImportantRewardIndex": -1,
+    "ImportantRewardIcon": "1",
+    "ImportantRewardType": 0,
+    "PreviewList": null
   }
 ]

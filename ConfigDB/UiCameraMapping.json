@@ -652,7 +652,7 @@
   {
     "Id": 1029,
     "ViewName": "ChatView",
-    "DefaultUiCameraSettingsName": "1001",
+    "DefaultUiCameraSettingsName": "",
     "IsCheckSpecialState": false,
     "SpecialStateCameraSettingName": "1002",
     "BPlayLoadingCameraAnimation": true,
@@ -903,6 +903,10 @@
         "Value": "1001"
       },
       {
+        "Key": "RolePreviewAttributeTabView",
+        "Value": "1001"
+      },
+      {
         "Key": "RoleWeaponTabView",
         "Value": "1001"
       },
@@ -1043,7 +1047,12 @@
     "BodyTargetType": 0,
     "BodyCameraSettingsNameMap": null,
     "DefaultCameraBlendName": "",
-    "UiCameraBlendNameMap": null,
+    "UiCameraBlendNameMap": [
+      {
+        "Key": "HandBookRoleView",
+        "Value": "1001"
+      }
+    ],
     "UiCameraDelayTime": 0
   },
   {
@@ -1316,6 +1325,19 @@
     "UiCameraDelayTime": 300
   },
   {
+    "Id": 1064,
+    "ViewName": "BattlePassFirstOpenView",
+    "DefaultUiCameraSettingsName": "1016_preview",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "BPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": null,
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": null,
+    "UiCameraDelayTime": 0
+  },
+  {
     "Id": 1065,
     "ViewName": "GachaResultView",
     "DefaultUiCameraSettingsName": "1001",
@@ -1326,6 +1348,113 @@
     "BodyCameraSettingsNameMap": null,
     "DefaultCameraBlendName": "",
     "UiCameraBlendNameMap": null,
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1066,
+    "ViewName": "CollectItemView",
+    "DefaultUiCameraSettingsName": "1074",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "BPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 2,
+    "BodyCameraSettingsNameMap": [
+      {
+        "Key": "FemaleM",
+        "Value": "1074"
+      },
+      {
+        "Key": "MaleM",
+        "Value": "1074"
+      },
+      {
+        "Key": "FemaleS",
+        "Value": "1075"
+      },
+      {
+        "Key": "MaleS",
+        "Value": "1074"
+      },
+      {
+        "Key": "FemaleXL",
+        "Value": "1074"
+      },
+      {
+        "Key": "MaleXL",
+        "Value": "1074"
+      }
+    ],
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": null,
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1067,
+    "ViewName": "HandBookRoleView",
+    "DefaultUiCameraSettingsName": "1063",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "BPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": null,
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": [
+      {
+        "Key": "RoleRootView",
+        "Value": "1001"
+      },
+      {
+        "Key": "HandBookEntranceView",
+        "Value": "1001"
+      }
+    ],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1068,
+    "ViewName": "RoleBreachSuccessView",
+    "DefaultUiCameraSettingsName": "1013_M",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "BPlayLoadingCameraAnimation": true,
+    "BodyTargetType": 3,
+    "BodyCameraSettingsNameMap": [
+      {
+        "Key": "FemaleM",
+        "Value": "1013_M"
+      },
+      {
+        "Key": "MaleM",
+        "Value": "1013_M"
+      },
+      {
+        "Key": "FemaleS",
+        "Value": "1013_S"
+      },
+      {
+        "Key": "MaleS",
+        "Value": "1013_MS"
+      },
+      {
+        "Key": "FemaleXL",
+        "Value": "1013_M"
+      },
+      {
+        "Key": "MaleXL",
+        "Value": "1013_XL"
+      }
+    ],
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": [
+      {
+        "Key": "RoleRootView",
+        "Value": "1001"
+      },
+      {
+        "Key": "RoleBreachView",
+        "Value": "1001"
+      }
+    ],
     "UiCameraDelayTime": 0
   }
 ]

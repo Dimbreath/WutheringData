@@ -18991,7 +18991,7 @@
   },
   {
     "Id": 600000001,
-    "Path": "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_HidePlayer02.DA_Fx_HidePlayer02",
+    "Path": "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_HidePlayer02_1.DA_Fx_HidePlayer02_1",
     "CueType": 1,
     "Comp": 0,
     "CompName": "Mesh",
@@ -25173,7 +25173,7 @@
   },
   {
     "Id": 600000009,
-    "Path": "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_HidePlayer02.DA_Fx_HidePlayer02",
+    "Path": "/Game/Aki/Effect/MaterialController/Common/DA_Fx_TimeController_Specil.DA_Fx_TimeController_Specil",
     "CueType": 1,
     "Comp": 0,
     "CompName": "Mesh",
@@ -25654,7 +25654,7 @@
   },
   {
     "Id": 19000000301,
-    "Path": "/Game/Aki/Effect/DataAsset/Niagara/Common/Snow/DA_Fx_Smoke_SmokeLoop.DA_Fx_Smoke_SmokeLoop",
+    "Path": "/Game/Aki/Effect/EffectGroup/Common/Snow/DA_Fx_Group_SmokeLoop.DA_Fx_Group_SmokeLoop",
     "CueType": 0,
     "Comp": 1,
     "CompName": "Mesh",
@@ -25918,6 +25918,377 @@
     "Parameters": null
   },
   {
+    "Id": 7704200700,
+    "Path": "/Game/Aki/Effect/EffectGroup/MP1TaguanghuMd00501/DA_Fx_Group_MPs_Eye_Buff.DA_Fx_Group_MPs_Eye_Buff",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bip001_Eyelidup_01_L",
+    "Location": {
+      "X": -1.7999999523162842,
+      "Y": -1.0,
+      "Z": 2.4000000953674316
+    },
+    "Rotation": {
+      "X": -98.0,
+      "Y": 67.0,
+      "Z": 25.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 7704200701,
+    "Path": "/Game/Aki/Effect/EffectGroup/MP1TaguanghuMd00501/DA_Fx_Group_MPs_Eye_Buff.DA_Fx_Group_MPs_Eye_Buff",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bip001_Eyelidup_01_R",
+    "Location": {
+      "X": -0.6000000238418579,
+      "Y": 3.200000047683716,
+      "Z": 0.20000000298023224
+    },
+    "Rotation": {
+      "X": 134.0,
+      "Y": 58.0,
+      "Z": -5.5
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": -1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 7704200702,
+    "Path": "/Game/Aki/Effect/EffectGroup/MP1TaguanghuMd00501/DA_Fx_Group_MPs_Hand_Buff.DA_Fx_Group_MPs_Hand_Buff",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bip001LHand",
+    "Location": {
+      "X": -14.0,
+      "Y": 14.0,
+      "Z": -1.0
+    },
+    "Rotation": {
+      "X": 88.0,
+      "Y": -2.700000047683716,
+      "Z": 48.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 7704200703,
+    "Path": "/Game/Aki/Effect/EffectGroup/MP1TaguanghuMd00501/DA_Fx_Group_MPs_Hand_Buff.DA_Fx_Group_MPs_Hand_Buff",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bip001RHand",
+    "Location": {
+      "X": -25.0,
+      "Y": 23.0,
+      "Z": 7.5
+    },
+    "Rotation": {
+      "X": 82.0,
+      "Y": -0.6000000238418579,
+      "Z": 47.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 7704200704,
+    "Path": "/Game/Aki/Effect/EffectGroup/MP1TaguanghuMd00501/DA_Fx_Group_MPs_Body_Buff.DA_Fx_Group_MPs_Body_Buff",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bip001Spine2",
+    "Location": {
+      "X": 50.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 7704200705,
+    "Path": "/Game/Aki/Effect/MaterialController/DA_Lord/MP1TaguanghuMd00501/DA_Fx_Group_Taguanghu_01.DA_Fx_Group_Taguanghu_01",
+    "CueType": 1,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Root",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 7704201600,
+    "Path": "/Game/Aki/Effect/MaterialController/DA_Lord/MP1TaguanghuMd00501/DA_Fx_Taguanghu_Xuruo.DA_Fx_Taguanghu_Xuruo",
+    "CueType": 1,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Root",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
     "Id": 640009001,
     "Path": "/Game/Aki/Effect/EffectGroup/BigWorld/Yuanniaoze/DA_Fx_Group_Sl3_YNZ_Shield.DA_Fx_Group_Sl3_YNZ_Shield",
     "CueType": 0,
@@ -25996,6 +26367,59 @@
     "RotaRule": 0,
     "SclRule": 0,
     "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 640007011,
+    "Path": "/Game/Aki/Effect/EffectGroup/BigWorld/Chengxiaoshan/DA_Fx_Group_Sl3_CXS_Ts_Move.DA_Fx_Group_Sl3_CXS_Ts_Move",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bip001",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 1,
     "Magni": 0,
     "AttrId": 0,
     "Tag": "",
@@ -28387,6 +28811,59 @@
     "Parameters": null
   },
   {
+    "Id": 1304001003,
+    "Path": "/Game/Aki/Effect/MaterialController/DA_Character/Jinxi/DA_Fx_Jinxi_Stand_Longjiao.DA_Fx_Jinxi_Stand_Longjiao",
+    "CueType": 1,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
     "Id": 80014099001,
     "Path": "/Game/Aki/Effect/EffectGroup/MB1ZhenwuguanzheMd00601/L2/DA_Fx_Group_MBa_S2_Head.DA_Fx_Group_MBa_S2_Head",
     "CueType": 0,
@@ -28599,6 +29076,59 @@
     "Parameters": null
   },
   {
+    "Id": 640007012,
+    "Path": "/Game/Aki/Effect/DataAsset/ScreenDA/SD_Fight/Bigworld/DA_Fx_Sl3_CXS_Wind_01.DA_Fx_Sl3_CXS_Wind_01",
+    "CueType": 9,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 1,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
     "Id": 80017001,
     "Path": "/Game/Aki/Effect/MaterialController/DA_Lord/MB1Suiguang/DA_Fx_Group_Boss_Suiguang_Shunyi.DA_Fx_Group_Boss_Suiguang_Shunyi",
     "CueType": 1,
@@ -28655,6 +29185,324 @@
     "Id": 80017002,
     "Path": "/Game/Aki/Effect/EffectGroup/MB1SuiguangMd00501/DA_Fx_Group_MBa_TimeFrozen.DA_Fx_Group_MBa_TimeFrozen",
     "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1205104001,
+    "Path": "/Game/Aki/Effect/Niagara/NI_R2T1ChangliMd10011/NS_Fx_Changli_Wings_Link.NS_Fx_Changli_Wings_Link",
+    "CueType": 6,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp02#HitCase",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1205104002,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1ChangliMd10011/DA_Fx_Group_Trail_ZL01.DA_Fx_Group_Trail_ZL01",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp02",
+    "Location": {
+      "X": 120.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 90.0,
+      "Y": 90.0,
+      "Z": 180.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1205104011,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1ChangliMd10011/DA_Fx_Group_Prop_Yanzhao_Start.DA_Fx_Group_Prop_Yanzhao_Start",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bip001Head",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 640009061,
+    "Path": "/Game/Aki/Effect/EffectGroup/BigWorld/Fuben/DA_Fx_Group_Yanjiuyuan_Transition_02.DA_Fx_Group_Yanjiuyuan_Transition_02",
+    "CueType": 0,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 640009062,
+    "Path": "/Game/Aki/Effect/DataAsset/ScreenDA/SD_Fight/Bigworld/DA_Fx_Rouge_Disturbance.DA_Fx_Rouge_Disturbance",
+    "CueType": 9,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1205104021,
+    "Path": "/Game/Aki/Effect/MaterialController/DA_Character/Changli/DA_Fx_Changli_Up_3.DA_Fx_Changli_Up_3",
+    "CueType": 1,
     "Comp": 1,
     "CompName": "Mesh",
     "Socket": "None",
@@ -28764,6 +29612,271 @@
     "Comp": 0,
     "CompName": "Mesh",
     "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1205104012,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1ChangliMd10011/DA_Fx_Group_Prop_Yanzhao_End.DA_Fx_Group_Prop_Yanzhao_End",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bip001Head",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1205104023,
+    "Path": "/Game/Aki/Effect/MaterialController/DA_Character/Changli/DA_Fx_Changli_Up_4.DA_Fx_Changli_Up_4",
+    "CueType": 1,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1205104022,
+    "Path": "/Game/Aki/Effect/MaterialController/DA_Character/Changli/DA_Fx_Changli_Choth_3.DA_Fx_Changli_Choth_3",
+    "CueType": 1,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1205104031,
+    "Path": "/Game/Aki/Effect/MaterialController/DA_Character/Changli/DA_Fx_Changli_Cloth_Diss2.DA_Fx_Changli_Cloth_Diss2",
+    "CueType": 1,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1205104041,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1ChangliMd10011/DA_Fx_Group_Changli_Buff_Eye.DA_Fx_Group_Changli_Buff_Eye",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "EyeEffectCase",
     "Location": {
       "X": 0.0,
       "Y": 0.0,
@@ -29076,6 +30189,59 @@
     "Parameters": null
   },
   {
+    "Id": 110004701,
+    "Path": "/Game/Aki/Effect/EffectGroup/Weapon/Knife/R3KnifeMd20001/DA_Fx_Group_Sound.DA_Fx_Group_Sound",
+    "CueType": 0,
+    "Comp": 2,
+    "CompName": "WeaponCase0",
+    "Socket": "HitCase",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": true,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 0,
+    "FarthestDistance": 10000,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
     "Id": 80017005,
     "Path": "/Game/Aki/Effect/EffectGroup/MB1SuiguangMd00501/DA_Fx_Group_MBa21_FlyCam.DA_Fx_Group_MBa21_FlyCam",
     "CueType": 0,
@@ -29188,6 +30354,324 @@
     "Comp": 1,
     "CompName": "Mesh",
     "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1304001013,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1JinxiMd10011/DA_Fx_Group_R1b_LongjiaoEnd.DA_Fx_Group_R1b_LongjiaoEnd",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bip001Head",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 110004801,
+    "Path": "/Game/Aki/Effect/DataAsset/Niagara/Weapon/Sword/R5Sword501Md20001/DA_Fx_R5SwordMd20001_Fire_Open_Buff.DA_Fx_R5SwordMd20001_Fire_Open_Buff",
+    "CueType": 0,
+    "Comp": 2,
+    "CompName": "WeaponCase0",
+    "Socket": "Sword_Bone01",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1205104006,
+    "Path": "/Game/Aki/Effect/Niagara/NI_R2T1ChangliMd10011/NS_Fx_Changli_Wings_Link.NS_Fx_Changli_Wings_Link",
+    "CueType": 6,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "WeaponProp03#HitCase",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 640007013,
+    "Path": "/Game/Aki/Effect/EffectGroup/BigWorld/Tiaozhan/DA_Fx_Group_Sl2_Tiaozhan_9_Xishou_Logo_01.DA_Fx_Group_Sl2_Tiaozhan_9_Xishou_Logo_01",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bip001",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 1,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 640007014,
+    "Path": "/Game/Aki/Effect/EffectGroup/BigWorld/Tiaozhan/DA_Fx_Group_Sl2_Tiaozhan_9_Xishou_Logo_02.DA_Fx_Group_Sl2_Tiaozhan_9_Xishou_Logo_02",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bip001",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 1,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 70111001,
+    "Path": "/Game/Aki/Effect/DataAsset/Decal/MO1RonhuochongMd00101/DA_Fx_Decal_MOa.DA_Fx_Decal_MOa",
+    "CueType": 0,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "Root",
     "Location": {
       "X": 0.0,
       "Y": 0.0,
@@ -29445,5 +30929,2225 @@
     ],
     "Resources": null,
     "Parameters": null
+  },
+  {
+    "Id": 19000000304,
+    "Path": "/Game/Aki/Effect/EffectGroup/Common/Snow/DA_Fx_Group_Mesh_Skilboard.DA_Fx_Group_Mesh_Skilboard",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Root",
+    "Location": {
+      "X": -7.0,
+      "Y": 15.0,
+      "Z": 5.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 90.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1102012034,
+    "Path": "/Game/Aki/UI/UIResources/Common/Image/SkillIcon/SkillIconSanhua/T_IconSanhuaT.T_IconSanhuaT",
+    "CueType": 2,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": [
+      "1",
+      "41AEFB7F"
+    ]
+  },
+  {
+    "Id": 1601020003,
+    "Path": "/Game/Aki/UI/UIResources/Common/Image/SkillIcon/SkillIconTaohua/T_IconTaohuaT.T_IconTaohuaT",
+    "CueType": 2,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": [
+      "1",
+      "E649A67F"
+    ]
+  },
+  {
+    "Id": 1503701002,
+    "Path": "/Game/Aki/UI/UIResources/Common/Image/SkillIcon/SkillIconJueyuan/T_IconJueyuanT.T_IconJueyuanT",
+    "CueType": 2,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": [
+      "1",
+      "F8E56C7F"
+    ]
+  },
+  {
+    "Id": 1602601003,
+    "Path": "/Game/Aki/UI/UIResources/Common/Image/SkillIcon/SkillIconMicai/T_IconMicaiT.T_IconMicaiT",
+    "CueType": 2,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": [
+      "1",
+      "E649A67F"
+    ]
+  },
+  {
+    "Id": 1403081002,
+    "Path": "/Game/Aki/UI/UIResources/Common/Image/SkillIcon/SkillIconQiushui/T_IconQiushuiT.T_IconQiushuiT",
+    "CueType": 2,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": [
+      "1",
+      "55FFB57F"
+    ]
+  },
+  {
+    "Id": 1204003013,
+    "Path": "/Game/Aki/UI/UIResources/Common/Image/SkillIcon/SkillIconMotefei/T_IconMotefeiT.T_IconMotefeiT",
+    "CueType": 2,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": [
+      "1",
+      "F0744E7F"
+    ]
+  },
+  {
+    "Id": 1103111117,
+    "Path": "/Game/Aki/UI/UIResources/Common/Image/SkillIcon/SkillIconBailian/T_IconBailianT.T_IconBailianT",
+    "CueType": 2,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": [
+      "1",
+      "41AEFB7F"
+    ]
+  },
+  {
+    "Id": 1404300009,
+    "Path": "/Game/Aki/UI/UIResources/Common/Image/SkillIcon/SkillIconJiyan/T_IconJiyanT.T_IconJiyanT",
+    "CueType": 2,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": [
+      "1",
+      "55FFB57F"
+    ]
+  },
+  {
+    "Id": 1402001003,
+    "Path": "/Game/Aki/UI/UIResources/Common/Image/SkillIcon/SkillIconYangyang/T_IconYangyangT.T_IconYangyangT",
+    "CueType": 2,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": [
+      "1",
+      "55FFB57F"
+    ]
+  },
+  {
+    "Id": 1302701002,
+    "Path": "/Game/Aki/UI/UIResources/Common/Image/SkillIcon/SkillIconYinlin/T_IconYinlinT.T_IconYinlinT",
+    "CueType": 2,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": [
+      "1",
+      "B46BFF7F"
+    ]
+  },
+  {
+    "Id": 1405001006,
+    "Path": "/Game/Aki/UI/UIResources/Common/Image/SkillIcon/SkillIconJianxin/T_IconJianxinT.T_IconJianxinT",
+    "CueType": 2,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": [
+      "1",
+      "55FFB57F"
+    ]
+  },
+  {
+    "Id": 900312001,
+    "Path": "/Game/Aki/Effect/DataAsset/ScreenDA/SD_Fight/Bigworld/DA_Fx_Rouge_Score.DA_Fx_Rouge_Score",
+    "CueType": 9,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 1,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1205000001,
+    "Path": "/Game/Aki/Effect/MaterialController/DA_Character/Changli/DA_Fx_Changli_Hair.DA_Fx_Changli_Hair",
+    "CueType": 1,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1205104051,
+    "Path": "/Game/Aki/Effect/MaterialController/DA_Character/Changli/DA_Fx_Changli_Down_4.DA_Fx_Changli_Down_4",
+    "CueType": 1,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1205104061,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1ChangliMd10011/DA_Fx_Group_Buff_Hand2.DA_Fx_Group_Buff_Hand2",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bip001LHand",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 77049001,
+    "Path": "/Game/Aki/Effect/EffectGroup/ME1YouLinJiShuMd00201/DA_Fx_Group_MEs_ShieldLoop.DA_Fx_Group_MEs_ShieldLoop",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bone_Body009",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 90.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 77049002,
+    "Path": "/Game/Aki/Effect/EffectGroup/ME1YouLinJiShuMd00201/DA_Fx_Group_MEs_ShieldEnd.DA_Fx_Group_MEs_ShieldEnd",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bone_Body009",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 90.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 640007015,
+    "Path": "/Game/Aki/Effect/DataAsset/ScreenDA/SD_Fight/Bigworld/DA_Fx_Screen_SpeedUp.DA_Fx_Screen_SpeedUp",
+    "CueType": 9,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bip001",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 1,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1205104044,
+    "Path": "/Game/Aki/Effect/MaterialController/DA_Character/Changli/DA_Fx_Changli_R1a04_Weapon_Runtime.DA_Fx_Changli_R1a04_Weapon_Runtime",
+    "CueType": 1,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 621310113,
+    "Path": "/Game/Aki/Effect/EffectGroup/Common/Fight/DA_Fx_Group_Frozen_Break03.DA_Fx_Group_Frozen_Break03",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "HitCase",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      3.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1205104091,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1ChangliMd10011/DA_Fx_Group_Changli_Buff_Eye.DA_Fx_Group_Changli_Buff_Eye",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "EyeEffectCase2",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1304001004,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1JinxiMd10011/DA_Fx_Group_R1b_LongjiaoLei.DA_Fx_Group_R1b_LongjiaoLei",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bip001Head",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1304001014,
+    "Path": "",
+    "CueType": 11,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": [
+      "OtherCase1",
+      "0"
+    ]
+  },
+  {
+    "Id": 1304001015,
+    "Path": "",
+    "CueType": 11,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": [
+      "OtherCase1",
+      "1"
+    ]
+  },
+  {
+    "Id": 1304001016,
+    "Path": "/Game/Aki/Effect/MaterialController/DA_Character/Jinxi/DA_Fx_Jinxi_Stand_LongjiaoNoEnd.DA_Fx_Jinxi_Stand_LongjiaoNoEnd",
+    "CueType": 1,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 1,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1205104027,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1ChangliMd10011/DA_Fx_Group_Ma_Lizi02.DA_Fx_Group_Ma_Lizi02",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bone_Skirt016_L",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1205104024,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1ChangliMd10011/DA_Fx_Group_Ma_Lizi02.DA_Fx_Group_Ma_Lizi02",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bone_Skirt016_R",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1205104025,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1ChangliMd10011/DA_Fx_Group_Ma_Lizi02.DA_Fx_Group_Ma_Lizi02",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bone_Skirt006_L",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1205104026,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1ChangliMd10011/DA_Fx_Group_Ma_Lizi02.DA_Fx_Group_Ma_Lizi02",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bone_Skirt006_R",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1205104032,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1ChangliMd10011/DA_Fx_Group_Ma_Lizi03.DA_Fx_Group_Ma_Lizi03",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bip001LUpArmTwist2",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1205104033,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1ChangliMd10011/DA_Fx_Group_Ma_Lizi03.DA_Fx_Group_Ma_Lizi03",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bip001RUpArmTwist2",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1205104052,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1ChangliMd10011/DA_Fx_Group_Ma_Lizi03.DA_Fx_Group_Ma_Lizi03",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bone_Piao013_M",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1205104053,
+    "Path": "/Game/Aki/UI/UIResources/Common/Image/SkillIcon/SkillIconChangli/T_IconChangliY.T_IconChangliY",
+    "CueType": 2,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": [
+      "1",
+      "F0744E7F"
+    ]
+  },
+  {
+    "Id": 280012003,
+    "Path": "/Game/Aki/Effect/EffectGroup/MB1SuiguangMd00501/ShouJi/DA_Fx_Group_MBa01_Debuff.DA_Fx_Group_MBa01_Debuff",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "HitCase",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.5,
+      4.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 280012005,
+    "Path": "/Game/Aki/Effect/EffectGroup/MB1SuiguangMd00501/ShouJi/DA_Fx_Group_MBa01_DebuffHit.DA_Fx_Group_MBa01_DebuffHit",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "HitCase",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1205104062,
+    "Path": "/Game/Aki/Effect/MaterialController/DA_Character/Changli/DA_Fx_Changli_Hand.DA_Fx_Changli_Hand",
+    "CueType": 1,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 1205104063,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1ChangliMd10011/DA_Fx_Group_Ma_Lizi02.DA_Fx_Group_Ma_Lizi02",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "Bip001LHand",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 80017090,
+    "Path": "/Game/Aki/Effect/EffectGroup/R2T1JinxiMd10011/DA_Fx_Group_R1a_TimeFrozen.DA_Fx_Group_R1a_TimeFrozen",
+    "CueType": 0,
+    "Comp": 1,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 1,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": null
+  },
+  {
+    "Id": 20051,
+    "Path": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+    "CueType": 2,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": [
+      "1",
+      "FFEA5D7F"
+    ]
+  },
+  {
+    "Id": 20061,
+    "Path": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+    "CueType": 2,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": [
+      "2"
+    ]
   }
 ]

@@ -796,6 +796,69 @@
     ]
   },
   {
+    "Id": 640007003,
+    "SkillDesc": "乘霄山-怪物攻击命中添加扣血5%",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "640007006"
+    ]
+  },
+  {
+    "Id": 640007004,
+    "SkillDesc": "乘霄山-怪物攻击命中添加扣血10%",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "640007007"
+    ]
+  },
+  {
+    "Id": 640007005,
+    "SkillDesc": "乘霄山-怪物攻击命中添加扣血15%",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "640007008"
+    ]
+  },
+  {
     "Id": 1302101090,
     "SkillDesc": "退场时移除标记",
     "Cdtime": 0.5,
@@ -1178,6 +1241,1398 @@
     "SkillAction": "StartSkill",
     "SkillActionParams": [
       "300580"
+    ]
+  },
+  {
+    "Id": 900291000002,
+    "SkillDesc": "【鉴心】普攻减少E技能的CD。",
+    "Cdtime": 0.25,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "SkillType==0\nAND\nSkillID!=1405002\nAND\nSkillID!=1405003",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900291000004"
+    ]
+  },
+  {
+    "Id": 900291000005,
+    "SkillDesc": "E技能弹反成功后，被命中的首个怪会爆一个变奏技能的聚怪子弹，造成大量的伤害。该伤害视为共鸣技能伤害。有内置CD。",
+    "Cdtime": 6.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "BulletID==1405002008\nOR\nBulletID==1405002009",
+    "SubSkillAction": null,
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "1405004001"
+    ]
+  },
+  {
+    "Id": 900291000006,
+    "SkillDesc": "【鉴心】大招后，鉴心进入持续6秒的强化模式：\n1、无视敌人20%的风抗\n2、E的CD减少50%、视为完美弹反\n3、大回转直接打出最后一段（总伤害不变，相当于一拳打出大回环期间的所有伤害）",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "1405015",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900291000007",
+      "900291000008",
+      "900291000018"
+    ]
+  },
+  {
+    "Id": 900291000010,
+    "SkillDesc": "【鉴心】【触发器】若E成功弹反，则获得50%的特殊能量，且使下一次大回环造成的伤害和获取的护盾提高50%。\n若通过E目押成功（完美弹反），直接充满特殊能量，且会额外射出一颗大招子弹。",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "",
+    "TriggerPreset": null,
+    "TriggerParams": "{}",
+    "TriggerFormula": "FALSE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "",
+    "SkillActionParams": null
+  },
+  {
+    "Id": 900291000011,
+    "SkillDesc": "若通过E目押成功（完美弹反），会额外射出一颗大招子弹。",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{\n    \"CheckOwnerTags\": [\n        \"系统.肉鸽.角色BD.鉴心.完美弹反成功\",\n        \"系统.肉鸽.角色BD.鉴心.进入R爆发状态\"\n    ]\n}",
+    "TriggerFormula": "(BulletID==1405002008\nOR\nBulletID==1405002009\nOR\nBulletID==1405003006\nOR\nBulletID==900291000015\n)\nAND\nMatchAnyTag(Owner,CheckOwnerTags)",
+    "SubSkillAction": [
+      900291000013
+    ],
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "1405004013"
+    ]
+  },
+  {
+    "Id": 900291000012,
+    "SkillDesc": "若通过E目押成功（完美弹反），直接充满特殊能量，",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "系统.肉鸽.角色BD.鉴心.完美弹反成功",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900291000012"
+    ]
+  },
+  {
+    "Id": 900291000013,
+    "SkillDesc": "【鉴心】大招子弹射出后，清除完美弹反的Tag",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "",
+    "TriggerPreset": null,
+    "TriggerParams": "{}",
+    "TriggerFormula": "FALSE",
+    "SubSkillAction": null,
+    "InstigatorType": "Attacker",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900291000013"
+    ]
+  },
+  {
+    "Id": 900291000016,
+    "SkillDesc": "【鉴心】【触发器】大回环后移除大回环增伤Buff",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "1405007",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900291000017"
+    ]
+  },
+  {
+    "Id": 900291000020,
+    "SkillDesc": "【鉴心】【触发器】重击·混元气旋基础伤害倍率提高，并且持续聚怪。",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "",
+    "TriggerPreset": null,
+    "TriggerParams": "{}",
+    "TriggerFormula": "FALSE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900291000021"
+    ]
+  },
+  {
+    "Id": 900291000021,
+    "SkillDesc": "【鉴心】【触发器】重击·混元气旋基础伤害倍率提高，并且持续聚怪。",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "1405007",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "1405004014"
+    ]
+  },
+  {
+    "Id": 900291000022,
+    "SkillDesc": "【鉴心】【触发器】完美弹反受击触发器被动技能",
+    "Cdtime": 0.5,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeHitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{\n    \"CheckOwnerTags\": [\n        \"系统.肉鸽.角色BD.鉴心.开始完美弹反判定\"\n    ],\n    \"CheckOwnerTags2\": [\n        \"系统.肉鸽.角色BD.鉴心.进入R爆发状态\"\n    ]\n}",
+    "TriggerFormula": "MatchAnyTag(Owner,CheckOwnerTags)\nAND\n!MatchAnyTag(Owner,CheckOwnerTags2)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900291000014"
+    ]
+  },
+  {
+    "Id": 900291000023,
+    "SkillDesc": "【鉴心】【触发器】完美弹反受击顿帧",
+    "Cdtime": 0.5,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeHitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{\n    \"CheckOwnerTags\": [\n        \"系统.肉鸽.角色BD.鉴心.开始完美弹反判定\"\n    ],\n    \"CheckOwnerTags2\": [\n        \"系统.肉鸽.角色BD.鉴心.进入R爆发状态\"\n    ]\n}",
+    "TriggerFormula": "MatchAnyTag(Owner,CheckOwnerTags)\nAND\n!MatchAnyTag(Owner,CheckOwnerTags2)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "1405004017"
+    ]
+  },
+  {
+    "Id": 1102912031,
+    "SkillDesc": "散华二段E能爆冰【触发器】",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "1102020",
+      "0"
+    ],
+    "TriggerParams": "{\n    \"CheckOwnerTags\": [\n        \"系统.肉鸽.角色BD.散华.二段E爆冰\"\n    ]\n}",
+    "TriggerFormula": "MatchAllTags(Owner,CheckOwnerTags)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBullet",
+    "SkillActionParams": [
+      "1102020002#1",
+      "1102030001#1",
+      "1102040001#1"
+    ]
+  },
+  {
+    "Id": 1102912041,
+    "SkillDesc": "散华大招易碎爆冰【触发器】",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{\n    \"CheckVictimTags\": [\n        \"系统.肉鸽.角色BD.散华.冰秒爆\"\n    ],\n    \"CheckOwnerTags\": [\n        \"系统.肉鸽.角色BD.散华.冰川额外冰爆\"\n    ]\n}",
+    "TriggerFormula": "MatchAnyTag(Owner,CheckOwnerTags) \nAND\nMatchAnyTag(Victim,CheckVictimTags)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "1102912043"
+    ]
+  },
+  {
+    "Id": 900291000024,
+    "SkillDesc": "【鉴心】R强化状态下，E直接满能量",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "1405011",
+      "0"
+    ],
+    "TriggerParams": "{\n    \"CheckOwnerTags\": [\n        \"系统.肉鸽.角色BD.鉴心.激活可完美弹反词条\",\n        \"系统.肉鸽.角色BD.鉴心.进入R爆发状态\"\n    ]\n}",
+    "TriggerFormula": "MatchAllTags(Owner,CheckOwnerTags)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900291000029"
+    ]
+  },
+  {
+    "Id": 1304701001,
+    "SkillDesc": "附近队伍中气动角色造成伤害时，今汐恢复特殊能量1点，效果CD3秒",
+    "Cdtime": 3.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)\nAND\nDistance(Attacker,Owner)<=2000\nAND\nElementType==4",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1304700001"
+    ]
+  },
+  {
+    "Id": 1304702001,
+    "SkillDesc": "附近队伍中热熔角色造成伤害时，今汐恢复特殊能量1点，效果CD3秒",
+    "Cdtime": 3.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)\nAND\nDistance(Attacker,Owner)<=2000\nAND\nElementType==2",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1304700001"
+    ]
+  },
+  {
+    "Id": 1304703001,
+    "SkillDesc": "附近队伍中冷凝角色造成伤害时，今汐恢复特殊能量1点，效果CD3秒",
+    "Cdtime": 3.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)\nAND\nDistance(Attacker,Owner)<=2000\nAND\nElementType==1",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1304700001"
+    ]
+  },
+  {
+    "Id": 1304704001,
+    "SkillDesc": "附近队伍中导电角色造成伤害时，今汐恢复特殊能量1点，效果CD3秒",
+    "Cdtime": 3.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)\nAND\nDistance(Attacker,Owner)<=2000\nAND\nElementType==3",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1304700001"
+    ]
+  },
+  {
+    "Id": 1304705001,
+    "SkillDesc": "附近队伍中衍射角色造成伤害时，今汐恢复特殊能量1点，效果CD3秒",
+    "Cdtime": 3.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)\nAND\nDistance(Attacker,Owner)<=2000\nAND\nElementType==5",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1304700001"
+    ]
+  },
+  {
+    "Id": 1304706001,
+    "SkillDesc": "附近队伍中湮灭角色造成伤害时，今汐恢复特殊能量1点，效果CD3秒",
+    "Cdtime": 3.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)\nAND\nDistance(Attacker,Owner)<=2000\nAND\nElementType==6",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1304700001"
+    ]
+  },
+  {
+    "Id": 1304701002,
+    "SkillDesc": "附近队伍中气动角色造成伤害时，今汐恢复特殊能量1点，效果CD1秒",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)\nAND\nDistance(Attacker,Owner)<=2000\nAND\nElementType==4",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1304700001"
+    ]
+  },
+  {
+    "Id": 1304702002,
+    "SkillDesc": "附近队伍中热熔角色造成伤害时，今汐恢复特殊能量1点，效果CD1秒",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)\nAND\nDistance(Attacker,Owner)<=2000\nAND\nElementType==2",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1304700001"
+    ]
+  },
+  {
+    "Id": 1304703002,
+    "SkillDesc": "附近队伍中冷凝角色造成伤害时，今汐恢复特殊能量1点，效果CD1秒",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)\nAND\nDistance(Attacker,Owner)<=2000\nAND\nElementType==1",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1304700001"
+    ]
+  },
+  {
+    "Id": 1304704002,
+    "SkillDesc": "附近队伍中导电角色造成伤害时，今汐恢复特殊能量1点，效果CD1秒",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)\nAND\nDistance(Attacker,Owner)<=2000\nAND\nElementType==3",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1304700001"
+    ]
+  },
+  {
+    "Id": 1304705002,
+    "SkillDesc": "附近队伍中衍射角色造成伤害时，今汐恢复特殊能量1点，效果CD1秒",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)\nAND\nDistance(Attacker,Owner)<=2000\nAND\nElementType==5",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1304700001"
+    ]
+  },
+  {
+    "Id": 1304706002,
+    "SkillDesc": "附近队伍中湮灭角色造成伤害时，今汐恢复特殊能量1点，效果CD1秒",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)\nAND\nDistance(Attacker,Owner)<=2000\nAND\nElementType==6",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1304700001"
+    ]
+  },
+  {
+    "Id": 77042023,
+    "SkillDesc": "踏光虎血量低于10%时，触发锁血",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeHitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "GetAttributeByID(Owner,3) / GetAttributeByID(Owner,2)<=0.1",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "77042025"
+    ]
+  },
+  {
+    "Id": 7704202301,
+    "SkillDesc": "踏光虎血量低于10%时，触发复活表演",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeHitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "StartSkill",
+    "SkillActionParams": [
+      "77042014"
+    ]
+  },
+  {
+    "Id": 622920021,
+    "SkillDesc": "bossrush-治疗时全队添加buff",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeDamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "622920022"
+    ]
+  },
+  {
+    "Id": 622920028,
+    "SkillDesc": "bossrush-闪避成功添加buff",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "LimitDodgeTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "622920029"
+    ]
+  },
+  {
+    "Id": 622920029,
+    "SkillDesc": "bossrush-受击移除buff",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeDamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "622920029"
+    ]
+  },
+  {
+    "Id": 200016913000010,
+    "SkillDesc": "鳞人肉鸽BD1\n核心被动消耗1\n（子弹创建）\n200016913000010",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{\n    \"CheckOwnerTags\": [\n        \"系统.肉鸽.声骸BD.鳞人.导电引爆\"\n    ]\n}",
+    "TriggerFormula": "SkillType==9\nAND\nMatchAnyTag(Owner,CheckOwnerTags)",
+    "SubSkillAction": [
+      200016913000011
+    ],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "28000912001"
+    ]
+  },
+  {
+    "Id": 200016913000011,
+    "SkillDesc": "鳞人肉鸽核心被动消耗1\n（BUFF减层）\n200016913000010",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "",
+    "TriggerPreset": null,
+    "TriggerParams": "{}",
+    "TriggerFormula": "FALSE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "20001691300001#1",
+      "20001691300002#1"
+    ]
+  },
+  {
+    "Id": 200016913000020,
+    "SkillDesc": "鳞人肉鸽BD2\nQ6额外消耗2层导电\n（层数消耗）\n200016913000020",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{\n    \"CheckOwnerTags\": [\n        \"系统.肉鸽.声骸BD.鳞人.Q6三层导电\"\n    ]\n}",
+    "TriggerFormula": "SkillID==280001115\nAND\nMatchAnyTag(Owner,CheckOwnerTags)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "20001691300001#2",
+      "20001691300002#2"
+    ]
+  },
+  {
+    "Id": 200016913000040,
+    "SkillDesc": "鳞人肉鸽BD4\nQ7消耗所有层数\n（层数消耗）\n200016913000040",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{\n    \"CheckOwnerTags\": [\n        \"系统.肉鸽.声骸BD.鳞人.解锁Q7\"\n    ]\n}",
+    "TriggerFormula": "BulletID==28000113\nAND\nMatchAnyTag(Owner,CheckOwnerTags)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "20001691300002#5"
+    ]
+  },
+  {
+    "Id": 77042030,
+    "SkillDesc": "踏光虎血量低于10%时，触发锁血",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeHitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "GetAttributeByID(Owner,3) / GetAttributeByID(Owner,2)<=0.11",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "77042027"
+    ]
+  },
+  {
+    "Id": 900291000025,
+    "SkillDesc": "【鉴心】R强化状态下，E直接满能量",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "1405022",
+      "0"
+    ],
+    "TriggerParams": "{\n    \"CheckOwnerTags\": [\n        \"系统.肉鸽.角色BD.鉴心.激活可完美弹反词条\",\n        \"系统.肉鸽.角色BD.鉴心.进入R爆发状态\",\n        \"角色.R2T1JianxinMd10011.共鸣.共鸣2\"\n    ]\n}",
+    "TriggerFormula": "MatchAllTags(Owner,CheckOwnerTags)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900291000029"
+    ]
+  },
+  {
+    "Id": 900291000026,
+    "SkillDesc": "【鉴心】R强化状态下，E直接满能量",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "1405020",
+      "0"
+    ],
+    "TriggerParams": "{\n    \"CheckOwnerTags\": [\n        \"系统.肉鸽.角色BD.鉴心.激活可完美弹反词条\",\n        \"系统.肉鸽.角色BD.鉴心.进入R爆发状态\",\n       \"角色.R2T1JianxinMd10011.共鸣.共鸣6\"\n    ]\n}",
+    "TriggerFormula": "MatchAllTags(Owner,CheckOwnerTags)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900291000029"
+    ]
+  },
+  {
+    "Id": 921205000001,
+    "SkillDesc": "长离肉鸽专属效果1--获得特殊能量的招式新增乱斩的子弹打击（小技能的效果）",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "BulletID==1205005001\nOR\nBulletID==1205005100\nOR\nBulletID==1205401001",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "1205201101"
+    ]
+  },
+  {
+    "Id": 921205000101,
+    "SkillDesc": "每次获得特殊能量会获得持续的火属性增伤，最多叠加4层，释放派生重击会消耗所有层数",
+    "Cdtime": 0.5,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "BulletID==1205005001\nOR\nBulletID==1205005100",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "921205000102"
+    ]
+  },
+  {
+    "Id": 921205000102,
+    "SkillDesc": "释放派生重击会消耗所有层数",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "1205402",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "921205000102#-1"
+    ]
+  },
+  {
+    "Id": 921205000201,
+    "SkillDesc": "派生重击后获得一个持续30s的buff",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "1205402"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "921205000202"
+    ]
+  },
+  {
+    "Id": 921205000202,
+    "SkillDesc": "普攻每一刀出现额外伤害",
+    "Cdtime": 0.6000000238418579,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{\n    \"CheckOwnerTags\": [\n        \"Rogue.Role.Changli.普攻可触发额外伤害\"\n    ]\n}",
+    "TriggerFormula": "SkillType==0\n&&\nMatchAnyTag(Owner,CheckOwnerTags)\n&&\nBulletID!=1205011002\n&&\nBulletID!=1205011003\n&&\nBulletID!=1205011004\n&&BulletID!=1205005002\n&&BulletID!=1205005003\n&&BulletID!=1205005004\n&&BulletID!=1205201101\n&&BulletID!=1205004002\n&&BulletID!=1205003101\n&&BulletID!=1205003102\n&&BulletID!=1205003002\n&&BulletID!=1205003003",
+    "SubSkillAction": [
+      921205000203
+    ],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "1205011001"
+    ]
+  },
+  {
+    "Id": 921205000203,
+    "SkillDesc": "",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "",
+    "TriggerPreset": null,
+    "TriggerParams": "{}",
+    "TriggerFormula": "FALSE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "921205000202#1"
+    ]
+  },
+  {
+    "Id": 921205000501,
+    "SkillDesc": "特殊能量满时，小技能落地额外触发大招的爆发",
+    "Cdtime": 20.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "BulletID==1205201002&&GetAttributeByID(Owner,62)>=4",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "1205401100"
+    ]
+  },
+  {
+    "Id": 622920047,
+    "SkillDesc": "bossrush-闪避成功添加buff",
+    "Cdtime": 5.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "LimitDodgeTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "622920048"
+    ]
+  },
+  {
+    "Id": 92008024,
+    "SkillDesc": "受到治疗时，添加暴击爆伤buff",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeDamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "920080241",
+      "920080242"
+    ]
+  },
+  {
+    "Id": 900291000027,
+    "SkillDesc": "【鉴心】普攻减少E技能的CD。",
+    "Cdtime": 0.6000000238418579,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "SkillID==1405002",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900291000004"
+    ]
+  },
+  {
+    "Id": 900291000028,
+    "SkillDesc": "【鉴心】普攻减少E技能的CD。",
+    "Cdtime": 0.6000000238418579,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "SkillID==1405003",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900291000004"
+    ]
+  },
+  {
+    "Id": 921304000301,
+    "SkillDesc": "今汐肉鸽专属效果4",
+    "Cdtime": 10.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "LimitDodgeTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{\n    \"CheckOwnerTags\": [\n        \"Rogue.Role.Jinxi.闪避时停.表现\"\n    ]\n}",
+    "TriggerFormula": "MatchAnyTag(Owner,CheckOwnerTags)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "1304830001"
+    ]
+  },
+  {
+    "Id": 921205000111,
+    "SkillDesc": "每次获得特殊能量会获得持续的火属性增伤，最多叠加4层，释放派生重击会消耗所有层数",
+    "Cdtime": 0.5,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "1205401",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "921205000102"
+    ]
+  },
+  {
+    "Id": 1304701003,
+    "SkillDesc": "附近队伍中气动角色造成伤害时，今汐恢复特殊能量1点，效果CD3秒",
+    "Cdtime": 3.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)\nAND\nDistance(Attacker,Owner)<=2000\nAND\nElementType==4\nAND\nHasInt(0, DamageSubType)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1304700002"
+    ]
+  },
+  {
+    "Id": 1304702003,
+    "SkillDesc": "附近队伍中热熔角色造成伤害时，今汐恢复特殊能量1点，效果CD3秒",
+    "Cdtime": 3.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)\nAND\nDistance(Attacker,Owner)<=2000\nAND\nElementType==2\nAND\nHasInt(0, DamageSubType)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1304700002"
+    ]
+  },
+  {
+    "Id": 1304703003,
+    "SkillDesc": "附近队伍中冷凝角色造成伤害时，今汐恢复特殊能量1点，效果CD3秒",
+    "Cdtime": 3.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)\nAND\nDistance(Attacker,Owner)<=2000\nAND\nElementType==1\nAND\nHasInt(0, DamageSubType)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1304700002"
+    ]
+  },
+  {
+    "Id": 1304704003,
+    "SkillDesc": "附近队伍中导电角色造成伤害时，今汐恢复特殊能量1点，效果CD3秒",
+    "Cdtime": 3.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)\nAND\nDistance(Attacker,Owner)<=2000\nAND\nElementType==3\nAND\nHasInt(0, DamageSubType)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1304700002"
+    ]
+  },
+  {
+    "Id": 1304705003,
+    "SkillDesc": "附近队伍中衍射角色造成伤害时，今汐恢复特殊能量1点，效果CD3秒",
+    "Cdtime": 3.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)\nAND\nDistance(Attacker,Owner)<=2000\nAND\nElementType==5\nAND\nHasInt(0, DamageSubType)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1304700002"
+    ]
+  },
+  {
+    "Id": 1304706003,
+    "SkillDesc": "附近队伍中湮灭角色造成伤害时，今汐恢复特殊能量1点，效果CD3秒",
+    "Cdtime": 3.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)\nAND\nDistance(Attacker,Owner)<=2000\nAND\nElementType==6\nAND\nHasInt(0, DamageSubType)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1304700002"
+    ]
+  },
+  {
+    "Id": 1304701004,
+    "SkillDesc": "附近队伍中气动角色造成伤害时，今汐恢复特殊能量1点，效果CD1秒",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)\nAND\nDistance(Attacker,Owner)<=2000\nAND\nElementType==4\nAND\nHasInt(0, DamageSubType)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1304700002"
+    ]
+  },
+  {
+    "Id": 1304702004,
+    "SkillDesc": "附近队伍中热熔角色造成伤害时，今汐恢复特殊能量1点，效果CD1秒",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)\nAND\nDistance(Attacker,Owner)<=2000\nAND\nElementType==2\nAND\nHasInt(0, DamageSubType)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1304700002"
+    ]
+  },
+  {
+    "Id": 1304703004,
+    "SkillDesc": "附近队伍中冷凝角色造成伤害时，今汐恢复特殊能量1点，效果CD1秒",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)\nAND\nDistance(Attacker,Owner)<=2000\nAND\nElementType==1\nAND\nHasInt(0, DamageSubType)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1304700002"
+    ]
+  },
+  {
+    "Id": 1304704004,
+    "SkillDesc": "附近队伍中导电角色造成伤害时，今汐恢复特殊能量1点，效果CD1秒",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)\nAND\nDistance(Attacker,Owner)<=2000\nAND\nElementType==3\nAND\nHasInt(0, DamageSubType)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1304700002"
+    ]
+  },
+  {
+    "Id": 1304705004,
+    "SkillDesc": "附近队伍中衍射角色造成伤害时，今汐恢复特殊能量1点，效果CD1秒",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)\nAND\nDistance(Attacker,Owner)<=2000\nAND\nElementType==5\nAND\nHasInt(0, DamageSubType)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1304700002"
+    ]
+  },
+  {
+    "Id": 1304706004,
+    "SkillDesc": "附近队伍中湮灭角色造成伤害时，今汐恢复特殊能量1点，效果CD1秒",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)\nAND\nDistance(Attacker,Owner)<=2000\nAND\nElementType==6\nAND\nHasInt(0, DamageSubType)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1304700002"
     ]
   }
 ]

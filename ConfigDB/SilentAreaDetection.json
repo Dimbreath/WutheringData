@@ -1247,5 +1247,58 @@
     "PhantomId": null,
     "FirstDropId": 0,
     "AdditionalId": 13010
+  },
+  {
+    "Id": 30020005,
+    "Name": "MapMark_4024_MarkTitle",
+    "GuideId": 2,
+    "LevelPlayList": [
+      200900001
+    ],
+    "InstanceSubTypeDescription": "InpuBoxText_empty",
+    "DangerType": 3,
+    "Secondary": 61,
+    "TypeDescription2": 61,
+    "MatType": 0,
+    "AttributesDescriptionLock": "MapMark_4024_MarkDesc",
+    "AttributesDescriptionUnlock": "MapMark_4024_MarkDesc",
+    "BigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_1014_UI.T_IconMonsterGoods_1014_UI",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/ImgCopy/T_ImgCopy_005_UI.T_ImgCopy_005_UI",
+    "LockBigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_1014_UI.T_IconMonsterGoods_1014_UI",
+    "TemporaryIconUnLock": "/Game/Aki/UI/UIResources/Common/Image/ImgCopy/T_ImgCopy_005_UI.T_ImgCopy_005_UI",
+    "TemporaryIconlock": "/Game/Aki/UI/UIResources/Common/Image/ImgCopy/T_ImgCopy_001_UI.T_ImgCopy_001_UI",
+    "ShowReward": 48506,
+    "ShowRewardMap": [
+      {
+        "Key": 1,
+        "Value": 48501
+      },
+      {
+        "Key": 2,
+        "Value": 48502
+      },
+      {
+        "Key": 3,
+        "Value": 48503
+      },
+      {
+        "Key": 4,
+        "Value": 48504
+      },
+      {
+        "Key": 5,
+        "Value": 48505
+      },
+      {
+        "Key": 6,
+        "Value": 48506
+      }
+    ],
+    "BeginTimeStamp": 0,
+    "MarkId": 4024,
+    "LockCon": 0,
+    "PhantomId": null,
+    "FirstDropId": 0,
+    "AdditionalId": 14010
   }
 ]

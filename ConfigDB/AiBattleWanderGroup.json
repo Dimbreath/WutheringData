@@ -2446,47 +2446,47 @@
   {
     "Id": 77042,
     "DistanceRange": [
-      300.0,
-      500.0,
+      0.0,
       800.0,
-      1200.0,
+      1300.0,
+      1800.0,
       2000.0
     ],
     "NearActionRates": [
       0.0,
       80.0,
-      10.0,
-      10.0,
-      0.0
+      0.0,
+      0.0,
+      20.0
     ],
     "MiddleActionRates": [
+      40.0,
+      60.0,
       0.0,
       0.0,
-      50.0,
-      50.0,
       0.0
     ],
     "FarActionRates": [
-      80.0,
+      70.0,
       0.0,
-      10.0,
-      10.0,
-      0.0
+      0.0,
+      0.0,
+      30.0
     ],
     "TurnSpeeds": [
-      90.0,
       60.0,
-      180.0,
-      180.0
+      60.0,
+      70.0,
+      70.0
     ],
-    "RunTurnSpeed": 360.0,
+    "RunTurnSpeed": 120.0,
     "WanderTime": {
-      "Min": 1000.0,
-      "Max": 2000.0
+      "Min": 2000.0,
+      "Max": 3000.0
     },
     "SumWanderTime": {
-      "Min": 5000.0,
-      "Max": 5000.0
+      "Min": 3000.0,
+      "Max": 4000.0
     },
     "OnlyForward": false
   },
@@ -2910,6 +2910,100 @@
     "SumWanderTime": {
       "Min": 5000.0,
       "Max": 8000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 77049,
+    "DistanceRange": [
+      1000.0,
+      1500.0,
+      2000.0,
+      2500.0,
+      3000.0
+    ],
+    "NearActionRates": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      100.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      100.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      30.0,
+      30.0,
+      30.0,
+      30.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 2000.0,
+      "Max": 2100.0
+    },
+    "SumWanderTime": {
+      "Min": 4000.0,
+      "Max": 4100.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 77032,
+    "DistanceRange": [
+      300.0,
+      700.0,
+      1000.0,
+      2000.0,
+      2500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      100.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      60.0,
+      90.0,
+      120.0,
+      120.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 5000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 5000.0,
+      "Max": 5000.0
     },
     "OnlyForward": false
   }

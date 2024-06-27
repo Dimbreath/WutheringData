@@ -313,5 +313,20 @@
     "ShowInteractionEffect": false,
     "ScanAudioEvent": "",
     "TriggerRoleAudio": false
+  },
+  {
+    "Uid": 310,
+    "ScanInfos": [
+      310
+    ],
+    "ItemMaterialDataPath": "/Game/Aki/TypeScript/Game/NewWorld/Character/SimpleNpc/Blueprint/DA_NPC_Protect.DA_NPC_Protect",
+    "NearVoiceEffectPath": "",
+    "FarVoiceEffectPath": "",
+    "ScanConcealEffectPath": "",
+    "InteractionEffectInterval": 8.0,
+    "ShowDistance": false,
+    "ShowInteractionEffect": true,
+    "ScanAudioEvent": "",
+    "TriggerRoleAudio": false
   }
 ]

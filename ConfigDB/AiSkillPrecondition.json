@@ -6785,12 +6785,12 @@
   {
     "Id": 70112001,
     "DistanceRange": {
-      "Min": -10000.0,
-      "Max": 10000.0
+      "Min": -100.0,
+      "Max": 1000.0
     },
     "AngleRange": {
-      "Min": -180.0,
-      "Max": 180.0
+      "Min": -90.0,
+      "Max": 90.0
     },
     "TargetAngleRange": {
       "Min": -180.0,
@@ -6807,7 +6807,7 @@
     "Id": 70111001,
     "DistanceRange": {
       "Min": 0.0,
-      "Max": 500.0
+      "Max": 300.0
     },
     "AngleRange": {
       "Min": -45.0,
@@ -6827,7 +6827,7 @@
   {
     "Id": 70111002,
     "DistanceRange": {
-      "Min": 500.0,
+      "Min": 300.0,
       "Max": 1500.0
     },
     "AngleRange": {
@@ -6890,12 +6890,12 @@
   {
     "Id": 70112002,
     "DistanceRange": {
-      "Min": -800.0,
-      "Max": 800.0
+      "Min": -100.0,
+      "Max": 500.0
     },
     "AngleRange": {
-      "Min": -180.0,
-      "Max": 180.0
+      "Min": -90.0,
+      "Max": 90.0
     },
     "TargetAngleRange": {
       "Min": -180.0,
@@ -6912,7 +6912,7 @@
     "Id": 77042001,
     "DistanceRange": {
       "Min": 0.0,
-      "Max": 580.0
+      "Max": 500.0
     },
     "AngleRange": {
       "Min": -60.0,
@@ -6953,12 +6953,12 @@
   {
     "Id": 77042003,
     "DistanceRange": {
-      "Min": 680.0,
-      "Max": 1200.0
+      "Min": 800.0,
+      "Max": 1800.0
     },
     "AngleRange": {
       "Min": -60.0,
-      "Max": 60.0
+      "Max": 40.0
     },
     "TargetAngleRange": {
       "Min": -180.0,
@@ -6975,7 +6975,7 @@
     "Id": 77042004,
     "DistanceRange": {
       "Min": 0.0,
-      "Max": 800.0
+      "Max": 300.0
     },
     "AngleRange": {
       "Min": -180.0,
@@ -6996,11 +6996,11 @@
     "Id": 77042005,
     "DistanceRange": {
       "Min": 0.0,
-      "Max": 800.0
+      "Max": 450.0
     },
     "AngleRange": {
-      "Min": 120.0,
-      "Max": 240.0
+      "Min": 140.0,
+      "Max": 245.0
     },
     "TargetAngleRange": {
       "Min": -180.0,
@@ -7016,12 +7016,12 @@
   {
     "Id": 77042006,
     "DistanceRange": {
-      "Min": 0.0,
-      "Max": 600.0
+      "Min": 300.0,
+      "Max": 850.0
     },
     "AngleRange": {
-      "Min": -40.0,
-      "Max": 40.0
+      "Min": 20.0,
+      "Max": 90.0
     },
     "TargetAngleRange": {
       "Min": -180.0,
@@ -7037,7 +7037,7 @@
   {
     "Id": 77042007,
     "DistanceRange": {
-      "Min": 680.0,
+      "Min": 800.0,
       "Max": 1800.0
     },
     "AngleRange": {
@@ -7058,12 +7058,12 @@
   {
     "Id": 77042008,
     "DistanceRange": {
-      "Min": 790.0,
-      "Max": 2000.0
+      "Min": 0.0,
+      "Max": 300.0
     },
     "AngleRange": {
-      "Min": -60.0,
-      "Max": 60.0
+      "Min": -180.0,
+      "Max": 180.0
     },
     "TargetAngleRange": {
       "Min": -180.0,
@@ -7205,12 +7205,12 @@
   {
     "Id": 77042050,
     "DistanceRange": {
-      "Min": 0.0,
-      "Max": 2500.0
+      "Min": 1500.0,
+      "Max": 3000.0
     },
     "AngleRange": {
-      "Min": -40.0,
-      "Max": 40.0
+      "Min": -30.0,
+      "Max": 30.0
     },
     "TargetAngleRange": {
       "Min": -180.0,
@@ -7226,12 +7226,12 @@
   {
     "Id": 77042060,
     "DistanceRange": {
-      "Min": 400.0,
-      "Max": 1100.0
+      "Min": 0.0,
+      "Max": 3000.0
     },
     "AngleRange": {
-      "Min": -180.0,
-      "Max": 30.0
+      "Min": -100.0,
+      "Max": -50.0
     },
     "TargetAngleRange": {
       "Min": -180.0,
@@ -8507,12 +8507,12 @@
   {
     "Id": 77042061,
     "DistanceRange": {
-      "Min": 400.0,
-      "Max": 1100.0
+      "Min": 0.0,
+      "Max": 3000.0
     },
     "AngleRange": {
-      "Min": 30.0,
-      "Max": 180.0
+      "Min": 50.0,
+      "Max": 100.0
     },
     "TargetAngleRange": {
       "Min": -180.0,
@@ -8529,11 +8529,11 @@
     "Id": 77042062,
     "DistanceRange": {
       "Min": 0.0,
-      "Max": 2500.0
+      "Max": 3000.0
     },
     "AngleRange": {
       "Min": 120.0,
-      "Max": 250.0
+      "Max": 260.0
     },
     "TargetAngleRange": {
       "Min": -180.0,
@@ -8595,8 +8595,8 @@
       "Max": 1100.0
     },
     "AngleRange": {
-      "Min": -120.0,
-      "Max": -60.0
+      "Min": -100.0,
+      "Max": -50.0
     },
     "TargetAngleRange": {
       "Min": -180.0,
@@ -8616,8 +8616,8 @@
       "Max": 1100.0
     },
     "AngleRange": {
-      "Min": 70.0,
-      "Max": 120.0
+      "Min": 50.0,
+      "Max": 100.0
     },
     "TargetAngleRange": {
       "Min": -180.0,
@@ -8633,7 +8633,7 @@
   {
     "Id": 77042067,
     "DistanceRange": {
-      "Min": 0.0,
+      "Min": 600.0,
       "Max": 1800.0
     },
     "AngleRange": {
@@ -9177,6 +9177,132 @@
     "NeedTarget": true
   },
   {
+    "Id": 77042018,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 350.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77042019,
+    "DistanceRange": {
+      "Min": -9000.0,
+      "Max": 9000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": false
+  },
+  {
+    "Id": 77042020,
+    "DistanceRange": {
+      "Min": -9000.0,
+      "Max": 9000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": false
+  },
+  {
+    "Id": 77042021,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 2500.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77042022,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 2500.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "怪物.Taguanghu.逻辑状态.狂暴状态.可大招",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77042023,
+    "DistanceRange": {
+      "Min": 400.0,
+      "Max": 1100.0
+    },
+    "AngleRange": {
+      "Min": -70.0,
+      "Max": 70.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
     "Id": 70065801,
     "DistanceRange": {
       "Min": 0.0,
@@ -9529,6 +9655,489 @@
     "HeightRange": {
       "Min": -3000.0,
       "Max": 2000.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77032014,
+    "DistanceRange": {
+      "Min": 300.0,
+      "Max": 1000.0
+    },
+    "AngleRange": {
+      "Min": 90.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77032015,
+    "DistanceRange": {
+      "Min": 300.0,
+      "Max": 1000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": -90.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77032016,
+    "DistanceRange": {
+      "Min": 300.0,
+      "Max": 600.0
+    },
+    "AngleRange": {
+      "Min": -60.0,
+      "Max": 60.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77032017,
+    "DistanceRange": {
+      "Min": 400.0,
+      "Max": 800.0
+    },
+    "AngleRange": {
+      "Min": -80.0,
+      "Max": 80.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77032019,
+    "DistanceRange": {
+      "Min": 800.0,
+      "Max": 1200.0
+    },
+    "AngleRange": {
+      "Min": -60.0,
+      "Max": 60.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77032020,
+    "DistanceRange": {
+      "Min": 300.0,
+      "Max": 600.0
+    },
+    "AngleRange": {
+      "Min": -60.0,
+      "Max": 60.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77042013,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 600.0
+    },
+    "AngleRange": {
+      "Min": -70.0,
+      "Max": 70.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "怪物.Taguanghu.逻辑状态.狂暴状态",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77042024,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 500.0
+    },
+    "AngleRange": {
+      "Min": -60.0,
+      "Max": 60.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77042025,
+    "DistanceRange": {
+      "Min": 300.0,
+      "Max": 850.0
+    },
+    "AngleRange": {
+      "Min": 20.0,
+      "Max": 90.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77042026,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 500.0
+    },
+    "AngleRange": {
+      "Min": -100.0,
+      "Max": -40.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77042028,
+    "DistanceRange": {
+      "Min": 800.0,
+      "Max": 1400.0
+    },
+    "AngleRange": {
+      "Min": -40.0,
+      "Max": 40.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77042029,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 400.0
+    },
+    "AngleRange": {
+      "Min": -60.0,
+      "Max": 60.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77042030,
+    "DistanceRange": {
+      "Min": 680.0,
+      "Max": 1200.0
+    },
+    "AngleRange": {
+      "Min": -30.0,
+      "Max": 30.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77042031,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 3000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77042033,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 480.0
+    },
+    "AngleRange": {
+      "Min": -60.0,
+      "Max": 60.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77042034,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 3000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77042035,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 3000.0
+    },
+    "AngleRange": {
+      "Min": -60.0,
+      "Max": 60.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77042036,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 2500.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77042037,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 650.0
+    },
+    "AngleRange": {
+      "Min": -60.0,
+      "Max": 60.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77042038,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 650.0
+    },
+    "AngleRange": {
+      "Min": 0.0,
+      "Max": 90.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77042039,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 650.0
+    },
+    "AngleRange": {
+      "Min": -90.0,
+      "Max": 0.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77042069,
+    "DistanceRange": {
+      "Min": 800.0,
+      "Max": 1400.0
+    },
+    "AngleRange": {
+      "Min": -50.0,
+      "Max": 50.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77042101,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 500.0
+    },
+    "AngleRange": {
+      "Min": -60.0,
+      "Max": 60.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
     },
     "NeedTag": "",
     "NeedTarget": true
@@ -10560,6 +11169,27 @@
       "Max": 600.0
     },
     "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77042016,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 2000.0
+    },
+    "AngleRange": {
+      "Min": -90.0,
+      "Max": 90.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "怪物.Taguanghu.逻辑状态.狂暴状态",
     "NeedTarget": true
   },
   {

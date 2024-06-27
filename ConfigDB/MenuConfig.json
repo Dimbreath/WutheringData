@@ -25,6 +25,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -53,6 +61,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -81,6 +97,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -109,6 +133,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -144,6 +176,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -175,6 +215,25 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": [
+      0
+    ],
+    "DisableFunction": [
+      6
+    ],
+    "AffectedValue": [
+      1
+    ],
+    "AffectedFunction": [
+      {
+        "Key": 6,
+        "Value": 2
+      }
+    ],
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -210,6 +269,14 @@
     "ButtonText": "",
     "OpenView": "ResolutionListView",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -243,6 +310,19 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": [
+      {
+        "Key": 128,
+        "Value": 1
+      }
+    ],
+    "ClickedTips": "AndroidIRX120fps",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -278,6 +358,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -299,16 +387,26 @@
     "Digits": 0,
     "OptionsName": [
       "MenuConfig_44_OptionsName_0",
+      "MenuConfig_43_OptionsName_1",
       "MenuConfig_44_OptionsName_1"
     ],
     "OptionsValue": [
       0,
-      1
+      1,
+      2
     ],
     "KeyMap": "",
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -342,6 +440,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -375,6 +481,14 @@
     "RelationFunction": [
       81
     ],
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -406,6 +520,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -431,6 +553,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -456,6 +586,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -481,6 +619,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -506,6 +652,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -531,6 +685,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -556,6 +718,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -581,6 +751,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -606,6 +784,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -631,6 +817,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -656,6 +850,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -681,6 +883,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -706,6 +916,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -731,6 +949,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -756,6 +982,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -781,6 +1015,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -806,6 +1048,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -831,6 +1081,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -856,6 +1114,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -881,6 +1147,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -906,6 +1180,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -931,6 +1213,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -956,6 +1246,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -981,6 +1279,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1006,6 +1312,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1031,6 +1345,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1056,6 +1378,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1081,6 +1411,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1106,6 +1444,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1131,6 +1477,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1156,6 +1510,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1181,6 +1543,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1220,6 +1590,14 @@
     "ButtonText": "",
     "OpenView": "TextLanguageSettingView",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1250,6 +1628,14 @@
     "ButtonText": "",
     "OpenView": "VoiceLanguageSelectView",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1280,6 +1666,14 @@
     "ButtonText": "MenuConfig_40_ButtonText",
     "OpenView": "VoiceLanguageDownloadView",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1305,6 +1699,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1330,6 +1732,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1361,6 +1771,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1392,6 +1810,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1423,6 +1849,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1456,6 +1890,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1489,6 +1931,14 @@
     "RelationFunction": [
       81
     ],
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1517,6 +1967,14 @@
     "ButtonText": "MenuConfig_42_ButtonText",
     "OpenView": "BrightnessView",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1545,6 +2003,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1573,6 +2039,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1604,6 +2078,32 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": [
+      0
+    ],
+    "DisableFunction": [
+      82,
+      83,
+      84,
+      85
+    ],
+    "AffectedValue": [
+      1
+    ],
+    "AffectedFunction": [
+      {
+        "Key": 87,
+        "Value": 0
+      },
+      {
+        "Key": 125,
+        "Value": 0
+      }
+    ],
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1645,6 +2145,14 @@
     "RelationFunction": [
       81
     ],
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1675,6 +2183,14 @@
     "RelationFunction": [
       81
     ],
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1710,6 +2226,14 @@
     "RelationFunction": [
       81
     ],
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1735,6 +2259,14 @@
     "ButtonText": "MenuConfig_75_ButtonText",
     "OpenView": "BattleUiSetView",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 12990008
   },
   {
@@ -1766,6 +2298,25 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": [
+      1
+    ],
+    "AffectedFunction": [
+      {
+        "Key": 81,
+        "Value": 0
+      },
+      {
+        "Key": 125,
+        "Value": 0
+      }
+    ],
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1794,6 +2345,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1822,6 +2381,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1850,6 +2417,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1878,6 +2453,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1911,6 +2494,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1939,6 +2530,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1967,6 +2566,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -1995,6 +2602,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -2023,6 +2638,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -2051,6 +2674,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -2079,6 +2710,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -2110,6 +2749,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -2141,6 +2788,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -2172,6 +2827,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -2200,6 +2863,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -2233,6 +2904,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -2261,6 +2940,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -2286,6 +2973,14 @@
     "ButtonText": "MenuConfig_107_ButtonText",
     "OpenView": "LogUploadView",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -2317,6 +3012,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -2352,6 +3055,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -2383,6 +3094,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -2408,6 +3127,14 @@
     "ButtonText": "MenuConfig_107_ButtonText",
     "OpenView": "Account,1",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 900
   },
   {
@@ -2433,6 +3160,14 @@
     "ButtonText": "MenuConfig_107_ButtonText",
     "OpenView": "Account,2",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 901
   },
   {
@@ -2458,6 +3193,14 @@
     "ButtonText": "MenuConfig_107_ButtonText",
     "OpenView": "Account,3",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 902
   },
   {
@@ -2483,6 +3226,14 @@
     "ButtonText": "MenuConfig_107_ButtonText",
     "OpenView": "Account,4",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 903
   },
   {
@@ -2508,6 +3259,14 @@
     "ButtonText": "MenuConfig_107_ButtonText",
     "OpenView": "Account,5",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 904
   },
   {
@@ -2533,6 +3292,14 @@
     "ButtonText": "MenuConfig_107_ButtonText",
     "OpenView": "Account,6",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 905
   },
   {
@@ -2558,6 +3325,14 @@
     "ButtonText": "MenuConfig_107_ButtonText",
     "OpenView": "Account,7",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 906
   },
   {
@@ -2583,6 +3358,14 @@
     "ButtonText": "MenuConfig_107_ButtonText",
     "OpenView": "Account,8",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 907
   },
   {
@@ -2611,6 +3394,14 @@
     "ButtonText": "MenuConfig_112_OptionsName",
     "OpenView": "CdKeyInputView",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 12005119
   },
   {
@@ -2642,6 +3433,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -2673,6 +3472,14 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -2698,6 +3505,14 @@
     "ButtonText": "MenuConfig_107_ButtonText",
     "OpenView": "Account,9",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 908
   },
   {
@@ -2731,6 +3546,284 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
+    "ConditionGroup": 0
+  },
+  {
+    "Id": 71,
+    "FunctionId": 82,
+    "OptionsDefault": 1,
+    "MainType": 2,
+    "SubName": "MenuConfig_71_SubName",
+    "SubType": 0,
+    "SubSort": 2,
+    "SubImage": "/Game/Aki/UI/UIResources/UiSet/Atlas/SP_SETzidingyi.SP_SETzidingyi",
+    "Name": "MenuConfig_71_Name",
+    "Platform": 1,
+    "FunctionSort": 11,
+    "FunctionImage": "/Game/Aki/UI/UIResources/UiSet/Atlas/SP_SETzidingyi.SP_SETzidingyi",
+    "SetType": 2,
+    "SliderRange": null,
+    "SliderDefault": 0.0,
+    "Digits": 0,
+    "OptionsName": [
+      "MenuConfig_71_OptionsName_0",
+      "MenuConfig_71_OptionsName_1"
+    ],
+    "OptionsValue": [
+      0,
+      1
+    ],
+    "KeyMap": "",
+    "ButtonText": "",
+    "OpenView": "",
+    "RelationFunction": [
+      81
+    ],
+    "DisableValue": [
+      1
+    ],
+    "DisableFunction": [
+      11
+    ],
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
+    "ConditionGroup": 0
+  },
+  {
+    "Id": 125,
+    "FunctionId": 125,
+    "OptionsDefault": 1,
+    "MainType": 2,
+    "SubName": "MenuConfig_71_SubName",
+    "SubType": 0,
+    "SubSort": 2,
+    "SubImage": "/Game/Aki/UI/UIResources/UiSet/Atlas/SP_SETzidingyi.SP_SETzidingyi",
+    "Name": "MenuConfig_125_Name",
+    "Platform": 1,
+    "FunctionSort": 11,
+    "FunctionImage": "/Game/Aki/UI/UIResources/UiSet/Atlas/SP_SETzidingyi.SP_SETzidingyi",
+    "SetType": 2,
+    "SliderRange": null,
+    "SliderDefault": 0.0,
+    "Digits": 0,
+    "OptionsName": [
+      "MenuConfig_71_OptionsName_0",
+      "MenuConfig_71_OptionsName_1"
+    ],
+    "OptionsValue": [
+      0,
+      1
+    ],
+    "KeyMap": "",
+    "ButtonText": "",
+    "OpenView": "",
+    "RelationFunction": null,
+    "DisableValue": [
+      0
+    ],
+    "DisableFunction": [
+      126
+    ],
+    "AffectedValue": [
+      1
+    ],
+    "AffectedFunction": [
+      {
+        "Key": 81,
+        "Value": 0
+      },
+      {
+        "Key": 87,
+        "Value": 0
+      }
+    ],
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
+    "ConditionGroup": 0
+  },
+  {
+    "Id": 126,
+    "FunctionId": 126,
+    "OptionsDefault": 1,
+    "MainType": 2,
+    "SubName": "MenuConfig_71_SubName",
+    "SubType": 0,
+    "SubSort": 2,
+    "SubImage": "/Game/Aki/UI/UIResources/UiSet/Atlas/SP_SETzidingyi.SP_SETzidingyi",
+    "Name": "MenuConfig_126_Name",
+    "Platform": 1,
+    "FunctionSort": 11,
+    "FunctionImage": "/Game/Aki/UI/UIResources/UiSet/Atlas/SP_SETzidingyi.SP_SETzidingyi",
+    "SetType": 2,
+    "SliderRange": null,
+    "SliderDefault": 0.0,
+    "Digits": 0,
+    "OptionsName": [
+      "MenuConfig_126_OptionsName_0",
+      "MenuConfig_126_OptionsName_1",
+      "MenuConfig_126_OptionsName_2",
+      "MenuConfig_126_OptionsName_3",
+      "MenuConfig_126_OptionsName_4"
+    ],
+    "OptionsValue": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "KeyMap": "",
+    "ButtonText": "",
+    "OpenView": "",
+    "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
+    "ConditionGroup": 0
+  },
+  {
+    "Id": 127,
+    "FunctionId": 127,
+    "OptionsDefault": 1,
+    "MainType": 2,
+    "SubName": "MenuConfig_71_SubName",
+    "SubType": 0,
+    "SubSort": 2,
+    "SubImage": "/Game/Aki/UI/UIResources/UiSet/Atlas/SP_SETzidingyi.SP_SETzidingyi",
+    "Name": "MenuConfig_127_Name",
+    "Platform": 4,
+    "FunctionSort": 0,
+    "FunctionImage": "/Game/Aki/UI/UIResources/UiSet/Atlas/SP_SETzidingyi.SP_SETzidingyi",
+    "SetType": 2,
+    "SliderRange": null,
+    "SliderDefault": 0.0,
+    "Digits": 0,
+    "OptionsName": [
+      "MenuConfig_71_OptionsName_0",
+      "MenuConfig_71_OptionsName_1"
+    ],
+    "OptionsValue": [
+      0,
+      1
+    ],
+    "KeyMap": "",
+    "ButtonText": "",
+    "OpenView": "",
+    "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
+    "ConditionGroup": 0
+  },
+  {
+    "Id": 128,
+    "FunctionId": 128,
+    "OptionsDefault": 1,
+    "MainType": 2,
+    "SubName": "MenuConfig_71_SubName",
+    "SubType": 0,
+    "SubSort": 2,
+    "SubImage": "/Game/Aki/UI/UIResources/UiSet/Atlas/SP_SETzidingyi.SP_SETzidingyi",
+    "Name": "MenuConfig_128_Name",
+    "Platform": 3,
+    "FunctionSort": 0,
+    "FunctionImage": "/Game/Aki/UI/UIResources/UiSet/Atlas/SP_SETzidingyi.SP_SETzidingyi",
+    "SetType": 2,
+    "SliderRange": null,
+    "SliderDefault": 0.0,
+    "Digits": 0,
+    "OptionsName": [
+      "MenuConfig_71_OptionsName_0",
+      "MenuConfig_71_OptionsName_1"
+    ],
+    "OptionsValue": [
+      0,
+      1
+    ],
+    "KeyMap": "",
+    "ButtonText": "",
+    "OpenView": "",
+    "RelationFunction": null,
+    "DisableValue": [
+      1
+    ],
+    "DisableFunction": [
+      11
+    ],
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": [
+      {
+        "Key": 1,
+        "Value": "AndroidIRX120fps"
+      }
+    ],
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
+    "ConditionGroup": 0
+  },
+  {
+    "Id": 130,
+    "FunctionId": 130,
+    "OptionsDefault": 0,
+    "MainType": 6,
+    "SubName": "MenuConfig_104_SubName",
+    "SubType": 2,
+    "SubSort": 2,
+    "SubImage": "/Game/Aki/UI/UIResources/UiSet/Atlas/SP_SETxitongshezhi3.SP_SETxitongshezhi3",
+    "Name": "MenuConfig_129_Name",
+    "Platform": 1,
+    "FunctionSort": 5,
+    "FunctionImage": "/Game/Aki/UI/UIResources/UiSet/Atlas/SP_SETanjian1.SP_SETanjian1",
+    "SetType": 2,
+    "SliderRange": null,
+    "SliderDefault": 0.0,
+    "Digits": 0,
+    "OptionsName": [
+      "MenuConfig_55_OptionsName_0",
+      "MenuConfig_55_OptionsName_1"
+    ],
+    "OptionsValue": [
+      0,
+      1
+    ],
+    "KeyMap": "",
+    "ButtonText": "",
+    "OpenView": "",
+    "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   },
   {
@@ -2762,6 +3855,133 @@
     "ButtonText": "",
     "OpenView": "",
     "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
+    "ConditionGroup": 0
+  },
+  {
+    "Id": 68,
+    "FunctionId": 79,
+    "OptionsDefault": 1,
+    "MainType": 2,
+    "SubName": "MenuConfig_68_SubName",
+    "SubType": 0,
+    "SubSort": 2,
+    "SubImage": "/Game/Aki/UI/UIResources/UiSet/Atlas/SP_SETzidingyi.SP_SETzidingyi",
+    "Name": "MenuConfig_68_Name",
+    "Platform": 0,
+    "FunctionSort": 20,
+    "FunctionImage": "/Game/Aki/UI/UIResources/UiSet/Atlas/SP_SETzidingyi.SP_SETzidingyi",
+    "SetType": 2,
+    "SliderRange": null,
+    "SliderDefault": 0.0,
+    "Digits": 0,
+    "OptionsName": [
+      "MenuConfig_93_OptionsName_0",
+      "MenuConfig_93_OptionsName_1",
+      "MenuConfig_93_OptionsName_2"
+    ],
+    "OptionsValue": [
+      0,
+      1,
+      2
+    ],
+    "KeyMap": "",
+    "ButtonText": "",
+    "OpenView": "",
+    "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
+    "ConditionGroup": 0
+  },
+  {
+    "Id": 131,
+    "FunctionId": 131,
+    "OptionsDefault": 0,
+    "MainType": 6,
+    "SubName": "MenuConfig_104_SubName",
+    "SubType": 2,
+    "SubSort": 2,
+    "SubImage": "/Game/Aki/UI/UIResources/UiSet/Atlas/SP_SETxitongshezhi3.SP_SETxitongshezhi3",
+    "Name": "MenuConfig_130_Name",
+    "Platform": 1,
+    "FunctionSort": 6,
+    "FunctionImage": "/Game/Aki/UI/UIResources/UiSet/Atlas/SP_SETanjian1.SP_SETanjian1",
+    "SetType": 2,
+    "SliderRange": null,
+    "SliderDefault": 0.0,
+    "Digits": 0,
+    "OptionsName": [
+      "MenuConfig_55_OptionsName_0",
+      "MenuConfig_55_OptionsName_1"
+    ],
+    "OptionsValue": [
+      0,
+      1
+    ],
+    "KeyMap": "",
+    "ButtonText": "",
+    "OpenView": "",
+    "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
+    "ConditionGroup": 0
+  },
+  {
+    "Id": 132,
+    "FunctionId": 132,
+    "OptionsDefault": 0,
+    "MainType": 2,
+    "SubName": "MenuConfig_46_SubName",
+    "SubType": 0,
+    "SubSort": 2,
+    "SubImage": "/Game/Aki/UI/UIResources/UiSet/Atlas/SP_SETzidingyi.SP_SETzidingyi",
+    "Name": "MenuConfig_132_Name",
+    "Platform": 0,
+    "FunctionSort": 14,
+    "FunctionImage": "/Game/Aki/UI/UIResources/UiSet/Atlas/SP_SETzidingyi.SP_SETzidingyi",
+    "SetType": 2,
+    "SliderRange": null,
+    "SliderDefault": 0.0,
+    "Digits": 0,
+    "OptionsName": [
+      "MenuConfig_54_OptionsName_0",
+      "MenuConfig_54_OptionsName_1"
+    ],
+    "OptionsValue": [
+      0,
+      1
+    ],
+    "KeyMap": "",
+    "ButtonText": "",
+    "OpenView": "",
+    "RelationFunction": null,
+    "DisableValue": null,
+    "DisableFunction": null,
+    "AffectedValue": null,
+    "AffectedFunction": null,
+    "ValueTipsMap": null,
+    "ClickedTipsMap": null,
+    "ClickedTips": "0",
+    "BlockOnIosCheckServer": false,
     "ConditionGroup": 0
   }
 ]

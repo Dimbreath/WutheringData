@@ -100,9 +100,9 @@
   },
   {
     "Id": 80000007,
-    "PublicCdGroup": 0,
+    "PublicCdGroup": 8,
     "Buffs": [
-      83010304
+      83011201
     ],
     "Cd": 0,
     "Share": true
@@ -202,7 +202,7 @@
   },
   {
     "Id": 80000018,
-    "PublicCdGroup": 0,
+    "PublicCdGroup": 8,
     "Buffs": [
       83010901
     ],
@@ -238,10 +238,9 @@
   },
   {
     "Id": 80000022,
-    "PublicCdGroup": 0,
+    "PublicCdGroup": 8,
     "Buffs": [
-      81000017,
-      81000020
+      83011301
     ],
     "Cd": 0,
     "Share": true
@@ -284,7 +283,7 @@
   },
   {
     "Id": 80000027,
-    "PublicCdGroup": 0,
+    "PublicCdGroup": 8,
     "Buffs": [
       83010902
     ],
@@ -293,10 +292,9 @@
   },
   {
     "Id": 80000028,
-    "PublicCdGroup": 0,
+    "PublicCdGroup": 8,
     "Buffs": [
-      81000015,
-      81000021
+      83011202
     ],
     "Cd": 0,
     "Share": true
@@ -312,10 +310,9 @@
   },
   {
     "Id": 80000030,
-    "PublicCdGroup": 0,
+    "PublicCdGroup": 8,
     "Buffs": [
-      81000012,
-      81000023
+      83011302
     ],
     "Cd": 0,
     "Share": true
@@ -765,7 +762,7 @@
     "Id": 80001023,
     "PublicCdGroup": 0,
     "Buffs": [
-      83010508
+      83010511
     ],
     "Cd": 5,
     "Share": true
@@ -794,6 +791,42 @@
     "Buffs": [
       83010308,
       83010509
+    ],
+    "Cd": 5,
+    "Share": true
+  },
+  {
+    "Id": 80000033,
+    "PublicCdGroup": 0,
+    "Buffs": [
+      83011001
+    ],
+    "Cd": 5,
+    "Share": true
+  },
+  {
+    "Id": 80000034,
+    "PublicCdGroup": 0,
+    "Buffs": [
+      83011101
+    ],
+    "Cd": 5,
+    "Share": true
+  },
+  {
+    "Id": 80001033,
+    "PublicCdGroup": 0,
+    "Buffs": [
+      83011002
+    ],
+    "Cd": 5,
+    "Share": true
+  },
+  {
+    "Id": 80001034,
+    "PublicCdGroup": 0,
+    "Buffs": [
+      83011102
     ],
     "Cd": 5,
     "Share": true
