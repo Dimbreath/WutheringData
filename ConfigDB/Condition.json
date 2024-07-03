@@ -48787,6 +48787,10 @@
       {
         "Key": "Tag",
         "Value": "-3775711"
+      },
+      {
+        "Key": "Online",
+        "Value": "1"
       }
     ],
     "LimitParamsOpe": null,
@@ -48813,6 +48817,10 @@
       {
         "Key": "Tag",
         "Value": "-3775711"
+      },
+      {
+        "Key": "Online",
+        "Value": "1"
       }
     ],
     "LimitParamsOpe": null,
@@ -50463,7 +50471,7 @@
   {
     "Id": 100045051,
     "Type": "OnDeathCalculate",
-    "NeedNum": 20,
+    "NeedNum": 50,
     "LimitParams": [
       {
         "Key": "TargetType",
@@ -50471,7 +50479,7 @@
       },
       {
         "Key": "VictimID",
-        "Value": "1-390112"
+        "Value": "1-390101"
       }
     ],
     "LimitParamsOpe": null,

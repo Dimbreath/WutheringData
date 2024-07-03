@@ -15005,7 +15005,7 @@
   },
   {
     "Key": "114000020_191",
-    "Data": "{\"Type\":\"Sequence\",\"Id\":191,\"Desc\":\"\",\"SaveConfig\":{\"DisableRollbackWhileReconnect\":true,\"EnterActions\":[{\"Name\":\"AwakeEntity\",\"Params\":{\"EntityIds\":[146000336,146000337]},\"ActionGuid\":\"9d8ff9f9a901448f87e31c007436896b\",\"ActionId\":3000078},{\"Name\":\"EnableSystem\",\"Params\":{\"SystemType\":10015,\"IsEnable\":true},\"ActionGuid\":\"11071603a1834e008985ad65974bb372\",\"ActionId\":3000079}]}}"
+    "Data": "{\"Type\":\"Sequence\",\"Id\":191,\"Desc\":\"\",\"SaveConfig\":{\"DisableRollbackWhileReconnect\":true,\"EnterActions\":[{\"Name\":\"AwakeEntity\",\"Params\":{\"EntityIds\":[146000336,146000337]},\"ActionGuid\":\"9d8ff9f9a901448f87e31c007436896b\",\"ActionId\":3000078},{\"Name\":\"EnableSystem\",\"Params\":{\"SystemType\":10015,\"IsEnable\":true},\"ActionGuid\":\"11071603a1834e008985ad65974bb372\",\"ActionId\":3000079}],\"PosRollbackCfg\":{\"RangeEntityId\":114900000,\"PositionEntityId\":114900001}}}"
   },
   {
     "Key": "114000020_192",
@@ -16561,7 +16561,7 @@
   },
   {
     "Key": "133000009_120",
-    "Data": "{\"Type\":\"ChildQuest\",\"Id\":120,\"Desc\":\"\",\"Condition\":{\"Type\":\"CheckEntityState\",\"Conditions\":[{\"EntityId\":131000156,\"State\":\"物体.物体阶段.完全破坏\"}]},\"TidTip\":\"Quest_133000009_ChildQuestTip_0_3\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Locations\",\"Locations\":[{\"X\":219634.5,\"Y\":331903.63,\"Z\":-7020.19,\"A\":0}]}},\"EnterActions\":[{\"Name\":\"AwakeEntity\",\"Params\":{\"EntityIds\":[133900239]},\"ActionGuid\":\"8f8c7e0c426d48fcbc9b922a4901a611\",\"ActionId\":3000014}],\"FinishActions\":[{\"Name\":\"ChangeEntityState\",\"Params\":{\"Type\":\"Directly\",\"EntityId\":133900300,\"State\":\"关卡.Common.状态.常态\"},\"ActionGuid\":\"b462ec42b3cd4cd496b58690000791a6\",\"ActionId\":3000019},{\"Name\":\"LockEntity\",\"Params\":{\"EntityIds\":[133900300,131000156]},\"ActionGuid\":\"dc9dcf4eb9ab4d5590174816b566ec1a\",\"ActionId\":3000024},{\"Name\":\"SetEntityVisible\",\"Params\":{\"Visible\":false,\"EntityIds\":[131000156]},\"ActionGuid\":\"6f985490324d45d0b0652c530d6677de\",\"ActionId\":3000026}]}"
+    "Data": "{\"Type\":\"ChildQuest\",\"Id\":120,\"Desc\":\"\",\"Condition\":{\"Type\":\"CheckEntityState\",\"Conditions\":[{\"EntityId\":131000156,\"State\":\"物体.物体阶段.完全破坏\"}]},\"TidTip\":\"Quest_133000009_ChildQuestTip_0_3\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Locations\",\"Locations\":[{\"X\":219634.5,\"Y\":331903.63,\"Z\":-7020.19,\"A\":0}]}},\"EnterActions\":[{\"Name\":\"AwakeEntity\",\"Params\":{\"EntityIds\":[133900239]},\"ActionGuid\":\"8f8c7e0c426d48fcbc9b922a4901a611\",\"ActionId\":3000014}],\"FinishActions\":[{\"Name\":\"ChangeEntityState\",\"Params\":{\"Type\":\"Directly\",\"EntityId\":133900300,\"State\":\"关卡.Common.状态.常态\"},\"ActionGuid\":\"b462ec42b3cd4cd496b58690000791a6\",\"ActionId\":3000019},{\"Name\":\"LockEntity\",\"Params\":{\"EntityIds\":[133900300,131000156]},\"ActionGuid\":\"dc9dcf4eb9ab4d5590174816b566ec1a\",\"ActionId\":3000024},{\"Name\":\"SetEntityVisible\",\"Params\":{\"Visible\":false,\"EntityIds\":[131000156]},\"ActionGuid\":\"6f985490324d45d0b0652c530d6677de\",\"ActionId\":3000026}],\"FixProcessor\":{\"FixActions\":[{\"Timing\":\"OnProgress\",\"Condition\":{\"Type\":0,\"Conditions\":[{\"Type\":\"CompareEntityState\",\"EntityId\":131000059,\"Compare\":\"Eq\",\"State\":\"关卡.Common.状态.激活\"}]},\"ThenActions\":[{\"Name\":\"UnlockEntity\",\"Params\":{\"EntityIds\":[131000091]},\"ActionGuid\":\"e5fa6c3cf5bc4d059ecdb03026c7ff89\",\"ActionId\":3000059},{\"Name\":\"FinishCondition\",\"Params\":{},\"ActionGuid\":\"e1d2506bdc6b47c1a4a9adb9a823051d\",\"ActionId\":3000060}]}]}}"
   },
   {
     "Key": "133000009_121",
@@ -20637,7 +20637,7 @@
   },
   {
     "Key": "146900002_35",
-    "Data": "{\"Type\":\"ChildQuest\",\"Id\":35,\"Desc\":\"\",\"Condition\":{\"Type\":\"CheckEntityState\",\"Conditions\":[{\"EntityId\":146001194,\"State\":\"关卡.Common.状态.激活\"}]},\"TidTip\":\"Quest_146900002_ChildQuestTip_146_23\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Locations\",\"Locations\":[{\"X\":231479,\"Y\":329034,\"Z\":-15522,\"A\":8}]}},\"EnterActions\":[],\"FinishActions\":[]}"
+    "Data": "{\"Type\":\"ChildQuest\",\"Id\":35,\"Desc\":\"\",\"Condition\":{\"Type\":\"CheckEntityState\",\"Conditions\":[{\"EntityId\":146001194,\"State\":\"关卡.Common.状态.激活\"}]},\"TidTip\":\"Quest_146900002_ChildQuestTip_146_23\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Locations\",\"Locations\":[{\"X\":231479,\"Y\":329034,\"Z\":-15522,\"A\":8}]}},\"EnterActions\":[],\"FinishActions\":[],\"FixProcessor\":{\"FixActions\":[{\"Timing\":\"OnProgress\",\"Condition\":{\"Type\":0,\"Conditions\":[{\"Type\":\"CompareEntityState\",\"EntityId\":146001197,\"Compare\":\"Eq\",\"State\":\"关卡.Common.状态.准备中\"}]},\"ThenActions\":[{\"Name\":\"FinishCondition\",\"Params\":{},\"ActionGuid\":\"9a2c98be7baf4f3d861f29da8036b553\",\"ActionId\":3000031}]}]}}"
   },
   {
     "Key": "146900002_36",
