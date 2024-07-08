@@ -16245,7 +16245,7 @@
   },
   {
     "Key": "134800000_4",
-    "Data": "{\"Type\":\"ChildQuest\",\"Id\":4,\"Desc\":\"\",\"Condition\":{\"Type\":\"CheckEntityState\",\"Conditions\":[{\"EntityId\":134800016,\"State\":\"关卡.Common.状态.激活\"}]},\"TidTip\":\"Quest_134800000_ChildQuestTip_0_2\",\"HideUi\":true}"
+    "Data": "{\"Type\":\"ChildQuest\",\"Id\":4,\"Desc\":\"\",\"Condition\":{\"Type\":\"CheckEntityState\",\"Conditions\":[{\"EntityId\":134800016,\"State\":\"关卡.Common.状态.激活\"}]},\"TidTip\":\"Quest_134800000_ChildQuestTip_0_2\",\"HideUi\":true,\"FixProcessor\":{\"FixActions\":[{\"Timing\":\"OnProgress\",\"Condition\":{\"Type\":0,\"Conditions\":[{\"Type\":\"CompareQuestState\",\"QuestId\":134000000,\"Compare\":\"Eq\",\"State\":3}]},\"ThenActions\":[{\"Name\":\"FinishCondition\",\"Params\":{},\"ActionGuid\":\"8b6b824902c0424fb951a4c46e87417d\",\"ActionId\":3000143}]}]}}"
   },
   {
     "Key": "134800000_3",
@@ -20197,11 +20197,11 @@
   },
   {
     "Key": "146000002_34",
-    "Data": "{\"Type\":\"ChildQuest\",\"Id\":34,\"Desc\":\"\",\"Condition\":{\"Type\":\"Kill\",\"ExistTargets\":[],\"TargetsToAwake\":[146001150,146001145,146001144]},\"TidTip\":\"Quest_146000002_ChildQuestTip_146_45\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Locations\",\"Locations\":[]}},\"EnterActions\":[],\"FinishActions\":[{\"Name\":\"AwakeEntity\",\"Params\":{\"EntityIds\":[146001164,146001142,146001143]},\"ActionGuid\":\"c7ed20560f2842229a1012143a140bfa\",\"ActionId\":3000024}],\"HideUi\":true}"
+    "Data": "{\"Type\":\"ChildQuest\",\"Id\":34,\"Desc\":\"\",\"Condition\":{\"Type\":\"Kill\",\"ExistTargets\":[],\"TargetsToAwake\":[146001150,146001145,146001144]},\"TidTip\":\"Quest_146000002_ChildQuestTip_146_45\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Locations\",\"Locations\":[{\"X\":264073.84,\"Y\":309201.69,\"Z\":-14497.23,\"A\":0}]}},\"EnterActions\":[],\"FinishActions\":[{\"Name\":\"AwakeEntity\",\"Params\":{\"EntityIds\":[146001164,146001142,146001143]},\"ActionGuid\":\"c7ed20560f2842229a1012143a140bfa\",\"ActionId\":3000024}],\"HideUi\":false}"
   },
   {
     "Key": "146000002_32",
-    "Data": "{\"Type\":\"ChildQuest\",\"Id\":32,\"Desc\":\"\",\"Condition\":{\"Type\":\"Kill\",\"ExistTargets\":[146001143,146001164,146001142],\"TargetsToAwake\":[]},\"TidTip\":\"Quest_146000002_ChildQuestTip_146_43\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Locations\",\"Locations\":[]}},\"EnterActions\":[],\"FinishActions\":[],\"HideUi\":true}"
+    "Data": "{\"Type\":\"ChildQuest\",\"Id\":32,\"Desc\":\"\",\"Condition\":{\"Type\":\"Kill\",\"ExistTargets\":[146001143,146001164,146001142],\"TargetsToAwake\":[]},\"TidTip\":\"Quest_146000002_ChildQuestTip_146_43\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Locations\",\"Locations\":[{\"X\":264073.84,\"Y\":309201.69,\"Z\":-14497.23,\"A\":0}]}},\"EnterActions\":[],\"FinishActions\":[],\"HideUi\":false}"
   },
   {
     "Key": "140900000_1",

@@ -31764,11 +31764,11 @@
     "CueType": 0,
     "Comp": 1,
     "CompName": "Mesh",
-    "Socket": "Bip001LHand",
+    "Socket": "HitCase",
     "Location": {
-      "X": 0.0,
-      "Y": 0.0,
-      "Z": 0.0
+      "X": 50.0,
+      "Y": -50.0,
+      "Z": 20.0
     },
     "Rotation": {
       "X": 0.0,
@@ -31790,19 +31790,19 @@
     "Max": 10000,
     "Min": 0,
     "BListenAttr": false,
-    "BSoftFollow": false,
-    "BLockRevolution": false,
+    "BSoftFollow": true,
+    "BLockRevolution": true,
     "LockRotation": {
-      "X": 0.0,
-      "Y": 0.0,
-      "Z": 0.0
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
     },
     "InterpSpeed": 5,
-    "FarthestDistance": 100,
+    "FarthestDistance": 70,
     "FaultTolerance": {
-      "X": 0.0,
-      "Y": 0.0,
-      "Z": 0.0
+      "X": 10.0,
+      "Y": 10.0,
+      "Z": 200.0
     },
     "TargetScaleUp": [
       1.0,
