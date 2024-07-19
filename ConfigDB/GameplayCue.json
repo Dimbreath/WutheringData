@@ -33149,5 +33149,60 @@
     "Parameters": [
       "2"
     ]
+  },
+  {
+    "Id": 1205104055,
+    "Path": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredspeed_UI.T_Iconpropertyredspeed_UI",
+    "CueType": 2,
+    "Comp": 0,
+    "CompName": "Mesh",
+    "Socket": "None",
+    "Location": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Rotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "Scale": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 1.0
+    },
+    "LocRule": 0,
+    "RotaRule": 0,
+    "SclRule": 0,
+    "EndRule": 0,
+    "Magni": 0,
+    "AttrId": 0,
+    "Tag": "",
+    "Max": 10000,
+    "Min": 0,
+    "BListenAttr": false,
+    "BSoftFollow": false,
+    "BLockRevolution": false,
+    "LockRotation": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "InterpSpeed": 5,
+    "FarthestDistance": 100,
+    "FaultTolerance": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "TargetScaleUp": [
+      1.0,
+      1.0
+    ],
+    "Resources": null,
+    "Parameters": [
+      "1"
+    ]
   }
 ]
