@@ -5613,6 +5613,14 @@
     "BehaviorTree": "/Game/Aki/AI/AIMonster/Vsion/VM_Ordinary/VM_MO1Ronhuochong/BT_VM_MO1Ronhuochong.BT_VM_MO1Ronhuochong",
     "SubBehaviorConfigs": [
       {
+        "Key": "AiSense",
+        "Value": "200054"
+      },
+      {
+        "Key": "AiHate",
+        "Value": "200054"
+      },
+      {
         "Key": "AiBaseSkill",
         "Value": "200054"
       }
