@@ -12289,7 +12289,7 @@
   },
   {
     "Key": "139000030_153",
-    "Data": "{\"Type\":\"ChildQuest\",\"Id\":153,\"Desc\":\"\",\"Condition\":{\"Type\":\"ReachArea\",\"Pos\":{\"X\":-60029,\"Y\":32849,\"Z\":5559.59},\"Range\":800},\"TidTip\":\"Quest_139000030_ChildQuestTip_0_82\",\"EnterActions\":[],\"FinishActions\":[],\"HideUi\":true}"
+    "Data": "{\"Type\":\"ChildQuest\",\"Id\":153,\"Desc\":\"\",\"Condition\":{\"Type\":\"ReachArea\",\"Pos\":{\"X\":-60029,\"Y\":32849,\"Z\":5559.59},\"Range\":800},\"TidTip\":\"Quest_139000030_ChildQuestTip_0_82\",\"EnterActions\":[],\"FinishActions\":[],\"TrackTarget\":{\"TrackType\":{\"Type\":\"Locations\",\"Locations\":[{\"X\":-60029,\"Y\":32849,\"Z\":5559.59}]}}}"
   },
   {
     "Key": "139000030_151",
