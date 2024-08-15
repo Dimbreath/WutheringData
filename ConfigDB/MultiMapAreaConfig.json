@@ -2,7 +2,8 @@
   {
     "Block": "3_-3",
     "MultiMapList": [
-      1
+      1,
+      2
     ],
     "MultiMapRangeList": [
       {
@@ -11,6 +12,14 @@
           0,
           550,
           100
+        ]
+      },
+      {
+        "ArrayInt": [
+          775,
+          125,
+          850,
+          225
         ]
       }
     ]
@@ -34,9 +43,26 @@
   {
     "Block": "4_-3",
     "MultiMapList": [
+      2,
       3
     ],
     "MultiMapRangeList": [
+      {
+        "ArrayInt": [
+          0,
+          75,
+          150,
+          210,
+          150,
+          0,
+          200,
+          210,
+          200,
+          0,
+          260,
+          100
+        ]
+      },
       {
         "ArrayInt": [
           0,
@@ -55,6 +81,22 @@
           375,
           200,
           465
+        ]
+      }
+    ]
+  },
+  {
+    "Block": "4_-4",
+    "MultiMapList": [
+      2
+    ],
+    "MultiMapRangeList": [
+      {
+        "ArrayInt": [
+          175,
+          830,
+          250,
+          850
         ]
       }
     ]

@@ -45,7 +45,9 @@
     "MaxProficiencyCount": 30,
     "FoodContent": "",
     "FoodBackground": "",
-    "RoleList": null
+    "RoleList": [
+      1105
+    ]
   },
   {
     "Id": 10002,
@@ -1021,6 +1023,112 @@
     ],
     "Proficiency": 60,
     "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10035,
+    "FormulaItemId": 80010035,
+    "FoodItemId": 80000035,
+    "TypeId": 1,
+    "Unlock": false,
+    "Name": "蛋饼",
+    "ConsumeItems": [
+      {
+        "ItemId": 42600010,
+        "Count": 1
+      },
+      {
+        "ItemId": 80050000,
+        "Count": 1
+      },
+      {
+        "ItemId": 80050001,
+        "Count": 1
+      }
+    ],
+    "Proficiency": 10,
+    "MaxProficiencyCount": 30,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": [
+      1305
+    ]
+  },
+  {
+    "Id": 10036,
+    "FormulaItemId": 80010036,
+    "FoodItemId": 80000036,
+    "TypeId": 3,
+    "Unlock": false,
+    "Name": "团圆饼",
+    "ConsumeItems": [
+      {
+        "ItemId": 42600010,
+        "Count": 1
+      },
+      {
+        "ItemId": 80050000,
+        "Count": 1
+      },
+      {
+        "ItemId": 42300010,
+        "Count": 1
+      }
+    ],
+    "Proficiency": 10,
+    "MaxProficiencyCount": 30,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10037,
+    "FormulaItemId": 80010037,
+    "FoodItemId": 80000037,
+    "TypeId": 2,
+    "Unlock": false,
+    "Name": "月酿圆子",
+    "ConsumeItems": [
+      {
+        "ItemId": 42310070,
+        "Count": 1
+      },
+      {
+        "ItemId": 80050000,
+        "Count": 1
+      },
+      {
+        "ItemId": 80050003,
+        "Count": 1
+      }
+    ],
+    "Proficiency": 10,
+    "MaxProficiencyCount": 30,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10038,
+    "FormulaItemId": 80010038,
+    "FoodItemId": 80000038,
+    "TypeId": 1,
+    "Unlock": false,
+    "Name": "乡月饮",
+    "ConsumeItems": [
+      {
+        "ItemId": 42310010,
+        "Count": 1
+      },
+      {
+        "ItemId": 42310040,
+        "Count": 2
+      }
+    ],
+    "Proficiency": 10,
+    "MaxProficiencyCount": 30,
     "FoodContent": "",
     "FoodBackground": "",
     "RoleList": null

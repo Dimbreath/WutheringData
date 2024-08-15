@@ -10,7 +10,8 @@
     ],
     "Notice": "",
     "Enable": true,
-    "Icon": "/Game/Aki/UI/UIResources/UiShop/Atlas/SP_ShopTexuanminglu.SP_ShopTexuanminglu"
+    "Icon": "/Game/Aki/UI/UIResources/UiShop/Atlas/SP_ShopTexuanminglu.SP_ShopTexuanminglu",
+    "SortRule": 0
   },
   {
     "Id": 2,
@@ -23,7 +24,8 @@
     ],
     "Notice": "",
     "Enable": false,
-    "Icon": "/Game/Aki/UI/UIResources/UiRole/Atlas/SP_RoleTabiconshuxing.SP_RoleTabiconshuxing"
+    "Icon": "/Game/Aki/UI/UIResources/UiRole/Atlas/SP_RoleTabiconshuxing.SP_RoleTabiconshuxing",
+    "SortRule": 0
   },
   {
     "Id": 3,
@@ -36,7 +38,8 @@
     ],
     "Notice": "",
     "Enable": true,
-    "Icon": "/Game/Aki/UI/UIResources/UiShop/Atlas/SP_ShopTehuizhuanqu.SP_ShopTehuizhuanqu"
+    "Icon": "/Game/Aki/UI/UIResources/UiShop/Atlas/SP_ShopTehuizhuanqu.SP_ShopTehuizhuanqu",
+    "SortRule": 0
   },
   {
     "Id": 4,
@@ -51,7 +54,8 @@
     ],
     "Notice": "",
     "Enable": true,
-    "Icon": "/Game/Aki/UI/UIResources/UiShop/Atlas/SP_ShopGongkaipinyu.SP_ShopGongkaipinyu"
+    "Icon": "/Game/Aki/UI/UIResources/UiShop/Atlas/SP_ShopGongkaipinyu.SP_ShopGongkaipinyu",
+    "SortRule": 0
   },
   {
     "Id": 100,
@@ -64,7 +68,8 @@
     ],
     "Notice": "",
     "Enable": true,
-    "Icon": "/Game/Aki/UI/UIResources/UiShop/Atlas/SP_ShopMaodinggouru.SP_ShopMaodinggouru"
+    "Icon": "/Game/Aki/UI/UIResources/UiShop/Atlas/SP_ShopMaodinggouru.SP_ShopMaodinggouru",
+    "SortRule": 0
   },
   {
     "Id": 201,
@@ -77,7 +82,8 @@
     ],
     "Notice": "",
     "Enable": true,
-    "Icon": "/Game/Aki/UI/UIResources/UiShop/Atlas/SP_ShopMaodinggouru.SP_ShopMaodinggouru"
+    "Icon": "/Game/Aki/UI/UIResources/UiShop/Atlas/SP_ShopMaodinggouru.SP_ShopMaodinggouru",
+    "SortRule": 0
   },
   {
     "Id": 5,
@@ -91,7 +97,8 @@
     ],
     "Notice": "",
     "Enable": true,
-    "Icon": "/Game/Aki/UI/UIResources/UiShop/Atlas/SP_ShopGongkaipinyu.SP_ShopGongkaipinyu"
+    "Icon": "/Game/Aki/UI/UIResources/UiShop/Atlas/SP_ShopGongkaipinyu.SP_ShopGongkaipinyu",
+    "SortRule": 0
   },
   {
     "Id": 204,
@@ -104,6 +111,35 @@
     ],
     "Notice": "",
     "Enable": true,
-    "Icon": "/Game/Aki/UI/UIResources/UiShop/Atlas/SP_ShopMaodinggouru.SP_ShopMaodinggouru"
+    "Icon": "/Game/Aki/UI/UIResources/UiShop/Atlas/SP_ShopMaodinggouru.SP_ShopMaodinggouru",
+    "SortRule": 0
+  },
+  {
+    "Id": 205,
+    "ShopTabViewType": 8,
+    "DynamicTabId": 71,
+    "Sort": 203,
+    "Name": "PayShop_100_Name",
+    "Money": [
+      18
+    ],
+    "Notice": "",
+    "Enable": true,
+    "Icon": "/Game/Aki/UI/UIResources/UiShop/Atlas/SP_ShopMaodinggouru.SP_ShopMaodinggouru",
+    "SortRule": 1
+  },
+  {
+    "Id": 206,
+    "ShopTabViewType": 7,
+    "DynamicTabId": 58,
+    "Sort": 204,
+    "Name": "PayShop_100_Name",
+    "Money": [
+      80100001
+    ],
+    "Notice": "",
+    "Enable": true,
+    "Icon": "/Game/Aki/UI/UIResources/UiShop/Atlas/SP_ShopMaodinggouru.SP_ShopMaodinggouru",
+    "SortRule": 1
   }
 ]

@@ -866,7 +866,7 @@
   {
     "FunctionId": 10060,
     "Name": "个性化系统",
-    "IsOn": false,
+    "IsOn": true,
     "OpenConditionId": 0,
     "ShowUitype": 0,
     "Delay": 101,
@@ -957,6 +957,78 @@
     "Title": "",
     "Desc": "",
     "Icon": "",
+    "IconSprite": ""
+  },
+  {
+    "FunctionId": 10066,
+    "Name": "体力存储",
+    "IsOn": true,
+    "OpenConditionId": 0,
+    "ShowUitype": 0,
+    "Delay": 101,
+    "Title": "",
+    "Desc": "",
+    "Icon": "",
+    "IconSprite": ""
+  },
+  {
+    "FunctionId": 10026009,
+    "Name": "浮游射击体",
+    "IsOn": true,
+    "OpenConditionId": 13000070,
+    "ShowUitype": 0,
+    "Delay": 101,
+    "Title": "",
+    "Desc": "",
+    "Icon": "",
+    "IconSprite": ""
+  },
+  {
+    "FunctionId": 10067,
+    "Name": "追月节委托",
+    "IsOn": true,
+    "OpenConditionId": 0,
+    "ShowUitype": 0,
+    "Delay": 1000,
+    "Title": "FunctionCondition_10059_Title",
+    "Desc": "FunctionCondition_10059_Desc",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_14_UI.T_IconFunctionOpen_14_UI",
+    "IconSprite": ""
+  },
+  {
+    "FunctionId": 10068,
+    "Name": "追月节建造",
+    "IsOn": true,
+    "OpenConditionId": 0,
+    "ShowUitype": 0,
+    "Delay": 1000,
+    "Title": "FunctionCondition_10059_Title",
+    "Desc": "FunctionCondition_10059_Desc",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_14_UI.T_IconFunctionOpen_14_UI",
+    "IconSprite": ""
+  },
+  {
+    "FunctionId": 10069,
+    "Name": "追月节故事版",
+    "IsOn": true,
+    "OpenConditionId": 0,
+    "ShowUitype": 0,
+    "Delay": 1000,
+    "Title": "FunctionCondition_10059_Title",
+    "Desc": "FunctionCondition_10059_Desc",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_14_UI.T_IconFunctionOpen_14_UI",
+    "IconSprite": ""
+  },
+  {
+    "FunctionId": 10070,
+    "Name": "追月节伙伴",
+    "IsOn": true,
+    "OpenConditionId": 0,
+    "ShowUitype": 0,
+    "Delay": 1000,
+    "Title": "FunctionCondition_10059_Title",
+    "Desc": "FunctionCondition_10059_Desc",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_14_UI.T_IconFunctionOpen_14_UI",
     "IconSprite": ""
   }
 ]

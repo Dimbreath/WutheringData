@@ -118,7 +118,6 @@
       "功能.功能制作.被击硬直时间",
       "战斗状态.技能限制.禁止探索幻象技能",
       "行为状态.逻辑状态.控物.空中控物通用",
-      "角色.Common.探索技能.禁用自由钩锁",
       "行为状态.动作状态.受击.被抓取"
     ],
     "DisableSkillIdTags": [
@@ -156,6 +155,22 @@
             210008
           ]
         }
+      },
+      {
+        "Key": "角色.Common.探索技能.禁用辅助机",
+        "Value": {
+          "ArrayInt": [
+            210020
+          ]
+        }
+      },
+      {
+        "Key": "角色.Common.BUFF通用标识.禁止瞄准模式",
+        "Value": {
+          "ArrayInt": [
+            210020
+          ]
+        }
       }
     ],
     "HiddenTags": [
@@ -191,6 +206,10 @@
         "Value": 1003
       },
       {
+        "Key": "关卡.时停状态.进入时停",
+        "Value": 1003012
+      },
+      {
         "Key": "角色.Common.技能通用标识.岁光钩索可用",
         "Value": 1002
       }
@@ -202,7 +221,12 @@
     "ButtonType": 9,
     "ActionType": 9,
     "SkillId": 0,
-    "SkillIdTagMap": null,
+    "SkillIdTagMap": [
+      {
+        "Key": "系统.肉鸽.声骸BD.无妄者.解锁领域词条",
+        "Value": 230002
+      }
+    ],
     "SkillIconTags": null,
     "EnableTags": [
       "幻象.技能.不显示CD",
@@ -246,7 +270,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "系统.肉鸽.声骸BD.无妄者.解锁领域词条.激活二段Q",
+        "Value": 291001
+      }
+    ]
   },
   {
     "Id": 1005,
@@ -293,6 +322,31 @@
     "HiddenTags": [
       "功能.功能制作.隐藏按钮功能.隐藏瞄准技能按键.控物"
     ],
+    "IsCdVisible": true,
+    "AttributeId": 0,
+    "MaxAttributeId": 0,
+    "AttributeIdTagMap": null,
+    "MaxAttributeBurstEffectId": 0,
+    "CdCompletedEffectId": 0,
+    "IsLongPressControlCamera": false,
+    "LongPressTime": 0,
+    "DynamicEffectTagMap": null
+  },
+  {
+    "Id": 1007,
+    "Name": "副开火",
+    "ButtonType": 11,
+    "ActionType": 4,
+    "SkillId": 0,
+    "SkillIdTagMap": null,
+    "SkillIconTags": null,
+    "EnableTags": null,
+    "DisableTags": [
+      "战斗状态.技能限制.禁止普攻",
+      "行为状态.逻辑状态.控物.空中控物通用"
+    ],
+    "DisableSkillIdTags": null,
+    "HiddenTags": null,
     "IsCdVisible": true,
     "AttributeId": 0,
     "MaxAttributeId": 0,

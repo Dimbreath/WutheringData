@@ -670,5 +670,41 @@
       }
     ],
     "DisplayName": ""
+  },
+  {
+    "Id": 33,
+    "AxisName": "MapIncrease2",
+    "AxisType": 4,
+    "PcKeys": null,
+    "FrancePcKeys": null,
+    "GamepadKeys": [
+      {
+        "Key": "Gamepad_LeftTriggerAxis",
+        "Value": -1.0
+      },
+      {
+        "Key": "Gamepad_RightY",
+        "Value": -1.0
+      }
+    ],
+    "DisplayName": ""
+  },
+  {
+    "Id": 34,
+    "AxisName": "MapReduce2",
+    "AxisType": 4,
+    "PcKeys": null,
+    "FrancePcKeys": null,
+    "GamepadKeys": [
+      {
+        "Key": "Gamepad_RightTriggerAxis",
+        "Value": 1.0
+      },
+      {
+        "Key": "Gamepad_RightY",
+        "Value": -1.0
+      }
+    ],
+    "DisplayName": ""
   }
 ]

@@ -159,7 +159,9 @@
     "FrancePcKeys": [
       "A"
     ],
-    "GamepadKeys": null,
+    "GamepadKeys": [
+      "Gamepad_LeftTrigger"
+    ],
     "MobileIconPath": "",
     "DisplayName": ""
   },
@@ -236,9 +238,7 @@
     "FrancePcKeys": [
       "G"
     ],
-    "GamepadKeys": [
-      "Gamepad_LeftTrigger"
-    ],
+    "GamepadKeys": null,
     "MobileIconPath": "",
     "DisplayName": ""
   },
@@ -496,7 +496,9 @@
     "FrancePcKeys": [
       "Enter"
     ],
-    "GamepadKeys": null,
+    "GamepadKeys": [
+      "Gamepad_Special_Left"
+    ],
     "MobileIconPath": "",
     "DisplayName": ""
   },
@@ -1275,6 +1277,20 @@
       "Gamepad_LeftStick_Down",
       "Gamepad_DPad_Down"
     ],
+    "MobileIconPath": "",
+    "DisplayName": ""
+  },
+  {
+    "Id": 87,
+    "ActionName": "UI键盘N",
+    "ActionType": 4,
+    "PcKeys": [
+      "N"
+    ],
+    "FrancePcKeys": [
+      "N"
+    ],
+    "GamepadKeys": null,
     "MobileIconPath": "",
     "DisplayName": ""
   }

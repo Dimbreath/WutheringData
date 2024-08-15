@@ -495,5 +495,12 @@
     "Desc": "吉祥物对话：没有音频时一句话的显示时长（秒）",
     "Type": "String",
     "Value": "3"
+  },
+  {
+    "Id": 700001,
+    "Name": "Plot.ProtectOptionTime",
+    "Desc": "选项防误触保护时间（秒）",
+    "Type": "Float",
+    "Value": "0.84"
   }
 ]

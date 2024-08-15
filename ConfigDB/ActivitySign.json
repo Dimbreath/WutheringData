@@ -2,6 +2,7 @@
   {
     "Id": 100100001,
     "Type": 1,
+    "PrefabResource": "UiView_signinMain",
     "SignRewards": [
       {
         "ItemId": 50001,
@@ -42,6 +43,46 @@
   {
     "Id": 100100002,
     "Type": 2,
+    "PrefabResource": "ActivitySignIn_1_1",
+    "SignRewards": [
+      {
+        "ItemId": 50001,
+        "Count": 1
+      },
+      {
+        "ItemId": 50001,
+        "Count": 1
+      },
+      {
+        "ItemId": 50002,
+        "Count": 2
+      },
+      {
+        "ItemId": 50001,
+        "Count": 1
+      },
+      {
+        "ItemId": 50001,
+        "Count": 1
+      },
+      {
+        "ItemId": 50001,
+        "Count": 1
+      },
+      {
+        "ItemId": 50002,
+        "Count": 3
+      }
+    ],
+    "ImportantRewardIndex": -1,
+    "ImportantRewardIcon": "1",
+    "ImportantRewardType": 0,
+    "PreviewList": null
+  },
+  {
+    "Id": 100100003,
+    "Type": 2,
+    "PrefabResource": "ActivitySignIn_1_2",
     "SignRewards": [
       {
         "ItemId": 50001,

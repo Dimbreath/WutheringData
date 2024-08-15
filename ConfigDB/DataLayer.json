@@ -182,6 +182,13 @@
     "InitLoad": true
   },
   {
+    "Id": 700001,
+    "DataLayer": "DataLayerRuntime_DLTask_ZYJ01",
+    "CnName": "追月节摊位",
+    "LevelId": 8,
+    "InitLoad": false
+  },
+  {
     "Id": 900007,
     "DataLayer": "DataLayerRuntime_DLTask_CXS01",
     "CnName": "乘宵山龙心树-枯萎",
@@ -194,5 +201,26 @@
     "CnName": "乘宵山龙心树-正常",
     "LevelId": 8,
     "InitLoad": true
+  },
+  {
+    "Id": 700002,
+    "DataLayer": "DataLayerRuntime_DLTask_ZZ01a",
+    "CnName": "折枝线小屋和密室",
+    "LevelId": 8,
+    "InitLoad": false
+  },
+  {
+    "Id": 700003,
+    "DataLayer": "DataLayerRuntime_DLTask_ZZ01b",
+    "CnName": "折枝线隐藏常态",
+    "LevelId": 8,
+    "InitLoad": false
+  },
+  {
+    "Id": 700004,
+    "DataLayer": "",
+    "CnName": "追月节摊位测试",
+    "LevelId": 100,
+    "InitLoad": false
   }
 ]

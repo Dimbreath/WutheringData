@@ -31,7 +31,7 @@
   },
   {
     "Id": 2,
-    "ActionName": "幻象2",
+    "ActionName": "瞄准",
     "ActionType": 1,
     "PcKeys": null,
     "GamepadKeys": [
@@ -113,6 +113,21 @@
       {
         "Key": "Gamepad_LeftShoulder",
         "Value": "Gamepad_Special_Right"
+      }
+    ],
+    "SecondaryKeyValidTime": -1,
+    "MobileIconPath": "",
+    "DisplayName": ""
+  },
+  {
+    "Id": 9,
+    "ActionName": "GM指令",
+    "ActionType": 3,
+    "PcKeys": null,
+    "GamepadKeys": [
+      {
+        "Key": "Gamepad_LeftShoulder",
+        "Value": "Gamepad_DPad_Right"
       }
     ],
     "SecondaryKeyValidTime": -1,

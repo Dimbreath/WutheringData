@@ -444,7 +444,7 @@
   {
     "Id": 35,
     "ParentViewName": "PayShopRootView",
-    "ChildViewName": "PayShopGiftBagView",
+    "ChildViewName": "PayPackageShopView",
     "TabName": "PayShop_3_Name",
     "TabIndex": 2,
     "FunctionId": 0,
@@ -457,7 +457,7 @@
   {
     "Id": 36,
     "ParentViewName": "PayShopRootView",
-    "ChildViewName": "DiscountShopView",
+    "ChildViewName": "PayShopExchangeEntryView",
     "TabName": "PayShop_4_Name",
     "TabIndex": 3,
     "FunctionId": 0,
@@ -587,7 +587,7 @@
   {
     "Id": 53,
     "ParentViewName": "PayShopRootView",
-    "ChildViewName": "DiscountShopView",
+    "ChildViewName": "PayShopExchangeEntryView",
     "TabName": "PayShop_5_Name",
     "TabIndex": 5,
     "FunctionId": 0,
@@ -626,7 +626,7 @@
   {
     "Id": 58,
     "ParentViewName": "PayShopRootView",
-    "ChildViewName": "PayShopRootView",
+    "ChildViewName": "RogueShopTabView",
     "TabName": "PayShop_Rogue_Name",
     "TabIndex": 1,
     "FunctionId": 0,
@@ -681,6 +681,32 @@
     "ChildViewName": "BossRushBuffSelectView",
     "TabName": "",
     "TabIndex": 3,
+    "FunctionId": 0,
+    "UiCameraSettingsName": "",
+    "UiCameraBlendName": "",
+    "BackViewBlendName": "",
+    "Icon": "",
+    "LightSequence": ""
+  },
+  {
+    "Id": 70,
+    "ParentViewName": "RewardMainView",
+    "ChildViewName": "RewardTargetTabView",
+    "TabName": "",
+    "TabIndex": 1,
+    "FunctionId": 0,
+    "UiCameraSettingsName": "",
+    "UiCameraBlendName": "",
+    "BackViewBlendName": "",
+    "Icon": "",
+    "LightSequence": ""
+  },
+  {
+    "Id": 71,
+    "ParentViewName": "RewardMainView",
+    "ChildViewName": "RewardShopTabView",
+    "TabName": "",
+    "TabIndex": 2,
     "FunctionId": 0,
     "UiCameraSettingsName": "",
     "UiCameraBlendName": "",

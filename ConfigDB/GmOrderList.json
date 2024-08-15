@@ -1693,7 +1693,9 @@
       "add_new_role_config 12020",
       "add_new_role_config 12021",
       "add_new_role_config 12022",
-      "add_new_role_config 12023"
+      "add_new_role_config 12023",
+      "add_new_role_config 12024",
+      "add_new_role_config 12025"
     ]
   },
   {
@@ -1720,7 +1722,11 @@
       "add_new_role_config 13018",
       "add_new_role_config 13019",
       "add_new_role_config 13020",
-      "add_new_role_config 13021"
+      "add_new_role_config 13021",
+      "add_new_role_config 13022",
+      "add_new_role_config 13023",
+      "add_new_role_config 13024",
+      "add_new_role_config 13025"
     ]
   },
   {
@@ -1739,6 +1745,53 @@
       "finish_quest 139000025",
       "finish_quest 139000026",
       "finish_quest 139000027"
+    ]
+  },
+  {
+    "Id": 136,
+    "Name": "完成主线前两章",
+    "OrderList": [
+      "finish_all_quest 139000022"
+    ]
+  },
+  {
+    "Id": 138,
+    "Name": "一键毕业-关卡测试1.2",
+    "OrderList": [
+      "SkipCurrentFlow",
+      "ShowTipsView#1",
+      "LockGuide#1",
+      "add_new_role_config 13001",
+      "add_new_role_config 13002",
+      "add_new_role_config 13003",
+      "add_new_role_config 13004",
+      "add_new_role_config 13005",
+      "add_new_role_config 13006",
+      "add_new_role_config 13007",
+      "add_new_role_config 13008",
+      "add_new_role_config 13009",
+      "add_new_role_config 13010",
+      "add_new_role_config 13011",
+      "add_new_role_config 13012",
+      "add_new_role_config 13013",
+      "add_new_role_config 13014",
+      "add_new_role_config 13015",
+      "add_new_role_config 13016",
+      "add_new_role_config 13017",
+      "add_new_role_config 13018",
+      "add_new_role_config 13019",
+      "add_new_role_config 13020",
+      "add_new_role_config 13021",
+      "funcopengm 0",
+      "add_item 1 50000",
+      "activateteleport 0",
+      "passworldlevelup",
+      "finish_quest 139000025",
+      "finish_quest 139000026",
+      "finish_quest 139000027",
+      "add_item 10802 1",
+      "add_item 10808 999",
+      "RunActionList#[{\"Name\": \"SetEntityVisible\",\"Params\": {\"Visible\": false,\"EntityIds\": [141900335,141900336]},\"ActionGuid\": \"9b78e89ef270405d8c7100ae5da03451\"}]"
     ]
   }
 ]

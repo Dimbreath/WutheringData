@@ -566,5 +566,113 @@
     "PreviewIdList": [
       1203
     ]
+  },
+  {
+    "Id": 100005,
+    "Type": 2,
+    "SummaryTitle": "Text_SummaryTitle100003_Text",
+    "SummaryDescribe": "Text_SummaryDescribe100001_Text",
+    "ThemeColor": "81CAD2FF",
+    "ContentTexturePath": "/Game/Aki/UI/UIResources/Common/Image/Luckdraw/T_LuckdraRoleZhezhi.T_LuckdraRoleZhezhi",
+    "ContentTextureBgPath": "/Game/Aki/UI/UIResources/Common/Image/Luckdraw/T_LuckdraRoleZhezhiBg.T_LuckdraRoleZhezhiBg",
+    "UnderBgTexturePath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_LuckdrawBgZhezhi_R.T_LuckdrawBgZhezhi_R",
+    "TagNotSelectedSpritePath": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_TabZhezhiNor.SP_TabZhezhiNor",
+    "TagSelectedSpritePath": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_TabZhezhiSele.SP_TabZhezhiSele",
+    "WeaponPrefabPath": "",
+    "UpList": [
+      1102,
+      1103,
+      1202
+    ],
+    "ShowIdList": [
+      1105
+    ],
+    "PreviewIdList": [
+      1105,
+      1102,
+      1103,
+      1202
+    ]
+  },
+  {
+    "Id": 100006,
+    "Type": 2,
+    "SummaryTitle": "Text_SummaryTitle100004_Text",
+    "SummaryDescribe": "Text_SummaryDescribe100002_Text",
+    "ThemeColor": "312B7FFF",
+    "ContentTexturePath": "/Game/Aki/UI/UIResources/Common/Image/Luckdraw/T_LuckdraRoleXiangliyao.T_LuckdraRoleXiangliyao",
+    "ContentTextureBgPath": "/Game/Aki/UI/UIResources/Common/Image/Luckdraw/T_LuckdraRoleXiangliyaoBg.T_LuckdraRoleXiangliyaoBg",
+    "UnderBgTexturePath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_LuckdrawBgXiangliyao_R.T_LuckdrawBgXiangliyao_R",
+    "TagNotSelectedSpritePath": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_TabXiangliyaoNor.SP_TabXiangliyaoNor",
+    "TagSelectedSpritePath": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_TabXiangliyaoSele.SP_TabXiangliyaoSele",
+    "WeaponPrefabPath": "",
+    "UpList": [
+      1602,
+      1403,
+      1303
+    ],
+    "ShowIdList": [
+      1305
+    ],
+    "PreviewIdList": [
+      1305,
+      1602,
+      1403,
+      1303
+    ]
+  },
+  {
+    "Id": 200005,
+    "Type": 3,
+    "SummaryTitle": "Text_SummaryTitle200003_Text",
+    "SummaryDescribe": "Text_SummaryDescribe200001_Text",
+    "ThemeColor": "237373FF",
+    "ContentTexturePath": "/Game/Aki/UI/UIResources/Common/Image/Luckdraw/T_LuckdraWeapon11.T_LuckdraWeapon11",
+    "ContentTextureBgPath": "",
+    "UnderBgTexturePath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_LuckdrawBgZhezhi_W.T_LuckdrawBgZhezhi_W",
+    "TagNotSelectedSpritePath": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_TabZhezhiWeaponNor.SP_TabZhezhiWeaponNor",
+    "TagSelectedSpritePath": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_TabZhezhiWeaponSele.SP_TabZhezhiWeaponSele",
+    "WeaponPrefabPath": "/Game/Aki/UI/UIResources/UiLuckdraw/Prefabs/UiItem_LuckdraWeapon11.UiItem_LuckdraWeapon11",
+    "UpList": [
+      21010024,
+      21020044,
+      21040044
+    ],
+    "ShowIdList": [
+      21050026
+    ],
+    "PreviewIdList": [
+      21010026,
+      21010024,
+      21020044,
+      21040044
+    ]
+  },
+  {
+    "Id": 200006,
+    "Type": 3,
+    "SummaryTitle": "Text_SummaryTitle200004_Text",
+    "SummaryDescribe": "Text_SummaryDescribe200002_Text",
+    "ThemeColor": "8644B6FF",
+    "ContentTexturePath": "/Game/Aki/UI/UIResources/Common/Image/Luckdraw/T_LuckdraWeapon10.T_LuckdraWeapon10",
+    "ContentTextureBgPath": "",
+    "UnderBgTexturePath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_LuckdrawBgXiangliyao_W.T_LuckdrawBgXiangliyao_W",
+    "TagNotSelectedSpritePath": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_TabXiangliyaoWeaponNor.SP_TabXiangliyaoWeaponNor",
+    "TagSelectedSpritePath": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_TabXiangliyaoWeaponSele.SP_TabXiangliyaoWeaponSele",
+    "WeaponPrefabPath": "/Game/Aki/UI/UIResources/UiLuckdraw/Prefabs/UiItem_LuckdraWeapon10.UiItem_LuckdraWeapon10",
+    "UpList": [
+      21020024,
+      21050064,
+      21030044
+    ],
+    "ShowIdList": [
+      21040016
+    ],
+    "PreviewIdList": [
+      21020016,
+      21020024,
+      21050064,
+      21030044
+    ]
   }
 ]

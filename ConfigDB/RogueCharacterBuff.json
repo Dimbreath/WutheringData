@@ -689,18 +689,6 @@
     "AffixIcon": ""
   },
   {
-    "Id": 65,
-    "BuffId": 1404500004,
-    "BuffIds": [
-      1404500004
-    ],
-    "AffixDesc": "RogueBuffPool_1404500004_BuffDesc",
-    "AffixDescParam": null,
-    "AffixDescSimple": "RogueBuffPool_1404500004_BuffDesc_0",
-    "AffixTitle": "RogueBuffPool_1404500004_BuffDesc_1",
-    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJiyan/SP_IconJiyanC1.SP_IconJiyanC1"
-  },
-  {
     "Id": 66,
     "BuffId": 1404500006,
     "BuffIds": [
@@ -1429,18 +1417,6 @@
     "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.SP_IconNorKnife"
   },
   {
-    "Id": 114,
-    "BuffId": 1502700030,
-    "BuffIds": [
-      1502700030
-    ],
-    "AffixDesc": "RogueBuffPool_1502700030_BuffDesc",
-    "AffixDescParam": null,
-    "AffixDescSimple": "RogueBuffPool_1502700030_BuffDesc_0",
-    "AffixTitle": "RogueBuffPool_1502700030_BuffDesc_1",
-    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.SP_IconNorKnife"
-  },
-  {
     "Id": 115,
     "BuffId": 1502700040,
     "BuffIds": [
@@ -1527,18 +1503,6 @@
     "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.SP_IconNorKnife"
   },
   {
-    "Id": 121,
-    "BuffId": 1502700030,
-    "BuffIds": [
-      1502700030
-    ],
-    "AffixDesc": "RogueBuffPool_1502700030_BuffDesc",
-    "AffixDescParam": null,
-    "AffixDescSimple": "RogueBuffPool_1502700030_BuffDesc_0",
-    "AffixTitle": "RogueBuffPool_1502700030_BuffDesc_1",
-    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.SP_IconNorKnife"
-  },
-  {
     "Id": 122,
     "BuffId": 1502700040,
     "BuffIds": [
@@ -1564,18 +1528,6 @@
     "AffixDescSimple": "RogueBuffPool_1502700050_BuffDesc_0",
     "AffixTitle": "RogueBuffPool_1502700050_BuffDesc_1",
     "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconZhujue/SP_IconZhujueC1.SP_IconZhujueC1"
-  },
-  {
-    "Id": 124,
-    "BuffId": 1502700060,
-    "BuffIds": [
-      1502700060
-    ],
-    "AffixDesc": "RogueBuffPool_1502700060_BuffDesc",
-    "AffixDescParam": null,
-    "AffixDescSimple": "RogueBuffPool_1502700060_BuffDesc_0",
-    "AffixTitle": "RogueBuffPool_1502700060_BuffDesc_1",
-    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconZhujue/SP_IconZhujueB1.SP_IconZhujueB1"
   },
   {
     "Id": 1202001,
@@ -2502,5 +2454,577 @@
     "AffixDescSimple": "RogueBuffPool_900000010025_BuffDesc_0",
     "AffixTitle": "RogueBuffPool_900000010025_BuffDesc_1",
     "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconChangli/SP_IconChangliC1.SP_IconChangliC1"
+  },
+  {
+    "Id": 130301,
+    "BuffId": 1102912031,
+    "BuffIds": [
+      130391200100,
+      130391200140
+    ],
+    "AffixDesc": "RogueBuffPool_130301_BuffDesc",
+    "AffixDescParam": [
+      "50%"
+    ],
+    "AffixDescSimple": "RogueBuffPool_130301_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_130301_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYuanwu/SP_IconYuanwuY.SP_IconYuanwuY"
+  },
+  {
+    "Id": 130302,
+    "BuffId": 1102912021,
+    "BuffIds": [
+      130391200200
+    ],
+    "AffixDesc": "RogueBuffPool_130302_BuffDesc",
+    "AffixDescParam": [
+      "100%",
+      "100%"
+    ],
+    "AffixDescSimple": "RogueBuffPool_130302_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_130302_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYuanwu/SP_IconYuanwuY.SP_IconYuanwuY"
+  },
+  {
+    "Id": 130303,
+    "BuffId": 1102912011,
+    "BuffIds": [
+      130391200300,
+      130391200302
+    ],
+    "AffixDesc": "RogueBuffPool_130303_BuffDesc",
+    "AffixDescParam": [
+      "400%",
+      "100%",
+      "8"
+    ],
+    "AffixDescSimple": "RogueBuffPool_130303_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_130303_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYuanwu/SP_IconYuanwuB1.SP_IconYuanwuB1"
+  },
+  {
+    "Id": 130304,
+    "BuffId": 1102912051,
+    "BuffIds": [
+      130391200400,
+      130391200401
+    ],
+    "AffixDesc": "RogueBuffPool_130304_BuffDesc",
+    "AffixDescParam": [
+      "30%",
+      "150",
+      "1%"
+    ],
+    "AffixDescSimple": "RogueBuffPool_130304_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_130304_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYuanwu/SP_IconYuanwuC1.SP_IconYuanwuC1"
+  },
+  {
+    "Id": 130305,
+    "BuffId": 1102912041,
+    "BuffIds": [
+      130391200500,
+      130391200510,
+      130391200520
+    ],
+    "AffixDesc": "RogueBuffPool_130305_BuffDesc",
+    "AffixDescParam": [
+      "150%"
+    ],
+    "AffixDescSimple": "RogueBuffPool_130305_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_130305_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.SP_IconNorFist"
+  },
+  {
+    "Id": 130306,
+    "BuffId": 900000010022,
+    "BuffIds": [
+      900000010022
+    ],
+    "AffixDesc": "RogueBuffPool_900000010022_BuffDesc",
+    "AffixDescParam": [
+      "50%"
+    ],
+    "AffixDescSimple": "RogueBuffPool_900000010022_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_900000010022_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.SP_IconNorFist"
+  },
+  {
+    "Id": 130307,
+    "BuffId": 900000010023,
+    "BuffIds": [
+      900000010023
+    ],
+    "AffixDesc": "RogueBuffPool_900000010023_BuffDesc",
+    "AffixDescParam": [
+      "50%"
+    ],
+    "AffixDescSimple": "RogueBuffPool_900000010023_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_900000010023_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.SP_IconNorFist"
+  },
+  {
+    "Id": 130308,
+    "BuffId": 900000010024,
+    "BuffIds": [
+      900000010024
+    ],
+    "AffixDesc": "RogueBuffPool_900000010024_BuffDesc",
+    "AffixDescParam": [
+      "50%"
+    ],
+    "AffixDescSimple": "RogueBuffPool_900000010024_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_900000010024_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYuanwu/SP_IconYuanwuB1.SP_IconYuanwuB1"
+  },
+  {
+    "Id": 130309,
+    "BuffId": 900000010025,
+    "BuffIds": [
+      900000010025
+    ],
+    "AffixDesc": "RogueBuffPool_900000010025_BuffDesc",
+    "AffixDescParam": [
+      "50%"
+    ],
+    "AffixDescSimple": "RogueBuffPool_900000010025_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_900000010025_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYuanwu/SP_IconYuanwuC1.SP_IconYuanwuC1"
+  },
+  {
+    "Id": 160201,
+    "BuffId": 106291200100,
+    "BuffIds": [
+      106291200100,
+      106291200121
+    ],
+    "AffixDesc": "RogueBuffPool_160201_BuffDesc",
+    "AffixDescParam": [
+      "200%",
+      "18%"
+    ],
+    "AffixDescSimple": "RogueBuffPool_160201_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_160201_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.SP_IconNorKnife"
+  },
+  {
+    "Id": 160202,
+    "BuffId": 106291200200,
+    "BuffIds": [
+      106291200200,
+      106291200220
+    ],
+    "AffixDesc": "RogueBuffPool_160202_BuffDesc",
+    "AffixDescParam": [
+      "100%",
+      "20%",
+      "4",
+      "15"
+    ],
+    "AffixDescSimple": "RogueBuffPool_160202_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_160202_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconMicai/SP_IconMicaiB1.SP_IconMicaiB1"
+  },
+  {
+    "Id": 160203,
+    "BuffId": 106291200300,
+    "BuffIds": [
+      106291200330,
+      106291200340,
+      106291200320
+    ],
+    "AffixDesc": "RogueBuffPool_160203_BuffDesc",
+    "AffixDescParam": [
+      "100%",
+      "4",
+      "1"
+    ],
+    "AffixDescSimple": "RogueBuffPool_160203_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_160203_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconMicai/SP_IconMicaiB1.SP_IconMicaiB1"
+  },
+  {
+    "Id": 160204,
+    "BuffId": 106291200400,
+    "BuffIds": [
+      106291200400,
+      106291200410,
+      106291200310
+    ],
+    "AffixDesc": "RogueBuffPool_160204_BuffDesc",
+    "AffixDescParam": [
+      "50%",
+      "20%",
+      "4",
+      "15",
+      "1"
+    ],
+    "AffixDescSimple": "RogueBuffPool_160204_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_160204_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconMicai/SP_IconMicaiB1.SP_IconMicaiB1"
+  },
+  {
+    "Id": 160205,
+    "BuffId": 106291200500,
+    "BuffIds": [
+      106291200500,
+      106291200300
+    ],
+    "AffixDesc": "RogueBuffPool_160205_BuffDesc",
+    "AffixDescParam": [
+      "40%",
+      "12",
+      "20%",
+      "4",
+      "15",
+      "1"
+    ],
+    "AffixDescSimple": "RogueBuffPool_160205_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_160205_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconMicai/SP_IconMicaiB1.SP_IconMicaiB1"
+  },
+  {
+    "Id": 160206,
+    "BuffId": 900000010022,
+    "BuffIds": [
+      900000010022
+    ],
+    "AffixDesc": "RogueBuffPool_900000010022_BuffDesc",
+    "AffixDescParam": [
+      "50%"
+    ],
+    "AffixDescSimple": "RogueBuffPool_900000010022_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_900000010022_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.SP_IconNorKnife"
+  },
+  {
+    "Id": 160207,
+    "BuffId": 900000010023,
+    "BuffIds": [
+      900000010023
+    ],
+    "AffixDesc": "RogueBuffPool_900000010023_BuffDesc",
+    "AffixDescParam": [
+      "50%"
+    ],
+    "AffixDescSimple": "RogueBuffPool_900000010023_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_900000010023_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.SP_IconNorKnife"
+  },
+  {
+    "Id": 160208,
+    "BuffId": 900000010024,
+    "BuffIds": [
+      900000010024
+    ],
+    "AffixDesc": "RogueBuffPool_900000010024_BuffDesc",
+    "AffixDescParam": [
+      "50%"
+    ],
+    "AffixDescSimple": "RogueBuffPool_900000010024_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_900000010024_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconMicai/SP_IconMicaiB1.SP_IconMicaiB1"
+  },
+  {
+    "Id": 160209,
+    "BuffId": 900000010025,
+    "BuffIds": [
+      900000010025
+    ],
+    "AffixDesc": "RogueBuffPool_900000010025_BuffDesc",
+    "AffixDescParam": [
+      "50%"
+    ],
+    "AffixDescSimple": "RogueBuffPool_900000010025_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_900000010025_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconMicai/SP_IconMicaiC1.SP_IconMicaiC1"
+  },
+  {
+    "Id": 130501,
+    "BuffId": 1102912031,
+    "BuffIds": [
+      1305999033,
+      1305999024
+    ],
+    "AffixDesc": "RogueBuffPool_130501_BuffDesc",
+    "AffixDescParam": [
+      "1",
+      "1.5",
+      "6",
+      "20%",
+      "8"
+    ],
+    "AffixDescSimple": "RogueBuffPool_130501_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_130501_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconXiangliyao/SP_IconXiangliyaoC1.SP_IconXiangliyaoC1"
+  },
+  {
+    "Id": 130502,
+    "BuffId": 1102912021,
+    "BuffIds": [
+      1305999034,
+      1305999022
+    ],
+    "AffixDesc": "RogueBuffPool_130502_BuffDesc",
+    "AffixDescParam": [
+      "2",
+      "2",
+      "3",
+      "6",
+      "20%"
+    ],
+    "AffixDescSimple": "RogueBuffPool_130502_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_130502_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconXiangliyao/SP_IconXiangliyaoC1.SP_IconXiangliyaoC1"
+  },
+  {
+    "Id": 130503,
+    "BuffId": 1102912011,
+    "BuffIds": [
+      1305999003,
+      1305999004,
+      1305999005,
+      1305999007
+    ],
+    "AffixDesc": "RogueBuffPool_130503_BuffDesc",
+    "AffixDescParam": [
+      "20%",
+      "5",
+      "1",
+      "10",
+      "1"
+    ],
+    "AffixDescSimple": "RogueBuffPool_130503_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_130503_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.SP_IconNorFist"
+  },
+  {
+    "Id": 130504,
+    "BuffId": 1102912051,
+    "BuffIds": [
+      1305999009,
+      1305999011,
+      1305999012
+    ],
+    "AffixDesc": "RogueBuffPool_130504_BuffDesc",
+    "AffixDescParam": [
+      "30%",
+      "10%",
+      "15",
+      "20"
+    ],
+    "AffixDescSimple": "RogueBuffPool_130504_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_130504_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconXiangliyao/SP_IconXiangliyaoB1.SP_IconXiangliyaoB1"
+  },
+  {
+    "Id": 130505,
+    "BuffId": 1102912041,
+    "BuffIds": [
+      1305999001,
+      1305999002
+    ],
+    "AffixDesc": "RogueBuffPool_130505_BuffDesc",
+    "AffixDescParam": [
+      "40%"
+    ],
+    "AffixDescSimple": "RogueBuffPool_130505_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_130505_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconXiangliyao/SP_IconXiangliyaoC1.SP_IconXiangliyaoC1"
+  },
+  {
+    "Id": 130506,
+    "BuffId": 900000010022,
+    "BuffIds": [
+      900000010022
+    ],
+    "AffixDesc": "RogueBuffPool_900000010022_BuffDesc",
+    "AffixDescParam": [
+      "50%"
+    ],
+    "AffixDescSimple": "RogueBuffPool_900000010022_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_900000010022_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.SP_IconNorFist"
+  },
+  {
+    "Id": 130507,
+    "BuffId": 900000010023,
+    "BuffIds": [
+      900000010023
+    ],
+    "AffixDesc": "RogueBuffPool_900000010023_BuffDesc",
+    "AffixDescParam": [
+      "50%"
+    ],
+    "AffixDescSimple": "RogueBuffPool_900000010023_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_900000010023_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.SP_IconNorFist"
+  },
+  {
+    "Id": 130508,
+    "BuffId": 900000010024,
+    "BuffIds": [
+      900000010024
+    ],
+    "AffixDesc": "RogueBuffPool_900000010024_BuffDesc",
+    "AffixDescParam": [
+      "50%"
+    ],
+    "AffixDescSimple": "RogueBuffPool_900000010024_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_900000010024_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconXiangliyao/SP_IconXiangliyaoB1.SP_IconXiangliyaoB1"
+  },
+  {
+    "Id": 130509,
+    "BuffId": 900000010025,
+    "BuffIds": [
+      900000010025
+    ],
+    "AffixDesc": "RogueBuffPool_900000010025_BuffDesc",
+    "AffixDescParam": [
+      "50%"
+    ],
+    "AffixDescSimple": "RogueBuffPool_900000010025_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_900000010025_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconXiangliyao/SP_IconXiangliyaoC1.SP_IconXiangliyaoC1"
+  },
+  {
+    "Id": 110501,
+    "BuffId": 106291200100,
+    "BuffIds": [
+      921105000101
+    ],
+    "AffixDesc": "RogueBuffPool_110501_BuffDesc",
+    "AffixDescParam": [
+      "200%",
+      "12"
+    ],
+    "AffixDescSimple": "RogueBuffPool_110501_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_110501_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconZhezhi/SP_IconZhezhiC1.SP_IconZhezhiC1"
+  },
+  {
+    "Id": 110502,
+    "BuffId": 106291200200,
+    "BuffIds": [
+      921105000201
+    ],
+    "AffixDesc": "RogueBuffPool_110502_BuffDesc",
+    "AffixDescParam": [
+      "1",
+      "10",
+      "3",
+      "0.8",
+      "1",
+      "100%",
+      "0.8"
+    ],
+    "AffixDescSimple": "RogueBuffPool_110502_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_110502_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconZhezhi/SP_IconZhezhiB1.SP_IconZhezhiB1"
+  },
+  {
+    "Id": 110503,
+    "BuffId": 106291200300,
+    "BuffIds": [
+      921105000301
+    ],
+    "AffixDesc": "RogueBuffPool_110503_BuffDesc",
+    "AffixDescParam": [
+      "2",
+      "20%",
+      "10",
+      "4",
+      "0.8"
+    ],
+    "AffixDescSimple": "RogueBuffPool_110503_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_110503_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.SP_IconNorMagic"
+  },
+  {
+    "Id": 110504,
+    "BuffId": 106291200400,
+    "BuffIds": [
+      921105000401
+    ],
+    "AffixDesc": "RogueBuffPool_110504_BuffDesc",
+    "AffixDescParam": [
+      "1",
+      "10",
+      "4",
+      "0.8",
+      "20%"
+    ],
+    "AffixDescSimple": "RogueBuffPool_110504_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_110504_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconZhezhi/SP_IconZhezhiB1.SP_IconZhezhiB1"
+  },
+  {
+    "Id": 110505,
+    "BuffId": 106291200500,
+    "BuffIds": [
+      921105000501
+    ],
+    "AffixDesc": "RogueBuffPool_110505_BuffDesc",
+    "AffixDescParam": null,
+    "AffixDescSimple": "RogueBuffPool_110505_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_110505_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconZhezhi/SP_IconZhezhiB1.SP_IconZhezhiB1"
+  },
+  {
+    "Id": 110506,
+    "BuffId": 900000010022,
+    "BuffIds": [
+      900000010022
+    ],
+    "AffixDesc": "RogueBuffPool_900000010022_BuffDesc",
+    "AffixDescParam": [
+      "50%"
+    ],
+    "AffixDescSimple": "RogueBuffPool_900000010022_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_900000010022_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.SP_IconNorMagic"
+  },
+  {
+    "Id": 110507,
+    "BuffId": 900000010023,
+    "BuffIds": [
+      900000010023
+    ],
+    "AffixDesc": "RogueBuffPool_900000010023_BuffDesc",
+    "AffixDescParam": [
+      "50%"
+    ],
+    "AffixDescSimple": "RogueBuffPool_900000010023_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_900000010023_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.SP_IconNorMagic"
+  },
+  {
+    "Id": 110508,
+    "BuffId": 900000010024,
+    "BuffIds": [
+      900000010024
+    ],
+    "AffixDesc": "RogueBuffPool_900000010024_BuffDesc",
+    "AffixDescParam": [
+      "50%"
+    ],
+    "AffixDescSimple": "RogueBuffPool_900000010024_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_900000010024_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconZhezhi/SP_IconZhezhiB1.SP_IconZhezhiB1"
+  },
+  {
+    "Id": 110509,
+    "BuffId": 900000010025,
+    "BuffIds": [
+      900000010025
+    ],
+    "AffixDesc": "RogueBuffPool_900000010025_BuffDesc",
+    "AffixDescParam": [
+      "50%"
+    ],
+    "AffixDescSimple": "RogueBuffPool_900000010025_BuffDesc_0",
+    "AffixTitle": "RogueBuffPool_900000010025_BuffDesc_1",
+    "AffixIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconZhezhi/SP_IconZhezhiC1.SP_IconZhezhiC1"
   }
 ]

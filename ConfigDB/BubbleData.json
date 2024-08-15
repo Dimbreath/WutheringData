@@ -425,5 +425,75 @@
     "Async": false,
     "Params": "{\"EntityIds\":[140800703,140800704,140800701,140800700,140800699,140800702],\"EnterRadius\":1500,\"LeaveRadius\":1800,\"Flow\":{\"FlowListName\":\"剧情_天城生态_NPC\",\"FlowId\":57},\"WaitTime\":5}",
     "ActionId": 3000256
+  },
+  {
+    "ActionGuid": "f790f4b6a788448185d834b0da1f2dc6",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": "{\"EntityIds\":[29700008],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_NPCFlowTest01\",\"FlowId\":1,\"StateId\":1}}",
+    "ActionId": 3000014
+  },
+  {
+    "ActionGuid": "dd9ab5e183264be7a4d943f8acba6871",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": "{\"EntityIds\":[],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_1.2同行插曲支线2\",\"FlowId\":4,\"StateId\":1}}",
+    "ActionId": 3000023
+  },
+  {
+    "ActionGuid": "e01b8c3ceecb4aa4a91ccc2c0f61f9ca",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": "{\"EntityIds\":[139700008],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_活动_仿声骸会梦到电子羊么\",\"FlowId\":3,\"StateId\":1}}",
+    "ActionId": 3000006
+  },
+  {
+    "ActionGuid": "4826007408df4c68879662ef9f9a739e",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": "{\"EntityIds\":[139700039,139700038],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_1.2同行插曲支线2\",\"FlowId\":3,\"StateId\":1}}",
+    "ActionId": 3000025
+  },
+  {
+    "ActionGuid": "579641c454134a588f1b030d6aa05856",
+    "Name": "ClearPlayBubble",
+    "Async": false,
+    "Params": "{\"EntityIds\":[311000394]}",
+    "ActionId": 3000051
+  },
+  {
+    "ActionGuid": "6f3927e3af4f4adcbc75330e9a3553ab",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": "{\"EntityIds\":[311000394],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_1_2_角色_折枝线\",\"FlowId\":3,\"StateId\":13}}",
+    "ActionId": 3000049
+  },
+  {
+    "ActionGuid": "049a6887ed0e4c35b3595f648e0488b8",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": "{\"EntityIds\":[311700163,311700162],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_1_2_角色_折枝线\",\"FlowId\":6,\"StateId\":11}}",
+    "ActionId": 3000121
+  },
+  {
+    "ActionGuid": "9a9c416ddf7846d28decff38476981c7",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": "{\"EntityIds\":[311700132,311700161],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_1_2_角色_折枝线\",\"FlowId\":6,\"StateId\":9}}",
+    "ActionId": 3000120
+  },
+  {
+    "ActionGuid": "f9ad276cea5346c1b4329569f7be275b",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": "{\"EntityIds\":[311700130,311700165,311700164],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_1_2_角色_折枝线\",\"FlowId\":6,\"StateId\":13}}",
+    "ActionId": 3000123
+  },
+  {
+    "ActionGuid": "e9c2b66329f64f38a25b6d37d5eddc1e",
+    "Name": "AddPlayBubble",
+    "Async": false,
+    "Params": "{\"EntityIds\":[311700118,311700117],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_1_2_角色_折枝线\",\"FlowId\":6,\"StateId\":14},\"WaitTime\":50}",
+    "ActionId": 3000048
   }
 ]

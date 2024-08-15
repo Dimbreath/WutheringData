@@ -452,6 +452,56 @@
     "ShowInEntrance": true
   },
   {
+    "Id": 8012,
+    "MaleFormation": null,
+    "FemaleFormation": null,
+    "MaleDelayFormation": null,
+    "FemaleDelayFormation": null,
+    "OnlyTrial": false,
+    "AutoChange": false,
+    "ShowInEntrance": false
+  },
+  {
+    "Id": 8013,
+    "MaleFormation": null,
+    "FemaleFormation": null,
+    "MaleDelayFormation": null,
+    "FemaleDelayFormation": null,
+    "OnlyTrial": false,
+    "AutoChange": false,
+    "ShowInEntrance": false
+  },
+  {
+    "Id": 8014,
+    "MaleFormation": null,
+    "FemaleFormation": null,
+    "MaleDelayFormation": null,
+    "FemaleDelayFormation": null,
+    "OnlyTrial": false,
+    "AutoChange": false,
+    "ShowInEntrance": false
+  },
+  {
+    "Id": 8015,
+    "MaleFormation": null,
+    "FemaleFormation": null,
+    "MaleDelayFormation": null,
+    "FemaleDelayFormation": null,
+    "OnlyTrial": false,
+    "AutoChange": false,
+    "ShowInEntrance": false
+  },
+  {
+    "Id": 8016,
+    "MaleFormation": null,
+    "FemaleFormation": null,
+    "MaleDelayFormation": null,
+    "FemaleDelayFormation": null,
+    "OnlyTrial": false,
+    "AutoChange": false,
+    "ShowInEntrance": false
+  },
+  {
     "Id": 1001,
     "MaleFormation": null,
     "FemaleFormation": null,
@@ -554,5 +604,73 @@
     "OnlyTrial": true,
     "AutoChange": true,
     "ShowInEntrance": true
+  },
+  {
+    "Id": 8200,
+    "MaleFormation": [
+      11057004,
+      14027004,
+      12027004
+    ],
+    "FemaleFormation": [
+      11057004,
+      14027004,
+      12027004
+    ],
+    "MaleDelayFormation": null,
+    "FemaleDelayFormation": null,
+    "OnlyTrial": true,
+    "AutoChange": true,
+    "ShowInEntrance": true
+  },
+  {
+    "Id": 8201,
+    "MaleFormation": [
+      13057004,
+      14027004,
+      12027004
+    ],
+    "FemaleFormation": [
+      13057004,
+      14027004,
+      12027004
+    ],
+    "MaleDelayFormation": null,
+    "FemaleDelayFormation": null,
+    "OnlyTrial": true,
+    "AutoChange": true,
+    "ShowInEntrance": true
+  },
+  {
+    "Id": 1002,
+    "MaleFormation": [
+      11052001
+    ],
+    "FemaleFormation": [
+      11052001
+    ],
+    "MaleDelayFormation": null,
+    "FemaleDelayFormation": null,
+    "OnlyTrial": false,
+    "AutoChange": true,
+    "ShowInEntrance": true
+  },
+  {
+    "Id": 8400,
+    "MaleFormation": [
+      15010005
+    ],
+    "FemaleFormation": [
+      15020005
+    ],
+    "MaleDelayFormation": [
+      13052001
+    ],
+    "FemaleDelayFormation": [
+      13052001
+    ],
+    "OnlyTrial": true,
+    "AutoChange": true,
+    "ShowInEntrance": false
   }
 ]

@@ -11779,13 +11779,13 @@
   },
   {
     "Id": 1900056,
-    "DebugText": "角色未解锁",
+    "DebugText": "伙伴未解锁",
     "Text": "ErrorCode_1900056_Text",
     "IsTip": false
   },
   {
     "Id": 1900057,
-    "DebugText": "灵感事件未触发",
+    "DebugText": "网络异常，灵光一闪事件触发失败，委托已完成",
     "Text": "ErrorCode_1900057_Text",
     "IsTip": false
   },
@@ -11797,13 +11797,13 @@
   },
   {
     "Id": 1900059,
-    "DebugText": "找不到建筑升级曲线",
+    "DebugText": "找不到摊位升级曲线",
     "Text": "ErrorCode_1900059_Text",
     "IsTip": false
   },
   {
     "Id": 1900060,
-    "DebugText": "建筑已经解锁",
+    "DebugText": "摊位已经解锁",
     "Text": "ErrorCode_1900058_Text",
     "IsTip": false
   },
@@ -11863,19 +11863,19 @@
   },
   {
     "Id": 1900062,
-    "DebugText": "找不到角色配置",
+    "DebugText": "找不到伙伴配置",
     "Text": "ErrorCode_1900060_Text",
     "IsTip": false
   },
   {
     "Id": 1900063,
-    "DebugText": "找不到角色培养配置",
+    "DebugText": "找不到伙伴培养配置",
     "Text": "ErrorCode_1900061_Text",
     "IsTip": false
   },
   {
     "Id": 1900064,
-    "DebugText": "找不到建筑配置",
+    "DebugText": "找不到摊位配置",
     "Text": "ErrorCode_1900062_Text",
     "IsTip": false
   },
@@ -11929,7 +11929,7 @@
   },
   {
     "Id": 71,
-    "DebugText": "登录失败，请尝试重启客户端并重新登录。",
+    "DebugText": "客户端和服务器用的分支不一致，请检查路径",
     "Text": "ErrorCode_71_Text",
     "IsTip": false
   },
@@ -12004,6 +12004,12 @@
     "DebugText": "取消同步位置时不是主控",
     "Text": "ErrorCode_2000025_Text",
     "IsTip": true
+  },
+  {
+    "Id": 1900067,
+    "DebugText": "追月节目标没完成",
+    "Text": "ErrorCode_1900065_Text",
+    "IsTip": false
   },
   {
     "Id": 1100236,
@@ -12120,6 +12126,12 @@
     "IsTip": false
   },
   {
+    "Id": 2400001,
+    "DebugText": "正在切换节点中",
+    "Text": "ErrorCode_2400001_Text",
+    "IsTip": false
+  },
+  {
     "Id": 1100237,
     "DebugText": "肉鸽路线房间配置为空",
     "Text": "ErrorCode_1100237_Text",
@@ -12210,25 +12222,139 @@
     "IsTip": false
   },
   {
+    "Id": 1900068,
+    "DebugText": "追月节活动任务未完成",
+    "Text": "ErrorCode_1900066_Text",
+    "IsTip": false
+  },
+  {
     "Id": 200335,
+    "DebugText": "请求参数异常",
+    "Text": "ErrorCode_200335_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200336,
+    "DebugText": "关卡配置找不到",
+    "Text": "ErrorCode_200336_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200337,
+    "DebugText": "活动已关闭",
+    "Text": "ErrorCode_200337_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200338,
+    "DebugText": "未找到活动数据",
+    "Text": "ErrorCode_200338_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200339,
+    "DebugText": "未找到通关数据",
+    "Text": "ErrorCode_200339_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200340,
+    "DebugText": "奖励已领取",
+    "Text": "ErrorCode_200340_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200341,
+    "DebugText": "未达到领奖条件",
+    "Text": "ErrorCode_200341_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200342,
+    "DebugText": "奖励已领取",
+    "Text": "ErrorCode_200342_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200343,
+    "DebugText": "未达到领奖条件",
+    "Text": "ErrorCode_200343_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200344,
+    "DebugText": "找不到奖励配置",
+    "Text": "ErrorCode_200344_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900069,
+    "DebugText": "追月节活动未开启",
+    "Text": "ErrorCode_1900067_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200345,
+    "DebugText": "声骸不可再该副本中使用",
+    "Text": "ErrorCode_200345_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200346,
+    "DebugText": "声骸重复",
+    "Text": "ErrorCode_200346_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200347,
+    "DebugText": "尚未选择声骸",
+    "Text": "ErrorCode_200347_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200348,
+    "DebugText": "关卡未开放",
+    "Text": "ErrorCode_200348_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200349,
+    "DebugText": "关卡未解锁",
+    "Text": "ErrorCode_200349_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200350,
+    "DebugText": "改名CD中",
+    "Text": "ErrorCode_200350_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200351,
+    "DebugText": "更改名字确认中",
+    "Text": "ErrorCode_200351_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200352,
     "DebugText": "奖励配置找不到",
     "Text": "ErrorCode_200352_Text",
     "IsTip": true
   },
   {
-    "Id": 200336,
+    "Id": 200353,
     "DebugText": "活动未开启",
     "Text": "ErrorCode_200353_Text",
     "IsTip": true
   },
   {
-    "Id": 200337,
+    "Id": 200354,
     "DebugText": "奖励已领取",
     "Text": "ErrorCode_200354_Text",
     "IsTip": true
   },
   {
-    "Id": 200338,
+    "Id": 200355,
     "DebugText": "未到领奖时间",
     "Text": "ErrorCode_200355_Text",
     "IsTip": true
@@ -12240,7 +12366,79 @@
     "IsTip": false
   },
   {
-    "Id": 200339,
+    "Id": 2100002,
+    "DebugText": "功能未开启",
+    "Text": "ErrorCode_2100003_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1900070,
+    "DebugText": "回流奖励无法领取",
+    "Text": "ErrorCode_1900068_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900071,
+    "DebugText": "找不到回归奖励配置",
+    "Text": "ErrorCode_1900069_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900072,
+    "DebugText": "找不到奖励等级配置",
+    "Text": "ErrorCode_1900070_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900073,
+    "DebugText": "回归奖励已领取",
+    "Text": "ErrorCode_1900071_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900074,
+    "DebugText": "找不到签到奖励配置",
+    "Text": "ErrorCode_1900072_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900075,
+    "DebugText": "签到奖励已领取",
+    "Text": "ErrorCode_1900073_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900076,
+    "DebugText": "还未签到",
+    "Text": "ErrorCode_1900074_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900077,
+    "DebugText": "找不到积分奖励配置",
+    "Text": "ErrorCode_1900075_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900078,
+    "DebugText": "积分奖励已领取",
+    "Text": "ErrorCode_1900076_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900079,
+    "DebugText": "积分不足",
+    "Text": "ErrorCode_1900077_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100250,
+    "DebugText": "肉鸽使用角色查询数量错误",
+    "Text": "ErrorCode_1100250_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200356,
     "DebugText": "兑换中,请稍后重试",
     "Text": "ErrorCode_200356_Text",
     "IsTip": true
@@ -12258,6 +12456,138 @@
     "IsTip": false
   },
   {
+    "Id": 500060,
+    "DebugText": "当前正在禁止切换占用任务期间，无法切换占用",
+    "Text": "ErrorCode_500060_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200017,
+    "DebugText": "Npc表现实体组件不存在",
+    "Text": "ErrorCode_2200017_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200018,
+    "DebugText": "Npc表现实体没有初始化状态",
+    "Text": "ErrorCode_2200018_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200019,
+    "DebugText": "Npc改变表现行为目标实体不存在",
+    "Text": "ErrorCode_2200019_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200357,
+    "DebugText": "关卡未解锁",
+    "Text": "ErrorCode_200357_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100251,
+    "DebugText": "肉鸽参数找不到",
+    "Text": "ErrorCode_1100251_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900080,
+    "DebugText": "任务未完成",
+    "Text": "ErrorCode_1900078_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900081,
+    "DebugText": "无效的Token",
+    "Text": "ErrorCode_1900079_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900082,
+    "DebugText": "登录繁忙，请稍候重试",
+    "Text": "ErrorCode_1900080_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900083,
+    "DebugText": "登录繁忙，请稍候重试",
+    "Text": "ErrorCode_1900081_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900084,
+    "DebugText": "登录繁忙，请稍候重试",
+    "Text": "ErrorCode_1900082_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900085,
+    "DebugText": "请输入正确的账密",
+    "Text": "ErrorCode_1900083_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900086,
+    "DebugText": "登录失败，请尝试重启客户端并重新登录",
+    "Text": "ErrorCode_1900084_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900087,
+    "DebugText": "登录失败，请尝试重启客户端并重新登录",
+    "Text": "ErrorCode_1900085_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900088,
+    "DebugText": "登录失败，请尝试重启客户端并重新登录",
+    "Text": "ErrorCode_1900086_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900089,
+    "DebugText": "Sdk登录超时，请尝试重启客户端并重新登录",
+    "Text": "ErrorCode_1900087_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900090,
+    "DebugText": "重连失败，请重新登录",
+    "Text": "ErrorCode_1900088_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900091,
+    "DebugText": "游戏版本号不匹配",
+    "Text": "ErrorCode_1900089_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900092,
+    "DebugText": "重连失败，不在ip白名单中",
+    "Text": "ErrorCode_1900090_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900093,
+    "DebugText": "暂未获得测试资格，请检查账号或所选区服是否正确。",
+    "Text": "ErrorCode_1900091_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900094,
+    "DebugText": "重连失败不在UserId白名单（非受邀用户）",
+    "Text": "ErrorCode_1900092_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900095,
+    "DebugText": "玩家正在登录",
+    "Text": "ErrorCode_1900093_Text",
+    "IsTip": false
+  },
+  {
     "Id": 1800044,
     "DebugText": "对方加入多人游戏失败",
     "Text": "ErrorCode_1800044_Text",
@@ -12270,33 +12600,303 @@
     "IsTip": false
   },
   {
-    "Id": 1900067,
-    "DebugText": "登录繁忙，请稍候重试",
-    "Text": "ErrorCode_1900081_Text",
+    "Id": 2200020,
+    "DebugText": "行为队列类型不存在",
+    "Text": "ErrorCode_2200020_Text",
     "IsTip": false
   },
   {
-    "Id": 1900068,
-    "DebugText": "登录繁忙，请稍候重试",
-    "Text": "ErrorCode_1900082_Text",
+    "Id": 2200021,
+    "DebugText": "行为队列对应的上下文类型不存在",
+    "Text": "ErrorCode_2200021_Text",
     "IsTip": false
   },
   {
-    "Id": 1900069,
-    "DebugText": "请输入正确的账密",
-    "Text": "ErrorCode_1900083_Text",
+    "Id": 2200022,
+    "DebugText": "尝试执行行为队列时Owner身上还有对应上下文的行为组",
+    "Text": "ErrorCode_2200022_Text",
     "IsTip": false
   },
   {
-    "Id": 1900070,
+    "Id": 2200023,
+    "DebugText": "行为队列超过队列长度熔断值",
+    "Text": "ErrorCode_2200023_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200024,
+    "DebugText": "行为队列开始行为组失败",
+    "Text": "ErrorCode_2200024_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900096,
     "DebugText": "登录繁忙，请稍候重试",
     "Text": "ErrorCode_1900094_Text",
     "IsTip": false
   },
   {
-    "Id": 1900071,
+    "Id": 1500106,
+    "DebugText": "未找到对应技能",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200025,
+    "DebugText": "行为队列组件不存在",
+    "Text": "ErrorCode_2200025_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200026,
+    "DebugText": "对应类型的行为队列没有初始化",
+    "Text": "ErrorCode_2200026_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 500061,
+    "DebugText": "请求确认框结果失败",
+    "Text": "ErrorCode_500060_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200027,
+    "DebugText": "批量修改实体状态错误",
+    "Text": "ErrorCode_2200027_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2000027,
+    "DebugText": "角色试用状态无法进入声之领域",
+    "Text": "ErrorCode_2000037_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1900097,
     "DebugText": "声匣探索度已满",
     "Text": "ErrorCode_1900095_Text",
     "IsTip": false
+  },
+  {
+    "Id": 1500107,
+    "DebugText": "数据大小超过限制",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500108,
+    "DebugText": "上报太快",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500109,
+    "DebugText": "玩家不在任何场景中",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500110,
+    "DebugText": "日志数据不存在",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500111,
+    "DebugText": "重复上报",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500112,
+    "DebugText": "无效的LogId",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500113,
+    "DebugText": "场景全局对象已销毁",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500114,
+    "DebugText": "参数错误",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200358,
+    "DebugText": "追月节委托未解锁",
+    "Text": "ErrorCode_200358_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200359,
+    "DebugText": "追月节伙伴未解锁",
+    "Text": "ErrorCode_200359_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200360,
+    "DebugText": "追月节建造未解锁",
+    "Text": "ErrorCode_200360_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200361,
+    "DebugText": "追月节建造物实体找不到",
+    "Text": "ErrorCode_200361_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1400046,
+    "DebugText": "充值订单已退款",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1400047,
+    "DebugText": "充值订单未支付",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1400048,
+    "DebugText": "充值订单退款失败",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 800015,
+    "DebugText": "重连失败，请重新登录",
+    "Text": "ErrorCode_800014_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200362,
+    "DebugText": "复制请求发送失败",
+    "Text": "ErrorCode_200362_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200363,
+    "DebugText": "复制请求过多，请稍后重试",
+    "Text": "ErrorCode_200363_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200364,
+    "DebugText": "复制账号失败",
+    "Text": "ErrorCode_200364_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200365,
+    "DebugText": "复制账号失败,数据解析失败",
+    "Text": "ErrorCode_200365_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200366,
+    "DebugText": "账号插入失败",
+    "Text": "ErrorCode_200366_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200367,
+    "DebugText": "账号插入失败",
+    "Text": "ErrorCode_200367_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500000,
+    "DebugText": "领取奖励错误，找不到对应活动配置",
+    "Text": "ErrorCode_2500000_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500001,
+    "DebugText": "领取奖励错误，活动未开启",
+    "Text": "ErrorCode_2500001_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500002,
+    "DebugText": "领取奖励错误，人气值不够",
+    "Text": "ErrorCode_2500002_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500003,
+    "DebugText": "领取奖励错误，未知错误",
+    "Text": "ErrorCode_2500003_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500004,
+    "DebugText": "领取奖励错误，已领取奖励",
+    "Text": "ErrorCode_2500004_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500005,
+    "DebugText": "获取追月节相里数据失败，找不到配置",
+    "Text": "ErrorCode_2500005_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500006,
+    "DebugText": "获取追月节相里数据失败，活动没开启",
+    "Text": "ErrorCode_2500006_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500007,
+    "DebugText": "获取追月节相里数据失败，未知错误",
+    "Text": "ErrorCode_2500007_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900098,
+    "DebugText": "玩家无此委托",
+    "Text": "ErrorCode_1900096_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900099,
+    "DebugText": "经营资金不足",
+    "Text": "ErrorCode_1900097_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1800046,
+    "DebugText": "匹配状态下无法邀请队友，请先退出匹配或匹配成功后尝试",
+    "Text": "ErrorCode_1800047_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1900100,
+    "DebugText": "不在回流活动时间内",
+    "Text": "ErrorCode_1900098_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 600098,
+    "DebugText": "连珠完成时不能重置",
+    "Text": "ErrorCode_600098_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 600099,
+    "DebugText": "不能移动连珠",
+    "Text": "ErrorCode_600099_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200368,
+    "DebugText": "主机玩家解散房间",
+    "Text": "",
+    "IsTip": true
   }
 ]

@@ -259,5 +259,50 @@
     "ExitEvent": "map_main_tunlongzhu_exit",
     "ResetEvent": "map_main_tunlongzhu_reset",
     "MusicResetEvent": ""
+  },
+  {
+    "Id": 1002,
+    "Name": "InstanceTree_Zhezhi",
+    "Event": "map_role_zhezhi",
+    "EnterEvent": "map_role_zhezhi_enter",
+    "ExitEvent": "map_role_zhezhi_exit",
+    "ResetEvent": "map_role_zhezhi_reset",
+    "MusicResetEvent": ""
+  },
+  {
+    "Id": 8400,
+    "Name": "InstanceTree_1_2_BOSS",
+    "Event": "map_huodong_0102boss",
+    "EnterEvent": "map_huodong_0102boss_enter",
+    "ExitEvent": "map_huodong_0102boss_exit",
+    "ResetEvent": "map_huodong_0102boss_reset",
+    "MusicResetEvent": ""
+  },
+  {
+    "Id": 8170,
+    "Name": "InstanceTree_Tafang",
+    "Event": "map_huodong_tafang",
+    "EnterEvent": "map_huodong_tafang_enter",
+    "ExitEvent": "map_huodong_tafang_exit",
+    "ResetEvent": "map_huodong_tafang_reset",
+    "MusicResetEvent": ""
+  },
+  {
+    "Id": 8201,
+    "Name": "InstanceTree_1_2_gecao",
+    "Event": "map_huodong_0102gecao",
+    "EnterEvent": "map_huodong_0102gecao_enter",
+    "ExitEvent": "map_huodong_0102gecao_exit",
+    "ResetEvent": "map_huodong_0102gecao_reset",
+    "MusicResetEvent": ""
+  },
+  {
+    "Id": 2506,
+    "Name": "InstanceTree_Fating",
+    "Event": "map_world_fating",
+    "EnterEvent": "map_world_fating_enter",
+    "ExitEvent": "map_world_fating_exit",
+    "ResetEvent": "",
+    "MusicResetEvent": ""
   }
 ]

@@ -533,52 +533,6 @@
     "DetailTextId": ""
   },
   {
-    "Id": 7,
-    "TypeId": 1,
-    "InputControllerType": 1,
-    "Name": "KeySetting_7_Name",
-    "OpenViewType": 0,
-    "ButtonTextId": "",
-    "ActionOrAxis": 1,
-    "ActionOrAxisName": "锁定目标",
-    "CanCombination": false,
-    "PcKeyIndex": 0,
-    "XboxKeyIndex": 0,
-    "ConnectedKeySettingId": 0,
-    "PcAxisValue": 0.0,
-    "XboxAxisValue": 0.0,
-    "IsLock": true,
-    "BothActionName": null,
-    "IsCheckSameKey": true,
-    "AllowKeys": null,
-    "AllowMainKeys": null,
-    "AllowSecondKeys": null,
-    "DetailTextId": ""
-  },
-  {
-    "Id": 8,
-    "TypeId": 1,
-    "InputControllerType": 1,
-    "Name": "KeySetting_8_Name",
-    "OpenViewType": 0,
-    "ButtonTextId": "",
-    "ActionOrAxis": 1,
-    "ActionOrAxisName": "锁定目标",
-    "CanCombination": false,
-    "PcKeyIndex": 0,
-    "XboxKeyIndex": 0,
-    "ConnectedKeySettingId": 0,
-    "PcAxisValue": 0.0,
-    "XboxAxisValue": 0.0,
-    "IsLock": true,
-    "BothActionName": null,
-    "IsCheckSameKey": true,
-    "AllowKeys": null,
-    "AllowMainKeys": null,
-    "AllowSecondKeys": null,
-    "DetailTextId": ""
-  },
-  {
     "Id": 9,
     "TypeId": 1,
     "InputControllerType": 1,
@@ -2273,82 +2227,13 @@
     "OpenViewType": 0,
     "ButtonTextId": "",
     "ActionOrAxis": 2,
-    "ActionOrAxisName": "MoveForward",
+    "ActionOrAxisName": "Ui左摇杆",
     "CanCombination": false,
     "PcKeyIndex": 0,
     "XboxKeyIndex": 0,
     "ConnectedKeySettingId": 0,
     "PcAxisValue": 0.0,
     "XboxAxisValue": 1.0,
-    "IsLock": true,
-    "BothActionName": null,
-    "IsCheckSameKey": true,
-    "AllowKeys": null,
-    "AllowMainKeys": null,
-    "AllowSecondKeys": null,
-    "DetailTextId": ""
-  },
-  {
-    "Id": 111,
-    "TypeId": 3,
-    "InputControllerType": 2,
-    "Name": "KeySetting_111_Name",
-    "OpenViewType": 0,
-    "ButtonTextId": "",
-    "ActionOrAxis": 2,
-    "ActionOrAxisName": "MoveRight",
-    "CanCombination": false,
-    "PcKeyIndex": 0,
-    "XboxKeyIndex": 0,
-    "ConnectedKeySettingId": 0,
-    "PcAxisValue": 0.0,
-    "XboxAxisValue": 1.0,
-    "IsLock": true,
-    "BothActionName": null,
-    "IsCheckSameKey": true,
-    "AllowKeys": null,
-    "AllowMainKeys": null,
-    "AllowSecondKeys": null,
-    "DetailTextId": ""
-  },
-  {
-    "Id": 114,
-    "TypeId": 3,
-    "InputControllerType": 2,
-    "Name": "KeySetting_116_Name",
-    "OpenViewType": 0,
-    "ButtonTextId": "",
-    "ActionOrAxis": 1,
-    "ActionOrAxisName": "锁定目标",
-    "CanCombination": false,
-    "PcKeyIndex": 0,
-    "XboxKeyIndex": 1,
-    "ConnectedKeySettingId": 0,
-    "PcAxisValue": 0.0,
-    "XboxAxisValue": 0.0,
-    "IsLock": true,
-    "BothActionName": null,
-    "IsCheckSameKey": true,
-    "AllowKeys": null,
-    "AllowMainKeys": null,
-    "AllowSecondKeys": null,
-    "DetailTextId": "KeySetting_116_DetailTextId"
-  },
-  {
-    "Id": 116,
-    "TypeId": 3,
-    "InputControllerType": 2,
-    "Name": "KeySetting_118_Name",
-    "OpenViewType": 0,
-    "ButtonTextId": "",
-    "ActionOrAxis": 1,
-    "ActionOrAxisName": "锁定目标",
-    "CanCombination": false,
-    "PcKeyIndex": 0,
-    "XboxKeyIndex": 1,
-    "ConnectedKeySettingId": 0,
-    "PcAxisValue": 0.0,
-    "XboxAxisValue": 0.0,
     "IsLock": true,
     "BothActionName": null,
     "IsCheckSameKey": true,
@@ -2392,7 +2277,7 @@
     "CanCombination": true,
     "PcKeyIndex": 0,
     "XboxKeyIndex": 1,
-    "ConnectedKeySettingId": 140,
+    "ConnectedKeySettingId": 152,
     "PcAxisValue": 0.0,
     "XboxAxisValue": 0.0,
     "IsLock": false,
@@ -2405,7 +2290,11 @@
       "Gamepad_FaceButton_Bottom",
       "Gamepad_RightShoulder",
       "Gamepad_RightTrigger",
-      "Gamepad_LeftTrigger"
+      "Gamepad_LeftTrigger",
+      "Gamepad_DPad_Up",
+      "Gamepad_DPad_Down",
+      "Gamepad_DPad_Left",
+      "Gamepad_DPad_Right"
     ],
     "AllowMainKeys": [
       "Gamepad_LeftShoulder"
@@ -2414,7 +2303,11 @@
       "Gamepad_FaceButton_Left",
       "Gamepad_FaceButton_Top",
       "Gamepad_FaceButton_Right",
-      "Gamepad_FaceButton_Bottom"
+      "Gamepad_FaceButton_Bottom",
+      "Gamepad_DPad_Up",
+      "Gamepad_DPad_Down",
+      "Gamepad_DPad_Left",
+      "Gamepad_DPad_Right"
     ],
     "DetailTextId": ""
   },
@@ -2443,7 +2336,11 @@
       "Gamepad_FaceButton_Bottom",
       "Gamepad_RightShoulder",
       "Gamepad_RightTrigger",
-      "Gamepad_LeftTrigger"
+      "Gamepad_LeftTrigger",
+      "Gamepad_DPad_Up",
+      "Gamepad_DPad_Down",
+      "Gamepad_DPad_Left",
+      "Gamepad_DPad_Right"
     ],
     "AllowMainKeys": [
       "Gamepad_LeftShoulder"
@@ -2452,7 +2349,11 @@
       "Gamepad_FaceButton_Left",
       "Gamepad_FaceButton_Top",
       "Gamepad_FaceButton_Right",
-      "Gamepad_FaceButton_Bottom"
+      "Gamepad_FaceButton_Bottom",
+      "Gamepad_DPad_Up",
+      "Gamepad_DPad_Down",
+      "Gamepad_DPad_Left",
+      "Gamepad_DPad_Right"
     ],
     "DetailTextId": "KeySetting_122_DetailTextId"
   },
@@ -2481,7 +2382,11 @@
       "Gamepad_FaceButton_Bottom",
       "Gamepad_RightShoulder",
       "Gamepad_RightTrigger",
-      "Gamepad_LeftTrigger"
+      "Gamepad_LeftTrigger",
+      "Gamepad_DPad_Up",
+      "Gamepad_DPad_Down",
+      "Gamepad_DPad_Left",
+      "Gamepad_DPad_Right"
     ],
     "AllowMainKeys": [
       "Gamepad_LeftShoulder"
@@ -2490,7 +2395,11 @@
       "Gamepad_FaceButton_Left",
       "Gamepad_FaceButton_Top",
       "Gamepad_FaceButton_Right",
-      "Gamepad_FaceButton_Bottom"
+      "Gamepad_FaceButton_Bottom",
+      "Gamepad_DPad_Up",
+      "Gamepad_DPad_Down",
+      "Gamepad_DPad_Left",
+      "Gamepad_DPad_Right"
     ],
     "DetailTextId": ""
   },
@@ -2519,7 +2428,11 @@
       "Gamepad_FaceButton_Bottom",
       "Gamepad_RightShoulder",
       "Gamepad_RightTrigger",
-      "Gamepad_LeftTrigger"
+      "Gamepad_LeftTrigger",
+      "Gamepad_DPad_Up",
+      "Gamepad_DPad_Down",
+      "Gamepad_DPad_Left",
+      "Gamepad_DPad_Right"
     ],
     "AllowMainKeys": [
       "Gamepad_LeftShoulder"
@@ -2528,7 +2441,11 @@
       "Gamepad_FaceButton_Left",
       "Gamepad_FaceButton_Top",
       "Gamepad_FaceButton_Right",
-      "Gamepad_FaceButton_Bottom"
+      "Gamepad_FaceButton_Bottom",
+      "Gamepad_DPad_Up",
+      "Gamepad_DPad_Down",
+      "Gamepad_DPad_Left",
+      "Gamepad_DPad_Right"
     ],
     "DetailTextId": ""
   },
@@ -2580,7 +2497,11 @@
       "Gamepad_FaceButton_Bottom",
       "Gamepad_RightShoulder",
       "Gamepad_RightTrigger",
-      "Gamepad_LeftTrigger"
+      "Gamepad_LeftTrigger",
+      "Gamepad_DPad_Up",
+      "Gamepad_DPad_Down",
+      "Gamepad_DPad_Left",
+      "Gamepad_DPad_Right"
     ],
     "AllowMainKeys": [
       "Gamepad_LeftShoulder"
@@ -2589,7 +2510,11 @@
       "Gamepad_FaceButton_Left",
       "Gamepad_FaceButton_Top",
       "Gamepad_FaceButton_Right",
-      "Gamepad_FaceButton_Bottom"
+      "Gamepad_FaceButton_Bottom",
+      "Gamepad_DPad_Up",
+      "Gamepad_DPad_Down",
+      "Gamepad_DPad_Left",
+      "Gamepad_DPad_Right"
     ],
     "DetailTextId": ""
   },
@@ -2618,7 +2543,11 @@
       "Gamepad_FaceButton_Bottom",
       "Gamepad_RightShoulder",
       "Gamepad_RightTrigger",
-      "Gamepad_LeftTrigger"
+      "Gamepad_LeftTrigger",
+      "Gamepad_DPad_Up",
+      "Gamepad_DPad_Down",
+      "Gamepad_DPad_Left",
+      "Gamepad_DPad_Right"
     ],
     "AllowMainKeys": [
       "Gamepad_LeftShoulder"
@@ -2627,7 +2556,11 @@
       "Gamepad_FaceButton_Left",
       "Gamepad_FaceButton_Top",
       "Gamepad_FaceButton_Right",
-      "Gamepad_FaceButton_Bottom"
+      "Gamepad_FaceButton_Bottom",
+      "Gamepad_DPad_Up",
+      "Gamepad_DPad_Down",
+      "Gamepad_DPad_Left",
+      "Gamepad_DPad_Right"
     ],
     "DetailTextId": ""
   },
@@ -2655,7 +2588,12 @@
       "Gamepad_FaceButton_Right",
       "Gamepad_FaceButton_Bottom",
       "Gamepad_RightShoulder",
-      "Gamepad_LeftTrigger"
+      "Gamepad_RightTrigger",
+      "Gamepad_LeftTrigger",
+      "Gamepad_DPad_Up",
+      "Gamepad_DPad_Down",
+      "Gamepad_DPad_Left",
+      "Gamepad_DPad_Right"
     ],
     "AllowMainKeys": [
       "Gamepad_LeftShoulder"
@@ -2664,108 +2602,13 @@
       "Gamepad_FaceButton_Left",
       "Gamepad_FaceButton_Top",
       "Gamepad_FaceButton_Right",
-      "Gamepad_FaceButton_Bottom"
+      "Gamepad_FaceButton_Bottom",
+      "Gamepad_DPad_Up",
+      "Gamepad_DPad_Down",
+      "Gamepad_DPad_Left",
+      "Gamepad_DPad_Right"
     ],
     "DetailTextId": "KeySetting_134_DetailTextId"
-  },
-  {
-    "Id": 136,
-    "TypeId": 3,
-    "InputControllerType": 2,
-    "Name": "KeySetting_136_Name",
-    "OpenViewType": 0,
-    "ButtonTextId": "",
-    "ActionOrAxis": 1,
-    "ActionOrAxisName": "手柄副攻击",
-    "CanCombination": false,
-    "PcKeyIndex": 0,
-    "XboxKeyIndex": 0,
-    "ConnectedKeySettingId": 0,
-    "PcAxisValue": 0.0,
-    "XboxAxisValue": 0.0,
-    "IsLock": true,
-    "BothActionName": null,
-    "IsCheckSameKey": false,
-    "AllowKeys": null,
-    "AllowMainKeys": null,
-    "AllowSecondKeys": null,
-    "DetailTextId": "KeySetting_136_DetailTextId"
-  },
-  {
-    "Id": 138,
-    "TypeId": 3,
-    "InputControllerType": 2,
-    "Name": "KeySetting_138_Name",
-    "OpenViewType": 0,
-    "ButtonTextId": "",
-    "ActionOrAxis": 1,
-    "ActionOrAxisName": "跳跃",
-    "CanCombination": true,
-    "PcKeyIndex": 0,
-    "XboxKeyIndex": 1,
-    "ConnectedKeySettingId": 0,
-    "PcAxisValue": 0.0,
-    "XboxAxisValue": 0.0,
-    "IsLock": false,
-    "BothActionName": null,
-    "IsCheckSameKey": true,
-    "AllowKeys": [
-      "Gamepad_FaceButton_Left",
-      "Gamepad_FaceButton_Top",
-      "Gamepad_FaceButton_Right",
-      "Gamepad_FaceButton_Bottom",
-      "Gamepad_RightShoulder",
-      "Gamepad_RightTrigger",
-      "Gamepad_LeftTrigger"
-    ],
-    "AllowMainKeys": [
-      "Gamepad_LeftShoulder"
-    ],
-    "AllowSecondKeys": [
-      "Gamepad_FaceButton_Left",
-      "Gamepad_FaceButton_Top",
-      "Gamepad_FaceButton_Right",
-      "Gamepad_FaceButton_Bottom"
-    ],
-    "DetailTextId": "KeySetting_138_DetailTextId"
-  },
-  {
-    "Id": 142,
-    "TypeId": 3,
-    "InputControllerType": 2,
-    "Name": "KeySetting_142_Name",
-    "OpenViewType": 0,
-    "ButtonTextId": "",
-    "ActionOrAxis": 1,
-    "ActionOrAxisName": "通用交互",
-    "CanCombination": true,
-    "PcKeyIndex": 0,
-    "XboxKeyIndex": 1,
-    "ConnectedKeySettingId": 0,
-    "PcAxisValue": 0.0,
-    "XboxAxisValue": 0.0,
-    "IsLock": false,
-    "BothActionName": null,
-    "IsCheckSameKey": true,
-    "AllowKeys": [
-      "Gamepad_FaceButton_Left",
-      "Gamepad_FaceButton_Top",
-      "Gamepad_FaceButton_Right",
-      "Gamepad_FaceButton_Bottom",
-      "Gamepad_RightShoulder",
-      "Gamepad_RightTrigger",
-      "Gamepad_LeftTrigger"
-    ],
-    "AllowMainKeys": [
-      "Gamepad_LeftShoulder"
-    ],
-    "AllowSecondKeys": [
-      "Gamepad_FaceButton_Left",
-      "Gamepad_FaceButton_Top",
-      "Gamepad_FaceButton_Right",
-      "Gamepad_FaceButton_Bottom"
-    ],
-    "DetailTextId": ""
   },
   {
     "Id": 146,
@@ -2786,6 +2629,12 @@
     "BothActionName": null,
     "IsCheckSameKey": true,
     "AllowKeys": [
+      "Gamepad_FaceButton_Left",
+      "Gamepad_FaceButton_Top",
+      "Gamepad_FaceButton_Right",
+      "Gamepad_FaceButton_Bottom",
+      "Gamepad_RightTrigger",
+      "Gamepad_LeftTrigger",
       "Gamepad_DPad_Up",
       "Gamepad_DPad_Down",
       "Gamepad_DPad_Left",
@@ -2795,7 +2644,12 @@
       "Gamepad_LeftShoulder"
     ],
     "AllowSecondKeys": [
+      "Gamepad_FaceButton_Left",
+      "Gamepad_FaceButton_Top",
+      "Gamepad_FaceButton_Right",
+      "Gamepad_FaceButton_Bottom",
       "Gamepad_DPad_Up",
+      "Gamepad_DPad_Down",
       "Gamepad_DPad_Left",
       "Gamepad_DPad_Right"
     ],
@@ -2820,6 +2674,13 @@
     "BothActionName": null,
     "IsCheckSameKey": true,
     "AllowKeys": [
+      "Gamepad_FaceButton_Left",
+      "Gamepad_FaceButton_Top",
+      "Gamepad_FaceButton_Right",
+      "Gamepad_FaceButton_Bottom",
+      "Gamepad_RightShoulder",
+      "Gamepad_RightTrigger",
+      "Gamepad_LeftTrigger",
       "Gamepad_DPad_Up",
       "Gamepad_DPad_Down",
       "Gamepad_DPad_Left",
@@ -2829,7 +2690,12 @@
       "Gamepad_LeftShoulder"
     ],
     "AllowSecondKeys": [
+      "Gamepad_FaceButton_Left",
+      "Gamepad_FaceButton_Top",
+      "Gamepad_FaceButton_Right",
+      "Gamepad_FaceButton_Bottom",
       "Gamepad_DPad_Up",
+      "Gamepad_DPad_Down",
       "Gamepad_DPad_Left",
       "Gamepad_DPad_Right"
     ],
@@ -2854,6 +2720,13 @@
     "BothActionName": null,
     "IsCheckSameKey": true,
     "AllowKeys": [
+      "Gamepad_FaceButton_Left",
+      "Gamepad_FaceButton_Top",
+      "Gamepad_FaceButton_Right",
+      "Gamepad_FaceButton_Bottom",
+      "Gamepad_RightShoulder",
+      "Gamepad_RightTrigger",
+      "Gamepad_LeftTrigger",
       "Gamepad_DPad_Up",
       "Gamepad_DPad_Down",
       "Gamepad_DPad_Left",
@@ -2863,7 +2736,12 @@
       "Gamepad_LeftShoulder"
     ],
     "AllowSecondKeys": [
+      "Gamepad_FaceButton_Left",
+      "Gamepad_FaceButton_Top",
+      "Gamepad_FaceButton_Right",
+      "Gamepad_FaceButton_Bottom",
       "Gamepad_DPad_Up",
+      "Gamepad_DPad_Down",
       "Gamepad_DPad_Left",
       "Gamepad_DPad_Right"
     ],
@@ -2888,6 +2766,13 @@
     "BothActionName": null,
     "IsCheckSameKey": true,
     "AllowKeys": [
+      "Gamepad_FaceButton_Left",
+      "Gamepad_FaceButton_Top",
+      "Gamepad_FaceButton_Right",
+      "Gamepad_FaceButton_Bottom",
+      "Gamepad_RightShoulder",
+      "Gamepad_RightTrigger",
+      "Gamepad_LeftTrigger",
       "Gamepad_DPad_Up",
       "Gamepad_DPad_Down",
       "Gamepad_DPad_Left",
@@ -2897,7 +2782,12 @@
       "Gamepad_LeftShoulder"
     ],
     "AllowSecondKeys": [
+      "Gamepad_FaceButton_Left",
+      "Gamepad_FaceButton_Top",
+      "Gamepad_FaceButton_Right",
+      "Gamepad_FaceButton_Bottom",
       "Gamepad_DPad_Up",
+      "Gamepad_DPad_Down",
       "Gamepad_DPad_Left",
       "Gamepad_DPad_Right"
     ],
@@ -2912,18 +2802,41 @@
     "ButtonTextId": "",
     "ActionOrAxis": 1,
     "ActionOrAxisName": "切换角色4",
-    "CanCombination": false,
+    "CanCombination": true,
     "PcKeyIndex": 0,
     "XboxKeyIndex": 0,
     "ConnectedKeySettingId": 0,
     "PcAxisValue": 0.0,
     "XboxAxisValue": 0.0,
-    "IsLock": true,
+    "IsLock": false,
     "BothActionName": null,
     "IsCheckSameKey": true,
-    "AllowKeys": null,
-    "AllowMainKeys": null,
-    "AllowSecondKeys": null,
+    "AllowKeys": [
+      "Gamepad_FaceButton_Left",
+      "Gamepad_FaceButton_Top",
+      "Gamepad_FaceButton_Right",
+      "Gamepad_FaceButton_Bottom",
+      "Gamepad_RightShoulder",
+      "Gamepad_RightTrigger",
+      "Gamepad_LeftTrigger",
+      "Gamepad_DPad_Up",
+      "Gamepad_DPad_Down",
+      "Gamepad_DPad_Left",
+      "Gamepad_DPad_Right"
+    ],
+    "AllowMainKeys": [
+      "Gamepad_LeftShoulder"
+    ],
+    "AllowSecondKeys": [
+      "Gamepad_FaceButton_Left",
+      "Gamepad_FaceButton_Top",
+      "Gamepad_FaceButton_Right",
+      "Gamepad_FaceButton_Bottom",
+      "Gamepad_DPad_Up",
+      "Gamepad_DPad_Down",
+      "Gamepad_DPad_Left",
+      "Gamepad_DPad_Right"
+    ],
     "DetailTextId": "KeySetting_151_DetailTextId"
   },
   {
@@ -2935,29 +2848,6 @@
     "ButtonTextId": "",
     "ActionOrAxis": 1,
     "ActionOrAxisName": "任务追踪",
-    "CanCombination": false,
-    "PcKeyIndex": 0,
-    "XboxKeyIndex": 0,
-    "ConnectedKeySettingId": 0,
-    "PcAxisValue": 0.0,
-    "XboxAxisValue": 0.0,
-    "IsLock": true,
-    "BothActionName": null,
-    "IsCheckSameKey": true,
-    "AllowKeys": null,
-    "AllowMainKeys": null,
-    "AllowSecondKeys": null,
-    "DetailTextId": ""
-  },
-  {
-    "Id": 158,
-    "TypeId": 3,
-    "InputControllerType": 2,
-    "Name": "KeySetting_158_Name",
-    "OpenViewType": 0,
-    "ButtonTextId": "",
-    "ActionOrAxis": 1,
-    "ActionOrAxisName": "玩法放弃",
     "CanCombination": false,
     "PcKeyIndex": 0,
     "XboxKeyIndex": 0,
@@ -4524,7 +4414,145 @@
     "DetailTextId": ""
   },
   {
-    "Id": 140,
+    "Id": 0,
+    "TypeId": 1,
+    "InputControllerType": 1,
+    "Name": "LockEnemyModeTitle",
+    "OpenViewType": 2,
+    "ButtonTextId": "KeySetting_103_ButtonTextId",
+    "ActionOrAxis": 0,
+    "ActionOrAxisName": "",
+    "CanCombination": false,
+    "PcKeyIndex": 0,
+    "XboxKeyIndex": 0,
+    "ConnectedKeySettingId": 0,
+    "PcAxisValue": 0.0,
+    "XboxAxisValue": 0.0,
+    "IsLock": false,
+    "BothActionName": null,
+    "IsCheckSameKey": true,
+    "AllowKeys": null,
+    "AllowMainKeys": null,
+    "AllowSecondKeys": null,
+    "DetailTextId": ""
+  },
+  {
+    "Id": 109,
+    "TypeId": 3,
+    "InputControllerType": 2,
+    "Name": "LockEnemyModeTitle",
+    "OpenViewType": 2,
+    "ButtonTextId": "KeySetting_103_ButtonTextId",
+    "ActionOrAxis": 0,
+    "ActionOrAxisName": "",
+    "CanCombination": false,
+    "PcKeyIndex": 0,
+    "XboxKeyIndex": 0,
+    "ConnectedKeySettingId": 0,
+    "PcAxisValue": 0.0,
+    "XboxAxisValue": 0.0,
+    "IsLock": false,
+    "BothActionName": null,
+    "IsCheckSameKey": true,
+    "AllowKeys": null,
+    "AllowMainKeys": null,
+    "AllowSecondKeys": null,
+    "DetailTextId": ""
+  },
+  {
+    "Id": 123,
+    "TypeId": 3,
+    "InputControllerType": 2,
+    "Name": "KeySetting_138_Name",
+    "OpenViewType": 0,
+    "ButtonTextId": "",
+    "ActionOrAxis": 1,
+    "ActionOrAxisName": "跳跃",
+    "CanCombination": true,
+    "PcKeyIndex": 0,
+    "XboxKeyIndex": 1,
+    "ConnectedKeySettingId": 0,
+    "PcAxisValue": 0.0,
+    "XboxAxisValue": 0.0,
+    "IsLock": false,
+    "BothActionName": null,
+    "IsCheckSameKey": true,
+    "AllowKeys": [
+      "Gamepad_FaceButton_Left",
+      "Gamepad_FaceButton_Top",
+      "Gamepad_FaceButton_Right",
+      "Gamepad_FaceButton_Bottom",
+      "Gamepad_RightShoulder",
+      "Gamepad_RightTrigger",
+      "Gamepad_LeftTrigger",
+      "Gamepad_DPad_Up",
+      "Gamepad_DPad_Down",
+      "Gamepad_DPad_Left",
+      "Gamepad_DPad_Right"
+    ],
+    "AllowMainKeys": [
+      "Gamepad_LeftShoulder"
+    ],
+    "AllowSecondKeys": [
+      "Gamepad_FaceButton_Left",
+      "Gamepad_FaceButton_Top",
+      "Gamepad_FaceButton_Right",
+      "Gamepad_FaceButton_Bottom",
+      "Gamepad_DPad_Up",
+      "Gamepad_DPad_Down",
+      "Gamepad_DPad_Left",
+      "Gamepad_DPad_Right"
+    ],
+    "DetailTextId": "KeySetting_138_DetailTextId"
+  },
+  {
+    "Id": 127,
+    "TypeId": 3,
+    "InputControllerType": 2,
+    "Name": "KeySetting_142_Name",
+    "OpenViewType": 0,
+    "ButtonTextId": "",
+    "ActionOrAxis": 1,
+    "ActionOrAxisName": "通用交互",
+    "CanCombination": true,
+    "PcKeyIndex": 0,
+    "XboxKeyIndex": 1,
+    "ConnectedKeySettingId": 0,
+    "PcAxisValue": 0.0,
+    "XboxAxisValue": 0.0,
+    "IsLock": false,
+    "BothActionName": null,
+    "IsCheckSameKey": true,
+    "AllowKeys": [
+      "Gamepad_FaceButton_Left",
+      "Gamepad_FaceButton_Top",
+      "Gamepad_FaceButton_Right",
+      "Gamepad_FaceButton_Bottom",
+      "Gamepad_RightShoulder",
+      "Gamepad_RightTrigger",
+      "Gamepad_LeftTrigger",
+      "Gamepad_DPad_Up",
+      "Gamepad_DPad_Down",
+      "Gamepad_DPad_Left",
+      "Gamepad_DPad_Right"
+    ],
+    "AllowMainKeys": [
+      "Gamepad_LeftShoulder"
+    ],
+    "AllowSecondKeys": [
+      "Gamepad_FaceButton_Left",
+      "Gamepad_FaceButton_Top",
+      "Gamepad_FaceButton_Right",
+      "Gamepad_FaceButton_Bottom",
+      "Gamepad_DPad_Up",
+      "Gamepad_DPad_Down",
+      "Gamepad_DPad_Left",
+      "Gamepad_DPad_Right"
+    ],
+    "DetailTextId": ""
+  },
+  {
+    "Id": 152,
     "TypeId": 3,
     "InputControllerType": 2,
     "Name": "KeySetting_140_Name",
@@ -4545,5 +4573,28 @@
     "AllowMainKeys": null,
     "AllowSecondKeys": null,
     "DetailTextId": "KeySetting_140_DetailTextId"
+  },
+  {
+    "Id": 217,
+    "TypeId": 4,
+    "InputControllerType": 2,
+    "Name": "KeySetting_217_Name",
+    "OpenViewType": 0,
+    "ButtonTextId": "",
+    "ActionOrAxis": 1,
+    "ActionOrAxisName": "聊天",
+    "CanCombination": false,
+    "PcKeyIndex": 0,
+    "XboxKeyIndex": 1,
+    "ConnectedKeySettingId": 0,
+    "PcAxisValue": 0.0,
+    "XboxAxisValue": 0.0,
+    "IsLock": true,
+    "BothActionName": null,
+    "IsCheckSameKey": true,
+    "AllowKeys": null,
+    "AllowMainKeys": null,
+    "AllowSecondKeys": null,
+    "DetailTextId": ""
   }
 ]

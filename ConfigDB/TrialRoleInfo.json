@@ -23401,6 +23401,20 @@
     "PhantomEquipList": null
   },
   {
+    "Id": 100322,
+    "GroupId": 100322,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1305,
+    "Level": 1,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 1,
+    "UnlockSkillNodeList": null,
+    "TrailWeapon": 4,
+    "PhantomEquipList": null
+  },
+  {
     "Id": 100323,
     "GroupId": 100323,
     "WorldLevel": 1,
@@ -23412,6 +23426,20 @@
     "UnlockSkillLevel": 1,
     "UnlockSkillNodeList": null,
     "TrailWeapon": 2,
+    "PhantomEquipList": null
+  },
+  {
+    "Id": 100324,
+    "GroupId": 100324,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1105,
+    "Level": 1,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 1,
+    "UnlockSkillNodeList": null,
+    "TrailWeapon": 5,
     "PhantomEquipList": null
   },
   {
@@ -25190,6 +25218,174 @@
     "PhantomEquipList": null
   },
   {
+    "Id": 11057004,
+    "GroupId": 11057004,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1105,
+    "Level": 70,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 6,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 5570001,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000445,
+        "Item2": 101103
+      },
+      {
+        "Item1": 60000495,
+        "Item2": 101102
+      },
+      {
+        "Item1": 60000215,
+        "Item2": 101102
+      },
+      {
+        "Item1": 60000105,
+        "Item2": 101101
+      },
+      {
+        "Item1": 60000145,
+        "Item2": 101101
+      }
+    ]
+  },
+  {
+    "Id": 100624,
+    "GroupId": 100624,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1105,
+    "Level": 90,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 1,
+    "UnlockSkillNodeList": [
+      8
+    ],
+    "TrailWeapon": 26,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000445,
+        "Item2": 20015325
+      },
+      {
+        "Item1": 60000495,
+        "Item2": 20015225
+      },
+      {
+        "Item1": 60000315,
+        "Item2": 20015225
+      },
+      {
+        "Item1": 60000105,
+        "Item2": 20015125
+      },
+      {
+        "Item1": 60000145,
+        "Item2": 20015125
+      }
+    ]
+  },
+  {
+    "Id": 100625,
+    "GroupId": 100625,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1305,
+    "Level": 90,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 1,
+    "UnlockSkillNodeList": [
+      8
+    ],
+    "TrailWeapon": 36,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000225,
+        "Item2": 20035325
+      },
+      {
+        "Item1": 60000195,
+        "Item2": 20035225
+      },
+      {
+        "Item1": 60000125,
+        "Item2": 20035225
+      },
+      {
+        "Item1": 60000035,
+        "Item2": 20035125
+      },
+      {
+        "Item1": 60000235,
+        "Item2": 20035125
+      }
+    ]
+  },
+  {
+    "Id": 13057004,
+    "GroupId": 13057004,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1305,
+    "Level": 70,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 6,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 5470001,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000225,
+        "Item2": 103103
+      },
+      {
+        "Item1": 60000195,
+        "Item2": 103102
+      },
+      {
+        "Item1": 60000125,
+        "Item2": 103102
+      },
+      {
+        "Item1": 60000035,
+        "Item2": 103101
+      },
+      {
+        "Item1": 60000235,
+        "Item2": 103101
+      }
+    ]
+  },
+  {
     "Id": 12052005,
     "GroupId": 12050005,
     "WorldLevel": 1,
@@ -26318,6 +26514,3436 @@
       {
         "Item1": 60000165,
         "Item2": 10055125
+      }
+    ]
+  },
+  {
+    "Id": 5200052,
+    "GroupId": 5200052,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1303,
+    "Level": 50,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 2,
+    "UnlockSkillNodeList": [
+      8
+    ],
+    "TrailWeapon": 21401350,
+    "PhantomEquipList": null
+  },
+  {
+    "Id": 5200053,
+    "GroupId": 5200053,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1303,
+    "Level": 60,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 3,
+    "UnlockSkillNodeList": [
+      8,
+      4
+    ],
+    "TrailWeapon": 21401360,
+    "PhantomEquipList": null
+  },
+  {
+    "Id": 5200054,
+    "GroupId": 5200054,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1303,
+    "Level": 70,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 5,
+    "UnlockSkillNodeList": [
+      8,
+      4
+    ],
+    "TrailWeapon": 21401370,
+    "PhantomEquipList": null
+  },
+  {
+    "Id": 5200055,
+    "GroupId": 5200055,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1303,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 7,
+    "UnlockSkillNodeList": [
+      8,
+      4
+    ],
+    "TrailWeapon": 21401380,
+    "PhantomEquipList": null
+  },
+  {
+    "Id": 11052001,
+    "GroupId": 11052001,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1105,
+    "Level": 20,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 1,
+    "UnlockSkillNodeList": [
+      8
+    ],
+    "TrailWeapon": 5520001,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000442,
+        "Item2": 20012301
+      }
+    ]
+  },
+  {
+    "Id": 11054001,
+    "GroupId": 11052001,
+    "WorldLevel": 2,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1105,
+    "Level": 40,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 2,
+    "UnlockSkillNodeList": [
+      8,
+      4
+    ],
+    "TrailWeapon": 5540001,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000442,
+        "Item2": 20012309
+      },
+      {
+        "Item1": 60000492,
+        "Item2": 20012209
+      },
+      {
+        "Item1": 60000312,
+        "Item2": 20012209
+      },
+      {
+        "Item1": 60000102,
+        "Item2": 20012109
+      },
+      {
+        "Item1": 60000142,
+        "Item2": 20012109
+      }
+    ]
+  },
+  {
+    "Id": 11055001,
+    "GroupId": 11052001,
+    "WorldLevel": 3,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1105,
+    "Level": 50,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 3,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      9,
+      10
+    ],
+    "TrailWeapon": 5550001,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000444,
+        "Item2": 20014313
+      },
+      {
+        "Item1": 60000494,
+        "Item2": 20014213
+      },
+      {
+        "Item1": 60000314,
+        "Item2": 20014213
+      },
+      {
+        "Item1": 60000104,
+        "Item2": 20014113
+      },
+      {
+        "Item1": 60000144,
+        "Item2": 20014113
+      }
+    ]
+  },
+  {
+    "Id": 11056001,
+    "GroupId": 11052001,
+    "WorldLevel": 4,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1105,
+    "Level": 60,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 3,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+    ],
+    "TrailWeapon": 5560001,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000444,
+        "Item2": 20014315
+      },
+      {
+        "Item1": 60000494,
+        "Item2": 20014215
+      },
+      {
+        "Item1": 60000314,
+        "Item2": 20014215
+      },
+      {
+        "Item1": 60000104,
+        "Item2": 20014115
+      },
+      {
+        "Item1": 60000144,
+        "Item2": 20014115
+      }
+    ]
+  },
+  {
+    "Id": 11057001,
+    "GroupId": 11052001,
+    "WorldLevel": 5,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1105,
+    "Level": 70,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 5,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 5570001,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000445,
+        "Item2": 20015318
+      },
+      {
+        "Item1": 60000495,
+        "Item2": 20015218
+      },
+      {
+        "Item1": 60000315,
+        "Item2": 20015218
+      },
+      {
+        "Item1": 60000105,
+        "Item2": 20015118
+      },
+      {
+        "Item1": 60000145,
+        "Item2": 20015118
+      }
+    ]
+  },
+  {
+    "Id": 11058001,
+    "GroupId": 11052001,
+    "WorldLevel": 6,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1105,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 7,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 5580001,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000445,
+        "Item2": 20015320
+      },
+      {
+        "Item1": 60000495,
+        "Item2": 20015220
+      },
+      {
+        "Item1": 60000315,
+        "Item2": 20015220
+      },
+      {
+        "Item1": 60000105,
+        "Item2": 20015120
+      },
+      {
+        "Item1": 60000145,
+        "Item2": 20015120
+      }
+    ]
+  },
+  {
+    "Id": 11059001,
+    "GroupId": 11052001,
+    "WorldLevel": 7,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1105,
+    "Level": 90,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 10,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 5590001,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000445,
+        "Item2": 20015325
+      },
+      {
+        "Item1": 60000495,
+        "Item2": 20015225
+      },
+      {
+        "Item1": 60000315,
+        "Item2": 20015225
+      },
+      {
+        "Item1": 60000105,
+        "Item2": 20015125
+      },
+      {
+        "Item1": 60000145,
+        "Item2": 20015125
+      }
+    ]
+  },
+  {
+    "Id": 541001,
+    "GroupId": 5400001,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1105,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 7,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21050580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000445,
+        "Item2": 20015320
+      },
+      {
+        "Item1": 60000495,
+        "Item2": 20015220
+      },
+      {
+        "Item1": 60000315,
+        "Item2": 20015220
+      },
+      {
+        "Item1": 60000105,
+        "Item2": 20015120
+      },
+      {
+        "Item1": 60000145,
+        "Item2": 20015120
+      }
+    ]
+  },
+  {
+    "Id": 541002,
+    "GroupId": 5400002,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1305,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 7,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21040580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000225,
+        "Item2": 20035320
+      },
+      {
+        "Item1": 60000195,
+        "Item2": 20035220
+      },
+      {
+        "Item1": 60000125,
+        "Item2": 20035220
+      },
+      {
+        "Item1": 60000035,
+        "Item2": 20035120
+      },
+      {
+        "Item1": 60000235,
+        "Item2": 20035120
+      }
+    ]
+  },
+  {
+    "Id": 5200056,
+    "GroupId": 5200056,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1602,
+    "Level": 50,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 2,
+    "UnlockSkillNodeList": [
+      8
+    ],
+    "TrailWeapon": 21020350,
+    "PhantomEquipList": null
+  },
+  {
+    "Id": 5200057,
+    "GroupId": 5200057,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1602,
+    "Level": 60,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 3,
+    "UnlockSkillNodeList": [
+      8,
+      4
+    ],
+    "TrailWeapon": 21020360,
+    "PhantomEquipList": null
+  },
+  {
+    "Id": 5200058,
+    "GroupId": 5200058,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1602,
+    "Level": 70,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 5,
+    "UnlockSkillNodeList": [
+      8,
+      4
+    ],
+    "TrailWeapon": 21020370,
+    "PhantomEquipList": null
+  },
+  {
+    "Id": 5200059,
+    "GroupId": 5200059,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1602,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 7,
+    "UnlockSkillNodeList": [
+      8,
+      4
+    ],
+    "TrailWeapon": 21020380,
+    "PhantomEquipList": null
+  },
+  {
+    "Id": 100720,
+    "GroupId": 100720,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1305,
+    "Level": 1,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 1,
+    "UnlockSkillNodeList": [
+      8
+    ],
+    "TrailWeapon": 36,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000192,
+        "Item2": 10032201
+      }
+    ]
+  },
+  {
+    "Id": 100721,
+    "GroupId": 100721,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1105,
+    "Level": 1,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 1,
+    "UnlockSkillNodeList": [
+      8
+    ],
+    "TrailWeapon": 28,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000312,
+        "Item2": 10012201
+      }
+    ]
+  },
+  {
+    "Id": 541003,
+    "GroupId": 5400003,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1303,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 7,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21040580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000225,
+        "Item2": 20035320
+      },
+      {
+        "Item1": 60000195,
+        "Item2": 20035220
+      },
+      {
+        "Item1": 60000125,
+        "Item2": 20035220
+      },
+      {
+        "Item1": 60000035,
+        "Item2": 20035120
+      },
+      {
+        "Item1": 60000235,
+        "Item2": 20035120
+      }
+    ]
+  },
+  {
+    "Id": 541004,
+    "GroupId": 5400004,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1204,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 7,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21030580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000325,
+        "Item2": 20025320
+      },
+      {
+        "Item1": 60000295,
+        "Item2": 20025220
+      },
+      {
+        "Item1": 60000355,
+        "Item2": 20025220
+      },
+      {
+        "Item1": 60000065,
+        "Item2": 20025120
+      },
+      {
+        "Item1": 60000365,
+        "Item2": 20025120
+      }
+    ]
+  },
+  {
+    "Id": 541005,
+    "GroupId": 5400005,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1403,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 7,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21030580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000435,
+        "Item2": 20045320
+      },
+      {
+        "Item1": 60000135,
+        "Item2": 20045220
+      },
+      {
+        "Item1": 60000405,
+        "Item2": 20045220
+      },
+      {
+        "Item1": 60000085,
+        "Item2": 20045120
+      },
+      {
+        "Item1": 60000235,
+        "Item2": 20045120
+      }
+    ]
+  },
+  {
+    "Id": 541006,
+    "GroupId": 5400006,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1102,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 7,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21020580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000445,
+        "Item2": 20015320
+      },
+      {
+        "Item1": 60000495,
+        "Item2": 20015220
+      },
+      {
+        "Item1": 60000315,
+        "Item2": 20015220
+      },
+      {
+        "Item1": 60000105,
+        "Item2": 20015120
+      },
+      {
+        "Item1": 60000145,
+        "Item2": 20015120
+      }
+    ]
+  },
+  {
+    "Id": 541007,
+    "GroupId": 5400007,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1105,
+    "Level": 70,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 5,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21050570,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000445,
+        "Item2": 20015318
+      },
+      {
+        "Item1": 60000495,
+        "Item2": 20015218
+      },
+      {
+        "Item1": 60000315,
+        "Item2": 20015218
+      },
+      {
+        "Item1": 60000105,
+        "Item2": 20015118
+      },
+      {
+        "Item1": 60000145,
+        "Item2": 20015118
+      }
+    ]
+  },
+  {
+    "Id": 541008,
+    "GroupId": 5400008,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1305,
+    "Level": 70,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 5,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21040570,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000225,
+        "Item2": 20035318
+      },
+      {
+        "Item1": 60000195,
+        "Item2": 20035218
+      },
+      {
+        "Item1": 60000125,
+        "Item2": 20035218
+      },
+      {
+        "Item1": 60000035,
+        "Item2": 20035118
+      },
+      {
+        "Item1": 60000235,
+        "Item2": 20035118
+      }
+    ]
+  },
+  {
+    "Id": 541009,
+    "GroupId": 5400009,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1303,
+    "Level": 70,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 5,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21040570,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000225,
+        "Item2": 20035318
+      },
+      {
+        "Item1": 60000195,
+        "Item2": 20035218
+      },
+      {
+        "Item1": 60000125,
+        "Item2": 20035218
+      },
+      {
+        "Item1": 60000035,
+        "Item2": 20035118
+      },
+      {
+        "Item1": 60000235,
+        "Item2": 20035118
+      }
+    ]
+  },
+  {
+    "Id": 541010,
+    "GroupId": 5400010,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1204,
+    "Level": 70,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 5,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21030570,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000325,
+        "Item2": 20025318
+      },
+      {
+        "Item1": 60000295,
+        "Item2": 20025218
+      },
+      {
+        "Item1": 60000355,
+        "Item2": 20025218
+      },
+      {
+        "Item1": 60000065,
+        "Item2": 20025118
+      },
+      {
+        "Item1": 60000365,
+        "Item2": 20025118
+      }
+    ]
+  },
+  {
+    "Id": 541011,
+    "GroupId": 5400011,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1403,
+    "Level": 70,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 5,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21030570,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000435,
+        "Item2": 20045318
+      },
+      {
+        "Item1": 60000135,
+        "Item2": 20045218
+      },
+      {
+        "Item1": 60000405,
+        "Item2": 20045218
+      },
+      {
+        "Item1": 60000085,
+        "Item2": 20045118
+      },
+      {
+        "Item1": 60000235,
+        "Item2": 20045118
+      }
+    ]
+  },
+  {
+    "Id": 541012,
+    "GroupId": 5400012,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1102,
+    "Level": 70,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 5,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21020570,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000445,
+        "Item2": 20015318
+      },
+      {
+        "Item1": 60000495,
+        "Item2": 20015218
+      },
+      {
+        "Item1": 60000315,
+        "Item2": 20015218
+      },
+      {
+        "Item1": 60000105,
+        "Item2": 20015118
+      },
+      {
+        "Item1": 60000145,
+        "Item2": 20015118
+      }
+    ]
+  },
+  {
+    "Id": 541013,
+    "GroupId": 5400013,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1105,
+    "Level": 60,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 3,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+    ],
+    "TrailWeapon": 21050560,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000444,
+        "Item2": 20014315
+      },
+      {
+        "Item1": 60000494,
+        "Item2": 20014215
+      },
+      {
+        "Item1": 60000314,
+        "Item2": 20014215
+      },
+      {
+        "Item1": 60000104,
+        "Item2": 20014115
+      },
+      {
+        "Item1": 60000144,
+        "Item2": 20014115
+      }
+    ]
+  },
+  {
+    "Id": 541014,
+    "GroupId": 5400014,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1305,
+    "Level": 60,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 3,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+    ],
+    "TrailWeapon": 21040560,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000224,
+        "Item2": 20034315
+      },
+      {
+        "Item1": 60000194,
+        "Item2": 20034215
+      },
+      {
+        "Item1": 60000124,
+        "Item2": 20034215
+      },
+      {
+        "Item1": 60000034,
+        "Item2": 20034115
+      },
+      {
+        "Item1": 60000234,
+        "Item2": 20034115
+      }
+    ]
+  },
+  {
+    "Id": 541015,
+    "GroupId": 5400015,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1303,
+    "Level": 60,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 3,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+    ],
+    "TrailWeapon": 21040560,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000224,
+        "Item2": 20034315
+      },
+      {
+        "Item1": 60000194,
+        "Item2": 20034215
+      },
+      {
+        "Item1": 60000124,
+        "Item2": 20034215
+      },
+      {
+        "Item1": 60000034,
+        "Item2": 20034115
+      },
+      {
+        "Item1": 60000234,
+        "Item2": 20034115
+      }
+    ]
+  },
+  {
+    "Id": 541016,
+    "GroupId": 5400016,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1204,
+    "Level": 60,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 3,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+    ],
+    "TrailWeapon": 21030560,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000324,
+        "Item2": 20024315
+      },
+      {
+        "Item1": 60000294,
+        "Item2": 20024215
+      },
+      {
+        "Item1": 60000354,
+        "Item2": 20024215
+      },
+      {
+        "Item1": 60000064,
+        "Item2": 20024115
+      },
+      {
+        "Item1": 60000364,
+        "Item2": 20024115
+      }
+    ]
+  },
+  {
+    "Id": 541017,
+    "GroupId": 5400017,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1102,
+    "Level": 60,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 3,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+    ],
+    "TrailWeapon": 21020560,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000444,
+        "Item2": 20014315
+      },
+      {
+        "Item1": 60000494,
+        "Item2": 20014215
+      },
+      {
+        "Item1": 60000314,
+        "Item2": 20014215
+      },
+      {
+        "Item1": 60000104,
+        "Item2": 20014115
+      },
+      {
+        "Item1": 60000144,
+        "Item2": 20014115
+      }
+    ]
+  },
+  {
+    "Id": 541018,
+    "GroupId": 5400018,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1403,
+    "Level": 60,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 3,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+    ],
+    "TrailWeapon": 21030560,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000434,
+        "Item2": 20044315
+      },
+      {
+        "Item1": 60000134,
+        "Item2": 20044215
+      },
+      {
+        "Item1": 60000404,
+        "Item2": 20044215
+      },
+      {
+        "Item1": 60000084,
+        "Item2": 20044115
+      },
+      {
+        "Item1": 60000234,
+        "Item2": 20044115
+      }
+    ]
+  },
+  {
+    "Id": 5200060,
+    "GroupId": 5200060,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1305,
+    "Level": 50,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 2,
+    "UnlockSkillNodeList": [
+      8
+    ],
+    "TrailWeapon": 21401350,
+    "PhantomEquipList": null
+  },
+  {
+    "Id": 5200061,
+    "GroupId": 5200061,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1305,
+    "Level": 60,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 3,
+    "UnlockSkillNodeList": [
+      8,
+      4
+    ],
+    "TrailWeapon": 21401360,
+    "PhantomEquipList": null
+  },
+  {
+    "Id": 5200062,
+    "GroupId": 5200062,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1305,
+    "Level": 70,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 5,
+    "UnlockSkillNodeList": [
+      8,
+      4
+    ],
+    "TrailWeapon": 21401370,
+    "PhantomEquipList": null
+  },
+  {
+    "Id": 5200063,
+    "GroupId": 5200063,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1305,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 7,
+    "UnlockSkillNodeList": [
+      8,
+      4
+    ],
+    "TrailWeapon": 21401380,
+    "PhantomEquipList": null
+  },
+  {
+    "Id": 5200064,
+    "GroupId": 5200064,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1105,
+    "Level": 50,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 2,
+    "UnlockSkillNodeList": [
+      8
+    ],
+    "TrailWeapon": 21050350,
+    "PhantomEquipList": null
+  },
+  {
+    "Id": 5200065,
+    "GroupId": 5200065,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1105,
+    "Level": 60,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 3,
+    "UnlockSkillNodeList": [
+      8,
+      4
+    ],
+    "TrailWeapon": 21050360,
+    "PhantomEquipList": null
+  },
+  {
+    "Id": 5200066,
+    "GroupId": 5200066,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1105,
+    "Level": 70,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 5,
+    "UnlockSkillNodeList": [
+      8,
+      4
+    ],
+    "TrailWeapon": 21050370,
+    "PhantomEquipList": null
+  },
+  {
+    "Id": 5200067,
+    "GroupId": 5200067,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1105,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 7,
+    "UnlockSkillNodeList": [
+      8,
+      4
+    ],
+    "TrailWeapon": 21050380,
+    "PhantomEquipList": null
+  },
+  {
+    "Id": 14028007,
+    "GroupId": 14021007,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1402,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 8,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21020580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000235,
+        "Item2": 20045125
+      },
+      {
+        "Item1": 60000435,
+        "Item2": 20045325
+      },
+      {
+        "Item1": 60000135,
+        "Item2": 20045225
+      },
+      {
+        "Item1": 60000405,
+        "Item2": 20045225
+      },
+      {
+        "Item1": 60000085,
+        "Item2": 20045125
+      }
+    ]
+  },
+  {
+    "Id": 12028007,
+    "GroupId": 12021007,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1202,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 8,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21030580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000365,
+        "Item2": 20025125
+      },
+      {
+        "Item1": 60000325,
+        "Item2": 20025325
+      },
+      {
+        "Item1": 60000295,
+        "Item2": 20025225
+      },
+      {
+        "Item1": 60000355,
+        "Item2": 20025225
+      },
+      {
+        "Item1": 60000065,
+        "Item2": 20025125
+      }
+    ]
+  },
+  {
+    "Id": 15038007,
+    "GroupId": 15031007,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1503,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 8,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21050580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000375,
+        "Item2": 20075325
+      },
+      {
+        "Item1": 60000245,
+        "Item2": 20075225
+      },
+      {
+        "Item1": 60000185,
+        "Item2": 20075225
+      },
+      {
+        "Item1": 60000255,
+        "Item2": 20075125
+      },
+      {
+        "Item1": 60000085,
+        "Item2": 20075125
+      }
+    ]
+  },
+  {
+    "Id": 15018007,
+    "GroupId": 15011007,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1501,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 8,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21020580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000455,
+        "Item2": 20055325
+      },
+      {
+        "Item1": 60000245,
+        "Item2": 20055225
+      },
+      {
+        "Item1": 60000135,
+        "Item2": 20055225
+      },
+      {
+        "Item1": 60000075,
+        "Item2": 20055125
+      },
+      {
+        "Item1": 60000165,
+        "Item2": 20055125
+      }
+    ]
+  },
+  {
+    "Id": 11028007,
+    "GroupId": 11021007,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1102,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 8,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21020580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000445,
+        "Item2": 20015325
+      },
+      {
+        "Item1": 60000495,
+        "Item2": 20015225
+      },
+      {
+        "Item1": 60000315,
+        "Item2": 20015225
+      },
+      {
+        "Item1": 60000105,
+        "Item2": 20015125
+      },
+      {
+        "Item1": 60000145,
+        "Item2": 20015125
+      }
+    ]
+  },
+  {
+    "Id": 16018007,
+    "GroupId": 16011007,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1601,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 8,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21010580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000425,
+        "Item2": 10085325
+      },
+      {
+        "Item1": 60000205,
+        "Item2": 16085225
+      },
+      {
+        "Item1": 60000315,
+        "Item2": 16085225
+      },
+      {
+        "Item1": 60000095,
+        "Item2": 10085125
+      },
+      {
+        "Item1": 60000305,
+        "Item2": 10085125
+      }
+    ]
+  },
+  {
+    "Id": 15028007,
+    "GroupId": 15021007,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1502,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 8,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21020580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000425,
+        "Item2": 20065325
+      },
+      {
+        "Item1": 60000205,
+        "Item2": 20065225
+      },
+      {
+        "Item1": 60000315,
+        "Item2": 20065225
+      },
+      {
+        "Item1": 60000095,
+        "Item2": 20065125
+      },
+      {
+        "Item1": 60000305,
+        "Item2": 20065125
+      }
+    ]
+  },
+  {
+    "Id": 11038007,
+    "GroupId": 11031007,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1103,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 8,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21050580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000375,
+        "Item2": 20075325
+      },
+      {
+        "Item1": 60000245,
+        "Item2": 20075225
+      },
+      {
+        "Item1": 60000185,
+        "Item2": 20075225
+      },
+      {
+        "Item1": 60000255,
+        "Item2": 20075125
+      },
+      {
+        "Item1": 60000085,
+        "Item2": 20075125
+      }
+    ]
+  },
+  {
+    "Id": 12038007,
+    "GroupId": 12031007,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1203,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 8,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21050580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000325,
+        "Item2": 20025325
+      },
+      {
+        "Item1": 60000295,
+        "Item2": 20025225
+      },
+      {
+        "Item1": 60000355,
+        "Item2": 20025225
+      },
+      {
+        "Item1": 60000065,
+        "Item2": 20025125
+      },
+      {
+        "Item1": 60000365,
+        "Item2": 20025125
+      }
+    ]
+  },
+  {
+    "Id": 16028007,
+    "GroupId": 16021007,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1602,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 8,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21020580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000175,
+        "Item2": 20065125
+      },
+      {
+        "Item1": 60000425,
+        "Item2": 20065325
+      },
+      {
+        "Item1": 60000205,
+        "Item2": 20065225
+      },
+      {
+        "Item1": 60000315,
+        "Item2": 20065225
+      },
+      {
+        "Item1": 60000095,
+        "Item2": 20065125
+      }
+    ]
+  },
+  {
+    "Id": 14038007,
+    "GroupId": 14031007,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1403,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 8,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21030580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000135,
+        "Item2": 20045225
+      },
+      {
+        "Item1": 60000435,
+        "Item2": 20045325
+      },
+      {
+        "Item1": 60000405,
+        "Item2": 20045225
+      },
+      {
+        "Item1": 60000085,
+        "Item2": 20045125
+      },
+      {
+        "Item1": 60000235,
+        "Item2": 20045125
+      }
+    ]
+  },
+  {
+    "Id": 14048007,
+    "GroupId": 14041007,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1404,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 8,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21010580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000085,
+        "Item2": 20045125
+      },
+      {
+        "Item1": 60000435,
+        "Item2": 20045325
+      },
+      {
+        "Item1": 60000135,
+        "Item2": 20045225
+      },
+      {
+        "Item1": 60000405,
+        "Item2": 20045225
+      },
+      {
+        "Item1": 60000235,
+        "Item2": 20045125
+      }
+    ]
+  },
+  {
+    "Id": 12048007,
+    "GroupId": 12041007,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1204,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 8,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21030580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000065,
+        "Item2": 20025125
+      },
+      {
+        "Item1": 60000325,
+        "Item2": 20025325
+      },
+      {
+        "Item1": 60000295,
+        "Item2": 20025225
+      },
+      {
+        "Item1": 60000355,
+        "Item2": 20025225
+      },
+      {
+        "Item1": 60000365,
+        "Item2": 20025125
+      }
+    ]
+  },
+  {
+    "Id": 13018007,
+    "GroupId": 13011007,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1301,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 8,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21010580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000225,
+        "Item2": 20035325
+      },
+      {
+        "Item1": 60000195,
+        "Item2": 20035225
+      },
+      {
+        "Item1": 60000125,
+        "Item2": 20035225
+      },
+      {
+        "Item1": 60000035,
+        "Item2": 20035125
+      },
+      {
+        "Item1": 60000235,
+        "Item2": 20035125
+      }
+    ]
+  },
+  {
+    "Id": 13028007,
+    "GroupId": 13021007,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1302,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 8,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21050580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000395,
+        "Item2": 20035325
+      },
+      {
+        "Item1": 60000195,
+        "Item2": 20035225
+      },
+      {
+        "Item1": 60000125,
+        "Item2": 20035225
+      },
+      {
+        "Item1": 60000035,
+        "Item2": 20035125
+      },
+      {
+        "Item1": 60000235,
+        "Item2": 20035125
+      }
+    ]
+  },
+  {
+    "Id": 11048007,
+    "GroupId": 11041007,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1104,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 8,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21040580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000445,
+        "Item2": 20015325
+      },
+      {
+        "Item1": 60000495,
+        "Item2": 20015225
+      },
+      {
+        "Item1": 60000315,
+        "Item2": 20015225
+      },
+      {
+        "Item1": 60000105,
+        "Item2": 20015125
+      },
+      {
+        "Item1": 60000145,
+        "Item2": 20015125
+      }
+    ]
+  },
+  {
+    "Id": 13038007,
+    "GroupId": 13031007,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1303,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 8,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21040580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000395,
+        "Item2": 10085325
+      },
+      {
+        "Item1": 60000195,
+        "Item2": 13085225
+      },
+      {
+        "Item1": 60000125,
+        "Item2": 13085225
+      },
+      {
+        "Item1": 60000035,
+        "Item2": 10085125
+      },
+      {
+        "Item1": 60000235,
+        "Item2": 10085125
+      }
+    ]
+  },
+  {
+    "Id": 14058007,
+    "GroupId": 14051007,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1405,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 8,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21040580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000435,
+        "Item2": 20045325
+      },
+      {
+        "Item1": 60000135,
+        "Item2": 20045225
+      },
+      {
+        "Item1": 60000405,
+        "Item2": 20045225
+      },
+      {
+        "Item1": 60000085,
+        "Item2": 20045125
+      },
+      {
+        "Item1": 60000235,
+        "Item2": 20045125
+      }
+    ]
+  },
+  {
+    "Id": 13048007,
+    "GroupId": 13041007,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1304,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 8,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21501180,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000595,
+        "Item2": 20055325
+      },
+      {
+        "Item1": 60000245,
+        "Item2": 20055225
+      },
+      {
+        "Item1": 60000135,
+        "Item2": 20055225
+      },
+      {
+        "Item1": 60000075,
+        "Item2": 20055125
+      },
+      {
+        "Item1": 60000165,
+        "Item2": 20055125
+      }
+    ]
+  },
+  {
+    "Id": 12058007,
+    "GroupId": 12051007,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1205,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 8,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21501280,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000295,
+        "Item2": 20025225
+      },
+      {
+        "Item1": 60000325,
+        "Item2": 20025325
+      },
+      {
+        "Item1": 60000355,
+        "Item2": 20025225
+      },
+      {
+        "Item1": 60000065,
+        "Item2": 20025125
+      },
+      {
+        "Item1": 60000365,
+        "Item2": 20025125
+      }
+    ]
+  },
+  {
+    "Id": 11058007,
+    "GroupId": 11051007,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1105,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 8,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 5580001,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000565,
+        "Item2": 20015225
+      },
+      {
+        "Item1": 60000445,
+        "Item2": 20015325
+      },
+      {
+        "Item1": 60000315,
+        "Item2": 20015225
+      },
+      {
+        "Item1": 60000105,
+        "Item2": 20015125
+      },
+      {
+        "Item1": 60000145,
+        "Item2": 20015125
+      }
+    ]
+  },
+  {
+    "Id": 13058007,
+    "GroupId": 13051007,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1305,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 8,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 5480001,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000235,
+        "Item2": 20035125
+      },
+      {
+        "Item1": 60000225,
+        "Item2": 20035325
+      },
+      {
+        "Item1": 60000195,
+        "Item2": 20035225
+      },
+      {
+        "Item1": 60000125,
+        "Item2": 20035225
+      },
+      {
+        "Item1": 60000035,
+        "Item2": 20035125
+      }
+    ]
+  },
+  {
+    "Id": 13052001,
+    "GroupId": 13052001,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1305,
+    "Level": 20,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 1,
+    "UnlockSkillNodeList": [
+      8
+    ],
+    "TrailWeapon": 5420001,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000222,
+        "Item2": 20032301
+      }
+    ]
+  },
+  {
+    "Id": 13054001,
+    "GroupId": 13052001,
+    "WorldLevel": 2,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1305,
+    "Level": 40,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 2,
+    "UnlockSkillNodeList": [
+      8,
+      4
+    ],
+    "TrailWeapon": 5440001,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000222,
+        "Item2": 20032309
+      },
+      {
+        "Item1": 60000192,
+        "Item2": 20032209
+      },
+      {
+        "Item1": 60000122,
+        "Item2": 20032209
+      },
+      {
+        "Item1": 60000032,
+        "Item2": 20032109
+      },
+      {
+        "Item1": 60000232,
+        "Item2": 20032109
+      }
+    ]
+  },
+  {
+    "Id": 13055001,
+    "GroupId": 13052001,
+    "WorldLevel": 3,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1305,
+    "Level": 50,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 3,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      9,
+      10
+    ],
+    "TrailWeapon": 5450001,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000224,
+        "Item2": 20034313
+      },
+      {
+        "Item1": 60000194,
+        "Item2": 20034213
+      },
+      {
+        "Item1": 60000124,
+        "Item2": 20034213
+      },
+      {
+        "Item1": 60000034,
+        "Item2": 20034113
+      },
+      {
+        "Item1": 60000234,
+        "Item2": 20034113
+      }
+    ]
+  },
+  {
+    "Id": 13056001,
+    "GroupId": 13052001,
+    "WorldLevel": 4,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1305,
+    "Level": 60,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 3,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+    ],
+    "TrailWeapon": 5460001,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000224,
+        "Item2": 20034315
+      },
+      {
+        "Item1": 60000194,
+        "Item2": 20034215
+      },
+      {
+        "Item1": 60000124,
+        "Item2": 20034215
+      },
+      {
+        "Item1": 60000034,
+        "Item2": 20034115
+      },
+      {
+        "Item1": 60000234,
+        "Item2": 20034115
+      }
+    ]
+  },
+  {
+    "Id": 13057001,
+    "GroupId": 13052001,
+    "WorldLevel": 5,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1305,
+    "Level": 70,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 5,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 5470001,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000225,
+        "Item2": 20035318
+      },
+      {
+        "Item1": 60000195,
+        "Item2": 20035218
+      },
+      {
+        "Item1": 60000125,
+        "Item2": 20035218
+      },
+      {
+        "Item1": 60000035,
+        "Item2": 20035118
+      },
+      {
+        "Item1": 60000235,
+        "Item2": 20035118
+      }
+    ]
+  },
+  {
+    "Id": 13058001,
+    "GroupId": 13052001,
+    "WorldLevel": 6,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1305,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 7,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 5480001,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000225,
+        "Item2": 20035320
+      },
+      {
+        "Item1": 60000195,
+        "Item2": 20035220
+      },
+      {
+        "Item1": 60000125,
+        "Item2": 20035220
+      },
+      {
+        "Item1": 60000035,
+        "Item2": 20035120
+      },
+      {
+        "Item1": 60000235,
+        "Item2": 20035120
+      }
+    ]
+  },
+  {
+    "Id": 13059001,
+    "GroupId": 13052001,
+    "WorldLevel": 7,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1305,
+    "Level": 90,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 10,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 5490001,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000225,
+        "Item2": 20035325
+      },
+      {
+        "Item1": 60000195,
+        "Item2": 20035225
+      },
+      {
+        "Item1": 60000125,
+        "Item2": 20035225
+      },
+      {
+        "Item1": 60000035,
+        "Item2": 20035125
+      },
+      {
+        "Item1": 60000235,
+        "Item2": 20035125
+      }
+    ]
+  },
+  {
+    "Id": 12022005,
+    "GroupId": 12022005,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1202,
+    "Level": 20,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 1,
+    "UnlockSkillNodeList": [
+      8
+    ],
+    "TrailWeapon": 21030320,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000292,
+        "Item2": 20022201
+      }
+    ]
+  },
+  {
+    "Id": 12024005,
+    "GroupId": 12022005,
+    "WorldLevel": 2,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1202,
+    "Level": 40,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 2,
+    "UnlockSkillNodeList": [
+      8,
+      4
+    ],
+    "TrailWeapon": 21030440,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000322,
+        "Item2": 20022309
+      },
+      {
+        "Item1": 60000292,
+        "Item2": 20022209
+      },
+      {
+        "Item1": 60000352,
+        "Item2": 20022209
+      },
+      {
+        "Item1": 60000062,
+        "Item2": 20022109
+      },
+      {
+        "Item1": 60000362,
+        "Item2": 20022109
+      }
+    ]
+  },
+  {
+    "Id": 12025005,
+    "GroupId": 12022005,
+    "WorldLevel": 3,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1202,
+    "Level": 50,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 3,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      9,
+      10
+    ],
+    "TrailWeapon": 21030450,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000324,
+        "Item2": 20024313
+      },
+      {
+        "Item1": 60000294,
+        "Item2": 20024213
+      },
+      {
+        "Item1": 60000354,
+        "Item2": 20024213
+      },
+      {
+        "Item1": 60000064,
+        "Item2": 20024113
+      },
+      {
+        "Item1": 60000364,
+        "Item2": 20024113
+      }
+    ]
+  },
+  {
+    "Id": 12026005,
+    "GroupId": 12022005,
+    "WorldLevel": 4,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1202,
+    "Level": 60,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 3,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+    ],
+    "TrailWeapon": 21030560,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000324,
+        "Item2": 20024315
+      },
+      {
+        "Item1": 60000294,
+        "Item2": 20024215
+      },
+      {
+        "Item1": 60000354,
+        "Item2": 20024215
+      },
+      {
+        "Item1": 60000064,
+        "Item2": 20024115
+      },
+      {
+        "Item1": 60000364,
+        "Item2": 20024115
+      }
+    ]
+  },
+  {
+    "Id": 12027005,
+    "GroupId": 12022005,
+    "WorldLevel": 5,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1202,
+    "Level": 70,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 5,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21030570,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000325,
+        "Item2": 20025318
+      },
+      {
+        "Item1": 60000295,
+        "Item2": 20025218
+      },
+      {
+        "Item1": 60000355,
+        "Item2": 20025218
+      },
+      {
+        "Item1": 60000065,
+        "Item2": 20025118
+      },
+      {
+        "Item1": 60000365,
+        "Item2": 20025118
+      }
+    ]
+  },
+  {
+    "Id": 12028005,
+    "GroupId": 12022005,
+    "WorldLevel": 6,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1202,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 7,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21310580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000325,
+        "Item2": 20025320
+      },
+      {
+        "Item1": 60000295,
+        "Item2": 20025220
+      },
+      {
+        "Item1": 60000355,
+        "Item2": 20025220
+      },
+      {
+        "Item1": 60000065,
+        "Item2": 20025120
+      },
+      {
+        "Item1": 60000365,
+        "Item2": 20025120
+      }
+    ]
+  },
+  {
+    "Id": 12029005,
+    "GroupId": 12022005,
+    "WorldLevel": 7,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1202,
+    "Level": 90,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 10,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21310590,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000325,
+        "Item2": 20025325
+      },
+      {
+        "Item1": 60000295,
+        "Item2": 20025225
+      },
+      {
+        "Item1": 60000355,
+        "Item2": 20025225
+      },
+      {
+        "Item1": 60000065,
+        "Item2": 20025125
+      },
+      {
+        "Item1": 60000365,
+        "Item2": 20025125
+      }
+    ]
+  },
+  {
+    "Id": 541019,
+    "GroupId": 5400019,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1402,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 7,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21020580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000435,
+        "Item2": 20045320
+      },
+      {
+        "Item1": 60000135,
+        "Item2": 20045220
+      },
+      {
+        "Item1": 60000405,
+        "Item2": 20045220
+      },
+      {
+        "Item1": 60000085,
+        "Item2": 20045120
+      },
+      {
+        "Item1": 60000235,
+        "Item2": 20045120
+      }
+    ]
+  },
+  {
+    "Id": 541020,
+    "GroupId": 5400020,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1402,
+    "Level": 70,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 5,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21020570,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000435,
+        "Item2": 20045318
+      },
+      {
+        "Item1": 60000135,
+        "Item2": 20045218
+      },
+      {
+        "Item1": 60000405,
+        "Item2": 20045218
+      },
+      {
+        "Item1": 60000085,
+        "Item2": 20045118
+      },
+      {
+        "Item1": 60000235,
+        "Item2": 20045118
+      }
+    ]
+  },
+  {
+    "Id": 541021,
+    "GroupId": 5400021,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1402,
+    "Level": 60,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 3,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+    ],
+    "TrailWeapon": 21020560,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000435,
+        "Item2": 20045315
+      },
+      {
+        "Item1": 60000135,
+        "Item2": 20045215
+      },
+      {
+        "Item1": 60000405,
+        "Item2": 20045215
+      },
+      {
+        "Item1": 60000085,
+        "Item2": 20045115
+      },
+      {
+        "Item1": 60000235,
+        "Item2": 20045115
+      }
+    ]
+  },
+  {
+    "Id": 541022,
+    "GroupId": 5400022,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1202,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 7,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21030580,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000325,
+        "Item2": 20025320
+      },
+      {
+        "Item1": 60000295,
+        "Item2": 20025220
+      },
+      {
+        "Item1": 60000355,
+        "Item2": 20025220
+      },
+      {
+        "Item1": 60000065,
+        "Item2": 20025120
+      },
+      {
+        "Item1": 60000365,
+        "Item2": 20025120
+      }
+    ]
+  },
+  {
+    "Id": 541023,
+    "GroupId": 5400023,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1202,
+    "Level": 70,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 5,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21030570,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000325,
+        "Item2": 20025318
+      },
+      {
+        "Item1": 60000295,
+        "Item2": 20025218
+      },
+      {
+        "Item1": 60000355,
+        "Item2": 20025218
+      },
+      {
+        "Item1": 60000065,
+        "Item2": 20025118
+      },
+      {
+        "Item1": 60000365,
+        "Item2": 20025118
+      }
+    ]
+  },
+  {
+    "Id": 541024,
+    "GroupId": 5400024,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1202,
+    "Level": 60,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 3,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+    ],
+    "TrailWeapon": 21030560,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000325,
+        "Item2": 20025315
+      },
+      {
+        "Item1": 60000295,
+        "Item2": 20025215
+      },
+      {
+        "Item1": 60000355,
+        "Item2": 20025215
+      },
+      {
+        "Item1": 60000065,
+        "Item2": 20025115
+      },
+      {
+        "Item1": 60000365,
+        "Item2": 20025115
+      }
+    ]
+  },
+  {
+    "Id": 1008010,
+    "GroupId": 1008010,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1305,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 7,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 5480001,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000225,
+        "Item2": 20035320
+      },
+      {
+        "Item1": 60000195,
+        "Item2": 20035220
+      },
+      {
+        "Item1": 60000125,
+        "Item2": 20035220
+      },
+      {
+        "Item1": 60000035,
+        "Item2": 20035120
+      },
+      {
+        "Item1": 60000235,
+        "Item2": 20035120
+      }
+    ]
+  },
+  {
+    "Id": 1008011,
+    "GroupId": 1008011,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1502,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 7,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21210590,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000455,
+        "Item2": 20055320
+      },
+      {
+        "Item1": 60000245,
+        "Item2": 20055220
+      },
+      {
+        "Item1": 60000135,
+        "Item2": 20055220
+      },
+      {
+        "Item1": 60000075,
+        "Item2": 20055120
+      },
+      {
+        "Item1": 60000165,
+        "Item2": 20055120
+      }
+    ]
+  },
+  {
+    "Id": 1008012,
+    "GroupId": 1008012,
+    "WorldLevel": 1,
+    "OnlyTrial": false,
+    "HideTrialLabel": false,
+    "ParentId": 1501,
+    "Level": 80,
+    "ResonanceLevel": 0,
+    "UnlockSkillLevel": 7,
+    "UnlockSkillNodeList": [
+      8,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "TrailWeapon": 21210590,
+    "PhantomEquipList": [
+      {
+        "Item1": 60000455,
+        "Item2": 20055320
+      },
+      {
+        "Item1": 60000245,
+        "Item2": 20055220
+      },
+      {
+        "Item1": 60000135,
+        "Item2": 20055220
+      },
+      {
+        "Item1": 60000075,
+        "Item2": 20055120
+      },
+      {
+        "Item1": 60000165,
+        "Item2": 20055120
       }
     ]
   }

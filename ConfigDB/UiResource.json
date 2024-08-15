@@ -267,7 +267,7 @@
   {
     "Id": "UiView_JoinTeam_Prefab",
     "Path": "/Game/Aki/UI/UIResources/UiNewRole/Prefabs/UiItem_NewRole_Prefab.UiItem_NewRole_Prefab",
-    "PcPath": ""
+    "PcPath": "/Game/Aki/UI/UIResources/UiNewRole/Prefabs/PC/PC_UiItem_NewRole_Prefab.PC_UiItem_NewRole_Prefab"
   },
   {
     "Id": "UiView_Marquee_Prefab",
@@ -1786,17 +1786,17 @@
   },
   {
     "Id": "Online1PIcon",
-    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/SP_CommonBtnIcon45.SP_CommonBtnIcon45",
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Atlas/SP_FightIconOnline1.SP_FightIconOnline1",
     "PcPath": ""
   },
   {
     "Id": "Online2PIcon",
-    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/SP_CommonBtnIcon45.SP_CommonBtnIcon45",
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Atlas/SP_FightIconOnline1.SP_FightIconOnline1",
     "PcPath": ""
   },
   {
     "Id": "Online3PIcon",
-    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/SP_CommonBtnIcon45.SP_CommonBtnIcon45",
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Atlas/SP_FightIconOnline1.SP_FightIconOnline1",
     "PcPath": ""
   },
   {
@@ -2042,7 +2042,7 @@
   {
     "Id": "UiView_ComboTeaching",
     "Path": "/Game/Aki/UI/UIResources/UiFight/Prefabs/UiView_Moves.UiView_Moves",
-    "PcPath": ""
+    "PcPath": "/Game/Aki/UI/UIResources/UiFight/Prefabs/PC/PC_UiView_Moves.PC_UiView_Moves"
   },
   {
     "Id": "UiView_TaskTips_Prefab",
@@ -2066,13 +2066,13 @@
   },
   {
     "Id": "UiItem_OnlineChallengeState_Prefab",
-    "Path": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/UiItem_CheckpointsTiaoZhan.UiItem_CheckpointsTiaoZhan",
-    "PcPath": ""
+    "Path": "/Game/Aki/UI/UIResources/UiOnline/Prefabs/UiItem_ChallengeAgainPopup.UiItem_ChallengeAgainPopup",
+    "PcPath": "/Game/Aki/UI/UIResources/UiOnline/Prefabs/PC/PC_UiItem_ChallengeAgainPopup.PC_UiItem_ChallengeAgainPopup"
   },
   {
     "Id": "UiView_OnlineDeath_Prefab",
     "Path": "/Game/Aki/UI/UIResources/UiTips/Prefabs/UiView_OlineFailed_Prefab.UiView_OlineFailed_Prefab",
-    "PcPath": ""
+    "PcPath": "/Game/Aki/UI/UIResources/UiTips/Prefabs/PC/PC_UiView_OlineFailed_Prefab.PC_UiView_OlineFailed_Prefab"
   },
   {
     "Id": "ContinuingChallengeAccept",
@@ -3072,7 +3072,7 @@
   {
     "Id": "UiItem_SettlementToggle",
     "Path": "/Game/Aki/UI/UIResources/UiDailyTower/Prefabs/UiItem_SettlementFail.UiItem_SettlementFail",
-    "PcPath": ""
+    "PcPath": "/Game/Aki/UI/UIResources/UiDailyTower/Prefabs/PC/PC_UiItem_SettlementFail.PC_UiItem_SettlementFail"
   },
   {
     "Id": "UiItem_Settlement",
@@ -6015,6 +6015,51 @@
     "PcPath": "/Game/Aki/UI/UIResources/UiSing/Prefabs/PC/PC_UiView_Collect.PC_UiView_Collect"
   },
   {
+    "Id": "UiView_ChasingMoonMain",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiView_ChasingMoonMain.UiView_ChasingMoonMain",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ChasingMoon/PC_UiView_ChasingMoonMain.PC_UiView_ChasingMoonMain"
+  },
+  {
+    "Id": "UiView_EntrustMain",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiView_EntrustMain.UiView_EntrustMain",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ChasingMoon/PC_UiView_EntrustMain.PC_UiView_EntrustMain"
+  },
+  {
+    "Id": "UiItem_EntrustQuest",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiItem_EntrustQuest.UiItem_EntrustQuest",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ChasingMoon/PC_UiItem_EntrustQuest.PC_UiItem_EntrustQuest"
+  },
+  {
+    "Id": "UiItem_EntrustCharacterRoleList",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiItem_EntrustCharacterRoleList.UiItem_EntrustCharacterRoleList",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ChasingMoon/PC_UiItem_EntrustCharacterRoleList.PC_UiItem_EntrustCharacterRoleList"
+  },
+  {
+    "Id": "UiView_EntrustTipTravel",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiView_EntrustTipTravel.UiView_EntrustTipTravel",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ChasingMoon/PC_UiView_EntrustTipTravel.PC_UiView_EntrustTipTravel"
+  },
+  {
+    "Id": "UiView_EntrustTipTravelBurst",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiView_EntrustTipTravelBurst.UiView_EntrustTipTravelBurst",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ChasingMoon/PC_UiView_EntrustTipTravelBurst.PC_UiView_EntrustTipTravelBurst"
+  },
+  {
+    "Id": "UiView_EntrustTipTravelResult",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiView_EntrustTipTravelResult.UiView_EntrustTipTravelResult",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ChasingMoon/PC_UiView_EntrustTipTravelResult.PC_UiView_EntrustTipTravelResult"
+  },
+  {
+    "Id": "UiView_EntrustTipTravelRecord",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiView_EntrustTipTravelRecord.UiView_EntrustTipTravelRecord",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ChasingMoon/PC_UiView_EntrustTipTravelRecord.PC_UiView_EntrustTipTravelRecord"
+  },
+  {
+    "Id": "UiView_EntrustTipTravelRecordB",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiView_EntrustTipTravelRecordB.UiView_EntrustTipTravelRecordB",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ChasingMoon/PC_UiView_EntrustTipTravelRecordB.PC_UiView_EntrustTipTravelRecordB"
+  },
+  {
     "Id": "UiItem_RogueScore",
     "Path": "/Game/Aki/UI/UIResources/UiFight/Prefabs/UiItem_RogueScore.UiItem_RogueScore",
     "PcPath": ""
@@ -6160,6 +6205,171 @@
     "PcPath": "/Game/Aki/UI/UIResources/UiSkillswitching/Prefabs/PC/PC_UiItem_ExploreMission.PC_UiItem_ExploreMission"
   },
   {
+    "Id": "UiItem_BuildItem",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiItem_BuildItem.UiItem_BuildItem",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_1_1",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_1_01.ChasingMoonMap_1_01",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_1_2",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_1_02.ChasingMoonMap_1_02",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_1_3",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_1_03.ChasingMoonMap_1_03",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_1_4",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_1_04.ChasingMoonMap_1_04",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_1_5",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_1_05.ChasingMoonMap_1_05",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_1_6",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_1_06.ChasingMoonMap_1_06",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_1_7",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_1_07.ChasingMoonMap_1_07",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_1_8",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_1_08.ChasingMoonMap_1_08",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_2_1",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_2_01.ChasingMoonMap_2_01",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_2_2",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_2_02.ChasingMoonMap_2_02",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_2_3",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_2_03.ChasingMoonMap_2_03",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_2_4",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_2_04.ChasingMoonMap_2_04",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_2_5",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_2_05.ChasingMoonMap_2_05",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_2_6",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_2_06.ChasingMoonMap_2_06",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_2_7",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_2_07.ChasingMoonMap_2_07",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_2_8",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_2_08.ChasingMoonMap_2_08",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_3_1",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_3_01.ChasingMoonMap_3_01",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_3_2",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_3_02.ChasingMoonMap_3_02",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_3_3",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_3_03.ChasingMoonMap_3_03",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_3_4",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_3_04.ChasingMoonMap_3_04",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_3_5",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_3_05.ChasingMoonMap_3_05",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_3_6",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_3_06.ChasingMoonMap_3_06",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_3_7",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_3_07.ChasingMoonMap_3_07",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_3_8",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_3_08.ChasingMoonMap_3_08",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_4_1",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_4_01.ChasingMoonMap_4_01",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_4_2",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_4_02.ChasingMoonMap_4_02",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_4_3",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_4_03.ChasingMoonMap_4_03",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_4_4",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_4_04.ChasingMoonMap_4_04",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_4_5",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_4_05.ChasingMoonMap_4_05",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_4_6",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_4_06.ChasingMoonMap_4_06",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_4_7",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_4_07.ChasingMoonMap_4_07",
+    "PcPath": ""
+  },
+  {
+    "Id": "ChasingMoonMap_4_8",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonMap/ChasingMoonMap_4_08.ChasingMoonMap_4_08",
+    "PcPath": ""
+  },
+  {
     "Id": "SP_TurntableNormal_Index01",
     "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Turntable/SP_NumB01.SP_NumB01",
     "PcPath": ""
@@ -6230,6 +6440,11 @@
     "PcPath": ""
   },
   {
+    "Id": "UiView_BuildTipRole",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiView_BuildTipRole.UiView_BuildTipRole",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ChasingMoon/PC_UiView_BuildTipRole.PC_UiView_BuildTipRole"
+  },
+  {
     "Id": "UiView_BreakthroughPreView",
     "Path": "/Game/Aki/UI/UIResources/UiTips/Prefabs/UiView_BreakthroughPreView.UiView_BreakthroughPreView",
     "PcPath": "/Game/Aki/UI/UIResources/UiTips/Prefabs/PC/PC_UiView_BreakthroughPreView.PC_UiView_BreakthroughPreView"
@@ -6243,6 +6458,21 @@
     "Id": "UiView_MascotTips",
     "Path": "/Game/Aki/UI/UIResources/UiTips/Prefabs/UiView_MascotTips.UiView_MascotTips",
     "PcPath": ""
+  },
+  {
+    "Id": "UiView_ChasingMoonMission",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiView_ChasingMoonMission.UiView_ChasingMoonMission",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ChasingMoon/PC_UiView_ChasingMoonMission.PC_UiView_ChasingMoonMission"
+  },
+  {
+    "Id": "UiItem_MissionMainLine",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiItem_MissionMainLine.UiItem_MissionMainLine",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ChasingMoon/PC_UiItem_MissionMainLine.PC_UiItem_MissionMainLine"
+  },
+  {
+    "Id": "UiItem_MissionBranchLine",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiItem_MissionBranchLine.UiItem_MissionBranchLine",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ChasingMoon/PC_UiItem_MissionBranchLine.PC_UiItem_MissionBranchLine"
   },
   {
     "Id": "T_YellowArrowDown",
@@ -6300,6 +6530,26 @@
     "PcPath": ""
   },
   {
+    "Id": "UiView_ChasingMoonHandbook",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiView_ChasingMoonHandbook.UiView_ChasingMoonHandbook",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ChasingMoon/PC_UiView_ChasingMoonHandbook.PC_UiView_ChasingMoonHandbook"
+  },
+  {
+    "Id": "UiView_ChasingMoonShop",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiView_ChasingMoonShop.UiView_ChasingMoonShop",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ChasingMoon/PC_UiView_ChasingMoonShop.PC_UiView_ChasingMoonShop"
+  },
+  {
+    "Id": "UiItem_ShopMission",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiItem_ShopMission.UiItem_ShopMission",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ChasingMoon/PC_UiItem_ShopMission.PC_UiItem_ShopMission"
+  },
+  {
+    "Id": "MoonChasing_UiItem_ShopItem",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiItem_ShopItem.UiItem_ShopItem",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ChasingMoon/PC_UiItem_ShopItem.PC_UiItem_ShopItem"
+  },
+  {
     "Id": "SP_MarkSleep",
     "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Atlas/SP_MarkInvisible.SP_MarkInvisible",
     "PcPath": ""
@@ -6328,6 +6578,16 @@
     "Id": "UiItem_Eavesdrop",
     "Path": "/Game/Aki/UI/UIResources/UiFight/Prefabs/UiItem_Eavesdrop.UiItem_Eavesdrop",
     "PcPath": ""
+  },
+  {
+    "Id": "UiView_ChasingMoonMemory",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiView_MemoryMain.UiView_MemoryMain",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ChasingMoon/PC_UiView_MemoryMain.PC_UiView_MemoryMain"
+  },
+  {
+    "Id": "UiView_ChasingMoonMemoryDetail",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiView_MemoryData.UiView_MemoryData",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ChasingMoon/PC_UiView_MemoryData.PC_UiView_MemoryData"
   },
   {
     "Id": "RoguelikeSettleRateRedBg",
@@ -6400,14 +6660,79 @@
     "PcPath": ""
   },
   {
+    "Id": "UiView_SelectSingleVision",
+    "Path": "/Game/Aki/UI/UIResources/UiTeam/Prefabs/UiView_SelectSingleVision.UiView_SelectSingleVision",
+    "PcPath": "/Game/Aki/UI/UIResources/UiTeam/Prefabs/PC/PC_UiView_SelectSingleVision.PC_UiView_SelectSingleVision"
+  },
+  {
+    "Id": "UiItem_ActivityTD",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityTD/UiItem_ActivityTD.UiItem_ActivityTD",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityTD/PC_UiItem_ActivityTD.PC_UiItem_ActivityTD"
+  },
+  {
+    "Id": "UiView_BuildItemProgress",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiView_BuildItemProgress.UiView_BuildItemProgress",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ChasingMoon/PC_UiView_BuildItemProgress.PC_UiView_BuildItemProgress"
+  },
+  {
+    "Id": "UiView_BuildItemInfo",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiView_BuildItemInfo.UiView_BuildItemInfo",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ChasingMoon/PC_UiView_BuildItemInfo.PC_UiView_BuildItemInfo"
+  },
+  {
+    "Id": "UiItem_ActivityMoonChasingMain",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiItem_ActivityChasingMoonActivityMain.UiItem_ActivityChasingMoonActivityMain",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ChasingMoon/PC_UiItem_ActivityChasingMoonActivityMain.PC_UiItem_ActivityChasingMoonActivityMain"
+  },
+  {
+    "Id": "UiView_WaveTips",
+    "Path": "/Game/Aki/UI/UIResources/UiTips/Prefabs/UiView_WaveTips.UiView_WaveTips",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_HoverTipsD",
+    "Path": "/Game/Aki/UI/UIResources/UiTips/Prefabs/UiItem_HoverTipsD.UiItem_HoverTipsD",
+    "PcPath": "/Game/Aki/UI/UIResources/UiTips/Prefabs/PC/PC_UiItem_HoverTipsD.PC_UiItem_HoverTipsD"
+  },
+  {
+    "Id": "UiItem_ChallengeAgain",
+    "Path": "/Game/Aki/UI/UIResources/UiTips/Prefabs/UiItem_ChallengeAgain.UiItem_ChallengeAgain",
+    "PcPath": ""
+  },
+  {
     "Id": "ActivityRoleGuide_1205",
     "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityRoleGuide/UiItem_RoleChangli.UiItem_RoleChangli",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_TipsScreenTips",
+    "Path": "/Game/Aki/UI/UIResources/UiItemSelect/Prefabs/UiItem_ScreenTips.UiItem_ScreenTips",
+    "PcPath": "/Game/Aki/UI/UIResources/UiItemSelect/Prefabs/PC/PC_UiItem_ScreenTips.PC_UiItem_ScreenTips"
+  },
+  {
+    "Id": "T_BuildItemBUnlock",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonBuild/T_BuildItemBUnlock.T_BuildItemBUnlock",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_RoleTalk",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiItem_RoleTalk.UiItem_RoleTalk",
+    "PcPath": ""
+  },
+  {
+    "Id": "ActivitySignIn_1_1",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivitySignIn/UiItem_LongshanSignInAin.UiItem_LongshanSignInAin",
     "PcPath": ""
   },
   {
     "Id": "SP_MarkBlock",
     "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Atlas/SP_MarkBlock.SP_MarkBlock",
     "PcPath": ""
+  },
+  {
+    "Id": "UiItem_ItemTips1",
+    "Path": "/Game/Aki/UI/UIResources/UiItemSelect/Prefabs/UiItem_ItemTips1.UiItem_ItemTips1",
+    "PcPath": "/Game/Aki/UI/UIResources/UiItemSelect/Prefabs/PC/PC_UiItem_ItemTips1.PC_UiItem_ItemTips1"
   },
   {
     "Id": "UiItem_ActivityTimePointReward",
@@ -6435,8 +6760,543 @@
     "PcPath": ""
   },
   {
+    "Id": "UiItem_ItemRogueRoleType",
+    "Path": "/Game/Aki/UI/UIResources/Common/Prefabs/Item/UiItem_ItemRogueRoleType.UiItem_ItemRogueRoleType",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_Card",
+    "Path": "/Game/Aki/UI/UIResources/UiIndividualization/Prefabs/UiView_Card.UiView_Card",
+    "PcPath": "/Game/Aki/UI/UIResources/UiIndividualization/Prefabs/PC/PC_UiView_Card.PC_UiView_Card"
+  },
+  {
+    "Id": "UiView_CardPreview",
+    "Path": "/Game/Aki/UI/UIResources/UiIndividualization/Prefabs/UiView_CardPreview.UiView_CardPreview",
+    "PcPath": "/Game/Aki/UI/UIResources/UiIndividualization/Prefabs/PC/PC_UiView_CardPreview.PC_UiView_CardPreview"
+  },
+  {
+    "Id": "SP_TagRed",
+    "Path": "/Game/Aki/UI/UIResources/UiTeam/Atlas/SP_TagRed.SP_TagRed",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_TagYellow",
+    "Path": "/Game/Aki/UI/UIResources/UiTeam/Atlas/SP_TagYellow.SP_TagYellow",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_TagGreen",
+    "Path": "/Game/Aki/UI/UIResources/UiTeam/Atlas/SP_TagGreen.SP_TagGreen",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_IconT35",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconT35.SP_IconT35",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_IconT36",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconT36.SP_IconT36",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_RoleArchives",
+    "Path": "/Game/Aki/UI/UIResources/UiFunc/Prefabs/UiView_RoleArchives.UiView_RoleArchives",
+    "PcPath": "/Game/Aki/UI/UIResources/UiFunc/Prefabs/PC/PC_UiView_RoleArchives.PC_UiView_RoleArchives"
+  },
+  {
+    "Id": "UiView_SwitchType",
+    "Path": "/Game/Aki/UI/UIResources/UiSet/Prefabs/UiView_SwitchType.UiView_SwitchType",
+    "PcPath": "/Game/Aki/UI/UIResources/UiSet/Prefabs/PC/PC_UiView_SwitchType.PC_UiView_SwitchType"
+  },
+  {
+    "Id": "UiItem_ActivityRogueC",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityRogue/UiItem_ActivityRogueC.UiItem_ActivityRogueC",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityRogue/PC_UiItem_ActivityRogueC.PC_UiItem_ActivityRogueC"
+  },
+  {
+    "Id": "UiView_CircumfluenceStar",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Circumfluence/UiView_CircumfluenceStar.UiView_CircumfluenceStar",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Circumfluence/PC_UiView_CircumfluenceStar.PC_UiView_CircumfluenceStar"
+  },
+  {
+    "Id": "UiView_CircumfluenceMain",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Circumfluence/UiView_CircumfluenceMain.UiView_CircumfluenceMain",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Circumfluence/PC_UiView_CircumfluenceMain.PC_UiView_CircumfluenceMain"
+  },
+  {
+    "Id": "UiItem_ActivityLoopTower",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityLoopTower/UiItem_ActivityLoopTower.UiItem_ActivityLoopTower",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityLoopTower/PC_UiItem_ActivityLoopTower.PC_UiItem_ActivityLoopTower"
+  },
+  {
+    "Id": "SP_SwitchType1",
+    "Path": "/Game/Aki/UI/UIResources/UiSet/Atlas/SP_SwitchType1.SP_SwitchType1",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_SwitchType2",
+    "Path": "/Game/Aki/UI/UIResources/UiSet/Atlas/SP_SwitchType2.SP_SwitchType2",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_AcquireSkill",
+    "Path": "/Game/Aki/UI/UIResources/UiAcquire/Prefabs/UiItem_AcquireSkill.UiItem_AcquireSkill",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_SignalDeviceChasingMoon",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Prefabs/UiLinkingGameChasingMoon/UiView_LinkingGameCM.UiView_LinkingGameCM",
+    "PcPath": "/Game/Aki/UI/UIResources/UiLevel/Prefabs/PC/UiLinkingGameChasingMoon/PC_UiView_LinkingGameCM.PC_UiView_LinkingGameCM"
+  },
+  {
+    "Id": "UiItem_LinkingDotCM",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Prefabs/UiLinkingGameChasingMoon/UiItem_LinkingCMDot.UiItem_LinkingCMDot",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_LinkLineACM",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Prefabs/UiLinkingGameChasingMoon/UiItem_LinkCMLineA.UiItem_LinkCMLineA",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_LinkLineBCM",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Prefabs/UiLinkingGameChasingMoon/UiItem_LinkCMLineB.UiItem_LinkCMLineB",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_LinkLineCCM",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Prefabs/UiLinkingGameChasingMoon/UiItem_LinkCMLineC.UiItem_LinkCMLineC",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_LinkLineDCM",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Prefabs/UiLinkingGameChasingMoon/UiItem_LinkCMLineD.UiItem_LinkCMLineD",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_LinkLineECM",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Prefabs/UiLinkingGameChasingMoon/UiItem_LinkCMLineE.UiItem_LinkCMLineE",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_DotBlueCM",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_DotCMBlue.SP_DotCMBlue",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_DotBlueLightCM",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_DotCMBlueLight.SP_DotCMBlueLight",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_DotGreenCM",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_DotCMGreen.SP_DotCMGreen",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_DotGreenLightCM",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_DotCMGreenLight.SP_DotCMGreenLight",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_DotRedCM",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_DotCMRed.SP_DotCMRed",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_DotRedLightCM",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_DotCMRedLight.SP_DotCMRedLight",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_DotYellowCM",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_DotCMYellow.SP_DotCMYellow",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_DotYellowLightCM",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_DotCMYellowLight.SP_DotCMYellowLight",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_CornerBlueCM",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_CornerCMBlue.SP_CornerCMBlue",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_CornerGreenCM",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_CornerCMGreen.SP_CornerCMGreen",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_CornerRedCM",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_CornerCMRed.SP_CornerCMRed",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_CornerYellowCM",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_CornerCMYellow.SP_CornerCMYellow",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_SpotBlueCM",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_SpotCMBlue.SP_SpotCMBlue",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_SpotGreenCM",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_SpotCMGreen.SP_SpotCMGreen",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_SpotRedCM",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_SpotCMRed.SP_SpotCMRed",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_SpotYellowCM",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_SpotCMYellow.SP_SpotCMYellow",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_LineBlueCM",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_LineCMBlue.SP_LineCMBlue",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_LineGreenCM",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_LineCMGreen.SP_LineCMGreen",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_LineRedCM",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_LineCMRed.SP_LineCMRed",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_LineYellowCM",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_LineCMYellow.SP_LineCMYellow",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_AnimLineBlue",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_AnimLineBlue.SP_AnimLineBlue",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_AnimLineGreen",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_AnimLineGreen.SP_AnimLineGreen",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_AnimLineRed",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_AnimLineRed.SP_AnimLineRed",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_AnimLineYellow",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_AnimLineYellow.SP_AnimLineYellow",
+    "PcPath": ""
+  },
+  {
+    "Id": "EntrustTipsBgBigSuccess",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/EntrustTipsBg/EntrustTipsBgBigSuccess.EntrustTipsBgBigSuccess",
+    "PcPath": ""
+  },
+  {
+    "Id": "EntrustTipsBgNoPromotion",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/EntrustTipsBg/EntrustTipsBgNoPromotion.EntrustTipsBgNoPromotion",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_RoomSelect",
+    "Path": "/Game/Aki/UI/UIResources/UiRogue/Prefabs/UiView_RoomSelect.UiView_RoomSelect",
+    "PcPath": "/Game/Aki/UI/UIResources/UiRogue/Prefabs/PC/PC_UiView_RoomSelect.PC_UiView_RoomSelect"
+  },
+  {
+    "Id": "UiItem_TowerBar",
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Prefabs/UiItem_TowerBar.UiItem_TowerBar",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_ActivityCircumfluenceMain",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Circumfluence/UiItem_ActivityCircumfluenceMain.UiItem_ActivityCircumfluenceMain",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Circumfluence/PC_UiItem_ActivityCircumfluenceMain.PC_UiItem_ActivityCircumfluenceMain"
+  },
+  {
+    "Id": "UiView_RoleList",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiView_RoleList.UiView_RoleList",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ChasingMoon/PC_UiView_RoleList.PC_UiView_RoleList"
+  },
+  {
+    "Id": "UiItem_CircumfluenceSignin",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Circumfluence/UiItem_CircumfluenceSignin.UiItem_CircumfluenceSignin",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Circumfluence/PC_UiItem_CircumfluenceSignin.PC_UiItem_CircumfluenceSignin"
+  },
+  {
+    "Id": "UiItem_CircumfluenceMission",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Circumfluence/UiItem_CircumfluenceMission.UiItem_CircumfluenceMission",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Circumfluence/PC_UiItem_CircumfluenceMission.PC_UiItem_CircumfluenceMission"
+  },
+  {
+    "Id": "UiItem_CircumfluenceArea",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/Circumfluence/UiItem_CircumfluenceArea.UiItem_CircumfluenceArea",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/Circumfluence/PC_UiItem_CircumfluenceArea.PC_UiItem_CircumfluenceArea"
+  },
+  {
+    "Id": "UiItem_BarSlot_1105",
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Prefabs/EnergyBar/UiItem_BarSlot_1105.UiItem_BarSlot_1105",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_TogPointNorLock",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/ChasingMoon/SP_TogPointNorLock.SP_TogPointNorLock",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_TogPointNor",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/ChasingMoon/SP_TogPointNor.SP_TogPointNor",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_TogPointMaxNor",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/ChasingMoon/SP_TogPointMaxNor.SP_TogPointMaxNor",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_Summarize",
+    "Path": "/Game/Aki/UI/UIResources/UiPlot/Prefabs/UiView_Summarize.UiView_Summarize",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_CircumfluenceSignInBg",
+    "Path": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_CircumfluenceSignInBg.T_CircumfluenceSignInBg",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_PayPopup",
+    "Path": "/Game/Aki/UI/UIResources/UiPS/Prefabs/UiView_PayPopup.UiView_PayPopup",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_PSLoad",
+    "Path": "/Game/Aki/UI/UIResources/UiPS/Prefabs/UiView_PSLoad.UiView_PSLoad",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_PSLogin",
+    "Path": "/Game/Aki/UI/UIResources/UiPS/Prefabs/UiView_PSLogin.UiView_PSLogin",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_PSProtocol",
+    "Path": "/Game/Aki/UI/UIResources/UiPS/Prefabs/UiView_PSProtocol.UiView_PSProtocol",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_PSTips",
+    "Path": "/Game/Aki/UI/UIResources/UiPS/Prefabs/UiView_PSTips.UiView_PSTips",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_Plot_Zhezhi01_F",
+    "Path": "/Game/Aki/UI/UIResources/UiPlot/Prefabs/Zhuiyue/UiItem_Plot_Zhezhi01_F.UiItem_Plot_Zhezhi01_F",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_Plot_Zhezhi01_M",
+    "Path": "/Game/Aki/UI/UIResources/UiPlot/Prefabs/Zhuiyue/UiItem_Plot_Zhezhi01_M.UiItem_Plot_Zhezhi01_M",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_SuoDingArrow",
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Prefabs/UiItem_SuoDingArrow.UiItem_SuoDingArrow",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_AnimDotBlue",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_SpotCMBlue.SP_SpotCMBlue",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_AnimDotGreen",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_SpotCMGreen.SP_SpotCMGreen",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_AnimDotRed",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_SpotCMRed.SP_SpotCMRed",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_AnimDotYellow",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_SpotCMYellow.SP_SpotCMYellow",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_DigitalScreenA",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Prefabs/DigitalScreen/UiView_DigitalScreenA.UiView_DigitalScreenA",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_DigitalScreenB",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Prefabs/DigitalScreen/UiView_DigitalScreenB.UiView_DigitalScreenB",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_ChasingMoonIcon1",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_ChasingMoonIcon1.SP_ChasingMoonIcon1",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_ChasingMoonIcon2",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_ChasingMoonIcon2.SP_ChasingMoonIcon2",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_ChasingMoonIcon3",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_ChasingMoonIcon3.SP_ChasingMoonIcon3",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_ChasingMoonIcon4",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_ChasingMoonIcon4.SP_ChasingMoonIcon4",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_ChasingMoonIcon5",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_ChasingMoonIcon5.SP_ChasingMoonIcon5",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_ChasingMoonIcon6",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_ChasingMoonIcon6.SP_ChasingMoonIcon6",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_ChasingMoonIcon7",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_ChasingMoonIcon7.SP_ChasingMoonIcon7",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_ChasingMoonIcon8",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_ChasingMoonIcon8.SP_ChasingMoonIcon8",
+    "PcPath": ""
+  },
+  {
     "Id": "UiItem_SafeZoneUnitNode_Prefab",
     "Path": "/Game/Aki/UI/Framework/LGUI/SafeZoneUnitNode.SafeZoneUnitNode",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_EntrustTipFavor",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiView_EntrustTipFavor.UiView_EntrustTipFavor",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ChasingMoon/PC_UiView_EntrustTipFavor.PC_UiView_EntrustTipFavor"
+  },
+  {
+    "Id": "UiView_GachaPoolDetailView_Prefab",
+    "Path": "/Game/Aki/UI/UIResources/UiLuckdraw/Prefabs/UiItem_TipProbability.UiItem_TipProbability",
+    "PcPath": "/Game/Aki/UI/UIResources/UiLuckdraw/Prefabs/PC/PC_UiItem_TipProbability.PC_UiItem_TipProbability"
+  },
+  {
+    "Id": "T_BuildItemBLock",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ChasingMoon/ChasingMoonBuild/T_BuildItemBLock.T_BuildItemBLock",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_GridBgCMBlue",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_GridBgCMBlue.SP_GridBgCMBlue",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_GridBgCMGreen",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_GridBgCMGreen.SP_GridBgCMGreen",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_GridBgCMRed",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_GridBgCMRed.SP_GridBgCMRed",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_GridBgCMYellow",
+    "Path": "/Game/Aki/UI/UIResources/UiLevel/Atlas/UiLinkingGameChasingMoon/SP_GridBgCMYellow.SP_GridBgCMYellow",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_ActivityUnlockTip_MoonChasing",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ChasingMoon/UiItem_ChasingMoonOpenTip.UiItem_ChasingMoonOpenTip",
+    "PcPath": ""
+  },
+  {
+    "Id": "TogTabCName",
+    "Path": "/Game/Aki/UI/UIResources/Common/Prefabs/Toggle/TogTabCName.TogTabCName",
+    "PcPath": "/Game/Aki/UI/UIResources/Common/Prefabs/PC/Toggle/PC_TogTabCName.PC_TogTabCName"
+  },
+  {
+    "Id": "UiItem_Plot_Xiangliyao01_F",
+    "Path": "/Game/Aki/UI/UIResources/UiPlot/Prefabs/Zhuiyue/UiItem_Plot_Xiangliyao01_F.UiItem_Plot_Xiangliyao01_F",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_Plot_Xiangliyao01_M",
+    "Path": "/Game/Aki/UI/UIResources/UiPlot/Prefabs/Zhuiyue/UiItem_Plot_Xiangliyao01_M.UiItem_Plot_Xiangliyao01_M",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_FuncIconRoleC",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Circumfluence/SP_FuncIconRoleC.SP_FuncIconRoleC",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_CircumfluenceIconyeqianA",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Circumfluence/SP_CircumfluenceIconyeqianA.SP_CircumfluenceIconyeqianA",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_CircumfluenceIconyeqianB",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/Circumfluence/SP_CircumfluenceIconyeqianB.SP_CircumfluenceIconyeqianB",
+    "PcPath": ""
+  },
+  {
+    "Id": "ActivitySignIn_1_2",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivitySignIn/UiItem_ZhuiyueSignIn.UiItem_ZhuiyueSignIn",
+    "PcPath": ""
+  },
+  {
+    "Id": "ActivityRoleGuide_1105",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityRoleGuide/UiItem_RoleZhezhi.UiItem_RoleZhezhi",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_OnlineApplyUILayer_Prefab",
+    "Path": "/Game/Aki/UI/UIResources/UiOnline/Prefabs/UiItem_OnlineApplyUILayer_Prefab.UiItem_OnlineApplyUILayer_Prefab",
+    "PcPath": "/Game/Aki/UI/UIResources/UiOnline/Prefabs/PC/PC_UiItem_OnlineApplyUILayer_Prefab.PC_UiItem_OnlineApplyUILayer_Prefab"
+  },
+  {
+    "Id": "UiItem_RogueSilentAreaFloatTips",
+    "Path": "/Game/Aki/UI/UIResources/UiTacetfield/Prefabs/UiItem_TacetfieldWPurple.UiItem_TacetfieldWPurple",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_ActivityRoleXiangliyao",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/RoleActivityXiangliyao/UiItem_ActivityRoleXiangliyao.UiItem_ActivityRoleXiangliyao",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/RoleActivityXiangliyao/PC_UiItem_ActivityRoleXiangliyao.PC_UiItem_ActivityRoleXiangliyao"
+  },
+  {
+    "Id": "SP_TogPointUnLock",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/ChasingMoon/SP_TogPointUnLock.SP_TogPointUnLock",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_IconPcBtn_Mouse2_UI",
+    "Path": "/Game/Aki/UI/UIResources/Common/Image/UiIconPcBtn/T_IconPcBtn_Mouse2_UI.T_IconPcBtn_Mouse2_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_IconPcBtn_XboxR2_UI",
+    "Path": "/Game/Aki/UI/UIResources/Common/Image/UiIconPcBtn/T_IconPcBtn_XboxR2_UI.T_IconPcBtn_XboxR2_UI",
     "PcPath": ""
   }
 ]

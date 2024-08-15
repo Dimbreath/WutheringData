@@ -1402,5 +1402,18 @@
     "EndDistance": 50.0,
     "Sampling": 0.0,
     "ContainZ": false
+  },
+  {
+    "Id": 400150001,
+    "CirclePatrol": true,
+    "PathSpline": "",
+    "IsNavigation": true,
+    "StartIndex": 0,
+    "LimitNpcDistance": 1000.0,
+    "TurnSpeed": 180.0,
+    "Loop": true,
+    "EndDistance": 500.0,
+    "Sampling": 50.0,
+    "ContainZ": true
   }
 ]

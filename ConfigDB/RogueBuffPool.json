@@ -3109,28 +3109,28 @@
   },
   {
     "Id": 8007,
-    "BuffId": 919990001402,
+    "BuffId": 919990001302,
     "PerIds": null,
     "EffectId": 0,
     "PerkType": 5,
     "Quality": 5,
     "BuffElement": [
       {
-        "Key": 4,
+        "Key": 3,
         "Value": 2
       }
     ],
-    "BuffIcon": "/Game/Aki/UI/UIResources/Common/Image/IconRup/T_IconRup_Part_1402_UI.T_IconRup_Part_1402_UI",
-    "BuffDesc": "RogueBuffPool_1402_BuffDesc",
+    "BuffIcon": "/Game/Aki/UI/UIResources/Common/Image/IconRup/T_IconRup_Part_1302_UI.T_IconRup_Part_1302_UI",
+    "BuffDesc": "RogueBuffPool_1302_BuffDesc",
     "BuffDescParam": null,
-    "BuffDescSimple": "RogueBuffPool_1402_BuffDesc_0",
-    "BuffName": "RogueBuffPool_1402_BuffName",
-    "RoleId": 1402,
-    "TrialRoleId": 0
+    "BuffDescSimple": "RogueBuffPool_1302_BuffDesc_0",
+    "BuffName": "RogueBuffPool_1302_BuffName",
+    "RoleId": 1302,
+    "TrialRoleId": 5200002
   },
   {
     "Id": 8008,
-    "BuffId": 919990001202,
+    "BuffId": 919990001405,
     "PerIds": null,
     "EffectId": 0,
     "PerkType": 5,
@@ -3141,33 +3141,243 @@
         "Value": 2
       }
     ],
-    "BuffIcon": "/Game/Aki/UI/UIResources/Common/Image/IconRup/T_IconRup_Part_1202_UI.T_IconRup_Part_1202_UI",
-    "BuffDesc": "RogueBuffPool_1202_BuffDesc",
+    "BuffIcon": "/Game/Aki/UI/UIResources/Common/Image/IconRup/T_IconRup_Part_1405_UI.T_IconRup_Part_1405_UI",
+    "BuffDesc": "RogueBuffPool_1405_BuffDesc",
     "BuffDescParam": null,
-    "BuffDescSimple": "RogueBuffPool_1202_BuffDesc_0",
-    "BuffName": "RogueBuffPool_1202_BuffName",
-    "RoleId": 1202,
-    "TrialRoleId": 0
+    "BuffDescSimple": "RogueBuffPool_1405_BuffDesc_0",
+    "BuffName": "RogueBuffPool_1405_BuffName",
+    "RoleId": 1405,
+    "TrialRoleId": 5200033
   },
   {
     "Id": 8009,
-    "BuffId": 919990001404,
+    "BuffId": 919990001103,
     "PerIds": null,
     "EffectId": 0,
     "PerkType": 5,
     "Quality": 5,
     "BuffElement": [
       {
+        "Key": 1,
+        "Value": 2
+      }
+    ],
+    "BuffIcon": "/Game/Aki/UI/UIResources/Common/Image/IconRup/T_IconRup_Part_1103_UI.T_IconRup_Part_1103_UI",
+    "BuffDesc": "RogueBuffPool_1103_BuffDesc",
+    "BuffDescParam": null,
+    "BuffDescSimple": "RogueBuffPool_1103_BuffDesc_0",
+    "BuffName": "RogueBuffPool_1103_BuffName",
+    "RoleId": 1103,
+    "TrialRoleId": 5200028
+  },
+  {
+    "Id": 1029,
+    "BuffId": 912312000020,
+    "PerIds": null,
+    "EffectId": 0,
+    "PerkType": 2,
+    "Quality": 3,
+    "BuffElement": [
+      {
+        "Key": 2,
+        "Value": 1
+      }
+    ],
+    "BuffIcon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_001_2_UI.T_IconTask_Task_001_2_UI",
+    "BuffDesc": "RogueBuffPool_912312000020_BuffDesc",
+    "BuffDescParam": null,
+    "BuffDescSimple": "RogueBuffPool_912312000020_BuffDesc_0",
+    "BuffName": "RogueBuffPool_912312000020_BuffName",
+    "RoleId": 0,
+    "TrialRoleId": 0
+  },
+  {
+    "Id": 2029,
+    "BuffId": 912312000060,
+    "PerIds": null,
+    "EffectId": 0,
+    "PerkType": 2,
+    "Quality": 4,
+    "BuffElement": [
+      {
+        "Key": 3,
+        "Value": 2
+      }
+    ],
+    "BuffIcon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_022_UI.T_IconTask_Task_022_UI",
+    "BuffDesc": "RogueBuffPool_912312000060_BuffDesc",
+    "BuffDescParam": null,
+    "BuffDescSimple": "RogueBuffPool_912312000060_BuffDesc_0",
+    "BuffName": "RogueBuffPool_912312000060_BuffName",
+    "RoleId": 0,
+    "TrialRoleId": 0
+  },
+  {
+    "Id": 2030,
+    "BuffId": 912312000030,
+    "PerIds": null,
+    "EffectId": 0,
+    "PerkType": 2,
+    "Quality": 3,
+    "BuffElement": [
+      {
+        "Key": 3,
+        "Value": 1
+      }
+    ],
+    "BuffIcon": "/Game/Aki/UI/UIResources/Common/Image/IconRouge/T_IconRouge_025_UI.T_IconRouge_025_UI",
+    "BuffDesc": "RogueBuffPool_912312000030_BuffDesc",
+    "BuffDescParam": null,
+    "BuffDescSimple": "RogueBuffPool_912312000030_BuffDesc_0",
+    "BuffName": "RogueBuffPool_912312000030_BuffName",
+    "RoleId": 0,
+    "TrialRoleId": 0
+  },
+  {
+    "Id": 3028,
+    "BuffId": 912312000040,
+    "PerIds": null,
+    "EffectId": 0,
+    "PerkType": 2,
+    "Quality": 3,
+    "BuffElement": [
+      {
+        "Key": 1,
+        "Value": 1
+      }
+    ],
+    "BuffIcon": "/Game/Aki/UI/UIResources/Common/Image/IconC/T_IconC_SM_Gat_27A_UI.T_IconC_SM_Gat_27A_UI",
+    "BuffDesc": "RogueBuffPool_912312000040_BuffDesc",
+    "BuffDescParam": null,
+    "BuffDescSimple": "RogueBuffPool_912312000040_BuffDesc_0",
+    "BuffName": "RogueBuffPool_912312000040_BuffName",
+    "RoleId": 0,
+    "TrialRoleId": 0
+  },
+  {
+    "Id": 3030,
+    "BuffId": 912312000010,
+    "PerIds": null,
+    "EffectId": 0,
+    "PerkType": 2,
+    "Quality": 4,
+    "BuffElement": [
+      {
+        "Key": 1,
+        "Value": 2
+      }
+    ],
+    "BuffIcon": "/Game/Aki/UI/UIResources/Common/Image/IconTask/T_IconTask_Task_001_1_UI.T_IconTask_Task_001_1_UI",
+    "BuffDesc": "RogueBuffPool_912312000010_BuffDesc",
+    "BuffDescParam": null,
+    "BuffDescSimple": "RogueBuffPool_912312000010_BuffDesc_0",
+    "BuffName": "RogueBuffPool_912312000010_BuffName",
+    "RoleId": 0,
+    "TrialRoleId": 0
+  },
+  {
+    "Id": 4028,
+    "BuffId": 912312000071,
+    "PerIds": null,
+    "EffectId": 0,
+    "PerkType": 2,
+    "Quality": 5,
+    "BuffElement": [
+      {
+        "Key": 4,
+        "Value": 3
+      }
+    ],
+    "BuffIcon": "/Game/Aki/UI/UIResources/Common/Image/IconC/T_IconC_025_UI.T_IconC_025_UI",
+    "BuffDesc": "RogueBuffPool_912312000071_BuffDesc",
+    "BuffDescParam": null,
+    "BuffDescSimple": "RogueBuffPool_912312000071_BuffDesc_0",
+    "BuffName": "RogueBuffPool_912312000071_BuffName",
+    "RoleId": 0,
+    "TrialRoleId": 0
+  },
+  {
+    "Id": 4029,
+    "BuffId": 912312000070,
+    "PerIds": null,
+    "EffectId": 0,
+    "PerkType": 2,
+    "Quality": 4,
+    "BuffElement": [
+      {
         "Key": 4,
         "Value": 2
       }
     ],
-    "BuffIcon": "/Game/Aki/UI/UIResources/Common/Image/IconRup/T_IconRup_Part_1404_UI.T_IconRup_Part_1404_UI",
-    "BuffDesc": "RogueBuffPool_1404_BuffDesc",
+    "BuffIcon": "/Game/Aki/UI/UIResources/Common/Image/IconC/T_IconC_Sep_081_UI.T_IconC_Sep_081_UI",
+    "BuffDesc": "RogueBuffPool_912312000070_BuffDesc",
     "BuffDescParam": null,
-    "BuffDescSimple": "RogueBuffPool_1404_BuffDesc_0",
-    "BuffName": "RogueBuffPool_1404_BuffName",
-    "RoleId": 1404,
+    "BuffDescSimple": "RogueBuffPool_912312000070_BuffDesc_0",
+    "BuffName": "RogueBuffPool_912312000070_BuffName",
+    "RoleId": 0,
+    "TrialRoleId": 0
+  },
+  {
+    "Id": 4030,
+    "BuffId": 912312000050,
+    "PerIds": null,
+    "EffectId": 0,
+    "PerkType": 2,
+    "Quality": 4,
+    "BuffElement": [
+      {
+        "Key": 4,
+        "Value": 2
+      }
+    ],
+    "BuffIcon": "/Game/Aki/UI/UIResources/Common/Image/IconC/T_IconC_Sep_091_UI.T_IconC_Sep_091_UI",
+    "BuffDesc": "RogueBuffPool_912312000050_BuffDesc",
+    "BuffDescParam": null,
+    "BuffDescSimple": "RogueBuffPool_912312000050_BuffDesc_0",
+    "BuffName": "RogueBuffPool_912312000050_BuffName",
+    "RoleId": 0,
+    "TrialRoleId": 0
+  },
+  {
+    "Id": 4031,
+    "BuffId": 912312000072,
+    "PerIds": null,
+    "EffectId": 0,
+    "PerkType": 2,
+    "Quality": 3,
+    "BuffElement": [
+      {
+        "Key": 4,
+        "Value": 1
+      }
+    ],
+    "BuffIcon": "/Game/Aki/UI/UIResources/Common/Image/IconWup/T_IconWup_Setpup_001_1_UI.T_IconWup_Setpup_001_1_UI",
+    "BuffDesc": "RogueBuffPool_912312000072_BuffDesc",
+    "BuffDescParam": null,
+    "BuffDescSimple": "RogueBuffPool_912312000072_BuffDesc_0",
+    "BuffName": "RogueBuffPool_912312000072_BuffName",
+    "RoleId": 0,
+    "TrialRoleId": 0
+  },
+  {
+    "Id": 4032,
+    "BuffId": 912312000073,
+    "PerIds": null,
+    "EffectId": 0,
+    "PerkType": 2,
+    "Quality": 3,
+    "BuffElement": [
+      {
+        "Key": 4,
+        "Value": 1
+      }
+    ],
+    "BuffIcon": "/Game/Aki/UI/UIResources/Common/Image/IconWup/T_IconWup_Setpup_001_4_UI.T_IconWup_Setpup_001_4_UI",
+    "BuffDesc": "RogueBuffPool_912312000073_BuffDesc",
+    "BuffDescParam": null,
+    "BuffDescSimple": "RogueBuffPool_912312000073_BuffDesc_0",
+    "BuffName": "RogueBuffPool_912312000073_BuffName",
+    "RoleId": 0,
     "TrialRoleId": 0
   }
 ]
