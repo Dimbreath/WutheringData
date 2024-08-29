@@ -13381,7 +13381,7 @@
   },
   {
     "Key": "310000043_10",
-    "Data": "{\"Type\":\"ChildQuest\",\"Id\":10,\"Desc\":\"\",\"Condition\":{\"Type\":\"FinishDungeon\",\"Condition\":{\"Type\":\"DungeonId\",\"DungeonId\":8100,\"Count\":1}},\"TidTip\":\"Quest_310000043_ChildQuestTip_204_10\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Entities\",\"EntityIds\":[129000000]}},\"EnterActions\":[],\"FinishActions\":[]}"
+    "Data": "{\"Type\":\"ChildQuest\",\"Id\":10,\"Desc\":\"\",\"Condition\":{\"Type\":\"FinishDungeon\",\"Condition\":{\"Type\":\"DungeonId\",\"DungeonId\":8100,\"Count\":1}},\"TidTip\":\"Quest_310000043_ChildQuestTip_204_10\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Entities\",\"EntityIds\":[129000000]}},\"EnterActions\":[],\"FinishActions\":[],\"FixProcessor\":{\"FixActions\":[{\"Timing\":\"OnProgress\",\"Condition\":{\"Type\":0,\"Conditions\":[{\"Type\":\"CompareEntityState\",\"EntityId\":204900001,\"Compare\":\"Eq\",\"State\":\"关卡.Common.状态.完成\"}]},\"ThenActions\":[{\"Name\":\"ChangeEntityState\",\"Params\":{\"Type\":\"Directly\",\"EntityId\":204900001,\"State\":\"关卡.Common.状态.激活\"},\"ActionGuid\":\"d7b7bd017b3d419181f8a4f2d9248810\",\"ActionId\":3000005}]}]}}"
   },
   {
     "Key": "114000020_170",
@@ -13497,7 +13497,7 @@
   },
   {
     "Key": "310000043_11",
-    "Data": "{\"Type\":\"ChildQuest\",\"Id\":11,\"Desc\":\"\",\"Condition\":{\"Type\":\"DoInteract\",\"AddOptions\":[{\"EntityId\":310000733,\"Option\":{\"Guid\":\"b2c2b06a0604475794eb464f126b4beb\",\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_支线_中曲台地支线\",\"FlowId\":57,\"StateId\":1}},\"DoIntactType\":\"Direct\"}}]},\"TidTip\":\"Quest_310000043_ChildQuestTip_0_14\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Entities\",\"EntityIds\":[310000733]}},\"EnterActions\":[],\"FinishActions\":[{\"Name\":\"OpenSystemBoard\",\"Params\":{\"SystemType\":\"RogueActivityIntroduce\",\"BoardId\":0},\"ActionGuid\":\"c57c71f59c0c44dda3539f444004cc92\",\"ActionId\":3000006,\"Async\":true}],\"RewardId\":41119}"
+    "Data": "{\"Type\":\"ChildQuest\",\"Id\":11,\"Desc\":\"\",\"Condition\":{\"Type\":\"DoInteract\",\"AddOptions\":[{\"EntityId\":310000733,\"Option\":{\"Guid\":\"b2c2b06a0604475794eb464f126b4beb\",\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_支线_中曲台地支线\",\"FlowId\":57,\"StateId\":1}},\"DoIntactType\":\"Direct\"}}]},\"TidTip\":\"Quest_310000043_ChildQuestTip_0_14\",\"TrackTarget\":{\"TrackType\":{\"Type\":\"Entities\",\"EntityIds\":[310000733]}},\"EnterActions\":[],\"FinishActions\":[{\"Name\":\"OpenSystemBoard\",\"Params\":{\"SystemType\":\"RogueActivityIntroduce\",\"BoardId\":0},\"ActionGuid\":\"c57c71f59c0c44dda3539f444004cc92\",\"ActionId\":3000006,\"Async\":true}],\"RewardId\":41119,\"FixProcessor\":{\"FixActions\":[{\"Timing\":\"OnProgress\",\"Condition\":{\"Type\":0,\"Conditions\":[]},\"ThenActions\":[{\"Name\":\"SetVar\",\"Params\":{\"VarLeft\":{\"Type\":\"Boolean\",\"Source\":\"Global\",\"Keyword\":\"1_2_Wuwangzhe\"},\"VarRight\":{\"Type\":\"Boolean\",\"Source\":\"Constant\",\"Value\":false}},\"ActionGuid\":\"e4ce43ebfdcb4ba49aa4530bc7763eeb\",\"ActionId\":3000009},{\"Name\":\"SetVar\",\"Params\":{\"VarLeft\":{\"Type\":\"Boolean\",\"Source\":\"Global\",\"Keyword\":\"1_2_yincang\"},\"VarRight\":{\"Type\":\"Boolean\",\"Source\":\"Constant\",\"Value\":false}},\"ActionGuid\":\"7ea659b5b20a448cb5e93d85e30aadb8\",\"ActionId\":3000010}]}]}}"
   },
   {
     "Key": "121000035_1",
