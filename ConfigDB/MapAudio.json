@@ -2,11 +2,11 @@
   {
     "Id": 8,
     "Name": "AkiWorld_WP",
-    "Event": "map_world",
-    "EnterEvent": "map_world_enter",
-    "ExitEvent": "map_world_exit",
-    "ResetEvent": "map_world_reset",
-    "MusicResetEvent": "map_world_musicreset_deprecated"
+    "Event": "map_akiworld",
+    "EnterEvent": "map_akiworld_enter",
+    "ExitEvent": "map_akiworld_exit",
+    "ResetEvent": "map_akiworld_reset",
+    "MusicResetEvent": ""
   },
   {
     "Id": 40,
@@ -209,10 +209,10 @@
   {
     "Id": 2041,
     "Name": "InstanceTree_SuiGuang",
-    "Event": "map_boss_suiguang",
-    "EnterEvent": "map_boss_suiguang_enter",
-    "ExitEvent": "map_boss_suiguang_exit",
-    "ResetEvent": "map_boss_suiguang_reset",
+    "Event": "map_main_suiguang",
+    "EnterEvent": "map_main_suiguang_enter",
+    "ExitEvent": "map_main_suiguang_exit",
+    "ResetEvent": "map_main_suiguang_reset",
     "MusicResetEvent": ""
   },
   {
@@ -294,6 +294,69 @@
     "EnterEvent": "map_huodong_0102gecao_enter",
     "ExitEvent": "map_huodong_0102gecao_exit",
     "ResetEvent": "map_huodong_0102gecao_reset",
+    "MusicResetEvent": ""
+  },
+  {
+    "Id": 900,
+    "Name": "WP_HHA_Underground",
+    "Event": "map_wp_hhaunderground",
+    "EnterEvent": "map_wp_hhaunderground_enter",
+    "ExitEvent": "map_wp_hhaunderground_exit",
+    "ResetEvent": "",
+    "MusicResetEvent": ""
+  },
+  {
+    "Id": 1506,
+    "Name": "InstanceTree_HHA_Underground_Escape",
+    "Event": "map_main_hhaescape",
+    "EnterEvent": "map_main_hhaescape_enter",
+    "ExitEvent": "map_main_hhaescape_exit",
+    "ResetEvent": "",
+    "MusicResetEvent": ""
+  },
+  {
+    "Id": 1510,
+    "Name": "InstanceTree_HeiHaian_Portal",
+    "Event": "map_main_hhaportal",
+    "EnterEvent": "map_main_hhaportal_enter",
+    "ExitEvent": "map_main_hhaportal_exit",
+    "ResetEvent": "",
+    "MusicResetEvent": ""
+  },
+  {
+    "Id": 1512,
+    "Name": "InstanceTree_HeiHaian_Yuehui",
+    "Event": "map_main_hhayuehui",
+    "EnterEvent": "map_main_hhayuehui_enter",
+    "ExitEvent": "map_main_hhayuehui_exit",
+    "ResetEvent": "",
+    "MusicResetEvent": ""
+  },
+  {
+    "Id": 1007,
+    "Name": "InstanceTree_Anke_1",
+    "Event": "map_role_anke01",
+    "EnterEvent": "map_role_anke01_enter",
+    "ExitEvent": "map_role_anke01_exit",
+    "ResetEvent": "",
+    "MusicResetEvent": ""
+  },
+  {
+    "Id": 1008,
+    "Name": "InstanceTree_Anke_2",
+    "Event": "map_role_anke02",
+    "EnterEvent": "map_role_anke02_enter",
+    "ExitEvent": "map_role_anke02_exit",
+    "ResetEvent": "",
+    "MusicResetEvent": ""
+  },
+  {
+    "Id": 8180,
+    "Name": "InstanceTree_LJboss",
+    "Event": "map_huodong_ljboss",
+    "EnterEvent": "map_huodong_ljboss_enter",
+    "ExitEvent": "map_huodong_ljboss_exit",
+    "ResetEvent": "",
     "MusicResetEvent": ""
   },
   {

@@ -124,5 +124,14 @@
     "Maxforce": 10000.0,
     "MinimumPosteventForce": 30.0,
     "MinimumTimeBetweenAkevent": 0.20000000298023224
+  },
+  {
+    "CollisionMaterial": "Keystone",
+    "IsActiveImpacter": true,
+    "AudioEvent": "/Game/Aki/WwiseAudio/Events/play_interact_impact_glass.play_interact_impact_glass",
+    "ImpactMass": 30.0,
+    "Maxforce": 10000.0,
+    "MinimumPosteventForce": 30.0,
+    "MinimumTimeBetweenAkevent": 0.20000000298023224
   }
 ]

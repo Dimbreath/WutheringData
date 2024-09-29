@@ -229,5 +229,73 @@
     "TriggerType3": 0,
     "TriggerEffect3": 0,
     "TriggerEffectParams3": null
+  },
+  {
+    "Id": 8,
+    "InitValue": 18000,
+    "InitRecoveryRate": 0,
+    "InitMax": 18000,
+    "MarkTag": null,
+    "ResistTag": [
+      "关卡.滑水.能量值不衰减"
+    ],
+    "TriggerRange1": {
+      "Min": 0.0,
+      "Max": 200.0
+    },
+    "TriggerType1": 0,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": [
+      640010018
+    ],
+    "TriggerRange2": {
+      "Min": 9999.0,
+      "Max": 10000.0
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": null,
+    "TriggerRange3": {
+      "Min": 9999.0,
+      "Max": 10000.0
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": null
+  },
+  {
+    "Id": 9,
+    "InitValue": 0,
+    "InitRecoveryRate": 0,
+    "InitMax": 30000,
+    "MarkTag": null,
+    "ResistTag": null,
+    "TriggerRange1": {
+      "Min": 0.0,
+      "Max": 3334.0
+    },
+    "TriggerType1": 0,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": [
+      672020131
+    ],
+    "TriggerRange2": {
+      "Min": 3334.0,
+      "Max": 6666.0
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": [
+      672020132
+    ],
+    "TriggerRange3": {
+      "Min": 6666.0,
+      "Max": 10000.0
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": [
+      672020133
+    ]
   }
 ]

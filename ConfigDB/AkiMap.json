@@ -133,5 +133,20 @@
     "BigMapMaxScale": 0,
     "LittleMapDefaultScale": 100,
     "LimitContent": "limit()"
+  },
+  {
+    "MapId": 900,
+    "MapName": "黑海岸",
+    "FatherMap": 1,
+    "GroupMark": 2001,
+    "Floor": -1,
+    "SwitchCondition": "",
+    "MapPic3d": "",
+    "MapPic2d": "",
+    "BigMapDefaultScale": 200,
+    "BigMapMinScale": 180,
+    "BigMapMaxScale": 700,
+    "LittleMapDefaultScale": 150,
+    "LimitContent": "limit()"
   }
 ]

@@ -1051,5 +1051,14 @@
     "CodeOverride": "clear_resource all",
     "Sort": 13081,
     "Visible": true
+  },
+  {
+    "Id": 14041,
+    "Name": "传送到当前玩法追踪位置",
+    "NameOverride": "传送当前玩法追踪位置",
+    "Code": "TeleportToCurLevelPlayTrackPosition#当前活跃节点中的第X个",
+    "CodeOverride": "TeleportToCurLevelPlayTrackPosition#1",
+    "Sort": 14041,
+    "Visible": true
   }
 ]

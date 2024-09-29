@@ -1824,11 +1824,67 @@
     "Priority": 0
   },
   {
+    "TipsId": "QuestRangeFailWarning",
+    "TypeId": 4,
+    "TipsText": "GenericPrompt_QuestRangeFailWarning_TipsText",
+    "ExtraText": "",
+    "Duration": 0,
+    "Priority": 0
+  },
+  {
     "TipsId": "ExploreToolsShooterDisable",
     "TypeId": 9,
     "TipsText": "GenericPrompt_ExploreToolsShooterDisable_TipsText",
     "ExtraText": "",
     "Duration": 0,
+    "Priority": 0
+  },
+  {
+    "TipsId": "MowingRiskBuff",
+    "TypeId": 21,
+    "TipsText": "",
+    "ExtraText": "",
+    "Duration": 0,
+    "Priority": 0
+  },
+  {
+    "TipsId": "TowerDefenceRoleDie",
+    "TypeId": 9,
+    "TipsText": "TowerDefenceRoleDie",
+    "ExtraText": "",
+    "Duration": 3,
+    "Priority": 0
+  },
+  {
+    "TipsId": "TowerDefencePlayerRoleDie",
+    "TypeId": 9,
+    "TipsText": "TowerDefencePlayerRoleDie",
+    "ExtraText": "",
+    "Duration": 3,
+    "Priority": 0
+  },
+  {
+    "TipsId": "TowerDefencePlayerDie",
+    "TypeId": 9,
+    "TipsText": "TowerDefencePlayerDie",
+    "ExtraText": "",
+    "Duration": 3,
+    "Priority": 0
+  },
+  {
+    "TipsId": "MowingRiskActivityNotOpenForReward",
+    "TypeId": 9,
+    "TipsText": "RiskHarvest_ActivityEnd",
+    "ExtraText": "",
+    "Duration": 3,
+    "Priority": 0
+  },
+  {
+    "TipsId": "TowerDefenceActivityEnd",
+    "TypeId": 9,
+    "TipsText": "TowerDefenceActivityEnd",
+    "ExtraText": "",
+    "Duration": 3,
     "Priority": 0
   }
 ]

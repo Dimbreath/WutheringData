@@ -118,5 +118,29 @@
     "Desc": "1.2Boss首次倒地",
     "AddTag": "怪物.ML1QunnieMd00401.关卡.信号4",
     "FinishTag": "怪物.ML1QunnieMd00401.关卡.信号4"
+  },
+  {
+    "Id": 750001,
+    "Desc": "进入战斗",
+    "AddTag": "行为状态.逻辑状态.进入战斗",
+    "FinishTag": "行为状态.逻辑状态.进入战斗"
+  },
+  {
+    "Id": 750002,
+    "Desc": "讨伐报告用关卡回调",
+    "AddTag": "怪物.common.关卡.讨伐报告.关卡回调",
+    "FinishTag": "怪物.common.关卡.讨伐报告.关卡回调"
+  },
+  {
+    "Id": 750003,
+    "Desc": "谬误转阶段",
+    "AddTag": "怪物.ML1MiuwuMd00501.转阶段",
+    "FinishTag": "怪物.ML1MiuwuMd00501.转阶段"
+  },
+  {
+    "Id": 750004,
+    "Desc": "谬误进入战斗状态",
+    "AddTag": "怪物.ML1MiuwuMd00501.一阶段",
+    "FinishTag": "怪物.ML1MiuwuMd00501.一阶段"
   }
 ]

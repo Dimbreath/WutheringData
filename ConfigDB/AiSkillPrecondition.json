@@ -11590,5 +11590,89 @@
     },
     "NeedTag": "怪物.ME1ChuxingrenMd00601.狂暴状态",
     "NeedTarget": true
+  },
+  {
+    "Id": 70076011,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 2500.0
+    },
+    "AngleRange": {
+      "Min": -60.0,
+      "Max": 60.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -1500.0,
+      "Max": 1500.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 70076013,
+    "DistanceRange": {
+      "Min": -300.0,
+      "Max": 800.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 70076014,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 1200.0
+    },
+    "AngleRange": {
+      "Min": -90.0,
+      "Max": 90.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 70065804,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 400.0
+    },
+    "AngleRange": {
+      "Min": -90.0,
+      "Max": 90.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
   }
 ]

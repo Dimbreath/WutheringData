@@ -13792,5 +13792,812 @@
     ],
     "PhantomType": 2,
     "ParentMonsterId": 0
+  },
+  {
+    "ItemId": 60100115,
+    "MonsterId": 391070076,
+    "MonsterName": "MonsterInfo_350000100_Name",
+    "ElementType": [
+      1
+    ],
+    "LevelUpGroupId": 4,
+    "SkillId": 200026,
+    "CalabashBuffs": [
+      70045
+    ],
+    "Rarity": 0,
+    "MeshId": 201026,
+    "Zoom": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Rotator": [
+      0.0,
+      0.0,
+      20.0
+    ],
+    "StandAnim": "/Game/Aki/Character/Monster/Ordinary/MO1GuguhetunMd00201/CommonAnim/Stand2.Stand2",
+    "TypeDescription": "PhantomItem_60000012_TypeDescription",
+    "AttributesDescription": "PhantomItem_60000012_AttributesDescription",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_115_1_UI.T_IconMonsterHead_115_1_UI",
+    "IconMiddle": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods160/T_IconMonsterGoods160_111_1_UI.T_IconMonsterGoods160_111_1_UI",
+    "IconSmall": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods80/T_IconMonsterGoods80_111_1_UI.T_IconMonsterGoods80_111_1_UI",
+    "Mesh": "/Game/Aki/Scene/Assets/Common/Interaction/Mesh/SM_Pro_Roc_04ES.SM_Pro_Roc_04ES",
+    "QualityId": 5,
+    "MaxCapcity": 999999999,
+    "ItemAccess": [
+      604001
+    ],
+    "ObtainedShow": 1,
+    "ObtainedShowDescription": "PhantomItem_60000012_ObtainedShowDescription",
+    "NumLimit": 0,
+    "ShowInBag": true,
+    "SortIndex": 0,
+    "SkillIcon": "",
+    "Destructible": true,
+    "RedDotDisableRule": 0,
+    "FetterGroup": [
+      5,
+      1
+    ],
+    "PhantomType": 1,
+    "ParentMonsterId": 390070076
+  },
+  {
+    "ItemId": 60100575,
+    "MonsterId": 6010057,
+    "MonsterName": "MonsterInfo_350000110_Name",
+    "ElementType": [
+      1
+    ],
+    "LevelUpGroupId": 4,
+    "SkillId": 200053,
+    "CalabashBuffs": [
+      70046
+    ],
+    "Rarity": 1,
+    "MeshId": 201053,
+    "Zoom": [
+      0.550000011920929,
+      0.550000011920929,
+      0.550000011920929
+    ],
+    "Location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Rotator": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "StandAnim": "/Game/Aki/Character/Monster/Elite/ME1YouLinJiShuMd00201/CommonAnim/Stand2.Stand2",
+    "TypeDescription": "PhantomItem_60000012_TypeDescription",
+    "AttributesDescription": "PhantomItem_60000012_AttributesDescription",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_329_1_UI.T_IconMonsterHead_329_1_UI",
+    "IconMiddle": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods160/T_IconMonsterGoods160_325_1_UI.T_IconMonsterGoods160_325_1_UI",
+    "IconSmall": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods80/T_IconMonsterGoods80_325_1_UI.T_IconMonsterGoods80_325_1_UI",
+    "Mesh": "/Game/Aki/Scene/Assets/Common/Interaction/Mesh/SM_Pro_Roc_04ES.SM_Pro_Roc_04ES",
+    "QualityId": 5,
+    "MaxCapcity": 999999999,
+    "ItemAccess": [
+      604001
+    ],
+    "ObtainedShow": 1,
+    "ObtainedShowDescription": "PhantomItem_60000012_ObtainedShowDescription",
+    "NumLimit": 0,
+    "ShowInBag": true,
+    "SortIndex": 0,
+    "SkillIcon": "",
+    "Destructible": true,
+    "RedDotDisableRule": 0,
+    "FetterGroup": [
+      3,
+      1
+    ],
+    "PhantomType": 1,
+    "ParentMonsterId": 6000057
+  },
+  {
+    "ItemId": 60000602,
+    "MonsterId": 6000060,
+    "MonsterName": "MonsterInfo_330000070_Name",
+    "ElementType": [
+      5
+    ],
+    "LevelUpGroupId": 1,
+    "SkillId": 280013,
+    "CalabashBuffs": [
+      70047
+    ],
+    "Rarity": 2,
+    "MeshId": 280013,
+    "Zoom": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "Location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Rotator": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "StandAnim": "/Game/Aki/Character/Monster/Lord/ML1MiuwuMd00501/CommonAnim/stand2_1.stand2_1",
+    "TypeDescription": "PhantomItem_60000012_TypeDescription",
+    "AttributesDescription": "PhantomItem_60000012_AttributesDescription",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_350_UI.T_IconMonsterHead_350_UI",
+    "IconMiddle": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods160/T_IconMonsterGoods160_350_UI.T_IconMonsterGoods160_350_UI",
+    "IconSmall": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods80/T_IconMonsterGoods80_350_UI.T_IconMonsterGoods80_350_UI",
+    "Mesh": "/Game/Aki/Scene/Assets/Common/Interaction/Mesh/SM_Pro_Roc_04BS.SM_Pro_Roc_04BS",
+    "QualityId": 2,
+    "MaxCapcity": 999999999,
+    "ItemAccess": null,
+    "ObtainedShow": 1,
+    "ObtainedShowDescription": "PhantomItem_60000012_ObtainedShowDescription",
+    "NumLimit": 0,
+    "ShowInBag": true,
+    "SortIndex": 0,
+    "SkillIcon": "",
+    "Destructible": true,
+    "RedDotDisableRule": 0,
+    "FetterGroup": [
+      7
+    ],
+    "PhantomType": 1,
+    "ParentMonsterId": 0
+  },
+  {
+    "ItemId": 60000603,
+    "MonsterId": 6000060,
+    "MonsterName": "MonsterInfo_330000070_Name",
+    "ElementType": [
+      5
+    ],
+    "LevelUpGroupId": 2,
+    "SkillId": 280013,
+    "CalabashBuffs": [
+      70047
+    ],
+    "Rarity": 2,
+    "MeshId": 280013,
+    "Zoom": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "Location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Rotator": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "StandAnim": "/Game/Aki/Character/Monster/Lord/ML1MiuwuMd00501/CommonAnim/stand2_1.stand2_1",
+    "TypeDescription": "PhantomItem_60000012_TypeDescription",
+    "AttributesDescription": "PhantomItem_60000012_AttributesDescription",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_350_UI.T_IconMonsterHead_350_UI",
+    "IconMiddle": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods160/T_IconMonsterGoods160_350_UI.T_IconMonsterGoods160_350_UI",
+    "IconSmall": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods80/T_IconMonsterGoods80_350_UI.T_IconMonsterGoods80_350_UI",
+    "Mesh": "/Game/Aki/Scene/Assets/Common/Interaction/Mesh/SM_Pro_Roc_04CS.SM_Pro_Roc_04CS",
+    "QualityId": 3,
+    "MaxCapcity": 999999999,
+    "ItemAccess": null,
+    "ObtainedShow": 1,
+    "ObtainedShowDescription": "PhantomItem_60000012_ObtainedShowDescription",
+    "NumLimit": 0,
+    "ShowInBag": true,
+    "SortIndex": 0,
+    "SkillIcon": "",
+    "Destructible": true,
+    "RedDotDisableRule": 0,
+    "FetterGroup": [
+      7
+    ],
+    "PhantomType": 1,
+    "ParentMonsterId": 0
+  },
+  {
+    "ItemId": 60000604,
+    "MonsterId": 6000060,
+    "MonsterName": "MonsterInfo_330000070_Name",
+    "ElementType": [
+      5
+    ],
+    "LevelUpGroupId": 3,
+    "SkillId": 280013,
+    "CalabashBuffs": [
+      70047
+    ],
+    "Rarity": 2,
+    "MeshId": 280013,
+    "Zoom": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "Location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Rotator": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "StandAnim": "/Game/Aki/Character/Monster/Lord/ML1MiuwuMd00501/CommonAnim/stand2_1.stand2_1",
+    "TypeDescription": "PhantomItem_60000012_TypeDescription",
+    "AttributesDescription": "PhantomItem_60000012_AttributesDescription",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_350_UI.T_IconMonsterHead_350_UI",
+    "IconMiddle": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods160/T_IconMonsterGoods160_350_UI.T_IconMonsterGoods160_350_UI",
+    "IconSmall": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods80/T_IconMonsterGoods80_350_UI.T_IconMonsterGoods80_350_UI",
+    "Mesh": "/Game/Aki/Scene/Assets/Common/Interaction/Mesh/SM_Pro_Roc_04DS.SM_Pro_Roc_04DS",
+    "QualityId": 4,
+    "MaxCapcity": 999999999,
+    "ItemAccess": null,
+    "ObtainedShow": 1,
+    "ObtainedShowDescription": "PhantomItem_60000012_ObtainedShowDescription",
+    "NumLimit": 0,
+    "ShowInBag": true,
+    "SortIndex": 0,
+    "SkillIcon": "",
+    "Destructible": true,
+    "RedDotDisableRule": 0,
+    "FetterGroup": [
+      7
+    ],
+    "PhantomType": 1,
+    "ParentMonsterId": 0
+  },
+  {
+    "ItemId": 60000605,
+    "MonsterId": 6000060,
+    "MonsterName": "MonsterInfo_330000070_Name",
+    "ElementType": [
+      5
+    ],
+    "LevelUpGroupId": 4,
+    "SkillId": 280013,
+    "CalabashBuffs": [
+      70047
+    ],
+    "Rarity": 2,
+    "MeshId": 280013,
+    "Zoom": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "Location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Rotator": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "StandAnim": "/Game/Aki/Character/Monster/Lord/ML1MiuwuMd00501/CommonAnim/stand2_1.stand2_1",
+    "TypeDescription": "PhantomItem_60000012_TypeDescription",
+    "AttributesDescription": "PhantomItem_60000012_AttributesDescription",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_350_UI.T_IconMonsterHead_350_UI",
+    "IconMiddle": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods160/T_IconMonsterGoods160_350_UI.T_IconMonsterGoods160_350_UI",
+    "IconSmall": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods80/T_IconMonsterGoods80_350_UI.T_IconMonsterGoods80_350_UI",
+    "Mesh": "/Game/Aki/Scene/Assets/Common/Interaction/Mesh/SM_Pro_Roc_04ES.SM_Pro_Roc_04ES",
+    "QualityId": 5,
+    "MaxCapcity": 999999999,
+    "ItemAccess": null,
+    "ObtainedShow": 1,
+    "ObtainedShowDescription": "PhantomItem_60000012_ObtainedShowDescription",
+    "NumLimit": 0,
+    "ShowInBag": true,
+    "SortIndex": 0,
+    "SkillIcon": "",
+    "Destructible": true,
+    "RedDotDisableRule": 0,
+    "FetterGroup": [
+      7
+    ],
+    "PhantomType": 1,
+    "ParentMonsterId": 0
+  },
+  {
+    "ItemId": 60200011,
+    "MonsterId": 6020011,
+    "MonsterName": "MonsterInfo_350000020_Name",
+    "ElementType": [
+      5
+    ],
+    "LevelUpGroupId": 4,
+    "SkillId": 288101,
+    "CalabashBuffs": [
+      70046
+    ],
+    "Rarity": 1,
+    "MeshId": 288101,
+    "Zoom": [
+      0.5,
+      0.5,
+      0.5
+    ],
+    "Location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Rotator": [
+      0.0,
+      0.0,
+      20.0
+    ],
+    "StandAnim": "/Game/Aki/Character/Monster/Elite/ME1GuangtankeMd00501/CommonAnim/Stand2.Stand2",
+    "TypeDescription": "PhantomItem_60000020_TypeDescription",
+    "AttributesDescription": "PhantomItem_60000020_AttributesDescription",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1007_UI.T_IconMonsterHead_1007_UI",
+    "IconMiddle": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods160/T_IconMonsterGoods160_1002_UI.T_IconMonsterGoods160_1002_UI",
+    "IconSmall": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods80/T_IconMonsterGoods80_1002_UI_png.T_IconMonsterGoods80_1002_UI_png",
+    "Mesh": "/Game/Aki/Scene/Assets/Common/Interaction/Mesh/SM_Pro_Roc_04ES.SM_Pro_Roc_04ES",
+    "QualityId": 5,
+    "MaxCapcity": 999999999,
+    "ItemAccess": null,
+    "ObtainedShow": 1,
+    "ObtainedShowDescription": "PhantomItem_60000020_ObtainedShowDescription",
+    "NumLimit": 0,
+    "ShowInBag": true,
+    "SortIndex": 0,
+    "SkillIcon": "",
+    "Destructible": true,
+    "RedDotDisableRule": 0,
+    "FetterGroup": [
+      7,
+      5
+    ],
+    "PhantomType": 2,
+    "ParentMonsterId": 0
+  },
+  {
+    "ItemId": 60200012,
+    "MonsterId": 6020012,
+    "MonsterName": "MonsterInfo_310000120_Name",
+    "ElementType": [
+      1
+    ],
+    "LevelUpGroupId": 1,
+    "SkillId": 288102,
+    "CalabashBuffs": [
+      70045
+    ],
+    "Rarity": 0,
+    "MeshId": 288102,
+    "Zoom": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Rotator": [
+      0.0,
+      0.0,
+      20.0
+    ],
+    "StandAnim": "/Game/Aki/Character/Monster/Ordinary/MO1GuguhetunMd00201/CommonAnim/Stand2.Stand2",
+    "TypeDescription": "PhantomItem_60000012_TypeDescription",
+    "AttributesDescription": "PhantomItem_60000012_AttributesDescription",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_111_UI.T_IconMonsterGoods_111_UI",
+    "IconMiddle": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods160/T_IconMonsterGoods160_111_UI.T_IconMonsterGoods160_111_UI",
+    "IconSmall": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods80/T_IconMonsterGoods80_111_UI.T_IconMonsterGoods80_111_UI",
+    "Mesh": "/Game/Aki/Scene/Assets/Common/Interaction/Mesh/SM_Pro_Roc_04BS.SM_Pro_Roc_04BS",
+    "QualityId": 2,
+    "MaxCapcity": 999999999,
+    "ItemAccess": null,
+    "ObtainedShow": 1,
+    "ObtainedShowDescription": "PhantomItem_60000012_ObtainedShowDescription",
+    "NumLimit": 0,
+    "ShowInBag": true,
+    "SortIndex": 0,
+    "SkillIcon": "",
+    "Destructible": true,
+    "RedDotDisableRule": 0,
+    "FetterGroup": [
+      5,
+      1
+    ],
+    "PhantomType": 2,
+    "ParentMonsterId": 0
+  },
+  {
+    "ItemId": 60200013,
+    "MonsterId": 6020013,
+    "MonsterName": "MonsterInfo_330000010_Name",
+    "ElementType": [
+      3
+    ],
+    "LevelUpGroupId": 1,
+    "SkillId": 288103,
+    "CalabashBuffs": [
+      70047
+    ],
+    "Rarity": 2,
+    "MeshId": 288103,
+    "Zoom": [
+      0.699999988079071,
+      0.699999988079071,
+      0.699999988079071
+    ],
+    "Location": [
+      15.0,
+      -50.0,
+      0.0
+    ],
+    "Rotator": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "StandAnim": "/Game/Aki/Character/Monster/Lord/ML1LinrenMd00301/CommonAnim/Stand2.Stand2",
+    "TypeDescription": "PhantomItem_60000012_TypeDescription",
+    "AttributesDescription": "PhantomItem_60000012_AttributesDescription",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_221_UI.T_IconMonsterGoods_221_UI",
+    "IconMiddle": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods160/T_IconMonsterGoods160_221_UI.T_IconMonsterGoods160_221_UI",
+    "IconSmall": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods80/T_IconMonsterGoods80_221_UI.T_IconMonsterGoods80_221_UI",
+    "Mesh": "/Game/Aki/Scene/Assets/Common/Interaction/Mesh/SM_Pro_Roc_04BS.SM_Pro_Roc_04BS",
+    "QualityId": 2,
+    "MaxCapcity": 999999999,
+    "ItemAccess": null,
+    "ObtainedShow": 1,
+    "ObtainedShowDescription": "PhantomItem_60000012_ObtainedShowDescription",
+    "NumLimit": 0,
+    "ShowInBag": true,
+    "SortIndex": 0,
+    "SkillIcon": "",
+    "Destructible": true,
+    "RedDotDisableRule": 0,
+    "FetterGroup": [
+      3
+    ],
+    "PhantomType": 2,
+    "ParentMonsterId": 0
+  },
+  {
+    "ItemId": 60200014,
+    "MonsterId": 6020014,
+    "MonsterName": "MonsterInfo_340000070_Name",
+    "ElementType": [
+      6
+    ],
+    "LevelUpGroupId": 1,
+    "SkillId": 288104,
+    "CalabashBuffs": [
+      70047
+    ],
+    "Rarity": 3,
+    "MeshId": 288104,
+    "Zoom": [
+      0.550000011920929,
+      0.550000011920929,
+      0.550000011920929
+    ],
+    "Location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Rotator": [
+      0.0,
+      0.0,
+      20.0
+    ],
+    "StandAnim": "/Game/Aki/Character/Monster/Boss/MB1ZhenwuguanzheMd00601/CommonAnim/Stand2.Stand2",
+    "TypeDescription": "PhantomItem_60000012_TypeDescription",
+    "AttributesDescription": "PhantomItem_60000012_AttributesDescription",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_998_UI.T_IconMonsterHead_998_UI",
+    "IconMiddle": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods160/T_IconMonsterGoods160_998_UI.T_IconMonsterGoods160_998_UI",
+    "IconSmall": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods80/T_IconMonsterGoods80_998_UI.T_IconMonsterGoods80_998_UI",
+    "Mesh": "/Game/Aki/Scene/Assets/Common/Interaction/Mesh/SM_Pro_Roc_04BS.SM_Pro_Roc_04BS",
+    "QualityId": 2,
+    "MaxCapcity": 999999999,
+    "ItemAccess": null,
+    "ObtainedShow": 1,
+    "ObtainedShowDescription": "PhantomItem_60000012_ObtainedShowDescription",
+    "NumLimit": 0,
+    "ShowInBag": true,
+    "SortIndex": 0,
+    "SkillIcon": "",
+    "Destructible": true,
+    "RedDotDisableRule": 0,
+    "FetterGroup": [
+      6
+    ],
+    "PhantomType": 2,
+    "ParentMonsterId": 0
+  },
+  {
+    "ItemId": 60200015,
+    "MonsterId": 6020015,
+    "MonsterName": "MonsterInfo_350000050_Name",
+    "ElementType": [
+      4
+    ],
+    "LevelUpGroupId": 4,
+    "SkillId": 288105,
+    "CalabashBuffs": [
+      70047
+    ],
+    "Rarity": 2,
+    "MeshId": 288105,
+    "Zoom": [
+      0.4000000059604645,
+      0.4000000059604645,
+      0.4000000059604645
+    ],
+    "Location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Rotator": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "StandAnim": "/Game/Aki/Character/Monster/Lord/ML1FerLianMd00201/CommonAnim/Stand2.Stand2",
+    "TypeDescription": "PhantomItem_60000020_TypeDescription",
+    "AttributesDescription": "PhantomItem_60000020_AttributesDescription",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1009_UI.T_IconMonsterHead_1009_UI",
+    "IconMiddle": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods160/T_IconMonsterGoods160_1004_UI.T_IconMonsterGoods160_1004_UI",
+    "IconSmall": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods80/T_IconMonsterGoods80_1004_UI_png.T_IconMonsterGoods80_1004_UI_png",
+    "Mesh": "/Game/Aki/Scene/Assets/Common/Interaction/Mesh/SM_Pro_Roc_04ES.SM_Pro_Roc_04ES",
+    "QualityId": 5,
+    "MaxCapcity": 999999999,
+    "ItemAccess": null,
+    "ObtainedShow": 1,
+    "ObtainedShowDescription": "PhantomItem_60000020_ObtainedShowDescription",
+    "NumLimit": 0,
+    "ShowInBag": true,
+    "SortIndex": 0,
+    "SkillIcon": "",
+    "Destructible": true,
+    "RedDotDisableRule": 0,
+    "FetterGroup": [
+      4
+    ],
+    "PhantomType": 2,
+    "ParentMonsterId": 0
+  },
+  {
+    "ItemId": 60200016,
+    "MonsterId": 6020016,
+    "MonsterName": "MonsterInfo_350000030_Name",
+    "ElementType": [
+      1
+    ],
+    "LevelUpGroupId": 4,
+    "SkillId": 288106,
+    "CalabashBuffs": [
+      70045
+    ],
+    "Rarity": 0,
+    "MeshId": 288106,
+    "Zoom": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Location": [
+      10.0,
+      0.0,
+      0.0
+    ],
+    "Rotator": [
+      0.0,
+      0.0,
+      30.0
+    ],
+    "StandAnim": "/Game/Aki/Character/Monster/Ordinary/MO1LuguiMd00201/CommonAnim/Stand2.Stand2",
+    "TypeDescription": "PhantomItem_60000020_TypeDescription",
+    "AttributesDescription": "PhantomItem_60000020_AttributesDescription",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1010_UI.T_IconMonsterHead_1010_UI",
+    "IconMiddle": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods160/T_IconMonsterGoods160_1005_UI.T_IconMonsterGoods160_1005_UI",
+    "IconSmall": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods80/T_IconMonsterGoods80_1005_UI_png.T_IconMonsterGoods80_1005_UI_png",
+    "Mesh": "/Game/Aki/Scene/Assets/Common/Interaction/Mesh/SM_Pro_Roc_04ES.SM_Pro_Roc_04ES",
+    "QualityId": 5,
+    "MaxCapcity": 999999999,
+    "ItemAccess": null,
+    "ObtainedShow": 1,
+    "ObtainedShowDescription": "PhantomItem_60000020_ObtainedShowDescription",
+    "NumLimit": 0,
+    "ShowInBag": true,
+    "SortIndex": 0,
+    "SkillIcon": "",
+    "Destructible": true,
+    "RedDotDisableRule": 0,
+    "FetterGroup": [
+      5,
+      1
+    ],
+    "PhantomType": 2,
+    "ParentMonsterId": 0
+  },
+  {
+    "ItemId": 60200017,
+    "MonsterId": 6020017,
+    "MonsterName": "MonsterInfo_320000040_Name",
+    "ElementType": [
+      6
+    ],
+    "LevelUpGroupId": 4,
+    "SkillId": 288107,
+    "CalabashBuffs": [
+      70046
+    ],
+    "Rarity": 1,
+    "MeshId": 288107,
+    "Zoom": [
+      0.800000011920929,
+      0.800000011920929,
+      0.800000011920929
+    ],
+    "Location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Rotator": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "StandAnim": "/Game/Aki/Character/Monster/Elite/ME1LeiFaMd00301/CommonAnim/Stand2.Stand2",
+    "TypeDescription": "PhantomItem_60000012_TypeDescription",
+    "AttributesDescription": "PhantomItem_60000012_AttributesDescription",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_201_UI.T_IconMonsterGoods_201_UI",
+    "IconMiddle": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods160/T_IconMonsterGoods160_201_UI.T_IconMonsterGoods160_201_UI",
+    "IconSmall": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods80/T_IconMonsterGoods80_201_UI.T_IconMonsterGoods80_201_UI",
+    "Mesh": "/Game/Aki/Scene/Assets/Common/Interaction/Mesh/SM_Pro_Roc_04ES.SM_Pro_Roc_04ES",
+    "QualityId": 5,
+    "MaxCapcity": 999999999,
+    "ItemAccess": null,
+    "ObtainedShow": 1,
+    "ObtainedShowDescription": "PhantomItem_60000012_ObtainedShowDescription",
+    "NumLimit": 0,
+    "ShowInBag": true,
+    "SortIndex": 0,
+    "SkillIcon": "",
+    "Destructible": true,
+    "RedDotDisableRule": 0,
+    "FetterGroup": [
+      9,
+      3
+    ],
+    "PhantomType": 2,
+    "ParentMonsterId": 0
+  },
+  {
+    "ItemId": 60200018,
+    "MonsterId": 6020018,
+    "MonsterName": "MonsterInfo_340000090_Name",
+    "ElementType": [
+      5
+    ],
+    "LevelUpGroupId": 1,
+    "SkillId": 288108,
+    "CalabashBuffs": [
+      70047
+    ],
+    "Rarity": 3,
+    "MeshId": 288108,
+    "Zoom": [
+      0.15000000596046448,
+      0.15000000596046448,
+      0.15000000596046448
+    ],
+    "Location": [
+      5.0,
+      -60.0,
+      0.0
+    ],
+    "Rotator": [
+      0.0,
+      0.0,
+      25.0
+    ],
+    "StandAnim": "/Game/Aki/Character/Monster/Boss/MB1SuiguangMd00501/CommonAnim/Stand01.Stand01",
+    "TypeDescription": "PhantomItem_60000012_TypeDescription",
+    "AttributesDescription": "PhantomItem_60000012_AttributesDescription",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_327_UI.T_IconMonsterHead_327_UI",
+    "IconMiddle": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods160/T_IconMonsterGoods160_323_UI.T_IconMonsterGoods160_323_UI",
+    "IconSmall": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods80/T_IconMonsterGoods80_323_UI.T_IconMonsterGoods80_323_UI",
+    "Mesh": "/Game/Aki/Scene/Assets/Common/Interaction/Mesh/SM_Pro_Roc_04BS.SM_Pro_Roc_04BS",
+    "QualityId": 2,
+    "MaxCapcity": 999999999,
+    "ItemAccess": null,
+    "ObtainedShow": 1,
+    "ObtainedShowDescription": "PhantomItem_60000012_ObtainedShowDescription",
+    "NumLimit": 0,
+    "ShowInBag": true,
+    "SortIndex": 0,
+    "SkillIcon": "",
+    "Destructible": true,
+    "RedDotDisableRule": 0,
+    "FetterGroup": [
+      5
+    ],
+    "PhantomType": 2,
+    "ParentMonsterId": 0
+  },
+  {
+    "ItemId": 60200019,
+    "MonsterId": 6020019,
+    "MonsterName": "MonsterInfo_310000090_Name",
+    "ElementType": [
+      5
+    ],
+    "LevelUpGroupId": 4,
+    "SkillId": 288109,
+    "CalabashBuffs": [
+      70045
+    ],
+    "Rarity": 0,
+    "MeshId": 200006,
+    "Zoom": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Rotator": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "StandAnim": "/Game/Aki/Character/Monster/Ordinary/MO1GAziziMd00501/CommonAnim/Stand2.Stand2",
+    "TypeDescription": "PhantomItem_60000012_TypeDescription",
+    "AttributesDescription": "PhantomItem_60000012_AttributesDescription",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_071_UI.T_IconMonsterGoods_071_UI",
+    "IconMiddle": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods160/T_IconMonsterGoods160_071_UI.T_IconMonsterGoods160_071_UI",
+    "IconSmall": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods80/T_IconMonsterGoods80_071_UI.T_IconMonsterGoods80_071_UI",
+    "Mesh": "/Game/Aki/Scene/Assets/Common/Interaction/Mesh/SM_Pro_Roc_04ES.SM_Pro_Roc_04ES",
+    "QualityId": 5,
+    "MaxCapcity": 999999999,
+    "ItemAccess": null,
+    "ObtainedShow": 1,
+    "ObtainedShowDescription": "PhantomItem_60000012_ObtainedShowDescription",
+    "NumLimit": 0,
+    "ShowInBag": true,
+    "SortIndex": 0,
+    "SkillIcon": "",
+    "Destructible": true,
+    "RedDotDisableRule": 0,
+    "FetterGroup": [
+      8,
+      9,
+      5
+    ],
+    "PhantomType": 2,
+    "ParentMonsterId": 0
   }
 ]

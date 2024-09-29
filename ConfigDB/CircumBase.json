@@ -88,5 +88,80 @@
     "Description": "Activity_101000004_Desc",
     "RewardPreview": 70904,
     "ShowCondition": true
+  },
+  {
+    "Id": 104,
+    "EntryType": 1,
+    "ArgId": [
+      145000004
+    ],
+    "Title": "RecallActivity_Story_02",
+    "GachaId": 0,
+    "SubTitle": "RecallActivity_Story_02_Progress",
+    "BgPathF": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_RecallStory_04.T_RecallStory_04",
+    "BgPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_RecallStory_04.T_RecallStory_04",
+    "Description": "RecallActivity_Story_02_Desc",
+    "RewardPreview": 21110,
+    "ShowCondition": true
+  },
+  {
+    "Id": 202,
+    "EntryType": 2,
+    "ArgId": [
+      300013
+    ],
+    "Title": "RecallActivity_Area_02",
+    "GachaId": 0,
+    "SubTitle": "RecallActivity_Area_02_Progress",
+    "BgPathF": "/Game/Aki/UI/UIResources/Common/Image/BgCg/T_BgloadinHeihaian5.T_BgloadinHeihaian5",
+    "BgPath": "/Game/Aki/UI/UIResources/Common/Image/BgCg/T_BgloadinHeihaian5.T_BgloadinHeihaian5",
+    "Description": "RecallActivity_Area_02_Desc",
+    "RewardPreview": 0,
+    "ShowCondition": true
+  },
+  {
+    "Id": 203,
+    "EntryType": 2,
+    "ArgId": [
+      300019
+    ],
+    "Title": "RecallActivity_Area_03",
+    "GachaId": 0,
+    "SubTitle": "RecallActivity_Area_03_Progress",
+    "BgPathF": "/Game/Aki/UI/UIResources/Common/Image/BgCg/T_BgloadinHeihaian8.T_BgloadinHeihaian8",
+    "BgPath": "/Game/Aki/UI/UIResources/Common/Image/BgCg/T_BgloadinHeihaian8.T_BgloadinHeihaian8",
+    "Description": "RecallActivity_Area_03_Desc",
+    "RewardPreview": 0,
+    "ShowCondition": true
+  },
+  {
+    "Id": 303,
+    "EntryType": 3,
+    "ArgId": [
+      1505
+    ],
+    "Title": "RecallActivity_Role_03",
+    "GachaId": 100007,
+    "SubTitle": "",
+    "BgPathF": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ActivityRoleOntrialBg.T_ActivityRoleOntrialBg",
+    "BgPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ActivityRoleOntrialBg.T_ActivityRoleOntrialBg",
+    "Description": "",
+    "RewardPreview": 0,
+    "ShowCondition": true
+  },
+  {
+    "Id": 304,
+    "EntryType": 3,
+    "ArgId": [
+      1404
+    ],
+    "Title": "RecallActivity_Role_04",
+    "GachaId": 100008,
+    "SubTitle": "",
+    "BgPathF": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ActivityRogue2Bg.T_ActivityRogue2Bg",
+    "BgPath": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ActivityRogue2Bg.T_ActivityRogue2Bg",
+    "Description": "",
+    "RewardPreview": 0,
+    "ShowCondition": true
   }
 ]

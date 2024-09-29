@@ -1300,5 +1300,119 @@
     "PhantomId": null,
     "FirstDropId": 0,
     "AdditionalId": 14010
+  },
+  {
+    "Id": 30020006,
+    "Name": "MapMark_4025_MarkTitle",
+    "GuideId": 2,
+    "LevelPlayList": [
+      221750000
+    ],
+    "InstanceSubTypeDescription": "InpuBoxText_empty",
+    "DangerType": 3,
+    "Secondary": 61,
+    "TypeDescription2": 61,
+    "MatType": 0,
+    "AttributesDescriptionLock": "MapMark_4025_MarkDesc",
+    "AttributesDescriptionUnlock": "MapMark_4025_MarkDesc",
+    "BigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_321_1_UI.T_IconMonsterGoods_321_1_UI",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/ImgCopy/T_ImgCopy_005_UI.T_ImgCopy_005_UI",
+    "LockBigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_321_1_UI.T_IconMonsterGoods_321_1_UI",
+    "TemporaryIconUnLock": "/Game/Aki/UI/UIResources/Common/Image/ImgCopy/T_ImgCopy_005_UI.T_ImgCopy_005_UI",
+    "TemporaryIconlock": "/Game/Aki/UI/UIResources/Common/Image/ImgCopy/T_ImgCopy_001_UI.T_ImgCopy_001_UI",
+    "ShowReward": 48606,
+    "ShowRewardMap": [
+      {
+        "Key": 1,
+        "Value": 48601
+      },
+      {
+        "Key": 2,
+        "Value": 48602
+      },
+      {
+        "Key": 3,
+        "Value": 48603
+      },
+      {
+        "Key": 4,
+        "Value": 48604
+      },
+      {
+        "Key": 5,
+        "Value": 48605
+      },
+      {
+        "Key": 6,
+        "Value": 48606
+      }
+    ],
+    "BeginTimeStamp": 0,
+    "MarkId": 4025,
+    "LockCon": 12005127,
+    "PhantomId": null,
+    "FirstDropId": 0,
+    "AdditionalId": 15010
+  },
+  {
+    "Id": 30000010,
+    "Name": "MonsterInfo_330000070_Name",
+    "GuideId": 3,
+    "LevelPlayList": [
+      136750020
+    ],
+    "InstanceSubTypeDescription": "InpuBoxText_empty",
+    "DangerType": 3,
+    "Secondary": 21,
+    "TypeDescription2": 21,
+    "MatType": 0,
+    "AttributesDescriptionLock": "MonsterInfo_330000070_UndiscoveredDes",
+    "AttributesDescriptionUnlock": "MonsterInfo_330000070_DiscoveredDes",
+    "BigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_350_UI.T_IconMonsterHead_350_UI",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/ImgCopy/T_ImgCopy_005_UI.T_ImgCopy_005_UI",
+    "LockBigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_350_UI.T_IconMonsterHead_350_UI",
+    "TemporaryIconUnLock": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_350_UI.T_IconMonsterHead_350_UI",
+    "TemporaryIconlock": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_350_UI.T_IconMonsterHead_350_UI",
+    "ShowReward": 10208,
+    "ShowRewardMap": [
+      {
+        "Key": 1,
+        "Value": 10201
+      },
+      {
+        "Key": 2,
+        "Value": 10202
+      },
+      {
+        "Key": 3,
+        "Value": 10203
+      },
+      {
+        "Key": 4,
+        "Value": 10204
+      },
+      {
+        "Key": 5,
+        "Value": 10205
+      },
+      {
+        "Key": 6,
+        "Value": 10206
+      },
+      {
+        "Key": 7,
+        "Value": 10207
+      },
+      {
+        "Key": 8,
+        "Value": 10208
+      }
+    ],
+    "BeginTimeStamp": 0,
+    "MarkId": 5032,
+    "LockCon": 12005128,
+    "PhantomId": null,
+    "FirstDropId": 0,
+    "AdditionalId": 0
   }
 ]

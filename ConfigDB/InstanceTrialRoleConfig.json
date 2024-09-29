@@ -16,6 +16,20 @@
     "ShowInEntrance": true
   },
   {
+    "Id": 64,
+    "MaleFormation": [
+      12030001
+    ],
+    "FemaleFormation": [
+      12030001
+    ],
+    "MaleDelayFormation": null,
+    "FemaleDelayFormation": null,
+    "OnlyTrial": false,
+    "AutoChange": true,
+    "ShowInEntrance": true
+  },
+  {
     "Id": 91,
     "MaleFormation": [
       14040005
@@ -672,5 +686,41 @@
     "OnlyTrial": true,
     "AutoChange": true,
     "ShowInEntrance": false
+  },
+  {
+    "Id": 8202,
+    "MaleFormation": [
+      15057004,
+      14027004,
+      14047004
+    ],
+    "FemaleFormation": [
+      15057004,
+      14027004,
+      14047004
+    ],
+    "MaleDelayFormation": null,
+    "FemaleDelayFormation": null,
+    "OnlyTrial": true,
+    "AutoChange": true,
+    "ShowInEntrance": true
+  },
+  {
+    "Id": 8203,
+    "MaleFormation": [
+      11067004,
+      11057004,
+      11027104
+    ],
+    "FemaleFormation": [
+      11067004,
+      11057004,
+      11027104
+    ],
+    "MaleDelayFormation": null,
+    "FemaleDelayFormation": null,
+    "OnlyTrial": true,
+    "AutoChange": true,
+    "ShowInEntrance": true
   }
 ]

@@ -900,7 +900,7 @@
     "Name": "MonsterInfo_330000020_Name",
     "RarityId": 3,
     "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_325_UI.T_IconMonsterHead_325_UI",
-    "BigIcon": "0",
+    "BigIcon": "/Game/Aki/UI/UIResources/Common/Image/ImgBoss/T_Boss_06.T_Boss_06",
     "Tachine": "/Game/Aki/UI/UIResources/UiSingleTower/Image/T_UiSingleTowerMonster1_UI.T_UiSingleTowerMonster1_UI",
     "ElementId": 2,
     "MonsterEntityId": "Monster045",
@@ -1451,6 +1451,54 @@
     "MonsterPose": "0",
     "UndiscoveredDes": "MonsterInfo_340000070_UndiscoveredDes",
     "DiscoveredDes": "MonsterInfo_340000070_DiscoveredDes",
+    "PerchId": [
+      13
+    ]
+  },
+  {
+    "Id": 350000100,
+    "Name": "MonsterInfo_350000100_Name",
+    "RarityId": 1,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_115_1_UI.T_IconMonsterHead_115_1_UI",
+    "BigIcon": "0",
+    "Tachine": "/Game/Aki/UI/UIResources/UiSingleTower/Image/T_UiSingleTowerMonster1_UI.T_UiSingleTowerMonster1_UI",
+    "ElementId": 1,
+    "MonsterEntityId": "Monster016",
+    "MonsterPose": "0",
+    "UndiscoveredDes": "MonsterInfo_310000120_UndiscoveredDes",
+    "DiscoveredDes": "MonsterInfo_310000120_DiscoveredDes",
+    "PerchId": [
+      13
+    ]
+  },
+  {
+    "Id": 350000110,
+    "Name": "MonsterInfo_350000110_Name",
+    "RarityId": 2,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_329_1_UI.T_IconMonsterHead_329_1_UI",
+    "BigIcon": "0",
+    "Tachine": "/Game/Aki/UI/UIResources/UiSingleTower/Image/T_UiSingleTowerMonster1_UI.T_UiSingleTowerMonster1_UI",
+    "ElementId": 1,
+    "MonsterEntityId": "Monster170",
+    "MonsterPose": "0",
+    "UndiscoveredDes": "MonsterInfo_320000200_UndiscoveredDes",
+    "DiscoveredDes": "MonsterInfo_320000200_DiscoveredDes",
+    "PerchId": [
+      13
+    ]
+  },
+  {
+    "Id": 330000070,
+    "Name": "MonsterInfo_330000070_Name",
+    "RarityId": 3,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_350_UI.T_IconMonsterHead_350_UI",
+    "BigIcon": "0",
+    "Tachine": "/Game/Aki/UI/UIResources/UiSingleTower/Image/T_UiSingleTowerMonster1_UI.T_UiSingleTowerMonster1_UI",
+    "ElementId": 5,
+    "MonsterEntityId": "Monster_branch1.3_001",
+    "MonsterPose": "0",
+    "UndiscoveredDes": "MonsterInfo_330000070_UndiscoveredDes",
+    "DiscoveredDes": "MonsterInfo_330000070_DiscoveredDes",
     "PerchId": [
       13
     ]

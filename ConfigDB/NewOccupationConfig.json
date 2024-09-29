@@ -1,75 +1,21 @@
 [
   {
+    "Id": "screenResource",
+    "OccupationType": "ScreenResource",
+    "OccupationData": "",
+    "OccupationNameStringKey": ""
+  },
+  {
+    "Id": "timeOccupation",
+    "OccupationType": "Time",
+    "OccupationData": "",
+    "OccupationNameStringKey": ""
+  },
+  {
     "Id": "anke",
     "OccupationType": "Npc",
     "OccupationData": "",
     "OccupationNameStringKey": "OccupationConfig_anke_Name"
-  },
-  {
-    "Id": "yangyang",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_yangyang_Name"
-  },
-  {
-    "Id": "chenpi",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_chenpi_Name"
-  },
-  {
-    "Id": "ganxue",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_ganxue_Name"
-  },
-  {
-    "Id": "mahe",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_mahe_Name"
-  },
-  {
-    "Id": "yuzan",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_yuzan_Name"
-  },
-  {
-    "Id": "zhuyi",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_zhuyi_Name"
-  },
-  {
-    "Id": "yixin",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_yixin_Name"
-  },
-  {
-    "Id": "xuxu",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_xuxu_Name"
-  },
-  {
-    "Id": "qingru",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_qingru_Name"
-  },
-  {
-    "Id": "pinwen",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_pinwen_Name"
-  },
-  {
-    "Id": "langsheng",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_langsheng_Name"
   },
   {
     "Id": "ashui",
@@ -78,22 +24,22 @@
     "OccupationNameStringKey": "OccupationConfig_ashui_Name"
   },
   {
-    "Id": "lizhu",
+    "Id": "bailian",
     "OccupationType": "Npc",
     "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_lizhu_Name"
+    "OccupationNameStringKey": "OccupationConfig_bailian_Name"
   },
   {
-    "Id": "feifei",
+    "Id": "changli",
     "OccupationType": "Npc",
     "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_feifei_Name"
+    "OccupationNameStringKey": "Empty"
   },
   {
-    "Id": "jiyan",
+    "Id": "chenpi",
     "OccupationType": "Npc",
     "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_jiyan_Name"
+    "OccupationNameStringKey": "OccupationConfig_chenpi_Name"
   },
   {
     "Id": "chixia",
@@ -102,160 +48,10 @@
     "OccupationNameStringKey": "OccupationConfig_chixia_Name"
   },
   {
-    "Id": "bailian",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_bailian_Name"
-  },
-  {
-    "Id": "taoqi",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_taoqi_Name"
-  },
-  {
-    "Id": "lingyang",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_lingyang_Name"
-  },
-  {
     "Id": "danjin",
     "OccupationType": "Npc",
     "OccupationData": "",
     "OccupationNameStringKey": "OccupationConfig_danjin_Name"
-  },
-  {
-    "Id": "yinlin",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_yinlin_Name"
-  },
-  {
-    "Id": "kakaluo",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_kakaluo_Name"
-  },
-  {
-    "Id": "sanhua",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_sanhua_Name"
-  },
-  {
-    "Id": "jinxi",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_jinxi_Name"
-  },
-  {
-    "Id": "qiushui",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_qiushui_Name"
-  },
-  {
-    "Id": "motefei",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_motefei_Name"
-  },
-  {
-    "Id": "yuanwu",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_yuanwu_Name"
-  },
-  {
-    "Id": "jueyuan",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_jueyuan_Name"
-  },
-  {
-    "Id": "shuncai",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_shuncai_Name"
-  },
-  {
-    "Id": "guhong",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_guhong_Name"
-  },
-  {
-    "Id": "juepopo",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_juepopo_Name"
-  },
-  {
-    "Id": "sixi",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_sixi_Name"
-  },
-  {
-    "Id": "xiaojiu",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_xiaojiu_Name"
-  },
-  {
-    "Id": "guanghui",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_guanghui_Name"
-  },
-  {
-    "Id": "yunbo",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_yunbo_Name"
-  },
-  {
-    "Id": "yanyan",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_yanyan_Name"
-  },
-  {
-    "Id": "npc_test",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_npc_test_Name"
-  },
-  {
-    "Id": "npc_test2",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_npc_test2_Name"
-  },
-  {
-    "Id": "yihu",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_yihu_Name"
-  },
-  {
-    "Id": "panhua",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_panhua_Name"
-  },
-  {
-    "Id": "xieyang",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_xieyang_Name"
-  },
-  {
-    "Id": "mingming",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_mingming_Name"
   },
   {
     "Id": "doudou",
@@ -264,100 +60,34 @@
     "OccupationNameStringKey": "OccupationConfig_doudou_Name"
   },
   {
+    "Id": "feifei",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_feifei_Name"
+  },
+  {
     "Id": "fuyan",
     "OccupationType": "Npc",
     "OccupationData": "",
     "OccupationNameStringKey": "OccupationConfig_fuyan_Name"
   },
   {
-    "Id": "linsu",
+    "Id": "ganxue",
     "OccupationType": "Npc",
     "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_linsu_Name"
+    "OccupationNameStringKey": "OccupationConfig_ganxue_Name"
   },
   {
-    "Id": "wyq_test",
-    "OccupationType": "SilentArea",
-    "OccupationData": "{\"LevelPlayIds\":[30000015],\"AssociatedEntities\":[30000219,30000217]}",
-    "OccupationNameStringKey": "OccupationConfig_wyq_test_Name"
-  },
-  {
-    "Id": "wyq_npc_test",
-    "OccupationType": "SilentArea",
-    "OccupationData": "{\"LevelPlayIds\":[30000015],\"AssociatedEntities\":[30000219,30000217,30000223]}",
-    "OccupationNameStringKey": "OccupationConfig_wyq_npc_test_Nam"
-  },
-  {
-    "Id": "主线无冠者无音区占用",
-    "OccupationType": "SilentArea",
-    "OccupationData": "{\"LevelPlayIds\":[110000000],\"AssociatedEntities\":[110000595,110001071]}",
-    "OccupationNameStringKey": "OccupationConfig_主线无冠者无音区占用_Nam"
-  },
-  {
-    "Id": "乌龟无音区占用",
-    "OccupationType": "SilentArea",
-    "OccupationData": "{\"LevelPlayIds\":[110000001],\"AssociatedEntities\":[]}",
-    "OccupationNameStringKey": "OccupationConfig_乌龟无音区占用_Nam"
-  },
-  {
-    "Id": "燎照之骑无音区占用",
-    "OccupationType": "SilentArea",
-    "OccupationData": "{\"LevelPlayIds\":[110000050],\"AssociatedEntities\":[]}",
-    "OccupationNameStringKey": "OccupationConfig_燎照之骑无音区占用_Nam"
-  },
-  {
-    "Id": "沃艾珥领主占用",
-    "OccupationType": "SilentArea",
-    "OccupationData": "{\"LevelPlayIds\":[118000128],\"AssociatedEntities\":[]}",
-    "OccupationNameStringKey": "OccupationConfig_沃艾珥领主占用_Nam"
-  },
-  {
-    "Id": "辉莹军势占用",
-    "OccupationType": "SilentArea",
-    "OccupationData": "{\"LevelPlayIds\":[110000046],\"AssociatedEntities\":[146000109,129000008]}",
-    "OccupationNameStringKey": "OccupationConfig_辉莹军势占用_Nam"
-  },
-  {
-    "Id": "鳞人无音区占用",
-    "OccupationType": "SilentArea",
-    "OccupationData": "{\"LevelPlayIds\":[110000002],\"AssociatedEntities\":[110001073,110000092]}",
-    "OccupationNameStringKey": "OccupationConfig_鳞人无音区占用_Nam"
-  },
-  {
-    "Id": "wyq_test2",
-    "OccupationType": "SilentArea",
-    "OccupationData": "{\"LevelPlayIds\":[34000038],\"AssociatedEntities\":[34000885,34000883,34000886]}",
-    "OccupationNameStringKey": "OccupationConfig_wyq_test2_Name"
-  },
-  {
-    "Id": "祈池村无音区",
-    "OccupationType": "SilentArea",
-    "OccupationData": "{\"LevelPlayIds\":[200000023],\"AssociatedEntities\":[200000001,200000187]}",
-    "OccupationNameStringKey": "OccupationConfig_祈池村无音区_Nam"
-  },
-  {
-    "Id": "地下鳞人刷新",
-    "OccupationType": "SilentArea",
-    "OccupationData": "{\"LevelPlayIds\":[133000002],\"AssociatedEntities\":[133000087,133000089,133000090]}",
-    "OccupationNameStringKey": "OccupationConfig_地下鳞人刷新_Nam"
-  },
-  {
-    "Id": "shilang",
+    "Id": "guanghui",
     "OccupationType": "Npc",
     "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_shilang_Name"
+    "OccupationNameStringKey": "OccupationConfig_guanghui_Name"
   },
   {
-    "Id": "shuoshuren",
+    "Id": "guhong",
     "OccupationType": "Npc",
     "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_shuoshuren_Name"
-  },
-  {
-    "Id": "xiangliyao",
-    "OccupationType": "Npc",
-    "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_xiangliyao_Name"
+    "OccupationNameStringKey": "OccupationConfig_guhong_Name"
   },
   {
     "Id": "gupan",
@@ -378,28 +108,166 @@
     "OccupationNameStringKey": "OccupationConfig_jifeng_Name"
   },
   {
-    "Id": "screenResource",
-    "OccupationType": "ScreenResource",
-    "OccupationData": "",
-    "OccupationNameStringKey": ""
-  },
-  {
-    "Id": "timeOccupation",
-    "OccupationType": "Time",
-    "OccupationData": "",
-    "OccupationNameStringKey": ""
-  },
-  {
-    "Id": "漂泊者",
+    "Id": "jinxi",
     "OccupationType": "Npc",
     "OccupationData": "",
-    "OccupationNameStringKey": "OccupationConfig_漂泊者_Name"
+    "OccupationNameStringKey": "OccupationConfig_jinxi_Name"
   },
   {
-    "Id": "changli",
+    "Id": "jiyan",
     "OccupationType": "Npc",
     "OccupationData": "",
-    "OccupationNameStringKey": "Empty"
+    "OccupationNameStringKey": "OccupationConfig_jiyan_Name"
+  },
+  {
+    "Id": "juepopo",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_juepopo_Name"
+  },
+  {
+    "Id": "jueyuan",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_jueyuan_Name"
+  },
+  {
+    "Id": "kakaluo",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_kakaluo_Name"
+  },
+  {
+    "Id": "langsheng",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_langsheng_Name"
+  },
+  {
+    "Id": "lingyang",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_lingyang_Name"
+  },
+  {
+    "Id": "linsu",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_linsu_Name"
+  },
+  {
+    "Id": "lizhu",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_lizhu_Name"
+  },
+  {
+    "Id": "mahe",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_mahe_Name"
+  },
+  {
+    "Id": "mingming",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_mingming_Name"
+  },
+  {
+    "Id": "motefei",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_motefei_Name"
+  },
+  {
+    "Id": "npc_test",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_npc_test_Name"
+  },
+  {
+    "Id": "npc_test2",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_npc_test2_Name"
+  },
+  {
+    "Id": "panhua",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_panhua_Name"
+  },
+  {
+    "Id": "pinwen",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_pinwen_Name"
+  },
+  {
+    "Id": "qingru",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_qingru_Name"
+  },
+  {
+    "Id": "qiushui",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_qiushui_Name"
+  },
+  {
+    "Id": "sanhua",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_sanhua_Name"
+  },
+  {
+    "Id": "shilang",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_shilang_Name"
+  },
+  {
+    "Id": "shuncai",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_shuncai_Name"
+  },
+  {
+    "Id": "shuoshuren",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_shuoshuren_Name"
+  },
+  {
+    "Id": "sixi",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_sixi_Name"
+  },
+  {
+    "Id": "taoqi",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_taoqi_Name"
+  },
+  {
+    "Id": "xiangliyao",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_xiangliyao_Name"
+  },
+  {
+    "Id": "xiaojiu",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_xiaojiu_Name"
+  },
+  {
+    "Id": "xieyang",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_xieyang_Name"
   },
   {
     "Id": "xinyi",
@@ -408,10 +276,154 @@
     "OccupationNameStringKey": "Empty"
   },
   {
+    "Id": "xuxu",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_xuxu_Name"
+  },
+  {
+    "Id": "yangyang",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_yangyang_Name"
+  },
+  {
+    "Id": "yanyan",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_yanyan_Name"
+  },
+  {
+    "Id": "yihu",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_yihu_Name"
+  },
+  {
+    "Id": "yinlin",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_yinlin_Name"
+  },
+  {
+    "Id": "yixin",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_yixin_Name"
+  },
+  {
+    "Id": "yuanwu",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_yuanwu_Name"
+  },
+  {
+    "Id": "yunbo",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_yunbo_Name"
+  },
+  {
+    "Id": "yuzan",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_yuzan_Name"
+  },
+  {
+    "Id": "zhuyi",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_zhuyi_Name"
+  },
+  {
+    "Id": "漂泊者",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_漂泊者_Name"
+  },
+  {
+    "Id": "wyq_npc_test",
+    "OccupationType": "SilentArea",
+    "OccupationData": "{\"LevelPlayIds\":[30000015],\"AssociatedEntities\":[30000219,30000217,30000223]}",
+    "OccupationNameStringKey": "OccupationConfig_wyq_npc_test_Nam"
+  },
+  {
+    "Id": "wyq_test",
+    "OccupationType": "SilentArea",
+    "OccupationData": "{\"LevelPlayIds\":[30000015],\"AssociatedEntities\":[30000219,30000217]}",
+    "OccupationNameStringKey": "OccupationConfig_wyq_test_Name"
+  },
+  {
+    "Id": "wyq_test2",
+    "OccupationType": "SilentArea",
+    "OccupationData": "{\"LevelPlayIds\":[34000038],\"AssociatedEntities\":[34000885,34000883,34000886]}",
+    "OccupationNameStringKey": "OccupationConfig_wyq_test2_Name"
+  },
+  {
+    "Id": "主线无冠者无音区占用",
+    "OccupationType": "SilentArea",
+    "OccupationData": "{\"LevelPlayIds\":[110000000],\"AssociatedEntities\":[110000595,110001071]}",
+    "OccupationNameStringKey": "OccupationConfig_主线无冠者无音区占用_Nam"
+  },
+  {
+    "Id": "乌龟无音区占用",
+    "OccupationType": "SilentArea",
+    "OccupationData": "{\"LevelPlayIds\":[110000001],\"AssociatedEntities\":[]}",
+    "OccupationNameStringKey": "OccupationConfig_乌龟无音区占用_Nam"
+  },
+  {
+    "Id": "地下鳞人刷新",
+    "OccupationType": "SilentArea",
+    "OccupationData": "{\"LevelPlayIds\":[133000002],\"AssociatedEntities\":[133000087,133000089,133000090]}",
+    "OccupationNameStringKey": "OccupationConfig_地下鳞人刷新_Nam"
+  },
+  {
+    "Id": "沃艾珥领主占用",
+    "OccupationType": "SilentArea",
+    "OccupationData": "{\"LevelPlayIds\":[118000128],\"AssociatedEntities\":[]}",
+    "OccupationNameStringKey": "OccupationConfig_沃艾珥领主占用_Nam"
+  },
+  {
+    "Id": "燎照之骑无音区占用",
+    "OccupationType": "SilentArea",
+    "OccupationData": "{\"LevelPlayIds\":[110000050],\"AssociatedEntities\":[]}",
+    "OccupationNameStringKey": "OccupationConfig_燎照之骑无音区占用_Nam"
+  },
+  {
+    "Id": "祈池村无音区",
+    "OccupationType": "SilentArea",
+    "OccupationData": "{\"LevelPlayIds\":[200000023],\"AssociatedEntities\":[200000001,200000187]}",
+    "OccupationNameStringKey": "OccupationConfig_祈池村无音区_Nam"
+  },
+  {
+    "Id": "辉莹军势占用",
+    "OccupationType": "SilentArea",
+    "OccupationData": "{\"LevelPlayIds\":[110000046],\"AssociatedEntities\":[146000109,129000008]}",
+    "OccupationNameStringKey": "OccupationConfig_辉莹军势占用_Nam"
+  },
+  {
+    "Id": "鳞人无音区占用",
+    "OccupationType": "SilentArea",
+    "OccupationData": "{\"LevelPlayIds\":[110000002],\"AssociatedEntities\":[110001073,110000092]}",
+    "OccupationNameStringKey": "OccupationConfig_鳞人无音区占用_Nam"
+  },
+  {
     "Id": "TaoyuanxiangVillage",
     "OccupationType": "Area",
     "OccupationData": "",
     "OccupationNameStringKey": "OccupationConfig_TaoyuanxiangVillage_Name"
+  },
+  {
+    "Id": "shouanren",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_shouanren_Name"
+  },
+  {
+    "Id": "youhu",
+    "OccupationType": "Npc",
+    "OccupationData": "",
+    "OccupationNameStringKey": "OccupationConfig_youhu_Name"
   },
   {
     "Id": "zhezhi",

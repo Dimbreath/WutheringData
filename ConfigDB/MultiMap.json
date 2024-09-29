@@ -211,5 +211,145 @@
     "ConditionId": 0,
     "FloorName": "MapFloor_Raw",
     "FloorIcon": "SP_MapIcon3"
+  },
+  {
+    "Id": 12,
+    "GroupId": 4,
+    "MapId": 900,
+    "Floor": -2,
+    "MapTilePath": [
+      "T_HHASubTiles_0_-1_JZD_LAYER2_UI",
+      "T_HHASubTiles_1_-1_JZD_LAYER2_UI"
+    ],
+    "MiniMapTilePath": [
+      "T_HHASubTiles_0_-1_JZD_LAYER2_UI",
+      "T_HHASubTiles_1_-1_JZD_LAYER2_UI"
+    ],
+    "Area": [
+      1571
+    ],
+    "Mark": [
+      300014
+    ],
+    "ConditionId": 0,
+    "FloorName": "Area_1571_Title",
+    "FloorIcon": "SP_MapIcon1"
+  },
+  {
+    "Id": 13,
+    "GroupId": 4,
+    "MapId": 900,
+    "Floor": -1,
+    "MapTilePath": [
+      "T_HHASubTiles_0_-1_JZD_LAYER1_UI",
+      "T_HHASubTiles_1_-1_JZD_LAYER1_UI"
+    ],
+    "MiniMapTilePath": [
+      "T_HHASubTiles_0_-1_JZD_LAYER1_UI",
+      "T_HHASubTiles_1_-1_JZD_LAYER1_UI"
+    ],
+    "Area": [
+      1572
+    ],
+    "Mark": null,
+    "ConditionId": 0,
+    "FloorName": "Area_1572_Title",
+    "FloorIcon": "SP_MapIcon1"
+  },
+  {
+    "Id": 14,
+    "GroupId": 4,
+    "MapId": 900,
+    "Floor": 0,
+    "MapTilePath": null,
+    "MiniMapTilePath": null,
+    "Area": null,
+    "Mark": null,
+    "ConditionId": 0,
+    "FloorName": "Area_15_Title",
+    "FloorIcon": "SP_MapIcon3"
+  },
+  {
+    "Id": 15,
+    "GroupId": 5,
+    "MapId": 900,
+    "Floor": -2,
+    "MapTilePath": [
+      "T_HHASubTiles_0_0_MWSRS_LAYER2_UI"
+    ],
+    "MiniMapTilePath": [
+      "T_HHASubTiles_0_0_MWSRS_LAYER2_UI"
+    ],
+    "Area": [
+      1561
+    ],
+    "Mark": null,
+    "ConditionId": 0,
+    "FloorName": "Area_1561_Title",
+    "FloorIcon": "SP_MapIcon1"
+  },
+  {
+    "Id": 16,
+    "GroupId": 5,
+    "MapId": 900,
+    "Floor": -1,
+    "MapTilePath": [
+      "T_HHASubTiles_0_0_MWSRS_LAYER1_UI"
+    ],
+    "MiniMapTilePath": [
+      "T_HHASubTiles_0_0_MWSRS_LAYER1_UI"
+    ],
+    "Area": [
+      1562
+    ],
+    "Mark": null,
+    "ConditionId": 0,
+    "FloorName": "Area_1562_Title",
+    "FloorIcon": "SP_MapIcon1"
+  },
+  {
+    "Id": 17,
+    "GroupId": 5,
+    "MapId": 900,
+    "Floor": 0,
+    "MapTilePath": null,
+    "MiniMapTilePath": null,
+    "Area": null,
+    "Mark": null,
+    "ConditionId": 0,
+    "FloorName": "Area_15_Title",
+    "FloorIcon": "SP_MapIcon3"
+  },
+  {
+    "Id": 18,
+    "GroupId": 6,
+    "MapId": 900,
+    "Floor": -1,
+    "MapTilePath": [
+      "T_HHASubTiles_0_0_SMFJ_LAYER1_UI"
+    ],
+    "MiniMapTilePath": [
+      "T_HHASubTiles_0_0_SMFJ_LAYER1_UI"
+    ],
+    "Area": [
+      1511
+    ],
+    "Mark": null,
+    "ConditionId": 0,
+    "FloorName": "Area_1511_Title",
+    "FloorIcon": "SP_MapIcon1"
+  },
+  {
+    "Id": 19,
+    "GroupId": 6,
+    "MapId": 900,
+    "Floor": 0,
+    "MapTilePath": null,
+    "MiniMapTilePath": null,
+    "Area": null,
+    "Mark": null,
+    "ConditionId": 0,
+    "FloorName": "Area_15_Title",
+    "FloorIcon": "SP_MapIcon3"
   }
 ]

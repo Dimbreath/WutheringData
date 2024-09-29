@@ -222,5 +222,61 @@
     "CnName": "追月节摊位测试",
     "LevelId": 100,
     "InitLoad": false
+  },
+  {
+    "Id": 750001,
+    "DataLayer": "DataLayerRuntime_DLTask_HHA01a",
+    "CnName": "黑海岸上DataLayer1a",
+    "LevelId": 8,
+    "InitLoad": false
+  },
+  {
+    "Id": 750002,
+    "DataLayer": "DataLayerRuntime_DLTask_HHA01b",
+    "CnName": "黑海岸上DataLayer1b",
+    "LevelId": 8,
+    "InitLoad": true
+  },
+  {
+    "Id": 750003,
+    "DataLayer": "DataLayerRuntime_DLTask_HHA02a",
+    "CnName": "黑海岸上DataLayer2a",
+    "LevelId": 8,
+    "InitLoad": false
+  },
+  {
+    "Id": 750004,
+    "DataLayer": "DataLayerRuntime_DLTask_HHA02b",
+    "CnName": "黑海岸上DataLayer2b",
+    "LevelId": 8,
+    "InitLoad": true
+  },
+  {
+    "Id": 750005,
+    "DataLayer": "DataLayerRuntime_DLTask_HHAU01",
+    "CnName": "黑海岸下DataLayer01",
+    "LevelId": 900,
+    "InitLoad": true
+  },
+  {
+    "Id": 750006,
+    "DataLayer": "DataLayerRuntime_DLTask_HHAU02",
+    "CnName": "黑海岸下DataLayer02",
+    "LevelId": 900,
+    "InitLoad": false
+  },
+  {
+    "Id": 750007,
+    "DataLayer": "DataLayerRuntime_DLTask_ZQAK",
+    "CnName": "安可线中曲台地舞台",
+    "LevelId": 8,
+    "InitLoad": false
+  },
+  {
+    "Id": 750008,
+    "DataLayer": "DataLayerRuntime_DLTask_BLYDG",
+    "CnName": "北落野领主道馆DataLayer1",
+    "LevelId": 8,
+    "InitLoad": false
   }
 ]

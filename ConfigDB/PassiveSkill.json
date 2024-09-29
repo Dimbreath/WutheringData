@@ -2396,6 +2396,94 @@
     ]
   },
   {
+    "Id": 640010010,
+    "SkillDesc": "怪物血量低于10%时，时停自己并生成子弹",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "怪物.common.过程标识.自爆"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [
+      640010011,
+      640010012
+    ],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "640010010"
+    ]
+  },
+  {
+    "Id": 640010011,
+    "SkillDesc": "",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "",
+    "TriggerPreset": null,
+    "TriggerParams": "{}",
+    "TriggerFormula": "FALSE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "640010011"
+    ]
+  },
+  {
+    "Id": 640010012,
+    "SkillDesc": "",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "",
+    "TriggerPreset": null,
+    "TriggerParams": "{}",
+    "TriggerFormula": "FALSE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "640010010#-1",
+      "640010009#-1",
+      "640010013#-1"
+    ]
+  },
+  {
+    "Id": 640010013,
+    "SkillDesc": "怪物血量低于10%时，时停自己并生成子弹",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "怪物.common.过程标识.自爆"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [
+      640010011,
+      640010012
+    ],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "640010014"
+    ]
+  },
+  {
     "Id": 70064002,
     "SkillDesc": "泣血战士受击，触发变招到防御",
     "Cdtime": 1.0,
@@ -3036,6 +3124,27 @@
     ]
   },
   {
+    "Id": 1505701001,
+    "SkillDesc": "守岸人-监控队友协奏反应，增加伴生物的能量\n从而改变其特效",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "QteGoBattleTrigger",
+    "TriggerPreset": [
+      "2"
+    ],
+    "TriggerParams": "{\n\"CheckOwnerTags\": [\n        \"角色.R2T1ShouanrenMd10011.动作标识.领域关闭\"] \n}",
+    "TriggerFormula": "MatchAllTags(Owner, CheckOwnerTags)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1505402002"
+    ]
+  },
+  {
     "Id": 210024001,
     "SkillDesc": "时停入水检测被动",
     "Cdtime": 0.0,
@@ -3460,6 +3569,50 @@
     ]
   },
   {
+    "Id": 672010122,
+    "SkillDesc": "检测到地面tag时召唤子弹",
+    "Cdtime": 0.30000001192092896,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.位置状态.地面"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [
+      672010123
+    ],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "220210100"
+    ]
+  },
+  {
+    "Id": 1505701002,
+    "SkillDesc": "守岸人-共鸣链监控队友协奏反应，增加自身协奏能量。",
+    "Cdtime": 25.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "QteGoBattleTrigger",
+    "TriggerPreset": [
+      "2"
+    ],
+    "TriggerParams": "{\n\"CheckOwnerTags\": [\n        \"角色.R2T1ShouanrenMd10011.buff标识.共鸣链3\",\n\"角色.R2T1ShouanrenMd10011.动作标识.在领域中\"] \n}",
+    "TriggerFormula": "MatchAllTags(Owner, CheckOwnerTags)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1505702003"
+    ]
+  },
+  {
     "Id": 92008032,
     "SkillDesc": "受到治疗时，添加暴击爆伤buff",
     "Cdtime": 0.0,
@@ -3481,6 +3634,515 @@
       "920080321",
       "920080322",
       "920080323"
+    ]
+  },
+  {
+    "Id": 672010123,
+    "SkillDesc": "删除检测被动",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "",
+    "TriggerPreset": null,
+    "TriggerParams": "{}",
+    "TriggerFormula": "FALSE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "672010122"
+    ]
+  },
+  {
+    "Id": 672020101,
+    "SkillDesc": "检测到冲刺tag时召唤跟随子弹",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.动作状态.冲刺",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "220210201"
+    ]
+  },
+  {
+    "Id": 672020102,
+    "SkillDesc": "冲刺消失时移除子弹",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.动作状态.冲刺",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBullet",
+    "SkillActionParams": [
+      "220210201"
+    ]
+  },
+  {
+    "Id": 640011041,
+    "SkillDesc": "联机boss-怪物瘫痪后攻击力增加",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "怪物.common.状态标识.瘫痪中",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "640011042"
+    ]
+  },
+  {
+    "Id": 672020114,
+    "SkillDesc": "割草1.3-停止后清理增伤",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "",
+    "TriggerPreset": null,
+    "TriggerParams": "{}",
+    "TriggerFormula": "FALSE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "672020123"
+    ]
+  },
+  {
+    "Id": 672020115,
+    "SkillDesc": "割草1.3-停止后清理动能",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.动作状态.冲刺",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [
+      672020114
+    ],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "672020127"
+    ]
+  },
+  {
+    "Id": 672020116,
+    "SkillDesc": "停止后加攻击力",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.动作状态.冲刺",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "672020134"
+    ]
+  },
+  {
+    "Id": 672020117,
+    "SkillDesc": "停止后加攻击力",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.动作状态.冲刺",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "672020135"
+    ]
+  },
+  {
+    "Id": 672020118,
+    "SkillDesc": "停止后加攻击力",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.动作状态.冲刺",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "672020136"
+    ]
+  },
+  {
+    "Id": 672040185,
+    "SkillDesc": "护盾消失时移除uff",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "",
+    "TriggerPreset": null,
+    "TriggerParams": "{}",
+    "TriggerFormula": "FALSE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "672040182",
+      "672040183"
+    ]
+  },
+  {
+    "Id": 672050102,
+    "SkillDesc": "角色进后台删除子弹",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.逻辑状态.后台",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBullet",
+    "SkillActionParams": [
+      "220210201"
+    ]
+  },
+  {
+    "Id": 672020150,
+    "SkillDesc": "检测治疗结算",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "Attacker==Owner",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "672050151",
+      "672050152"
+    ]
+  },
+  {
+    "Id": 672050105,
+    "SkillDesc": "时间到时删除子弹",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "割草玩法.冲刺子弹",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBullet",
+    "SkillActionParams": [
+      "220210201"
+    ]
+  },
+  {
+    "Id": 672020151,
+    "SkillDesc": "守岸人专武检测QTE治疗结算-1级",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "Attacker==Owner\nAND\nDamageType==4",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "110009006"
+    ]
+  },
+  {
+    "Id": 672020152,
+    "SkillDesc": "守岸人专武检测QTE治疗结算-2级",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "Attacker==Owner\nAND\nDamageType==4",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "110009009"
+    ]
+  },
+  {
+    "Id": 672020153,
+    "SkillDesc": "守岸人专武检测QTE治疗结算-3级",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "Attacker==Owner\nAND\nDamageType==4",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "110009012"
+    ]
+  },
+  {
+    "Id": 672020154,
+    "SkillDesc": "守岸人专武检测QTE治疗结算-4级",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "Attacker==Owner\nAND\nDamageType==4",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "110009015"
+    ]
+  },
+  {
+    "Id": 672020155,
+    "SkillDesc": "守岸人专武检测QTE治疗结算-5级",
+    "Cdtime": 1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "Attacker==Owner\nAND\nDamageType==4",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "110009018"
+    ]
+  },
+  {
+    "Id": 92008034,
+    "SkillDesc": "受到治疗时，添加暴击爆伤buff",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeDamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "920080342"
+    ]
+  },
+  {
+    "Id": 1505701003,
+    "SkillDesc": "伴生物用",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "角色.R2T1ShouanrenMd10011.动作标识.领域关闭",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBullet",
+    "SkillActionParams": [
+      "1505505002#0",
+      "1505505012#0",
+      "1505505022#0",
+      "1505505032#0",
+      "1505505004#0",
+      "1505505014#0",
+      "1505505006#0",
+      "1505505016#0"
+    ]
+  },
+  {
+    "Id": 1505701004,
+    "SkillDesc": "守岸人-共鸣链监控自己放大招回协奏能量",
+    "Cdtime": 25.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "角色.R2T1ShouanrenMd10011.动作标识.技能.大招",
+      "0"
+    ],
+    "TriggerParams": "{\n\"CheckOwnerTags\": [\n        \"角色.R2T1ShouanrenMd10011.buff标识.共鸣链3\"] \n}",
+    "TriggerFormula": "MatchAllTags(Owner, CheckOwnerTags)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1505702004"
+    ]
+  },
+  {
+    "Id": 920080343,
+    "SkillDesc": "治疗时，添加共鸣效率buff",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "Attacker==Owner",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "920080343"
+    ]
+  },
+  {
+    "Id": 92008054,
+    "SkillDesc": "受治疗添加抗打断，通用减伤",
+    "Cdtime": 0.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeDamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "920080541",
+      "920080542"
     ]
   }
 ]

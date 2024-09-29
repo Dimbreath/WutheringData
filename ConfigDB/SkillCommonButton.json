@@ -44,7 +44,9 @@
     "SkillIdTagMap": null,
     "SkillIconTags": null,
     "EnableTags": null,
-    "DisableTags": null,
+    "DisableTags": [
+      "关卡.样条线跑墙.按键屏蔽"
+    ],
     "DisableSkillIdTags": null,
     "HiddenTags": null,
     "IsCdVisible": true,
@@ -63,7 +65,12 @@
     "ButtonType": 5,
     "ActionType": 5,
     "SkillId": 100001,
-    "SkillIdTagMap": null,
+    "SkillIdTagMap": [
+      {
+        "Key": "角色.R2T1ShouanrenMd10011.buff标识.退场技.buff2",
+        "Value": 100023
+      }
+    ],
     "SkillIconTags": [
       "行为状态.位置状态.水中",
       "幻象.声骸角色.叮咚咚.疾跑"
@@ -84,7 +91,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": true,
     "LongPressTime": 300,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "角色.R2T1ShouanrenMd10011.buff标识.退场技.buff2",
+        "Value": 1002
+      }
+    ]
   },
   {
     "Id": 1003,
@@ -166,6 +178,86 @@
       },
       {
         "Key": "角色.Common.BUFF通用标识.禁止瞄准模式",
+        "Value": {
+          "ArrayInt": [
+            210020
+          ]
+        }
+      },
+      {
+        "Key": "行为状态.逻辑状态.技能中.全身动作",
+        "Value": {
+          "ArrayInt": [
+            210020
+          ]
+        }
+      },
+      {
+        "Key": "行为状态.动作状态.受击",
+        "Value": {
+          "ArrayInt": [
+            210020
+          ]
+        }
+      },
+      {
+        "Key": "行为状态.动作状态.快速攀爬",
+        "Value": {
+          "ArrayInt": [
+            210020
+          ]
+        }
+      },
+      {
+        "Key": "行为状态.位置状态.攀爬",
+        "Value": {
+          "ArrayInt": [
+            210020
+          ]
+        }
+      },
+      {
+        "Key": "行为状态.动作状态.正常攀爬",
+        "Value": {
+          "ArrayInt": [
+            210020
+          ]
+        }
+      },
+      {
+        "Key": "功能.功能制作.瞄准模式.瞄准蓄力",
+        "Value": {
+          "ArrayInt": [
+            210020
+          ]
+        }
+      },
+      {
+        "Key": "功能.功能制作.瞄准模式.通用瞄准进入",
+        "Value": {
+          "ArrayInt": [
+            210020
+          ]
+        }
+      },
+      {
+        "Key": "功能.功能制作.瞄准模式.瞄准键进入",
+        "Value": {
+          "ArrayInt": [
+            210020
+          ]
+        }
+      },
+      {
+        "Key": "角色.BaseRole.技能通用标识.幻象变身中",
+        "Value": {
+          "ArrayInt": [
+            210020
+          ]
+        }
+      },
+      {
+        "Key": "行为状态.位置状态.水中",
         "Value": {
           "ArrayInt": [
             210020

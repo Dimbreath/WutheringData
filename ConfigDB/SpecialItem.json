@@ -1,6 +1,7 @@
 [
   {
     "Id": 70140001,
+    "UseButtonAdditionParam": null,
     "SpecialItemType": 0,
     "Parameters": null,
     "UseInMultiMode": true,
@@ -18,6 +19,7 @@
   },
   {
     "Id": 70140002,
+    "UseButtonAdditionParam": null,
     "SpecialItemType": 0,
     "Parameters": null,
     "UseInMultiMode": true,
@@ -35,6 +37,7 @@
   },
   {
     "Id": 70139304,
+    "UseButtonAdditionParam": null,
     "SpecialItemType": 1,
     "Parameters": null,
     "UseInMultiMode": true,
@@ -46,6 +49,7 @@
   },
   {
     "Id": 70140011,
+    "UseButtonAdditionParam": null,
     "SpecialItemType": 1,
     "Parameters": null,
     "UseInMultiMode": true,
@@ -57,6 +61,7 @@
   },
   {
     "Id": 70139300,
+    "UseButtonAdditionParam": null,
     "SpecialItemType": 1,
     "Parameters": null,
     "UseInMultiMode": true,
@@ -68,6 +73,7 @@
   },
   {
     "Id": 70140003,
+    "UseButtonAdditionParam": null,
     "SpecialItemType": 1,
     "Parameters": null,
     "UseInMultiMode": true,
@@ -79,6 +85,10 @@
   },
   {
     "Id": 70140004,
+    "UseButtonAdditionParam": [
+      1,
+      4
+    ],
     "SpecialItemType": 0,
     "Parameters": null,
     "UseInMultiMode": true,
@@ -95,6 +105,7 @@
   },
   {
     "Id": 70139331,
+    "UseButtonAdditionParam": null,
     "SpecialItemType": 0,
     "Parameters": null,
     "UseInMultiMode": false,
@@ -112,6 +123,7 @@
   },
   {
     "Id": 70140021,
+    "UseButtonAdditionParam": null,
     "SpecialItemType": 0,
     "Parameters": [
       "Gameplay355"
@@ -127,6 +139,7 @@
   },
   {
     "Id": 70140025,
+    "UseButtonAdditionParam": null,
     "SpecialItemType": 0,
     "Parameters": [
       "Gameplay355"
@@ -139,5 +152,53 @@
     ],
     "SummonConfigId": 0,
     "NeedShowNum": true
+  },
+  {
+    "Id": 70140012,
+    "UseButtonAdditionParam": null,
+    "SpecialItemType": 1,
+    "Parameters": null,
+    "UseInMultiMode": false,
+    "UseInstance": false,
+    "BanTags": null,
+    "AllowTags": null,
+    "SummonConfigId": 0,
+    "NeedShowNum": false
+  },
+  {
+    "Id": 70140013,
+    "UseButtonAdditionParam": null,
+    "SpecialItemType": 1,
+    "Parameters": null,
+    "UseInMultiMode": false,
+    "UseInstance": false,
+    "BanTags": null,
+    "AllowTags": null,
+    "SummonConfigId": 0,
+    "NeedShowNum": false
+  },
+  {
+    "Id": 70140014,
+    "UseButtonAdditionParam": null,
+    "SpecialItemType": 1,
+    "Parameters": null,
+    "UseInMultiMode": true,
+    "UseInstance": true,
+    "BanTags": null,
+    "AllowTags": null,
+    "SummonConfigId": 0,
+    "NeedShowNum": false
+  },
+  {
+    "Id": 70140015,
+    "UseButtonAdditionParam": null,
+    "SpecialItemType": 1,
+    "Parameters": null,
+    "UseInMultiMode": false,
+    "UseInstance": false,
+    "BanTags": null,
+    "AllowTags": null,
+    "SummonConfigId": 0,
+    "NeedShowNum": false
   }
 ]

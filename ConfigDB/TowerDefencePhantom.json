@@ -5,7 +5,9 @@
     "PhantomName": "TowerDefence_100010_PhantomTitle",
     "TypeTextId": "TowerDefence_2",
     "TypeIcon": "SP_TagYellow",
-    "SkillGroup": 1
+    "MarkHex": "SP_ItemBVisionPoint1",
+    "SkillGroup": 1,
+    "ActivityId": 100105523
   },
   {
     "Id": 2,
@@ -13,7 +15,9 @@
     "PhantomName": "TowerDefence_100020_PhantomTitle",
     "TypeTextId": "TowerDefence_3",
     "TypeIcon": "SP_TagGreen",
-    "SkillGroup": 2
+    "MarkHex": "SP_ItemBVisionPoint",
+    "SkillGroup": 2,
+    "ActivityId": 100105523
   },
   {
     "Id": 3,
@@ -21,7 +25,9 @@
     "PhantomName": "TowerDefence_100030_PhantomTitle",
     "TypeTextId": "TowerDefence_2",
     "TypeIcon": "SP_TagYellow",
-    "SkillGroup": 3
+    "MarkHex": "SP_ItemBVisionPoint1",
+    "SkillGroup": 3,
+    "ActivityId": 100105523
   },
   {
     "Id": 4,
@@ -29,7 +35,9 @@
     "PhantomName": "TowerDefence_100040_PhantomTitle",
     "TypeTextId": "TowerDefence_1",
     "TypeIcon": "SP_TagRed",
-    "SkillGroup": 4
+    "MarkHex": "SP_ItemBVisionPoint2",
+    "SkillGroup": 4,
+    "ActivityId": 100105523
   },
   {
     "Id": 5,
@@ -37,7 +45,9 @@
     "PhantomName": "TowerDefence_100050_PhantomTitle",
     "TypeTextId": "TowerDefence_3",
     "TypeIcon": "SP_TagGreen",
-    "SkillGroup": 5
+    "MarkHex": "SP_ItemBVisionPoint",
+    "SkillGroup": 5,
+    "ActivityId": 100105523
   },
   {
     "Id": 6,
@@ -45,7 +55,9 @@
     "PhantomName": "TowerDefence_100060_PhantomTitle",
     "TypeTextId": "TowerDefence_2",
     "TypeIcon": "SP_TagYellow",
-    "SkillGroup": 6
+    "MarkHex": "SP_ItemBVisionPoint1",
+    "SkillGroup": 6,
+    "ActivityId": 100105523
   },
   {
     "Id": 7,
@@ -53,7 +65,9 @@
     "PhantomName": "TowerDefence_100070_PhantomTitle",
     "TypeTextId": "TowerDefence_3",
     "TypeIcon": "SP_TagGreen",
-    "SkillGroup": 7
+    "MarkHex": "SP_ItemBVisionPoint",
+    "SkillGroup": 7,
+    "ActivityId": 100105523
   },
   {
     "Id": 8,
@@ -61,7 +75,9 @@
     "PhantomName": "TowerDefence_100080_PhantomTitle",
     "TypeTextId": "TowerDefence_1",
     "TypeIcon": "SP_TagRed",
-    "SkillGroup": 8
+    "MarkHex": "SP_ItemBVisionPoint2",
+    "SkillGroup": 8,
+    "ActivityId": 100105523
   },
   {
     "Id": 9,
@@ -69,6 +85,98 @@
     "PhantomName": "TowerDefence_100090_PhantomTitle",
     "TypeTextId": "TowerDefence_1",
     "TypeIcon": "SP_TagRed",
-    "SkillGroup": 9
+    "MarkHex": "SP_ItemBVisionPoint2",
+    "SkillGroup": 9,
+    "ActivityId": 100105523
+  },
+  {
+    "Id": 11,
+    "PhantomItemId": 60200011,
+    "PhantomName": "TowerDefence_200010_PhantomTitle",
+    "TypeTextId": "TowerDefence_4",
+    "TypeIcon": "SP_TagGreen",
+    "MarkHex": "SP_ItemBVisionPoint",
+    "SkillGroup": 11,
+    "ActivityId": 101900001
+  },
+  {
+    "Id": 12,
+    "PhantomItemId": 60200012,
+    "PhantomName": "TowerDefence_200020_PhantomTitle",
+    "TypeTextId": "TowerDefence_4",
+    "TypeIcon": "SP_TagGreen",
+    "MarkHex": "SP_ItemBVisionPoint",
+    "SkillGroup": 12,
+    "ActivityId": 101900001
+  },
+  {
+    "Id": 13,
+    "PhantomItemId": 60200013,
+    "PhantomName": "TowerDefence_200030_PhantomTitle",
+    "TypeTextId": "TowerDefence_2",
+    "TypeIcon": "SP_TagYellow",
+    "MarkHex": "SP_ItemBVisionPoint1",
+    "SkillGroup": 13,
+    "ActivityId": 101900001
+  },
+  {
+    "Id": 14,
+    "PhantomItemId": 60200014,
+    "PhantomName": "TowerDefence_200040_PhantomTitle",
+    "TypeTextId": "TowerDefence_1",
+    "TypeIcon": "SP_TagRed",
+    "MarkHex": "SP_ItemBVisionPoint2",
+    "SkillGroup": 14,
+    "ActivityId": 101900001
+  },
+  {
+    "Id": 15,
+    "PhantomItemId": 60200015,
+    "PhantomName": "TowerDefence_200050_PhantomTitle",
+    "TypeTextId": "TowerDefence_1",
+    "TypeIcon": "SP_TagRed",
+    "MarkHex": "SP_ItemBVisionPoint2",
+    "SkillGroup": 15,
+    "ActivityId": 101900001
+  },
+  {
+    "Id": 16,
+    "PhantomItemId": 60200016,
+    "PhantomName": "TowerDefence_200060_PhantomTitle",
+    "TypeTextId": "TowerDefence_1",
+    "TypeIcon": "SP_TagRed",
+    "MarkHex": "SP_ItemBVisionPoint2",
+    "SkillGroup": 16,
+    "ActivityId": 101900001
+  },
+  {
+    "Id": 17,
+    "PhantomItemId": 60200017,
+    "PhantomName": "TowerDefence_200070_PhantomTitle",
+    "TypeTextId": "TowerDefence_1",
+    "TypeIcon": "SP_TagRed",
+    "MarkHex": "SP_ItemBVisionPoint2",
+    "SkillGroup": 17,
+    "ActivityId": 101900001
+  },
+  {
+    "Id": 18,
+    "PhantomItemId": 60200018,
+    "PhantomName": "TowerDefence_200080_PhantomTitle",
+    "TypeTextId": "TowerDefence_2",
+    "TypeIcon": "SP_TagYellow",
+    "MarkHex": "SP_ItemBVisionPoint1",
+    "SkillGroup": 18,
+    "ActivityId": 101900001
+  },
+  {
+    "Id": 19,
+    "PhantomItemId": 60200019,
+    "PhantomName": "TowerDefence_200090_PhantomTitle",
+    "TypeTextId": "TowerDefence_4",
+    "TypeIcon": "SP_TagGreen",
+    "MarkHex": "SP_ItemBVisionPoint",
+    "SkillGroup": 19,
+    "ActivityId": 101900001
   }
 ]

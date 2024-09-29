@@ -2,7 +2,11 @@
   {
     "Id": 1,
     "PackageType": 0,
+    "Sort": 0,
     "Language": [
+      "all"
+    ],
+    "PackageId": [
       "all"
     ],
     "Channel": [
@@ -15,7 +19,11 @@
   {
     "Id": 2,
     "PackageType": 0,
+    "Sort": 0,
     "Language": [
+      "all"
+    ],
+    "PackageId": [
       "all"
     ],
     "Channel": [
@@ -28,7 +36,11 @@
   {
     "Id": 3,
     "PackageType": 0,
+    "Sort": 0,
     "Language": [
+      "all"
+    ],
+    "PackageId": [
       "all"
     ],
     "Channel": [
@@ -41,7 +53,11 @@
   {
     "Id": 4,
     "PackageType": 0,
+    "Sort": 0,
     "Language": [
+      "all"
+    ],
+    "PackageId": [
       "all"
     ],
     "Channel": [
@@ -56,7 +72,11 @@
   {
     "Id": 5,
     "PackageType": 0,
+    "Sort": 0,
     "Language": [
+      "all"
+    ],
+    "PackageId": [
       "all"
     ],
     "Channel": [
@@ -71,7 +91,11 @@
   {
     "Id": 6,
     "PackageType": 0,
+    "Sort": 0,
     "Language": [
+      "all"
+    ],
+    "PackageId": [
       "all"
     ],
     "Channel": [
@@ -85,7 +109,11 @@
   {
     "Id": 7,
     "PackageType": 0,
+    "Sort": 0,
     "Language": [
+      "all"
+    ],
+    "PackageId": [
       "all"
     ],
     "Channel": [
@@ -99,17 +127,39 @@
   {
     "Id": 8,
     "PackageType": 0,
+    "Sort": 0,
     "Language": [
       "all"
     ],
+    "PackageId": [
+      "all"
+    ],
+    "Channel": [
+      161
+    ],
+    "ShareId": 8,
+    "Icon": "/Game/Aki/UI/UIResources/UiPhotograph/Atlas/SP_ShareIconTiktok.SP_ShareIconTiktok"
+  },
+  {
+    "Id": 100,
+    "PackageType": 1,
+    "Sort": 0,
+    "Language": [
+      "all"
+    ],
+    "PackageId": null,
     "Channel": null,
     "ShareId": 0,
-    "Icon": "/Game/Aki/UI/UIResources/UiPhotograph/Atlas/SP_ShareIconTiktok.SP_ShareIconTiktok"
+    "Icon": "/Game/Aki/UI/UIResources/UiPhotograph/Atlas/SP_ShareIconKuro.SP_ShareIconKuro"
   },
   {
     "Id": 101,
     "PackageType": 1,
+    "Sort": 0,
     "Language": [
+      "all"
+    ],
+    "PackageId": [
       "all"
     ],
     "Channel": [
@@ -121,7 +171,11 @@
   {
     "Id": 102,
     "PackageType": 1,
+    "Sort": 0,
     "Language": [
+      "all"
+    ],
+    "PackageId": [
       "all"
     ],
     "Channel": [
@@ -133,7 +187,11 @@
   {
     "Id": 103,
     "PackageType": 1,
+    "Sort": 0,
     "Language": [
+      "all"
+    ],
+    "PackageId": [
       "all"
     ],
     "Channel": [
@@ -145,7 +203,11 @@
   {
     "Id": 104,
     "PackageType": 1,
+    "Sort": 0,
     "Language": [
+      "all"
+    ],
+    "PackageId": [
       "all"
     ],
     "Channel": [
@@ -157,7 +219,9 @@
   {
     "Id": 105,
     "PackageType": 1,
+    "Sort": 0,
     "Language": null,
+    "PackageId": null,
     "Channel": [
       0
     ],
@@ -165,13 +229,41 @@
     "Icon": "/Game/Aki/UI/UIResources/UiPhotograph/Atlas/SP_ShareIconNaverLounge.SP_ShareIconNaverLounge"
   },
   {
-    "Id": 100,
-    "PackageType": 1,
+    "Id": 9,
+    "PackageType": 0,
+    "Sort": 0,
     "Language": [
       "all"
     ],
-    "Channel": null,
-    "ShareId": 0,
-    "Icon": "/Game/Aki/UI/UIResources/UiPhotograph/Atlas/SP_ShareIconKuro.SP_ShareIconKuro"
+    "PackageId": [
+      "A1351",
+      "A1380",
+      "A1425"
+    ],
+    "Channel": [
+      18,
+      56
+    ],
+    "ShareId": 10,
+    "Icon": "/Game/Aki/UI/UIResources/UiPhotograph/Atlas/SP_ShareIconTaptap.SP_ShareIconTaptap"
+  },
+  {
+    "Id": 10,
+    "PackageType": 0,
+    "Sort": 0,
+    "Language": [
+      "all"
+    ],
+    "PackageId": [
+      "all"
+    ],
+    "Channel": [
+      18,
+      56,
+      46,
+      161
+    ],
+    "ShareId": 9,
+    "Icon": "/Game/Aki/UI/UIResources/UiPhotograph/Atlas/SP_ShareIconXiaohongshu.SP_ShareIconXiaohongshu"
   }
 ]

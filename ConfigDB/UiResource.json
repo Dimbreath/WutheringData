@@ -6760,6 +6760,11 @@
     "PcPath": ""
   },
   {
+    "Id": "UiView_FightPlotQTE",
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Prefabs/UiView_FightPlotQTE.UiView_FightPlotQTE",
+    "PcPath": "/Game/Aki/UI/UIResources/UiFight/Prefabs/PC/PC_UiView_FightPlotQTE.PC_UiView_FightPlotQTE"
+  },
+  {
     "Id": "UiItem_ItemRogueRoleType",
     "Path": "/Game/Aki/UI/UIResources/Common/Prefabs/Item/UiItem_ItemRogueRoleType.UiItem_ItemRogueRoleType",
     "PcPath": ""
@@ -7067,7 +7072,7 @@
   {
     "Id": "UiView_Summarize",
     "Path": "/Game/Aki/UI/UIResources/UiPlot/Prefabs/UiView_Summarize.UiView_Summarize",
-    "PcPath": ""
+    "PcPath": "/Game/Aki/UI/UIResources/UiPlot/Prefabs/PC/PC_UiView_Summarize.PC_UiView_Summarize"
   },
   {
     "Id": "T_CircumfluenceSignInBg",
@@ -7285,8 +7290,93 @@
     "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/RoleActivityXiangliyao/PC_UiItem_ActivityRoleXiangliyao.PC_UiItem_ActivityRoleXiangliyao"
   },
   {
+    "Id": "UiView_MowingBuff",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityMowing/UiView_MowingBuff.UiView_MowingBuff",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityMowing/PC_UiView_MowingBuff.PC_UiView_MowingBuff"
+  },
+  {
+    "Id": "UiItem_BuffBag",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityMowing/UiItem_BuffBag.UiItem_BuffBag",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityMowing/PC_UiItem_BuffBag.PC_UiItem_BuffBag"
+  },
+  {
+    "Id": "UiItem_BuffSchedule",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityMowing/UiItem_BuffSchedule.UiItem_BuffSchedule",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityMowing/PC_UiItem_BuffSchedule.PC_UiItem_BuffSchedule"
+  },
+  {
     "Id": "SP_TogPointUnLock",
     "Path": "/Game/Aki/UI/UIResources/UiActivity/Atlas/ChasingMoon/SP_TogPointUnLock.SP_TogPointUnLock",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_CountDownChallenge",
+    "Path": "/Game/Aki/UI/UIResources/UiTips/Prefabs/UiView_CountDownChallenge.UiView_CountDownChallenge",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_CountdownTipRed",
+    "Path": "/Game/Aki/UI/UIResources/UiTips/Image/Countdown/T_CountdownTipRed.T_CountdownTipRed",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_CountdownTipYellow",
+    "Path": "/Game/Aki/UI/UIResources/UiTips/Image/Countdown/T_CountdownTipYellow.T_CountdownTipYellow",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_HpClean",
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Prefabs/UiItem_HpClean.UiItem_HpClean",
+    "PcPath": ""
+  },
+  {
+    "Id": "TextData_NumB1",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/Num/NumB1/TextData_NumB1.TextData_NumB1",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_EnduranceB",
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Prefabs/UiItem_EnduranceB.UiItem_EnduranceB",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_ControllerSwitchTips",
+    "Path": "/Game/Aki/UI/UIResources/UiTips/Prefabs/UiView_ControllerSwitchTips.UiView_ControllerSwitchTips",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_AimTransmit",
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Prefabs/UiItem_AimTransmit.UiItem_AimTransmit",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_VisionRecoveryBatchResult",
+    "Path": "/Game/Aki/UI/UIResources/UiRole/Prefabs/RoleVision/UiView_VisionRecoveryBatchResult.UiView_VisionRecoveryBatchResult",
+    "PcPath": "/Game/Aki/UI/UIResources/UiRole/Prefabs/PC/RoleVision/PC_UiView_VisionRecoveryBatchResult.PC_UiView_VisionRecoveryBatchResult"
+  },
+  {
+    "Id": "UiItem_MapDrawLine_Prefab",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Prefabs/UiItem_MapDrawLine_Prefab.UiItem_MapDrawLine_Prefab",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_ActivityCondition",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/UiItem_ActivityMission.UiItem_ActivityMission",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/PC_UiItem_ActivityMission.PC_UiItem_ActivityMission"
+  },
+  {
+    "Id": "UiView_AbnormalDataLevel",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/AbnormalData/UiView_AbnormalDataLevel.UiView_AbnormalDataLevel",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/AbnormalData/PC_UiView_AbnormalDataLevel.PC_UiView_AbnormalDataLevel"
+  },
+  {
+    "Id": "UiItem_AbnormalData",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/AbnormalData/UiItem_AbnormalData.UiItem_AbnormalData",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/AbnormalData/PC_UiItem_AbnormalData.PC_UiItem_AbnormalData"
+  },
+  {
+    "Id": "UiItem_ResultRecordAbnormalData",
+    "Path": "/Game/Aki/UI/UIResources/UiTips/Prefabs/Uiitem_ResultRecordAbnormalData.Uiitem_ResultRecordAbnormalData",
     "PcPath": ""
   },
   {
@@ -7298,5 +7388,575 @@
     "Id": "T_IconPcBtn_XboxR2_UI",
     "Path": "/Game/Aki/UI/UIResources/Common/Image/UiIconPcBtn/T_IconPcBtn_XboxR2_UI.T_IconPcBtn_XboxR2_UI",
     "PcPath": ""
+  },
+  {
+    "Id": "UiItem_CheckpointsMowing",
+    "Path": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/UiItem_CheckpointsMowing.UiItem_CheckpointsMowing",
+    "PcPath": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/PC/PC_UiItem_CheckpointsMowing.PC_UiItem_CheckpointsMowing"
+  },
+  {
+    "Id": "UiView_CheckpointsMain",
+    "Path": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/UiView_CheckpointsMain.UiView_CheckpointsMain",
+    "PcPath": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/PC/PC_UiView_CheckpointsMain.PC_UiView_CheckpointsMain"
+  },
+  {
+    "Id": "ActivityRoleGuide_1203",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityRoleGuide/UiItem_RoleAnke.UiItem_RoleAnke",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_ObtainBuff",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityMowing/UiView_ObtainBuff.UiView_ObtainBuff",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_ProbeArea",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/T_ProbeArea.T_ProbeArea",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_ProbeAreaMark",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/T_ProbeAreaMark.T_ProbeAreaMark",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_DarkshoreMain",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityDarkshore/UiView_DarkshoreMain.UiView_DarkshoreMain",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityDarkshore/PC_UiView_DarkshoreMain.PC_UiView_DarkshoreMain"
+  },
+  {
+    "Id": "T_MowingQualityBlue",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ActivityMowing/T_MowingQualityBlue.T_MowingQualityBlue",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_MowingQualityPurple",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ActivityMowing/T_MowingQualityPurple.T_MowingQualityPurple",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_MowingQualityGold",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ActivityMowing/T_MowingQualityGold.T_MowingQualityGold",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_ActivityUnlockTip_BlackCoast",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityHeihaian/UiView_ActivityHeihaianTips.UiView_ActivityHeihaianTips",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_ActivityBlackCoast",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityHeihaian/UiItem_HeihaianMain.UiItem_HeihaianMain",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityHeihaian/PC_UiItem_HeihaianMain.PC_UiItem_HeihaianMain"
+  },
+  {
+    "Id": "UiView_ActivityBlackCoastMain",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityHeihaian/UiView_HeihaianEntry.UiView_HeihaianEntry",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityHeihaian/PC_UiView_HeihaianEntry.PC_UiView_HeihaianEntry"
+  },
+  {
+    "Id": "UiView_ActivityBlackCoastTask",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityHeihaian/UiView_HeihaianInfo.UiView_HeihaianInfo",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityHeihaian/PC_UiView_HeihaianInfo.PC_UiView_HeihaianInfo"
+  },
+  {
+    "Id": "UiView_DarkshoreLevelUp",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityDarkshore/UiView_DarkshoreLevelUp.UiView_DarkshoreLevelUp",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityDarkshore/PC_UiView_DarkshoreLevelUp.PC_UiView_DarkshoreLevelUp"
+  },
+  {
+    "Id": "UiView_Fight_CriticalB",
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Prefabs/UiView_Fight_CriticalB.UiView_Fight_CriticalB",
+    "PcPath": "/Game/Aki/UI/UIResources/UiFight/Prefabs/PC/PC_UiView_Fight_CriticalB.PC_UiView_Fight_CriticalB"
+  },
+  {
+    "Id": "UiItem_CG1_3Anke_F",
+    "Path": "/Game/Aki/UI/UIResources/UiCG/Prefabs/CG1_3/UiItem_CG1_3Anke_F.UiItem_CG1_3Anke_F",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_CG1_3Anke_M",
+    "Path": "/Game/Aki/UI/UIResources/UiCG/Prefabs/CG1_3/UiItem_CG1_3Anke_M.UiItem_CG1_3Anke_M",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_MapChange",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Prefabs/UiItem_MapChange.UiItem_MapChange",
+    "PcPath": "/Game/Aki/UI/UIResources/UiWorldMap/Prefabs/PC/PC_UiItem_MapChange.PC_UiItem_MapChange"
+  },
+  {
+    "Id": "UiView_HeihaianTips",
+    "Path": "/Game/Aki/UI/UIResources/UiTips/Prefabs/UiView_HeihaianTips.UiView_HeihaianTips",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_BuffItemYouhu",
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Prefabs/UiItem_BuffItemYouhu.UiItem_BuffItemYouhu",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_ItemBDark",
+    "Path": "/Game/Aki/UI/UIResources/Common/Prefabs/Item/UiItem_ItemBDark.UiItem_ItemBDark",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_ItemBVisionPoint",
+    "Path": "/Game/Aki/UI/UIResources/Common/Prefabs/Item/UiItem_ItemBVisionPoint.UiItem_ItemBVisionPoint",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHATiles_0_-1_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHATiles/T_HHATiles_0_-1_UI.T_HHATiles_0_-1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHATiles_0_0_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHATiles/T_HHATiles_0_0_UI.T_HHATiles_0_0_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHATiles_0_1_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHATiles/T_HHATiles_0_1_UI.T_HHATiles_0_1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHATiles_1_-1_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHATiles/T_HHATiles_1_-1_UI.T_HHATiles_1_-1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHATiles_1_0_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHATiles/T_HHATiles_1_0_UI.T_HHATiles_1_0_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHATiles_1_1_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHATiles/T_HHATiles_1_1_UI.T_HHATiles_1_1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHATiles400_0_-1_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHATiles400/T_HHATiles400_0_-1_UI.T_HHATiles400_0_-1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHATiles400_0_0_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHATiles400/T_HHATiles400_0_0_UI.T_HHATiles400_0_0_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHATiles400_0_1_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHATiles400/T_HHATiles400_0_1_UI.T_HHATiles400_0_1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHATiles400_1_-1_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHATiles400/T_HHATiles400_1_-1_UI.T_HHATiles400_1_-1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHATiles400_1_0_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHATiles400/T_HHATiles400_1_0_UI.T_HHATiles400_1_0_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHATiles400_1_1_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHATiles400/T_HHATiles400_1_1_UI.T_HHATiles400_1_1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHASubTiles400_0_0_SMFJ_LAYER1_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHASubTiles400/T_HHASubTiles400_0_0_SMFJ_LAYER1_UI.T_HHASubTiles400_0_0_SMFJ_LAYER1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_IconYouhuBuff01",
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Image/Buff/T_IconYouhuBuff01.T_IconYouhuBuff01",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_IconYouhuBuff02",
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Image/Buff/T_IconYouhuBuff02.T_IconYouhuBuff02",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_IconYouhuBuff05",
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Image/Buff/T_IconYouhuBuff05.T_IconYouhuBuff05",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_IconYouhuBuff04",
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Image/Buff/T_IconYouhuBuff04.T_IconYouhuBuff04",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_Iconpropertyabsorbup_UI",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/SP_ItemIconTag.SP_ItemIconTag",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_FogTiles_0_-1_ST_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/FogTiles_ST/T_FogTiles_0_-1_ST_UI.T_FogTiles_0_-1_ST_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_FogTiles_0_0_ST_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/FogTiles_ST/T_FogTiles_0_0_ST_UI.T_FogTiles_0_0_ST_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_FogTiles_0_1_ST_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/FogTiles_ST/T_FogTiles_0_1_ST_UI.T_FogTiles_0_1_ST_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_FogTiles_1_-1_ST_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/FogTiles_ST/T_FogTiles_1_-1_ST_UI.T_FogTiles_1_-1_ST_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_FogTiles_1_0_ST_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/FogTiles_ST/T_FogTiles_1_0_ST_UI.T_FogTiles_1_0_ST_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_FogTiles_1_1_ST_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/FogTiles_ST/T_FogTiles_1_1_ST_UI.T_FogTiles_1_1_ST_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_FogTiles_0_-1_ST_UI_MINI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/FogTiles256_ST/T_FogTiles256_0_-1_ST_UI.T_FogTiles256_0_-1_ST_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_FogTiles_0_0_ST_UI_MINI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/FogTiles256_ST/T_FogTiles256_0_0_ST_UI.T_FogTiles256_0_0_ST_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_FogTiles_0_1_ST_UI_MINI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/FogTiles256_ST/T_FogTiles256_0_1_ST_UI.T_FogTiles256_0_1_ST_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_FogTiles_1_-1_ST_UI_MINI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/FogTiles256_ST/T_FogTiles256_1_-1_ST_UI.T_FogTiles256_1_-1_ST_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_FogTiles_1_0_ST_UI_MINI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/FogTiles256_ST/T_FogTiles256_1_0_ST_UI.T_FogTiles256_1_0_ST_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_FogTiles_1_1_ST_UI_MINI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/FogTiles256_ST/T_FogTiles256_1_1_ST_UI.T_FogTiles256_1_1_ST_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_MapTiles_5_0_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/MapTiles/T_MapTiles_5_0_UI.T_MapTiles_5_0_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_MapTiles_5_-2_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/MapTiles/T_MapTiles_5_-2_UI.T_MapTiles_5_-2_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_MapTiles_6_0_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/MapTiles/T_MapTiles_6_0_UI.T_MapTiles_6_0_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_MapTiles_5_0_UI_MINI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/MapTiles256/T_MapTiles256_5_0_UI.T_MapTiles256_5_0_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_MapTiles_5_-2_UI_MINI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/MapTiles256/T_MapTiles256_5_-2_UI.T_MapTiles256_5_-2_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_MapTiles_6_0_UI_MINI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/MapTiles256/T_MapTiles256_6_0_UI.T_MapTiles256_6_0_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_FogTiles_5_0_ST_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/FogTiles/T_FogTiles_5_0_UI.T_FogTiles_5_0_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_FogTiles_5_-2_ST_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/FogTiles/T_FogTiles_5_-2_UI.T_FogTiles_5_-2_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_FogTiles_5_-1_ST_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/FogTiles/T_FogTiles_5_-1_UI.T_FogTiles_5_-1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_FogTiles_5_0_ST_UI_MINI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/FogTiles256/T_FogTiles256_5_0_UI.T_FogTiles256_5_0_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_FogTiles_5_-2_ST_UI_MINI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/FogTiles256/T_FogTiles256_5_-2_UI.T_FogTiles256_5_-2_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_FogTiles_5_-1_ST_UI_MINI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/FogTiles256/T_FogTiles256_5_-1_UI.T_FogTiles256_5_-1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHATiles_-1_-1_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHATiles/T_HHATiles_-1_-1_UI.T_HHATiles_-1_-1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHATiles_-1_0_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHATiles/T_HHATiles_-1_0_UI.T_HHATiles_-1_0_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHATiles_-1_1_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHATiles/T_HHATiles_-1_1_UI.T_HHATiles_-1_1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHATiles_-2_0_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHATiles/T_HHATiles_-2_0_UI.T_HHATiles_-2_0_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHATiles_0_2_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHATiles/T_HHATiles_0_2_UI.T_HHATiles_0_2_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHATiles_0_-2_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHATiles/T_HHATiles_0_-2_UI.T_HHATiles_0_-2_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHATiles_2_0_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHATiles/T_HHATiles_2_0_UI.T_HHATiles_2_0_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHATiles400_-1_-1_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHATiles400/T_HHATiles400_-1_-1_UI.T_HHATiles400_-1_-1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHATiles400_-1_0_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHATiles400/T_HHATiles400_-1_0_UI.T_HHATiles400_-1_0_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHATiles400_-1_1_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHATiles400/T_HHATiles400_-1_1_UI.T_HHATiles400_-1_1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHATiles400_-2_0_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHATiles400/T_HHATiles400_-2_0_UI.T_HHATiles400_-2_0_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHATiles400_0_2_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHATiles400/T_HHATiles400_0_2_UI.T_HHATiles400_0_2_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHATiles400_0_-2_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHATiles400/T_HHATiles400_0_-2_UI.T_HHATiles400_0_-2_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHATiles400_2_0_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHATiles400/T_HHATiles400_2_0_UI.T_HHATiles400_2_0_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_FogTiles_-1_-1_ST_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/FogTiles_ST/T_FogTiles_-1_-1_ST_UI.T_FogTiles_-1_-1_ST_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_FogTiles_-1_0_ST_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/FogTiles_ST/T_FogTiles_-1_0_ST_UI.T_FogTiles_-1_0_ST_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_FogTiles_-1_-1_ST_UI_MINI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/FogTiles256_ST/T_FogTiles256_-1_-1_ST_UI.T_FogTiles256_-1_-1_ST_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_FogTiles_-1_0_ST_UI_MINI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/FogTiles256_ST/T_FogTiles256_-1_0_ST_UI.T_FogTiles256_-1_0_ST_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_FogTiles_4_-1_ST_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/FogTiles/T_FogTiles_4_-1_UI.T_FogTiles_4_-1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_FogTiles_4_-1_ST_UI_MINI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/FogTiles256/T_FogTiles256_4_-1_UI.T_FogTiles256_4_-1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_PopupR1",
+    "Path": "/Game/Aki/UI/UIResources/Common/Prefabs/Tips/UiView_PopupR1.UiView_PopupR1",
+    "PcPath": "/Game/Aki/UI/UIResources/Common/Prefabs/PC/Tips/PC_UiView_PopupR1.PC_UiView_PopupR1"
+  },
+  {
+    "Id": "T_HHASubTiles_0_-1_JZD_LAYER1_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHASubTiles/T_HHASubTiles_0_-1_STZ_LAYER1_UI.T_HHASubTiles_0_-1_STZ_LAYER1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHASubTiles_1_-1_JZD_LAYER1_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHASubTiles/T_HHASubTiles_1_-1_STZ_LAYER1_UI.T_HHASubTiles_1_-1_STZ_LAYER1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHASubTiles_0_-1_JZD_LAYER2_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHASubTiles/T_HHASubTiles_0_-1_STZ_LAYER2_UI.T_HHASubTiles_0_-1_STZ_LAYER2_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHASubTiles_1_-1_JZD_LAYER2_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHASubTiles/T_HHASubTiles_1_-1_STZ_LAYER2_UI.T_HHASubTiles_1_-1_STZ_LAYER2_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHASubTiles_0_0_MWSRS_LAYER1_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHASubTiles/T_HHASubTiles_0_0_JJS_LAYER1_UI.T_HHASubTiles_0_0_JJS_LAYER1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHASubTiles_0_0_MWSRS_LAYER2_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHASubTiles/T_HHASubTiles_0_0_JJS_LAYER2_UI.T_HHASubTiles_0_0_JJS_LAYER2_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHASubTiles_0_0_SMFJ_LAYER1_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHASubTiles/T_HHASubTiles_0_0_SMFJ_LAYER1_UI.T_HHASubTiles_0_0_SMFJ_LAYER1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHASubTiles400_0_-1_JZD_LAYER1_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHASubTiles400/T_HHASubTiles400_0_-1_STZ_LAYER1_UI.T_HHASubTiles400_0_-1_STZ_LAYER1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHASubTiles400_1_-1_JZD_LAYER1_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHASubTiles400/T_HHASubTiles400_1_-1_STZ_LAYER1_UI.T_HHASubTiles400_1_-1_STZ_LAYER1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHASubTiles400_0_-1_JZD_LAYER2_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHASubTiles400/T_HHASubTiles400_0_-1_STZ_LAYER2_UI.T_HHASubTiles400_0_-1_STZ_LAYER2_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHASubTiles400_1_-1_JZD_LAYER2_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHASubTiles400/T_HHASubTiles400_1_-1_STZ_LAYER2_UI.T_HHASubTiles400_1_-1_STZ_LAYER2_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHASubTiles400_0_0_MWSRS_LAYER1_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHASubTiles400/T_HHASubTiles400_0_0_JJS_LAYER1_UI.T_HHASubTiles400_0_0_JJS_LAYER1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_HHASubTiles400_0_0_MWSRS_LAYER2_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/HHASubTiles400/T_HHASubTiles400_0_0_JJS_LAYER2_UI.T_HHASubTiles400_0_0_JJS_LAYER2_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "ActivitySignIn_1_3",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivitySignIn/UiItem_HeihaianSignIn.UiItem_HeihaianSignIn",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_ActivityMowingRisk",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityMowing/UiItem_ActivityMowing1.UiItem_ActivityMowing1",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityMowing/PC_UiItem_ActivityMowing1.PC_UiItem_ActivityMowing1"
+  },
+  {
+    "Id": "SP_ComRoleMapLevel",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/SP_ComRoleMapLevel.SP_ComRoleMapLevel",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_ItemBVisionPoint",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/SP_ItemBVisionPoint.SP_ItemBVisionPoint",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_ItemBVisionPoint1",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/SP_ItemBVisionPoint1.SP_ItemBVisionPoint1",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_ItemBVisionPoint2",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/SP_ItemBVisionPoint2.SP_ItemBVisionPoint2",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_IconMapChange",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconMapChange.SP_IconMapChange",
+    "PcPath": ""
+  },
+  {
+    "Id": "M_VideoTexture",
+    "Path": "/Game/Aki/UI/UIResources/UiPlot/Materials/M_VideoTextureMat.M_VideoTextureMat",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_ComIconSign",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/SP_ComIconSign.SP_ComIconSign",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_ComIconFinish",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/SP_ComIconFinish.SP_ComIconFinish",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_ComRomeText_07",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/SP_ComRomeText_07.SP_ComRomeText_07",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_DailyTowerAreaOpenRed",
+    "Path": "/Game/Aki/UI/UIResources/UiDailyTower/Prefabs/UiView_DailyTowerAreaOpen1.UiView_DailyTowerAreaOpen1",
+    "PcPath": "/Game/Aki/UI/UIResources/UiDailyTower/Prefabs/PC/PC_UiView_DailyTowerAreaOpen1.PC_UiView_DailyTowerAreaOpen1"
+  },
+  {
+    "Id": "UiItem_ActivityRoleGrowing",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/RoleGrowing/UiItem_RoleGrowingMain.UiItem_RoleGrowingMain",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/RoleGrowing/PC_UiItem_RoleGrowingMain.PC_UiItem_RoleGrowingMain"
+  },
+  {
+    "Id": "UiView_ActivityRoleGrowingMain",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/RoleGrowing/UiView_RoleGrowingEnter.UiView_RoleGrowingEnter",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/RoleGrowing/PC_UiView_RoleGrowingEnter.PC_UiView_RoleGrowingEnter"
+  },
+  {
+    "Id": "UiView_ActivityRoleGrowingTask",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/RoleGrowing/UiView_RoleGrowingReward.UiView_RoleGrowingReward",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/RoleGrowing/PC_UiView_RoleGrowingReward.PC_UiView_RoleGrowingReward"
   }
 ]

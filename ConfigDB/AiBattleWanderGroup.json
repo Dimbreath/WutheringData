@@ -2479,7 +2479,7 @@
       70.0,
       70.0
     ],
-    "RunTurnSpeed": 120.0,
+    "RunTurnSpeed": 320.0,
     "WanderTime": {
       "Min": 2000.0,
       "Max": 3000.0
@@ -3051,6 +3051,100 @@
     "SumWanderTime": {
       "Min": 2000.0,
       "Max": 4000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 70133,
+    "DistanceRange": [
+      100.0,
+      300.0,
+      600.0,
+      800.0,
+      1500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      20.0,
+      0.0,
+      40.0,
+      40.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 2000.0,
+      "Max": 2100.0
+    },
+    "SumWanderTime": {
+      "Min": 4000.0,
+      "Max": 4100.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 70134,
+    "DistanceRange": [
+      100.0,
+      300.0,
+      600.0,
+      800.0,
+      1500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      20.0,
+      0.0,
+      40.0,
+      40.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 2000.0,
+      "Max": 2100.0
+    },
+    "SumWanderTime": {
+      "Min": 4000.0,
+      "Max": 4100.0
     },
     "OnlyForward": false
   }

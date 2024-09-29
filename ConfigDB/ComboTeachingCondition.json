@@ -3743,12 +3743,8 @@
     "Id": 15030403,
     "CompleteCondition": 0,
     "CompleteParam": "[1503011,0]",
-    "FailedCondition": [
-      6
-    ],
-    "FailedParam": [
-      "1503011"
-    ]
+    "FailedCondition": null,
+    "FailedParam": null
   },
   {
     "Id": 11040508,
@@ -4851,6 +4847,351 @@
     ],
     "FailedParam": [
       "1305053"
+    ]
+  },
+  {
+    "Id": 11060101,
+    "CompleteCondition": 0,
+    "CompleteParam": "[1106001,0]",
+    "FailedCondition": [
+      0
+    ],
+    "FailedParam": [
+      "1106001"
+    ]
+  },
+  {
+    "Id": 11060102,
+    "CompleteCondition": 0,
+    "CompleteParam": "[1106002,0]",
+    "FailedCondition": [
+      0,
+      1,
+      2
+    ],
+    "FailedParam": [
+      "1106002"
+    ]
+  },
+  {
+    "Id": 11060103,
+    "CompleteCondition": 0,
+    "CompleteParam": "[1106003,0]",
+    "FailedCondition": [
+      0,
+      1,
+      2
+    ],
+    "FailedParam": [
+      "1106003"
+    ]
+  },
+  {
+    "Id": 11060104,
+    "CompleteCondition": 0,
+    "CompleteParam": "[1106004,0]",
+    "FailedCondition": [
+      0,
+      2
+    ],
+    "FailedParam": [
+      "1106004"
+    ]
+  },
+  {
+    "Id": 11060201,
+    "CompleteCondition": 6,
+    "CompleteParam": "[0]",
+    "FailedCondition": null,
+    "FailedParam": null
+  },
+  {
+    "Id": 11060202,
+    "CompleteCondition": 0,
+    "CompleteParam": "[1106020,0]",
+    "FailedCondition": [
+      0,
+      6
+    ],
+    "FailedParam": [
+      "1106020"
+    ]
+  },
+  {
+    "Id": 11060301,
+    "CompleteCondition": 5,
+    "CompleteParam": "[角色.R2T1YouHuMd10011.技能.重攻击]",
+    "FailedCondition": null,
+    "FailedParam": null
+  },
+  {
+    "Id": 11060302,
+    "CompleteCondition": 3,
+    "CompleteParam": "[1,10000,10000]",
+    "FailedCondition": [
+      5
+    ],
+    "FailedParam": [
+      "角色.R2T1YouHuMd10011.逻辑.蓄力中"
+    ]
+  },
+  {
+    "Id": 11060601,
+    "CompleteCondition": 0,
+    "CompleteParam": "[1106103,0]",
+    "FailedCondition": [
+      0,
+      1
+    ],
+    "FailedParam": [
+      "1106103"
+    ]
+  },
+  {
+    "Id": 11060401,
+    "CompleteCondition": 0,
+    "CompleteParam": "[1106120,0]",
+    "FailedCondition": [
+      0,
+      1
+    ],
+    "FailedParam": [
+      "1106120"
+    ]
+  },
+  {
+    "Id": 11060402,
+    "CompleteCondition": 0,
+    "CompleteParam": "[1106130,0]",
+    "FailedCondition": [
+      0,
+      1
+    ],
+    "FailedParam": [
+      "1106130"
+    ]
+  },
+  {
+    "Id": 11060403,
+    "CompleteCondition": 0,
+    "CompleteParam": "[1106140,0]",
+    "FailedCondition": [
+      0,
+      1
+    ],
+    "FailedParam": [
+      "1106140"
+    ]
+  },
+  {
+    "Id": 11060404,
+    "CompleteCondition": 0,
+    "CompleteParam": "[1106150,0]",
+    "FailedCondition": [
+      0,
+      1
+    ],
+    "FailedParam": [
+      "1106150"
+    ]
+  },
+  {
+    "Id": 11060501,
+    "CompleteCondition": 0,
+    "CompleteParam": "[1106500,0]",
+    "FailedCondition": [
+      0,
+      1
+    ],
+    "FailedParam": [
+      "1106500"
+    ]
+  },
+  {
+    "Id": 11060701,
+    "CompleteCondition": 0,
+    "CompleteParam": "[1106200,0]",
+    "FailedCondition": [
+      0,
+      1
+    ],
+    "FailedParam": [
+      "1106200"
+    ]
+  },
+  {
+    "Id": 15050101,
+    "CompleteCondition": 0,
+    "CompleteParam": "[1505001,0]",
+    "FailedCondition": [
+      0
+    ],
+    "FailedParam": [
+      "1505001"
+    ]
+  },
+  {
+    "Id": 15050102,
+    "CompleteCondition": 0,
+    "CompleteParam": "[1505002,0]",
+    "FailedCondition": [
+      0,
+      1,
+      2
+    ],
+    "FailedParam": [
+      "1505002"
+    ]
+  },
+  {
+    "Id": 15050103,
+    "CompleteCondition": 0,
+    "CompleteParam": "[1505003,0]",
+    "FailedCondition": [
+      0,
+      1,
+      2
+    ],
+    "FailedParam": [
+      "1505003"
+    ]
+  },
+  {
+    "Id": 15050104,
+    "CompleteCondition": 0,
+    "CompleteParam": "[1505004,0]",
+    "FailedCondition": [
+      0,
+      1,
+      2
+    ],
+    "FailedParam": [
+      "1505004"
+    ]
+  },
+  {
+    "Id": 15050201,
+    "CompleteCondition": 0,
+    "CompleteParam": "[1505211,0]",
+    "FailedCondition": [
+      0
+    ],
+    "FailedParam": [
+      "1505211"
+    ]
+  },
+  {
+    "Id": 15050301,
+    "CompleteCondition": 0,
+    "CompleteParam": "[1505201,0]",
+    "FailedCondition": null,
+    "FailedParam": null
+  },
+  {
+    "Id": 15050302,
+    "CompleteCondition": 3,
+    "CompleteParam": "[3,1,5]",
+    "FailedCondition": null,
+    "FailedParam": null
+  },
+  {
+    "Id": 15050401,
+    "CompleteCondition": 6,
+    "CompleteParam": "[0]",
+    "FailedCondition": null,
+    "FailedParam": null
+  },
+  {
+    "Id": 15050402,
+    "CompleteCondition": 0,
+    "CompleteParam": "[1505202,0]",
+    "FailedCondition": [
+      0,
+      6
+    ],
+    "FailedParam": [
+      "1505202"
+    ]
+  },
+  {
+    "Id": 15050403,
+    "CompleteCondition": 0,
+    "CompleteParam": "[1505212,0]",
+    "FailedCondition": [
+      0,
+      1
+    ],
+    "FailedParam": [
+      "1505212"
+    ]
+  },
+  {
+    "Id": 15050501,
+    "CompleteCondition": 0,
+    "CompleteParam": "[1505301,0]",
+    "FailedCondition": [
+      0,
+      1
+    ],
+    "FailedParam": [
+      "1505301"
+    ]
+  },
+  {
+    "Id": 15050601,
+    "CompleteCondition": 0,
+    "CompleteParam": "[1505302,0]",
+    "FailedCondition": [
+      0,
+      6
+    ],
+    "FailedParam": [
+      "1505302"
+    ]
+  },
+  {
+    "Id": 15050701,
+    "CompleteCondition": 0,
+    "CompleteParam": "[1505401,0]",
+    "FailedCondition": [
+      0,
+      1
+    ],
+    "FailedParam": [
+      "1505401"
+    ]
+  },
+  {
+    "Id": 15050702,
+    "CompleteCondition": 5,
+    "CompleteParam": "[角色.R2T1ShouanrenMd10011.动作标识.领域1]",
+    "FailedCondition": null,
+    "FailedParam": null
+  },
+  {
+    "Id": 15050703,
+    "CompleteCondition": 4,
+    "CompleteParam": "[1505009007]",
+    "FailedCondition": null,
+    "FailedParam": null
+  },
+  {
+    "Id": 15050704,
+    "CompleteCondition": 5,
+    "CompleteParam": "[角色.R2T1ShouanrenMd10011.动作标识.领域2]",
+    "FailedCondition": null,
+    "FailedParam": null
+  },
+  {
+    "Id": 15050705,
+    "CompleteCondition": 5,
+    "CompleteParam": "角色.R2T1ShouanrenMd10011.动作标识.强化协奏技",
+    "FailedCondition": [
+      0
+    ],
+    "FailedParam": [
+      "1505505",
+      "0"
     ]
   }
 ]

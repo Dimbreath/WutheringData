@@ -1870,6 +1870,28 @@
     "SenseTarget": 0
   },
   {
+    "Id": 770292,
+    "SenseType": 1,
+    "DefaultEnabled": true,
+    "SenseDistanceRange": {
+      "Min": 3500.0,
+      "Max": 4500.0
+    },
+    "HorizontalAngle": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "VerticalAngle": {
+      "Min": -90.0,
+      "Max": 90.0
+    },
+    "CantBeBlock": false,
+    "BlockType": 0,
+    "WalkSenseRate": 1.0,
+    "AirSenseRate": 1.0,
+    "SenseTarget": 0
+  },
+  {
     "Id": 70109,
     "SenseType": 1,
     "DefaultEnabled": true,
@@ -1892,6 +1914,72 @@
     "SenseTarget": 0
   },
   {
+    "Id": 70133,
+    "SenseType": 1,
+    "DefaultEnabled": true,
+    "SenseDistanceRange": {
+      "Min": 2000.0,
+      "Max": 3000.0
+    },
+    "HorizontalAngle": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "VerticalAngle": {
+      "Min": -90.0,
+      "Max": 90.0
+    },
+    "CantBeBlock": false,
+    "BlockType": 0,
+    "WalkSenseRate": 1.0,
+    "AirSenseRate": 1.0,
+    "SenseTarget": 0
+  },
+  {
+    "Id": 70134,
+    "SenseType": 1,
+    "DefaultEnabled": true,
+    "SenseDistanceRange": {
+      "Min": 2000.0,
+      "Max": 3000.0
+    },
+    "HorizontalAngle": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "VerticalAngle": {
+      "Min": -90.0,
+      "Max": 90.0
+    },
+    "CantBeBlock": false,
+    "BlockType": 0,
+    "WalkSenseRate": 1.0,
+    "AirSenseRate": 1.0,
+    "SenseTarget": 0
+  },
+  {
+    "Id": 80020,
+    "SenseType": 1,
+    "DefaultEnabled": true,
+    "SenseDistanceRange": {
+      "Min": 2000.0,
+      "Max": 3000.0
+    },
+    "HorizontalAngle": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "VerticalAngle": {
+      "Min": -90.0,
+      "Max": 90.0
+    },
+    "CantBeBlock": true,
+    "BlockType": 0,
+    "WalkSenseRate": 1.0,
+    "AirSenseRate": 1.0,
+    "SenseTarget": 0
+  },
+  {
     "Id": 200054,
     "SenseType": 1,
     "DefaultEnabled": true,
@@ -1908,6 +1996,28 @@
       "Max": 90.0
     },
     "CantBeBlock": false,
+    "BlockType": 0,
+    "WalkSenseRate": 1.0,
+    "AirSenseRate": 1.0,
+    "SenseTarget": 0
+  },
+  {
+    "Id": 800201,
+    "SenseType": 1,
+    "DefaultEnabled": true,
+    "SenseDistanceRange": {
+      "Min": 5000.0,
+      "Max": 6000.0
+    },
+    "HorizontalAngle": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "VerticalAngle": {
+      "Min": -90.0,
+      "Max": 90.0
+    },
+    "CantBeBlock": true,
     "BlockType": 0,
     "WalkSenseRate": 1.0,
     "AirSenseRate": 1.0,

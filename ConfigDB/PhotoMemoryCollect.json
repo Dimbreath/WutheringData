@@ -13,7 +13,9 @@
     "Desc": "PhotoMemory_10105_Desc",
     "DropId": 5040120,
     "TraceEntityId": 0,
-    "TraceMarkId": 0
+    "TraceMarkId": 0,
+    "QuestId": 0,
+    "QuestIdList": null
   },
   {
     "Id": 10102,
@@ -29,7 +31,9 @@
     "Desc": "PhotoMemory_10102_Desc",
     "DropId": 5040121,
     "TraceEntityId": 11900187,
-    "TraceMarkId": 7531
+    "TraceMarkId": 7531,
+    "QuestId": 0,
+    "QuestIdList": null
   },
   {
     "Id": 10103,
@@ -45,7 +49,9 @@
     "Desc": "PhotoMemory_10103_Desc",
     "DropId": 5040122,
     "TraceEntityId": 11900190,
-    "TraceMarkId": 7532
+    "TraceMarkId": 7532,
+    "QuestId": 0,
+    "QuestIdList": null
   },
   {
     "Id": 10104,
@@ -61,7 +67,9 @@
     "Desc": "PhotoMemory_10104_Desc",
     "DropId": 5040123,
     "TraceEntityId": 11900197,
-    "TraceMarkId": 7533
+    "TraceMarkId": 7533,
+    "QuestId": 0,
+    "QuestIdList": null
   },
   {
     "Id": 10105,
@@ -77,7 +85,9 @@
     "Desc": "PhotoMemory_10101_Desc",
     "DropId": 5040124,
     "TraceEntityId": 11900183,
-    "TraceMarkId": 7530
+    "TraceMarkId": 7530,
+    "QuestId": 0,
+    "QuestIdList": null
   },
   {
     "Id": 10106,
@@ -93,7 +103,9 @@
     "Desc": "PhotoMemory_10106_Desc",
     "DropId": 5040125,
     "TraceEntityId": 11900215,
-    "TraceMarkId": 7535
+    "TraceMarkId": 7535,
+    "QuestId": 0,
+    "QuestIdList": null
   },
   {
     "Id": 10107,
@@ -109,7 +121,9 @@
     "Desc": "PhotoMemory_10107_Desc",
     "DropId": 5040126,
     "TraceEntityId": 11900198,
-    "TraceMarkId": 7536
+    "TraceMarkId": 7536,
+    "QuestId": 0,
+    "QuestIdList": null
   },
   {
     "Id": 10108,
@@ -125,7 +139,9 @@
     "Desc": "PhotoMemory_10108_Desc",
     "DropId": 5040127,
     "TraceEntityId": 11900200,
-    "TraceMarkId": 7537
+    "TraceMarkId": 7537,
+    "QuestId": 0,
+    "QuestIdList": null
   },
   {
     "Id": 10109,
@@ -141,6 +157,134 @@
     "Desc": "PhotoMemory_10109_Desc",
     "DropId": 5040128,
     "TraceEntityId": 11900205,
-    "TraceMarkId": 7538
+    "TraceMarkId": 7538,
+    "QuestId": 0,
+    "QuestIdList": null
+  },
+  {
+    "Id": 10201,
+    "TopicId": 102,
+    "Type": 1,
+    "Rank": 1,
+    "ThemeBg": "",
+    "BgResourceM": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ProcessMemoryBg201.T_ProcessMemoryBg201",
+    "BgResourceF": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ProcessMemoryBg201.T_ProcessMemoryBg201",
+    "Title": "PhotoMemory_10201_Title",
+    "TipsDesc": "PhotoMemory_10201_Tips",
+    "ClueId": 0,
+    "Desc": "PhotoMemory_10201_Desc",
+    "DropId": 5060101,
+    "TraceEntityId": 0,
+    "TraceMarkId": 0,
+    "QuestId": 152750007,
+    "QuestIdList": [
+      152750007,
+      152750008
+    ]
+  },
+  {
+    "Id": 10202,
+    "TopicId": 102,
+    "Type": 1,
+    "Rank": 2,
+    "ThemeBg": "",
+    "BgResourceM": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ProcessMemoryBg202.T_ProcessMemoryBg202",
+    "BgResourceF": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ProcessMemoryBg202.T_ProcessMemoryBg202",
+    "Title": "PhotoMemory_10202_Title",
+    "TipsDesc": "PhotoMemory_10202_Tips",
+    "ClueId": 0,
+    "Desc": "PhotoMemory_10202_Desc",
+    "DropId": 5060102,
+    "TraceEntityId": 0,
+    "TraceMarkId": 0,
+    "QuestId": 152750008,
+    "QuestIdList": [
+      152750007,
+      152750008
+    ]
+  },
+  {
+    "Id": 10203,
+    "TopicId": 102,
+    "Type": 1,
+    "Rank": 3,
+    "ThemeBg": "",
+    "BgResourceM": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ProcessMemoryBg203.T_ProcessMemoryBg203",
+    "BgResourceF": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ProcessMemoryBg203.T_ProcessMemoryBg203",
+    "Title": "PhotoMemory_10203_Title",
+    "TipsDesc": "PhotoMemory_10203_Tips",
+    "ClueId": 0,
+    "Desc": "PhotoMemory_10203_Desc",
+    "DropId": 5060103,
+    "TraceEntityId": 0,
+    "TraceMarkId": 0,
+    "QuestId": 152750008,
+    "QuestIdList": [
+      152750007,
+      152750008
+    ]
+  },
+  {
+    "Id": 10204,
+    "TopicId": 102,
+    "Type": 1,
+    "Rank": 4,
+    "ThemeBg": "",
+    "BgResourceM": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ProcessMemoryBg204.T_ProcessMemoryBg204",
+    "BgResourceF": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ProcessMemoryBg204.T_ProcessMemoryBg204",
+    "Title": "PhotoMemory_10204_Title",
+    "TipsDesc": "PhotoMemory_10204_Tips",
+    "ClueId": 0,
+    "Desc": "PhotoMemory_10204_Desc",
+    "DropId": 5060104,
+    "TraceEntityId": 0,
+    "TraceMarkId": 0,
+    "QuestId": 152750008,
+    "QuestIdList": [
+      152750007,
+      152750008
+    ]
+  },
+  {
+    "Id": 10205,
+    "TopicId": 102,
+    "Type": 1,
+    "Rank": 5,
+    "ThemeBg": "",
+    "BgResourceM": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ProcessMemoryBg205.T_ProcessMemoryBg205",
+    "BgResourceF": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ProcessMemoryBg205.T_ProcessMemoryBg205",
+    "Title": "PhotoMemory_10205_Title",
+    "TipsDesc": "PhotoMemory_10205_Tips",
+    "ClueId": 0,
+    "Desc": "PhotoMemory_10205_Desc",
+    "DropId": 5060105,
+    "TraceEntityId": 0,
+    "TraceMarkId": 0,
+    "QuestId": 151000001,
+    "QuestIdList": [
+      151000000,
+      151000001
+    ]
+  },
+  {
+    "Id": 10206,
+    "TopicId": 102,
+    "Type": 1,
+    "Rank": 6,
+    "ThemeBg": "",
+    "BgResourceM": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ProcessMemoryBg206.T_ProcessMemoryBg206",
+    "BgResourceF": "/Game/Aki/UI/UIResources/Common/Image/BgCgBig/T_ProcessMemoryBg206.T_ProcessMemoryBg206",
+    "Title": "PhotoMemory_10206_Title",
+    "TipsDesc": "PhotoMemory_10206_Tips",
+    "ClueId": 0,
+    "Desc": "PhotoMemory_10206_Desc",
+    "DropId": 5060106,
+    "TraceEntityId": 0,
+    "TraceMarkId": 0,
+    "QuestId": 151000001,
+    "QuestIdList": [
+      151000000,
+      151000001
+    ]
   }
 ]
