@@ -4494,6 +4494,344 @@
     "RedDotDisableRule": 0
   },
   {
+    "ItemId": 21010084,
+    "WeaponName": "WeaponConf_21010084_WeaponName",
+    "QualityId": 4,
+    "WeaponType": 1,
+    "ModelId": 21010084,
+    "TransformId": 1,
+    "Models": [
+      21010084
+    ],
+    "ResonLevelLimit": 5,
+    "FirstPropId": {
+      "Id": 7,
+      "Value": 37.0,
+      "IsRatio": false
+    },
+    "FirstCurve": 1,
+    "SecondPropId": {
+      "Id": 10007,
+      "Value": 0.04050000011920929,
+      "IsRatio": true
+    },
+    "SecondCurve": 2,
+    "ResonId": 21010084,
+    "LevelId": 4,
+    "BreachId": 21010084,
+    "Desc": "WeaponConf_21010084_Desc",
+    "DescParams": [
+      {
+        "ArrayString": [
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ]
+      },
+      {
+        "ArrayString": [
+          "10%",
+          "12.5%",
+          "15%",
+          "17.5%",
+          "20%"
+        ]
+      },
+      {
+        "ArrayString": [
+          "16",
+          "16",
+          "16",
+          "16",
+          "16"
+        ]
+      },
+      {
+        "ArrayString": [
+          "20",
+          "20",
+          "20",
+          "20",
+          "20"
+        ]
+      }
+    ],
+    "TypeDescription": "WeaponConf_21010084_TypeDescription",
+    "AttributesDescription": "WeaponConf_21010084_AttributesDescription",
+    "BgDescription": "WeaponConf_21010084_BgDescription",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21010084_UI.T_IconWeapon21010084_UI",
+    "IconMiddle": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon80/T_IconWeapon80_21010014_UI.T_IconWeapon80_21010014_UI",
+    "IconSmall": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon80/T_IconWeapon80_21010084_UI.T_IconWeapon80_21010084_UI",
+    "Mesh": "/Game/Aki/Scene/Assets/Common/Interaction/Mesh/SM_Pro_Roc_04DS.SM_Pro_Roc_04DS",
+    "MaxCapcity": 999999999,
+    "ItemAccess": null,
+    "ObtainedShow": 1,
+    "ObtainedShowDescription": "WeaponConf_21010084_ObtainedShowDescription",
+    "NumLimit": 1,
+    "ShowInBag": true,
+    "SortIndex": 0,
+    "ResonanceIcon": "",
+    "HiddenTime": 10.0,
+    "Destructible": true,
+    "RedDotDisableRule": 0
+  },
+  {
+    "ItemId": 21020084,
+    "WeaponName": "WeaponConf_21020084_WeaponName",
+    "QualityId": 4,
+    "WeaponType": 2,
+    "ModelId": 21020084,
+    "TransformId": 2,
+    "Models": [
+      21020084,
+      21120084
+    ],
+    "ResonLevelLimit": 5,
+    "FirstPropId": {
+      "Id": 7,
+      "Value": 37.0,
+      "IsRatio": false
+    },
+    "FirstCurve": 1,
+    "SecondPropId": {
+      "Id": 10007,
+      "Value": 0.04050000011920929,
+      "IsRatio": true
+    },
+    "SecondCurve": 2,
+    "ResonId": 21020084,
+    "LevelId": 4,
+    "BreachId": 21020084,
+    "Desc": "WeaponConf_21020084_Desc",
+    "DescParams": [
+      {
+        "ArrayString": [
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ]
+      },
+      {
+        "ArrayString": [
+          "10%",
+          "12.5%",
+          "15%",
+          "17.5%",
+          "20%"
+        ]
+      },
+      {
+        "ArrayString": [
+          "16",
+          "16",
+          "16",
+          "16",
+          "16"
+        ]
+      },
+      {
+        "ArrayString": [
+          "20",
+          "20",
+          "20",
+          "20",
+          "20"
+        ]
+      }
+    ],
+    "TypeDescription": "WeaponConf_21020084_TypeDescription",
+    "AttributesDescription": "WeaponConf_21020084_AttributesDescription",
+    "BgDescription": "WeaponConf_21020084_BgDescription",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21020084_UI.T_IconWeapon21020084_UI",
+    "IconMiddle": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon80/T_IconWeapon80_21020014_UI.T_IconWeapon80_21020014_UI",
+    "IconSmall": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon80/T_IconWeapon80_21020084_UI.T_IconWeapon80_21020084_UI",
+    "Mesh": "/Game/Aki/Scene/Assets/Common/Interaction/Mesh/SM_Pro_Roc_04DS.SM_Pro_Roc_04DS",
+    "MaxCapcity": 999999999,
+    "ItemAccess": null,
+    "ObtainedShow": 1,
+    "ObtainedShowDescription": "WeaponConf_21020084_ObtainedShowDescription",
+    "NumLimit": 1,
+    "ShowInBag": true,
+    "SortIndex": 0,
+    "ResonanceIcon": "",
+    "HiddenTime": 10.0,
+    "Destructible": true,
+    "RedDotDisableRule": 0
+  },
+  {
+    "ItemId": 21030084,
+    "WeaponName": "WeaponConf_21030084_WeaponName",
+    "QualityId": 4,
+    "WeaponType": 3,
+    "ModelId": 21030084,
+    "TransformId": 3,
+    "Models": [
+      21030084,
+      21030084
+    ],
+    "ResonLevelLimit": 5,
+    "FirstPropId": {
+      "Id": 7,
+      "Value": 37.0,
+      "IsRatio": false
+    },
+    "FirstCurve": 1,
+    "SecondPropId": {
+      "Id": 10007,
+      "Value": 0.04050000011920929,
+      "IsRatio": true
+    },
+    "SecondCurve": 2,
+    "ResonId": 21030084,
+    "LevelId": 4,
+    "BreachId": 21030084,
+    "Desc": "WeaponConf_21030084_Desc",
+    "DescParams": [
+      {
+        "ArrayString": [
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ]
+      },
+      {
+        "ArrayString": [
+          "10%",
+          "12.5%",
+          "15%",
+          "17.5%",
+          "20%"
+        ]
+      },
+      {
+        "ArrayString": [
+          "16",
+          "16",
+          "16",
+          "16",
+          "16"
+        ]
+      },
+      {
+        "ArrayString": [
+          "20",
+          "20",
+          "20",
+          "20",
+          "20"
+        ]
+      }
+    ],
+    "TypeDescription": "WeaponConf_21030084_TypeDescription",
+    "AttributesDescription": "WeaponConf_21030084_AttributesDescription",
+    "BgDescription": "WeaponConf_21030084_BgDescription",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21030084_UI.T_IconWeapon21030084_UI",
+    "IconMiddle": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon80/T_IconWeapon80_21030014_UI.T_IconWeapon80_21030014_UI",
+    "IconSmall": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon80/T_IconWeapon80_21030084_UI.T_IconWeapon80_21030084_UI",
+    "Mesh": "/Game/Aki/Scene/Assets/Common/Interaction/Mesh/SM_Pro_Roc_04DS.SM_Pro_Roc_04DS",
+    "MaxCapcity": 999999999,
+    "ItemAccess": null,
+    "ObtainedShow": 1,
+    "ObtainedShowDescription": "WeaponConf_21030084_ObtainedShowDescription",
+    "NumLimit": 1,
+    "ShowInBag": true,
+    "SortIndex": 0,
+    "ResonanceIcon": "",
+    "HiddenTime": 0.0,
+    "Destructible": true,
+    "RedDotDisableRule": 0
+  },
+  {
+    "ItemId": 21050084,
+    "WeaponName": "WeaponConf_21050084_WeaponName",
+    "QualityId": 4,
+    "WeaponType": 5,
+    "ModelId": 21050084,
+    "TransformId": 5,
+    "Models": [
+      21050084
+    ],
+    "ResonLevelLimit": 5,
+    "FirstPropId": {
+      "Id": 7,
+      "Value": 37.0,
+      "IsRatio": false
+    },
+    "FirstCurve": 1,
+    "SecondPropId": {
+      "Id": 10007,
+      "Value": 0.04050000011920929,
+      "IsRatio": true
+    },
+    "SecondCurve": 2,
+    "ResonId": 21050084,
+    "LevelId": 4,
+    "BreachId": 21050084,
+    "Desc": "WeaponConf_21050084_Desc",
+    "DescParams": [
+      {
+        "ArrayString": [
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ]
+      },
+      {
+        "ArrayString": [
+          "10%",
+          "12.5%",
+          "15%",
+          "17.5%",
+          "20%"
+        ]
+      },
+      {
+        "ArrayString": [
+          "16",
+          "16",
+          "16",
+          "16",
+          "16"
+        ]
+      },
+      {
+        "ArrayString": [
+          "20",
+          "20",
+          "20",
+          "20",
+          "20"
+        ]
+      }
+    ],
+    "TypeDescription": "WeaponConf_21050084_TypeDescription",
+    "AttributesDescription": "WeaponConf_21050084_AttributesDescription",
+    "BgDescription": "WeaponConf_21050084_BgDescription",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21050084_UI.T_IconWeapon21050084_UI",
+    "IconMiddle": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon80/T_IconWeapon80_21050014_UI.T_IconWeapon80_21050014_UI",
+    "IconSmall": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon80/T_IconWeapon80_21050084_UI.T_IconWeapon80_21050084_UI",
+    "Mesh": "/Game/Aki/Scene/Assets/Common/Interaction/Mesh/SM_Pro_Roc_04DS.SM_Pro_Roc_04DS",
+    "MaxCapcity": 999999999,
+    "ItemAccess": null,
+    "ObtainedShow": 1,
+    "ObtainedShowDescription": "WeaponConf_21050084_ObtainedShowDescription",
+    "NumLimit": 1,
+    "ShowInBag": true,
+    "SortIndex": 0,
+    "ResonanceIcon": "",
+    "HiddenTime": 10.0,
+    "Destructible": true,
+    "RedDotDisableRule": 0
+  },
+  {
     "ItemId": 21040064,
     "WeaponName": "WeaponConf_21040064_WeaponName",
     "QualityId": 4,
@@ -5273,260 +5611,6 @@
     "RedDotDisableRule": 0
   },
   {
-    "ItemId": 21010084,
-    "WeaponName": "WeaponConf_21010084_WeaponName",
-    "QualityId": 4,
-    "WeaponType": 1,
-    "ModelId": 21010084,
-    "TransformId": 1,
-    "Models": [
-      21010084
-    ],
-    "ResonLevelLimit": 5,
-    "FirstPropId": {
-      "Id": 7,
-      "Value": 37.0,
-      "IsRatio": false
-    },
-    "FirstCurve": 1,
-    "SecondPropId": {
-      "Id": 10007,
-      "Value": 0.04050000011920929,
-      "IsRatio": true
-    },
-    "SecondCurve": 2,
-    "ResonId": 21010084,
-    "LevelId": 4,
-    "BreachId": 21010084,
-    "Desc": "WeaponConf_21010084_Desc",
-    "DescParams": [
-      {
-        "ArrayString": [
-          "6",
-          "7",
-          "8",
-          "9",
-          "10"
-        ]
-      },
-      {
-        "ArrayString": [
-          "10%",
-          "12.5%",
-          "15%",
-          "17.5%",
-          "20%"
-        ]
-      },
-      {
-        "ArrayString": [
-          "16",
-          "16",
-          "16",
-          "16",
-          "16"
-        ]
-      },
-      {
-        "ArrayString": [
-          "20",
-          "20",
-          "20",
-          "20",
-          "20"
-        ]
-      }
-    ],
-    "TypeDescription": "WeaponConf_21010084_TypeDescription",
-    "AttributesDescription": "WeaponConf_21010084_AttributesDescription",
-    "BgDescription": "WeaponConf_21010084_BgDescription",
-    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21010084_UI.T_IconWeapon21010084_UI",
-    "IconMiddle": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon80/T_IconWeapon80_21010014_UI.T_IconWeapon80_21010014_UI",
-    "IconSmall": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon80/T_IconWeapon80_21010084_UI.T_IconWeapon80_21010084_UI",
-    "Mesh": "/Game/Aki/Scene/Assets/Common/Interaction/Mesh/SM_Pro_Roc_04DS.SM_Pro_Roc_04DS",
-    "MaxCapcity": 999999999,
-    "ItemAccess": null,
-    "ObtainedShow": 1,
-    "ObtainedShowDescription": "WeaponConf_21010084_ObtainedShowDescription",
-    "NumLimit": 1,
-    "ShowInBag": true,
-    "SortIndex": 0,
-    "ResonanceIcon": "",
-    "HiddenTime": 10.0,
-    "Destructible": true,
-    "RedDotDisableRule": 0
-  },
-  {
-    "ItemId": 21020084,
-    "WeaponName": "WeaponConf_21020084_WeaponName",
-    "QualityId": 4,
-    "WeaponType": 2,
-    "ModelId": 21020084,
-    "TransformId": 2,
-    "Models": [
-      21020084,
-      21120084
-    ],
-    "ResonLevelLimit": 5,
-    "FirstPropId": {
-      "Id": 7,
-      "Value": 37.0,
-      "IsRatio": false
-    },
-    "FirstCurve": 1,
-    "SecondPropId": {
-      "Id": 10007,
-      "Value": 0.04050000011920929,
-      "IsRatio": true
-    },
-    "SecondCurve": 2,
-    "ResonId": 21020084,
-    "LevelId": 4,
-    "BreachId": 21020084,
-    "Desc": "WeaponConf_21020084_Desc",
-    "DescParams": [
-      {
-        "ArrayString": [
-          "6",
-          "7",
-          "8",
-          "9",
-          "10"
-        ]
-      },
-      {
-        "ArrayString": [
-          "10%",
-          "12.5%",
-          "15%",
-          "17.5%",
-          "20%"
-        ]
-      },
-      {
-        "ArrayString": [
-          "16",
-          "16",
-          "16",
-          "16",
-          "16"
-        ]
-      },
-      {
-        "ArrayString": [
-          "20",
-          "20",
-          "20",
-          "20",
-          "20"
-        ]
-      }
-    ],
-    "TypeDescription": "WeaponConf_21020084_TypeDescription",
-    "AttributesDescription": "WeaponConf_21020084_AttributesDescription",
-    "BgDescription": "WeaponConf_21020084_BgDescription",
-    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21020084_UI.T_IconWeapon21020084_UI",
-    "IconMiddle": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon80/T_IconWeapon80_21020014_UI.T_IconWeapon80_21020014_UI",
-    "IconSmall": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon80/T_IconWeapon80_21020084_UI.T_IconWeapon80_21020084_UI",
-    "Mesh": "/Game/Aki/Scene/Assets/Common/Interaction/Mesh/SM_Pro_Roc_04DS.SM_Pro_Roc_04DS",
-    "MaxCapcity": 999999999,
-    "ItemAccess": null,
-    "ObtainedShow": 1,
-    "ObtainedShowDescription": "WeaponConf_21020084_ObtainedShowDescription",
-    "NumLimit": 1,
-    "ShowInBag": true,
-    "SortIndex": 0,
-    "ResonanceIcon": "",
-    "HiddenTime": 10.0,
-    "Destructible": true,
-    "RedDotDisableRule": 0
-  },
-  {
-    "ItemId": 21030084,
-    "WeaponName": "WeaponConf_21030084_WeaponName",
-    "QualityId": 4,
-    "WeaponType": 3,
-    "ModelId": 21030084,
-    "TransformId": 3,
-    "Models": [
-      21030084,
-      21030084
-    ],
-    "ResonLevelLimit": 5,
-    "FirstPropId": {
-      "Id": 7,
-      "Value": 37.0,
-      "IsRatio": false
-    },
-    "FirstCurve": 1,
-    "SecondPropId": {
-      "Id": 10007,
-      "Value": 0.04050000011920929,
-      "IsRatio": true
-    },
-    "SecondCurve": 2,
-    "ResonId": 21030084,
-    "LevelId": 4,
-    "BreachId": 21030084,
-    "Desc": "WeaponConf_21030084_Desc",
-    "DescParams": [
-      {
-        "ArrayString": [
-          "6",
-          "7",
-          "8",
-          "9",
-          "10"
-        ]
-      },
-      {
-        "ArrayString": [
-          "10%",
-          "12.5%",
-          "15%",
-          "17.5%",
-          "20%"
-        ]
-      },
-      {
-        "ArrayString": [
-          "16",
-          "16",
-          "16",
-          "16",
-          "16"
-        ]
-      },
-      {
-        "ArrayString": [
-          "20",
-          "20",
-          "20",
-          "20",
-          "20"
-        ]
-      }
-    ],
-    "TypeDescription": "WeaponConf_21030084_TypeDescription",
-    "AttributesDescription": "WeaponConf_21030084_AttributesDescription",
-    "BgDescription": "WeaponConf_21030084_BgDescription",
-    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21030084_UI.T_IconWeapon21030084_UI",
-    "IconMiddle": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon80/T_IconWeapon80_21030014_UI.T_IconWeapon80_21030014_UI",
-    "IconSmall": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon80/T_IconWeapon80_21030084_UI.T_IconWeapon80_21030084_UI",
-    "Mesh": "/Game/Aki/Scene/Assets/Common/Interaction/Mesh/SM_Pro_Roc_04DS.SM_Pro_Roc_04DS",
-    "MaxCapcity": 999999999,
-    "ItemAccess": null,
-    "ObtainedShow": 1,
-    "ObtainedShowDescription": "WeaponConf_21030084_ObtainedShowDescription",
-    "NumLimit": 1,
-    "ShowInBag": true,
-    "SortIndex": 0,
-    "ResonanceIcon": "",
-    "HiddenTime": 0.0,
-    "Destructible": true,
-    "RedDotDisableRule": 0
-  },
-  {
     "ItemId": 21040084,
     "WeaponName": "WeaponConf_21040084_WeaponName",
     "QualityId": 4,
@@ -5612,14 +5696,15 @@
     "RedDotDisableRule": 0
   },
   {
-    "ItemId": 21050084,
-    "WeaponName": "WeaponConf_21050084_WeaponName",
+    "ItemId": 21020017,
+    "WeaponName": "WeaponConf_21020017_WeaponName",
     "QualityId": 4,
-    "WeaponType": 5,
-    "ModelId": 21050084,
-    "TransformId": 5,
+    "WeaponType": 2,
+    "ModelId": 21020017,
+    "TransformId": 2,
     "Models": [
-      21050084
+      21020017,
+      21120017
     ],
     "ResonLevelLimit": 5,
     "FirstPropId": {
@@ -5634,18 +5719,139 @@
       "IsRatio": true
     },
     "SecondCurve": 2,
-    "ResonId": 21050084,
+    "ResonId": 21020017,
     "LevelId": 4,
-    "BreachId": 21050084,
-    "Desc": "WeaponConf_21050084_Desc",
+    "BreachId": 21020017,
+    "Desc": "WeaponConf_21020017_Desc",
     "DescParams": [
       {
         "ArrayString": [
-          "6",
-          "7",
-          "8",
-          "9",
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "ArrayString": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "ArrayString": [
+          "1",
+          "1",
+          "1",
+          "1",
+          "1"
+        ]
+      },
+      {
+        "ArrayString": [
+          "2%",
+          "2.5%",
+          "3%",
+          "3.5%",
+          "4%"
+        ]
+      },
+      {
+        "ArrayString": [
+          "3",
+          "3",
+          "3",
+          "3",
+          "3"
+        ]
+      },
+      {
+        "ArrayString": [
+          "10",
+          "10",
+          "10",
+          "10",
           "10"
+        ]
+      },
+      {
+        "ArrayString": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10"
+        ]
+      },
+      {
+        "ArrayString": [
+          "6%",
+          "7.5%",
+          "9%",
+          "10.5%",
+          "12%"
+        ]
+      }
+    ],
+    "TypeDescription": "WeaponConf_21020017_TypeDescription",
+    "AttributesDescription": "WeaponConf_21020017_AttributesDescription",
+    "BgDescription": "WeaponConf_21020017_BgDescription",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21020019_UI.T_IconWeapon21020019_UI",
+    "IconMiddle": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon160/T_IconWeapon160_21020019_UI.T_IconWeapon160_21020019_UI",
+    "IconSmall": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon80/T_IconWeapon80_21020019_UI.T_IconWeapon80_21020019_UI",
+    "Mesh": "/Game/Aki/Scene/Assets/Common/Interaction/Mesh/SM_Pro_Roc_04DS.SM_Pro_Roc_04DS",
+    "MaxCapcity": 999999999,
+    "ItemAccess": null,
+    "ObtainedShow": 1,
+    "ObtainedShowDescription": "WeaponConf_21020017_ObtainedShowDescription",
+    "NumLimit": 1,
+    "ShowInBag": true,
+    "SortIndex": 0,
+    "ResonanceIcon": "",
+    "HiddenTime": 10.0,
+    "Destructible": true,
+    "RedDotDisableRule": 0
+  },
+  {
+    "ItemId": 21020026,
+    "WeaponName": "WeaponConf_21020026_WeaponName",
+    "QualityId": 5,
+    "WeaponType": 2,
+    "ModelId": 21020026,
+    "TransformId": 2,
+    "Models": [
+      21020026,
+      21120026
+    ],
+    "ResonLevelLimit": 5,
+    "FirstPropId": {
+      "Id": 7,
+      "Value": 47.0,
+      "IsRatio": false
+    },
+    "FirstCurve": 1,
+    "SecondPropId": {
+      "Id": 8,
+      "Value": 540.0,
+      "IsRatio": false
+    },
+    "SecondCurve": 2,
+    "ResonId": 21020026,
+    "LevelId": 5,
+    "BreachId": 21020026,
+    "Desc": "WeaponConf_21020026_Desc",
+    "DescParams": [
+      {
+        "ArrayString": [
+          "12%",
+          "15%",
+          "18%",
+          "21%",
+          "24%"
         ]
       },
       {
@@ -5659,40 +5865,58 @@
       },
       {
         "ArrayString": [
-          "16",
-          "16",
-          "16",
-          "16",
-          "16"
+          "14",
+          "14",
+          "14",
+          "14",
+          "14"
         ]
       },
       {
         "ArrayString": [
-          "20",
-          "20",
-          "20",
-          "20",
-          "20"
+          "3",
+          "3",
+          "3",
+          "3",
+          "3"
+        ]
+      },
+      {
+        "ArrayString": [
+          "40%",
+          "50%",
+          "60%",
+          "70%",
+          "80%"
+        ]
+      },
+      {
+        "ArrayString": [
+          "10",
+          "10",
+          "10",
+          "10",
+          "10"
         ]
       }
     ],
-    "TypeDescription": "WeaponConf_21050084_TypeDescription",
-    "AttributesDescription": "WeaponConf_21050084_AttributesDescription",
-    "BgDescription": "WeaponConf_21050084_BgDescription",
-    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21050084_UI.T_IconWeapon21050084_UI",
-    "IconMiddle": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon80/T_IconWeapon80_21050014_UI.T_IconWeapon80_21050014_UI",
-    "IconSmall": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon80/T_IconWeapon80_21050084_UI.T_IconWeapon80_21050084_UI",
-    "Mesh": "/Game/Aki/Scene/Assets/Common/Interaction/Mesh/SM_Pro_Roc_04DS.SM_Pro_Roc_04DS",
+    "TypeDescription": "WeaponConf_21020026_TypeDescription",
+    "AttributesDescription": "WeaponConf_21020026_AttributesDescription",
+    "BgDescription": "WeaponConf_21020026_BgDescription",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon/T_IconWeapon21020017_UI.T_IconWeapon21020017_UI",
+    "IconMiddle": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon160/T_IconWeapon160_21020017_UI.T_IconWeapon160_21020017_UI",
+    "IconSmall": "/Game/Aki/UI/UIResources/Common/Image/IconWeapon80/T_IconWeapon80_21020017_UI.T_IconWeapon80_21020017_UI",
+    "Mesh": "/Game/Aki/Scene/Assets/Common/Interaction/Mesh/SM_Pro_Roc_04ES.SM_Pro_Roc_04ES",
     "MaxCapcity": 999999999,
     "ItemAccess": null,
     "ObtainedShow": 1,
-    "ObtainedShowDescription": "WeaponConf_21050084_ObtainedShowDescription",
+    "ObtainedShowDescription": "WeaponConf_21020026_ObtainedShowDescription",
     "NumLimit": 1,
     "ShowInBag": true,
     "SortIndex": 0,
     "ResonanceIcon": "",
     "HiddenTime": 10.0,
-    "Destructible": true,
+    "Destructible": false,
     "RedDotDisableRule": 0
   }
 ]

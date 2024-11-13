@@ -3765,7 +3765,7 @@
     "Id": 700046,
     "DebugText": "该场景不能使用此功能",
     "Text": "ErrorCode_700046_Text",
-    "IsTip": false
+    "IsTip": true
   },
   {
     "Id": 700047,
@@ -9499,15 +9499,15 @@
   },
   {
     "Id": 1900008,
-    "DebugText": "在战斗中",
+    "DebugText": "战斗中无法使用",
     "Text": "ErrorCode_1900008_Text",
-    "IsTip": false
+    "IsTip": true
   },
   {
     "Id": 1900009,
-    "DebugText": "没有国家授权",
+    "DebugText": "缺少当前区域的授权凭证",
     "Text": "ErrorCode_1900009_Text",
-    "IsTip": false
+    "IsTip": true
   },
   {
     "Id": 1900010,
@@ -9517,9 +9517,9 @@
   },
   {
     "Id": 1900011,
-    "DebugText": "授权范围内没有声匣",
+    "DebugText": "授权范围内没有特殊收集物",
     "Text": "ErrorCode_1900011_Text",
-    "IsTip": false
+    "IsTip": true
   },
   {
     "Id": 1900012,
@@ -12733,9 +12733,9 @@
   },
   {
     "Id": 1900097,
-    "DebugText": "声匣探索度已满",
+    "DebugText": "特殊收集物探索度已满",
     "Text": "ErrorCode_1900095_Text",
-    "IsTip": false
+    "IsTip": true
   },
   {
     "Id": 1500107,
@@ -13608,10 +13608,136 @@
     "IsTip": false
   },
   {
+    "Id": 2500037,
+    "DebugText": "找不到签到节点配置",
+    "Text": "ErrorCode_2500030_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500038,
+    "DebugText": "未知错误",
+    "Text": "ErrorCode_2500030_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500039,
+    "DebugText": "活动未开启",
+    "Text": "ErrorCode_2500046_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500040,
+    "DebugText": "签到节点未解锁",
+    "Text": "ErrorCode_2500046_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500041,
+    "DebugText": "未处于奖励领取状态",
+    "Text": "ErrorCode_2500047_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500042,
+    "DebugText": "还未进行问卷答题",
+    "Text": "ErrorCode_2500047_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500043,
+    "DebugText": "找不到刮刮轮次配置",
+    "Text": "ErrorCode_2500041_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500044,
+    "DebugText": "找不到刮刮活动配置",
+    "Text": "ErrorCode_2500041_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500045,
+    "DebugText": "找不到刮刮乐数据",
+    "Text": "ErrorCode_2500041_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500046,
+    "DebugText": "刮刮乐序号不合法",
+    "Text": "ErrorCode_2500041_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500047,
+    "DebugText": "刮刮乐序号已领奖",
+    "Text": "ErrorCode_2500042_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500048,
+    "DebugText": "没有刮刮乐次数",
+    "Text": "ErrorCode_2500043_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500049,
+    "DebugText": "未知错误",
+    "Text": "ErrorCode_2500041_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500050,
+    "DebugText": "刮刮乐轮次未解锁",
+    "Text": "ErrorCode_2500044_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200035,
+    "DebugText": "修改场景实体属性，对应属性类型中不包含该tag",
+    "Text": "ErrorCode_2200035_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200036,
+    "DebugText": "修改场景实体属性，tag不存在",
+    "Text": "ErrorCode_2200036_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200037,
+    "DebugText": "修改场景实体属性行为，实体不存在",
+    "Text": "ErrorCode_2200037_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200038,
+    "DebugText": "添加场景实体属性，Tag实体身上已存在",
+    "Text": "ErrorCode_2200038_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200039,
+    "DebugText": "移除场景实体属性，Tag实体身上不存在",
+    "Text": "ErrorCode_2200039_Text",
+    "IsTip": false
+  },
+  {
     "Id": 200426,
     "DebugText": "输入设置设备子类型长度过长",
     "Text": "ErrorCode_200430_Text",
     "IsTip": true
+  },
+  {
+    "Id": 2200040,
+    "DebugText": "修改场景实体属性，实体处于锁定状态",
+    "Text": "ErrorCode_2200040_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200041,
+    "DebugText": "修改场景实体属性，实体处于静默状态",
+    "Text": "ErrorCode_2200041_Text",
+    "IsTip": false
   },
   {
     "Id": 2100003,
@@ -13620,10 +13746,100 @@
     "IsTip": false
   },
   {
+    "Id": 2200042,
+    "DebugText": "修改场景实体属性，Tag Id表中不存在",
+    "Text": "ErrorCode_2200042_Text",
+    "IsTip": false
+  },
+  {
     "Id": 200427,
     "DebugText": "你在对方黑名单中无法加入",
     "Text": "ErrorCode_200432_Text",
     "IsTip": true
+  },
+  {
+    "Id": 1100252,
+    "DebugText": "白猫活动配置找不到",
+    "Text": "ErrorCode_1100252_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100253,
+    "DebugText": "活动未开启",
+    "Text": "ErrorCode_1100253_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100254,
+    "DebugText": "角色梦境奖励已过期",
+    "Text": "ErrorCode_1100254_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100255,
+    "DebugText": "奖励未解锁",
+    "Text": "ErrorCode_1100255_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100256,
+    "DebugText": "奖励已领取",
+    "Text": "ErrorCode_1100256_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100257,
+    "DebugText": "奖励索引错误",
+    "Text": "ErrorCode_1100257_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100258,
+    "DebugText": "副本索引错误",
+    "Text": "ErrorCode_1100258_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100259,
+    "DebugText": "副本未解锁",
+    "Text": "ErrorCode_1100259_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100260,
+    "DebugText": "Boss奖励索引错误",
+    "Text": "ErrorCode_1100260_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100261,
+    "DebugText": "Boss奖励未解锁",
+    "Text": "ErrorCode_1100261_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100262,
+    "DebugText": "Boss奖励已领取",
+    "Text": "ErrorCode_1100262_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100263,
+    "DebugText": "子弹跑奖励索引错误",
+    "Text": "ErrorCode_1100263_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100264,
+    "DebugText": "子弹跑奖励未解锁",
+    "Text": "ErrorCode_1100264_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100265,
+    "DebugText": "子弹跑奖励已领取",
+    "Text": "ErrorCode_1100265_Text",
+    "IsTip": false
   },
   {
     "Id": 500062,
@@ -13638,15 +13854,63 @@
     "IsTip": false
   },
   {
+    "Id": 2500051,
+    "DebugText": "找不到BossRush场景数据，请退出重试",
+    "Text": "ErrorCode_2000501_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500052,
+    "DebugText": "未处于buff选择状态，未知错误",
+    "Text": "ErrorCode_2000502_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500053,
+    "DebugText": "现在序号不合法，未知错误",
+    "Text": "ErrorCode_2000503_Text",
+    "IsTip": false
+  },
+  {
     "Id": 200428,
     "DebugText": "角色名称含有非法字符",
     "Text": "ErrorCode_200433_Text",
     "IsTip": true
   },
   {
+    "Id": 1100266,
+    "DebugText": "资源版本过低, 请退出游戏后更新重进",
+    "Text": "ErrorCode_1100266_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200043,
+    "DebugText": "进入场景协议中的上下类型不符",
+    "Text": "ErrorCode_2200043_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200044,
+    "DebugText": "进入场景流程黑板值不存在",
+    "Text": "ErrorCode_2200044_Text",
+    "IsTip": false
+  },
+  {
     "Id": 900074,
     "DebugText": "当前已探索范围无富集区域，请继续探索",
     "Text": "ErrorCode_900073_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200429,
+    "DebugText": "邮箱未绑定",
+    "Text": "ErrorCode_200434_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200430,
+    "DebugText": "奖励已领取",
+    "Text": "ErrorCode_200435_Text",
     "IsTip": true
   },
   {
@@ -13663,6 +13927,36 @@
   },
   {
     "Id": 1900103,
+    "DebugText": "角色没有装备武器皮肤",
+    "Text": "ErrorCode_1900101_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900104,
+    "DebugText": "角色武器皮肤数据异常",
+    "Text": "ErrorCode_1900102_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900105,
+    "DebugText": "该皮肤未解锁",
+    "Text": "ErrorCode_1900103_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900106,
+    "DebugText": "皮肤重复装备",
+    "Text": "ErrorCode_1900104_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900107,
+    "DebugText": "皮肤类型不匹配",
+    "Text": "ErrorCode_1900105_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900108,
     "DebugText": "好友离线消息失败",
     "Text": "ErrorCode_1900106_Text",
     "IsTip": false
@@ -13698,15 +13992,189 @@
     "IsTip": false
   },
   {
-    "Id": 200429,
+    "Id": 200431,
     "DebugText": "输入设置为空",
     "Text": "ErrorCode_200436_Text",
     "IsTip": true
   },
   {
+    "Id": 2500054,
+    "DebugText": "存在相同的buffId，未知错误",
+    "Text": "ErrorCode_2000504_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500055,
+    "DebugText": "有操作增益词条未选择，请选择后再开启挑战",
+    "Text": "ErrorCode_2000505_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500056,
+    "DebugText": "选择的buff不合法，未知错误",
+    "Text": "ErrorCode_2000506_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500057,
+    "DebugText": "选择的buff没有配置，未知错误",
+    "Text": "ErrorCode_2000507_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200432,
+    "DebugText": "兑换参数错误",
+    "Text": "ErrorCode_200437_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200433,
+    "DebugText": "首通不可倍刷",
+    "Text": "ErrorCode_200438_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200434,
+    "DebugText": "活动不可多倍领取",
+    "Text": "ErrorCode_200439_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200435,
+    "DebugText": "倍刷功能未开启",
+    "Text": "ErrorCode_200440_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200436,
+    "DebugText": "该副本类型不支持倍刷",
+    "Text": "ErrorCode_200441_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200437,
+    "DebugText": "该玩法类型不支持倍刷",
+    "Text": "ErrorCode_200442_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2200045,
+    "DebugText": "触发器锁定",
+    "Text": "触发器锁定",
+    "IsTip": false
+  },
+  {
+    "Id": 2200046,
+    "DebugText": "触发器忽略本条协议",
+    "Text": "ErrorCode_2200045_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200047,
+    "DebugText": "触发器触发实体不存在",
+    "Text": "触发器触发实体不存在",
+    "IsTip": false
+  },
+  {
+    "Id": 2200048,
+    "DebugText": "触发器触发实体不匹配",
+    "Text": "触发器触发实体不匹配",
+    "IsTip": false
+  },
+  {
+    "Id": 2200049,
+    "DebugText": "触发器不满足匹配实体数量",
+    "Text": "触发器不满足匹配实体数量",
+    "IsTip": false
+  },
+  {
+    "Id": 2200050,
+    "DebugText": "触发器触发行为组为空",
+    "Text": "ErrorCode_2200046_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200051,
+    "DebugText": "超过触发器最大触发次数",
+    "Text": "超过触发器最大触发次数",
+    "IsTip": false
+  },
+  {
+    "Id": 2200052,
+    "DebugText": "触发器已经在条件失败时触发离开",
+    "Text": "ErrorCode_2200047_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200053,
+    "DebugText": "触发器离开配置为空",
+    "Text": "ErrorCode_2200048_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200054,
+    "DebugText": "触发器条件不满足",
+    "Text": "触发器条件不满足",
+    "IsTip": false
+  },
+  {
+    "Id": 2200055,
+    "DebugText": "触发器范围校验失败",
+    "Text": "触发器范围校验失败",
+    "IsTip": false
+  },
+  {
+    "Id": 2200056,
+    "DebugText": "踩踏机关实体不匹配",
+    "Text": "踩踏机关实体不匹配",
+    "IsTip": false
+  },
+  {
+    "Id": 2200057,
+    "DebugText": "踩踏机关条件不满足",
+    "Text": "踩踏机关条件不满足",
+    "IsTip": false
+  },
+  {
+    "Id": 2200058,
+    "DebugText": "踩踏机关不满足匹配实体数量",
+    "Text": "踩踏机关不满足匹配实体数量",
+    "IsTip": false
+  },
+  {
     "Id": 1800049,
     "DebugText": "试用角色不能参与联机匹配",
     "Text": "ErrorCode_1800049_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500058,
+    "DebugText": "刮刮乐活动未开启",
+    "Text": "ErrorCode_2500045_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100267,
+    "DebugText": "肉鸽白猫限时奖励配置找不到",
+    "Text": "ErrorCode_1100267_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100268,
+    "DebugText": "肉鸽白猫限时奖励已过期",
+    "Text": "ErrorCode_1100268_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100269,
+    "DebugText": "肉鸽白猫限时奖励未解锁",
+    "Text": "ErrorCode_1100269_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100270,
+    "DebugText": "肉鸽白猫限时奖励已领取",
+    "Text": "ErrorCode_1100270_Text",
     "IsTip": false
   },
   {
@@ -13736,31 +14204,253 @@
   {
     "Id": 1400051,
     "DebugText": "地图标记配置不存在",
-    "Text": "",
+    "Text": "ErrorCode_1400051_Text",
     "IsTip": false
   },
   {
     "Id": 1400052,
     "DebugText": "物资箱探测标记不存在",
-    "Text": "",
+    "Text": "ErrorCode_1400052_Text",
     "IsTip": false
   },
   {
     "Id": 1400053,
     "DebugText": "物资箱标记不存在",
-    "Text": "",
+    "Text": "ErrorCode_1400053_Text",
     "IsTip": false
   },
   {
     "Id": 1400054,
     "DebugText": "物资箱探测标记已存在",
-    "Text": "",
+    "Text": "ErrorCode_1400054_Text",
     "IsTip": false
   },
   {
     "Id": 1400055,
     "DebugText": "非自定义标记类型",
-    "Text": "",
+    "Text": "ErrorCode_1400055_Text",
     "IsTip": false
+  },
+  {
+    "Id": 1100271,
+    "DebugText": "剩余回音结晶奖励次数不足，无法领取奖励，请等待奖励次数刷新后再尝试。",
+    "Text": "ErrorCode_1100271_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100272,
+    "DebugText": "请求的副本id数量不匹配",
+    "Text": "ErrorCode_1100272_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100273,
+    "DebugText": "肉鸽副本编队配置找不到",
+    "Text": "ErrorCode_1100273_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100274,
+    "DebugText": "肉鸽试用角色无效",
+    "Text": "ErrorCode_1100274_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100275,
+    "DebugText": "肉鸽可用角色无效",
+    "Text": "ErrorCode_1100275_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100276,
+    "DebugText": "黑石花实体错误",
+    "Text": "ErrorCode_1100276_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100277,
+    "DebugText": "黑石花实体状态错误",
+    "Text": "ErrorCode_1100277_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100278,
+    "DebugText": "肉鸽黑石花无法领奖",
+    "Text": "ErrorCode_1100278_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100279,
+    "DebugText": "肉鸽黑石花领奖失败",
+    "Text": "ErrorCode_1100279_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1800050,
+    "DebugText": "被邀请人已死亡,无法同意申请",
+    "Text": "ErrorCode_1800053_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500059,
+    "DebugText": "找不到割草爬塔关卡配置",
+    "Text": "ErrorCode_2500048_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500060,
+    "DebugText": "割草爬塔活动未开启",
+    "Text": "ErrorCode_2500049_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500061,
+    "DebugText": "找不到割草爬塔缓存数据",
+    "Text": "ErrorCode_2500050_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500062,
+    "DebugText": "还未通关第一个副本",
+    "Text": "ErrorCode_2500051_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500063,
+    "DebugText": "割草爬塔关卡id错误",
+    "Text": "ErrorCode_2500052_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500064,
+    "DebugText": "割草爬塔角色选择错误",
+    "Text": "ErrorCode_2500053_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500065,
+    "DebugText": "割草爬塔Buff选择错误",
+    "Text": "ErrorCode_2500054_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500066,
+    "DebugText": "找不到割草爬塔组件",
+    "Text": "ErrorCode_2500055_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500067,
+    "DebugText": "第一编队与第二编队存在相同角色",
+    "Text": "ErrorCode_2500056_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500068,
+    "DebugText": "割草爬塔Buff数量错误",
+    "Text": "ErrorCode_2500057_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500069,
+    "DebugText": "当前副本不是割草爬塔第一个副本",
+    "Text": "ErrorCode_2500058_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500070,
+    "DebugText": "找不到割草爬塔数据",
+    "Text": "ErrorCode_2500059_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500071,
+    "DebugText": "当前分数不足",
+    "Text": "ErrorCode_2500060_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500072,
+    "DebugText": "已经领取奖励",
+    "Text": "ErrorCode_2500061_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2500073,
+    "DebugText": "找不到割草爬塔奖励配置",
+    "Text": "ErrorCode_2500062_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500074,
+    "DebugText": "不在割草爬塔副本",
+    "Text": "ErrorCode_2500063_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500075,
+    "DebugText": "找不到奖励配置",
+    "Text": "ErrorCode_2500064_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200438,
+    "DebugText": "登录服务器时出错，如有疑问可联系官方客服。",
+    "Text": "ErrorCode_200447_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200439,
+    "DebugText": "登录服务器时出错，如有疑问可联系官方客服。",
+    "Text": "ErrorCode_200447_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200440,
+    "DebugText": "登录服务器时出错，如有疑问可联系官方客服。",
+    "Text": "ErrorCode_200447_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200441,
+    "DebugText": "登录服务器时出错，如有疑问可联系官方客服。",
+    "Text": "ErrorCode_200447_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1800051,
+    "DebugText": "已死亡无法同意邀请",
+    "Text": "ErrorCode_1800054_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200442,
+    "DebugText": "请求次数过多",
+    "Text": "ErrorCode_200451_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200443,
+    "DebugText": "请求次数过多",
+    "Text": "ErrorCode_200451_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200444,
+    "DebugText": "请求次数过多",
+    "Text": "ErrorCode_200451_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200445,
+    "DebugText": "请求次数过多",
+    "Text": "ErrorCode_200451_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200446,
+    "DebugText": "请求次数过多",
+    "Text": "ErrorCode_200451_Text",
+    "IsTip": true
   }
 ]

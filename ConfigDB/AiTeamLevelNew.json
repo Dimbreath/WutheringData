@@ -370,5 +370,39 @@
       1.0,
       1.0
     ]
+  },
+  {
+    "Id": 803,
+    "PositionId": [
+      1,
+      2,
+      3
+    ],
+    "AllocationPeriodic": {
+      "Min": 8000.0,
+      "Max": 10000.0
+    },
+    "AttackerNum": 1,
+    "AttackCountDown": {
+      "Min": 500.0,
+      "Max": 1000.0
+    },
+    "NoAttackCountDown": {
+      "Min": 500.0,
+      "Max": 1000.0
+    },
+    "BeAttackCountDown": {
+      "Min": 100.0,
+      "Max": 100.0
+    },
+    "EliteRatio": [
+      2.0,
+      1.0
+    ],
+    "RangeRatio": [
+      2.0,
+      3.0,
+      1.0
+    ]
   }
 ]

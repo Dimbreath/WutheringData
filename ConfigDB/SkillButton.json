@@ -13,7 +13,8 @@
       }
     ],
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -30,7 +31,16 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      },
+      {
+        "Key": "系统.角色梦境.封印技能",
+        "Value": 291003
+      }
+    ]
   },
   {
     "Id": 12031004,
@@ -43,6 +53,18 @@
       {
         "Key": "角色.R2T1AnkeMd10011.技能标识.大招状态",
         "Value": 1203202
+      },
+      {
+        "Key": "角色.R2T1AnkeMd10011.肉鸽.词条2",
+        "Value": 1203777001
+      },
+      {
+        "Key": "角色.R2T1ChunMd10011.肉鸽.词条5",
+        "Value": 1203777002
+      },
+      {
+        "Key": "角色.R2T1ChunMd10011.肉鸽.词条2",
+        "Value": 1203777003
       },
       {
         "Key": "角色.R2T1AnkeMd10011.技能标识.特殊普攻1",
@@ -79,7 +101,16 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "系统.角色梦境.封印技能",
+        "Value": 291003
+      },
+      {
+        "Key": "角色.R2T1ChunMd10011.肉鸽.词条5",
+        "Value": 12051310
+      }
+    ]
   },
   {
     "Id": 12031006,
@@ -108,7 +139,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "系统.角色梦境.封印技能",
+        "Value": 291003
+      }
+    ]
   },
   {
     "Id": 14021002,
@@ -119,7 +155,8 @@
     "SkillId": 1402001,
     "SkillIdTagMap": null,
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -136,7 +173,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      }
+    ]
   },
   {
     "Id": 14021004,
@@ -229,7 +271,8 @@
     "SkillId": 1502001,
     "SkillIdTagMap": null,
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -246,7 +289,16 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      },
+      {
+        "Key": "系统.角色梦境.封印技能",
+        "Value": 291003
+      }
+    ]
   },
   {
     "Id": 15021004,
@@ -291,7 +343,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "系统.角色梦境.封印技能",
+        "Value": 291003
+      }
+    ]
   },
   {
     "Id": 15021006,
@@ -320,7 +377,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "系统.角色梦境.封印技能",
+        "Value": 291003
+      }
+    ]
   },
   {
     "Id": 15011002,
@@ -331,7 +393,8 @@
     "SkillId": 1501001,
     "SkillIdTagMap": null,
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -348,7 +411,16 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      },
+      {
+        "Key": "系统.角色梦境.封印技能",
+        "Value": 291003
+      }
+    ]
   },
   {
     "Id": 15011004,
@@ -393,7 +465,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "系统.角色梦境.封印技能",
+        "Value": 291003
+      }
+    ]
   },
   {
     "Id": 15011006,
@@ -422,7 +499,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "系统.角色梦境.封印技能",
+        "Value": 291003
+      }
+    ]
   },
   {
     "Id": 16021002,
@@ -433,7 +515,8 @@
     "SkillId": 1602001,
     "SkillIdTagMap": null,
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -450,7 +533,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      }
+    ]
   },
   {
     "Id": 16021004,
@@ -563,7 +651,8 @@
     "SkillId": 1404001,
     "SkillIdTagMap": null,
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -580,7 +669,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      }
+    ]
   },
   {
     "Id": 14041004,
@@ -673,7 +767,8 @@
     "SkillId": 1403001,
     "SkillIdTagMap": null,
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -690,7 +785,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": true,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      }
+    ]
   },
   {
     "Id": 14031004,
@@ -775,7 +875,8 @@
     "SkillId": 1102001,
     "SkillIdTagMap": null,
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -792,7 +893,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      }
+    ]
   },
   {
     "Id": 11021004,
@@ -873,7 +979,8 @@
     "SkillId": 1601001,
     "SkillIdTagMap": null,
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -890,7 +997,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      }
+    ]
   },
   {
     "Id": 16011004,
@@ -971,7 +1083,8 @@
     "SkillId": 1503001,
     "SkillIdTagMap": null,
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -988,7 +1101,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      }
+    ]
   },
   {
     "Id": 15031004,
@@ -1069,7 +1187,8 @@
     "SkillId": 120201,
     "SkillIdTagMap": null,
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -1086,7 +1205,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": true,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      }
+    ]
   },
   {
     "Id": 12021004,
@@ -1168,7 +1292,8 @@
     "SkillId": 1103005,
     "SkillIdTagMap": null,
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -1185,7 +1310,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      }
+    ]
   },
   {
     "Id": 11031004,
@@ -1275,7 +1405,8 @@
     "SkillId": 1204001,
     "SkillIdTagMap": null,
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -1292,7 +1423,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": true,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      }
+    ]
   },
   {
     "Id": 12041004,
@@ -1377,7 +1513,8 @@
     "SkillId": 1502001,
     "SkillIdTagMap": null,
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -1394,7 +1531,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      }
+    ]
   },
   {
     "Id": 100100004,
@@ -1463,12 +1605,14 @@
     "SkillId": 1603001,
     "SkillIdTagMap": null,
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
       "战斗状态.技能限制.禁止普攻",
-      "行为状态.逻辑状态.控物.控物空中投掷禁止"
+      "行为状态.逻辑状态.控物.控物空中投掷禁止",
+      "角色.Common.探索技能.新版控物.输入.控物投掷禁止"
     ],
     "DisableSkillIdTags": null,
     "HiddenTags": null,
@@ -1480,7 +1624,16 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      },
+      {
+        "Key": "系统.角色梦境.封印技能",
+        "Value": 291003
+      }
+    ]
   },
   {
     "Id": 16031004,
@@ -1491,7 +1644,15 @@
     "SkillId": 1603010,
     "SkillIdTagMap": [
       {
-        "Key": "角色.R2T1ChunMd10011.共鸣.共鸣2",
+        "Key": "角色.R2T1ChunMd10011.状态标识.谢幕盛放",
+        "Value": 1603014
+      },
+      {
+        "Key": "角色.R2T1ChunMd10011.共鸣.共鸣6.额外终结e",
+        "Value": 1603015
+      },
+      {
+        "Key": "角色.R2T1ChunMd10011.标记机制.魔人化启动",
         "Value": 1603011
       },
       {
@@ -1524,7 +1685,24 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "角色.R2T1ChunMd10011.标记机制.特殊能量满",
+        "Value": 1603010
+      },
+      {
+        "Key": "角色.R2T1ChunMd10011.状态标识.谢幕盛放",
+        "Value": 1603010
+      },
+      {
+        "Key": "角色.R2T1ChunMd10011.共鸣.共鸣6.额外终结e",
+        "Value": 1603010
+      },
+      {
+        "Key": "系统.角色梦境.封印技能",
+        "Value": 291003
+      }
+    ]
   },
   {
     "Id": 16031006,
@@ -1538,8 +1716,7 @@
     "EnableTags": null,
     "DisableTags": [
       "功能.功能制作.被击硬直时间",
-      "战斗状态.技能限制.禁止大招",
-      "行为状态.位置状态.空中"
+      "战斗状态.技能限制.禁止大招"
     ],
     "DisableSkillIdTags": null,
     "HiddenTags": [
@@ -1553,7 +1730,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "系统.角色梦境.封印技能",
+        "Value": 291003
+      }
+    ]
   },
   {
     "Id": 13021002,
@@ -1564,7 +1746,8 @@
     "SkillId": 1302001,
     "SkillIdTagMap": null,
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -1581,7 +1764,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      }
+    ]
   },
   {
     "Id": 13021004,
@@ -1626,6 +1814,10 @@
       {
         "Key": "角色.R2T1YinlinMd10011.状态.小技能2段可释放",
         "Value": 11041004
+      },
+      {
+        "Key": "系统.角色梦境.封印技能",
+        "Value": 291003
       }
     ]
   },
@@ -1656,7 +1848,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "系统.角色梦境.封印技能",
+        "Value": 291003
+      }
+    ]
   },
   {
     "Id": 13011002,
@@ -1667,7 +1864,8 @@
     "SkillId": 1301001,
     "SkillIdTagMap": null,
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -1684,7 +1882,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      }
+    ]
   },
   {
     "Id": 13011004,
@@ -1694,6 +1897,14 @@
     "ActionType": 6,
     "SkillId": 1301610,
     "SkillIdTagMap": [
+      {
+        "Key": "Rogue.Role.Kakaluo.状态标识.强化E",
+        "Value": 1301804
+      },
+      {
+        "Key": "Rogue.Role.Kakaluo.状态标识.肉鸽E",
+        "Value": 1301701
+      },
       {
         "Key": "角色.R2T1KakaluoMd10011.技能ID.E技能派生可使用",
         "Value": 1301011
@@ -1729,7 +1940,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "Rogue.Role.Kakaluo.状态标识.强化E",
+        "Value": 13051004
+      }
+    ]
   },
   {
     "Id": 13011006,
@@ -1774,7 +1990,8 @@
       }
     ],
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -1791,7 +2008,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      }
+    ]
   },
   {
     "Id": 13031004,
@@ -1966,7 +2188,8 @@
     "SkillId": 1104001,
     "SkillIdTagMap": null,
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -1984,6 +2207,10 @@
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
     "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      },
       {
         "Key": "角色.R2T1AwuMd10011.共鸣.共鸣6.普攻伤害提升激活",
         "Value": 11041004
@@ -2325,7 +2552,8 @@
     "SkillId": 1505001,
     "SkillIdTagMap": null,
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -2342,7 +2570,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      }
+    ]
   },
   {
     "Id": 15051004,
@@ -2426,7 +2659,8 @@
     "SkillId": 1605001,
     "SkillIdTagMap": null,
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -2443,7 +2677,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      }
+    ]
   },
   {
     "Id": 16051004,
@@ -2528,7 +2767,8 @@
     "SkillId": 1604001,
     "SkillIdTagMap": null,
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -2545,7 +2785,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      }
+    ]
   },
   {
     "Id": 16041004,
@@ -2874,7 +3119,8 @@
     "SkillId": 1405001,
     "SkillIdTagMap": null,
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -2891,7 +3137,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      }
+    ]
   },
   {
     "Id": 14051004,
@@ -2985,7 +3236,8 @@
     "SkillId": 1304001,
     "SkillIdTagMap": null,
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -3002,7 +3254,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      }
+    ]
   },
   {
     "Id": 13041004,
@@ -3287,7 +3544,8 @@
     "SkillId": 1105001,
     "SkillIdTagMap": null,
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -3304,7 +3562,16 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      },
+      {
+        "Key": "系统.角色梦境.封印技能",
+        "Value": 291003
+      }
+    ]
   },
   {
     "Id": 11051004,
@@ -3352,6 +3619,10 @@
       {
         "Key": "角色.R2T1ZhezhiMd10011.状态.飞鹤可触发",
         "Value": 110501
+      },
+      {
+        "Key": "系统.角色梦境.封印技能",
+        "Value": 291003
       }
     ]
   },
@@ -3381,7 +3652,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "系统.角色梦境.封印技能",
+        "Value": 291003
+      }
+    ]
   },
   {
     "Id": 12051002,
@@ -3401,7 +3677,8 @@
       }
     ],
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -3420,8 +3697,16 @@
     "LongPressTime": 0,
     "DynamicEffectTagMap": [
       {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      },
+      {
         "Key": "角色.R2T1ChangLiMd10011.buff相关.心眼",
         "Value": 12051310
+      },
+      {
+        "Key": "系统.角色梦境.封印技能",
+        "Value": 291003
       }
     ]
   },
@@ -3463,7 +3748,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "系统.角色梦境.封印技能",
+        "Value": 291003
+      }
+    ]
   },
   {
     "Id": 12051006,
@@ -3491,7 +3781,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "系统.角色梦境.封印技能",
+        "Value": 291003
+      }
+    ]
   },
   {
     "Id": 13051002,
@@ -3502,7 +3797,8 @@
     "SkillId": 1305001,
     "SkillIdTagMap": null,
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -3519,7 +3815,12 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      }
+    ]
   },
   {
     "Id": 13051004,
@@ -3645,7 +3946,8 @@
       }
     ],
     "SkillIconTags": [
-      "行为状态.逻辑状态.新控物.控制"
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
     ],
     "EnableTags": null,
     "DisableTags": [
@@ -3663,6 +3965,10 @@
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
     "DynamicEffectTagMap": [
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      },
       {
         "Key": "角色.R2T1YouHuMd10011.逻辑.替换技能.破花瓶",
         "Value": 11041004
@@ -3754,5 +4060,153 @@
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
     "DynamicEffectTagMap": null
+  },
+  {
+    "Id": 15041002,
+    "RoleId": 1504,
+    "Name": "攻击",
+    "ButtonType": 4,
+    "ActionType": 4,
+    "SkillId": 1504020,
+    "SkillIdTagMap": [
+      {
+        "Key": "角色.R2T1DengDengMd10011.状态标识.红剑",
+        "Value": 1504020
+      },
+      {
+        "Key": "角色.R2T1DengDengMd10011.状态标识.黄灯",
+        "Value": 1504010
+      }
+    ],
+    "SkillIconTags": [
+      "行为状态.逻辑状态.新控物.控制",
+      "关卡.子弹跑.生效中"
+    ],
+    "EnableTags": null,
+    "DisableTags": [
+      "战斗状态.技能限制.禁止普攻",
+      "行为状态.逻辑状态.控物.控物空中投掷禁止"
+    ],
+    "DisableSkillIdTags": null,
+    "HiddenTags": null,
+    "IsCdVisible": true,
+    "AttributeId": 0,
+    "MaxAttributeId": 0,
+    "AttributeIdTagMap": null,
+    "MaxAttributeBurstEffectId": 0,
+    "CdCompletedEffectId": 0,
+    "IsLongPressControlCamera": false,
+    "LongPressTime": 0,
+    "DynamicEffectTagMap": [
+      {
+        "Key": "角色.R2T1DengDengMd10011.状态标识.红灯plus状态",
+        "Value": 15041000
+      },
+      {
+        "Key": "系统.角色梦境.封印技能",
+        "Value": 291003
+      },
+      {
+        "Key": "关卡.子弹跑.生效中",
+        "Value": 1002
+      }
+    ]
+  },
+  {
+    "Id": 15041004,
+    "RoleId": 1504,
+    "Name": "共鸣技能",
+    "ButtonType": 6,
+    "ActionType": 6,
+    "SkillId": 1504040,
+    "SkillIdTagMap": [
+      {
+        "Key": "角色.Common.技能通用标识.控物拼图旋转.可用",
+        "Value": 210009
+      },
+      {
+        "Key": "角色.Common.技能通用标识.控物拼图旋转.不可用",
+        "Value": 210009
+      },
+      {
+        "Key": "角色.R2T1DengDengMd10011.状态标识.红剑",
+        "Value": 1504041
+      },
+      {
+        "Key": "角色.R2T1DengDengMd10011.状态标识.黄灯",
+        "Value": 1504040
+      }
+    ],
+    "SkillIconTags": null,
+    "EnableTags": [
+      "角色.Common.技能通用标识.控物拼图旋转.可用"
+    ],
+    "DisableTags": [
+      "功能.功能制作.被击硬直时间",
+      "战斗状态.技能限制.禁止E技能",
+      "角色.Common.技能通用标识.控物拼图旋转.不可用",
+      "行为状态.位置状态.空中",
+      "角色.R2T1DengDengMd10011.状态标识.连续重击用子镜头"
+    ],
+    "DisableSkillIdTags": null,
+    "HiddenTags": [
+      "功能.功能制作.隐藏按钮功能.隐藏技能按键"
+    ],
+    "IsCdVisible": true,
+    "AttributeId": 0,
+    "MaxAttributeId": 0,
+    "AttributeIdTagMap": null,
+    "MaxAttributeBurstEffectId": 0,
+    "CdCompletedEffectId": 0,
+    "IsLongPressControlCamera": false,
+    "LongPressTime": 0,
+    "DynamicEffectTagMap": [
+      {
+        "Key": "系统.角色梦境.封印技能",
+        "Value": 291003
+      },
+      {
+        "Key": "角色.R2T1DengDengMd10011.状态标识.满红能量",
+        "Value": 15041000
+      },
+      {
+        "Key": "角色.R2T1DengDengMd10011.状态标识.满黄能量",
+        "Value": 15041000
+      }
+    ]
+  },
+  {
+    "Id": 15041006,
+    "RoleId": 1504,
+    "Name": "共鸣解放",
+    "ButtonType": 8,
+    "ActionType": 8,
+    "SkillId": 1504090,
+    "SkillIdTagMap": null,
+    "SkillIconTags": null,
+    "EnableTags": null,
+    "DisableTags": [
+      "功能.功能制作.被击硬直时间",
+      "战斗状态.技能限制.禁止大招",
+      "行为状态.位置状态.空中"
+    ],
+    "DisableSkillIdTags": null,
+    "HiddenTags": [
+      "功能.功能制作.隐藏按钮功能.隐藏大招按键"
+    ],
+    "IsCdVisible": true,
+    "AttributeId": 60,
+    "MaxAttributeId": 59,
+    "AttributeIdTagMap": null,
+    "MaxAttributeBurstEffectId": 0,
+    "CdCompletedEffectId": 0,
+    "IsLongPressControlCamera": false,
+    "LongPressTime": 0,
+    "DynamicEffectTagMap": [
+      {
+        "Key": "系统.角色梦境.封印技能",
+        "Value": 291003
+      }
+    ]
   }
 ]

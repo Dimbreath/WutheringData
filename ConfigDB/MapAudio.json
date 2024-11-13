@@ -367,5 +367,77 @@
     "ExitEvent": "map_world_fating_exit",
     "ResetEvent": "",
     "MusicResetEvent": ""
+  },
+  {
+    "Id": 1005,
+    "Name": "InstanceTree_Chun_1",
+    "Event": "map_role_chun01",
+    "EnterEvent": "map_role_chun01_enter",
+    "ExitEvent": "map_role_chun01_exit",
+    "ResetEvent": "",
+    "MusicResetEvent": ""
+  },
+  {
+    "Id": 1006,
+    "Name": "InstanceTree_Chun_2",
+    "Event": "map_role_chun02",
+    "EnterEvent": "map_role_chun02_enter",
+    "ExitEvent": "map_role_chun02_exit",
+    "ResetEvent": "",
+    "MusicResetEvent": ""
+  },
+  {
+    "Id": 1009,
+    "Name": "InstanceTree_Chun_3",
+    "Event": "map_role_chun03",
+    "EnterEvent": "map_role_chun03_enter",
+    "ExitEvent": "map_role_chun03_exit",
+    "ResetEvent": "",
+    "MusicResetEvent": ""
+  },
+  {
+    "Id": 8161,
+    "Name": "InstanceTree_1_4_BossRush",
+    "Event": "map_huodong_0104boss",
+    "EnterEvent": "map_huodong_0104boss_enter",
+    "ExitEvent": "map_huodong_0104boss_exit",
+    "ResetEvent": "",
+    "MusicResetEvent": ""
+  },
+  {
+    "Id": 8401,
+    "Name": "InstanceTree_CharacterDream",
+    "Event": "map_system_characterdream",
+    "EnterEvent": "map_system_characterdream_enter",
+    "ExitEvent": "map_system_characterdream_exit",
+    "ResetEvent": "",
+    "MusicResetEvent": ""
+  },
+  {
+    "Id": 8407,
+    "Name": "InstanceTree_DaMao",
+    "Event": "map_system_damao",
+    "EnterEvent": "map_system_damao_enter",
+    "ExitEvent": "map_system_damao_exit",
+    "ResetEvent": "",
+    "MusicResetEvent": ""
+  },
+  {
+    "Id": 2511,
+    "Name": "InstanceTree_HeiHaian_Yuehui_WorldDungen",
+    "Event": "map_main_hhayuehui",
+    "EnterEvent": "",
+    "ExitEvent": "",
+    "ResetEvent": "",
+    "MusicResetEvent": ""
+  },
+  {
+    "Id": 8800,
+    "Name": "InstanceTree_1_4_MowingTower",
+    "Event": "map_huodong_mowingtower",
+    "EnterEvent": "",
+    "ExitEvent": "",
+    "ResetEvent": "",
+    "MusicResetEvent": ""
   }
 ]

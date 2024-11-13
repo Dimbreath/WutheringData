@@ -910,7 +910,8 @@
       "幻象1",
       "UI键盘F手柄A",
       "UI返回",
-      "UI键盘T手柄Y"
+      "UI键盘T手柄Y",
+      "通用交互"
     ],
     "UseLoopAnim": true,
     "UseMask": 0
@@ -1118,7 +1119,8 @@
       "幻象1",
       "UI键盘F手柄A",
       "UI返回",
-      "UI键盘T手柄Y"
+      "UI键盘T手柄Y",
+      "通用交互"
     ],
     "UseLoopAnim": true,
     "UseMask": 0
@@ -1350,7 +1352,8 @@
       "幻象1",
       "UI键盘F手柄A",
       "UI返回",
-      "UI键盘T手柄Y"
+      "UI键盘T手柄Y",
+      "通用交互"
     ],
     "UseLoopAnim": true,
     "UseMask": 0
@@ -1701,6 +1704,84 @@
     "InputEnums": [
       "幻象2"
     ],
+    "LimitInputEnums": null,
+    "UseLoopAnim": false,
+    "UseMask": 0
+  },
+  {
+    "GuideId": 20285,
+    "Content": "GuideTips_20285_Content",
+    "Button": null,
+    "InputEnums": null,
+    "LimitInputEnums": null,
+    "UseLoopAnim": false,
+    "UseMask": 0
+  },
+  {
+    "GuideId": 20286,
+    "Content": "GuideTips_20286_Content",
+    "Button": null,
+    "InputEnums": null,
+    "LimitInputEnums": null,
+    "UseLoopAnim": false,
+    "UseMask": 0
+  },
+  {
+    "GuideId": 20287,
+    "Content": "GuideTips_20287_Content",
+    "Button": null,
+    "InputEnums": null,
+    "LimitInputEnums": null,
+    "UseLoopAnim": false,
+    "UseMask": 0
+  },
+  {
+    "GuideId": 20288,
+    "Content": "GuideTips_20288_Content",
+    "Button": null,
+    "InputEnums": null,
+    "LimitInputEnums": null,
+    "UseLoopAnim": false,
+    "UseMask": 0
+  },
+  {
+    "GuideId": 653,
+    "Content": "GuideTips_653_Content",
+    "Button": [
+      "大招"
+    ],
+    "InputEnums": [
+      "大招"
+    ],
+    "LimitInputEnums": [
+      "大招"
+    ],
+    "UseLoopAnim": false,
+    "UseMask": 0
+  },
+  {
+    "GuideId": 658,
+    "Content": "GuideTips_658_Content",
+    "Button": null,
+    "InputEnums": null,
+    "LimitInputEnums": null,
+    "UseLoopAnim": false,
+    "UseMask": 0
+  },
+  {
+    "GuideId": 662,
+    "Content": "GuideTips_662_Content",
+    "Button": null,
+    "InputEnums": null,
+    "LimitInputEnums": null,
+    "UseLoopAnim": false,
+    "UseMask": 0
+  },
+  {
+    "GuideId": 20298,
+    "Content": "GuideTips_20298_Content",
+    "Button": null,
+    "InputEnums": null,
     "LimitInputEnums": null,
     "UseLoopAnim": false,
     "UseMask": 0

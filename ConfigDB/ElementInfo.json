@@ -24,7 +24,8 @@
     "UltimateSkillColor": "41AEFBFF",
     "SkillEffectColor": "7CB7FFFF",
     "SkillButtonEffectPath": "/Game/Aki/Effect/UI/Niagaras/Common/NS_Fx_LGUI_Fight_R.NS_Fx_LGUI_Fight_R",
-    "ElementBallEffectPath": "/Game/Aki/Effect/UI/Niagaras/Common/NS_Fx_LGUI_ElementBall_Ice1.NS_Fx_LGUI_ElementBall_Ice1"
+    "ElementBallEffectPath": "/Game/Aki/Effect/UI/Niagaras/Common/NS_Fx_LGUI_ElementBall_Ice1.NS_Fx_LGUI_ElementBall_Ice1",
+    "AudioEvent": "ui_common_element_ice"
   },
   {
     "Id": 2,
@@ -51,7 +52,8 @@
     "UltimateSkillColor": "F0744EFF",
     "SkillEffectColor": "F47A56FF",
     "SkillButtonEffectPath": "/Game/Aki/Effect/UI/Niagaras/Common/NS_Fx_LGUI_Fight_R.NS_Fx_LGUI_Fight_R",
-    "ElementBallEffectPath": "/Game/Aki/Effect/UI/Niagaras/Common/NS_Fx_LGUI_ElementBall_Fire1.NS_Fx_LGUI_ElementBall_Fire1"
+    "ElementBallEffectPath": "/Game/Aki/Effect/UI/Niagaras/Common/NS_Fx_LGUI_ElementBall_Fire1.NS_Fx_LGUI_ElementBall_Fire1",
+    "AudioEvent": "ui_common_element_fire"
   },
   {
     "Id": 3,
@@ -78,7 +80,8 @@
     "UltimateSkillColor": "B46BFFFF",
     "SkillEffectColor": "BA8AF5FF",
     "SkillButtonEffectPath": "/Game/Aki/Effect/UI/Niagaras/Common/NS_Fx_LGUI_Fight_R.NS_Fx_LGUI_Fight_R",
-    "ElementBallEffectPath": "/Game/Aki/Effect/UI/Niagaras/Common/NS_Fx_LGUI_ElementBall_Thunder1.NS_Fx_LGUI_ElementBall_Thunder1"
+    "ElementBallEffectPath": "/Game/Aki/Effect/UI/Niagaras/Common/NS_Fx_LGUI_ElementBall_Thunder1.NS_Fx_LGUI_ElementBall_Thunder1",
+    "AudioEvent": "ui_common_element_thunder"
   },
   {
     "Id": 4,
@@ -105,7 +108,8 @@
     "UltimateSkillColor": "55FFB5FF",
     "SkillEffectColor": "74F3B6FF",
     "SkillButtonEffectPath": "/Game/Aki/Effect/UI/Niagaras/Common/NS_Fx_LGUI_Fight_R.NS_Fx_LGUI_Fight_R",
-    "ElementBallEffectPath": "/Game/Aki/Effect/UI/Niagaras/Common/NS_Fx_LGUI_ElementBall_Wind1.NS_Fx_LGUI_ElementBall_Wind1"
+    "ElementBallEffectPath": "/Game/Aki/Effect/UI/Niagaras/Common/NS_Fx_LGUI_ElementBall_Wind1.NS_Fx_LGUI_ElementBall_Wind1",
+    "AudioEvent": "ui_common_element_wind"
   },
   {
     "Id": 5,
@@ -132,7 +136,8 @@
     "UltimateSkillColor": "F8E56CFF",
     "SkillEffectColor": "F8EA9DFF",
     "SkillButtonEffectPath": "/Game/Aki/Effect/UI/Niagaras/Common/NS_Fx_LGUI_Fight_R.NS_Fx_LGUI_Fight_R",
-    "ElementBallEffectPath": "/Game/Aki/Effect/UI/Niagaras/Common/NS_Fx_LGUI_ElementBall_Light1.NS_Fx_LGUI_ElementBall_Light1"
+    "ElementBallEffectPath": "/Game/Aki/Effect/UI/Niagaras/Common/NS_Fx_LGUI_ElementBall_Light1.NS_Fx_LGUI_ElementBall_Light1",
+    "AudioEvent": "ui_common_element_light"
   },
   {
     "Id": 6,
@@ -159,7 +164,8 @@
     "UltimateSkillColor": "E649A6FF",
     "SkillEffectColor": "B0357EFF",
     "SkillButtonEffectPath": "/Game/Aki/Effect/UI/Niagaras/Common/NS_Fx_LGUI_Fight_R.NS_Fx_LGUI_Fight_R",
-    "ElementBallEffectPath": "/Game/Aki/Effect/UI/Niagaras/Common/NS_Fx_LGUI_ElementBall_Dark1.NS_Fx_LGUI_ElementBall_Dark1"
+    "ElementBallEffectPath": "/Game/Aki/Effect/UI/Niagaras/Common/NS_Fx_LGUI_ElementBall_Dark1.NS_Fx_LGUI_ElementBall_Dark1",
+    "AudioEvent": "ui_common_element_dark"
   },
   {
     "Id": 0,
@@ -186,6 +192,7 @@
     "UltimateSkillColor": "7892A1FF",
     "SkillEffectColor": "7892A1FF",
     "SkillButtonEffectPath": "",
-    "ElementBallEffectPath": ""
+    "ElementBallEffectPath": "",
+    "AudioEvent": "ui_common_element_zero"
   }
 ]

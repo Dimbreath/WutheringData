@@ -13,11 +13,11 @@
   },
   {
     "QuestId": 1,
-    "Data": "{\"Id\":1,\"Type\":1,\"RegionId\":1,\"Key\":\"InteractTest交互任务1\",\"RewardId\":0,\"DistributeType\":\"Interact\",\"ProvideType\":{},\"AddInteractOption\":{\"EntityId\":14,\"Option\":{\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_InteractTest\",\"FlowId\":2,\"StateId\":1}},\"TidContent\":\"Quest_1_InteractContent_0_4\",\"Icon\":\"Dialog\",\"Guid\":\"22f485c9380d4ba6bdb7d3e93f8a70c1\"},\"IsManualFinish\":false},\"ActiveActions\":[],\"TidName\":\"Quest_1_QuestName_0_2\",\"TidDesc\":\"Quest_1_QuestDesc_0_2\",\"DungeonId\":31,\"OnlineType\":\"SingleHangUpOnline\",\"ObjType\":\"Quest\",\"Reference\":[\"e_31_14\",\"e_31_16\",\"e_31_14000004\",\"f_31000158_2\",\"f_31000158_3\",\"f_31000158_6\"]}"
+    "Data": "{\"Id\":1,\"Type\":100,\"RegionId\":1,\"Key\":\"InteractTest交互任务1\",\"RewardId\":0,\"DistributeType\":\"Interact\",\"ProvideType\":{},\"AddInteractOption\":{\"EntityId\":14,\"Option\":{\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_InteractTest\",\"FlowId\":2,\"StateId\":1}},\"TidContent\":\"Quest_1_InteractContent_0_4\",\"Icon\":\"Dialog\",\"Guid\":\"22f485c9380d4ba6bdb7d3e93f8a70c1\"},\"IsManualFinish\":false},\"ActiveActions\":[],\"TidName\":\"Quest_1_QuestName_0_2\",\"TidDesc\":\"Quest_1_QuestDesc_0_2\",\"DungeonId\":31,\"OnlineType\":\"SingleHangUpOnline\",\"ObjType\":\"Quest\",\"Reference\":[\"e_31_14\",\"e_31_16\",\"e_31_14000004\",\"f_31000158_2\",\"f_31000158_3\",\"f_31000158_6\"],\"IsHideAcceptMarkOnNpc\":false}"
   },
   {
     "QuestId": 2,
-    "Data": "{\"Id\":2,\"Type\":1,\"RegionId\":1,\"Key\":\"杀怪\",\"TidName\":\"Quest_2_QuestName_0_2\",\"TidDesc\":\"Quest_2_QuestDesc_0_2\",\"RewardId\":0,\"DistributeType\":\"Interact\",\"ProvideType\":{},\"AddInteractOption\":{\"EntityId\":21,\"Option\":{\"TidContent\":\"Quest_2_InteractContent_0_3\",\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_InteractTest\",\"FlowId\":8,\"StateId\":1}},\"Guid\":\"45ee33c9f49440d1aec54dff5d8bb73a\"}},\"ActiveActions\":[],\"AcceptActions\":[{\"Name\":\"RemoveFlowInteractOption\",\"Params\":{\"Flow\":{\"FlowListName\":\"剧情_InteractTest\",\"FlowId\":8},\"EntityId\":21},\"ActionId\":3000003,\"ActionGuid\":\"95b097f6c3fe4264958702213585a670\"}],\"DungeonId\":31,\"OnlineType\":\"SingleHangUpOnline\",\"ObjType\":\"Quest\",\"Children\":[\"e_31_22\"],\"Reference\":[\"e_31_21\",\"e_31_22\",\"f_31000158_8\"]}"
+    "Data": "{\"Id\":2,\"Type\":100,\"RegionId\":1,\"Key\":\"杀怪\",\"TidName\":\"Quest_2_QuestName_0_2\",\"TidDesc\":\"Quest_2_QuestDesc_0_2\",\"RewardId\":0,\"DistributeType\":\"Interact\",\"ProvideType\":{},\"AddInteractOption\":{\"EntityId\":21,\"Option\":{\"TidContent\":\"Quest_2_InteractContent_0_3\",\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_InteractTest\",\"FlowId\":8,\"StateId\":1}},\"Guid\":\"45ee33c9f49440d1aec54dff5d8bb73a\"}},\"ActiveActions\":[],\"AcceptActions\":[{\"Name\":\"RemoveFlowInteractOption\",\"Params\":{\"Flow\":{\"FlowListName\":\"剧情_InteractTest\",\"FlowId\":8},\"EntityId\":21},\"ActionId\":3000003,\"ActionGuid\":\"95b097f6c3fe4264958702213585a670\"}],\"DungeonId\":31,\"OnlineType\":\"SingleHangUpOnline\",\"ObjType\":\"Quest\",\"Children\":[\"e_31_22\"],\"Reference\":[\"e_31_21\",\"e_31_22\",\"f_31000158_8\"],\"IsHideAcceptMarkOnNpc\":false}"
   },
   {
     "QuestId": 11000003,
@@ -73,15 +73,15 @@
   },
   {
     "QuestId": 12000009,
-    "Data": "{\"Id\":12000009,\"DungeonId\":33,\"Type\":2,\"RegionId\":1,\"Key\":\"任务延迟解锁23小时59分\",\"TidName\":\"Quest_12000009_QuestName_0_2\",\"TidDesc\":\"Quest_12000009_QuestDesc_0_2\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[{\"Type\":\"ExploreLevel\",\"ExploreLevel\":1}]},\"DistributeType\":\"System\",\"ActiveActions\":[],\"UnlockDelayTime\":{\"Day\":0,\"Hour\":23,\"Minute\":59},\"OnlineType\":\"SingleHangUpOnline\",\"ObjType\":\"Quest\"}"
+    "Data": "{\"Id\":12000009,\"DungeonId\":33,\"Type\":100,\"RegionId\":1,\"Key\":\"任务延迟解锁23小时59分\",\"TidName\":\"Quest_12000009_QuestName_0_2\",\"TidDesc\":\"Quest_12000009_QuestDesc_0_2\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[{\"Type\":\"ExploreLevel\",\"ExploreLevel\":1}]},\"DistributeType\":\"System\",\"ActiveActions\":[],\"UnlockDelayTime\":{\"Day\":0,\"Hour\":23,\"Minute\":59},\"OnlineType\":\"SingleHangUpOnline\",\"ObjType\":\"Quest\"}"
   },
   {
     "QuestId": 12000006,
-    "Data": "{\"Id\":12000006,\"DungeonId\":33,\"Type\":2,\"RegionId\":1,\"Key\":\"任务延迟解锁1天\",\"TidName\":\"Quest_12000006_QuestName_0_2\",\"TidDesc\":\"Quest_12000006_QuestDesc_0_2\",\"RewardId\":0,\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[{\"Type\":\"ExploreLevel\",\"ExploreLevel\":1}]},\"DistributeType\":\"System\",\"ActiveActions\":[],\"UnlockDelayTime\":{\"Day\":1,\"Hour\":0,\"Minute\":0},\"OnlineType\":\"SingleHangUpOnline\",\"ObjType\":\"Quest\"}"
+    "Data": "{\"Id\":12000006,\"DungeonId\":33,\"Type\":100,\"RegionId\":1,\"Key\":\"任务延迟解锁1天\",\"TidName\":\"Quest_12000006_QuestName_0_2\",\"TidDesc\":\"Quest_12000006_QuestDesc_0_2\",\"RewardId\":0,\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[{\"Type\":\"ExploreLevel\",\"ExploreLevel\":1}]},\"DistributeType\":\"System\",\"ActiveActions\":[],\"UnlockDelayTime\":{\"Day\":1,\"Hour\":0,\"Minute\":0},\"OnlineType\":\"SingleHangUpOnline\",\"ObjType\":\"Quest\"}"
   },
   {
     "QuestId": 12000005,
-    "Data": "{\"Id\":12000005,\"DungeonId\":33,\"Type\":2,\"RegionId\":1,\"Key\":\"任务延迟解锁13天\",\"TidName\":\"Quest_12000005_QuestName_0_2\",\"TidDesc\":\"Quest_12000005_QuestDesc_0_2\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[{\"Type\":\"ExploreLevel\",\"ExploreLevel\":1}]},\"DistributeType\":\"System\",\"ActiveActions\":[],\"UnlockDelayTime\":{\"Day\":13,\"Hour\":0,\"Minute\":0},\"OnlineType\":\"SingleHangUpOnline\",\"ObjType\":\"Quest\"}"
+    "Data": "{\"Id\":12000005,\"DungeonId\":33,\"Type\":100,\"RegionId\":1,\"Key\":\"任务延迟解锁13天\",\"TidName\":\"Quest_12000005_QuestName_0_2\",\"TidDesc\":\"Quest_12000005_QuestDesc_0_2\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[{\"Type\":\"ExploreLevel\",\"ExploreLevel\":1}]},\"DistributeType\":\"System\",\"ActiveActions\":[],\"UnlockDelayTime\":{\"Day\":13,\"Hour\":0,\"Minute\":0},\"OnlineType\":\"SingleHangUpOnline\",\"ObjType\":\"Quest\"}"
   },
   {
     "QuestId": 11000021,
@@ -121,7 +121,7 @@
   },
   {
     "QuestId": 300000005,
-    "Data": "{\"Id\":300000005,\"DungeonId\":32,\"Type\":2,\"RegionId\":1,\"Key\":\"角色入队测试\",\"TidName\":\"Quest_300000005_QuestName_0_2\",\"TidDesc\":\"Quest_300000005_QuestDesc_0_2\",\"RewardId\":0,\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[]},\"DistributeType\":\"Passive\",\"ActiveActions\":[],\"OnlineType\":\"SingleHangUpOnline\",\"ObjType\":\"Quest\"}"
+    "Data": "{\"Id\":300000005,\"DungeonId\":32,\"Type\":100,\"RegionId\":1,\"Key\":\"角色入队测试\",\"TidName\":\"Quest_300000005_QuestName_0_2\",\"TidDesc\":\"Quest_300000005_QuestDesc_0_2\",\"RewardId\":0,\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[]},\"DistributeType\":\"Passive\",\"ActiveActions\":[],\"OnlineType\":\"SingleHangUpOnline\",\"ObjType\":\"Quest\"}"
   },
   {
     "QuestId": 2000001,
@@ -145,7 +145,7 @@
   },
   {
     "QuestId": 2000006,
-    "Data": "{\"Id\":2000006,\"Type\":2,\"RegionId\":1,\"Key\":\"使用扫描\",\"RewardId\":0,\"DistributeType\":\"Interact\",\"ProvideType\":{},\"AddInteractOption\":{\"EntityId\":2000020,\"Option\":{\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_QuestText\",\"FlowId\":1,\"StateId\":1}},\"TidContent\":\"Quest_2000006_InteractContent_0_2\",\"Guid\":\"f64b4243012c49cda322628dc3fe9ef8\"}},\"ActiveActions\":[{\"Name\":\"AwakeEntity\",\"Params\":{\"EntityIds\":[2000020]},\"ActionId\":3000013,\"ActionGuid\":\"f8d88f78004842789f93933bbccdab2d\"}],\"TidName\":\"Quest_2000006_QuestName_0_2\",\"TidDesc\":\"Quest_2000006_QuestDesc_0_2\",\"DungeonId\":32,\"OnlineType\":\"SingleHangUpOnline\",\"ObjType\":\"Quest\",\"Children\":[\"e_32_2000020\"],\"Reference\":[\"e_32_2000020\",\"f_31000162_1\"]}"
+    "Data": "{\"Id\":2000006,\"Type\":100,\"RegionId\":1,\"Key\":\"使用扫描\",\"RewardId\":0,\"DistributeType\":\"Interact\",\"ProvideType\":{},\"AddInteractOption\":{\"EntityId\":2000020,\"Option\":{\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_QuestText\",\"FlowId\":1,\"StateId\":1}},\"TidContent\":\"Quest_2000006_InteractContent_0_2\",\"Guid\":\"f64b4243012c49cda322628dc3fe9ef8\"}},\"ActiveActions\":[{\"Name\":\"AwakeEntity\",\"Params\":{\"EntityIds\":[2000020]},\"ActionId\":3000013,\"ActionGuid\":\"f8d88f78004842789f93933bbccdab2d\"}],\"TidName\":\"Quest_2000006_QuestName_0_2\",\"TidDesc\":\"Quest_2000006_QuestDesc_0_2\",\"DungeonId\":32,\"OnlineType\":\"SingleHangUpOnline\",\"ObjType\":\"Quest\",\"Children\":[\"e_32_2000020\"],\"Reference\":[\"e_32_2000020\",\"f_31000162_1\"],\"IsHideAcceptMarkOnNpc\":false}"
   },
   {
     "QuestId": 2000007,
@@ -185,7 +185,7 @@
   },
   {
     "QuestId": 2000011,
-    "Data": "{\"Id\":2000011,\"Type\":2,\"RegionId\":100,\"Key\":\"交付道具测试\",\"TidName\":\"Quest_2000011_QuestName_0_2\",\"TidDesc\":\"Quest_2000011_QuestDesc_0_2\",\"RewardId\":0,\"DistributeType\":\"Interact\",\"ProvideType\":{},\"AddInteractOption\":{\"EntityId\":2000047,\"Option\":{\"TidContent\":\"Quest_2000011_InteractContent_0_3\",\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_QuestText\",\"FlowId\":1,\"StateId\":1}},\"DoIntactType\":\"Option\",\"Guid\":\"791ab920252d49b8b77b15a40c41acfb\"}},\"ActiveActions\":[{\"Name\":\"AwakeEntity\",\"Params\":{\"EntityIds\":[2000047]},\"ActionId\":3000026,\"ActionGuid\":\"c13576e09b1c4acdbdd4695dbeda1a27\"}],\"DungeonId\":32,\"OnlineType\":\"SingleHangUpOnline\",\"ObjType\":\"Quest\",\"Children\":[\"e_32_2000047\"],\"Reference\":[\"e_32_2000047\",\"f_31000162_1\"]}"
+    "Data": "{\"Id\":2000011,\"Type\":100,\"RegionId\":100,\"Key\":\"交付道具测试\",\"TidName\":\"Quest_2000011_QuestName_0_2\",\"TidDesc\":\"Quest_2000011_QuestDesc_0_2\",\"RewardId\":0,\"DistributeType\":\"Interact\",\"ProvideType\":{},\"AddInteractOption\":{\"EntityId\":2000047,\"Option\":{\"TidContent\":\"Quest_2000011_InteractContent_0_3\",\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_QuestText\",\"FlowId\":1,\"StateId\":1}},\"DoIntactType\":\"Option\",\"Guid\":\"791ab920252d49b8b77b15a40c41acfb\"}},\"ActiveActions\":[{\"Name\":\"AwakeEntity\",\"Params\":{\"EntityIds\":[2000047]},\"ActionId\":3000026,\"ActionGuid\":\"c13576e09b1c4acdbdd4695dbeda1a27\"}],\"DungeonId\":32,\"OnlineType\":\"SingleHangUpOnline\",\"ObjType\":\"Quest\",\"Children\":[\"e_32_2000047\"],\"Reference\":[\"e_32_2000047\",\"f_31000162_1\"],\"IsHideAcceptMarkOnNpc\":false}"
   },
   {
     "QuestId": 14000002,
@@ -197,7 +197,7 @@
   },
   {
     "QuestId": 220000000,
-    "Data": "{\"Id\":220000000,\"Type\":2,\"RegionId\":100,\"Key\":\"使用道具接任务\",\"TidName\":\"Quest_220000000_QuestName_0_2\",\"TidDesc\":\"Quest_220000000_QuestDesc_0_2\",\"RewardId\":0,\"IsAutoTrack\":false,\"DistributeType\":\"UseItem\",\"ProvideType\":{\"Type\":0,\"Conditions\":[{\"Type\":\"ExploreLevel\",\"ExploreLevel\":2}]},\"ActiveActions\":[],\"DistributeParams\":{\"UseItem\":{\"ItemId\":42100020,\"Count\":2}},\"DungeonId\":32,\"OnlineType\":\"SingleHangUpOnline\",\"ObjType\":\"Quest\"}"
+    "Data": "{\"Id\":220000000,\"Type\":100,\"RegionId\":100,\"Key\":\"使用道具接任务\",\"TidName\":\"Quest_220000000_QuestName_0_2\",\"TidDesc\":\"Quest_220000000_QuestDesc_0_2\",\"RewardId\":0,\"IsAutoTrack\":false,\"DistributeType\":\"UseItem\",\"ProvideType\":{\"Type\":0,\"Conditions\":[{\"Type\":\"ExploreLevel\",\"ExploreLevel\":2}]},\"ActiveActions\":[],\"DistributeParams\":{\"UseItem\":{\"ItemId\":42100020,\"Count\":2}},\"DungeonId\":32,\"OnlineType\":\"SingleHangUpOnline\",\"ObjType\":\"Quest\"}"
   },
   {
     "QuestId": 13000005,
@@ -497,7 +497,7 @@
   },
   {
     "QuestId": 139000000,
-    "Data": "{\"Id\":139000000,\"DungeonId\":102,\"Type\":7,\"RegionId\":2,\"Key\":\"声骸支线任务\",\"TidName\":\"Quest_139000000_QuestName_0_2\",\"TidDesc\":\"Quest_139000000_QuestDesc_0_2\",\"RewardId\":0,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":true,\"ProvideType\":{\"Conditions\":[{\"Type\":\"ExploreLevel\",\"ExploreLevel\":1}]},\"DistributeType\":\"System\",\"ActiveActions\":[{\"Name\":\"PlayFlow\",\"Params\":{\"FlowListName\":\"剧情_剧情_支线_声骸操控大师_测试\",\"FlowId\":1,\"StateId\":1},\"ActionGuid\":\"031349a692e345e3828ffb4dfc2c07cd\",\"ActionId\":3000001}],\"ObjType\":\"Quest\",\"Children\":[\"e_102_139000005\",\"e_102_139000008\",\"e_102_139000009\",\"e_102_139000010\",\"e_102_139000012\",\"e_102_139000011\",\"e_102_139000013\",\"e_102_139000014\",\"e_102_139000007\"],\"Reference\":[\"e_102_139000006\",\"e_102_139000005\",\"e_102_139000008\",\"e_102_139000009\",\"e_102_139000010\",\"e_102_139000012\",\"e_102_139000011\",\"e_102_139000013\",\"e_102_139000014\",\"e_102_139000017\",\"e_102_139000016\",\"e_102_139000004\",\"e_102_139000007\",\"f_31000102_1\",\"f_31000102_2\"]}"
+    "Data": "{\"Id\":139000000,\"DungeonId\":102,\"Type\":100,\"RegionId\":2,\"Key\":\"声骸支线任务\",\"TidName\":\"Quest_139000000_QuestName_0_2\",\"TidDesc\":\"Quest_139000000_QuestDesc_0_2\",\"RewardId\":0,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":true,\"ProvideType\":{\"Conditions\":[{\"Type\":\"ExploreLevel\",\"ExploreLevel\":1}]},\"DistributeType\":\"System\",\"ActiveActions\":[{\"Name\":\"PlayFlow\",\"Params\":{\"FlowListName\":\"剧情_剧情_支线_声骸操控大师_测试\",\"FlowId\":1,\"StateId\":1},\"ActionGuid\":\"031349a692e345e3828ffb4dfc2c07cd\",\"ActionId\":3000001}],\"ObjType\":\"Quest\",\"Children\":[\"e_102_139000005\",\"e_102_139000008\",\"e_102_139000009\",\"e_102_139000010\",\"e_102_139000012\",\"e_102_139000011\",\"e_102_139000013\",\"e_102_139000014\",\"e_102_139000007\"],\"Reference\":[\"e_102_139000006\",\"e_102_139000005\",\"e_102_139000008\",\"e_102_139000009\",\"e_102_139000010\",\"e_102_139000012\",\"e_102_139000011\",\"e_102_139000013\",\"e_102_139000014\",\"e_102_139000017\",\"e_102_139000016\",\"e_102_139000004\",\"e_102_139000007\",\"f_31000102_1\",\"f_31000102_2\"]}"
   },
   {
     "QuestId": 310000016,
@@ -601,15 +601,15 @@
   },
   {
     "QuestId": 139000005,
-    "Data": "{\"Id\":139000005,\"DungeonId\":102,\"Type\":2,\"RegionId\":1,\"RoleId\":\"anke\",\"Key\":\"接取任务测试\",\"TidName\":\"Quest_139000005_QuestName_0_2\",\"TidDesc\":\"Quest_139000005_QuestDesc_0_2\",\"RewardId\":0,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":true,\"ProvideType\":{},\"DistributeType\":\"Passive\",\"ObjType\":\"Quest\",\"Reference\":[\"e_102_139000029\",\"f_139000000_2\"]}"
+    "Data": "{\"Id\":139000005,\"DungeonId\":102,\"Type\":100,\"RegionId\":1,\"RoleId\":\"anke\",\"Key\":\"接取任务测试\",\"TidName\":\"Quest_139000005_QuestName_0_2\",\"TidDesc\":\"Quest_139000005_QuestDesc_0_2\",\"RewardId\":0,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":true,\"ProvideType\":{},\"DistributeType\":\"Passive\",\"ObjType\":\"Quest\",\"Reference\":[\"e_102_139000029\",\"f_139000000_2\"]}"
   },
   {
     "QuestId": 139000006,
-    "Data": "{\"Id\":139000006,\"DungeonId\":102,\"Type\":2,\"RegionId\":1,\"Key\":\"第1日提交任务\",\"TidName\":\"Quest_139000006_QuestName_0_2\",\"TidDesc\":\"Quest_139000006_QuestDesc_0_2\",\"RewardId\":0,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[{\"Type\":\"PreQuest\",\"PreQuest\":139000005}]},\"DistributeType\":\"Passive\",\"ObjType\":\"Quest\",\"Reference\":[\"e_102_139000029\",\"e_102_139000031\",\"q_139000005\",\"f_139000000_1\"]}"
+    "Data": "{\"Id\":139000006,\"DungeonId\":102,\"Type\":100,\"RegionId\":1,\"Key\":\"第1日提交任务\",\"TidName\":\"Quest_139000006_QuestName_0_2\",\"TidDesc\":\"Quest_139000006_QuestDesc_0_2\",\"RewardId\":0,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[{\"Type\":\"PreQuest\",\"PreQuest\":139000005}]},\"DistributeType\":\"Passive\",\"ObjType\":\"Quest\",\"Reference\":[\"e_102_139000029\",\"e_102_139000031\",\"q_139000005\",\"f_139000000_1\"]}"
   },
   {
     "QuestId": 139000007,
-    "Data": "{\"Id\":139000007,\"DungeonId\":102,\"Type\":2,\"RegionId\":1,\"Key\":\"第2日提交任务\",\"TidName\":\"Quest_139000007_QuestName_0_2\",\"TidDesc\":\"Quest_139000007_QuestDesc_0_2\",\"RewardId\":0,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[{\"Type\":\"PreQuest\",\"PreQuest\":139000006}]},\"DistributeType\":\"Passive\",\"ObjType\":\"Quest\",\"Reference\":[\"e_102_139000029\",\"e_102_139000032\",\"q_139000006\",\"f_139000000_1\"]}"
+    "Data": "{\"Id\":139000007,\"DungeonId\":102,\"Type\":100,\"RegionId\":1,\"Key\":\"第2日提交任务\",\"TidName\":\"Quest_139000007_QuestName_0_2\",\"TidDesc\":\"Quest_139000007_QuestDesc_0_2\",\"RewardId\":0,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[{\"Type\":\"PreQuest\",\"PreQuest\":139000006}]},\"DistributeType\":\"Passive\",\"ObjType\":\"Quest\",\"Reference\":[\"e_102_139000029\",\"e_102_139000032\",\"q_139000006\",\"f_139000000_1\"]}"
   },
   {
     "QuestId": 29000015,
@@ -641,7 +641,7 @@
   },
   {
     "QuestId": 139000009,
-    "Data": "{\"Id\":139000009,\"DungeonId\":102,\"Type\":2,\"RegionId\":1,\"RoleId\":\"anke\",\"Key\":\"测试任务\",\"TidName\":\"Quest_139000009_QuestName_0_2\",\"TidDesc\":\"Quest_139000009_QuestDesc_0_2\",\"RewardId\":0,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{},\"DistributeType\":\"System\",\"ObjType\":\"Quest\"}"
+    "Data": "{\"Id\":139000009,\"DungeonId\":102,\"Type\":100,\"RegionId\":1,\"RoleId\":\"anke\",\"Key\":\"测试任务\",\"TidName\":\"Quest_139000009_QuestName_0_2\",\"TidDesc\":\"Quest_139000009_QuestDesc_0_2\",\"RewardId\":0,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{},\"DistributeType\":\"System\",\"ObjType\":\"Quest\"}"
   },
   {
     "QuestId": 114000017,
@@ -729,7 +729,7 @@
   },
   {
     "QuestId": 137000001,
-    "Data": "{\"Id\":137000001,\"DungeonId\":102,\"Type\":2,\"RegionId\":100,\"Key\":\"任务4\",\"TidName\":\"Quest_137000001_QuestName_0_2\",\"TidDesc\":\"Quest_137000001_QuestDesc_0_2\",\"RewardId\":0,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{},\"DistributeType\":\"Interact\",\"ActiveActions\":[],\"AddInteractOption\":{\"EntityId\":137000028,\"Option\":{\"Guid\":\"fb668466a3f841e4bc7f07ba6851df81\",\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_剧情_生态测试\",\"FlowId\":7,\"StateId\":1}},\"DoIntactType\":\"Direct\"}},\"ObjType\":\"Quest\",\"Children\":[\"e_102_137000024\",\"e_102_137000025\"],\"Reference\":[\"e_102_137000028\",\"e_102_137000024\",\"e_102_137000025\",\"f_11000000_7\"]}"
+    "Data": "{\"Id\":137000001,\"DungeonId\":102,\"Type\":100,\"RegionId\":100,\"Key\":\"任务4\",\"TidName\":\"Quest_137000001_QuestName_0_2\",\"TidDesc\":\"Quest_137000001_QuestDesc_0_2\",\"RewardId\":0,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{},\"DistributeType\":\"Interact\",\"ActiveActions\":[],\"AddInteractOption\":{\"EntityId\":137000028,\"Option\":{\"Guid\":\"fb668466a3f841e4bc7f07ba6851df81\",\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_剧情_生态测试\",\"FlowId\":7,\"StateId\":1}},\"DoIntactType\":\"Direct\"}},\"ObjType\":\"Quest\",\"Children\":[\"e_102_137000024\",\"e_102_137000025\"],\"Reference\":[\"e_102_137000028\",\"e_102_137000024\",\"e_102_137000025\",\"f_11000000_7\"],\"IsHideAcceptMarkOnNpc\":false}"
   },
   {
     "QuestId": 140000004,
@@ -969,7 +969,7 @@
   },
   {
     "QuestId": 310000043,
-    "Data": "{\"ObjType\":\"Quest\",\"Id\":310000043,\"DungeonId\":8,\"Type\":7,\"RegionId\":2,\"Key\":\"肉鸽\",\"TidName\":\"Quest_310000043_QuestName_0_2\",\"TidDesc\":\"Quest_310000043_QuestDesc_0_2\",\"RewardId\":41119,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{},\"DistributeType\":\"Passive\",\"Reference\":[\"e_8_310000733\",\"e_8_310000735\",\"e_8_310000734\",\"e_8_129000000\",\"e_8_204900000\",\"e_8_204900001\",\"f_310000002_50\",\"f_310000002_51\",\"f_310000002_52\",\"f_310000002_57\"],\"ActiveActions\":[],\"Children\":[\"e_8_310000733\"]}"
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":310000043,\"DungeonId\":8,\"Type\":7,\"RegionId\":2,\"Key\":\"肉鸽\",\"TidName\":\"Quest_310000043_QuestName_0_2\",\"TidDesc\":\"Quest_310000043_QuestDesc_0_2\",\"RewardId\":41119,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{},\"DistributeType\":\"Passive\",\"Reference\":[\"e_8_310000733\",\"e_8_204900000\",\"e_8_310000735\",\"e_8_310000734\",\"e_8_129000000\",\"e_8_204900001\",\"f_310000002_50\",\"f_310000002_51\",\"f_310000002_52\",\"f_310000002_57\"],\"ActiveActions\":[],\"Children\":[\"e_8_310000733\"]}"
   },
   {
     "QuestId": 125000091,
@@ -1009,11 +1009,11 @@
   },
   {
     "QuestId": 139000035,
-    "Data": "{\"ObjType\":\"Quest\",\"Id\":139000035,\"DungeonId\":102,\"Type\":2,\"RegionId\":1,\"RoleId\":\"anke\",\"Key\":\"测试60000023声骸\",\"TidName\":\"Quest_139000035_QuestName_0_2\",\"TidDesc\":\"Quest_139000035_QuestDesc_0_2\",\"RewardId\":0,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[]},\"DistributeType\":\"Passive\",\"ActiveActions\":[]}"
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":139000035,\"DungeonId\":102,\"Type\":100,\"RegionId\":1,\"RoleId\":\"anke\",\"Key\":\"测试60000023声骸\",\"TidName\":\"Quest_139000035_QuestName_0_2\",\"TidDesc\":\"Quest_139000035_QuestDesc_0_2\",\"RewardId\":0,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[]},\"DistributeType\":\"Passive\",\"ActiveActions\":[]}"
   },
   {
     "QuestId": 139000037,
-    "Data": "{\"ObjType\":\"Quest\",\"Id\":139000037,\"DungeonId\":102,\"Type\":2,\"RegionId\":1,\"RoleId\":\"anke\",\"Key\":\"测试21020015武器\",\"TidName\":\"Quest_139000037_QuestName_0_2\",\"TidDesc\":\"Quest_139000037_QuestDesc_0_2\",\"RewardId\":0,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[]},\"DistributeType\":\"Passive\",\"ActiveActions\":[]}"
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":139000037,\"DungeonId\":102,\"Type\":100,\"RegionId\":1,\"RoleId\":\"anke\",\"Key\":\"测试21020015武器\",\"TidName\":\"Quest_139000037_QuestName_0_2\",\"TidDesc\":\"Quest_139000037_QuestDesc_0_2\",\"RewardId\":0,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[]},\"DistributeType\":\"Passive\",\"ActiveActions\":[]}"
   },
   {
     "QuestId": 145000002,
@@ -1361,7 +1361,7 @@
   },
   {
     "QuestId": 9800001,
-    "Data": "{\"ObjType\":\"Quest\",\"Id\":9800001,\"DungeonId\":32,\"Type\":2,\"RegionId\":100,\"Key\":\"黑幕功能测试\",\"TidName\":\"Quest_9800001_QuestName_0_2\",\"TidDesc\":\"Quest_9800001_QuestDesc_0_2\",\"OnlineType\":\"SingleHangUpOnline\",\"ProvideType\":{\"Conditions\":[]},\"DistributeType\":\"System\",\"Children\":[\"e_32_9800000\"],\"Reference\":[\"e_32_9800000\",\"f_31000168_24\",\"f_31000168_25\",\"f_31000168_26\"]}"
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":9800001,\"DungeonId\":32,\"Type\":100,\"RegionId\":100,\"Key\":\"黑幕功能测试\",\"TidName\":\"Quest_9800001_QuestName_0_2\",\"TidDesc\":\"Quest_9800001_QuestDesc_0_2\",\"OnlineType\":\"SingleHangUpOnline\",\"ProvideType\":{\"Conditions\":[]},\"DistributeType\":\"System\",\"Children\":[\"e_32_9800000\"],\"Reference\":[\"e_32_9800000\",\"f_31000168_24\",\"f_31000168_25\",\"f_31000168_26\"]}"
   },
   {
     "QuestId": 29800004,
@@ -1888,6 +1888,10 @@
     "Data": "{\"ObjType\":\"Quest\",\"Id\":12900004,\"DungeonId\":100,\"Type\":100,\"RegionId\":100,\"Key\":\"一条任务多个NPC\",\"TidName\":\"Quest_12900004_QuestName_12_1\",\"TidDesc\":\"Quest_12900004_QuestDesc_12_1\",\"RewardId\":0,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[]},\"DistributeType\":\"Interact\",\"IsHideAcceptMarkOnNpc\":false,\"AddInteractOption\":{\"EntityId\":12900007,\"Option\":{\"Guid\":\"52a87b20bbcf461fa78ab726638e2bbd\",\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_测试_XT\",\"FlowId\":1,\"StateId\":1}},\"DoIntactType\":\"Direct\"}},\"Children\":[\"e_100_12900008\",\"e_100_12900009\",\"e_100_12900011\"],\"Reference\":[\"e_100_12900007\",\"e_100_12900008\",\"e_100_12900009\",\"e_100_12900011\",\"f_12900000_1\"]}"
   },
   {
+    "QuestId": 886000000,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":886000000,\"DungeonId\":8,\"Type\":3,\"RegionId\":11,\"Key\":\"椿角色线任务\",\"TidName\":\"Quest_886000000_QuestName_886_1\",\"TidDesc\":\"Quest_886000000_QuestDesc_886_1\",\"RewardId\":71104,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":true,\"ProvideType\":{\"Conditions\":[{\"Type\":\"PreQuest\",\"PreQuest\":145000004}]},\"DistributeType\":\"System\",\"ActiveActions\":[],\"Children\":[\"e_8_886000006\",\"e_8_913800000\",\"e_900_913800000\",\"e_900_886000018\",\"e_900_886800023\",\"e_900_886800010\",\"e_900_886800011\",\"e_900_886800008\",\"e_900_886800009\",\"e_900_886800019\",\"e_900_886800021\",\"e_900_886800028\",\"e_900_886800025\",\"e_900_886800026\",\"e_900_886800027\",\"e_900_886800031\",\"e_900_886800005\",\"e_900_886800006\",\"e_900_886800030\",\"e_8_886800040\",\"e_8_886800062\",\"e_8_886800063\",\"e_8_886800064\",\"e_8_886800065\",\"e_8_886800067\",\"e_8_886800068\",\"e_8_886800069\",\"e_8_886800070\",\"e_8_886800071\",\"e_8_886800072\",\"e_8_886800112\",\"e_8_886800073\",\"e_8_886800074\",\"e_8_886800075\",\"e_8_886800114\",\"e_8_886800116\",\"e_8_886800117\",\"e_8_886800110\",\"e_8_886800039\",\"e_8_886800031\",\"e_8_886800084\",\"e_8_886800082\",\"e_8_886800030\",\"e_8_886800087\",\"e_8_886800090\",\"e_8_886800091\",\"e_8_886800094\",\"e_8_886800095\",\"e_8_886800097\",\"e_8_886800096\",\"e_8_886800093\",\"e_8_886800126\",\"e_8_886800128\",\"e_8_886800132\",\"e_8_886800000\",\"e_8_886800001\",\"e_8_886800076\",\"e_8_886800133\",\"e_8_886800013\",\"e_8_886800077\",\"e_8_886800015\",\"e_8_886800098\",\"e_8_886800059\",\"e_8_886800100\",\"e_8_886800101\",\"e_8_886800103\",\"e_8_886800102\",\"e_8_886800105\",\"e_8_886800104\",\"e_8_886800106\",\"e_8_886800016\",\"e_8_886800134\",\"e_8_886800060\",\"e_8_886800088\",\"e_8_886800089\",\"e_900_886000019\",\"e_900_886800001\",\"e_900_886800017\",\"e_900_886800002\",\"e_900_886800003\",\"e_8_886000007\",\"e_8_886800025\",\"e_8_886800026\",\"e_8_886800028\",\"l_8_886800001\"],\"Reference\":[\"e_8_886000005\",\"e_8_886000006\",\"e_900_886000014\",\"e_8_913800000\",\"e_900_913800000\",\"e_900_886000010\",\"e_900_886000018\",\"e_900_886800023\",\"e_900_886800010\",\"e_900_886800011\",\"e_900_886800008\",\"e_900_886800009\",\"e_900_886800019\",\"e_900_886800021\",\"e_900_886800028\",\"e_900_886800025\",\"e_900_886800026\",\"e_900_886800027\",\"e_900_886800004\",\"e_900_886800031\",\"e_900_886800005\",\"e_900_886800006\",\"e_900_886800030\",\"e_8_886800040\",\"e_8_886800022\",\"e_8_886800062\",\"e_8_886800063\",\"e_8_886800064\",\"e_8_886800065\",\"e_8_886800067\",\"e_8_886800068\",\"e_8_886800069\",\"e_8_886800070\",\"e_8_886800023\",\"e_8_886800123\",\"e_8_886800071\",\"e_8_886800072\",\"e_8_886800112\",\"e_8_886800073\",\"e_8_886800074\",\"e_8_886800075\",\"e_8_886800114\",\"e_8_886800116\",\"e_8_886800117\",\"e_8_886800115\",\"e_8_886800010\",\"e_8_886800035\",\"e_8_886800108\",\"e_8_136751516\",\"e_8_136751518\",\"e_8_136751517\",\"e_8_136751519\",\"e_8_886800110\",\"e_8_886800039\",\"e_8_886800030\",\"e_8_886800082\",\"e_8_886800084\",\"e_8_886800031\",\"e_8_886800090\",\"e_8_886800091\",\"e_8_886800087\",\"e_8_886800097\",\"e_8_886800096\",\"e_8_886800093\",\"e_8_886800095\",\"e_8_886800094\",\"e_8_886800125\",\"e_8_886800111\",\"e_8_886800126\",\"e_8_886000008\",\"e_8_886000021\",\"e_8_886800128\",\"e_8_886000009\",\"e_8_886800132\",\"e_8_886800000\",\"e_8_886800001\",\"e_8_886800076\",\"e_8_886800133\",\"e_8_886800013\",\"e_8_886800077\",\"e_8_886800015\",\"e_8_886800098\",\"e_8_886800059\",\"e_8_886800100\",\"e_8_886800101\",\"e_8_886800103\",\"e_8_886800102\",\"e_8_886800016\",\"e_8_886800106\",\"e_8_886800105\",\"e_8_886800104\",\"e_8_886800134\",\"e_8_886800060\",\"e_8_886800088\",\"e_8_886800089\",\"e_8_886800057\",\"e_8_886800135\",\"e_900_886000019\",\"e_900_886800001\",\"e_900_886800017\",\"e_900_886800002\",\"e_900_886800003\",\"e_8_886800056\",\"e_8_886000007\",\"e_8_886800048\",\"e_8_886800049\",\"e_8_886800055\",\"e_8_886800036\",\"e_8_886000026\",\"e_8_886000012\",\"e_8_886800037\",\"e_8_886000027\",\"e_8_886000016\",\"e_8_886800107\",\"e_8_886800038\",\"e_8_886800025\",\"e_8_886800026\",\"e_8_886800028\",\"e_8_886800027\",\"l_8_886800001\",\"l_900_138000018\",\"q_145000004\",\"f_886000000_1\",\"f_886000000_7\",\"f_886000000_2\",\"f_886000000_3\",\"f_886000000_8\",\"f_886000000_5\",\"f_886000000_6\"],\"ChapterId\":1011}"
+  },
+  {
     "QuestId": 823900000,
     "Data": "{\"ObjType\":\"Quest\",\"Id\":823900000,\"DungeonId\":100,\"Type\":100,\"RegionId\":100,\"Key\":\"并行节点测试\",\"TidName\":\"Quest_823900000_QuestName_823_1\",\"TidDesc\":\"Quest_823900000_QuestDesc_823_1\",\"RewardId\":0,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":true,\"ProvideType\":{\"Conditions\":[]},\"DistributeType\":\"Interact\",\"IsHideAcceptMarkOnNpc\":false,\"AddInteractOption\":{\"EntityId\":823900014,\"Option\":{\"Guid\":\"1c46da0811e440c89a32a07071e67f81\",\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_Default\",\"FlowId\":1,\"StateId\":1}},\"DoIntactType\":\"Direct\"}},\"ActiveActions\":[],\"Reference\":[\"e_100_823900014\",\"e_100_823900006\",\"e_100_823900007\",\"f_31000156_1\"],\"Children\":[\"e_100_823900006\",\"e_100_823900007\"]}"
   },
@@ -2148,12 +2152,16 @@
     "Data": "{\"ObjType\":\"Quest\",\"Id\":152750011,\"DungeonId\":8,\"Type\":2,\"RegionId\":4,\"Key\":\"1.3转盘活动第六天（采集与采购）\",\"TidName\":\"Quest_152750011_QuestName_152_1\",\"TidDesc\":\"Quest_152750011_QuestDesc_152_1\",\"RewardId\":5060011,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{},\"DistributeType\":\"Passive\",\"Reference\":[\"e_8_152750032\",\"e_8_152750034\",\"e_8_152750035\",\"e_8_152750038\",\"f_152750001_6\"],\"Children\":[\"e_8_152750034\",\"e_8_152750035\",\"e_8_152750038\"]}"
   },
   {
+    "QuestId": 152750012,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":152750012,\"DungeonId\":8,\"Type\":2,\"RegionId\":6,\"Key\":\"1.3转盘活动第七天（对白）\",\"TidName\":\"Quest_152750012_QuestName_152_1\",\"TidDesc\":\"Quest_152750012_QuestDesc_152_1\",\"RewardId\":5060011,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{},\"DistributeType\":\"Passive\",\"ActiveActions\":[],\"Children\":[\"e_8_152750040\",\"e_8_152750041\"],\"Reference\":[\"e_8_152750032\",\"e_8_152750040\",\"e_8_152750041\",\"e_8_109700053\",\"f_152750001_7\"]}"
+  },
+  {
     "QuestId": 6700000,
     "Data": "{\"ObjType\":\"Quest\",\"Id\":6700000,\"DungeonId\":8,\"Type\":2,\"RegionId\":2,\"Key\":\"占卜隐藏任务\",\"TidName\":\"Quest_6700000_QuestName_6_1\",\"TidDesc\":\"Quest_6700000_QuestDesc_6_1\",\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[{\"Type\":\"PreLevelPlay\",\"PreLevelPlay\":6700001},{\"Type\":\"OpenDate\",\"DateId\":1810,\"OpenType\":\"InTimeRange\"}]},\"DistributeType\":\"System\",\"ActiveActions\":[],\"Reference\":[\"e_8_123700025\",\"l_8_6700001\"],\"TagId\":1}"
   },
   {
-    "QuestId": 152750012,
-    "Data": "{\"ObjType\":\"Quest\",\"Id\":152750012,\"DungeonId\":8,\"Type\":2,\"RegionId\":6,\"Key\":\"1.3转盘活动第七天（对白）\",\"TidName\":\"Quest_152750012_QuestName_152_1\",\"TidDesc\":\"Quest_152750012_QuestDesc_152_1\",\"RewardId\":5060011,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{},\"DistributeType\":\"Passive\",\"ActiveActions\":[],\"Children\":[\"e_8_152750040\",\"e_8_152750041\"],\"Reference\":[\"e_8_152750032\",\"e_8_152750040\",\"e_8_152750041\",\"e_8_109700053\",\"f_152750001_7\"]}"
+    "QuestId": 139000039,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":139000039,\"DungeonId\":8,\"Type\":1,\"RegionId\":6,\"Key\":\"暗夜叩响白昼之门（1-9）\",\"TidName\":\"Quest_139000039_QuestName_139_1\",\"TidDesc\":\"Quest_139000039_QuestDesc_139_1\",\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":true,\"ProvideType\":{},\"DistributeType\":\"Passive\",\"Children\":[\"e_8_139000470\",\"e_8_139000469\",\"e_8_139000472\",\"e_8_221800224\",\"e_8_139800064\",\"e_8_139800042\",\"e_8_139800043\",\"e_8_139800045\",\"e_8_139800044\",\"e_8_139800046\",\"e_8_139800050\",\"e_8_139800047\",\"e_8_139800048\",\"e_8_139800049\",\"e_8_139800056\",\"e_8_139000494\",\"e_8_139000496\",\"e_8_139000501\",\"e_8_139000499\",\"e_8_139000498\",\"e_8_139000504\",\"e_8_139000506\",\"e_8_139800038\",\"e_8_139800063\",\"e_8_139800057\",\"e_8_139800059\",\"e_8_139800058\",\"e_8_139800060\",\"e_8_139800061\",\"e_8_139800062\",\"e_8_139800039\",\"e_8_139800041\"],\"Reference\":[\"e_8_39800000\",\"e_8_139000470\",\"e_8_139000469\",\"e_8_139000472\",\"e_8_310000733\",\"e_8_129000000\",\"e_8_221800224\",\"e_8_139000475\",\"e_8_139000474\",\"e_8_139000477\",\"e_8_39800004\",\"e_8_221800001\",\"e_8_139800064\",\"e_8_221800128\",\"e_8_139800042\",\"e_8_139800044\",\"e_8_139800043\",\"e_8_139800045\",\"e_8_139800046\",\"e_8_139800050\",\"e_8_139800047\",\"e_8_139800048\",\"e_8_139800049\",\"e_8_139800056\",\"e_8_139000494\",\"e_8_139000495\",\"e_8_139000496\",\"e_8_139000501\",\"e_8_139000502\",\"e_8_139800066\",\"e_8_139000499\",\"e_8_139000500\",\"e_8_139800067\",\"e_8_139000498\",\"e_8_139000497\",\"e_8_139800068\",\"e_8_139000504\",\"e_8_139000503\",\"e_8_139800069\",\"e_8_139000506\",\"e_8_139000505\",\"e_8_139800070\",\"e_8_139800063\",\"e_8_139800038\",\"e_8_139800057\",\"e_8_139800059\",\"e_8_139800058\",\"e_8_139800060\",\"e_8_139800061\",\"e_8_139800062\",\"e_8_139800039\",\"e_8_139800041\",\"f_139000021_1\",\"f_139000021_11\",\"f_139000021_2\",\"f_139000021_3\",\"f_139000021_5\",\"f_139000021_4\",\"f_139000021_6\",\"f_139000021_7\",\"f_139000021_8\",\"f_139000021_12\",\"f_139000021_13\"],\"AutoTrackConditions\":{},\"TagId\":3,\"RewardId\":5070404,\"RecommendationPriority\":914001,\"ChapterId\":3003}"
   },
   {
     "QuestId": 152750013,
@@ -2216,6 +2224,10 @@
     "Data": "{\"ObjType\":\"Quest\",\"Id\":136750000,\"DungeonId\":8,\"Type\":7,\"RegionId\":10,\"Key\":\"\",\"TidName\":\"Quest_136750000_QuestName_136_1\",\"TidDesc\":\"Quest_136750000_QuestDesc_136_1\",\"OnlineType\":\"SingleHangUpOnline\",\"ProvideType\":{\"Conditions\":[{\"Type\":\"PreQuest\",\"PreQuest\":102000000}]},\"DistributeType\":\"System\",\"ActiveActions\":[],\"Reference\":[\"q_102000000\"]}"
   },
   {
+    "QuestId": 30800010,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":30800010,\"DungeonId\":100,\"Type\":100,\"RegionId\":100,\"Key\":\"比较变量ChildQuest支持全局变量\",\"TidName\":\"Quest_30800010_QuestName_30_1\",\"TidDesc\":\"Quest_30800010_QuestDesc_30_1\",\"OnlineType\":\"SingleHangUpOnline\",\"ProvideType\":{},\"DistributeType\":\"Interact\",\"AddInteractOption\":{\"EntityId\":30800020,\"Option\":{\"Guid\":\"2013c2d2659941d2b09b97ff19fdf1f4\",\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_测试_GBL\",\"FlowId\":4,\"StateId\":1}},\"DoIntactType\":\"Direct\",\"TidContent\":\"Quest_30800010_InteractContent_30_1\"}},\"ActiveActions\":[],\"IsHideAcceptMarkOnNpc\":false,\"Reference\":[\"e_100_30800020\",\"f_31000167_4\"]}"
+  },
+  {
     "QuestId": 152750020,
     "Data": "{\"ObjType\":\"Quest\",\"Id\":152750020,\"DungeonId\":8,\"Type\":2,\"RegionId\":11,\"Key\":\"成就用隐藏任务\",\"TidName\":\"Quest_152750020_QuestName_152_1\",\"TidDesc\":\"Quest_152750020_QuestDesc_152_1\",\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[]},\"DistributeType\":\"System\"}"
   },
@@ -2240,7 +2252,139 @@
     "Data": "{\"ObjType\":\"Quest\",\"Id\":221750005,\"DungeonId\":8,\"Type\":2,\"RegionId\":9,\"Key\":\"联机BOSS挑战奖励\",\"TidName\":\"Quest_221750005_QuestName_221_2\",\"TidDesc\":\"Quest_221750005_QuestDesc_221_2\",\"OnlineType\":\"SingleHangUpOnline\",\"ProvideType\":{\"Conditions\":[{\"Type\":\"PreDungeon\",\"Dungeon\":{\"Type\":\"DungeonId\",\"DungeonId\":8186}},{\"Type\":\"PreDungeon\",\"Dungeon\":{\"Type\":\"DungeonId\",\"DungeonId\":8187}},{\"Type\":\"PreDungeon\",\"Dungeon\":{\"Type\":\"DungeonId\",\"DungeonId\":8188}},{\"Type\":\"PreDungeon\",\"Dungeon\":{\"Type\":\"DungeonId\",\"DungeonId\":8189}},{\"Type\":\"PreDungeon\",\"Dungeon\":{\"Type\":\"DungeonId\",\"DungeonId\":8190}},{\"Type\":\"PreDungeon\",\"Dungeon\":{\"Type\":\"DungeonId\",\"DungeonId\":8191}},{\"Type\":\"PreQuest\",\"PreQuest\":221750000}],\"Type\":0},\"DistributeType\":\"System\",\"Reference\":[\"q_221750000\"]}"
   },
   {
+    "QuestId": 158800003,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":158800003,\"DungeonId\":8,\"Type\":2,\"RegionId\":6,\"RoleId\":\"bossrush2\",\"Key\":\"刮刮乐引导\",\"TidName\":\"Quest_158800003_QuestName_158_2\",\"TidDesc\":\"Quest_158800003_QuestDesc_158_2\",\"RewardId\":44001,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[]},\"DistributeType\":\"Activity\",\"ActiveActions\":[],\"Reference\":[\"e_8_158800011\",\"f_158800001_1\"]}"
+  },
+  {
+    "QuestId": 158800004,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":158800004,\"DungeonId\":8,\"Type\":2,\"RegionId\":6,\"Key\":\"（不显示）刮刮乐活动持续初始化任务\",\"TidName\":\"Quest_158800004_QuestName_158_4\",\"TidDesc\":\"Quest_158800004_QuestDesc_158_4\",\"OnlineType\":\"SingleHangUpOnline\",\"ProvideType\":{\"Conditions\":[]},\"DistributeType\":\"Activity\",\"Children\":[\"e_8_158800011\"],\"Reference\":[\"e_8_158800011\"]}"
+  },
+  {
+    "QuestId": 159800001,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":159800001,\"DungeonId\":8,\"Type\":2,\"RegionId\":6,\"Key\":\"预热1\",\"TidName\":\"Quest_159800001_QuestName_159_1\",\"TidDesc\":\"Quest_159800001_QuestDesc_159_1\",\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{},\"DistributeType\":\"Activity\",\"ActiveActions\":[],\"Reference\":[\"e_8_159800048\",\"e_8_159800033\",\"e_8_159800034\",\"e_8_159800045\",\"e_8_159800046\",\"e_8_159800059\",\"f_159800000_1\"],\"Children\":[\"e_8_159800048\",\"e_8_159800034\",\"e_8_159800059\"]}"
+  },
+  {
+    "QuestId": 159800002,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":159800002,\"DungeonId\":8,\"Type\":2,\"RegionId\":6,\"Key\":\"预热2\",\"TidName\":\"Quest_159800002_QuestName_159_1\",\"TidDesc\":\"Quest_159800002_QuestDesc_159_1\",\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{},\"DistributeType\":\"Activity\",\"ActiveActions\":[],\"Reference\":[\"e_8_159800037\",\"e_8_109002511\",\"f_159800000_2\"],\"Children\":[\"e_8_159800037\"]}"
+  },
+  {
+    "QuestId": 159800003,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":159800003,\"DungeonId\":8,\"Type\":2,\"RegionId\":6,\"Key\":\"预热3\",\"TidName\":\"Quest_159800003_QuestName_159_2\",\"TidDesc\":\"Quest_159800003_QuestDesc_159_2\",\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{},\"DistributeType\":\"Activity\",\"ActiveActions\":[],\"Reference\":[\"e_8_159800033\",\"e_8_159800055\",\"e_8_109002524\",\"e_8_159800049\",\"f_159800000_3\"],\"Children\":[\"e_8_159800055\"]}"
+  },
+  {
+    "QuestId": 159800004,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":159800004,\"DungeonId\":8,\"Type\":2,\"RegionId\":6,\"Key\":\"预热4\",\"TidName\":\"Quest_159800004_QuestName_159_2\",\"TidDesc\":\"Quest_159800004_QuestDesc_159_2\",\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{},\"DistributeType\":\"Activity\",\"ActiveActions\":[],\"Reference\":[\"e_8_159800058\",\"e_8_159800040\",\"e_8_159800029\",\"e_8_159800028\",\"e_8_159800033\",\"f_159800000_4\"],\"Children\":[\"e_8_159800058\",\"e_8_159800040\",\"e_8_159800029\",\"e_8_159800028\"]}"
+  },
+  {
+    "QuestId": 159800005,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":159800005,\"DungeonId\":8,\"Type\":2,\"RegionId\":6,\"Key\":\"预热5\",\"TidName\":\"Quest_159800005_QuestName_159_2\",\"TidDesc\":\"Quest_159800005_QuestDesc_159_2\",\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{},\"DistributeType\":\"Activity\",\"ActiveActions\":[],\"Children\":[\"e_8_159800041\",\"e_8_159800044\",\"e_8_159800043\",\"e_8_159800042\",\"e_8_159800065\",\"e_8_159800060\",\"e_8_159800061\",\"e_8_159800062\",\"e_8_159800063\",\"e_8_159800064\"],\"Reference\":[\"e_8_39800010\",\"e_8_159800041\",\"e_8_159800044\",\"e_8_159800043\",\"e_8_159800042\",\"e_8_159800065\",\"e_8_159800060\",\"e_8_159800061\",\"e_8_159800062\",\"e_8_159800063\",\"e_8_159800064\",\"e_8_159800051\",\"e_8_159800033\",\"e_8_135002296\",\"f_159800000_5\"]}"
+  },
+  {
+    "QuestId": 159800006,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":159800006,\"DungeonId\":8,\"Type\":2,\"RegionId\":6,\"Key\":\"预热6\",\"TidName\":\"Quest_159800006_QuestName_159_2\",\"TidDesc\":\"Quest_159800006_QuestDesc_159_2\",\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{},\"DistributeType\":\"Activity\",\"ActiveActions\":[],\"Reference\":[\"e_8_159800033\",\"e_8_109002469\",\"e_8_159800056\",\"f_159800000_6\"],\"Children\":[\"e_8_159800056\"]}"
+  },
+  {
+    "QuestId": 158800005,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":158800005,\"DungeonId\":8,\"Type\":2,\"RegionId\":6,\"RoleId\":\"bossrush2\",\"Key\":\"BossRush2引导\",\"TidName\":\"Quest_158800005_QuestName_158_2\",\"TidDesc\":\"Quest_158800005_QuestDesc_158_2\",\"RewardId\":44001,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[]},\"DistributeType\":\"Activity\",\"ActiveActions\":[],\"Reference\":[\"e_8_158800039\",\"f_158800003_1\"]}"
+  },
+  {
     "QuestId": 135750000,
     "Data": "{\"ObjType\":\"Quest\",\"Id\":135750000,\"DungeonId\":8,\"Type\":2,\"RegionId\":11,\"Key\":\"任务2\",\"TidName\":\"Quest_135750000_QuestName_135_1\",\"TidDesc\":\"Quest_135750000_QuestDesc_135_1\",\"OnlineType\":\"SingleHangUpOnline\",\"ProvideType\":{},\"DistributeType\":\"System\",\"ActiveActions\":[],\"Reference\":[\"e_8_136751654\",\"e_8_136751653\",\"e_8_136751652\",\"e_8_136751651\"]}"
+  },
+  {
+    "QuestId": 158800008,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":158800008,\"DungeonId\":8,\"Type\":2,\"RegionId\":6,\"Key\":\"（隐藏UI不显示）BossRush2开启活动入口任务\",\"TidName\":\"Quest_158800008_QuestName_158_4\",\"TidDesc\":\"Quest_158800008_QuestDesc_158_4\",\"OnlineType\":\"SingleHangUpOnline\",\"ProvideType\":{},\"DistributeType\":\"Activity\",\"Children\":[\"e_8_158800013\",\"e_8_158800014\",\"e_8_158800012\",\"e_8_158800039\"],\"Reference\":[\"e_8_158800013\",\"e_8_158800014\",\"e_8_158800012\",\"e_8_158800039\"]}"
+  },
+  {
+    "QuestId": 34800000,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":34800000,\"DungeonId\":100,\"Type\":100,\"RegionId\":100,\"Key\":\"占用计数—任务A【复合节点占用】\",\"TidName\":\"Quest_34800000_QuestName_34_1\",\"TidDesc\":\"Quest_34800000_QuestDesc_34_1\",\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[]},\"DistributeType\":\"Interact\",\"IsHideAcceptMarkOnNpc\":false,\"AddInteractOption\":{\"EntityId\":34800042,\"Option\":{\"Guid\":\"1f308a79919f46c68321dec74ac10e4a\",\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_Default\",\"FlowId\":1,\"StateId\":1,\"FlowGuid\":\"395fb05e058349ba94ffd05e97392177\"}},\"DoIntactType\":\"Direct\"}},\"ActiveActions\":[],\"Reference\":[\"e_100_34800042\",\"f_31000156_1\"]}"
+  },
+  {
+    "QuestId": 34800006,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":34800006,\"DungeonId\":100,\"Type\":100,\"RegionId\":100,\"Key\":\"占用计数—任务B【唤醒NPC占用】\",\"TidName\":\"Quest_34800006_QuestName_34_2\",\"TidDesc\":\"Quest_34800006_QuestDesc_34_2\",\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[]},\"DistributeType\":\"Interact\",\"IsHideAcceptMarkOnNpc\":false,\"AddInteractOption\":{\"EntityId\":34800054,\"Option\":{\"Guid\":\"770137d7a37f462aaa65b797e5ec3481\",\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_Default\",\"FlowId\":1,\"StateId\":1,\"FlowGuid\":\"395fb05e058349ba94ffd05e97392177\"}},\"DoIntactType\":\"Direct\"}},\"ActiveActions\":[],\"Reference\":[\"e_100_34800054\",\"e_100_34800055\",\"f_31000156_1\"],\"Children\":[\"e_100_34800055\"]}"
+  },
+  {
+    "QuestId": 34800005,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":34800005,\"DungeonId\":100,\"Type\":100,\"RegionId\":100,\"Key\":\"占用计数—任务C【手动声明占用】\",\"TidName\":\"Quest_34800005_QuestName_34_2\",\"TidDesc\":\"Quest_34800005_QuestDesc_34_2\",\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[]},\"DistributeType\":\"Interact\",\"IsHideAcceptMarkOnNpc\":false,\"AddInteractOption\":{\"EntityId\":34800057,\"Option\":{\"Guid\":\"bcdd81a51aea45858d3f6c9c52c997d2\",\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_Default\",\"FlowId\":1,\"StateId\":1,\"FlowGuid\":\"395fb05e058349ba94ffd05e97392177\"}},\"DoIntactType\":\"Direct\"}},\"ActiveActions\":[],\"Reference\":[\"e_100_34800057\",\"e_100_34800054\",\"f_31000156_1\"]}"
+  },
+  {
+    "QuestId": 34800004,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":34800004,\"DungeonId\":100,\"Type\":100,\"RegionId\":100,\"Key\":\"占用计数—任务D【手动释放未占用的占用组】\",\"TidName\":\"Quest_34800004_QuestName_34_2\",\"TidDesc\":\"Quest_34800004_QuestDesc_34_2\",\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[]},\"DistributeType\":\"Interact\",\"IsHideAcceptMarkOnNpc\":false,\"AddInteractOption\":{\"EntityId\":34800060,\"Option\":{\"Guid\":\"ba0c1729b088425d956799777f5a5589\",\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_Default\",\"FlowId\":1,\"StateId\":1,\"FlowGuid\":\"395fb05e058349ba94ffd05e97392177\"}},\"DoIntactType\":\"Direct\"}},\"ActiveActions\":[],\"Reference\":[\"e_100_34800060\",\"e_100_34800054\",\"e_100_34800061\",\"f_31000156_1\"],\"Children\":[\"e_100_34800061\"]}"
+  },
+  {
+    "QuestId": 34800003,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":34800003,\"DungeonId\":100,\"Type\":100,\"RegionId\":100,\"Key\":\"占用计数—任务E【存档点下占用配置】\",\"TidName\":\"Quest_34800003_QuestName_34_2\",\"TidDesc\":\"Quest_34800003_QuestDesc_34_2\",\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[]},\"DistributeType\":\"Interact\",\"IsHideAcceptMarkOnNpc\":false,\"AddInteractOption\":{\"EntityId\":34800063,\"Option\":{\"Guid\":\"2b55189409904d6ea28f789f8f695c48\",\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_Default\",\"FlowId\":1,\"StateId\":1,\"FlowGuid\":\"395fb05e058349ba94ffd05e97392177\"}},\"DoIntactType\":\"Direct\"}},\"ActiveActions\":[],\"Reference\":[\"e_100_34800063\",\"e_100_34800064\",\"f_31000156_1\"],\"Children\":[\"e_100_34800064\"]}"
+  },
+  {
+    "QuestId": 34800002,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":34800002,\"DungeonId\":100,\"Type\":100,\"RegionId\":100,\"Key\":\"占用计数—任务F【行为树保底清空计数】\",\"TidName\":\"Quest_34800002_QuestName_34_2\",\"TidDesc\":\"Quest_34800002_QuestDesc_34_2\",\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[]},\"DistributeType\":\"Interact\",\"IsHideAcceptMarkOnNpc\":false,\"AddInteractOption\":{\"EntityId\":34800066,\"Option\":{\"Guid\":\"9d1c7d58b61c46309ad364cc60a52d8e\",\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_Default\",\"FlowId\":1,\"StateId\":1,\"FlowGuid\":\"395fb05e058349ba94ffd05e97392177\"}},\"DoIntactType\":\"Direct\"}},\"ActiveActions\":[],\"Reference\":[\"e_100_34800066\",\"f_31000156_1\"]}"
+  },
+  {
+    "QuestId": 34800001,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":34800001,\"DungeonId\":100,\"Type\":100,\"RegionId\":100,\"Key\":\"占用计数—任务G【复合节点+唤醒NPC占用1】\",\"TidName\":\"Quest_34800001_QuestName_34_2\",\"TidDesc\":\"Quest_34800001_QuestDesc_34_2\",\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[]},\"DistributeType\":\"Interact\",\"IsHideAcceptMarkOnNpc\":false,\"AddInteractOption\":{\"EntityId\":34800069,\"Option\":{\"Guid\":\"485070126ae94ed681c46acd340be3dc\",\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_Default\",\"FlowId\":1,\"StateId\":1,\"FlowGuid\":\"395fb05e058349ba94ffd05e97392177\"}},\"DoIntactType\":\"Direct\"}},\"ActiveActions\":[],\"Reference\":[\"e_100_34800069\",\"e_100_34800070\",\"f_31000156_1\"],\"Children\":[\"e_100_34800070\"]}"
+  },
+  {
+    "QuestId": 34800007,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":34800007,\"DungeonId\":100,\"Type\":100,\"RegionId\":100,\"Key\":\"占用计数—任务H【复合节点+唤醒NPC占用2】\",\"TidName\":\"Quest_34800007_QuestName_34_2\",\"TidDesc\":\"Quest_34800007_QuestDesc_34_2\",\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[]},\"DistributeType\":\"Interact\",\"IsHideAcceptMarkOnNpc\":false,\"AddInteractOption\":{\"EntityId\":34800072,\"Option\":{\"Guid\":\"a5cb6740f8da4521acceaa06910cdf88\",\"Type\":{\"Type\":\"Flow\",\"Flow\":{\"FlowListName\":\"剧情_Default\",\"FlowId\":1,\"StateId\":1,\"FlowGuid\":\"395fb05e058349ba94ffd05e97392177\"}},\"DoIntactType\":\"Direct\"}},\"ActiveActions\":[],\"Reference\":[\"e_100_34800072\",\"e_100_34800073\",\"f_31000156_1\"],\"Children\":[\"e_100_34800073\"]}"
+  },
+  {
+    "QuestId": 29800012,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":29800012,\"DungeonId\":100,\"Type\":100,\"RegionId\":100,\"Key\":\"任务2\",\"TidName\":\"Quest_29800012_QuestName_29_1\",\"TidDesc\":\"Quest_29800012_QuestDesc_29_1\",\"RewardId\":1001,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[]},\"DistributeType\":\"Passive\",\"ActiveActions\":[]}"
+  },
+  {
+    "QuestId": 139800000,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":139800000,\"DungeonId\":8,\"Type\":2,\"RegionId\":9,\"Key\":\"1.4肉鸽难度1\",\"TidName\":\"Quest_139800000_QuestName_139_3\",\"TidDesc\":\"Quest_139800000_QuestDesc_139_3\",\"RewardId\":42161,\"OnlineType\":\"SingleHangUpOnline\",\"ProvideType\":{},\"DistributeType\":\"Activity\",\"Reference\":[\"e_8_39800007\"],\"TagId\":3}"
+  },
+  {
+    "QuestId": 139800001,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":139800001,\"DungeonId\":8,\"Type\":2,\"RegionId\":9,\"Key\":\"1.4肉鸽难度6\",\"TidName\":\"Quest_139800001_QuestName_139_3\",\"TidDesc\":\"Quest_139800001_QuestDesc_139_3\",\"RewardId\":42161,\"OnlineType\":\"SingleHangUpOnline\",\"ProvideType\":{},\"DistributeType\":\"Activity\",\"Reference\":[\"e_8_39800008\",\"e_8_139800065\",\"f_139800001_2\"],\"TagId\":3,\"Children\":[\"e_8_139800065\"]}"
+  },
+  {
+    "QuestId": 159800007,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":159800007,\"DungeonId\":8,\"Type\":7,\"RegionId\":6,\"RoleId\":\"anke\",\"Key\":\"（隐藏）刷NPC阿兰娜用\",\"TidName\":\"Quest_159800007_QuestName_159_1\",\"TidDesc\":\"Quest_159800007_QuestDesc_159_1\",\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[]},\"DistributeType\":\"Activity\",\"ActiveActions\":[],\"Children\":[\"e_8_159800033\"],\"Reference\":[\"e_8_159800033\"]}"
+  },
+  {
+    "QuestId": 158800011,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":158800011,\"DungeonId\":8,\"Type\":2,\"RegionId\":6,\"Key\":\"（不显示）刮刮乐引导任务完成打开界面\",\"TidName\":\"Quest_158800011_QuestName_158_2\",\"TidDesc\":\"Quest_158800011_QuestDesc_158_2\",\"OnlineType\":\"SingleHangUpOnline\",\"ProvideType\":{\"Conditions\":[]},\"DistributeType\":\"Activity\",\"Reference\":[\"q_158800003\"]}"
+  },
+  {
+    "QuestId": 29800013,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":29800013,\"DungeonId\":100,\"Type\":100,\"RegionId\":100,\"Key\":\"计数统计判断击杀者\",\"TidName\":\"Quest_29800013_QuestName_29_1\",\"TidDesc\":\"Quest_29800013_QuestDesc_29_1\",\"RewardId\":1001,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[]},\"DistributeType\":\"Passive\",\"ActiveActions\":[],\"Children\":[\"e_100_29800032\",\"e_100_29800031\",\"e_100_29800030\",\"e_100_29800033\",\"e_100_29800034\"],\"Reference\":[\"e_100_29800030\",\"e_100_29800032\",\"e_100_29800031\",\"e_100_29800033\",\"e_100_29800034\",\"f_31000156_1\"]}"
+  },
+  {
+    "QuestId": 158800010,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":158800010,\"DungeonId\":8,\"Type\":2,\"RegionId\":11,\"Key\":\"（隐藏UI）椿生态初见\",\"TidName\":\"Quest_158800010_QuestName_158_2\",\"TidDesc\":\"Quest_158800010_QuestDesc_158_2\",\"OnlineType\":\"SingleHangUpOnline\",\"ProvideType\":{\"Conditions\":[{\"Type\":\"PreChildQuest\",\"PreChildQuest\":{\"QuestId\":158800013,\"ChildQuestId\":4}}]},\"DistributeType\":\"System\",\"Children\":[\"l_8_158800001\"],\"Reference\":[\"e_8_158800016\",\"e_8_158800004\",\"l_8_158800001\",\"f_158800004_1\",\"f_158800004_3\"]}"
+  },
+  {
+    "QuestId": 158800012,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":158800012,\"DungeonId\":8,\"Type\":2,\"RegionId\":11,\"Key\":\"（隐藏UI）椿生态成就-完成对话后自动接取并完成\",\"TidName\":\"Quest_158800012_QuestName_158_4\",\"TidDesc\":\"Quest_158800012_QuestDesc_158_4\",\"OnlineType\":\"SingleHangUpOnline\",\"ProvideType\":{\"Conditions\":[{\"Type\":\"PreQuest\",\"PreQuest\":158800010}]},\"DistributeType\":\"System\",\"Reference\":[\"q_158800010\"]}"
+  },
+  {
+    "QuestId": 886800000,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":886800000,\"DungeonId\":8,\"Type\":3,\"RegionId\":11,\"RoleId\":\"Empty\",\"Key\":\"延迟销毁实体\",\"TidName\":\"Quest_886800000_QuestName_886_1\",\"TidDesc\":\"Quest_886800000_QuestDesc_886_1\",\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[{\"Type\":\"PreQuest\",\"PreQuest\":886000000}]},\"DistributeType\":\"System\",\"ActiveActions\":[],\"Children\":[\"e_8_886800129\",\"e_8_886800130\"],\"Reference\":[\"e_8_886800129\",\"e_8_886800130\",\"e_8_886800109\",\"q_886000000\"],\"IsHideInTaskList\":true}"
+  },
+  {
+    "QuestId": 158800013,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":158800013,\"DungeonId\":8,\"Type\":2,\"RegionId\":11,\"Key\":\"（隐藏UI）椿生态-检测角色任务留场椿消失再刷常驻生态椿\",\"TidName\":\"Quest_158800013_QuestName_158_2\",\"TidDesc\":\"Quest_158800013_QuestDesc_158_2\",\"OnlineType\":\"SingleHangUpOnline\",\"ProvideType\":{\"Conditions\":[{\"Type\":\"PreQuest\",\"PreQuest\":886000000}]},\"DistributeType\":\"System\",\"Reference\":[\"e_8_886800025\",\"e_8_158800004\",\"q_886000000\"],\"Children\":[\"e_8_158800004\"]}"
+  },
+  {
+    "QuestId": 204800000,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":204800000,\"DungeonId\":8,\"Type\":7,\"RegionId\":9,\"Key\":\"1.4肉鸽难度Ⅴ开启\",\"TidName\":\"Quest_204800000_QuestName_204_1\",\"TidDesc\":\"Quest_204800000_QuestDesc_204_1\",\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[{\"Type\":\"OpenDate\",\"DateId\":1088,\"OpenType\":\"InTimeRange\"},{\"Type\":\"PreDungeon\",\"Dungeon\":{\"Type\":\"DungeonId\",\"DungeonId\":8021}}]},\"DistributeType\":\"System\",\"ActiveActions\":[]}"
+  },
+  {
+    "QuestId": 204800001,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":204800001,\"DungeonId\":8,\"Type\":7,\"RegionId\":9,\"Key\":\"1.4肉鸽难度Ⅵ开启\",\"TidName\":\"Quest_204800001_QuestName_204_3\",\"TidDesc\":\"Quest_204800001_QuestDesc_204_3\",\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Conditions\":[{\"Type\":\"OpenDate\",\"DateId\":1097,\"OpenType\":\"InTimeRange\"},{\"Type\":\"PreDungeon\",\"Dungeon\":{\"Type\":\"DungeonId\",\"DungeonId\":8022}}]},\"DistributeType\":\"System\",\"ActiveActions\":[]}"
+  },
+  {
+    "QuestId": 139800002,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":139800002,\"DungeonId\":2502,\"Type\":7,\"RegionId\":6,\"Key\":\"1.4割草爬塔活动\",\"TidName\":\"Quest_139800002_QuestName_139_1\",\"TidDesc\":\"Quest_139800002_QuestDesc_139_1\",\"RewardId\":44001,\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":true,\"ProvideType\":{},\"DistributeType\":\"Activity\",\"Reference\":[\"e_2502_139800015\",\"e_2502_140000015\",\"e_2502_140000024\",\"f_139800002_1\"],\"FinishActions\":[],\"Children\":[\"e_2502_139800015\"]}"
+  },
+  {
+    "QuestId": 221800000,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":221800000,\"DungeonId\":8,\"Type\":7,\"RegionId\":1,\"Key\":\"隐藏UI_子弹跑传送点解锁\",\"TidName\":\"Quest_221800000_QuestName_221_1\",\"TidDesc\":\"Quest_221800000_QuestDesc_221_1\",\"OnlineType\":\"SingleHangUpOnline\",\"ProvideType\":{},\"DistributeType\":\"System\",\"Reference\":[\"e_8_221800306\",\"e_8_221800309\",\"e_8_221800307\",\"e_8_221800308\",\"e_8_221800310\",\"e_8_221800311\",\"q_125000124\",\"q_145000004\",\"q_139000039\"]}"
+  },
+  {
+    "QuestId": 139800003,
+    "Data": "{\"ObjType\":\"Quest\",\"Id\":139800003,\"DungeonId\":2502,\"Type\":2,\"RegionId\":1,\"Key\":\"隐藏任务-恢复实体\",\"TidName\":\"Quest_139800003_QuestName_139_5\",\"TidDesc\":\"Quest_139800003_QuestDesc_139_5\",\"OnlineType\":\"SingleHangUpOnline\",\"IsAutoTrack\":false,\"ProvideType\":{\"Type\":0,\"Conditions\":[{\"Type\":\"ExploreLevel\",\"ExploreLevel\":40},{\"Type\":\"OpenDate\",\"DateId\":3400}]},\"DistributeType\":\"System\",\"Reference\":[\"e_2502_140000015\",\"e_2502_140000024\",\"e_2502_139800015\"]}"
   }
 ]

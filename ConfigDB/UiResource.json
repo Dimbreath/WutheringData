@@ -7092,7 +7092,7 @@
   {
     "Id": "UiView_PSLogin",
     "Path": "/Game/Aki/UI/UIResources/UiPS/Prefabs/UiView_PSLogin.UiView_PSLogin",
-    "PcPath": ""
+    "PcPath": "/Game/Aki/UI/UIResources/UiPS/Prefabs/PC/PC_UiView_PSLogin.PC_UiView_PSLogin"
   },
   {
     "Id": "UiView_PSProtocol",
@@ -7102,7 +7102,7 @@
   {
     "Id": "UiView_PSTips",
     "Path": "/Game/Aki/UI/UIResources/UiPS/Prefabs/UiView_PSTips.UiView_PSTips",
-    "PcPath": ""
+    "PcPath": "/Game/Aki/UI/UIResources/UiPS/Prefabs/PC/PC_UiView_PSTips.PC_UiView_PSTips"
   },
   {
     "Id": "UiItem_Plot_Zhezhi01_F",
@@ -7395,6 +7395,11 @@
     "PcPath": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/PC/PC_UiItem_CheckpointsMowing.PC_UiItem_CheckpointsMowing"
   },
   {
+    "Id": "UiView_BattleLink",
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Prefabs/UiView_BattleLink.UiView_BattleLink",
+    "PcPath": ""
+  },
+  {
     "Id": "UiView_CheckpointsMain",
     "Path": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/UiView_CheckpointsMain.UiView_CheckpointsMain",
     "PcPath": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/PC/PC_UiView_CheckpointsMain.PC_UiView_CheckpointsMain"
@@ -7423,6 +7428,11 @@
     "Id": "UiView_DarkshoreMain",
     "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityDarkshore/UiView_DarkshoreMain.UiView_DarkshoreMain",
     "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityDarkshore/PC_UiView_DarkshoreMain.PC_UiView_DarkshoreMain"
+  },
+  {
+    "Id": "UiView_DreamLandSelect",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityDreamlandConnect/UiView_DreamlandSelect.UiView_DreamlandSelect",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityDreamlandConnect/PC_UiView_DreamlandSelect.PC_UiView_DreamlandSelect"
   },
   {
     "Id": "T_MowingQualityBlue",
@@ -7885,6 +7895,11 @@
     "PcPath": ""
   },
   {
+    "Id": "UiView_DreamLandEnterMain",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityDreamlandConnect/UiView_DreamlandEnterMain.UiView_DreamlandEnterMain",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityDreamlandConnect/PC_UiView_DreamlandEnterMain.PC_UiView_DreamlandEnterMain"
+  },
+  {
     "Id": "ActivitySignIn_1_3",
     "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivitySignIn/UiItem_HeihaianSignIn.UiItem_HeihaianSignIn",
     "PcPath": ""
@@ -7895,9 +7910,19 @@
     "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityMowing/PC_UiItem_ActivityMowing1.PC_UiItem_ActivityMowing1"
   },
   {
+    "Id": "UiView_DreamLandActivity",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityDreamlandConnect/UiItem_DreamlandMain.UiItem_DreamlandMain",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityDreamlandConnect/PC_UiItem_DreamlandMain.PC_UiItem_DreamlandMain"
+  },
+  {
     "Id": "SP_ComRoleMapLevel",
     "Path": "/Game/Aki/UI/UIResources/Common/Atlas/SP_ComRoleMapLevel.SP_ComRoleMapLevel",
     "PcPath": ""
+  },
+  {
+    "Id": "UiView_DreamLandWorldRun",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityDreamlandConnect/UiView_DreamlandReward.UiView_DreamlandReward",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityDreamlandConnect/PC_UiView_DreamlandReward.PC_UiView_DreamlandReward"
   },
   {
     "Id": "SP_ItemBVisionPoint",
@@ -7920,9 +7945,119 @@
     "PcPath": ""
   },
   {
+    "Id": "UiView_DreamLinkWhiteCat",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityDreamlandConnect/UiView_DreamlandBoss.UiView_DreamlandBoss",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityDreamlandConnect/PC_UiView_DreamlandBoss.PC_UiView_DreamlandBoss"
+  },
+  {
+    "Id": "UiItem_InstanceDungeon_RightInfo",
+    "Path": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/UiItem_CheckpointsR.UiItem_CheckpointsR",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_InstanceDungeon_RightTitle",
+    "Path": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/UiItem_CheckpointsRTitle.UiItem_CheckpointsRTitle",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_InstanceDungeon_RecommendElement",
+    "Path": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/UiItem_CheckpointsRTitleIcon.UiItem_CheckpointsRTitleIcon",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_InstanceDungeon_Buff",
+    "Path": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/UiItem_CheckpointsRAttri.UiItem_CheckpointsRAttri",
+    "PcPath": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/PC/PC_UiItem_CheckpointsRAttri.PC_UiItem_CheckpointsRAttri"
+  },
+  {
+    "Id": "UiItem_InstanceDungeon_RecommenLevel",
+    "Path": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/UiItem_CheckpointsRLevel.UiItem_CheckpointsRLevel",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_InstanceDungeon_Cost",
+    "Path": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/UiItem_CheckpointsRCost.UiItem_CheckpointsRCost",
+    "PcPath": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/PC/PC_UiItem_CheckpointsRCost.PC_UiItem_CheckpointsRCost"
+  },
+  {
+    "Id": "UiItem_InstanceDungeon_DropItem",
+    "Path": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/UiItem_CheckpointsRDropDown.UiItem_CheckpointsRDropDown",
+    "PcPath": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/PC/PC_UiItem_CheckpointsRDropDown.PC_UiItem_CheckpointsRDropDown"
+  },
+  {
+    "Id": "UiItem_InstanceDungeon_StartButton",
+    "Path": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/UiItem_CheckpointsRBtn.UiItem_CheckpointsRBtn",
+    "PcPath": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/PC/PC_UiItem_CheckpointsRBtn.PC_UiItem_CheckpointsRBtn"
+  },
+  {
+    "Id": "UiItem_InstanceDungeon_MatchingItem",
+    "Path": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/UiItem_CheckpointsRMatching.UiItem_CheckpointsRMatching",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_InstanceDungeon_Lock",
+    "Path": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/UiItem_CheckpointsRActived.UiItem_CheckpointsRActived",
+    "PcPath": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/PC/PC_UiItem_CheckpointsRActived.PC_UiItem_CheckpointsRActived"
+  },
+  {
+    "Id": "UiItem_InstanceDungeon_RoguelikePanel",
+    "Path": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/UiItem_CheckpointsLScoreA.UiItem_CheckpointsLScoreA",
+    "PcPath": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/PC/PC_UiItem_CheckpointsLScoreA.PC_UiItem_CheckpointsLScoreA"
+  },
+  {
+    "Id": "UiItem_InstanceDungeon_TowerDefensePanel",
+    "Path": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/UiItem_CheckpointsLScoreB.UiItem_CheckpointsLScoreB",
+    "PcPath": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/PC/PC_UiItem_CheckpointsLScoreB.PC_UiItem_CheckpointsLScoreB"
+  },
+  {
+    "Id": "UiItem_InstanceDungeon_MowingPanel",
+    "Path": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/UiItem_CheckpointsLScoreC.UiItem_CheckpointsLScoreC",
+    "PcPath": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/PC/PC_UiItem_CheckpointsLScoreC.PC_UiItem_CheckpointsLScoreC"
+  },
+  {
+    "Id": "UiItem_InstanceDungeon_TimeItem",
+    "Path": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/UiItem_CheckpointsLInfo.UiItem_CheckpointsLInfo",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_InstanceDungeon_Reward",
+    "Path": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/UiItem_SvItem.UiItem_SvItem",
+    "PcPath": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/PC/PC_UiItem_SvItem.PC_UiItem_SvItem"
+  },
+  {
+    "Id": "UiView_SetPreference",
+    "Path": "/Game/Aki/UI/UIResources/UiSet/Prefabs/UiView_SetPreference.UiView_SetPreference",
+    "PcPath": "/Game/Aki/UI/UIResources/UiSet/Prefabs/PC/PC_UiView_SetPreference.PC_UiView_SetPreference"
+  },
+  {
+    "Id": "UiItem_AcquireVision",
+    "Path": "/Game/Aki/UI/UIResources/UiAcquire/Prefabs/UiItem_AcquireVision.UiItem_AcquireVision",
+    "PcPath": "/Game/Aki/UI/UIResources/UiAcquire/Prefabs/PC/PC_UiItem_AcquireVision.PC_UiItem_AcquireVision"
+  },
+  {
+    "Id": "UiItem_HandleSkillSwitchIcon",
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Prefabs/PC/PC_HandleSkillSwitchIcon.PC_HandleSkillSwitchIcon",
+    "PcPath": ""
+  },
+  {
     "Id": "M_VideoTexture",
     "Path": "/Game/Aki/UI/UIResources/UiPlot/Materials/M_VideoTextureMat.M_VideoTextureMat",
     "PcPath": ""
+  },
+  {
+    "Id": "DreamLinkDungeonBgRed",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ActivityDreamlandConnect/DreamConnectRole/T_HeadBgRed.T_HeadBgRed",
+    "PcPath": ""
+  },
+  {
+    "Id": "DreamLinkDungeonBgBlue",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ActivityDreamlandConnect/DreamConnectRole/T_HeadBgBlue.T_HeadBgBlue",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_PSLogin1",
+    "Path": "/Game/Aki/UI/UIResources/UiPS/Prefabs/UiView_PSLogin1.UiView_PSLogin1",
+    "PcPath": "/Game/Aki/UI/UIResources/UiPS/Prefabs/PC/PC_UiView_PSLogin1.PC_UiView_PSLogin1"
   },
   {
     "Id": "SP_ComIconSign",
@@ -7935,14 +8070,214 @@
     "PcPath": ""
   },
   {
+    "Id": "UiView_WeaponSkin",
+    "Path": "/Game/Aki/UI/UIResources/UiRole/Prefabs/RoleWeapon/UiView_WeaponSkin.UiView_WeaponSkin",
+    "PcPath": "/Game/Aki/UI/UIResources/UiRole/Prefabs/PC/RoleWeapon/PC_UiView_WeaponSkin.PC_UiView_WeaponSkin"
+  },
+  {
+    "Id": "UiItem_RogueScoreB",
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Prefabs/UiItem_RogueScoreB.UiItem_RogueScoreB",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_MailBindView",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityMailBind/UiView_ActivityMailBind.UiView_ActivityMailBind",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityMailBind/PC_UiView_ActivityMailBind.PC_UiView_ActivityMailBind"
+  },
+  {
+    "Id": "UiItem_ScratchoffTicketInfo",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ScratchoffTicket/UiItem_ScratchoffTicketInfo.UiItem_ScratchoffTicketInfo",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ScratchoffTicket/PC_UiItem_ScratchoffTicketInfo.PC_UiItem_ScratchoffTicketInfo"
+  },
+  {
+    "Id": "UiItem_ScratchoffTicketMain",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ScratchoffTicket/UiItem_ScratchoffTicketMain.UiItem_ScratchoffTicketMain",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ScratchoffTicket/PC_UiItem_ScratchoffTicketMain.PC_UiItem_ScratchoffTicketMain"
+  },
+  {
+    "Id": "UiItem_ItemBSelTick",
+    "Path": "/Game/Aki/UI/UIResources/Common/Prefabs/Item/UiItem_ItemBSelTick.UiItem_ItemBSelTick",
+    "PcPath": ""
+  },
+  {
     "Id": "SP_ComRomeText_07",
     "Path": "/Game/Aki/UI/UIResources/Common/Atlas/SP_ComRomeText_07.SP_ComRomeText_07",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_ActivityRogueD",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityRogue/UiItem_ActivityRogueD.UiItem_ActivityRogueD",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityRogue/PC_UiItem_ActivityRogueD.PC_UiItem_ActivityRogueD"
+  },
+  {
+    "Id": "UiView_DreamLandActivityUnlock",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityDreamlandConnect/UiView_DreamConnectOpenTip.UiView_DreamConnectOpenTip",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_DreamLandRewardC",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityDreamlandConnect/UiView_DreamlandRewardC.UiView_DreamlandRewardC",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityDreamlandConnect/PC_UiView_DreamlandRewardC.PC_UiView_DreamlandRewardC"
+  },
+  {
+    "Id": "UiView_DreamLandRewardB",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityDreamlandConnect/UiView_DreamlandRewardB.UiView_DreamlandRewardB",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityDreamlandConnect/PC_UiView_DreamlandRewardB.PC_UiView_DreamlandRewardB"
+  },
+  {
+    "Id": "DreamLinkDungeonLightRed",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ActivityDreamlandConnect/DreamConnectRole/T_LightRed.T_LightRed",
+    "PcPath": ""
+  },
+  {
+    "Id": "DreamLinkDungeonLightBlue",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Image/ActivityDreamlandConnect/DreamConnectRole/T_LightBlue.T_LightBlue",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_BossrushReward",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityBossRush/UiItem_BossrushReward.UiItem_BossrushReward",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityBossRush/PC_UiItem_BossrushReward.PC_UiItem_BossrushReward"
+  },
+  {
+    "Id": "UiItem_BossrushBuff",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityBossRush/UiItem_BossrushBuff.UiItem_BossrushBuff",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityBossRush/PC_UiItem_BossrushBuff.PC_UiItem_BossrushBuff"
+  },
+  {
+    "Id": "UiItem_ItemTopRightText",
+    "Path": "/Game/Aki/UI/UIResources/Common/Prefabs/Item/UiItem_ItemBSubscript.UiItem_ItemBSubscript",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_PowerMagnificationRewardPopView",
+    "Path": "/Game/Aki/UI/UIResources/Common/Prefabs/UiItem_ConfirmMultipleTips.UiItem_ConfirmMultipleTips",
+    "PcPath": "/Game/Aki/UI/UIResources/Common/Prefabs/PC/PC_UiItem_ConfirmMultipleTips.PC_UiItem_ConfirmMultipleTips"
+  },
+  {
+    "Id": "Uiitem_TipsItemNew",
+    "Path": "/Game/Aki/UI/UIResources/UiTips/Prefabs/Uiitem_TipsItem1.Uiitem_TipsItem1",
+    "PcPath": "/Game/Aki/UI/UIResources/UiTips/Prefabs/PC/PC_Uiitem_TipsItem1.PC_Uiitem_TipsItem1"
+  },
+  {
+    "Id": "UiItem_ActivityPreheatMain",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityPreheat/UiItem_ActivityPreheatMain.UiItem_ActivityPreheatMain",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityPreheat/PC_UiItem_ActivityPreheatMain.PC_UiItem_ActivityPreheatMain"
+  },
+  {
+    "Id": "UiView_ActivityPreheatInfo",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityPreheat/UiView_ActivityPreheatInfo.UiView_ActivityPreheatInfo",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityPreheat/PC_UiView_ActivityPreheatInfo.PC_UiView_ActivityPreheatInfo"
+  },
+  {
+    "Id": "UiView_ActivityPreheatSle",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityPreheat/UiView_ActivityPreheatSle.UiView_ActivityPreheatSle",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityPreheat/PC_UiView_ActivityPreheatSle.PC_UiView_ActivityPreheatSle"
+  },
+  {
+    "Id": "UiItem_PlayerInfo",
+    "Path": "/Game/Aki/UI/UIResources/UiPhotograph/Prefabs/UiItem_PlayerInfo.UiItem_PlayerInfo",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_CG1_4chun",
+    "Path": "/Game/Aki/UI/UIResources/UiCG/Prefabs/CG1_4/UiItem_CG1_4chun.UiItem_CG1_4chun",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_KuroStreetIcon",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconKuro.SP_IconKuro",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_MailBindIcon",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconMailBind.SP_IconMailBind",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_RogueScoreC",
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Prefabs/UiItem_RogueScoreC.UiItem_RogueScoreC",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_WeaponAttributeQualityBg5",
+    "Path": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_ElementBg7.SP_ElementBg7",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_WeaponAttributeQualityBg4",
+    "Path": "/Game/Aki/UI/UIResources/UiLuckdraw/Atlas/SP_ElementBg6.SP_ElementBg6",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_VisionLevelUpSettingPopView",
+    "Path": "/Game/Aki/UI/UIResources/UiRole/Prefabs/UiItem_UpgradeOptionSet.UiItem_UpgradeOptionSet",
+    "PcPath": "/Game/Aki/UI/UIResources/UiRole/Prefabs/PC/PC_UiItem_UpgradeOptionSet.PC_UiItem_UpgradeOptionSet"
+  },
+  {
+    "Id": "UiView_BlackCatTips",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityDreamlandConnect/UiView_DreamLandTipsBlack.UiView_DreamLandTipsBlack",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_WhiteCatTips",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityDreamlandConnect/UiView_DreamLandTipsWhite.UiView_DreamLandTipsWhite",
+    "PcPath": ""
+  },
+  {
+    "Id": "Sequence_DreamLinkRewardStart",
+    "Path": "/Game/Aki/Map/UISceneLevel/UI_Scene/LevelSequence/Ani_Door2.Ani_Door2",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_SetQuality",
+    "Path": "/Game/Aki/UI/UIResources/UiLogin/Prefabs/UiView_SetQuality.UiView_SetQuality",
+    "PcPath": "/Game/Aki/UI/UIResources/UiLogin/Prefabs/PC/PC_UiView_SetQuality.PC_UiView_SetQuality"
+  },
+  {
+    "Id": "T_LoginSetQuality1",
+    "Path": "/Game/Aki/UI/UIResources/UiLogin/Image/T_LoginSetQuality1.T_LoginSetQuality1",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_LoginSetQuality2",
+    "Path": "/Game/Aki/UI/UIResources/UiLogin/Image/T_LoginSetQuality2.T_LoginSetQuality2",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_LoginSetQuality3",
+    "Path": "/Game/Aki/UI/UIResources/UiLogin/Image/T_LoginSetQuality3.T_LoginSetQuality3",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_LoginSetQuality4",
+    "Path": "/Game/Aki/UI/UIResources/UiLogin/Image/T_LoginSetQuality4.T_LoginSetQuality4",
     "PcPath": ""
   },
   {
     "Id": "UiView_DailyTowerAreaOpenRed",
     "Path": "/Game/Aki/UI/UIResources/UiDailyTower/Prefabs/UiView_DailyTowerAreaOpen1.UiView_DailyTowerAreaOpen1",
     "PcPath": "/Game/Aki/UI/UIResources/UiDailyTower/Prefabs/PC/PC_UiView_DailyTowerAreaOpen1.PC_UiView_DailyTowerAreaOpen1"
+  },
+  {
+    "Id": "UiView_Bc",
+    "Path": "/Game/Aki/UI/UIResources/UiFight/Prefabs/UiView_Bc_Prefab.UiView_Bc_Prefab",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_PSTips1",
+    "Path": "/Game/Aki/UI/UIResources/UiPS/Prefabs/UiView_PSTips1.UiView_PSTips1",
+    "PcPath": ""
+  },
+  {
+    "Id": "ActivityRoleGuide_1603",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityRoleGuide/UiItem_RoleChun.UiItem_RoleChun",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_CheckpointsRReward",
+    "Path": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/UiItem_CheckpointsRReward.UiItem_CheckpointsRReward",
+    "PcPath": "/Game/Aki/UI/UIResources/UiCheckpoints/Prefabs/PC/PC_UiItem_CheckpointsRReward.PC_UiItem_CheckpointsRReward"
   },
   {
     "Id": "UiItem_ActivityRoleGrowing",
@@ -7958,5 +8293,85 @@
     "Id": "UiView_ActivityRoleGrowingTask",
     "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/RoleGrowing/UiView_RoleGrowingReward.UiView_RoleGrowingReward",
     "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/RoleGrowing/PC_UiView_RoleGrowingReward.PC_UiView_RoleGrowingReward"
+  },
+  {
+    "Id": "T_MapSubTiles_0_-1_HQYH_LAYER1_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/SubTiles/T_MapSubTiles_0_-1_HQYH_LAYER1_UI.T_MapSubTiles_0_-1_HQYH_LAYER1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_MapSubTiles_0_-2_HQYH_LAYER1_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/SubTiles/T_MapSubTiles_0_-2_HQYH_LAYER1_UI.T_MapSubTiles_0_-2_HQYH_LAYER1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "T_MapSubTiles_0_-2_HWSK_LAYER1_UI",
+    "Path": "/Game/Aki/UI/UIResources/UiWorldMap/Image/SubTiles/T_MapSubTiles_0_-2_HWSK_LAYER1_UI.T_MapSubTiles_0_-2_HWSK_LAYER1_UI",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiItem_ItemBElementB",
+    "Path": "/Game/Aki/UI/UIResources/Common/Prefabs/Item/UiItem_ItemBElementB.UiItem_ItemBElementB",
+    "PcPath": ""
+  },
+  {
+    "Id": "WeaponSkinRoleFadeInCurve",
+    "Path": "/Game/Aki/UI/UIResources/Common/LevelSequence/Curve/WeaponSkinRoleFadeInCurve.WeaponSkinRoleFadeInCurve",
+    "PcPath": ""
+  },
+  {
+    "Id": "WeaponSkinRoleFadeOutCurve",
+    "Path": "/Game/Aki/UI/UIResources/Common/LevelSequence/Curve/WeaponSkinRoleFadeOutCurve.WeaponSkinRoleFadeOutCurve",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_Infomation_PSAudio",
+    "Path": "/Game/Aki/UI/UIResources/UiInformation/Prefabs/UiView_InformationPSAudio.UiView_InformationPSAudio",
+    "PcPath": "/Game/Aki/UI/UIResources/UiInformation/Prefabs/PC/PC_UiView_InformationPSAudio.PC_UiView_InformationPSAudio"
+  },
+  {
+    "Id": "UiItem_ActivityMowingTower",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityBossRush/UiItem_ActivityBossrushA.UiItem_ActivityBossrushA",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityBossRush/PC_UiItem_ActivityBossrushA.PC_UiItem_ActivityBossrushA"
+  },
+  {
+    "Id": "UiItem_ItemTagTeam",
+    "Path": "/Game/Aki/UI/UIResources/Common/Prefabs/Item/UiItem_ItemTagTeam.UiItem_ItemTagTeam",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_ComTagTeam1",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/SP_ComTagTeam1.SP_ComTagTeam1",
+    "PcPath": ""
+  },
+  {
+    "Id": "SP_ComTagTeam2",
+    "Path": "/Game/Aki/UI/UIResources/Common/Atlas/SP_ComTagTeam2.SP_ComTagTeam2",
+    "PcPath": ""
+  },
+  {
+    "Id": "UiView_BossRushA",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityBossRush/UiView_BossRushA.UiView_BossRushA",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityBossRush/PC_UiView_BossRushA.PC_UiView_BossRushA"
+  },
+  {
+    "Id": "UiView_BossRushEntry",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityBossRush/UiView_BossRushEntry.UiView_BossRushEntry",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityBossRush/PC_UiView_BossRushEntry.PC_UiView_BossRushEntry"
+  },
+  {
+    "Id": "UiView_BossrushRewardA",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivityBossRush/UiView_BossrushRewardA.UiView_BossrushRewardA",
+    "PcPath": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/PC/ActivityBossRush/PC_UiView_BossrushRewardA.PC_UiView_BossrushRewardA"
+  },
+  {
+    "Id": "UiItem_ResultScoreA",
+    "Path": "/Game/Aki/UI/UIResources/UiTips/Prefabs/UiItem_ResultScoreA.UiItem_ResultScoreA",
+    "PcPath": ""
+  },
+  {
+    "Id": "ActivitySignIn_1_4",
+    "Path": "/Game/Aki/UI/UIResources/UiActivity/Prefabs/ActivitySignIn/UiItem_SignInA.UiItem_SignInA",
+    "PcPath": ""
   }
 ]

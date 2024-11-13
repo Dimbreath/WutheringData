@@ -211,7 +211,7 @@
     "RoleHeadIcon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead80/T_IconRoleHead80_3_UI.T_IconRoleHead80_3_UI",
     "FormationRoleCard": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_jueyuan_UI.T_IconRole_Pile_jueyuan_UI",
     "RoleStand": "/Game/Aki/UI/UIResources/UiQuest/Image/ChuanShuo/T_IconChuanShuo1_UI.T_IconChuanShuo1_UI",
-    "RolePortrait": "/Game/Aki/UI/UIResources/UiQuest/Image/ChuanShuo/T_IconChuanShuo1_UI.T_IconChuanShuo1_UI",
+    "RolePortrait": "/Game/Aki/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleJueyuan.T_ActivityRoleJueyuan",
     "SpilloverItem": [
       {
         "Key": 10001503,
@@ -753,7 +753,7 @@
     "RoleHeadIcon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead80/T_IconRoleHead80_8_UI.T_IconRoleHead80_8_UI",
     "FormationRoleCard": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_anke_UI.T_IconRole_Pile_anke_UI",
     "RoleStand": "/Game/Aki/UI/UIResources/UiQuest/Image/ChuanShuo/T_IconChuanShuo1_UI.T_IconChuanShuo1_UI",
-    "RolePortrait": "/Game/Aki/UI/UIResources/UiQuest/Image/ChuanShuo/T_IconChuanShuo1_UI.T_IconChuanShuo1_UI",
+    "RolePortrait": "/Game/Aki/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleAnke.T_ActivityRoleAnke",
     "SpilloverItem": [
       {
         "Key": 10001203,
@@ -933,7 +933,7 @@
     "RoleHeadIcon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead80/T_IconRoleHead80_12_UI.T_IconRoleHead80_12_UI",
     "FormationRoleCard": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_qiushui_UI.T_IconRole_Pile_qiushui_UI",
     "RoleStand": "/Game/Aki/UI/UIResources/UiQuest/Image/ChuanShuo/T_IconChuanShuo1_UI.T_IconChuanShuo1_UI",
-    "RolePortrait": "/Game/Aki/UI/UIResources/UiQuest/Image/ChuanShuo/T_IconChuanShuo1_UI.T_IconChuanShuo1_UI",
+    "RolePortrait": "/Game/Aki/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleQiushui.T_ActivityRoleQiushui",
     "SpilloverItem": [
       {
         "Key": 10001403,
@@ -1116,7 +1116,7 @@
     "RoleHeadIcon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead80/T_IconRoleHead80_13_UI.T_IconRoleHead80_13_UI",
     "FormationRoleCard": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_baer_UI.T_IconRole_Pile_baer_UI",
     "RoleStand": "/Game/Aki/UI/UIResources/UiQuest/Image/ChuanShuo/T_IconChuanShuo1_UI.T_IconChuanShuo1_UI",
-    "RolePortrait": "/Game/Aki/UI/UIResources/UiQuest/Image/ChuanShuo/T_IconChuanShuo1_UI.T_IconChuanShuo1_UI",
+    "RolePortrait": "/Game/Aki/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleMofeite.T_ActivityRoleMofeite",
     "SpilloverItem": [
       {
         "Key": 10001204,
@@ -1176,6 +1176,97 @@
     "HideHuLu": false
   },
   {
+    "Id": 1603,
+    "QualityId": 5,
+    "RoleType": 1,
+    "IsTrial": false,
+    "Name": "RoleInfo_1603_Name",
+    "NickName": "RoleInfo_1603_NickName",
+    "Introduction": "FavorRoleInfo_1603_Info",
+    "Tag": [
+      2,
+      3,
+      4
+    ],
+    "ParentId": 0,
+    "Priority": 15,
+    "PropertyId": 1603,
+    "ShowProperty": [
+      2,
+      7,
+      10,
+      13,
+      8,
+      9
+    ],
+    "ElementId": 6,
+    "RoleHeadIconCircle": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHeadCircle256/T_IconRoleHeadCircle256_29_UI.T_IconRoleHeadCircle256_29_UI",
+    "RoleHeadIconLarge": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_29_UI.T_IconRoleHead256_29_UI",
+    "RoleHeadIconBig": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead150/T_IconRoleHead150_29_UI.T_IconRoleHead150_29_UI",
+    "Card": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead175/T_IconRoleHead175_29_UI.T_IconRoleHead175_29_UI",
+    "RoleHeadIcon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead80/T_IconRoleHead80_29_UI.T_IconRoleHead80_29_UI",
+    "FormationRoleCard": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_chun_UI.T_IconRole_Pile_chun_UI",
+    "RoleStand": "/Game/Aki/UI/UIResources/UiQuest/Image/ChuanShuo/T_IconChuanShuo1_UI.T_IconChuanShuo1_UI",
+    "RolePortrait": "/Game/Aki/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleChun.T_ActivityRoleChun",
+    "SpilloverItem": [
+      {
+        "Key": 10001603,
+        "Value": 1
+      }
+    ],
+    "MeshId": 100015,
+    "UiMeshId": 100015,
+    "RoleBody": "FemaleM",
+    "BreachModel": 730100,
+    "SpecialEnergyBarId": 11,
+    "CameraConfig": "10000",
+    "CameraFloatHeight": 15.0,
+    "EntityProperty": 0,
+    "MaxLevel": 90,
+    "LevelConsumeId": 10001,
+    "BreachId": 1603,
+    "SkillId": 1603,
+    "SkillTreeGroupId": 1603,
+    "ResonanceId": 1603,
+    "ResonantChainGroupId": 1603,
+    "IsShow": false,
+    "ExchangeConsume": [
+      {
+        "Key": 10001603,
+        "Value": 1
+      }
+    ],
+    "InitWeaponItemId": 21020011,
+    "WeaponType": 2,
+    "SkillDapath": "/Game/Aki/Effect/DataAsset/Niagara/UI_Scenes/DA_Fx_UI_UIMap_Character_Dark.DA_Fx_UI_UIMap_Character_Dark",
+    "SkillLockDapath": "/Game/Aki/Effect/DataAsset/Niagara/UI_Scenes/DA_Fx_UI_UIMap_Character_Lock001.DA_Fx_UI_UIMap_Character_Lock001",
+    "UiScenePerformanceAbp": "/Game/Aki/Character/Role/FemaleM/Chun/R2T1ChunMd10011/ABP_Performance_Chun_PC.ABP_Performance_Chun_PC_C",
+    "LockOnDefaultId": 1,
+    "LockOnLookOnId": 2,
+    "SkillEffectDa": "RoleSkillTabEffectDark",
+    "FootStepState": "FS_Heels",
+    "PartyId": 3,
+    "AttributesDescription": "",
+    "Icon": "",
+    "ItemQualityId": 5,
+    "ObtainedShowDescription": "",
+    "NumLimit": 1,
+    "ShowInBag": true,
+    "WeaponScale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Intervene": false,
+    "CharacterVoice": "RoleInfo_1603_CharacterVoice",
+    "TrialRole": 100315,
+    "IsAim": false,
+    "RoleGuide": 5029,
+    "RedDotDisableRule": 0,
+    "SkinDamage": null,
+    "HideHuLu": true
+  },
+  {
     "Id": 1301,
     "QualityId": 5,
     "RoleType": 1,
@@ -1206,7 +1297,7 @@
     "RoleHeadIcon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead80/T_IconRoleHead80_18_UI.T_IconRoleHead80_18_UI",
     "FormationRoleCard": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_kakaluo_UI.T_IconRole_Pile_kakaluo_UI",
     "RoleStand": "/Game/Aki/UI/UIResources/UiQuest/Image/ChuanShuo/T_IconChuanShuo1_UI.T_IconChuanShuo1_UI",
-    "RolePortrait": "/Game/Aki/UI/UIResources/UiQuest/Image/ChuanShuo/T_IconChuanShuo1_UI.T_IconChuanShuo1_UI",
+    "RolePortrait": "/Game/Aki/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleKakaluo.T_ActivityRoleKakaluo",
     "SpilloverItem": [
       {
         "Key": 10001301,
@@ -1388,7 +1479,7 @@
     "RoleHeadIcon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead80/T_IconRoleHead80_14_UI.T_IconRoleHead80_14_UI",
     "FormationRoleCard": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_lingyang_UI.T_IconRole_Pile_lingyang_UI",
     "RoleStand": "/Game/Aki/UI/UIResources/UiQuest/Image/ChuanShuo/T_IconChuanShuo1_UI.T_IconChuanShuo1_UI",
-    "RolePortrait": "/Game/Aki/UI/UIResources/UiQuest/Image/ChuanShuo/T_IconChuanShuo1_UI.T_IconChuanShuo1_UI",
+    "RolePortrait": "/Game/Aki/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleLingyang.T_ActivityRoleLingyang",
     "SpilloverItem": [
       {
         "Key": 10001104,
@@ -1569,7 +1660,7 @@
     "RoleHeadIcon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead80/T_IconRoleHead80_5_UI.T_IconRoleHead80_5_UI",
     "FormationRoleCard": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujue_UI.T_IconRole_Pile_zhujue_UI",
     "RoleStand": "/Game/Aki/UI/UIResources/UiQuest/Image/ChuanShuo/T_IconChuanShuo1_UI.T_IconChuanShuo1_UI",
-    "RolePortrait": "/Game/Aki/UI/UIResources/UiQuest/Image/ChuanShuo/T_IconChuanShuo1_UI.T_IconChuanShuo1_UI",
+    "RolePortrait": "/Game/Aki/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleNvzhu.T_ActivityRoleNvzhu",
     "SpilloverItem": [
       {
         "Key": 10001500,
@@ -1658,7 +1749,7 @@
     "RoleHeadIcon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead80/T_IconRoleHead80_4_UI.T_IconRoleHead80_4_UI",
     "FormationRoleCard": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_zhujuenan_UI.T_IconRole_Pile_zhujuenan_UI",
     "RoleStand": "/Game/Aki/UI/UIResources/UiQuest/Image/ChuanShuo/T_IconChuanShuo1_UI.T_IconChuanShuo1_UI",
-    "RolePortrait": "/Game/Aki/UI/UIResources/UiQuest/Image/ChuanShuo/T_IconChuanShuo1_UI.T_IconChuanShuo1_UI",
+    "RolePortrait": "/Game/Aki/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleNanzhu.T_ActivityRoleNanzhu",
     "SpilloverItem": [
       {
         "Key": 10001500,
@@ -3923,6 +4014,97 @@
     "HideHuLu": false
   },
   {
+    "Id": 1504,
+    "QualityId": 4,
+    "RoleType": 1,
+    "IsTrial": false,
+    "Name": "RoleInfo_1504_Name",
+    "NickName": "RoleInfo_1504_NickName",
+    "Introduction": "FavorRoleInfo_1504_Info",
+    "Tag": [
+      2,
+      4,
+      22
+    ],
+    "ParentId": 0,
+    "Priority": 24,
+    "PropertyId": 1504,
+    "ShowProperty": [
+      2,
+      7,
+      10,
+      13,
+      8,
+      9
+    ],
+    "ElementId": 3,
+    "RoleHeadIconCircle": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHeadCircle256/T_IconRoleHeadCircle256_30_UI.T_IconRoleHeadCircle256_30_UI",
+    "RoleHeadIconLarge": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead256/T_IconRoleHead256_30_UI.T_IconRoleHead256_30_UI",
+    "RoleHeadIconBig": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead150/T_IconRoleHead150_30_UI.T_IconRoleHead150_30_UI",
+    "Card": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead175/T_IconRoleHead175_30_UI.T_IconRoleHead175_30_UI",
+    "RoleHeadIcon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead80/T_IconRoleHead80_30_UI.T_IconRoleHead80_30_UI",
+    "FormationRoleCard": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_dengdeng_UI.T_IconRole_Pile_dengdeng_UI",
+    "RoleStand": "/Game/Aki/UI/UIResources/UiQuest/Image/ChuanShuo/T_IconChuanShuo1_UI.T_IconChuanShuo1_UI",
+    "RolePortrait": "/Game/Aki/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleDengdeng.T_ActivityRoleDengdeng",
+    "SpilloverItem": [
+      {
+        "Key": 10001504,
+        "Value": 1
+      }
+    ],
+    "MeshId": 100030,
+    "UiMeshId": 100030,
+    "RoleBody": "FemaleMS",
+    "BreachModel": 730100,
+    "SpecialEnergyBarId": 150402,
+    "CameraConfig": "10000",
+    "CameraFloatHeight": 15.0,
+    "EntityProperty": 0,
+    "MaxLevel": 90,
+    "LevelConsumeId": 10001,
+    "BreachId": 1504,
+    "SkillId": 1504,
+    "SkillTreeGroupId": 1504,
+    "ResonanceId": 1504,
+    "ResonantChainGroupId": 1504,
+    "IsShow": false,
+    "ExchangeConsume": [
+      {
+        "Key": 10001504,
+        "Value": 1
+      }
+    ],
+    "InitWeaponItemId": 21010011,
+    "WeaponType": 1,
+    "SkillDapath": "/Game/Aki/Effect/DataAsset/Niagara/UI_Scenes/DA_Fx_UI_UIMap_Character_Light.DA_Fx_UI_UIMap_Character_Light",
+    "SkillLockDapath": "/Game/Aki/Effect/DataAsset/Niagara/UI_Scenes/DA_Fx_UI_UIMap_Character_Lock001.DA_Fx_UI_UIMap_Character_Lock001",
+    "UiScenePerformanceAbp": "/Game/Aki/Character/Role/FemaleMS/Dengdeng/R2T1DengDengMd10011/ABP_Performance_DengDeng_PC.ABP_Performance_DengDeng_PC_C",
+    "LockOnDefaultId": 3,
+    "LockOnLookOnId": 2,
+    "SkillEffectDa": "RoleSkillTabEffectLight",
+    "FootStepState": "FS_Heels",
+    "PartyId": 1,
+    "AttributesDescription": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconRup/T_IconRup_1501_UI.T_IconRup_1501_UI",
+    "ItemQualityId": 4,
+    "ObtainedShowDescription": "",
+    "NumLimit": 1,
+    "ShowInBag": true,
+    "WeaponScale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Intervene": false,
+    "CharacterVoice": "RoleInfo_1502_CharacterVoice",
+    "TrialRole": 100329,
+    "IsAim": false,
+    "RoleGuide": 5030,
+    "RedDotDisableRule": 0,
+    "SkinDamage": null,
+    "HideHuLu": false
+  },
+  {
     "Id": 1106,
     "QualityId": 4,
     "RoleType": 1,
@@ -3955,7 +4137,7 @@
     "RoleHeadIcon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead80/T_IconRoleHead80_31_UI.T_IconRoleHead80_31_UI",
     "FormationRoleCard": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_youhu_UI.T_IconRole_Pile_youhu_UI",
     "RoleStand": "/Game/Aki/UI/UIResources/UiQuest/Image/ChuanShuo/T_IconChuanShuo1_UI.T_IconChuanShuo1_UI",
-    "RolePortrait": "/Game/Aki/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleYangyang.T_ActivityRoleYangyang",
+    "RolePortrait": "/Game/Aki/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleYouhu.T_ActivityRoleYouhu",
     "SpilloverItem": [
       {
         "Key": 10001106,
@@ -4046,7 +4228,7 @@
     "RoleHeadIcon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead80/T_IconRoleHead80_28_UI.T_IconRoleHead80_28_UI",
     "FormationRoleCard": "/Game/Aki/UI/UIResources/Common/Image/IconRolePile/T_IconRole_Pile_shouanren_UI.T_IconRole_Pile_shouanren_UI",
     "RoleStand": "/Game/Aki/UI/UIResources/UiQuest/Image/ChuanShuo/T_IconChuanShuo1_UI.T_IconChuanShuo1_UI",
-    "RolePortrait": "/Game/Aki/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleYangyang.T_ActivityRoleYangyang",
+    "RolePortrait": "/Game/Aki/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleShouanren.T_ActivityRoleShouanren",
     "SpilloverItem": [
       {
         "Key": 10001505,

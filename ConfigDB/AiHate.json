@@ -2328,8 +2328,8 @@
       "Max": 2000.0
     },
     "DisengageBornDistance": {
-      "Min": 100000.0,
-      "Max": -214748.359375
+      "Min": -1.0,
+      "Max": -1.0
     },
     "MaxMoveFromBorn": -1.0,
     "ExcludeTag": "行为状态.逻辑状态.隐身",
@@ -2938,6 +2938,38 @@
     "DisengageBornDistance": {
       "Min": 5000.0,
       "Max": 6000.0
+    },
+    "MaxMoveFromBorn": -1.0,
+    "ExcludeTag": "行为状态.逻辑状态.隐身",
+    "SwornHatredTag": ""
+  },
+  {
+    "Id": 7012001,
+    "BaseHatred": 1.0,
+    "DecreaseRate": 0.8,
+    "DecreaseTimeLength": 5000.0,
+    "DecreaseTimeCd": 10000.0,
+    "IncreaseRateWhenDecreasing": 1.0,
+    "MinClearTime": 1000.0,
+    "DisengageDistanceRange": {
+      "Min": 35000.0,
+      "Max": 40000.0
+    },
+    "DisengageTimeRange": {
+      "Min": 40000.0,
+      "Max": 45000.0
+    },
+    "DisengageHeightRange": {
+      "Min": -2000.0,
+      "Max": 2000.0
+    },
+    "DisengageHeightRangeMax": {
+      "Min": -2000.0,
+      "Max": 2000.0
+    },
+    "DisengageBornDistance": {
+      "Min": -1.0,
+      "Max": -1.0
     },
     "MaxMoveFromBorn": -1.0,
     "ExcludeTag": "行为状态.逻辑状态.隐身",

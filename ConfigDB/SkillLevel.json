@@ -6543,7 +6543,7 @@
         "Value": 4
       },
       {
-        "Key": 41400114,
+        "Key": 41400124,
         "Value": 1
       },
       {
@@ -6618,7 +6618,7 @@
         "Value": 3
       },
       {
-        "Key": 41400114,
+        "Key": 41400124,
         "Value": 1
       },
       {
@@ -6685,7 +6685,7 @@
         "Value": 2
       },
       {
-        "Key": 41400114,
+        "Key": 41400124,
         "Value": 1
       },
       {
@@ -6710,7 +6710,7 @@
         "Value": 3
       },
       {
-        "Key": 41400114,
+        "Key": 41400124,
         "Value": 1
       },
       {
@@ -6798,7 +6798,7 @@
         "Value": 2
       },
       {
-        "Key": 41400114,
+        "Key": 41400124,
         "Value": 1
       },
       {
@@ -6823,7 +6823,7 @@
         "Value": 3
       },
       {
-        "Key": 41400114,
+        "Key": 41400124,
         "Value": 1
       },
       {
@@ -6856,7 +6856,7 @@
         "Value": 3
       },
       {
-        "Key": 41400114,
+        "Key": 41400124,
         "Value": 1
       },
       {
@@ -6881,7 +6881,7 @@
         "Value": 4
       },
       {
-        "Key": 41400114,
+        "Key": 41400124,
         "Value": 1
       },
       {
@@ -7711,7 +7711,7 @@
         "Value": 4
       },
       {
-        "Key": 41400114,
+        "Key": 41400124,
         "Value": 1
       },
       {
@@ -11554,7 +11554,7 @@
         "Value": 2
       },
       {
-        "Key": 41400114,
+        "Key": 41400124,
         "Value": 1
       },
       {
@@ -11579,7 +11579,7 @@
         "Value": 3
       },
       {
-        "Key": 41400114,
+        "Key": 41400124,
         "Value": 1
       },
       {
@@ -11612,7 +11612,7 @@
         "Value": 3
       },
       {
-        "Key": 41400114,
+        "Key": 41400124,
         "Value": 1
       },
       {
@@ -12439,7 +12439,7 @@
         "Value": 3
       },
       {
-        "Key": 41400114,
+        "Key": 41400124,
         "Value": 1
       },
       {
@@ -12464,7 +12464,7 @@
         "Value": 3
       },
       {
-        "Key": 41400114,
+        "Key": 41400124,
         "Value": 1
       },
       {
@@ -12489,7 +12489,7 @@
         "Value": 2
       },
       {
-        "Key": 41400114,
+        "Key": 41400124,
         "Value": 1
       },
       {
@@ -12514,7 +12514,7 @@
         "Value": 3
       },
       {
-        "Key": 41400114,
+        "Key": 41400124,
         "Value": 1
       },
       {
@@ -14942,7 +14942,7 @@
         "Value": 3
       },
       {
-        "Key": 41400114,
+        "Key": 41400124,
         "Value": 1
       },
       {
@@ -14967,7 +14967,7 @@
         "Value": 2
       },
       {
-        "Key": 41400114,
+        "Key": 41400124,
         "Value": 1
       },
       {
@@ -14992,7 +14992,7 @@
         "Value": 3
       },
       {
-        "Key": 41400114,
+        "Key": 41400124,
         "Value": 1
       },
       {
@@ -15017,7 +15017,7 @@
         "Value": 4
       },
       {
-        "Key": 41400114,
+        "Key": 41400124,
         "Value": 1
       },
       {
@@ -15042,7 +15042,7 @@
         "Value": 3
       },
       {
-        "Key": 41400114,
+        "Key": 41400124,
         "Value": 1
       },
       {
@@ -18791,7 +18791,7 @@
         "Value": 4
       },
       {
-        "Key": 41400114,
+        "Key": 41400124,
         "Value": 1
       },
       {
@@ -28269,6 +28269,1137 @@
   {
     "Id": 1368,
     "SkillLevelGroupId": 1002509,
+    "SkillId": 1,
+    "LevelNewDescribe": "",
+    "Consume": null,
+    "Condition": 0
+  },
+  {
+    "Id": 1370,
+    "SkillLevelGroupId": 1002601,
+    "SkillId": 1,
+    "LevelNewDescribe": "",
+    "Consume": null,
+    "Condition": 0
+  },
+  {
+    "Id": 1371,
+    "SkillLevelGroupId": 1002601,
+    "SkillId": 2,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020041,
+        "Value": 2
+      },
+      {
+        "Key": 41100021,
+        "Value": 2
+      },
+      {
+        "Key": 2,
+        "Value": 1500
+      }
+    ],
+    "Condition": 500005
+  },
+  {
+    "Id": 1372,
+    "SkillLevelGroupId": 1002601,
+    "SkillId": 3,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020041,
+        "Value": 3
+      },
+      {
+        "Key": 41100021,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 2000
+      }
+    ],
+    "Condition": 500005
+  },
+  {
+    "Id": 1373,
+    "SkillLevelGroupId": 1002601,
+    "SkillId": 4,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020042,
+        "Value": 2
+      },
+      {
+        "Key": 41100022,
+        "Value": 2
+      },
+      {
+        "Key": 2,
+        "Value": 4500
+      }
+    ],
+    "Condition": 500006
+  },
+  {
+    "Id": 1374,
+    "SkillLevelGroupId": 1002601,
+    "SkillId": 5,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020042,
+        "Value": 3
+      },
+      {
+        "Key": 41100022,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 6000
+      }
+    ],
+    "Condition": 500007
+  },
+  {
+    "Id": 1375,
+    "SkillLevelGroupId": 1002601,
+    "SkillId": 6,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020043,
+        "Value": 3
+      },
+      {
+        "Key": 41100023,
+        "Value": 2
+      },
+      {
+        "Key": 2,
+        "Value": 16000
+      }
+    ],
+    "Condition": 500007
+  },
+  {
+    "Id": 1376,
+    "SkillLevelGroupId": 1002601,
+    "SkillId": 7,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020043,
+        "Value": 5
+      },
+      {
+        "Key": 41100023,
+        "Value": 3
+      },
+      {
+        "Key": 41400144,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 30000
+      }
+    ],
+    "Condition": 500008
+  },
+  {
+    "Id": 1377,
+    "SkillLevelGroupId": 1002601,
+    "SkillId": 8,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020044,
+        "Value": 2
+      },
+      {
+        "Key": 41100024,
+        "Value": 2
+      },
+      {
+        "Key": 41400144,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 50000
+      }
+    ],
+    "Condition": 500008
+  },
+  {
+    "Id": 1378,
+    "SkillLevelGroupId": 1002601,
+    "SkillId": 9,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020044,
+        "Value": 3
+      },
+      {
+        "Key": 41100024,
+        "Value": 3
+      },
+      {
+        "Key": 41400144,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 70000
+      }
+    ],
+    "Condition": 500009
+  },
+  {
+    "Id": 1379,
+    "SkillLevelGroupId": 1002601,
+    "SkillId": 10,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020044,
+        "Value": 6
+      },
+      {
+        "Key": 41100024,
+        "Value": 4
+      },
+      {
+        "Key": 41400144,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 100000
+      }
+    ],
+    "Condition": 500009
+  },
+  {
+    "Id": 1380,
+    "SkillLevelGroupId": 1002602,
+    "SkillId": 1,
+    "LevelNewDescribe": "",
+    "Consume": null,
+    "Condition": 0
+  },
+  {
+    "Id": 1381,
+    "SkillLevelGroupId": 1002602,
+    "SkillId": 2,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020041,
+        "Value": 2
+      },
+      {
+        "Key": 41100021,
+        "Value": 2
+      },
+      {
+        "Key": 2,
+        "Value": 1500
+      }
+    ],
+    "Condition": 500005
+  },
+  {
+    "Id": 1382,
+    "SkillLevelGroupId": 1002602,
+    "SkillId": 3,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020041,
+        "Value": 3
+      },
+      {
+        "Key": 41100021,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 2000
+      }
+    ],
+    "Condition": 500005
+  },
+  {
+    "Id": 1383,
+    "SkillLevelGroupId": 1002602,
+    "SkillId": 4,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020042,
+        "Value": 2
+      },
+      {
+        "Key": 41100022,
+        "Value": 2
+      },
+      {
+        "Key": 2,
+        "Value": 4500
+      }
+    ],
+    "Condition": 500006
+  },
+  {
+    "Id": 1384,
+    "SkillLevelGroupId": 1002602,
+    "SkillId": 5,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020042,
+        "Value": 3
+      },
+      {
+        "Key": 41100022,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 6000
+      }
+    ],
+    "Condition": 500007
+  },
+  {
+    "Id": 1385,
+    "SkillLevelGroupId": 1002602,
+    "SkillId": 6,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020043,
+        "Value": 3
+      },
+      {
+        "Key": 41100023,
+        "Value": 2
+      },
+      {
+        "Key": 2,
+        "Value": 16000
+      }
+    ],
+    "Condition": 500007
+  },
+  {
+    "Id": 1386,
+    "SkillLevelGroupId": 1002602,
+    "SkillId": 7,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020043,
+        "Value": 5
+      },
+      {
+        "Key": 41100023,
+        "Value": 3
+      },
+      {
+        "Key": 41400144,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 30000
+      }
+    ],
+    "Condition": 500008
+  },
+  {
+    "Id": 1387,
+    "SkillLevelGroupId": 1002602,
+    "SkillId": 8,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020044,
+        "Value": 2
+      },
+      {
+        "Key": 41100024,
+        "Value": 2
+      },
+      {
+        "Key": 41400144,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 50000
+      }
+    ],
+    "Condition": 500008
+  },
+  {
+    "Id": 1388,
+    "SkillLevelGroupId": 1002602,
+    "SkillId": 9,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020044,
+        "Value": 3
+      },
+      {
+        "Key": 41100024,
+        "Value": 3
+      },
+      {
+        "Key": 41400144,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 70000
+      }
+    ],
+    "Condition": 500009
+  },
+  {
+    "Id": 1389,
+    "SkillLevelGroupId": 1002602,
+    "SkillId": 10,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020044,
+        "Value": 6
+      },
+      {
+        "Key": 41100024,
+        "Value": 4
+      },
+      {
+        "Key": 41400144,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 100000
+      }
+    ],
+    "Condition": 500009
+  },
+  {
+    "Id": 1390,
+    "SkillLevelGroupId": 1002603,
+    "SkillId": 1,
+    "LevelNewDescribe": "",
+    "Consume": null,
+    "Condition": 0
+  },
+  {
+    "Id": 1391,
+    "SkillLevelGroupId": 1002603,
+    "SkillId": 2,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020041,
+        "Value": 2
+      },
+      {
+        "Key": 41100021,
+        "Value": 2
+      },
+      {
+        "Key": 2,
+        "Value": 1500
+      }
+    ],
+    "Condition": 500005
+  },
+  {
+    "Id": 1392,
+    "SkillLevelGroupId": 1002603,
+    "SkillId": 3,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020041,
+        "Value": 3
+      },
+      {
+        "Key": 41100021,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 2000
+      }
+    ],
+    "Condition": 500005
+  },
+  {
+    "Id": 1393,
+    "SkillLevelGroupId": 1002603,
+    "SkillId": 4,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020042,
+        "Value": 2
+      },
+      {
+        "Key": 41100022,
+        "Value": 2
+      },
+      {
+        "Key": 2,
+        "Value": 4500
+      }
+    ],
+    "Condition": 500006
+  },
+  {
+    "Id": 1394,
+    "SkillLevelGroupId": 1002603,
+    "SkillId": 5,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020042,
+        "Value": 3
+      },
+      {
+        "Key": 41100022,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 6000
+      }
+    ],
+    "Condition": 500007
+  },
+  {
+    "Id": 1395,
+    "SkillLevelGroupId": 1002603,
+    "SkillId": 6,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020043,
+        "Value": 3
+      },
+      {
+        "Key": 41100023,
+        "Value": 2
+      },
+      {
+        "Key": 2,
+        "Value": 16000
+      }
+    ],
+    "Condition": 500007
+  },
+  {
+    "Id": 1396,
+    "SkillLevelGroupId": 1002603,
+    "SkillId": 7,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020043,
+        "Value": 5
+      },
+      {
+        "Key": 41100023,
+        "Value": 3
+      },
+      {
+        "Key": 41400144,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 30000
+      }
+    ],
+    "Condition": 500008
+  },
+  {
+    "Id": 1397,
+    "SkillLevelGroupId": 1002603,
+    "SkillId": 8,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020044,
+        "Value": 2
+      },
+      {
+        "Key": 41100024,
+        "Value": 2
+      },
+      {
+        "Key": 41400144,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 50000
+      }
+    ],
+    "Condition": 500008
+  },
+  {
+    "Id": 1398,
+    "SkillLevelGroupId": 1002603,
+    "SkillId": 9,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020044,
+        "Value": 3
+      },
+      {
+        "Key": 41100024,
+        "Value": 3
+      },
+      {
+        "Key": 41400144,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 70000
+      }
+    ],
+    "Condition": 500009
+  },
+  {
+    "Id": 1399,
+    "SkillLevelGroupId": 1002603,
+    "SkillId": 10,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020044,
+        "Value": 6
+      },
+      {
+        "Key": 41100024,
+        "Value": 4
+      },
+      {
+        "Key": 41400144,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 100000
+      }
+    ],
+    "Condition": 500009
+  },
+  {
+    "Id": 1400,
+    "SkillLevelGroupId": 1002604,
+    "SkillId": 1,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020042,
+        "Value": 3
+      },
+      {
+        "Key": 41100022,
+        "Value": 3
+      },
+      {
+        "Key": 41400144,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 10000
+      }
+    ],
+    "Condition": 500005
+  },
+  {
+    "Id": 1401,
+    "SkillLevelGroupId": 1002605,
+    "SkillId": 1,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020043,
+        "Value": 3
+      },
+      {
+        "Key": 41100023,
+        "Value": 3
+      },
+      {
+        "Key": 41400144,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 20000
+      }
+    ],
+    "Condition": 500007
+  },
+  {
+    "Id": 1402,
+    "SkillLevelGroupId": 1002606,
+    "SkillId": 1,
+    "LevelNewDescribe": "",
+    "Consume": null,
+    "Condition": 0
+  },
+  {
+    "Id": 1403,
+    "SkillLevelGroupId": 1002606,
+    "SkillId": 2,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020041,
+        "Value": 2
+      },
+      {
+        "Key": 41100021,
+        "Value": 2
+      },
+      {
+        "Key": 2,
+        "Value": 1500
+      }
+    ],
+    "Condition": 500005
+  },
+  {
+    "Id": 1404,
+    "SkillLevelGroupId": 1002606,
+    "SkillId": 3,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020041,
+        "Value": 3
+      },
+      {
+        "Key": 41100021,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 2000
+      }
+    ],
+    "Condition": 500005
+  },
+  {
+    "Id": 1405,
+    "SkillLevelGroupId": 1002606,
+    "SkillId": 4,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020042,
+        "Value": 2
+      },
+      {
+        "Key": 41100022,
+        "Value": 2
+      },
+      {
+        "Key": 2,
+        "Value": 4500
+      }
+    ],
+    "Condition": 500006
+  },
+  {
+    "Id": 1406,
+    "SkillLevelGroupId": 1002606,
+    "SkillId": 5,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020042,
+        "Value": 3
+      },
+      {
+        "Key": 41100022,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 6000
+      }
+    ],
+    "Condition": 500007
+  },
+  {
+    "Id": 1407,
+    "SkillLevelGroupId": 1002606,
+    "SkillId": 6,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020043,
+        "Value": 3
+      },
+      {
+        "Key": 41100023,
+        "Value": 2
+      },
+      {
+        "Key": 2,
+        "Value": 16000
+      }
+    ],
+    "Condition": 500007
+  },
+  {
+    "Id": 1408,
+    "SkillLevelGroupId": 1002606,
+    "SkillId": 7,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020043,
+        "Value": 5
+      },
+      {
+        "Key": 41100023,
+        "Value": 3
+      },
+      {
+        "Key": 41400144,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 30000
+      }
+    ],
+    "Condition": 500008
+  },
+  {
+    "Id": 1409,
+    "SkillLevelGroupId": 1002606,
+    "SkillId": 8,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020044,
+        "Value": 2
+      },
+      {
+        "Key": 41100024,
+        "Value": 2
+      },
+      {
+        "Key": 41400144,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 50000
+      }
+    ],
+    "Condition": 500008
+  },
+  {
+    "Id": 1410,
+    "SkillLevelGroupId": 1002606,
+    "SkillId": 9,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020044,
+        "Value": 3
+      },
+      {
+        "Key": 41100024,
+        "Value": 3
+      },
+      {
+        "Key": 41400144,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 70000
+      }
+    ],
+    "Condition": 500009
+  },
+  {
+    "Id": 1411,
+    "SkillLevelGroupId": 1002606,
+    "SkillId": 10,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020044,
+        "Value": 6
+      },
+      {
+        "Key": 41100024,
+        "Value": 4
+      },
+      {
+        "Key": 41400144,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 100000
+      }
+    ],
+    "Condition": 500009
+  },
+  {
+    "Id": 1412,
+    "SkillLevelGroupId": 1002607,
+    "SkillId": 1,
+    "LevelNewDescribe": "",
+    "Consume": null,
+    "Condition": 0
+  },
+  {
+    "Id": 1413,
+    "SkillLevelGroupId": 1002607,
+    "SkillId": 2,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020041,
+        "Value": 2
+      },
+      {
+        "Key": 41100021,
+        "Value": 2
+      },
+      {
+        "Key": 2,
+        "Value": 1500
+      }
+    ],
+    "Condition": 500005
+  },
+  {
+    "Id": 1414,
+    "SkillLevelGroupId": 1002607,
+    "SkillId": 3,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020041,
+        "Value": 3
+      },
+      {
+        "Key": 41100021,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 2000
+      }
+    ],
+    "Condition": 500005
+  },
+  {
+    "Id": 1415,
+    "SkillLevelGroupId": 1002607,
+    "SkillId": 4,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020042,
+        "Value": 2
+      },
+      {
+        "Key": 41100022,
+        "Value": 2
+      },
+      {
+        "Key": 2,
+        "Value": 4500
+      }
+    ],
+    "Condition": 500006
+  },
+  {
+    "Id": 1416,
+    "SkillLevelGroupId": 1002607,
+    "SkillId": 5,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020042,
+        "Value": 3
+      },
+      {
+        "Key": 41100022,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 6000
+      }
+    ],
+    "Condition": 500007
+  },
+  {
+    "Id": 1417,
+    "SkillLevelGroupId": 1002607,
+    "SkillId": 6,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020043,
+        "Value": 3
+      },
+      {
+        "Key": 41100023,
+        "Value": 2
+      },
+      {
+        "Key": 2,
+        "Value": 16000
+      }
+    ],
+    "Condition": 500007
+  },
+  {
+    "Id": 1418,
+    "SkillLevelGroupId": 1002607,
+    "SkillId": 7,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020043,
+        "Value": 5
+      },
+      {
+        "Key": 41100023,
+        "Value": 3
+      },
+      {
+        "Key": 41400144,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 30000
+      }
+    ],
+    "Condition": 500008
+  },
+  {
+    "Id": 1419,
+    "SkillLevelGroupId": 1002607,
+    "SkillId": 8,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020044,
+        "Value": 2
+      },
+      {
+        "Key": 41100024,
+        "Value": 2
+      },
+      {
+        "Key": 41400144,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 50000
+      }
+    ],
+    "Condition": 500008
+  },
+  {
+    "Id": 1420,
+    "SkillLevelGroupId": 1002607,
+    "SkillId": 9,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020044,
+        "Value": 3
+      },
+      {
+        "Key": 41100024,
+        "Value": 3
+      },
+      {
+        "Key": 41400144,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 70000
+      }
+    ],
+    "Condition": 500009
+  },
+  {
+    "Id": 1421,
+    "SkillLevelGroupId": 1002607,
+    "SkillId": 10,
+    "LevelNewDescribe": "",
+    "Consume": [
+      {
+        "Key": 43020044,
+        "Value": 6
+      },
+      {
+        "Key": 41100024,
+        "Value": 4
+      },
+      {
+        "Key": 41400144,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 100000
+      }
+    ],
+    "Condition": 500009
+  },
+  {
+    "Id": 1422,
+    "SkillLevelGroupId": 1002608,
+    "SkillId": 1,
+    "LevelNewDescribe": "",
+    "Consume": null,
+    "Condition": 0
+  },
+  {
+    "Id": 1423,
+    "SkillLevelGroupId": 1002609,
     "SkillId": 1,
     "LevelNewDescribe": "",
     "Consume": null,

@@ -1204,15 +1204,8 @@
     "IsCommon": true,
     "HasMontagePath": true,
     "ActorClass": null,
-    "Animations": [
-      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Super_Sprint_F_Loop.AM_Super_Sprint_F_Loop"
-    ],
-    "Effects": [
-      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Climb_Ribbon.DA_Fx_Group_Climb_Ribbon",
-      "/Game/Aki/Effect/EffectGroup/ML1AiShengGuYuanMd00501/3C/DA_Fx_Group_3C_MLa_Dash03.DA_Fx_Group_3C_MLa_Dash03",
-      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Move.DA_Fx_Group_Move",
-      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Press_Smoke.DA_Fx_Group_Press_Smoke"
-    ],
+    "Animations": null,
+    "Effects": null,
     "Audios": null,
     "Meshes": null,
     "Materials": null,
@@ -1309,6 +1302,158 @@
     "AnimationBlueprints": null,
     "Others": [
       "/Game/Aki/Character/Vision/VM_Boss/VM_MB1Zhenwuguanzhe/Md00601/Ability/GA_Comboo_Vision_Rogue_Role.GA_Comboo_Vision_Rogue_Role_C"
+    ]
+  },
+  {
+    "Id": 100014,
+    "IsCommon": true,
+    "HasMontagePath": true,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_Super_Sprint_Start_New.GA_Super_Sprint_Start_New_C"
+    ]
+  },
+  {
+    "Id": 100015,
+    "IsCommon": true,
+    "HasMontagePath": true,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_Super_Sprint_Loop.GA_Super_Sprint_Loop_C"
+    ]
+  },
+  {
+    "Id": 100017,
+    "IsCommon": true,
+    "HasMontagePath": true,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_Super_Sprint_End_New.GA_Super_Sprint_End_New_C"
+    ]
+  },
+  {
+    "Id": 100018,
+    "IsCommon": true,
+    "HasMontagePath": false,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_SuperSprint_Passive.GA_SuperSprint_Passive_C"
+    ]
+  },
+  {
+    "Id": 100024,
+    "IsCommon": true,
+    "HasMontagePath": false,
+    "ActorClass": null,
+    "Animations": [
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Land_Roll_Attack01_2.AM_Land_Roll_Attack01_2"
+    ],
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_Super_Sprint_Attack.GA_Super_Sprint_Attack_C"
+    ]
+  },
+  {
+    "Id": 100026,
+    "IsCommon": true,
+    "HasMontagePath": true,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_Super_Sprint_Loop_New.GA_Super_Sprint_Loop_New_C"
+    ]
+  },
+  {
+    "Id": 100027,
+    "IsCommon": true,
+    "HasMontagePath": true,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_Super_Sprint_Attack.GA_Super_Sprint_Attack_C"
+    ]
+  },
+  {
+    "Id": 100028,
+    "IsCommon": true,
+    "HasMontagePath": true,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_Super_Sprint_Stop.GA_Super_Sprint_Stop_C"
+    ]
+  },
+  {
+    "Id": 100029,
+    "IsCommon": true,
+    "HasMontagePath": true,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_Super_Sprint_Start_New_2.GA_Super_Sprint_Start_New_2_C"
+    ]
+  },
+  {
+    "Id": 100030,
+    "IsCommon": true,
+    "HasMontagePath": true,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_Super_Sprint_Start_Yanxu.GA_Super_Sprint_Start_Yanxu_C"
     ]
   }
 ]

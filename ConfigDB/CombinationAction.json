@@ -142,15 +142,19 @@
     "PcKeys": null,
     "GamepadKeys": [
       {
-        "Key": "Gamepad_LeftShoulder",
-        "Value": "Gamepad_DPad_Right"
+        "Key": "Gamepad_Special_Left",
+        "Value": "Gamepad_Special_Right"
+      },
+      {
+        "Key": "GenericUSBController_Button14",
+        "Value": "Gamepad_Special_Right"
       }
     ],
     "SecondaryKeyValidTime": -1,
     "MobileIconPath": "",
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "GamepadVersion": 1
   },
   {
     "Id": 10,

@@ -273,7 +273,7 @@
   },
   {
     "ViewName": "NewMissionTips",
-    "Area": "Center",
+    "Area": "Top",
     "Priority": 5,
     "OnlyShowInMain": true,
     "RootItemIndex": 0,
@@ -360,6 +360,14 @@
     "IsWaitNormal": true
   },
   {
+    "ViewName": "BattleLinkView",
+    "Area": "",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 1,
+    "IsWaitNormal": true
+  },
+  {
     "ViewName": "ActivityUnlockTipBlackCoastView",
     "Area": "Top",
     "Priority": 20,
@@ -404,6 +412,38 @@
     "Area": "NewItemTips",
     "Priority": 0,
     "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true
+  },
+  {
+    "ViewName": "PhantomTipsView",
+    "Area": "PhantomTips",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true
+  },
+  {
+    "ViewName": "ActivityUnlockTipDreamLinkView",
+    "Area": "Top",
+    "Priority": 20,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true
+  },
+  {
+    "ViewName": "SdkTipsPopUpView",
+    "Area": "Top",
+    "Priority": 20,
+    "OnlyShowInMain": false,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true
+  },
+  {
+    "ViewName": "SdkTipsMiddlePopUpView",
+    "Area": "Center",
+    "Priority": 20,
+    "OnlyShowInMain": false,
     "RootItemIndex": 0,
     "IsWaitNormal": true
   }

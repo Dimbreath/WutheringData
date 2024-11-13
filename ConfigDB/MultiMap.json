@@ -351,5 +351,37 @@
     "ConditionId": 0,
     "FloorName": "Area_15_Title",
     "FloorIcon": "SP_MapIcon3"
+  },
+  {
+    "Id": 20,
+    "GroupId": 7,
+    "MapId": 8,
+    "Floor": -1,
+    "MapTilePath": [
+      "T_MapSubTiles_0_-2_HWSK_LAYER1_UI"
+    ],
+    "MiniMapTilePath": [
+      "T_MapSubTiles_0_-2_HWSK_LAYER1_UI"
+    ],
+    "Area": [
+      1202
+    ],
+    "Mark": null,
+    "ConditionId": 0,
+    "FloorName": "Area_1202_Title",
+    "FloorIcon": "SP_MapIcon1"
+  },
+  {
+    "Id": 21,
+    "GroupId": 7,
+    "MapId": 8,
+    "Floor": 0,
+    "MapTilePath": null,
+    "MiniMapTilePath": null,
+    "Area": null,
+    "Mark": null,
+    "ConditionId": 0,
+    "FloorName": "Area_12_Title",
+    "FloorIcon": "SP_MapIcon3"
   }
 ]

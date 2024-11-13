@@ -10,27 +10,28 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1402001001,
-      1402002001,
-      1402003001,
-      1402004001,
-      1402004003,
-      1402200001,
-      1402007002,
-      1402006001,
-      1402009001,
-      1402203014,
-      1402203024,
-      1402203034,
-      1402203044
+      1402001001.0,
+      1402002001.0,
+      1402003001.0,
+      1402004001.0,
+      1402004003.0,
+      1402200001.0,
+      1402007002.0,
+      1402006001.0,
+      1402009001.0,
+      1402203014.0,
+      1402203024.0,
+      1402203034.0,
+      1402203044.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.SP_IconNorKnife",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangC1_UI.T_IconYangyangC1_UI",
     "SortIndex": 1,
     "SkillDescribe": "Skill_1000101_SkillDescribe",
-    "SkillResume": "Skill_1000101_SkillDescribe",
+    "SkillResume": "Skill_1000101_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000101_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -45,28 +46,29 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1402105004,
-      1402105005,
-      1402105024,
-      1402105025,
-      1402105034,
-      1402105035,
-      1402105044,
-      1402105124,
-      1402105125,
-      1402105134,
-      1402105135,
-      1402105054,
-      1402105104,
-      1402105105
+      1402105004.0,
+      1402105005.0,
+      1402105024.0,
+      1402105025.0,
+      1402105034.0,
+      1402105035.0,
+      1402105044.0,
+      1402105124.0,
+      1402105125.0,
+      1402105134.0,
+      1402105135.0,
+      1402105054.0,
+      1402105104.0,
+      1402105105.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYangyang/SP_IconYangyangB1.SP_IconYangyangB1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangB1_UI.T_IconYangyangB1_UI",
     "SortIndex": 2,
     "SkillDescribe": "Skill_1000102_SkillDescribe",
-    "SkillResume": "Skill_1000102_SkillDescribe",
+    "SkillResume": "Skill_1000102_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000102_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -81,16 +83,17 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1402301001,
-      1402301002
+      1402301001.0,
+      1402301002.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYangyang/SP_IconYangyangC1.SP_IconYangyangC1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangA1_UI.T_IconYangyangA1_UI",
     "SortIndex": 3,
     "SkillDescribe": "Skill_1000103_SkillDescribe",
-    "SkillResume": "Skill_1000103_SkillDescribe",
+    "SkillResume": "Skill_1000103_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000103_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -109,9 +112,12 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangD2_UI.T_IconYangyangD2_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1000104_SkillDescribe",
-    "SkillResume": "Skill_1000104_SkillDescribe",
+    "SkillResume": "Skill_1000104_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "30"
+    ],
+    "SkillResumeNum": [
       "30"
     ],
     "MultiSkillDescribe": "Skill_1000104_SkillDescribe",
@@ -134,9 +140,13 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangD2_UI.T_IconYangyangD2_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1000105_SkillDescribe",
-    "SkillResume": "Skill_1000105_SkillDescribe",
+    "SkillResume": "Skill_1000105_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "8%",
+      "8"
+    ],
+    "SkillResumeNum": [
       "8%",
       "8"
     ],
@@ -157,15 +167,16 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1402601001
+      1402601001.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYangyang/SP_IconYangyangQTE.SP_IconYangyangQTE",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1000106_SkillDescribe",
-    "SkillResume": "Skill_1000106_SkillDescribe",
+    "SkillResume": "Skill_1000106_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000106_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -180,20 +191,29 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1402203001,
-      1402203002,
-      1402203003,
-      1402203005,
-      1402203009,
-      1402203004
+      1402203001.0,
+      1402203002.0,
+      1402203003.0,
+      1402203005.0,
+      1402203009.0,
+      1402203004.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYangyang/SP_IconYangyangY.SP_IconYangyangY",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangD1_UI.T_IconYangyangD1_UI",
     "SortIndex": 5,
     "SkillDescribe": "Skill_1000107_SkillDescribe",
-    "SkillResume": "Skill_1000107_SkillDescribe",
+    "SkillResume": "Skill_1000107_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "3",
+      "3",
+      "3",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "SkillResumeNum": [
       "3",
       "3",
       "3",
@@ -228,9 +248,10 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangD2_UI.T_IconYangyangD2_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1000308_SkillDescribe",
-    "SkillResume": "Skill_1000308_SkillDescribe",
+    "SkillResume": "Skill_1000308_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000308_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -245,26 +266,27 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1202001001,
-      1202002001,
-      1202003001,
-      1202004001,
-      1202005001,
-      1202007001,
-      1202007002,
-      1202101001,
-      1202102001,
-      1202103001,
-      1202104001,
-      1202004003
+      1202001001.0,
+      1202002001.0,
+      1202003001.0,
+      1202004001.0,
+      1202005001.0,
+      1202007001.0,
+      1202007002.0,
+      1202101001.0,
+      1202102001.0,
+      1202103001.0,
+      1202104001.0,
+      1202004003.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorGun.SP_IconNorGun",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconMaxiaofangC1_UI.T_IconMaxiaofangC1_UI",
     "SortIndex": 1,
     "SkillDescribe": "Skill_1000201_SkillDescribe",
-    "SkillResume": "Skill_1000201_SkillDescribe",
+    "SkillResume": "Skill_1000201_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000201_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -279,15 +301,18 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1202008001
+      1202008001.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconMaxiaofang/SP_IconMaxiaofangB1.SP_IconMaxiaofangB1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconMaxiaofangB1_UI.T_IconMaxiaofangB1_UI",
     "SortIndex": 2,
     "SkillDescribe": "Skill_1000202_SkillDescribe",
-    "SkillResume": "Skill_1000202_SkillDescribe",
+    "SkillResume": "Skill_1000202_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "2"
+    ],
+    "SkillResumeNum": [
       "2"
     ],
     "MultiSkillDescribe": "Skill_1000202_SkillDescribe",
@@ -306,16 +331,17 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1202011001,
-      1202011002
+      1202011001.0,
+      1202011002.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconMaxiaofang/SP_IconMaxiaofangC1.SP_IconMaxiaofangC1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconMaxiaofangA1_UI.T_IconMaxiaofangA1_UI",
     "SortIndex": 3,
     "SkillDescribe": "Skill_1000203_SkillDescribe",
-    "SkillResume": "Skill_1000203_SkillDescribe",
+    "SkillResume": "Skill_1000203_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000203_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -334,9 +360,13 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconMaxiaofangD1_UI.T_IconMaxiaofangD1_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1000204_SkillDescribe",
-    "SkillResume": "Skill_1000204_SkillDescribe",
+    "SkillResume": "Skill_1000204_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "10",
+      "50%"
+    ],
+    "SkillResumeNum": [
       "10",
       "50%"
     ],
@@ -361,9 +391,14 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconMaxiaofangD2_UI.T_IconMaxiaofangD2_UI",
     "SortIndex": 5,
     "SkillDescribe": "Skill_1000205_SkillDescribe",
-    "SkillResume": "Skill_1000205_SkillDescribe",
+    "SkillResume": "Skill_1000205_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "1%",
+      "10",
+      "30"
+    ],
+    "SkillResumeNum": [
       "1%",
       "10",
       "30"
@@ -386,16 +421,17 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1202051001,
-      1202051002
+      1202051001.0,
+      1202051002.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconMaxiaofang/SP_IconMaxiaofangQTE.SP_IconMaxiaofangQTE",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconMaxiaofangQTE_UI.T_IconMaxiaofangQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1000206_SkillDescribe",
-    "SkillResume": "Skill_1000206_SkillDescribe",
+    "SkillResume": "Skill_1000206_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000206_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -410,16 +446,21 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1202009001,
-      1202009002
+      1202009001.0,
+      1202009002.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconMaxiaofang/SP_IconMaxiaofangY.SP_IconMaxiaofangY",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1000207_SkillDescribe",
-    "SkillResume": "Skill_1000207_SkillDescribe",
+    "SkillResume": "Skill_1000207_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "30",
+      "60",
+      "10"
+    ],
+    "SkillResumeNum": [
       "30",
       "60",
       "10"
@@ -446,9 +487,10 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 8,
     "SkillDescribe": "Skill_1000308_SkillDescribe",
-    "SkillResume": "Skill_1000308_SkillDescribe",
+    "SkillResume": "Skill_1000308_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000308_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -463,25 +505,26 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1503001002,
-      1503002002,
-      1503003002,
-      1503004002,
-      1503005002,
-      1503007002,
-      1503011101,
-      1503012101,
-      1503013101,
-      1503103001,
-      1503608011
+      1503001002.0,
+      1503002002.0,
+      1503003002.0,
+      1503004002.0,
+      1503005002.0,
+      1503007002.0,
+      1503011101.0,
+      1503012101.0,
+      1503013101.0,
+      1503103001.0,
+      1503608011.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.SP_IconNorMagic",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconJueyuanC1_UI.T_IconJueyuanC1_UI",
     "SortIndex": 1,
     "SkillDescribe": "Skill_1000301_SkillDescribe",
-    "SkillResume": "Skill_1000301_SkillDescribe",
+    "SkillResume": "Skill_1000301_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000301_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -496,16 +539,17 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1503021002,
-      1503021003
+      1503021002.0,
+      1503021003.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJueyuan/SP_IconJueyuanB1.SP_IconJueyuanB1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconJueyuanB1_UI.T_IconJueyuanB1_UI",
     "SortIndex": 2,
     "SkillDescribe": "Skill_1000302_SkillDescribe",
-    "SkillResume": "Skill_1000302_SkillDescribe",
+    "SkillResume": "Skill_1000302_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000302_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -520,19 +564,20 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1503031101,
-      1503031014,
-      1503031004,
-      1503031013,
-      1503031006
+      1503031101.0,
+      1503031014.0,
+      1503031004.0,
+      1503031013.0,
+      1503031006.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJueyuan/SP_IconJueyuanC1.SP_IconJueyuanC1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconJueyuanA1_UI.T_IconJueyuanA1_UI",
     "SortIndex": 3,
     "SkillDescribe": "Skill_1000303_SkillDescribe",
-    "SkillResume": "Skill_1000303_SkillDescribe",
+    "SkillResume": "Skill_1000303_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000303_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -551,9 +596,14 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiD1_UI.T_IconWeilinaiD1_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1000304_SkillDescribe",
-    "SkillResume": "Skill_1000304_SkillDescribe",
+    "SkillResume": "Skill_1000304_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "120%",
+      "10",
+      "10"
+    ],
+    "SkillResumeNum": [
       "120%",
       "10",
       "10"
@@ -580,9 +630,13 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiD2_UI.T_IconWeilinaiD2_UI",
     "SortIndex": 5,
     "SkillDescribe": "Skill_1000305_SkillDescribe",
-    "SkillResume": "Skill_1000305_SkillDescribe",
+    "SkillResume": "Skill_1000305_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "20%",
+      "20"
+    ],
+    "SkillResumeNum": [
       "20%",
       "20"
     ],
@@ -603,15 +657,16 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1503401011
+      1503401011.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJueyuan/SP_IconJueyuanQTE.SP_IconJueyuanQTE",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiQTE_UI.T_IconWeilinaiQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1000306_SkillDescribe",
-    "SkillResume": "Skill_1000306_SkillDescribe",
+    "SkillResume": "Skill_1000306_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000306_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -626,20 +681,27 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1503608014,
-      1503608015,
-      1503608003,
-      1503011111,
-      1503012111,
-      1503013111
+      1503608014.0,
+      1503608015.0,
+      1503608003.0,
+      1503011111.0,
+      1503012111.0,
+      1503013111.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJueyuan/SP_IconJueyuanY.SP_IconJueyuanY",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1000307_SkillDescribe",
-    "SkillResume": "Skill_1000307_SkillDescribe",
+    "SkillResume": "Skill_1000307_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "1",
+      "4",
+      "1",
+      "1",
+      "1"
+    ],
+    "SkillResumeNum": [
       "1",
       "4",
       "1",
@@ -670,9 +732,10 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 8,
     "SkillDescribe": "Skill_1000308_SkillDescribe",
-    "SkillResume": "Skill_1000308_SkillDescribe",
+    "SkillResume": "Skill_1000308_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000308_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -687,22 +750,23 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1103100101,
-      1103100201,
-      1103100301,
-      1103100401,
-      1103110001,
-      1103100501,
-      1103120001,
-      11030100503
+      1103100101.0,
+      1103100201.0,
+      1103100301.0,
+      1103100401.0,
+      1103110001.0,
+      1103100501.0,
+      1103120001.0,
+      11030100503.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.SP_IconNorMagic",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconBailianC1_UI.T_IconBailianC1_UI",
     "SortIndex": 1,
     "SkillDescribe": "Skill_1000401_SkillDescribe",
-    "SkillResume": "Skill_1000401_SkillDescribe",
+    "SkillResume": "Skill_1000401_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000401_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -717,16 +781,17 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1103200002,
-      1103200012
+      1103200002.0,
+      1103200012.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconBailian/SP_IconBailianB1.SP_IconBailianB1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconBailianB1_UI.T_IconBailianB1_UI",
     "SortIndex": 2,
     "SkillDescribe": "Skill_1000402_SkillDescribe",
-    "SkillResume": "Skill_1000402_SkillDescribe",
+    "SkillResume": "Skill_1000402_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000402_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -741,18 +806,23 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1103130001,
-      1103200003,
-      1103200001,
-      1103200014
+      1103130001.0,
+      1103200003.0,
+      1103200001.0,
+      1103200014.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconBailian/SP_IconBailianC1.SP_IconBailianC1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconBailianA1_UI.T_IconBailianA1_UI",
     "SortIndex": 3,
     "SkillDescribe": "Skill_1000403_SkillDescribe",
-    "SkillResume": "Skill_1000403_SkillDescribe",
+    "SkillResume": "Skill_1000403_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "4",
+      "2.5",
+      "1"
+    ],
+    "SkillResumeNum": [
       "4",
       "2.5",
       "1"
@@ -779,9 +849,14 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconBailianD1_UI.T_IconBailianD1_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1000404_SkillDescribe",
-    "SkillResume": "Skill_1000404_SkillDescribe",
+    "SkillResume": "Skill_1000404_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "15",
+      "15%",
+      "20"
+    ],
+    "SkillResumeNum": [
       "15",
       "15%",
       "20"
@@ -808,9 +883,12 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconBailianD2_UI.T_IconBailianD2_UI",
     "SortIndex": 5,
     "SkillDescribe": "Skill_1000405_SkillDescribe",
-    "SkillResume": "Skill_1000405_SkillDescribe",
+    "SkillResume": "Skill_1000405_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "0.25%"
+    ],
+    "SkillResumeNum": [
       "0.25%"
     ],
     "MultiSkillDescribe": "Skill_1000405_SkillDescribe",
@@ -829,16 +907,17 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1103160001,
-      1103160002
+      1103160001.0,
+      1103160002.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconBailian/SP_IconBailianQTE.SP_IconBailianQTE",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconBailianQTE_UI.T_IconBailianQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1000406_SkillDescribe",
-    "SkillResume": "Skill_1000406_SkillDescribe",
+    "SkillResume": "Skill_1000406_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000406_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -853,15 +932,22 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1103426000
+      1103426000.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconBailian/SP_IconBailianY.SP_IconBailianY",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1000407_SkillDescribe",
-    "SkillResume": "Skill_1000407_SkillDescribe",
+    "SkillResume": "Skill_1000407_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "1",
+      "1",
+      "2",
+      "4",
+      "1"
+    ],
+    "SkillResumeNum": [
       "1",
       "1",
       "2",
@@ -892,9 +978,10 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 8,
     "SkillDescribe": "Skill_1000408_SkillDescribe",
-    "SkillResume": "Skill_1000408_SkillDescribe",
+    "SkillResume": "Skill_1000408_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000408_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -909,23 +996,24 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1102001001,
-      1102002001,
-      1102003001,
-      1102004001,
-      1102004002,
-      1102005002,
-      1102007001,
-      1102009001,
-      1102010001
+      1102001001.0,
+      1102002001.0,
+      1102003001.0,
+      1102004001.0,
+      1102004002.0,
+      1102005002.0,
+      1102007001.0,
+      1102009001.0,
+      1102010001.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.SP_IconNorKnife",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconSanhuaC1_UI.T_IconSanhuaC1_UI",
     "SortIndex": 1,
     "SkillDescribe": "Skill_1000501_SkillDescribe",
-    "SkillResume": "Skill_1000501_SkillDescribe",
+    "SkillResume": "Skill_1000501_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000501_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -940,15 +1028,18 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1102020011
+      1102020011.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconSanhua/SP_IconSanhuaB1.SP_IconSanhuaB1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconSanhuaB1_UI.T_IconSanhuaB1_UI",
     "SortIndex": 2,
     "SkillDescribe": "Skill_1000502_SkillDescribe",
-    "SkillResume": "Skill_1000502_SkillDescribe",
+    "SkillResume": "Skill_1000502_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "1"
+    ],
+    "SkillResumeNum": [
       "1"
     ],
     "MultiSkillDescribe": "Skill_1000502_SkillDescribe",
@@ -967,15 +1058,19 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1102030002
+      1102030002.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconSanhua/SP_IconSanhuaC1.SP_IconSanhuaC1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconSanhuaA1_UI.T_IconSanhuaA1_UI",
     "SortIndex": 3,
     "SkillDescribe": "Skill_1000503_SkillDescribe",
-    "SkillResume": "Skill_1000503_SkillDescribe",
+    "SkillResume": "Skill_1000503_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "1",
+      "5"
+    ],
+    "SkillResumeNum": [
       "1",
       "5"
     ],
@@ -1000,9 +1095,13 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1000504_SkillDescribe",
-    "SkillResume": "Skill_1000504_SkillDescribe",
+    "SkillResume": "Skill_1000504_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "20%",
+      "8"
+    ],
+    "SkillResumeNum": [
       "20%",
       "8"
     ],
@@ -1027,9 +1126,13 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconSanhuaD2_UI.T_IconSanhuaD2_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1000505_SkillDescribe",
-    "SkillResume": "Skill_1000505_SkillDescribe",
+    "SkillResume": "Skill_1000505_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "20%",
+      "8"
+    ],
+    "SkillResumeNum": [
       "20%",
       "8"
     ],
@@ -1050,15 +1153,16 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1102040002
+      1102040002.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconSanhua/SP_IconSanhuaQTE.SP_IconSanhuaQTE",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconSanhuaQTE_UI.T_IconSanhuaQTE_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1000506_SkillDescribe",
-    "SkillResume": "Skill_1000506_SkillDescribe",
+    "SkillResume": "Skill_1000506_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000506_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -1073,18 +1177,27 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1102011001,
-      1102020003,
-      1102030010,
-      1102040003
+      1102011001.0,
+      1102020003.0,
+      1102030010.0,
+      1102040003.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconSanhua/SP_IconSanhuaY.SP_IconSanhuaY",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconSanhuaD1_UI.T_IconSanhuaD1_UI",
     "SortIndex": 5,
     "SkillDescribe": "Skill_1000507_SkillDescribe",
-    "SkillResume": "Skill_1000507_SkillDescribe",
+    "SkillResume": "Skill_1000507_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "1",
+      "2",
+      "1",
+      "1",
+      "1",
+      "2",
+      "5"
+    ],
+    "SkillResumeNum": [
       "1",
       "2",
       "1",
@@ -1119,9 +1232,10 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 8,
     "SkillDescribe": "Skill_1000308_SkillDescribe",
-    "SkillResume": "Skill_1000308_SkillDescribe",
+    "SkillResume": "Skill_1000308_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000308_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -1136,23 +1250,24 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1502001001,
-      1502002001,
-      1502003001,
-      1502004001,
-      1502008001,
-      1502009002,
-      1502006001,
-      1502007002,
-      1502007003
+      1502001001.0,
+      1502002001.0,
+      1502003001.0,
+      1502004001.0,
+      1502008001.0,
+      1502009002.0,
+      1502006001.0,
+      1502007002.0,
+      1502007003.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.SP_IconNorKnife",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconNvzhuC1_UI.T_IconNvzhuC1_UI",
     "SortIndex": 1,
     "SkillDescribe": "Skill_1000601_SkillDescribe",
-    "SkillResume": "Skill_1000601_SkillDescribe",
+    "SkillResume": "Skill_1000601_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000601_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -1167,15 +1282,16 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1502100101
+      1502100101.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconZhujue/SP_IconZhujueB1.SP_IconZhujueB1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconNvzhuB1_UI.T_IconNvzhuB1_UI",
     "SortIndex": 2,
     "SkillDescribe": "Skill_1000602_SkillDescribe",
-    "SkillResume": "Skill_1000602_SkillDescribe",
+    "SkillResume": "Skill_1000602_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000602_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -1190,16 +1306,17 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1502110101,
-      1502100303
+      1502110101.0,
+      1502100303.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconZhujue/SP_IconZhujueC1.SP_IconZhujueC1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconNvzhuA1_UI.T_IconNvzhuA1_UI",
     "SortIndex": 3,
     "SkillDescribe": "Skill_1000603_SkillDescribe",
-    "SkillResume": "Skill_1000603_SkillDescribe",
+    "SkillResume": "Skill_1000603_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000603_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -1218,9 +1335,12 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconNvzhuD2_UI.T_IconnvzhuD2_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1000604_SkillDescribe",
-    "SkillResume": "Skill_1000604_SkillDescribe",
+    "SkillResume": "Skill_1000604_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "60%"
+    ],
+    "SkillResumeNum": [
       "60%"
     ],
     "MultiSkillDescribe": "Skill_1000604_SkillDescribe",
@@ -1243,9 +1363,13 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1000605_SkillDescribe",
-    "SkillResume": "Skill_1000605_SkillDescribe",
+    "SkillResume": "Skill_1000605_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "15%",
+      "5"
+    ],
+    "SkillResumeNum": [
       "15%",
       "5"
     ],
@@ -1266,15 +1390,16 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1502009003
+      1502009003.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconZhujue/SP_IconZhujueQTE.SP_IconZhujueQTE",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconNvzhuQTE_UI.T_IconnvzhuQTE_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1000606_SkillDescribe",
-    "SkillResume": "Skill_1000606_SkillDescribe",
+    "SkillResume": "Skill_1000606_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000606_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -1289,18 +1414,23 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1502100201,
-      1502100205,
-      1502005001,
-      1502005002
+      1502100201.0,
+      1502100205.0,
+      1502005001.0,
+      1502005002.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconZhujue/SP_IconZhujueY.SP_IconZhujueY",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconNvzhuD1_UI.T_IconnvzhuD1_UI",
     "SortIndex": 5,
     "SkillDescribe": "Skill_1000607_SkillDescribe",
-    "SkillResume": "Skill_1000607_SkillDescribe",
+    "SkillResume": "Skill_1000607_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "50",
+      "50",
+      "100"
+    ],
+    "SkillResumeNum": [
       "50",
       "50",
       "100"
@@ -1327,9 +1457,10 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 8,
     "SkillDescribe": "Skill_1000608_SkillDescribe",
-    "SkillResume": "Skill_1000608_SkillDescribe",
+    "SkillResume": "Skill_1000608_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000608_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -1344,24 +1475,25 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1203600001,
-      1203600002,
-      1203600003,
-      1203600004,
-      1203003011,
-      1203900001,
-      1203100002,
-      1203007001,
-      1203600913,
-      1203600914
+      1203600001.0,
+      1203600002.0,
+      1203600003.0,
+      1203600004.0,
+      1203003011.0,
+      1203900001.0,
+      1203100002.0,
+      1203007001.0,
+      1203600913.0,
+      1203600914.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.SP_IconNorMagic",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconAnkeC1_UI.T_IconAnkeC1_UI",
     "SortIndex": 1,
     "SkillDescribe": "Skill_1000701_SkillDescribe",
-    "SkillResume": "Skill_1000701_SkillDescribe",
+    "SkillResume": "Skill_1000701_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000701_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -1376,16 +1508,17 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1203001986,
-      1203201001
+      1203001986.0,
+      1203201001.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconAnke/SP_IconAnkeB1.SP_IconAnkeB1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconAnkeB1_UI.T_IconAnkeB1_UI",
     "SortIndex": 2,
     "SkillDescribe": "Skill_1000702_SkillDescribe",
-    "SkillResume": "Skill_1000702_SkillDescribe",
+    "SkillResume": "Skill_1000702_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000702_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -1400,34 +1533,35 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1203301001,
-      1203301003,
-      1203302002,
-      1203302003,
-      1203302004,
-      1203304002,
-      1203304003,
-      1203304004,
-      1203304005,
-      1203305002,
-      1203305003,
-      1203305004,
-      1203110001,
-      1203303002,
-      1203303003,
-      1203303005,
-      1203408002,
-      1203408003,
-      1203408004,
-      1203408005
+      1203301001.0,
+      1203301003.0,
+      1203302002.0,
+      1203302003.0,
+      1203302004.0,
+      1203304002.0,
+      1203304003.0,
+      1203304004.0,
+      1203304005.0,
+      1203305002.0,
+      1203305003.0,
+      1203305004.0,
+      1203110001.0,
+      1203303002.0,
+      1203303003.0,
+      1203303005.0,
+      1203408002.0,
+      1203408003.0,
+      1203408004.0,
+      1203408005.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconAnke/SP_IconAnkeC1.SP_IconAnkeC1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconAnkeA1_UI.T_IconAnkeA1_UI",
     "SortIndex": 3,
     "SkillDescribe": "Skill_1000703_SkillDescribe",
-    "SkillResume": "Skill_1000703_SkillDescribe",
+    "SkillResume": "Skill_1000703_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000703_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -1441,16 +1575,20 @@
     "MaxSkillLevel": 1,
     "SkillInfoList": null,
     "BuffList": [
-      1203802001
+      1203802001.0
     ],
     "DamageList": null,
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconAnke/SP_IconAnkeD1.SP_IconAnkeD1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconAnkeD2_UI.T_IconAnkeD2_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1000704_SkillDescribe",
-    "SkillResume": "Skill_1000704_SkillDescribe",
+    "SkillResume": "Skill_1000704_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "70%",
+      "10%"
+    ],
+    "SkillResumeNum": [
       "70%",
       "10%"
     ],
@@ -1470,16 +1608,20 @@
     "MaxSkillLevel": 1,
     "SkillInfoList": null,
     "BuffList": [
-      1203801001
+      1203801001.0
     ],
     "DamageList": null,
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconAnke/SP_IconAnkeD2.SP_IconAnkeD2",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1000705_SkillDescribe",
-    "SkillResume": "Skill_1000705_SkillDescribe",
+    "SkillResume": "Skill_1000705_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "10%",
+      "10"
+    ],
+    "SkillResumeNum": [
       "10%",
       "10"
     ],
@@ -1500,15 +1642,16 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1203601002
+      1203601002.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconAnke/SP_IconAnkeQTE.SP_IconAnkeQTE",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconAnkeQTE_UI.T_IconAnkeQTE_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1000706_SkillDescribe",
-    "SkillResume": "Skill_1000706_SkillDescribe",
+    "SkillResume": "Skill_1000706_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000706_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -1523,20 +1666,25 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1203110002,
-      1203110102,
-      1203311001,
-      1203001990,
-      1203311101,
-      1203001991
+      1203110002.0,
+      1203110102.0,
+      1203311001.0,
+      1203001990.0,
+      1203311101.0,
+      1203001991.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconAnke/SP_IconAnkeY.SP_IconAnkeY",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconAnkeD1_UI.T_IconAnkeD1_UI",
     "SortIndex": 5,
     "SkillDescribe": "Skill_1000707_SkillDescribe",
-    "SkillResume": "Skill_1000707_SkillDescribe",
+    "SkillResume": "Skill_1000707_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "70%",
+      "70%",
+      "100"
+    ],
+    "SkillResumeNum": [
       "70%",
       "70%",
       "100"
@@ -1563,9 +1711,10 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1000708_SkillDescribe",
-    "SkillResume": "Skill_1000708_SkillDescribe",
+    "SkillResume": "Skill_1000708_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000708_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -1580,22 +1729,23 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1602001001,
-      1602001002,
-      1602001003,
-      1602100001,
-      1602003023,
-      1602003024,
-      1602003025,
-      1602021001
+      1602001001.0,
+      1602001002.0,
+      1602001003.0,
+      1602100001.0,
+      1602003023.0,
+      1602003024.0,
+      1602003025.0,
+      1602021001.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.SP_IconNorKnife",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconmicaiC1_UI.T_IconmicaiC1_UI",
     "SortIndex": 1,
     "SkillDescribe": "Skill_1000801_SkillDescribe",
-    "SkillResume": "Skill_1000801_SkillDescribe",
+    "SkillResume": "Skill_1000801_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000801_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -1610,27 +1760,32 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1602201001,
-      1602201002,
-      1602202001,
-      1602202002,
-      1602203001,
-      1602204001,
-      1602204002,
-      1602205001,
-      1602205002,
-      1602205003,
-      1602206001,
-      1602206002,
-      1602206003
+      1602201001.0,
+      1602201002.0,
+      1602202001.0,
+      1602202002.0,
+      1602203001.0,
+      1602204001.0,
+      1602204002.0,
+      1602205001.0,
+      1602205002.0,
+      1602205003.0,
+      1602206001.0,
+      1602206002.0,
+      1602206003.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconMicai/SP_IconMicaiB1.SP_IconMicaiB1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconMicaiB1_UI.T_IconMicaiB1_UI",
     "SortIndex": 2,
     "SkillDescribe": "Skill_1000802_SkillDescribe",
-    "SkillResume": "Skill_1000802_SkillDescribe",
+    "SkillResume": "Skill_1000802_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "3%",
+      "1%",
+      "20%"
+    ],
+    "SkillResumeNum": [
       "3%",
       "1%",
       "20%"
@@ -1653,16 +1808,19 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1602301001,
-      1602301002
+      1602301001.0,
+      1602301002.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconMicai/SP_IconMicaiC1.SP_IconMicaiC1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconMicaiA1_UI.T_IconMicaiA1_UI",
     "SortIndex": 3,
     "SkillDescribe": "Skill_1000803_SkillDescribe",
-    "SkillResume": "Skill_1000803_SkillDescribe",
+    "SkillResume": "Skill_1000803_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "1"
+    ],
+    "SkillResumeNum": [
       "1"
     ],
     "MultiSkillDescribe": "Skill_1000803_SkillDescribe",
@@ -1685,9 +1843,12 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconmicaiD2_UI.T_IconmicaiD2_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1000804_SkillDescribe",
-    "SkillResume": "Skill_1000804_SkillDescribe",
+    "SkillResume": "Skill_1000804_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "20%"
+    ],
+    "SkillResumeNum": [
       "20%"
     ],
     "MultiSkillDescribe": "Skill_1000804_SkillDescribe",
@@ -1710,9 +1871,13 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1000805_SkillDescribe",
-    "SkillResume": "Skill_1000805_SkillDescribe",
+    "SkillResume": "Skill_1000805_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "30%",
+      "5"
+    ],
+    "SkillResumeNum": [
       "30%",
       "5"
     ],
@@ -1733,16 +1898,17 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1602004001,
-      1602004002
+      1602004001.0,
+      1602004002.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconMicai/SP_IconMicaiQTE.SP_IconMicaiQTE",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconmicaiQTE_UI.T_IconmicaiQTE_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1000806_SkillDescribe",
-    "SkillResume": "Skill_1000806_SkillDescribe",
+    "SkillResume": "Skill_1000806_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000806_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -1757,20 +1923,26 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1602101001,
-      1602101002,
-      1602102001,
-      1602101004,
-      1602101005,
-      1602102002
+      1602101001.0,
+      1602101002.0,
+      1602102001.0,
+      1602101004.0,
+      1602101005.0,
+      1602102002.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconMicai/SP_IconMicaiY.SP_IconMicaiY",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconmicaiD1_UI.T_IconmicaiD1_UI",
     "SortIndex": 5,
     "SkillDescribe": "Skill_1000807_SkillDescribe",
-    "SkillResume": "Skill_1000807_SkillDescribe",
+    "SkillResume": "Skill_1000807_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "60",
+      "120",
+      "120",
+      "120"
+    ],
+    "SkillResumeNum": [
       "60",
       "120",
       "120",
@@ -1799,9 +1971,10 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 8,
     "SkillDescribe": "Skill_1000808_SkillDescribe",
-    "SkillResume": "Skill_1000808_SkillDescribe",
+    "SkillResume": "Skill_1000808_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000808_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -1831,23 +2004,27 @@
     ],
     "BuffList": null,
     "DamageList": [
-      1601001001,
-      1601002001,
-      1601002002,
-      1601003002,
-      1601003003,
-      1601004001,
-      1601005001,
-      1601011001,
-      1601022001
+      1601001001.0,
+      1601002001.0,
+      1601002002.0,
+      1601003002.0,
+      1601003003.0,
+      1601004001.0,
+      1601005001.0,
+      1601011001.0,
+      1601022001.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorSword.SP_IconNorSword",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconTaoHuaC1_UI.T_IconTaoHuaC1_UI",
     "SortIndex": 1,
     "SkillDescribe": "Skill_1000901_SkillDescribe",
-    "SkillResume": "Skill_1000901_SkillDescribe",
+    "SkillResume": "Skill_1000901_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "35%",
+      "3"
+    ],
+    "SkillResumeNum": [
       "35%",
       "3"
     ],
@@ -1871,16 +2048,20 @@
     ],
     "BuffList": null,
     "DamageList": [
-      1601030001,
-      1601030301
+      1601030001.0,
+      1601030301.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconTaohua/SP_IconTaoHuaB1.SP_IconTaoHuaB1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconTaoHuaB1_UI.T_IconTaoHuaB1_UI",
     "SortIndex": 2,
     "SkillDescribe": "Skill_1000902_SkillDescribe",
-    "SkillResume": "Skill_1000902_SkillDescribe",
+    "SkillResume": "Skill_1000902_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "3",
+      "1"
+    ],
+    "SkillResumeNum": [
       "3",
       "1"
     ],
@@ -1903,15 +2084,18 @@
     ],
     "BuffList": null,
     "DamageList": [
-      1601040001
+      1601040001.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconTaohua/SP_IconTaoHuaC1.SP_IconTaoHuaC1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconTaoHuaA1_UI.T_IconTaoHuaA1_UI",
     "SortIndex": 3,
     "SkillDescribe": "Skill_1000903_SkillDescribe",
-    "SkillResume": "Skill_1000903_SkillDescribe",
+    "SkillResume": "Skill_1000903_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "2"
+    ],
+    "SkillResumeNum": [
       "2"
     ],
     "MultiSkillDescribe": "Skill_1000903_SkillDescribe",
@@ -1929,16 +2113,19 @@
     "MaxSkillLevel": 1,
     "SkillInfoList": null,
     "BuffList": [
-      1601951001
+      1601951001.0
     ],
     "DamageList": null,
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconTaohua/SP_IconTaoHuaD1.SP_IconTaoHuaD1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconTaoHuaD2_UI.T_IconTaoHuaD2_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1000904_SkillDescribe",
-    "SkillResume": "Skill_1000904_SkillDescribe",
+    "SkillResume": "Skill_1000904_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "15%"
+    ],
+    "SkillResumeNum": [
       "15%"
     ],
     "MultiSkillDescribe": "Skill_1000904_SkillDescribe",
@@ -1956,16 +2143,19 @@
     "MaxSkillLevel": 1,
     "SkillInfoList": null,
     "BuffList": [
-      1601952001
+      1601952001.0
     ],
     "DamageList": null,
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconTaohua/SP_IconTaoHuaD2.SP_IconTaoHuaD2",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconTaoHuaD2_UI.T_IconTaoHuaD2_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1000905_SkillDescribe",
-    "SkillResume": "Skill_1000905_SkillDescribe",
+    "SkillResume": "Skill_1000905_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "25"
+    ],
+    "SkillResumeNum": [
       "25"
     ],
     "MultiSkillDescribe": "Skill_1000905_SkillDescribe",
@@ -1988,18 +2178,19 @@
       1601063
     ],
     "BuffList": [
-      1601061010
+      1601061010.0
     ],
     "DamageList": [
-      1601061001
+      1601061001.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconTaohua/SP_IconTaoHuaQTE.SP_IconTaoHuaQTE",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconTaoHuaQTE_UI.T_IconTaoHuaQTE_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1000906_SkillDescribe",
-    "SkillResume": "Skill_1000906_SkillDescribe",
+    "SkillResume": "Skill_1000906_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000906_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -2017,28 +2208,33 @@
       1601027
     ],
     "BuffList": [
-      1601025101,
-      1601026101,
-      1601027101,
-      1601025102,
-      1601026102,
-      1601027102
+      1601025101.0,
+      1601026101.0,
+      1601027101.0,
+      1601025102.0,
+      1601026102.0,
+      1601027102.0
     ],
     "DamageList": [
-      1601021001,
-      1601025001,
-      1601026001,
-      1601027001,
-      1601028001,
-      1601020010
+      1601021001.0,
+      1601025001.0,
+      1601026001.0,
+      1601027001.0,
+      1601028001.0,
+      1601020010.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconTaohua/SP_IconTaoHuaY.SP_IconTaoHuaY",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconTaoHuaD1_UI.T_IconTaoHuaD1_UI",
     "SortIndex": 5,
     "SkillDescribe": "Skill_1000907_SkillDescribe",
-    "SkillResume": "Skill_1000907_SkillDescribe",
+    "SkillResume": "Skill_1000907_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "1",
+      "3",
+      "1"
+    ],
+    "SkillResumeNum": [
       "1",
       "3",
       "1"
@@ -2065,9 +2261,10 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 8,
     "SkillDescribe": "Skill_1000308_SkillDescribe",
-    "SkillResume": "Skill_1000308_SkillDescribe",
+    "SkillResume": "Skill_1000308_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000308_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -2082,62 +2279,65 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1403001001,
-      1403002001,
-      1403003001,
-      1403003002,
-      1403004001,
-      1403004002,
-      1403005001,
-      1403005010,
-      1403005011,
-      1403005012,
-      1403020001,
-      1403020002,
-      1403020011,
-      1403020012,
-      1403020021,
-      1403020022,
-      1403020031,
-      1403020032,
-      1403040006,
-      1403060001,
-      1403060002,
-      1403001010,
-      1403001011,
-      1403001012,
-      1403002020,
-      1403002021,
-      1403002022,
-      1403040001,
-      1403060010,
-      1403060011,
-      1403060012,
-      1403003011,
-      1403003012,
-      1403003013,
-      1403003021,
-      1403003022,
-      1403003023,
-      1403004011,
-      1403004012,
-      1403004013,
-      1403004021,
-      1403004022,
-      1403004023,
-      1403009001,
-      1403009011,
-      1403009012,
-      1403009013,
-      1403040003
+      1403001001.0,
+      1403002001.0,
+      1403003001.0,
+      1403003002.0,
+      1403004001.0,
+      1403004002.0,
+      1403005001.0,
+      1403005010.0,
+      1403005011.0,
+      1403005012.0,
+      1403020001.0,
+      1403020002.0,
+      1403020011.0,
+      1403020012.0,
+      1403020021.0,
+      1403020022.0,
+      1403020031.0,
+      1403020032.0,
+      1403040006.0,
+      1403060001.0,
+      1403060002.0,
+      1403001010.0,
+      1403001011.0,
+      1403001012.0,
+      1403002020.0,
+      1403002021.0,
+      1403002022.0,
+      1403040001.0,
+      1403060010.0,
+      1403060011.0,
+      1403060012.0,
+      1403003011.0,
+      1403003012.0,
+      1403003013.0,
+      1403003021.0,
+      1403003022.0,
+      1403003023.0,
+      1403004011.0,
+      1403004012.0,
+      1403004013.0,
+      1403004021.0,
+      1403004022.0,
+      1403004023.0,
+      1403009001.0,
+      1403009011.0,
+      1403009012.0,
+      1403009013.0,
+      1403040003.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorGun.SP_IconNorGun",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconQiushuiC1_UI.T_IconQiushuiC1_UI",
     "SortIndex": 1,
     "SkillDescribe": "Skill_1001001_SkillDescribe",
-    "SkillResume": "Skill_1001001_SkillDescribe",
+    "SkillResume": "Skill_1001001_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "1.5"
+    ],
+    "SkillResumeNum": [
       "1.5"
     ],
     "MultiSkillDescribe": "Skill_1001001_SkillDescribe",
@@ -2156,15 +2356,19 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1403030111
+      1403030111.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconQiushui/SP_IconQiushuiB1.SP_IconQiushuiB1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconQiushuiB1_UI.T_IconQiushuiB1_UI",
     "SortIndex": 2,
     "SkillDescribe": "Skill_1001002_SkillDescribe",
-    "SkillResume": "Skill_1001002_SkillDescribe",
+    "SkillResume": "Skill_1001002_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "1",
+      "6"
+    ],
+    "SkillResumeNum": [
       "1",
       "6"
     ],
@@ -2186,18 +2390,21 @@
       1403080
     ],
     "BuffList": [
-      1403080001
+      1403080001.0
     ],
     "DamageList": [
-      1403080020
+      1403080020.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconQiushui/SP_IconQiushuiC1.SP_IconQiushuiC1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconQiushuiA1_UI.T_IconQiushuiA1_UI",
     "SortIndex": 3,
     "SkillDescribe": "Skill_1001003_SkillDescribe",
-    "SkillResume": "Skill_1001003_SkillDescribe",
+    "SkillResume": "Skill_1001003_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "10"
+    ],
+    "SkillResumeNum": [
       "10"
     ],
     "MultiSkillDescribe": "Skill_1001003_SkillDescribe",
@@ -2215,16 +2422,19 @@
     "MaxSkillLevel": 1,
     "SkillInfoList": null,
     "BuffList": [
-      1403907001
+      1403907001.0
     ],
     "DamageList": null,
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconQiushui/SP_IconQiushuiD1.SP_IconQiushuiD1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconQiushuiQTE_UI.T_IconQiushuiQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1001004_SkillDescribe",
-    "SkillResume": "Skill_1001004_SkillDescribe",
+    "SkillResume": "Skill_1001004_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "30"
+    ],
+    "SkillResumeNum": [
       "30"
     ],
     "MultiSkillDescribe": "Skill_1001004_SkillDescribe",
@@ -2242,16 +2452,17 @@
     "MaxSkillLevel": 1,
     "SkillInfoList": null,
     "BuffList": [
-      1403907101
+      1403907101.0
     ],
     "DamageList": null,
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconQiushui/SP_IconQiushuiD2.SP_IconQiushuiD2",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconQiushuiQTE_UI.T_IconQiushuiQTE_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1001005_SkillDescribe",
-    "SkillResume": "Skill_1001005_SkillDescribe",
+    "SkillResume": "Skill_1001005_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001005_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -2266,17 +2477,18 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1403070001,
-      1403070002,
-      1403070003
+      1403070001.0,
+      1403070002.0,
+      1403070003.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconQiushui/SP_IconQiushuiQTE.SP_IconQiushuiQTE",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconQiushuiQTE_UI.T_IconQiushuiQTE_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1001006_SkillDescribe",
-    "SkillResume": "Skill_1001006_SkillDescribe",
+    "SkillResume": "Skill_1001006_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001006_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -2291,15 +2503,21 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1403030030
+      1403030030.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconQiushui/SP_IconQiushuiY.SP_IconQiushuiY",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconQiushuiD1_UI.T_IconQiushuiD1_UI",
     "SortIndex": 5,
     "SkillDescribe": "Skill_1001007_SkillDescribe",
-    "SkillResume": "Skill_1001007_SkillDescribe",
+    "SkillResume": "Skill_1001007_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "1",
+      "1",
+      "6",
+      "1"
+    ],
+    "SkillResumeNum": [
       "1",
       "1",
       "6",
@@ -2328,9 +2546,10 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconQiushuiQTE_UI.T_IconQiushuiQTE_UI",
     "SortIndex": 8,
     "SkillDescribe": "Skill_1000308_SkillDescribe",
-    "SkillResume": "Skill_1000308_SkillDescribe",
+    "SkillResume": "Skill_1000308_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000308_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -2345,36 +2564,37 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1404001001,
-      1404002001,
-      1404003004,
-      1404004001,
-      1404004002,
-      1404005003,
-      1404005001,
-      1404005002,
-      1404005004,
-      1404005005,
-      1404005006,
-      1404100001,
-      1404100002,
-      1404100003,
-      1404100004,
-      1404100006,
-      1404100005,
-      1404100007,
-      1404009001,
-      1404009002,
-      1404100008,
-      1404003005
+      1404001001.0,
+      1404002001.0,
+      1404003004.0,
+      1404004001.0,
+      1404004002.0,
+      1404005003.0,
+      1404005001.0,
+      1404005002.0,
+      1404005004.0,
+      1404005005.0,
+      1404005006.0,
+      1404100001.0,
+      1404100002.0,
+      1404100003.0,
+      1404100004.0,
+      1404100006.0,
+      1404100005.0,
+      1404100007.0,
+      1404009001.0,
+      1404009002.0,
+      1404100008.0,
+      1404003005.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorSword.SP_IconNorSword",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangC1_UI.T_IconYangyangC1_UI",
     "SortIndex": 1,
     "SkillDescribe": "Skill_1001101_SkillDescribe",
-    "SkillResume": "Skill_1001101_SkillDescribe",
+    "SkillResume": "Skill_1001101_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001101_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -2389,16 +2609,17 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1404200001,
-      1404200002
+      1404200001.0,
+      1404200002.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJiyan/SP_IconJiyanB1.SP_IconJiyanB1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangB1_UI.T_IconYangyangB1_UI",
     "SortIndex": 2,
     "SkillDescribe": "Skill_1001102_SkillDescribe",
-    "SkillResume": "Skill_1001102_SkillDescribe",
+    "SkillResume": "Skill_1001102_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001102_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -2413,23 +2634,26 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1404301001,
-      1404301002,
-      1404301003,
-      1404301004,
-      1404301005,
-      1404301006,
-      1404301009,
-      1404301008,
-      1404301007
+      1404301001.0,
+      1404301002.0,
+      1404301003.0,
+      1404301004.0,
+      1404301005.0,
+      1404301006.0,
+      1404301009.0,
+      1404301008.0,
+      1404301007.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJiyan/SP_IconJiyanC1.SP_IconJiyanC1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangA1_UI.T_IconYangyangA1_UI",
     "SortIndex": 3,
     "SkillDescribe": "Skill_1001103_SkillDescribe",
-    "SkillResume": "Skill_1001103_SkillDescribe",
+    "SkillResume": "Skill_1001103_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "10"
+    ],
+    "SkillResumeNum": [
       "10"
     ],
     "MultiSkillDescribe": "Skill_1001103_SkillDescribe",
@@ -2447,16 +2671,20 @@
     "MaxSkillLevel": 1,
     "SkillInfoList": null,
     "BuffList": [
-      1404801001
+      1404801001.0
     ],
     "DamageList": null,
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJiyan/SP_IconJiyanD1.SP_IconJiyanD1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangD2_UI.T_IconYangyangD2_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1001104_SkillDescribe",
-    "SkillResume": "Skill_1001104_SkillDescribe",
+    "SkillResume": "Skill_1001104_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "10%",
+      "15"
+    ],
+    "SkillResumeNum": [
       "10%",
       "15"
     ],
@@ -2476,16 +2704,20 @@
     "MaxSkillLevel": 1,
     "SkillInfoList": null,
     "BuffList": [
-      1404802002
+      1404802002.0
     ],
     "DamageList": null,
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJiyan/SP_IconJiyanD2.SP_IconJiyanD2",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1001105_SkillDescribe",
-    "SkillResume": "Skill_1001105_SkillDescribe",
+    "SkillResume": "Skill_1001105_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "12%",
+      "8"
+    ],
+    "SkillResumeNum": [
       "12%",
       "8"
     ],
@@ -2506,16 +2738,17 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1404009008,
-      1404009009
+      1404009008.0,
+      1404009009.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJiyan/SP_IconJiyanQTE.SP_IconJiyanQTE",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1001106_SkillDescribe",
-    "SkillResume": "Skill_1001106_SkillDescribe",
+    "SkillResume": "Skill_1001106_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001106_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -2530,23 +2763,33 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1404302001,
-      1404302003,
-      1404302011,
-      1404302012,
-      1404302013,
-      1404302021,
-      1404302022,
-      1404302023,
-      1404302002
+      1404302001.0,
+      1404302003.0,
+      1404302011.0,
+      1404302012.0,
+      1404302013.0,
+      1404302021.0,
+      1404302022.0,
+      1404302023.0,
+      1404302002.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJiyan/SP_IconJiyanY.SP_IconJiyanY",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangD1_UI.T_IconYangyangD1_UI",
     "SortIndex": 5,
     "SkillDescribe": "Skill_1001107_SkillDescribe",
-    "SkillResume": "Skill_1001107_SkillDescribe",
+    "SkillResume": "Skill_1001107_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "30",
+      "30",
+      "20%",
+      "20%",
+      "30",
+      "30",
+      "60",
+      "15"
+    ],
+    "SkillResumeNum": [
       "30",
       "30",
       "20%",
@@ -2583,9 +2826,10 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1000308_SkillDescribe",
-    "SkillResume": "Skill_1000308_SkillDescribe",
+    "SkillResume": "Skill_1000308_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000308_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -2600,28 +2844,29 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1204001001,
-      1204002001,
-      1204002002,
-      1204003001,
-      1204004001,
-      1204004002,
-      1204004003,
-      1204004004,
-      1204004005,
-      1204005001,
-      1204005002,
-      1204008023,
-      1204008024,
-      1204003002
+      1204001001.0,
+      1204002001.0,
+      1204002002.0,
+      1204003001.0,
+      1204004001.0,
+      1204004002.0,
+      1204004003.0,
+      1204004004.0,
+      1204004005.0,
+      1204005001.0,
+      1204005002.0,
+      1204008023.0,
+      1204008024.0,
+      1204003002.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorGun.SP_IconNorGun",
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiA_UI.T_IconMotefeiA_UI",
     "SortIndex": 1,
     "SkillDescribe": "Skill_1001201_SkillDescribe",
-    "SkillResume": "Skill_1001201_SkillDescribe",
+    "SkillResume": "Skill_1001201_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001201_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -2636,15 +2881,16 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1204006010
+      1204006010.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconMotefei/SP_IconMotefeiB1.SP_IconMotefeiB1",
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiB_UI.T_IconMotefeiB_UI",
     "SortIndex": 2,
     "SkillDescribe": "Skill_1001202_SkillDescribe",
-    "SkillResume": "Skill_1001202_SkillDescribe",
+    "SkillResume": "Skill_1001202_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001202_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -2659,16 +2905,21 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1204030015,
-      1204020010
+      1204030015.0,
+      1204020010.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconMotefei/SP_IconMotefeiC1.SP_IconMotefeiC1",
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiY_UI.T_IconMotefeiY_UI",
     "SortIndex": 3,
     "SkillDescribe": "Skill_1001203_SkillDescribe",
-    "SkillResume": "Skill_1001203_SkillDescribe",
+    "SkillResume": "Skill_1001203_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "1",
+      "2",
+      "0.35"
+    ],
+    "SkillResumeNum": [
       "1",
       "2",
       "0.35"
@@ -2695,9 +2946,13 @@
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiD1_UI.T_IconMotefeiD1_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1001204_SkillDescribe",
-    "SkillResume": "Skill_1001204_SkillDescribe",
+    "SkillResume": "Skill_1001204_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "8",
+      "25%"
+    ],
+    "SkillResumeNum": [
       "8",
       "25%"
     ],
@@ -2722,9 +2977,14 @@
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiD2_UI.T_IconMotefeiD2_UI",
     "SortIndex": 5,
     "SkillDescribe": "Skill_1001205_SkillDescribe",
-    "SkillResume": "Skill_1001205_SkillDescribe",
+    "SkillResume": "Skill_1001205_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "1.5%",
+      "0.35",
+      "50"
+    ],
+    "SkillResumeNum": [
       "1.5%",
       "0.35",
       "50"
@@ -2747,15 +3007,16 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1204010001
+      1204010001.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconMotefei/SP_IconMotefeiQTE.SP_IconMotefeiQTE",
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiQTE_UI.T_IconMotefeiQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1001206_SkillDescribe",
-    "SkillResume": "Skill_1001206_SkillDescribe",
+    "SkillResume": "Skill_1001206_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001206_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -2770,15 +3031,20 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1204006020
+      1204006020.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconMotefei/SP_IconMotefeiY.SP_IconMotefeiY",
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiC_UI.T_IconMotefeiC_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1001207_SkillDescribe",
-    "SkillResume": "Skill_1001207_SkillDescribe",
+    "SkillResume": "Skill_1001207_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "100",
+      "100",
+      "5"
+    ],
+    "SkillResumeNum": [
       "100",
       "100",
       "5"
@@ -2805,9 +3071,10 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 8,
     "SkillDescribe": "Skill_1000308_SkillDescribe",
-    "SkillResume": "Skill_1000308_SkillDescribe",
+    "SkillResume": "Skill_1000308_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000308_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -2822,34 +3089,40 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1603001001,
-      1603002001,
-      1603002002,
-      1603002003,
-      1603002004,
-      1603003001,
-      1603004001,
-      1603004002,
-      1603004003,
-      1603004004,
-      1603005001,
-      1603100001,
-      1603100002,
-      1603100003,
-      1603100004,
-      1603100005,
-      1603200001,
-      1603202001,
-      1603200003,
-      1603210110
+      1603001001.0,
+      1603002001.0,
+      1603002002.0,
+      1603003001.0,
+      1603003002.0,
+      1603003003.0,
+      1603004001.0,
+      1603004002.0,
+      1603004003.0,
+      1603004004.0,
+      1603005000.0,
+      1603005001.0,
+      1603005002.0,
+      1603005005.0,
+      1603100001.0,
+      1603100002.0,
+      1603200003.0,
+      1603200004.0,
+      1603200005.0,
+      1603500100.0,
+      1603500101.0,
+      1603500102.0,
+      1603200903.0,
+      1603200904.0,
+      1603200905.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.SP_IconNorKnife",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconmicaiC1_UI.T_IconmicaiC1_UI",
     "SortIndex": 1,
     "SkillDescribe": "Skill_1001301_SkillDescribe",
-    "SkillResume": "Skill_1001301_SkillDescribe",
+    "SkillResume": "Skill_1001301_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001301_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -2864,17 +3137,35 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1603010001,
-      1603010002,
-      1603020001
+      1603101001.0,
+      1603102001.0,
+      1603102002.0,
+      1603103001.0,
+      1603103003.0,
+      1603104000.0,
+      1603104001.0,
+      1603104004.0,
+      1603010001.0,
+      1603010002.0,
+      1603011001.0,
+      1603011002.0,
+      1603011003.0,
+      1603011004.0,
+      1603011005.0,
+      1603012001.0,
+      1603012002.0,
+      1603012003.0,
+      1603500200.0,
+      1603500201.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconChun/SP_IconChunB1.SP_IconChunB1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconMicaiB1_UI.T_IconMicaiB1_UI",
     "SortIndex": 2,
     "SkillDescribe": "Skill_1001302_SkillDescribe",
-    "SkillResume": "Skill_1001302_SkillDescribe",
+    "SkillResume": "Skill_1001302_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001302_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -2889,17 +3180,18 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1603300001,
-      1603300002,
-      1603300003
+      1603300001.0,
+      1603300901.0,
+      1603300911.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconChun/SP_IconChunC1.SP_IconChunC1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconMicaiA1_UI.T_IconMicaiA1_UI",
     "SortIndex": 3,
     "SkillDescribe": "Skill_1001303_SkillDescribe",
-    "SkillResume": "Skill_1001303_SkillDescribe",
+    "SkillResume": "Skill_1001303_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001303_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -2912,19 +3204,24 @@
     "LeftSkillEffect": 0,
     "MaxSkillLevel": 1,
     "SkillInfoList": null,
-    "BuffList": [
-      1603802002
-    ],
+    "BuffList": null,
     "DamageList": null,
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconChun/SP_IconChunD1.SP_IconChunD1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconmicaiD2_UI.T_IconmicaiD2_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1001304_SkillDescribe",
-    "SkillResume": "Skill_1001304_SkillDescribe",
+    "SkillResume": "Skill_1001304_SkillResume",
     "SkillTagList": null,
-    "SkillDetailNum": null,
+    "SkillDetailNum": [
+      "15%"
+    ],
+    "SkillResumeNum": [
+      "15%"
+    ],
     "MultiSkillDescribe": "Skill_1001304_SkillDescribe",
-    "MultiSkillDetailNum": null
+    "MultiSkillDetailNum": [
+      "15%"
+    ]
   },
   {
     "Id": 1001305,
@@ -2935,19 +3232,24 @@
     "LeftSkillEffect": 0,
     "MaxSkillLevel": 1,
     "SkillInfoList": null,
-    "BuffList": [
-      1603801002
-    ],
+    "BuffList": null,
     "DamageList": null,
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconChun/SP_IconChunD2.SP_IconChunD2",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconmicaiD2_UI.T_IconmicaiD2_UI",
     "SortIndex": 5,
     "SkillDescribe": "Skill_1001305_SkillDescribe",
-    "SkillResume": "Skill_1001305_SkillDescribe",
+    "SkillResume": "Skill_1001305_SkillResume",
     "SkillTagList": null,
-    "SkillDetailNum": null,
+    "SkillDetailNum": [
+      "15%"
+    ],
+    "SkillResumeNum": [
+      "15%"
+    ],
     "MultiSkillDescribe": "Skill_1001305_SkillDescribe",
-    "MultiSkillDetailNum": null
+    "MultiSkillDetailNum": [
+      "15%"
+    ]
   },
   {
     "Id": 1001306,
@@ -2960,16 +3262,17 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1603600001,
-      1603600002
+      1603600001.0,
+      1603600901.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconChun/SP_IconChunQTE.SP_IconChunQTE",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconmicaiQTE_UI.T_IconmicaiQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1001306_SkillDescribe",
-    "SkillResume": "Skill_1001306_SkillDescribe",
+    "SkillResume": "Skill_1001306_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001306_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -2982,23 +3285,78 @@
     "LeftSkillEffect": 0,
     "MaxSkillLevel": 10,
     "SkillInfoList": null,
-    "BuffList": [
-      1603900002,
-      1603901002,
-      1603902002,
-      1603905001,
-      1603905002
+    "BuffList": null,
+    "DamageList": [
+      1603014001.0,
+      1603014901.0
     ],
-    "DamageList": null,
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconChun/SP_IconChunY.SP_IconChunY",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1001307_SkillDescribe",
-    "SkillResume": "Skill_1001307_SkillDescribe",
+    "SkillResume": "Skill_1001307_SkillResume",
     "SkillTagList": null,
-    "SkillDetailNum": null,
+    "SkillDetailNum": [
+      "150%",
+      "10",
+      "4",
+      "1",
+      "15",
+      "10",
+      "70",
+      "100",
+      "50%",
+      "5%",
+      "50%",
+      "0%",
+      "100",
+      "100",
+      "50",
+      "20",
+      "20",
+      "100"
+    ],
+    "SkillResumeNum": [
+      "150%",
+      "10",
+      "4",
+      "1",
+      "15",
+      "10",
+      "70",
+      "100",
+      "50%",
+      "5%",
+      "50%",
+      "0%",
+      "100",
+      "100",
+      "50",
+      "20",
+      "20",
+      "100"
+    ],
     "MultiSkillDescribe": "Skill_1001307_SkillDescribe",
-    "MultiSkillDetailNum": null
+    "MultiSkillDetailNum": [
+      "150%",
+      "10",
+      "4",
+      "1",
+      "15",
+      "10",
+      "70",
+      "100",
+      "50%",
+      "5%",
+      "50%",
+      "0%",
+      "100",
+      "100",
+      "50",
+      "20",
+      "20",
+      "100"
+    ]
   },
   {
     "Id": 1001308,
@@ -3015,9 +3373,10 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 8,
     "SkillDescribe": "Skill_1001308_SkillDescribe",
-    "SkillResume": "Skill_1001308_SkillDescribe",
+    "SkillResume": "Skill_1001308_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001308_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -3032,32 +3391,33 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1301001001,
-      1301001002,
-      1301002001,
-      1301003001,
-      1301003002,
-      1301004001,
-      1301004011,
-      1301004012,
-      1301006001,
-      1301700001,
-      1301004003,
-      1301004004,
-      1301500001,
-      1301200901,
-      1301200902,
-      1301200903,
-      1301200904,
-      1301200905
+      1301001001.0,
+      1301001002.0,
+      1301002001.0,
+      1301003001.0,
+      1301003002.0,
+      1301004001.0,
+      1301004011.0,
+      1301004012.0,
+      1301006001.0,
+      1301700001.0,
+      1301004003.0,
+      1301004004.0,
+      1301500001.0,
+      1301200901.0,
+      1301200902.0,
+      1301200903.0,
+      1301200904.0,
+      1301200905.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorSword.SP_IconNorSword",
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiA_UI.T_IconMotefeiA_UI",
     "SortIndex": 1,
     "SkillDescribe": "Skill_1001401_SkillDescribe",
-    "SkillResume": "Skill_1001401_SkillDescribe",
+    "SkillResume": "Skill_1001401_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001401_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -3072,22 +3432,23 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1301011001,
-      1301011011,
-      1301011021,
-      1301011002,
-      1301011003,
-      1301011004,
-      1301011005,
-      1301011006
+      1301011001.0,
+      1301011011.0,
+      1301011021.0,
+      1301011002.0,
+      1301011003.0,
+      1301011004.0,
+      1301011005.0,
+      1301011006.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconKakaluo/SP_IconKakaluoB1.SP_IconKakaluoB1",
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiB_UI.T_IconMotefeiB_UI",
     "SortIndex": 2,
     "SkillDescribe": "Skill_1001402_SkillDescribe",
-    "SkillResume": "Skill_1001402_SkillDescribe",
+    "SkillResume": "Skill_1001402_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001402_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -3102,37 +3463,38 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1301400001,
-      1301401001,
-      1301402001,
-      1301402002,
-      1301902001,
-      1301902002,
-      1301403001,
-      1301404001,
-      1301404002,
-      1301404003,
-      1301404004,
-      1301405001,
-      1301704001,
-      1301704002,
-      1301704003,
-      1301704004,
-      1301200906,
-      1301200907,
-      1301200908,
-      1301200909,
-      1301200910,
-      1301410001,
-      1301410002
+      1301400001.0,
+      1301401001.0,
+      1301402001.0,
+      1301402002.0,
+      1301902001.0,
+      1301902002.0,
+      1301403001.0,
+      1301404001.0,
+      1301404002.0,
+      1301404003.0,
+      1301404004.0,
+      1301405001.0,
+      1301704001.0,
+      1301704002.0,
+      1301704003.0,
+      1301704004.0,
+      1301200906.0,
+      1301200907.0,
+      1301200908.0,
+      1301200909.0,
+      1301200910.0,
+      1301410001.0,
+      1301410002.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconKakaluo/SP_IconKakaluoC1.SP_IconKakaluoC1",
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiY_UI.T_IconMotefeiY_UI",
     "SortIndex": 3,
     "SkillDescribe": "Skill_1001403_SkillDescribe",
-    "SkillResume": "Skill_1001403_SkillDescribe",
+    "SkillResume": "Skill_1001403_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001403_SkillDescribe",
     "MultiSkillDetailNum": [
       "11"
@@ -3153,9 +3515,13 @@
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiD1_UI.T_IconMotefeiD1_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1001404_SkillDescribe",
-    "SkillResume": "Skill_1001404_SkillDescribe",
+    "SkillResume": "Skill_1001404_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "10%",
+      "15"
+    ],
+    "SkillResumeNum": [
       "10%",
       "15"
     ],
@@ -3180,9 +3546,13 @@
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiD2_UI.T_IconMotefeiD2_UI",
     "SortIndex": 5,
     "SkillDescribe": "Skill_1001405_SkillDescribe",
-    "SkillResume": "Skill_1001405_SkillDescribe",
+    "SkillResume": "Skill_1001405_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "15%",
+      "5"
+    ],
+    "SkillResumeNum": [
       "15%",
       "5"
     ],
@@ -3203,18 +3573,19 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1301600001,
-      1301600002,
-      1301600011,
-      1301600012
+      1301600001.0,
+      1301600002.0,
+      1301600011.0,
+      1301600012.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconKakaluo/SP_IconKakaluoQTE.SP_IconKakaluoQTE",
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiQTE_UI.T_IconMotefeiQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1001406_SkillDescribe",
-    "SkillResume": "Skill_1001406_SkillDescribe",
+    "SkillResume": "Skill_1001406_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001406_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -3229,32 +3600,41 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1301200001,
-      1301200002,
-      1301200003,
-      1301200009,
-      1301200010,
-      1301200008,
-      1301200004,
-      1301200005,
-      1301200006,
-      1301220001,
-      1301220002,
-      1301220003,
-      1301220009,
-      1301220010,
-      1301220008,
-      1301220004,
-      1301220005,
-      1301220006
+      1301200001.0,
+      1301200002.0,
+      1301200003.0,
+      1301200009.0,
+      1301200010.0,
+      1301200008.0,
+      1301200004.0,
+      1301200005.0,
+      1301200006.0,
+      1301220001.0,
+      1301220002.0,
+      1301220003.0,
+      1301220009.0,
+      1301220010.0,
+      1301220008.0,
+      1301220004.0,
+      1301220005.0,
+      1301220006.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconKakaluo/SP_IconKakaluoY.SP_IconKakaluoY",
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiC_UI.T_IconMotefeiC_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1001407_SkillDescribe",
-    "SkillResume": "Skill_1001407_SkillDescribe",
+    "SkillResume": "Skill_1001407_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "3",
+      "3",
+      "3",
+      "1",
+      "5",
+      "5",
+      "5"
+    ],
+    "SkillResumeNum": [
       "3",
       "3",
       "3",
@@ -3289,9 +3669,10 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 8,
     "SkillDescribe": "Skill_1001408_SkillDescribe",
-    "SkillResume": "Skill_1001408_SkillDescribe",
+    "SkillResume": "Skill_1001408_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001408_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -3306,35 +3687,36 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1302001001,
-      1302002001,
-      1302002002,
-      1302003001,
-      1302003002,
-      1302003003,
-      1302003004,
-      1302003005,
-      1302003006,
-      1302003007,
-      1302004001,
-      1302010001,
-      1302010002,
-      1302060001,
-      1302070001,
-      1302070002,
-      1302070003,
-      1302070004,
-      1302070005,
-      1302070006,
-      1302070007
+      1302001001.0,
+      1302002001.0,
+      1302002002.0,
+      1302003001.0,
+      1302003002.0,
+      1302003003.0,
+      1302003004.0,
+      1302003005.0,
+      1302003006.0,
+      1302003007.0,
+      1302004001.0,
+      1302010001.0,
+      1302010002.0,
+      1302060001.0,
+      1302070001.0,
+      1302070002.0,
+      1302070003.0,
+      1302070004.0,
+      1302070005.0,
+      1302070006.0,
+      1302070007.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.SP_IconNorMagic",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYinlinC1_UI.T_IconYinlinC1_UI",
     "SortIndex": 1,
     "SkillDescribe": "Skill_1001501_SkillDescribe",
-    "SkillResume": "Skill_1001501_SkillDescribe",
+    "SkillResume": "Skill_1001501_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001501_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -3349,18 +3731,21 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1302020001,
-      1302021001,
-      1302021010,
-      1302020030
+      1302020001.0,
+      1302021001.0,
+      1302021010.0,
+      1302020030.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYinlin/SP_IconYinlinB1.SP_IconYinlinB1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYinlinB1_UI.T_IconYinlinB1_UI",
     "SortIndex": 2,
     "SkillDescribe": "Skill_1001502_SkillDescribe",
-    "SkillResume": "Skill_1001502_SkillDescribe",
+    "SkillResume": "Skill_1001502_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "8"
+    ],
+    "SkillResumeNum": [
       "8"
     ],
     "MultiSkillDescribe": "Skill_1001502_SkillDescribe",
@@ -3379,15 +3764,16 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1302040002
+      1302040002.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYinlin/SP_IconYinlinC1.SP_IconYinlinC1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYinlinA1_UI.T_IconYinlinA1_UI",
     "SortIndex": 3,
     "SkillDescribe": "Skill_1001503_SkillDescribe",
-    "SkillResume": "Skill_1001503_SkillDescribe",
+    "SkillResume": "Skill_1001503_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001503_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -3406,9 +3792,13 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYinlinD2_UI.T_IconYinlinD2_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1001504_SkillDescribe",
-    "SkillResume": "Skill_1001504_SkillDescribe",
+    "SkillResume": "Skill_1001504_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "15%",
+      "5"
+    ],
+    "SkillResumeNum": [
       "15%",
       "5"
     ],
@@ -3433,9 +3823,14 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYinlinD2_UI.T_IconYinlinD2_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1001505_SkillDescribe",
-    "SkillResume": "Skill_1001505_SkillDescribe",
+    "SkillResume": "Skill_1001505_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "10%",
+      "10%",
+      "4"
+    ],
+    "SkillResumeNum": [
       "10%",
       "10%",
       "4"
@@ -3458,16 +3853,17 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1302050010,
-      1302050011
+      1302050010.0,
+      1302050011.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYinlin/SP_IconYinlinQTE.SP_IconYinlinQTE",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYinlinQTE_UI.T_IconYinlinQTE_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1001506_SkillDescribe",
-    "SkillResume": "Skill_1001506_SkillDescribe",
+    "SkillResume": "Skill_1001506_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001506_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -3482,18 +3878,22 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1302020041,
-      1302013010,
-      1302013011,
-      1302020043
+      1302020041.0,
+      1302013010.0,
+      1302013011.0,
+      1302020043.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYinlin/SP_IconYinlinY.SP_IconYinlinY",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYinlinD1_UI.T_IconYinlinD1_UI",
     "SortIndex": 5,
     "SkillDescribe": "Skill_1001507_SkillDescribe",
-    "SkillResume": "Skill_1001507_SkillDescribe",
+    "SkillResume": "Skill_1001507_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "18",
+      "100"
+    ],
+    "SkillResumeNum": [
       "18",
       "100"
     ],
@@ -3518,9 +3918,10 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYinlinD2_UI.T_IconYinlinD2_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1000308_SkillDescribe",
-    "SkillResume": "Skill_1000308_SkillDescribe",
+    "SkillResume": "Skill_1000308_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1000308_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -3535,28 +3936,29 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1303001001,
-      1303002001,
-      1303002002,
-      1303003001,
-      1303003002,
-      1303003003,
-      1303004001,
-      1303004002,
-      1303005001,
-      1303005002,
-      1303006001,
-      1303400004,
-      1303400005,
-      1303100001
+      1303001001.0,
+      1303002001.0,
+      1303002002.0,
+      1303003001.0,
+      1303003002.0,
+      1303003003.0,
+      1303004001.0,
+      1303004002.0,
+      1303005001.0,
+      1303005002.0,
+      1303006001.0,
+      1303400004.0,
+      1303400005.0,
+      1303100001.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.SP_IconNorFist",
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiA_UI.T_IconMotefeiA_UI",
     "SortIndex": 1,
     "SkillDescribe": "Skill_1001601_SkillDescribe",
-    "SkillResume": "Skill_1001601_SkillDescribe",
+    "SkillResume": "Skill_1001601_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001601_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -3571,18 +3973,23 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1303200001,
-      1303210001,
-      1303201001,
-      1303904003
+      1303200001.0,
+      1303210001.0,
+      1303201001.0,
+      1303904003.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYuanwu/SP_IconYuanwuB1.SP_IconYuanwuB1",
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiB_UI.T_IconMotefeiB_UI",
     "SortIndex": 2,
     "SkillDescribe": "Skill_1001602_SkillDescribe",
-    "SkillResume": "Skill_1001602_SkillDescribe",
+    "SkillResume": "Skill_1001602_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "12",
+      "1.2",
+      "1.5"
+    ],
+    "SkillResumeNum": [
       "12",
       "1.2",
       "1.5"
@@ -3605,16 +4012,19 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1303300001,
-      1303300002
+      1303300001.0,
+      1303300002.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYuanwu/SP_IconYuanwuC1.SP_IconYuanwuC1",
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiY_UI.T_IconMotefeiY_UI",
     "SortIndex": 3,
     "SkillDescribe": "Skill_1001603_SkillDescribe",
-    "SkillResume": "Skill_1001603_SkillDescribe",
+    "SkillResume": "Skill_1001603_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "10"
+    ],
+    "SkillResumeNum": [
       "10"
     ],
     "MultiSkillDescribe": "Skill_1001603_SkillDescribe",
@@ -3637,9 +4047,12 @@
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiD1_UI.T_IconMotefeiD1_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1001604_SkillDescribe",
-    "SkillResume": "Skill_1001604_SkillDescribe",
+    "SkillResume": "Skill_1001604_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "40%"
+    ],
+    "SkillResumeNum": [
       "40%"
     ],
     "MultiSkillDescribe": "Skill_1001604_SkillDescribe",
@@ -3662,9 +4075,12 @@
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiD2_UI.T_IconMotefeiD2_UI",
     "SortIndex": 5,
     "SkillDescribe": "Skill_1001605_SkillDescribe",
-    "SkillResume": "Skill_1001605_SkillDescribe",
+    "SkillResume": "Skill_1001605_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "1"
+    ],
+    "SkillResumeNum": [
       "1"
     ],
     "MultiSkillDescribe": "Skill_1001605_SkillDescribe",
@@ -3683,15 +4099,16 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1303600002
+      1303600002.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYuanwu/SP_IconYuanwuQTE.SP_IconYuanwuQTE",
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiQTE_UI.T_IconMotefeiQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1001606_SkillDescribe",
-    "SkillResume": "Skill_1001606_SkillDescribe",
+    "SkillResume": "Skill_1001606_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001606_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -3706,37 +4123,43 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1303001101,
-      1303001102,
-      1303001103,
-      1303001104,
-      1303001105,
-      1303001106,
-      1303001107,
-      1303001108,
-      1303001109,
-      1303001110,
-      1303001111,
-      1303001112,
-      1303001113,
-      1303001114,
-      1303400001,
-      1303400002,
-      1303400003,
-      1303100011,
-      1303100002,
-      1303100003,
-      1303100004,
-      1303904005,
-      1303904015
+      1303001101.0,
+      1303001102.0,
+      1303001103.0,
+      1303001104.0,
+      1303001105.0,
+      1303001106.0,
+      1303001107.0,
+      1303001108.0,
+      1303001109.0,
+      1303001110.0,
+      1303001111.0,
+      1303001112.0,
+      1303001113.0,
+      1303001114.0,
+      1303400001.0,
+      1303400002.0,
+      1303400003.0,
+      1303100011.0,
+      1303100002.0,
+      1303100003.0,
+      1303100004.0,
+      1303904005.0,
+      1303904015.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYuanwu/SP_IconYuanwuY.SP_IconYuanwuY",
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiC_UI.T_IconMotefeiC_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1001607_SkillDescribe",
-    "SkillResume": "Skill_1001607_SkillDescribe",
+    "SkillResume": "Skill_1001607_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "3",
+      "100",
+      "6",
+      "5"
+    ],
+    "SkillResumeNum": [
       "3",
       "100",
       "6",
@@ -3765,9 +4188,10 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 8,
     "SkillDescribe": "Skill_1001608_SkillDescribe",
-    "SkillResume": "Skill_1001608_SkillDescribe",
+    "SkillResume": "Skill_1001608_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001608_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -3782,26 +4206,27 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1604001001,
-      1604002001,
-      1604002002,
-      1604003001,
-      1604003002,
-      1604003003,
-      1604003005,
-      1604003006,
-      1604003007,
-      1604006001,
-      1604007001,
-      1604009001
+      1604001001.0,
+      1604002001.0,
+      1604002002.0,
+      1604003001.0,
+      1604003002.0,
+      1604003003.0,
+      1604003005.0,
+      1604003006.0,
+      1604003007.0,
+      1604006001.0,
+      1604007001.0,
+      1604009001.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.SP_IconNorKnife",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconNvzhuC1_UI.T_IconNvzhuC1_UI",
     "SortIndex": 1,
     "SkillDescribe": "Skill_1001701_SkillDescribe",
-    "SkillResume": "Skill_1001701_SkillDescribe",
+    "SkillResume": "Skill_1001701_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001701_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -3816,16 +4241,17 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1604005001,
-      1604005002
+      1604005001.0,
+      1604005002.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconZhujueDark/SP_IconZhujueDarkB1.SP_IconZhujueDarkB1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconNvzhuB1_UI.T_IconNvzhuB1_UI",
     "SortIndex": 2,
     "SkillDescribe": "Skill_1001702_SkillDescribe",
-    "SkillResume": "Skill_1001702_SkillDescribe",
+    "SkillResume": "Skill_1001702_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001702_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -3840,15 +4266,16 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1604007004
+      1604007004.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconZhujueDark/SP_IconZhujueDarkC1.SP_IconZhujueDarkC1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconNvzhuA1_UI.T_IconNvzhuA1_UI",
     "SortIndex": 3,
     "SkillDescribe": "Skill_1001703_SkillDescribe",
-    "SkillResume": "Skill_1001703_SkillDescribe",
+    "SkillResume": "Skill_1001703_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001703_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -3867,9 +4294,12 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconNvzhuD2_UI.T_IconnvzhuD2_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1001704_SkillDescribe",
-    "SkillResume": "Skill_1001704_SkillDescribe",
+    "SkillResume": "Skill_1001704_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "20%"
+    ],
+    "SkillResumeNum": [
       "20%"
     ],
     "MultiSkillDescribe": "Skill_1001704_SkillDescribe",
@@ -3892,9 +4322,12 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1001705_SkillDescribe",
-    "SkillResume": "Skill_1001705_SkillDescribe",
+    "SkillResume": "Skill_1001705_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "1"
+    ],
+    "SkillResumeNum": [
       "1"
     ],
     "MultiSkillDescribe": "Skill_1001705_SkillDescribe",
@@ -3913,15 +4346,16 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1604009003
+      1604009003.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconZhujueDark/SP_IconZhujueDarkQTE.SP_IconZhujueDarkQTE",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconNvzhuQTE_UI.T_IconnvzhuQTE_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1001706_SkillDescribe",
-    "SkillResume": "Skill_1001706_SkillDescribe",
+    "SkillResume": "Skill_1001706_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001706_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -3936,33 +4370,34 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1604001010,
-      1604002010,
-      1604003004,
-      1604003010,
-      1604003011,
-      1604003012,
-      1604004010,
-      1604006002,
-      1604007101,
-      1604007002,
-      1604007007,
-      1604007008,
-      1604007010,
-      1604007011,
-      1604007003,
-      1604009002,
-      1604004011,
-      1604004012,
-      1604005010
+      1604001010.0,
+      1604002010.0,
+      1604003004.0,
+      1604003010.0,
+      1604003011.0,
+      1604003012.0,
+      1604004010.0,
+      1604006002.0,
+      1604007101.0,
+      1604007002.0,
+      1604007007.0,
+      1604007008.0,
+      1604007010.0,
+      1604007011.0,
+      1604007003.0,
+      1604009002.0,
+      1604004011.0,
+      1604004012.0,
+      1604005010.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconZhujueDark/SP_IconZhujueDarkY.SP_IconZhujueDarkY",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconNvzhuD1_UI.T_IconnvzhuD1_UI",
     "SortIndex": 5,
     "SkillDescribe": "Skill_1001707_SkillDescribe",
-    "SkillResume": "Skill_1001707_SkillDescribe",
+    "SkillResume": "Skill_1001707_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001707_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -3981,9 +4416,10 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 8,
     "SkillDescribe": "Skill_1001708_SkillDescribe",
-    "SkillResume": "Skill_1001708_SkillDescribe",
+    "SkillResume": "Skill_1001708_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001708_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -3998,27 +4434,28 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1104001001,
-      1104002001,
-      1104003001,
-      1104003002,
-      1104004001,
-      1104004002,
-      1104005001,
-      1104011001,
-      1104080001,
-      1104080002,
-      1104015001,
-      1104005101,
-      1104005102
+      1104001001.0,
+      1104002001.0,
+      1104003001.0,
+      1104003002.0,
+      1104004001.0,
+      1104004002.0,
+      1104005001.0,
+      1104011001.0,
+      1104080001.0,
+      1104080002.0,
+      1104015001.0,
+      1104005101.0,
+      1104005102.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.SP_IconNorFist",
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiA_UI.T_IconMotefeiA_UI",
     "SortIndex": 1,
     "SkillDescribe": "Skill_1001801_SkillDescribe",
-    "SkillResume": "Skill_1001801_SkillDescribe",
+    "SkillResume": "Skill_1001801_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001801_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -4033,16 +4470,17 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1104044001,
-      1104044011
+      1104044001.0,
+      1104044011.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLingyang/SP_IconLingyangB1.SP_IconLingyangB1",
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiB_UI.T_IconMotefeiB_UI",
     "SortIndex": 2,
     "SkillDescribe": "Skill_1001802_SkillDescribe",
-    "SkillResume": "Skill_1001802_SkillDescribe",
+    "SkillResume": "Skill_1001802_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001802_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -4057,15 +4495,18 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1104060001
+      1104060001.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLingyang/SP_IconLingyangC1.SP_IconLingyangC1",
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiY_UI.T_IconMotefeiY_UI",
     "SortIndex": 3,
     "SkillDescribe": "Skill_1001803_SkillDescribe",
-    "SkillResume": "Skill_1001803_SkillDescribe",
+    "SkillResume": "Skill_1001803_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "50%"
+    ],
+    "SkillResumeNum": [
       "50%"
     ],
     "MultiSkillDescribe": "Skill_1001803_SkillDescribe",
@@ -4088,9 +4529,12 @@
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiD1_UI.T_IconMotefeiD1_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1001804_SkillDescribe",
-    "SkillResume": "Skill_1001804_SkillDescribe",
+    "SkillResume": "Skill_1001804_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "50%"
+    ],
+    "SkillResumeNum": [
       "50%"
     ],
     "MultiSkillDescribe": "Skill_1001804_SkillDescribe",
@@ -4113,9 +4557,13 @@
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiD2_UI.T_IconMotefeiD2_UI",
     "SortIndex": 5,
     "SkillDescribe": "Skill_1001805_SkillDescribe",
-    "SkillResume": "Skill_1001805_SkillDescribe",
+    "SkillResume": "Skill_1001805_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "3",
+      "150%"
+    ],
+    "SkillResumeNum": [
       "3",
       "150%"
     ],
@@ -4136,15 +4584,16 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1104091001
+      1104091001.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLingyang/SP_IconLingyangQTE.SP_IconLingyangQTE",
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiQTE_UI.T_IconMotefeiQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1001806_SkillDescribe",
-    "SkillResume": "Skill_1001806_SkillDescribe",
+    "SkillResume": "Skill_1001806_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001806_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -4159,26 +4608,33 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1104021001,
-      1104021002,
-      1104021003,
-      1104022001,
-      1104022002,
-      1104023001,
-      1104023002,
-      1104023003,
-      1104033001,
-      1104016001,
-      1104044021,
-      1104010001
+      1104021001.0,
+      1104021002.0,
+      1104021003.0,
+      1104022001.0,
+      1104022002.0,
+      1104023001.0,
+      1104023002.0,
+      1104023003.0,
+      1104033001.0,
+      1104016001.0,
+      1104044021.0,
+      1104010001.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLingyang/SP_IconLingyangY.SP_IconLingyangY",
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiC_UI.T_IconMotefeiC_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1001807_SkillDescribe",
-    "SkillResume": "Skill_1001807_SkillDescribe",
+    "SkillResume": "Skill_1001807_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "5",
+      "50%",
+      "10",
+      "10",
+      "100"
+    ],
+    "SkillResumeNum": [
       "5",
       "50%",
       "10",
@@ -4209,9 +4665,10 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 8,
     "SkillDescribe": "Skill_1001808_SkillDescribe",
-    "SkillResume": "Skill_1001808_SkillDescribe",
+    "SkillResume": "Skill_1001808_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001808_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -4226,23 +4683,24 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1405001001,
-      1405002001,
-      1405002002,
-      1405003001,
-      1405004001,
-      1405014001,
-      1405032001,
-      1405006001,
-      1405006002
+      1405001001.0,
+      1405002001.0,
+      1405002002.0,
+      1405003001.0,
+      1405004001.0,
+      1405014001.0,
+      1405032001.0,
+      1405006001.0,
+      1405006002.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.SP_IconNorFist",
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiA_UI.T_IconMotefeiA_UI",
     "SortIndex": 1,
     "SkillDescribe": "Skill_1001901_SkillDescribe",
-    "SkillResume": "Skill_1001901_SkillDescribe",
+    "SkillResume": "Skill_1001901_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001901_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -4257,17 +4715,18 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1405021001,
-      1405022001,
-      1405023001
+      1405021001.0,
+      1405022001.0,
+      1405023001.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJianxin/SP_IconJianxinB1.SP_IconJianxinB1",
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiB_UI.T_IconMotefeiB_UI",
     "SortIndex": 2,
     "SkillDescribe": "Skill_1001902_SkillDescribe",
-    "SkillResume": "Skill_1001902_SkillDescribe",
+    "SkillResume": "Skill_1001902_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001902_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -4282,16 +4741,17 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1405041001,
-      1405042001
+      1405041001.0,
+      1405042001.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJianxin/SP_IconJianxinC1.SP_IconJianxinC1",
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiY_UI.T_IconMotefeiY_UI",
     "SortIndex": 3,
     "SkillDescribe": "Skill_1001903_SkillDescribe",
-    "SkillResume": "Skill_1001903_SkillDescribe",
+    "SkillResume": "Skill_1001903_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001903_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -4310,9 +4770,12 @@
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiD1_UI.T_IconMotefeiD1_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1001904_SkillDescribe",
-    "SkillResume": "Skill_1001904_SkillDescribe",
+    "SkillResume": "Skill_1001904_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "20%"
+    ],
+    "SkillResumeNum": [
       "20%"
     ],
     "MultiSkillDescribe": "Skill_1001904_SkillDescribe",
@@ -4335,9 +4798,12 @@
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiD2_UI.T_IconMotefeiD2_UI",
     "SortIndex": 5,
     "SkillDescribe": "Skill_1001905_SkillDescribe",
-    "SkillResume": "Skill_1001905_SkillDescribe",
+    "SkillResume": "Skill_1001905_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "20%"
+    ],
+    "SkillResumeNum": [
       "20%"
     ],
     "MultiSkillDescribe": "Skill_1001905_SkillDescribe",
@@ -4356,16 +4822,17 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1405051001,
-      1405051002
+      1405051001.0,
+      1405051002.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJianxin/SP_IconJianxinQTE.SP_IconJianxinQTE",
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiQTE_UI.T_IconMotefeiQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1001906_SkillDescribe",
-    "SkillResume": "Skill_1001906_SkillDescribe",
+    "SkillResume": "Skill_1001906_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001906_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -4379,33 +4846,38 @@
     "MaxSkillLevel": 10,
     "SkillInfoList": null,
     "BuffList": [
-      1405001005,
-      1405001006,
-      1405001007,
-      1405001015,
-      1405000021,
-      1405000022,
-      1405000023,
-      1405000024,
-      1405060004,
-      1405060005
+      1405001005.0,
+      1405001006.0,
+      1405001007.0,
+      1405001015.0,
+      1405000021.0,
+      1405000022.0,
+      1405000023.0,
+      1405000024.0,
+      1405060004.0,
+      1405060005.0
     ],
     "DamageList": [
-      1405011001,
-      1405012001,
-      1405013001,
-      1405015001,
-      1405016001,
-      1405017001,
-      1405010001
+      1405011001.0,
+      1405012001.0,
+      1405013001.0,
+      1405015001.0,
+      1405016001.0,
+      1405017001.0,
+      1405010001.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJianxin/SP_IconJianxinY.SP_IconJianxinY",
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiC_UI.T_IconMotefeiC_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1001907_SkillDescribe",
-    "SkillResume": "Skill_1001907_SkillDescribe",
+    "SkillResume": "Skill_1001907_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "50%",
+      "6",
+      "120"
+    ],
+    "SkillResumeNum": [
       "50%",
       "6",
       "120"
@@ -4432,9 +4904,10 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 8,
     "SkillDescribe": "Skill_1001908_SkillDescribe",
-    "SkillResume": "Skill_1001908_SkillDescribe",
+    "SkillResume": "Skill_1001908_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001908_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -4453,11 +4926,15 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 8,
     "SkillDescribe": "Skill_1000109_SkillDescribe",
-    "SkillResume": "Skill_1000109_SkillDescribe",
+    "SkillResume": "Skill_1000109_SkillResume",
     "SkillTagList": [
       5
     ],
     "SkillDetailNum": [
+      "4",
+      "5"
+    ],
+    "SkillResumeNum": [
       "4",
       "5"
     ],
@@ -4482,11 +4959,14 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconMaxiaofangQTE_UI.T_IconMaxiaofangQTE_UI",
     "SortIndex": 9,
     "SkillDescribe": "Skill_1000209_SkillDescribe",
-    "SkillResume": "Skill_1000209_SkillDescribe",
+    "SkillResume": "Skill_1000209_SkillResume",
     "SkillTagList": [
       112
     ],
     "SkillDetailNum": [
+      "530.00%"
+    ],
+    "SkillResumeNum": [
       "530.00%"
     ],
     "MultiSkillDescribe": "Skill_1000209_MultiSkillDescribe_1.1",
@@ -4509,12 +4989,18 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiQTE_UI.T_IconWeilinaiQTE_UI",
     "SortIndex": 9,
     "SkillDescribe": "Skill_1000309_SkillDescribe",
-    "SkillResume": "Skill_1000309_SkillDescribe",
+    "SkillResume": "Skill_1000309_SkillResume",
     "SkillTagList": [
       1,
       7
     ],
     "SkillDetailNum": [
+      "19%",
+      "6",
+      "15%",
+      "30"
+    ],
+    "SkillResumeNum": [
       "19%",
       "6",
       "15%",
@@ -4543,12 +5029,19 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconBailianQTE_UI.T_IconBailianQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1000409_SkillDescribe",
-    "SkillResume": "Skill_1000409_SkillDescribe",
+    "SkillResume": "Skill_1000409_SkillResume",
     "SkillTagList": [
       1,
       7
     ],
     "SkillDetailNum": [
+      "3",
+      "1.54%",
+      "30",
+      "15%",
+      "6"
+    ],
+    "SkillResumeNum": [
       "3",
       "1.54%",
       "30",
@@ -4579,11 +5072,15 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconSanhuaQTE_UI.T_IconSanhuaQTE_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1000509_SkillDescribe",
-    "SkillResume": "Skill_1000509_SkillDescribe",
+    "SkillResume": "Skill_1000509_SkillResume",
     "SkillTagList": [
       302
     ],
     "SkillDetailNum": [
+      "38%",
+      "14"
+    ],
+    "SkillResumeNum": [
       "38%",
       "14"
     ],
@@ -4608,11 +5105,14 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconNvzhuQTE_UI.T_IconnvzhuQTE_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1000609_SkillDescribe",
-    "SkillResume": "Skill_1000609_SkillDescribe",
+    "SkillResume": "Skill_1000609_SkillResume",
     "SkillTagList": [
       3
     ],
     "SkillDetailNum": [
+      "3"
+    ],
+    "SkillResumeNum": [
       "3"
     ],
     "MultiSkillDescribe": "Skill_1000609_MultiSkillDescribe_1.1",
@@ -4635,11 +5135,17 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconAnkeQTE_UI.T_IconAnkeQTE_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1000709_SkillDescribe",
-    "SkillResume": "Skill_1000709_SkillDescribe",
+    "SkillResume": "Skill_1000709_SkillResume",
     "SkillTagList": [
       112
     ],
     "SkillDetailNum": [
+      "3",
+      "1.5",
+      "176.76%",
+      "6"
+    ],
+    "SkillResumeNum": [
       "3",
       "1.5",
       "176.76%",
@@ -4668,11 +5174,15 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconmicaiQTE_UI.T_IconmicaiQTE_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1000809_SkillDescribe",
-    "SkillResume": "Skill_1000809_SkillDescribe",
+    "SkillResume": "Skill_1000809_SkillResume",
     "SkillTagList": [
       106
     ],
     "SkillDetailNum": [
+      "23%",
+      "14"
+    ],
+    "SkillResumeNum": [
       "23%",
       "14"
     ],
@@ -4697,11 +5207,15 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconTaoHuaQTE_UI.T_IconTaoHuaQTE_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1000909_SkillDescribe",
-    "SkillResume": "Skill_1000909_SkillDescribe",
+    "SkillResume": "Skill_1000909_SkillResume",
     "SkillTagList": [
       301
     ],
     "SkillDetailNum": [
+      "38%",
+      "14"
+    ],
+    "SkillResumeNum": [
       "38%",
       "14"
     ],
@@ -4726,11 +5240,15 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconQiushuiQTE_UI.T_IconQiushuiQTE_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1001009_SkillDescribe",
-    "SkillResume": "Skill_1001009_SkillDescribe",
+    "SkillResume": "Skill_1001009_SkillResume",
     "SkillTagList": [
       103
     ],
     "SkillDetailNum": [
+      "23%",
+      "14"
+    ],
+    "SkillResumeNum": [
       "23%",
       "14"
     ],
@@ -4751,18 +5269,23 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1404009014,
-      1404009015
+      1404009014.0,
+      1404009015.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJiyan/SP_IconJiyanT.SP_IconJiyanT",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1001109_SkillDescribe",
-    "SkillResume": "Skill_1001109_SkillDescribe",
+    "SkillResume": "Skill_1001109_SkillResume",
     "SkillTagList": [
       113
     ],
     "SkillDetailNum": [
+      "313.40%",
+      "8",
+      "1"
+    ],
+    "SkillResumeNum": [
       "313.40%",
       "8",
       "1"
@@ -4789,11 +5312,15 @@
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiQTE_UI.T_IconMotefeiQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1001209_SkillDescribe",
-    "SkillResume": "Skill_1001209_SkillDescribe",
+    "SkillResume": "Skill_1001209_SkillResume",
     "SkillTagList": [
       304
     ],
     "SkillDetailNum": [
+      "38%",
+      "14"
+    ],
+    "SkillResumeNum": [
       "38%",
       "14"
     ],
@@ -4813,18 +5340,35 @@
     "MaxSkillLevel": 1,
     "SkillInfoList": null,
     "BuffList": null,
-    "DamageList": null,
-    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconChun/SP_IconChunQTE.SP_IconChunQTE",
+    "DamageList": [
+      1603602000.0,
+      1603602001.0,
+      1603602004.0,
+      1603602900.0,
+      1603602901.0,
+      1603602904.0
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconChun/SP_IconChunT.SP_IconChunT",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconmicaiQTE_UI.T_IconmicaiQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1001309_SkillDescribe",
-    "SkillResume": "Skill_1001309_SkillDescribe",
+    "SkillResume": "Skill_1001309_SkillResume",
     "SkillTagList": [
       304
     ],
-    "SkillDetailNum": null,
-    "MultiSkillDescribe": "Skill_1001309_MultiSkillDescribe_1.1",
-    "MultiSkillDetailNum": null
+    "SkillDetailNum": [
+      "329.24%",
+      "459.02%"
+    ],
+    "SkillResumeNum": [
+      "329.24%",
+      "459.02%"
+    ],
+    "MultiSkillDescribe": "Skill_1001309_MultiSkillDescribe_1.4",
+    "MultiSkillDetailNum": [
+      "329.24%",
+      "459.02%"
+    ]
   },
   {
     "Id": 1001409,
@@ -4841,11 +5385,14 @@
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiQTE_UI.T_IconMotefeiQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1001409_SkillDescribe",
-    "SkillResume": "Skill_1001409_SkillDescribe",
+    "SkillResume": "Skill_1001409_SkillResume",
     "SkillTagList": [
       114
     ],
     "SkillDetailNum": [
+      "195.98%+391.96%"
+    ],
+    "SkillResumeNum": [
       "195.98%+391.96%"
     ],
     "MultiSkillDescribe": "Skill_1001409_MultiSkillDescribe_1.1",
@@ -4868,12 +5415,17 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYinlinQTE_UI.T_IconYinlinQTE_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1001509_SkillDescribe",
-    "SkillResume": "Skill_1001509_SkillDescribe",
+    "SkillResume": "Skill_1001509_SkillResume",
     "SkillTagList": [
       104,
       303
     ],
     "SkillDetailNum": [
+      "20%",
+      "25%",
+      "14"
+    ],
+    "SkillResumeNum": [
       "20%",
       "25%",
       "14"
@@ -4900,11 +5452,12 @@
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiQTE_UI.T_IconMotefeiQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1001609_SkillDescribe",
-    "SkillResume": "Skill_1001609_SkillDescribe",
+    "SkillResume": "Skill_1001609_SkillResume",
     "SkillTagList": [
       4
     ],
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1001609_MultiSkillDescribe_1.1",
     "MultiSkillDetailNum": [
       "23%",
@@ -4926,11 +5479,16 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconNvzhuQTE_UI.T_IconnvzhuQTE_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1001709_SkillDescribe",
-    "SkillResume": "Skill_1001709_SkillDescribe",
+    "SkillResume": "Skill_1001709_SkillResume",
     "SkillTagList": [
       116
     ],
     "SkillDetailNum": [
+      "2",
+      "143.3%",
+      "6"
+    ],
+    "SkillResumeNum": [
       "2",
       "143.3%",
       "6"
@@ -4957,11 +5515,14 @@
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiQTE_UI.T_IconMotefeiQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1001809_SkillDescribe",
-    "SkillResume": "Skill_1001809_SkillDescribe",
+    "SkillResume": "Skill_1001809_SkillResume",
     "SkillTagList": [
       111
     ],
     "SkillDetailNum": [
+      "587.94%"
+    ],
+    "SkillResumeNum": [
       "587.94%"
     ],
     "MultiSkillDescribe": "Skill_1001809_MultiSkillDescribe_1.1",
@@ -4984,11 +5545,15 @@
     "EffectSkillPath": "/Game/Aki/UI/UIResources/Common/Image/IconSkill/T_IconMotefeiQTE_UI.T_IconMotefeiQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1001909_SkillDescribe",
-    "SkillResume": "Skill_1001909_SkillDescribe",
+    "SkillResume": "Skill_1001909_SkillResume",
     "SkillTagList": [
       303
     ],
     "SkillDetailNum": [
+      "38%",
+      "14"
+    ],
+    "SkillResumeNum": [
       "38%",
       "14"
     ],
@@ -5009,32 +5574,33 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1304840004,
-      1304840005,
-      1304840002,
-      1304001001,
-      1304002001,
-      1304002002,
-      1304003001,
-      1304003003,
-      1304004001,
-      1304004002,
-      1304100001,
-      1304100101,
-      1304100102,
-      1304006001,
-      1304006002,
-      1304006003,
-      1304600001,
-      1304600003
+      1304840004.0,
+      1304840005.0,
+      1304840002.0,
+      1304001001.0,
+      1304002001.0,
+      1304002002.0,
+      1304003001.0,
+      1304003003.0,
+      1304004001.0,
+      1304004002.0,
+      1304100001.0,
+      1304100101.0,
+      1304100102.0,
+      1304006001.0,
+      1304006002.0,
+      1304006003.0,
+      1304600001.0,
+      1304600003.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorSword.SP_IconNorSword",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconJueyuanC1_UI.T_IconJueyuanC1_UI",
     "SortIndex": 1,
     "SkillDescribe": "Skill_1002001_SkillDescribe",
-    "SkillResume": "Skill_1002001_SkillDescribe",
+    "SkillResume": "Skill_1002001_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1002001_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -5049,28 +5615,31 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1304200001,
-      1304200002,
-      1304200003,
-      1304200004,
-      1304200005,
-      1304200010,
-      1304200011,
-      1304200012,
-      1304200013,
-      1304200014,
-      1304200015,
-      1304200016,
-      1304200017,
-      1304200018
+      1304200001.0,
+      1304200002.0,
+      1304200003.0,
+      1304200004.0,
+      1304200005.0,
+      1304200010.0,
+      1304200011.0,
+      1304200012.0,
+      1304200013.0,
+      1304200014.0,
+      1304200015.0,
+      1304200016.0,
+      1304200017.0,
+      1304200018.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJinxi/SP_IconJinxiB1.SP_IconJinxiB1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconJueyuanB1_UI.T_IconJueyuanB1_UI",
     "SortIndex": 2,
     "SkillDescribe": "Skill_1002002_SkillDescribe",
-    "SkillResume": "Skill_1002002_SkillDescribe",
+    "SkillResume": "Skill_1002002_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "5"
+    ],
+    "SkillResumeNum": [
       "5"
     ],
     "MultiSkillDescribe": "Skill_1002002_SkillDescribe",
@@ -5089,18 +5658,19 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1304300001,
-      1304300002,
-      1304300003,
-      1304300004
+      1304300001.0,
+      1304300002.0,
+      1304300003.0,
+      1304300004.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJinxi/SP_IconJinxiC1.SP_IconJinxiC1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconJueyuanA1_UI.T_IconJueyuanA1_UI",
     "SortIndex": 3,
     "SkillDescribe": "Skill_1002003_SkillDescribe",
-    "SkillResume": "Skill_1002003_SkillDescribe",
+    "SkillResume": "Skill_1002003_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1002003_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -5119,9 +5689,12 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiD1_UI.T_IconWeilinaiD1_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1002004_SkillDescribe",
-    "SkillResume": "Skill_1002004_SkillDescribe",
+    "SkillResume": "Skill_1002004_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "20%"
+    ],
+    "SkillResumeNum": [
       "20%"
     ],
     "MultiSkillDescribe": "Skill_1002004_SkillDescribe",
@@ -5144,9 +5717,12 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiD2_UI.T_IconWeilinaiD2_UI",
     "SortIndex": 5,
     "SkillDescribe": "Skill_1002005_SkillDescribe",
-    "SkillResume": "Skill_1002005_SkillDescribe",
+    "SkillResume": "Skill_1002005_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "50%"
+    ],
+    "SkillResumeNum": [
       "50%"
     ],
     "MultiSkillDescribe": "Skill_1002005_SkillDescribe",
@@ -5165,16 +5741,17 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1304402001,
-      1304402002
+      1304402001.0,
+      1304402002.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJinxi/SP_IconJinxiQTE.SP_IconJinxiQTE",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiQTE_UI.T_IconWeilinaiQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1002006_SkillDescribe",
-    "SkillResume": "Skill_1002006_SkillDescribe",
+    "SkillResume": "Skill_1002006_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1002006_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -5189,34 +5766,45 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1304101002,
-      1304102001,
-      1304102002,
-      1304102003,
-      1304103001,
-      1304103002,
-      1304104003,
-      1304104004,
-      1304106001,
-      1304106002,
-      1304110001,
-      1304110002,
-      1304110003,
-      1304310001,
-      1304310003,
-      1304601001,
-      1304601002,
-      1304601003,
-      1304310011,
-      1304310013
+      1304101002.0,
+      1304102001.0,
+      1304102002.0,
+      1304102003.0,
+      1304103001.0,
+      1304103002.0,
+      1304104003.0,
+      1304104004.0,
+      1304106001.0,
+      1304106002.0,
+      1304110001.0,
+      1304110002.0,
+      1304110003.0,
+      1304310001.0,
+      1304310003.0,
+      1304601001.0,
+      1304601002.0,
+      1304601003.0,
+      1304310011.0,
+      1304310013.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJinxi/SP_IconJinxiY.SP_IconJinxiY",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1002007_SkillDescribe",
-    "SkillResume": "Skill_1002007_SkillDescribe",
+    "SkillResume": "Skill_1002007_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "50",
+      "25",
+      "50",
+      "1",
+      "3",
+      "1",
+      "2",
+      "3",
+      "1"
+    ],
+    "SkillResumeNum": [
       "50",
       "25",
       "50",
@@ -5255,9 +5843,10 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 8,
     "SkillDescribe": "Skill_1002008_SkillDescribe",
-    "SkillResume": "Skill_1002008_SkillDescribe",
+    "SkillResume": "Skill_1002008_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1002008_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -5276,11 +5865,16 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiQTE_UI.T_IconWeilinaiQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1002009_SkillDescribe",
-    "SkillResume": "Skill_1002009_SkillDescribe",
+    "SkillResume": "Skill_1002009_SkillResume",
     "SkillTagList": [
       9
     ],
     "SkillDetailNum": [
+      "1",
+      "1",
+      "20"
+    ],
+    "SkillResumeNum": [
       "1",
       "1",
       "20"
@@ -5303,37 +5897,38 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1205001000,
-      1205001001,
-      1205002001,
-      1205002002,
-      1205003001,
-      1205003002,
-      1205003003,
-      1205004001,
-      1205004002,
-      1205001100,
-      1205002100,
-      1205002101,
-      1205003100,
-      1205003101,
-      1205003102,
-      1205004100,
-      1205004101,
-      1205006100,
-      1205006001,
-      1205006002,
-      1205003011,
-      1205003012,
-      1205003013
+      1205001000.0,
+      1205001001.0,
+      1205002001.0,
+      1205002002.0,
+      1205003001.0,
+      1205003002.0,
+      1205003003.0,
+      1205004001.0,
+      1205004002.0,
+      1205001100.0,
+      1205002100.0,
+      1205002101.0,
+      1205003100.0,
+      1205003101.0,
+      1205003102.0,
+      1205004100.0,
+      1205004101.0,
+      1205006100.0,
+      1205006001.0,
+      1205006002.0,
+      1205003011.0,
+      1205003012.0,
+      1205003013.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.SP_IconNorKnife",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconJueyuanC1_UI.T_IconJueyuanC1_UI",
     "SortIndex": 1,
     "SkillDescribe": "Skill_1002101_SkillDescribe",
-    "SkillResume": "Skill_1002101_SkillDescribe",
+    "SkillResume": "Skill_1002101_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1002101_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -5348,24 +5943,25 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1205201001,
-      1205201004,
-      1205201005,
-      1205201002,
-      1205005001,
-      1205005002,
-      1205005003,
-      1205005004,
-      1205005100,
-      1205005101
+      1205201001.0,
+      1205201004.0,
+      1205201005.0,
+      1205201002.0,
+      1205005001.0,
+      1205005002.0,
+      1205005003.0,
+      1205005004.0,
+      1205005100.0,
+      1205005101.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconChangli/SP_IconChangliB1.SP_IconChangliB1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconJueyuanB1_UI.T_IconJueyuanB1_UI",
     "SortIndex": 2,
     "SkillDescribe": "Skill_1002102_SkillDescribe",
-    "SkillResume": "Skill_1002102_SkillDescribe",
+    "SkillResume": "Skill_1002102_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1002102_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -5380,15 +5976,18 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1205401001
+      1205401001.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconChangli/SP_IconChangliC1.SP_IconChangliC1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconJueyuanA1_UI.T_IconJueyuanA1_UI",
     "SortIndex": 3,
     "SkillDescribe": "Skill_1002103_SkillDescribe",
-    "SkillResume": "Skill_1002103_SkillDescribe",
+    "SkillResume": "Skill_1002103_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "25%"
+    ],
+    "SkillResumeNum": [
       "25%"
     ],
     "MultiSkillDescribe": "Skill_1002103_SkillDescribe",
@@ -5411,9 +6010,12 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiD1_UI.T_IconWeilinaiD1_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1002104_SkillDescribe",
-    "SkillResume": "Skill_1002104_SkillDescribe",
+    "SkillResume": "Skill_1002104_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "5%"
+    ],
+    "SkillResumeNum": [
       "5%"
     ],
     "MultiSkillDescribe": "Skill_1002104_SkillDescribe",
@@ -5436,9 +6038,13 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiD2_UI.T_IconWeilinaiD2_UI",
     "SortIndex": 5,
     "SkillDescribe": "Skill_1002105_SkillDescribe",
-    "SkillResume": "Skill_1002105_SkillDescribe",
+    "SkillResume": "Skill_1002105_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "20%",
+      "15%"
+    ],
+    "SkillResumeNum": [
       "20%",
       "15%"
     ],
@@ -5459,16 +6065,17 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1205004300,
-      1205004301
+      1205004300.0,
+      1205004301.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconChangli/SP_IconChangliQTE.SP_IconChangliQTE",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiQTE_UI.T_IconWeilinaiQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1002106_SkillDescribe",
-    "SkillResume": "Skill_1002106_SkillDescribe",
+    "SkillResume": "Skill_1002106_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1002106_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -5483,18 +6090,21 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1205007001,
-      1205007002,
-      1205007101,
-      1205007102
+      1205007001.0,
+      1205007002.0,
+      1205007101.0,
+      1205007102.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconChangli/SP_IconChangliY.SP_IconChangliY",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1002107_SkillDescribe",
-    "SkillResume": "Skill_1002107_SkillDescribe",
+    "SkillResume": "Skill_1002107_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "40%"
+    ],
+    "SkillResumeNum": [
       "40%"
     ],
     "MultiSkillDescribe": "Skill_1002107_SkillDescribe",
@@ -5517,9 +6127,10 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 8,
     "SkillDescribe": "Skill_1002108_SkillDescribe",
-    "SkillResume": "Skill_1002108_SkillDescribe",
+    "SkillResume": "Skill_1002108_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1002108_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -5538,9 +6149,14 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiQTE_UI.T_IconWeilinaiQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1002109_SkillDescribe",
-    "SkillResume": "Skill_1002109_SkillDescribe",
+    "SkillResume": "Skill_1002109_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "20%",
+      "25%",
+      "10"
+    ],
+    "SkillResumeNum": [
       "20%",
       "25%",
       "10"
@@ -5563,25 +6179,26 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      110500101,
-      110500102,
-      110500203,
-      110500204,
-      110500302,
-      110500503,
-      110500504,
-      110501101,
-      110500402,
-      110500703,
-      110500704
+      110500101.0,
+      110500102.0,
+      110500203.0,
+      110500204.0,
+      110500302.0,
+      110500503.0,
+      110500504.0,
+      110501101.0,
+      110500402.0,
+      110500703.0,
+      110500704.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.SP_IconNorMagic",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconJueyuanC1_UI.T_IconJueyuanC1_UI",
     "SortIndex": 1,
     "SkillDescribe": "Skill_1002201_SkillDescribe",
-    "SkillResume": "Skill_1002201_SkillDescribe",
+    "SkillResume": "Skill_1002201_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1002201_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -5596,20 +6213,21 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      110510101,
-      110510102,
-      110510103,
-      110510201,
-      110510202,
-      110510203
+      110510101.0,
+      110510102.0,
+      110510103.0,
+      110510201.0,
+      110510202.0,
+      110510203.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconZhezhi/SP_IconZhezhiB1.SP_IconZhezhiB1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconJueyuanB1_UI.T_IconJueyuanB1_UI",
     "SortIndex": 2,
     "SkillDescribe": "Skill_1002202_SkillDescribe",
-    "SkillResume": "Skill_1002202_SkillDescribe",
+    "SkillResume": "Skill_1002202_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1002202_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -5624,16 +6242,22 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      110504002,
-      110504102
+      110504002.0,
+      110504102.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconZhezhi/SP_IconZhezhiC1.SP_IconZhezhiC1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconJueyuanA1_UI.T_IconJueyuanA1_UI",
     "SortIndex": 3,
     "SkillDescribe": "Skill_1002203_SkillDescribe",
-    "SkillResume": "Skill_1002203_SkillDescribe",
+    "SkillResume": "Skill_1002203_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "3",
+      "1",
+      "21",
+      "30"
+    ],
+    "SkillResumeNum": [
       "3",
       "1",
       "21",
@@ -5662,9 +6286,14 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiD1_UI.T_IconWeilinaiD1_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1002204_SkillDescribe",
-    "SkillResume": "Skill_1002204_SkillDescribe",
+    "SkillResume": "Skill_1002204_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "6%",
+      "3",
+      "27"
+    ],
+    "SkillResumeNum": [
       "6%",
       "3",
       "27"
@@ -5691,9 +6320,12 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiD2_UI.T_IconWeilinaiD2_UI",
     "SortIndex": 5,
     "SkillDescribe": "Skill_1002205_SkillDescribe",
-    "SkillResume": "Skill_1002205_SkillDescribe",
+    "SkillResume": "Skill_1002205_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "15"
+    ],
+    "SkillResumeNum": [
       "15"
     ],
     "MultiSkillDescribe": "Skill_1002205_MultiSkillDescribe_1.1",
@@ -5712,15 +6344,16 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      110503004
+      110503004.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconZhezhi/SP_IconZhezhiQTE.SP_IconZhezhiQTE",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiQTE_UI.T_IconWeilinaiQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1002206_SkillDescribe",
-    "SkillResume": "Skill_1002206_SkillDescribe",
+    "SkillResume": "Skill_1002206_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1002206_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -5735,21 +6368,27 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      110501201,
-      110501202,
-      110501203,
-      110511002,
-      110511102,
-      110511210,
-      110504202
+      110501201.0,
+      110501202.0,
+      110501203.0,
+      110511002.0,
+      110511102.0,
+      110511210.0,
+      110504202.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconZhezhi/SP_IconZhezhiY.SP_IconZhezhiY",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1002207_SkillDescribe",
-    "SkillResume": "Skill_1002207_SkillDescribe",
+    "SkillResume": "Skill_1002207_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "15",
+      "8",
+      "18%",
+      "27"
+    ],
+    "SkillResumeNum": [
       "15",
       "8",
       "18%",
@@ -5778,9 +6417,10 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 8,
     "SkillDescribe": "Skill_1002208_SkillDescribe",
-    "SkillResume": "Skill_1002208_SkillDescribe",
+    "SkillResume": "Skill_1002208_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1002208_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -5799,11 +6439,16 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiQTE_UI.T_IconWeilinaiQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1002209_SkillDescribe",
-    "SkillResume": "Skill_1002209_SkillDescribe",
+    "SkillResume": "Skill_1002209_SkillResume",
     "SkillTagList": [
       301
     ],
     "SkillDetailNum": [
+      "20%",
+      "25%",
+      "14"
+    ],
+    "SkillResumeNum": [
       "20%",
       "25%",
       "14"
@@ -5826,29 +6471,30 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1305001001,
-      1305001002,
-      1305002001,
-      1305003001,
-      1305003002,
-      1305003003,
-      1305004001,
-      1305004002,
-      1305004003,
-      1305005001,
-      1305021001,
-      1305021002,
-      1305043001,
-      1305020001,
-      1305043000
+      1305001001.0,
+      1305001002.0,
+      1305002001.0,
+      1305003001.0,
+      1305003002.0,
+      1305003003.0,
+      1305004001.0,
+      1305004002.0,
+      1305004003.0,
+      1305005001.0,
+      1305021001.0,
+      1305021002.0,
+      1305043001.0,
+      1305020001.0,
+      1305043000.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.SP_IconNorFist",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconJueyuanC1_UI.T_IconJueyuanC1_UI",
     "SortIndex": 1,
     "SkillDescribe": "Skill_1002301_SkillDescribe",
-    "SkillResume": "Skill_1002301_SkillDescribe",
+    "SkillResume": "Skill_1002301_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1002301_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -5863,15 +6509,16 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1305051001
+      1305051001.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconXiangliyao/SP_IconXiangliyaoB1.SP_IconXiangliyaoB1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconJueyuanB1_UI.T_IconJueyuanB1_UI",
     "SortIndex": 2,
     "SkillDescribe": "Skill_1002302_SkillDescribe",
-    "SkillResume": "Skill_1002302_SkillDescribe",
+    "SkillResume": "Skill_1002302_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1002302_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -5886,30 +6533,34 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1305061001,
-      1305011001,
-      1305012001,
-      1305012002,
-      1305012003,
-      1305012004,
-      1305013001,
-      1305013002,
-      1305031001,
-      1305031002,
-      1305031003,
-      1305031004,
-      1305031005,
-      1305020011,
-      1305020012,
-      1305061011
+      1305061001.0,
+      1305011001.0,
+      1305012001.0,
+      1305012002.0,
+      1305012003.0,
+      1305012004.0,
+      1305013001.0,
+      1305013002.0,
+      1305031001.0,
+      1305031002.0,
+      1305031003.0,
+      1305031004.0,
+      1305031005.0,
+      1305020011.0,
+      1305020012.0,
+      1305061011.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconXiangliyao/SP_IconXiangliyaoC1.SP_IconXiangliyaoC1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconJueyuanA1_UI.T_IconJueyuanA1_UI",
     "SortIndex": 3,
     "SkillDescribe": "Skill_1002303_SkillDescribe",
-    "SkillResume": "Skill_1002303_SkillDescribe",
+    "SkillResume": "Skill_1002303_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "3",
+      "1"
+    ],
+    "SkillResumeNum": [
       "3",
       "1"
     ],
@@ -5934,9 +6585,14 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiD1_UI.T_IconWeilinaiD1_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1002304_SkillDescribe",
-    "SkillResume": "Skill_1002304_SkillDescribe",
+    "SkillResume": "Skill_1002304_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "5%",
+      "8",
+      "4"
+    ],
+    "SkillResumeNum": [
       "5%",
       "8",
       "4"
@@ -5963,9 +6619,10 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiD2_UI.T_IconWeilinaiD2_UI",
     "SortIndex": 5,
     "SkillDescribe": "Skill_1002305_SkillDescribe",
-    "SkillResume": "Skill_1002305_SkillDescribe",
+    "SkillResume": "Skill_1002305_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1002305_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -5980,15 +6637,16 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1305081001
+      1305081001.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconXiangliyao/SP_IconXiangliyaoQTE.SP_IconXiangliyaoQTE",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiQTE_UI.T_IconWeilinaiQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1002306_SkillDescribe",
-    "SkillResume": "Skill_1002306_SkillDescribe",
+    "SkillResume": "Skill_1002306_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1002306_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -6003,24 +6661,37 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1305044001,
-      1305044002,
-      1305044010,
-      1305052001,
-      1305053001,
-      1305053002,
-      1305053011,
-      1305053021,
-      1305053101,
-      1305053201
+      1305044001.0,
+      1305044002.0,
+      1305044010.0,
+      1305052001.0,
+      1305053001.0,
+      1305053002.0,
+      1305053011.0,
+      1305053021.0,
+      1305053101.0,
+      1305053201.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconXiangliyao/SP_IconXiangliyaoY.SP_IconXiangliyaoY",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1002307_SkillDescribe",
-    "SkillResume": "Skill_1002307_SkillDescribe",
+    "SkillResume": "Skill_1002307_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "100",
+      "5",
+      "100",
+      "5",
+      "1",
+      "2",
+      "2",
+      "3",
+      "100",
+      "5",
+      "2"
+    ],
+    "SkillResumeNum": [
       "100",
       "5",
       "100",
@@ -6063,9 +6734,10 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 8,
     "SkillDescribe": "Skill_1002308_SkillDescribe",
-    "SkillResume": "Skill_1002308_SkillDescribe",
+    "SkillResume": "Skill_1002308_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1002308_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -6084,9 +6756,14 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiQTE_UI.T_IconWeilinaiQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1002309_SkillDescribe",
-    "SkillResume": "Skill_1002309_SkillDescribe",
+    "SkillResume": "Skill_1002309_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "2",
+      "237.63%",
+      "8"
+    ],
+    "SkillResumeNum": [
       "2",
       "237.63%",
       "8"
@@ -6109,23 +6786,24 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1106001001,
-      1106002001,
-      1106002002,
-      1106003001,
-      1106003002,
-      1106004001,
-      1106010001,
-      1106020001,
-      1106030001
+      1106001001.0,
+      1106002001.0,
+      1106002002.0,
+      1106003001.0,
+      1106003002.0,
+      1106004001.0,
+      1106010001.0,
+      1106020001.0,
+      1106030001.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.SP_IconNorFist",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconJueyuanC1_UI.T_IconJueyuanC1_UI",
     "SortIndex": 1,
     "SkillDescribe": "Skill_1002401_SkillDescribe",
-    "SkillResume": "Skill_1002401_SkillDescribe",
+    "SkillResume": "Skill_1002401_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1002401_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -6139,31 +6817,32 @@
     "MaxSkillLevel": 10,
     "SkillInfoList": null,
     "BuffList": [
-      1106000002,
-      1106000011
+      1106000002.0,
+      1106000011.0
     ],
     "DamageList": [
-      1106100001,
-      1106110001,
-      1106120001,
-      1106120002,
-      1106120003,
-      1106130001,
-      1106130002,
-      1106140001,
-      1106140002,
-      1106150001,
-      1106150002,
-      1106100002,
-      1106600001
+      1106100001.0,
+      1106110001.0,
+      1106120001.0,
+      1106120002.0,
+      1106120003.0,
+      1106130001.0,
+      1106130002.0,
+      1106140001.0,
+      1106140002.0,
+      1106150001.0,
+      1106150002.0,
+      1106100002.0,
+      1106600001.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYouhu/SP_IconYouhuB4.SP_IconYouhuB4",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconJueyuanB1_UI.T_IconJueyuanB1_UI",
     "SortIndex": 2,
     "SkillDescribe": "Skill_1002402_SkillDescribe",
-    "SkillResume": "Skill_1002402_SkillDescribe",
+    "SkillResume": "Skill_1002402_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1002402_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -6178,15 +6857,16 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1106200001
+      1106200001.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYouhu/SP_IconYouhuC1.SP_IconYouhuC1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconJueyuanA1_UI.T_IconJueyuanA1_UI",
     "SortIndex": 3,
     "SkillDescribe": "Skill_1002403_SkillDescribe",
-    "SkillResume": "Skill_1002403_SkillDescribe",
+    "SkillResume": "Skill_1002403_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1002403_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -6205,9 +6885,12 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiD1_UI.T_IconWeilinaiD1_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1002404_SkillDescribe",
-    "SkillResume": "Skill_1002404_SkillDescribe",
+    "SkillResume": "Skill_1002404_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "30%"
+    ],
+    "SkillResumeNum": [
       "30%"
     ],
     "MultiSkillDescribe": "Skill_1002404_SkillDescribe",
@@ -6230,9 +6913,13 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiD2_UI.T_IconWeilinaiD2_UI",
     "SortIndex": 5,
     "SkillDescribe": "Skill_1002405_SkillDescribe",
-    "SkillResume": "Skill_1002405_SkillDescribe",
+    "SkillResume": "Skill_1002405_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "15%",
+      "14"
+    ],
+    "SkillResumeNum": [
       "15%",
       "14"
     ],
@@ -6253,16 +6940,17 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1106300001,
-      1106300002
+      1106300001.0,
+      1106300002.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYouhu/SP_IconYouhuQTE.SP_IconYouhuQTE",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiQTE_UI.T_IconWeilinaiQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1002406_SkillDescribe",
-    "SkillResume": "Skill_1002406_SkillDescribe",
+    "SkillResume": "Skill_1002406_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1002406_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -6276,28 +6964,32 @@
     "MaxSkillLevel": 10,
     "SkillInfoList": null,
     "BuffList": [
-      1106000004,
-      1106100350
+      1106000004.0,
+      1106100350.0
     ],
     "DamageList": [
-      1106500001,
-      1106500002,
-      1106500003,
-      1106500004,
-      1106500005,
-      1106500006,
-      1106500007,
-      1106500008,
-      1106140004,
-      1106140005
+      1106500001.0,
+      1106500002.0,
+      1106500003.0,
+      1106500004.0,
+      1106500005.0,
+      1106500006.0,
+      1106500007.0,
+      1106500008.0,
+      1106140004.0,
+      1106140005.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYouhu/SP_IconYouhuY.SP_IconYouhuY",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1002407_SkillDescribe",
-    "SkillResume": "Skill_1002407_SkillDescribe",
+    "SkillResume": "Skill_1002407_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "70%",
+      "175%"
+    ],
+    "SkillResumeNum": [
       "70%",
       "175%"
     ],
@@ -6322,9 +7014,10 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 8,
     "SkillDescribe": "Skill_1002408_SkillDescribe",
-    "SkillResume": "Skill_1002408_SkillDescribe",
+    "SkillResume": "Skill_1002408_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1002408_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -6343,9 +7036,13 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiQTE_UI.T_IconWeilinaiQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1002409_SkillDescribe",
-    "SkillResume": "Skill_1002409_SkillDescribe",
+    "SkillResume": "Skill_1002409_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "100%",
+      "28"
+    ],
+    "SkillResumeNum": [
       "100%",
       "28"
     ],
@@ -6366,24 +7063,25 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1505001002,
-      1505002002,
-      1505002004,
-      1505003001,
-      1505003003,
-      1505004001,
-      1505012002,
-      1505012004,
-      1505201001,
-      1505202001
+      1505001002.0,
+      1505002002.0,
+      1505002004.0,
+      1505003001.0,
+      1505003003.0,
+      1505004001.0,
+      1505012002.0,
+      1505012004.0,
+      1505201001.0,
+      1505202001.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.SP_IconNorMagic",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconJueyuanC1_UI.T_IconJueyuanC1_UI",
     "SortIndex": 1,
     "SkillDescribe": "Skill_1002501_SkillDescribe",
-    "SkillResume": "Skill_1002501_SkillDescribe",
+    "SkillResume": "Skill_1002501_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1002501_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -6398,16 +7096,17 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1505301990,
-      1505600001
+      1505301990.0,
+      1505600001.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconShouanren/SP_IconShouanrenB1.SP_IconShouanrenB1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconJueyuanB1_UI.T_IconJueyuanB1_UI",
     "SortIndex": 2,
     "SkillDescribe": "Skill_1002502_SkillDescribe",
-    "SkillResume": "Skill_1002502_SkillDescribe",
+    "SkillResume": "Skill_1002502_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1002502_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -6422,15 +7121,23 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1505600003
+      1505600003.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconShouanren/SP_IconShouanrenC1.SP_IconShouanrenC1",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconJueyuanA1_UI.T_IconJueyuanA1_UI",
     "SortIndex": 3,
     "SkillDescribe": "Skill_1002503_SkillDescribe",
-    "SkillResume": "Skill_1002503_SkillDescribe",
+    "SkillResume": "Skill_1002503_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "0.2%",
+      "0.01%",
+      "12.5%",
+      "0.1%",
+      "0.01%",
+      "25%"
+    ],
+    "SkillResumeNum": [
       "0.2%",
       "0.01%",
       "12.5%",
@@ -6463,9 +7170,12 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiD1_UI.T_IconWeilinaiD1_UI",
     "SortIndex": 4,
     "SkillDescribe": "Skill_1002504_SkillDescribe",
-    "SkillResume": "Skill_1002504_SkillDescribe",
+    "SkillResume": "Skill_1002504_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "50%"
+    ],
+    "SkillResumeNum": [
       "50%"
     ],
     "MultiSkillDescribe": "Skill_1002504_SkillDescribe",
@@ -6488,9 +7198,13 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiD2_UI.T_IconWeilinaiD2_UI",
     "SortIndex": 5,
     "SkillDescribe": "Skill_1002505_SkillDescribe",
-    "SkillResume": "Skill_1002505_SkillDescribe",
+    "SkillResume": "Skill_1002505_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "10%",
+      "10%"
+    ],
+    "SkillResumeNum": [
       "10%",
       "10%"
     ],
@@ -6511,19 +7225,20 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1505505001,
-      1505505002,
-      1505600004,
-      1505600005,
-      1505505011
+      1505505001.0,
+      1505505002.0,
+      1505600004.0,
+      1505600005.0,
+      1505505011.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconShouanren/SP_IconShouanrenQTE.SP_IconShouanrenQTE",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiQTE_UI.T_IconWeilinaiQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1002506_SkillDescribe",
-    "SkillResume": "Skill_1002506_SkillDescribe",
+    "SkillResume": "Skill_1002506_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1002506_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -6538,17 +7253,21 @@
     "SkillInfoList": null,
     "BuffList": null,
     "DamageList": [
-      1505202002,
-      1505211001,
-      1505009980
+      1505202002.0,
+      1505211001.0,
+      1505009980.0
     ],
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconShouanren/SP_IconShouanrenY.SP_IconShouanrenY",
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 7,
     "SkillDescribe": "Skill_1002507_SkillDescribe",
-    "SkillResume": "Skill_1002507_SkillDescribe",
+    "SkillResume": "Skill_1002507_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "6",
+      "5"
+    ],
+    "SkillResumeNum": [
       "6",
       "5"
     ],
@@ -6573,9 +7292,10 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
     "SortIndex": 8,
     "SkillDescribe": "Skill_1002508_SkillDescribe",
-    "SkillResume": "Skill_1002508_SkillDescribe",
+    "SkillResume": "Skill_1002508_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": null,
+    "SkillResumeNum": null,
     "MultiSkillDescribe": "Skill_1002508_SkillDescribe",
     "MultiSkillDetailNum": null
   },
@@ -6594,9 +7314,14 @@
     "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconWeilinaiQTE_UI.T_IconWeilinaiQTE_UI",
     "SortIndex": 6,
     "SkillDescribe": "Skill_1002509_SkillDescribe",
-    "SkillResume": "Skill_1002509_SkillDescribe",
+    "SkillResume": "Skill_1002509_SkillResume",
     "SkillTagList": null,
     "SkillDetailNum": [
+      "30",
+      "5",
+      "15%"
+    ],
+    "SkillResumeNum": [
       "30",
       "5",
       "15%"
@@ -6606,6 +7331,280 @@
       "30",
       "5",
       "15%"
+    ]
+  },
+  {
+    "Id": 1002601,
+    "SkillGroupId": 1504,
+    "SkillType": 1,
+    "SkillName": "Skill_1002601_SkillName",
+    "SkillLevelGroupId": 1002601,
+    "LeftSkillEffect": 0,
+    "MaxSkillLevel": 10,
+    "SkillInfoList": null,
+    "BuffList": null,
+    "DamageList": [
+      1504010000.0,
+      1504030000.0,
+      1504085000.0,
+      1504020000.0,
+      1504021000.0,
+      1504024000.0,
+      1504032000.0,
+      1504232000.0,
+      1504084000.0,
+      1504221000.0,
+      1504022000.0,
+      1504025000.0,
+      1504222000.0
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorSword.SP_IconNorSword",
+    "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconNvzhuC1_UI.T_IconNvzhuC1_UI",
+    "SortIndex": 1,
+    "SkillDescribe": "Skill_1002601_SkillDescribe",
+    "SkillResume": "Skill_1002601_SkillResume",
+    "SkillTagList": null,
+    "SkillDetailNum": null,
+    "SkillResumeNum": null,
+    "MultiSkillDescribe": "Skill_1002601_SkillDescribe",
+    "MultiSkillDetailNum": null
+  },
+  {
+    "Id": 1002602,
+    "SkillGroupId": 1504,
+    "SkillType": 2,
+    "SkillName": "Skill_1002602_SkillName",
+    "SkillLevelGroupId": 1002602,
+    "LeftSkillEffect": 0,
+    "MaxSkillLevel": 10,
+    "SkillInfoList": null,
+    "BuffList": null,
+    "DamageList": [
+      1504040000.0,
+      1504041000.0
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconDengdeng/SP_IconDengdengB1.SP_IconDengdengB1",
+    "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconNvzhuB1_UI.T_IconNvzhuB1_UI",
+    "SortIndex": 2,
+    "SkillDescribe": "Skill_1002602_SkillDescribe",
+    "SkillResume": "Skill_1002602_SkillResume",
+    "SkillTagList": null,
+    "SkillDetailNum": null,
+    "SkillResumeNum": null,
+    "MultiSkillDescribe": "Skill_1002602_SkillDescribe",
+    "MultiSkillDetailNum": null
+  },
+  {
+    "Id": 1002603,
+    "SkillGroupId": 1504,
+    "SkillType": 3,
+    "SkillName": "Skill_1002603_SkillName",
+    "SkillLevelGroupId": 1002603,
+    "LeftSkillEffect": 0,
+    "MaxSkillLevel": 10,
+    "SkillInfoList": null,
+    "BuffList": null,
+    "DamageList": [
+      1504050000.0
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconDengdeng/SP_IconDengdengC1.SP_IconDengdengC1",
+    "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconNvzhuA1_UI.T_IconNvzhuA1_UI",
+    "SortIndex": 3,
+    "SkillDescribe": "Skill_1002603_SkillDescribe",
+    "SkillResume": "Skill_1002603_SkillResume",
+    "SkillTagList": null,
+    "SkillDetailNum": null,
+    "SkillResumeNum": null,
+    "MultiSkillDescribe": "Skill_1002603_SkillDescribe",
+    "MultiSkillDetailNum": null
+  },
+  {
+    "Id": 1002604,
+    "SkillGroupId": 1504,
+    "SkillType": 4,
+    "SkillName": "Skill_1002604_SkillName",
+    "SkillLevelGroupId": 1002604,
+    "LeftSkillEffect": 0,
+    "MaxSkillLevel": 1,
+    "SkillInfoList": null,
+    "BuffList": null,
+    "DamageList": null,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconDengdeng/SP_IconDengdengD1.SP_IconDengdengD1",
+    "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconNvzhuD2_UI.T_IconnvzhuD2_UI",
+    "SortIndex": 6,
+    "SkillDescribe": "Skill_1002604_SkillDescribe",
+    "SkillResume": "Skill_1002604_SkillResume",
+    "SkillTagList": null,
+    "SkillDetailNum": [
+      "10%"
+    ],
+    "SkillResumeNum": [
+      "10%"
+    ],
+    "MultiSkillDescribe": "Skill_1002604_SkillDescribe",
+    "MultiSkillDetailNum": [
+      "10%"
+    ]
+  },
+  {
+    "Id": 1002605,
+    "SkillGroupId": 1504,
+    "SkillType": 4,
+    "SkillName": "Skill_1002605_SkillName",
+    "SkillLevelGroupId": 1002605,
+    "LeftSkillEffect": 0,
+    "MaxSkillLevel": 1,
+    "SkillInfoList": null,
+    "BuffList": null,
+    "DamageList": null,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconDengdeng/SP_IconDengdengD2.SP_IconDengdengD2",
+    "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
+    "SortIndex": 7,
+    "SkillDescribe": "Skill_1002605_SkillDescribe",
+    "SkillResume": "Skill_1002605_SkillResume",
+    "SkillTagList": null,
+    "SkillDetailNum": [
+      "5",
+      "10%"
+    ],
+    "SkillResumeNum": [
+      "5",
+      "10%"
+    ],
+    "MultiSkillDescribe": "Skill_1002605_SkillDescribe",
+    "MultiSkillDetailNum": [
+      "5",
+      "10%"
+    ]
+  },
+  {
+    "Id": 1002606,
+    "SkillGroupId": 1504,
+    "SkillType": 5,
+    "SkillName": "Skill_1002606_SkillName",
+    "SkillLevelGroupId": 1002606,
+    "LeftSkillEffect": 0,
+    "MaxSkillLevel": 10,
+    "SkillInfoList": null,
+    "BuffList": null,
+    "DamageList": [
+      1504060000.0
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconDengdeng/SP_IconDengdengQTE.SP_IconDengdengQTE",
+    "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconNvzhuQTE_UI.T_IconnvzhuQTE_UI",
+    "SortIndex": 4,
+    "SkillDescribe": "Skill_1002606_SkillDescribe",
+    "SkillResume": "Skill_1002606_SkillResume",
+    "SkillTagList": null,
+    "SkillDetailNum": null,
+    "SkillResumeNum": null,
+    "MultiSkillDescribe": "Skill_1002606_SkillDescribe",
+    "MultiSkillDetailNum": null
+  },
+  {
+    "Id": 1002607,
+    "SkillGroupId": 1504,
+    "SkillType": 6,
+    "SkillName": "Skill_1002607_SkillName",
+    "SkillLevelGroupId": 1002607,
+    "LeftSkillEffect": 0,
+    "MaxSkillLevel": 10,
+    "SkillInfoList": null,
+    "BuffList": null,
+    "DamageList": [
+      1504130000.0,
+      1504120000.0,
+      1504121000.0,
+      1504124000.0,
+      1504132000.0,
+      1504042000.0,
+      1504043000.0,
+      1504017000.0,
+      1504017001.0,
+      1504122000.0,
+      1504125000.0,
+      1504332000.0,
+      1504142000.0
+    ],
+    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconDengdeng/SP_IconDengdengY.SP_IconDengdengY",
+    "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconNvzhuD1_UI.T_IconnvzhuD1_UI",
+    "SortIndex": 5,
+    "SkillDescribe": "Skill_1002607_SkillDescribe",
+    "SkillResume": "Skill_1002607_SkillResume",
+    "SkillTagList": null,
+    "SkillDetailNum": [
+      "25",
+      "1",
+      "4",
+      "100"
+    ],
+    "SkillResumeNum": [
+      "25",
+      "1",
+      "4",
+      "100"
+    ],
+    "MultiSkillDescribe": "Skill_1002607_SkillDescribe",
+    "MultiSkillDetailNum": [
+      "25",
+      "1",
+      "4",
+      "100"
+    ]
+  },
+  {
+    "Id": 1002608,
+    "SkillGroupId": 1504,
+    "SkillType": 7,
+    "SkillName": "Skill_1002608_SkillName",
+    "SkillLevelGroupId": 1002608,
+    "LeftSkillEffect": 1,
+    "MaxSkillLevel": 1,
+    "SkillInfoList": null,
+    "BuffList": null,
+    "DamageList": null,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconRun.SP_IconRun",
+    "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconYangyangQTE_UI.T_IconYangyangQTE_UI",
+    "SortIndex": 8,
+    "SkillDescribe": "Skill_1002608_SkillDescribe",
+    "SkillResume": "Skill_1002608_SkillResume",
+    "SkillTagList": null,
+    "SkillDetailNum": null,
+    "SkillResumeNum": null,
+    "MultiSkillDescribe": "Skill_1002608_SkillDescribe",
+    "MultiSkillDetailNum": null
+  },
+  {
+    "Id": 1002609,
+    "SkillGroupId": 1504,
+    "SkillType": 11,
+    "SkillName": "Skill_1002609_SkillName",
+    "SkillLevelGroupId": 1002609,
+    "LeftSkillEffect": 0,
+    "MaxSkillLevel": 1,
+    "SkillInfoList": null,
+    "BuffList": null,
+    "DamageList": null,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconDengdeng/SP_IconDengdengT.SP_IconDengdengT",
+    "EffectSkillPath": "/Game/Aki/Effect/Texture/Icon/IconSkill/T_IconNvzhuQTE_UI.T_IconnvzhuQTE_UI",
+    "SortIndex": 4,
+    "SkillDescribe": "Skill_1002609_SkillDescribe",
+    "SkillResume": "Skill_1002609_SkillResume",
+    "SkillTagList": [
+      3
+    ],
+    "SkillDetailNum": [
+      "38%",
+      "10"
+    ],
+    "SkillResumeNum": [
+      "38%",
+      "10"
+    ],
+    "MultiSkillDescribe": "Skill_1002609_MultiSkillDescribe",
+    "MultiSkillDetailNum": [
+      "38%",
+      "10"
     ]
   }
 ]

@@ -5,6 +5,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "AkiWorld",
+    "MapConfigId": 8,
     "Title": "Area_1_Title",
     "Father": 0,
     "Tag": [
@@ -48,6 +49,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -59,6 +61,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 1000,
     "AreaName": "MapAreaVolume_YLG",
+    "MapConfigId": 8,
     "Title": "Area_2_Title",
     "Father": 1,
     "Tag": [
@@ -69,6 +72,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 1,
@@ -80,6 +84,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 1001,
     "AreaName": "MapAreaVolume_JZ",
+    "MapConfigId": 8,
     "Title": "Area_3_Title",
     "Father": 1,
     "Tag": [
@@ -90,6 +95,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 1,
@@ -101,6 +107,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 1002,
     "AreaName": "MapAreaVolume_ZQTD",
+    "MapConfigId": 8,
     "Title": "Area_4_Title",
     "Father": 1,
     "Tag": [
@@ -111,6 +118,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 1,
@@ -122,6 +130,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 1003,
     "AreaName": "MapAreaVolume_HSGD",
+    "MapConfigId": 8,
     "Title": "Area_5_Title",
     "Father": 1,
     "Tag": [
@@ -132,6 +141,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 1,
@@ -143,6 +153,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 1008,
     "AreaName": "MapAreaVolume_GXGS",
+    "MapConfigId": 8,
     "Title": "Area_6_Title",
     "Father": 1,
     "Tag": [
@@ -153,6 +164,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 1,
@@ -164,6 +176,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 1007,
     "AreaName": "MapAreaVolume_WGZS",
+    "MapConfigId": 8,
     "Title": "Area_7_Title",
     "Father": 1,
     "Tag": [
@@ -174,6 +187,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 1,
@@ -185,6 +199,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 1009,
     "AreaName": "MapAreaVolume_WMW",
+    "MapConfigId": 8,
     "Title": "Area_8_Title",
     "Father": 1,
     "Tag": [
@@ -195,6 +210,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 1,
@@ -206,6 +222,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 1010,
     "AreaName": "MapAreaVolume_BLY",
+    "MapConfigId": 8,
     "Title": "Area_9_Title",
     "Father": 1,
     "Tag": [
@@ -216,6 +233,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 1,
@@ -227,6 +245,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 1005,
     "AreaName": "MapAreaVolume_YNZ",
+    "MapConfigId": 8,
     "Title": "Area_10_Title",
     "Father": 1,
     "Tag": [
@@ -237,10 +256,34 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 1,
     "SortIndex": 9
+  },
+  {
+    "AreaId": 11,
+    "Level": 2,
+    "CountryId": 900,
+    "DeliveryMarkId": 1006,
+    "AreaName": "MapAreaVolume_HHA",
+    "MapConfigId": 8,
+    "Title": "Area_11_Title",
+    "Father": 1,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 0,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": null,
+    "WuYinQuId": 0,
+    "StateId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 1,
+    "SortIndex": 10
   },
   {
     "AreaId": 12,
@@ -248,6 +291,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 1004,
     "AreaName": "MapAreaVolume_HKSM",
+    "MapConfigId": 8,
     "Title": "Area_12_Title",
     "Father": 1,
     "Tag": [
@@ -258,6 +302,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 1,
@@ -269,6 +314,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 1014,
     "AreaName": "MapAreaVolume_CXS",
+    "MapConfigId": 8,
     "Title": "Area_14_Title",
     "Father": 1,
     "Tag": [
@@ -279,6 +325,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "/Game/Aki/Data/PathLine/Pathline_EdgeWall/BP_BasePathLine_Edgewall.BP_BasePathLine_Edgewall",
     "DeliveryMarkType": 1,
@@ -290,6 +337,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume",
+    "MapConfigId": 8,
     "Title": "Area_100_Title",
     "Father": 1,
     "Tag": [
@@ -300,6 +348,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -311,6 +360,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume41",
+    "MapConfigId": 8,
     "Title": "Area_101_Title",
     "Father": 1,
     "Tag": [
@@ -321,6 +371,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -332,6 +383,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume42",
+    "MapConfigId": 8,
     "Title": "Area_102_Title",
     "Father": 1,
     "Tag": [
@@ -342,6 +394,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -353,6 +406,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume2",
+    "MapConfigId": 8,
     "Title": "Area_103_Title",
     "Father": 1,
     "Tag": [
@@ -363,6 +417,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -374,6 +429,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume6",
+    "MapConfigId": 8,
     "Title": "Area_107_Title",
     "Father": 1,
     "Tag": [
@@ -384,6 +440,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -395,6 +452,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume13",
+    "MapConfigId": 8,
     "Title": "Area_110_Title",
     "Father": 1,
     "Tag": [
@@ -405,6 +463,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -416,6 +475,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume_YLG_16",
+    "MapConfigId": 8,
     "Title": "Area_113_Title",
     "Father": 1,
     "Tag": [
@@ -426,6 +486,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -437,6 +498,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "AirWall_MainQuest_01",
+    "MapConfigId": 8,
     "Title": "Area_124_Title",
     "Father": 1,
     "Tag": [
@@ -447,6 +509,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -458,6 +521,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume122",
+    "MapConfigId": 8,
     "Title": "Area_122_Title",
     "Father": 1,
     "Tag": [
@@ -468,6 +532,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -479,6 +544,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume199",
+    "MapConfigId": 8,
     "Title": "Area_199_Title",
     "Father": 1,
     "Tag": [
@@ -489,6 +555,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -500,6 +567,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200101,
     "AreaName": "MapAreaVolume_JZ_JZC",
+    "MapConfigId": 8,
     "Title": "Area_301_Title",
     "Father": 3,
     "Tag": [
@@ -543,6 +611,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -554,6 +623,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200102,
     "AreaName": "MapAreaVolume_JZ_YHQ",
+    "MapConfigId": 8,
     "Title": "Area_302_Title",
     "Father": 3,
     "Tag": [
@@ -597,6 +667,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -608,6 +679,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200103,
     "AreaName": "MapAreaVolume_JZ_PTS",
+    "MapConfigId": 8,
     "Title": "Area_303_Title",
     "Father": 3,
     "Tag": [
@@ -651,6 +723,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -662,6 +735,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200208,
     "AreaName": "MapAreaVolume_ZQTD_CSY",
+    "MapConfigId": 8,
     "Title": "Area_401_Title",
     "Father": 4,
     "Tag": [
@@ -705,6 +779,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -716,6 +791,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200204,
     "AreaName": "MapAreaVolume_ZQTD_DSP",
+    "MapConfigId": 8,
     "Title": "Area_402_Title",
     "Father": 4,
     "Tag": [
@@ -759,6 +835,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -770,6 +847,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200207,
     "AreaName": "MapAreaVolume_ZQTD_GBD",
+    "MapConfigId": 8,
     "Title": "Area_403_Title",
     "Father": 4,
     "Tag": [
@@ -813,6 +891,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -824,6 +903,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200206,
     "AreaName": "MapAreaVolume_ZQTD_QCC",
+    "MapConfigId": 8,
     "Title": "Area_404_Title",
     "Father": 4,
     "Tag": [
@@ -867,6 +947,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -878,6 +959,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200203,
     "AreaName": "MapAreaVolume_ZQTD_LWJ",
+    "MapConfigId": 8,
     "Title": "Area_405_Title",
     "Father": 4,
     "Tag": [
@@ -921,6 +1003,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -932,6 +1015,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200205,
     "AreaName": "MapAreaVolume_ZQTD_TYX",
+    "MapConfigId": 8,
     "Title": "Area_406_Title",
     "Father": 4,
     "Tag": [
@@ -975,6 +1059,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -986,6 +1071,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200202,
     "AreaName": "MapAreaVolume_ZQTD_XHZ",
+    "MapConfigId": 8,
     "Title": "Area_407_Title",
     "Father": 4,
     "Tag": [
@@ -1029,6 +1115,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -1040,6 +1127,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200201,
     "AreaName": "MapAreaVolume_ZQTD_YBH",
+    "MapConfigId": 8,
     "Title": "Area_408_Title",
     "Father": 4,
     "Tag": [
@@ -1083,6 +1171,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -1094,6 +1183,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TriggerVolume_poisonaera02",
+    "MapConfigId": 8,
     "Title": "",
     "Father": 7,
     "Tag": [
@@ -1104,6 +1194,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -1115,6 +1206,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200803,
     "AreaName": "MapAreaVolume_GXGS_LDL",
+    "MapConfigId": 8,
     "Title": "Area_601_Title",
     "Father": 6,
     "Tag": [
@@ -1158,6 +1250,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -1169,6 +1262,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200802,
     "AreaName": "MapAreaVolume_GXGS_DLYJZ",
+    "MapConfigId": 8,
     "Title": "Area_602_Title",
     "Father": 6,
     "Tag": [
@@ -1212,6 +1306,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -1223,6 +1318,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200801,
     "AreaName": "MapAreaVolume_GXGS_CYHQ",
+    "MapConfigId": 8,
     "Title": "Area_603_Title",
     "Father": 6,
     "Tag": [
@@ -1266,6 +1362,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -1277,6 +1374,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200804,
     "AreaName": "MapAreaVolume_GXGS_FYH",
+    "MapConfigId": 8,
     "Title": "Area_606_Title",
     "Father": 6,
     "Tag": [
@@ -1320,6 +1418,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -1331,6 +1430,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume2",
+    "MapConfigId": 8,
     "Title": "Area_607_Title",
     "Father": 6,
     "Tag": [
@@ -1341,6 +1441,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -1352,6 +1453,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume19",
+    "MapConfigId": 8,
     "Title": "Area_608_Title",
     "Father": 6,
     "Tag": [
@@ -1362,6 +1464,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -1373,6 +1476,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume3",
+    "MapConfigId": 8,
     "Title": "Area_609_Title",
     "Father": 6,
     "Tag": [
@@ -1383,6 +1487,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -1394,6 +1499,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200001,
     "AreaName": "MapAreaVolume_YLG_MZJ",
+    "MapConfigId": 8,
     "Title": "Area_202_Title",
     "Father": 2,
     "Tag": [
@@ -1437,6 +1543,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -1448,6 +1555,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200002,
     "AreaName": "MapAreaVolume_YLG_YLT",
+    "MapConfigId": 8,
     "Title": "Area_203_Title",
     "Father": 2,
     "Tag": [
@@ -1491,6 +1599,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -1502,6 +1611,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200003,
     "AreaName": "MapAreaVolume_YLG_YMP",
+    "MapConfigId": 8,
     "Title": "Area_204_Title",
     "Father": 2,
     "Tag": [
@@ -1545,6 +1655,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -1556,6 +1667,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200301,
     "AreaName": "MapAreaVolume_HSGD_YWYD",
+    "MapConfigId": 8,
     "Title": "Area_501_Title",
     "Father": 5,
     "Tag": [
@@ -1599,6 +1711,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -1610,6 +1723,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200302,
     "AreaName": "MapAreaVolume_HSGD_DLFX",
+    "MapConfigId": 8,
     "Title": "Area_502_Title",
     "Father": 5,
     "Tag": [
@@ -1653,6 +1767,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -1664,6 +1779,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200303,
     "AreaName": "MapAreaVolume_HSGD_ZGGX",
+    "MapConfigId": 8,
     "Title": "Area_503_Title",
     "Father": 5,
     "Tag": [
@@ -1707,6 +1823,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -1718,6 +1835,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200304,
     "AreaName": "MapAreaVolume_HSGD_FBZQ",
+    "MapConfigId": 8,
     "Title": "Area_504_Title",
     "Father": 5,
     "Tag": [
@@ -1761,6 +1879,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -1772,6 +1891,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "AirWall_HSGD_Airwall",
+    "MapConfigId": 8,
     "Title": "Area_508_Title",
     "Father": 1,
     "Tag": [
@@ -1782,6 +1902,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -1793,6 +1914,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200902,
     "AreaName": "MapAreaVolume_WMW_HQYH",
+    "MapConfigId": 8,
     "Title": "Area_802_Title",
     "Father": 8,
     "Tag": [
@@ -1836,6 +1958,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -1847,6 +1970,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200904,
     "AreaName": "MapAreaVolume_WMW_SSY",
+    "MapConfigId": 8,
     "Title": "Area_803_Title",
     "Father": 8,
     "Tag": [
@@ -1890,6 +2014,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -1901,6 +2026,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200901,
     "AreaName": "MapAreaVolume_WMW_XYJ",
+    "MapConfigId": 8,
     "Title": "Area_805_Title",
     "Father": 8,
     "Tag": [
@@ -1944,6 +2070,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -1955,6 +2082,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "JCYZTsTriggerVolume2",
+    "MapConfigId": 8,
     "Title": "Area_807_Title",
     "Father": 8,
     "Tag": [
@@ -1965,6 +2093,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -1976,6 +2105,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200704,
     "AreaName": "MapAreaVolume_WGZS_WYT",
+    "MapConfigId": 8,
     "Title": "Area_702_Title",
     "Father": 7,
     "Tag": [
@@ -2019,6 +2149,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -2030,6 +2161,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200701,
     "AreaName": "MapAreaVolume_WGZS_ZYR",
+    "MapConfigId": 8,
     "Title": "Area_703_Title",
     "Father": 7,
     "Tag": [
@@ -2073,6 +2205,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -2084,6 +2217,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200703,
     "AreaName": "MapAreaVolume_WGZS_ZYJR",
+    "MapConfigId": 8,
     "Title": "Area_704_Title",
     "Father": 7,
     "Tag": [
@@ -2127,6 +2261,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -2138,6 +2273,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200705,
     "AreaName": "MapAreaVolume_WGZS_HSY",
+    "MapConfigId": 8,
     "Title": "Area_705_Title",
     "Father": 7,
     "Tag": [
@@ -2181,6 +2317,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -2192,6 +2329,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200702,
     "AreaName": "MapAreaVolume_WGZS_CJBD",
+    "MapConfigId": 8,
     "Title": "Area_706_Title",
     "Father": 7,
     "Tag": [
@@ -2235,6 +2373,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -2246,6 +2385,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TriggerVolume_poisonaera",
+    "MapConfigId": 8,
     "Title": "",
     "Father": 7,
     "Tag": [
@@ -2256,6 +2396,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -2267,6 +2408,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200401,
     "AreaName": "MapAreaVolume_HKSM_LCC",
+    "MapConfigId": 8,
     "Title": "Area_1201_Title",
     "Father": 12,
     "Tag": [
@@ -2310,6 +2452,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -2321,6 +2464,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200403,
     "AreaName": "MapAreaVolume_HK_HWSK",
+    "MapConfigId": 8,
     "Title": "Area_1202_Title",
     "Father": 12,
     "Tag": [
@@ -2364,6 +2508,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -2375,6 +2520,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200402,
     "AreaName": "MapAreaVolume_HKSM_HKKC",
+    "MapConfigId": 8,
     "Title": "Area_1203_Title",
     "Father": 12,
     "Tag": [
@@ -2418,6 +2564,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -2429,6 +2576,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200404,
     "AreaName": "MapAreaVolume_HKSM_JSZX",
+    "MapConfigId": 8,
     "Title": "Area_1204_Title",
     "Father": 12,
     "Tag": [
@@ -2472,6 +2620,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -2483,6 +2632,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200507,
     "AreaName": "MapAreaVolume_YNZ_WWCCZ",
+    "MapConfigId": 8,
     "Title": "Area_1001_Title",
     "Father": 10,
     "Tag": [
@@ -2526,6 +2676,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -2537,6 +2688,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200501,
     "AreaName": "MapAreaVolume_YNZ_GCG",
+    "MapConfigId": 8,
     "Title": "Area_1002_Title",
     "Father": 10,
     "Tag": [
@@ -2580,6 +2732,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -2591,6 +2744,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200505,
     "AreaName": "MapAreaVolume_YNZ_LSD",
+    "MapConfigId": 8,
     "Title": "Area_1003_Title",
     "Father": 10,
     "Tag": [
@@ -2634,6 +2788,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -2645,6 +2800,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200503,
     "AreaName": "MapAreaVolume_YNZ_JTYZ",
+    "MapConfigId": 8,
     "Title": "Area_1004_Title",
     "Father": 10,
     "Tag": [
@@ -2688,6 +2844,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -2699,6 +2856,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200502,
     "AreaName": "MapAreaVolume_YNZ_JLX",
+    "MapConfigId": 8,
     "Title": "Area_1005_Title",
     "Father": 10,
     "Tag": [
@@ -2742,6 +2900,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -2753,6 +2912,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200504,
     "AreaName": "MapAreaVolume_YNZ_YSJJ",
+    "MapConfigId": 8,
     "Title": "Area_1006_Title",
     "Father": 10,
     "Tag": [
@@ -2796,6 +2956,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -2807,6 +2968,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200506,
     "AreaName": "MapAreaVolume_YNZ_YLSD",
+    "MapConfigId": 8,
     "Title": "Area_1007_Title",
     "Father": 10,
     "Tag": [
@@ -2850,6 +3012,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -2861,6 +3024,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200209,
     "AreaName": "MapAreaVolume_YDKKZ_YDKKZ",
+    "MapConfigId": 8,
     "Title": "Area_1301_Title",
     "Father": 4,
     "Tag": [
@@ -2871,6 +3035,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -2882,6 +3047,7 @@
     "CountryId": 0,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume141",
+    "MapConfigId": 8,
     "Title": "Area_119_Title",
     "Father": 1,
     "Tag": [
@@ -2892,6 +3058,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -2903,6 +3070,7 @@
     "CountryId": 0,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume146",
+    "MapConfigId": 8,
     "Title": "Area_120_Title",
     "Father": 1,
     "Tag": [
@@ -2913,6 +3081,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -2924,6 +3093,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume_FB_LZJS_01",
+    "MapConfigId": 49,
     "Title": "Area_10001_Title",
     "Father": 1,
     "Tag": [
@@ -2934,6 +3104,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -2945,6 +3116,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume_FB_LZJS_02",
+    "MapConfigId": 49,
     "Title": "Area_10002_Title",
     "Father": 1,
     "Tag": [
@@ -2955,6 +3127,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -2966,6 +3139,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume_FB_LZJS_03",
+    "MapConfigId": 49,
     "Title": "Area_10003_Title",
     "Father": 1,
     "Tag": [
@@ -2976,6 +3150,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -2987,6 +3162,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TriggerVolume_pata",
+    "MapConfigId": 83,
     "Title": "Area_10004_Title",
     "Father": 1,
     "Tag": [
@@ -2997,6 +3173,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3008,6 +3185,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume_FB_LZJS_4",
+    "MapConfigId": 49,
     "Title": "Area_10005_Title",
     "Father": 1,
     "Tag": [
@@ -3018,6 +3196,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3029,6 +3208,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume_HK_01",
+    "MapConfigId": 8,
     "Title": "Area_11001_Title",
     "Father": 1,
     "Tag": [
@@ -3039,6 +3219,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3050,6 +3231,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolumeTowerLoo1",
+    "MapConfigId": 89,
     "Title": "Area_12001_Title",
     "Father": 1,
     "Tag": [
@@ -3060,6 +3242,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3071,6 +3254,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolumeTowerLoop2",
+    "MapConfigId": 89,
     "Title": "Area_12002_Title",
     "Father": 1,
     "Tag": [
@@ -3081,6 +3265,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3092,6 +3277,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "Lingyang_Airwall",
+    "MapConfigId": 94,
     "Title": "Area_12003_Title",
     "Father": 1,
     "Tag": [
@@ -3102,6 +3288,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3113,6 +3300,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "BattleBlock1",
+    "MapConfigId": 8,
     "Title": "Area_13001_Title",
     "Father": 1,
     "Tag": [
@@ -3123,6 +3311,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3134,6 +3323,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "BattleBlock2",
+    "MapConfigId": 8,
     "Title": "Area_13002_Title",
     "Father": 1,
     "Tag": [
@@ -3144,6 +3334,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3155,6 +3346,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "BattleBlock3",
+    "MapConfigId": 8,
     "Title": "Area_13003_Title",
     "Father": 1,
     "Tag": [
@@ -3165,6 +3357,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3176,6 +3369,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "BattleBlock4",
+    "MapConfigId": 8,
     "Title": "Area_13004_Title",
     "Father": 1,
     "Tag": [
@@ -3186,6 +3380,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3197,6 +3392,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "BattleBlock5",
+    "MapConfigId": 8,
     "Title": "Area_13005_Title",
     "Father": 1,
     "Tag": [
@@ -3207,6 +3403,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3218,6 +3415,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "PathTP01",
+    "MapConfigId": 8,
     "Title": "Area_13006_Title",
     "Father": 1,
     "Tag": [
@@ -3228,6 +3426,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3239,6 +3438,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "PathTP02",
+    "MapConfigId": 8,
     "Title": "Area_13007_Title",
     "Father": 1,
     "Tag": [
@@ -3249,6 +3449,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3260,6 +3461,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 201001,
     "AreaName": "MapAreaVolume_BLY_BLXG",
+    "MapConfigId": 8,
     "Title": "Area_13101_Title",
     "Father": 9,
     "Tag": [
@@ -3303,6 +3505,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3314,6 +3517,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 201002,
     "AreaName": "MapAreaVolume_BLY_XFFX",
+    "MapConfigId": 8,
     "Title": "Area_13102_Title",
     "Father": 9,
     "Tag": [
@@ -3357,6 +3561,7 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3368,6 +3573,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "BLY AirWall1",
+    "MapConfigId": 8,
     "Title": "Area_13105_Title",
     "Father": 1,
     "Tag": [
@@ -3378,6 +3584,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3389,6 +3596,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "AkiWorld_WpTest",
+    "MapConfigId": 100,
     "Title": "Area_1500001_Title",
     "Father": 0,
     "Tag": [
@@ -3399,6 +3607,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3410,6 +3619,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume",
+    "MapConfigId": 93,
     "Title": "Area_1500002_Title",
     "Father": 1,
     "Tag": [
@@ -3420,6 +3630,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3431,6 +3642,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume_01",
+    "MapConfigId": 91,
     "Title": "Area_14001_Title",
     "Father": 1,
     "Tag": [
@@ -3441,6 +3653,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3452,6 +3665,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume_02",
+    "MapConfigId": 91,
     "Title": "Area_14002_Title",
     "Father": 1,
     "Tag": [
@@ -3462,6 +3676,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3473,6 +3688,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume_03",
+    "MapConfigId": 91,
     "Title": "Area_14003_Title",
     "Father": 1,
     "Tag": [
@@ -3483,6 +3699,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3494,6 +3711,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume_04",
+    "MapConfigId": 91,
     "Title": "Area_14004_Title",
     "Father": 1,
     "Tag": [
@@ -3504,6 +3722,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3515,6 +3734,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume_05",
+    "MapConfigId": 91,
     "Title": "Area_14005_Title",
     "Father": 1,
     "Tag": [
@@ -3525,6 +3745,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3536,6 +3757,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume_06",
+    "MapConfigId": 91,
     "Title": "Area_14006_Title",
     "Father": 1,
     "Tag": [
@@ -3546,6 +3768,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3557,6 +3780,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume_01",
+    "MapConfigId": 91,
     "Title": "Area_14007_Title",
     "Father": 1,
     "Tag": [
@@ -3567,6 +3791,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3578,6 +3803,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume_02",
+    "MapConfigId": 91,
     "Title": "Area_14008_Title",
     "Father": 1,
     "Tag": [
@@ -3588,6 +3814,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3599,6 +3826,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume_01",
+    "MapConfigId": 1501,
     "Title": "Area_14011_Title",
     "Father": 1,
     "Tag": [
@@ -3609,6 +3837,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3620,6 +3849,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume_02",
+    "MapConfigId": 1501,
     "Title": "Area_14012_Title",
     "Father": 1,
     "Tag": [
@@ -3630,6 +3860,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3641,6 +3872,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume_03",
+    "MapConfigId": 1501,
     "Title": "Area_14013_Title",
     "Father": 1,
     "Tag": [
@@ -3651,6 +3883,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3662,6 +3895,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume_01",
+    "MapConfigId": 6001,
     "Title": "Area_14021_Title",
     "Father": 1,
     "Tag": [
@@ -3672,6 +3906,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3683,6 +3918,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume_02",
+    "MapConfigId": 6001,
     "Title": "Area_14022_Title",
     "Father": 1,
     "Tag": [
@@ -3693,6 +3929,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3704,6 +3941,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume123",
+    "MapConfigId": 8,
     "Title": "Area_123_Title",
     "Father": 1,
     "Tag": [
@@ -3714,6 +3952,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3725,6 +3964,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "TsTriggerVolume125",
+    "MapConfigId": 8,
     "Title": "Area_125_Title",
     "Father": 1,
     "Tag": [
@@ -3735,6 +3975,7 @@
     "IsInitActived": false,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3746,6 +3987,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "EdgeWall_World",
+    "MapConfigId": 8,
     "Title": "",
     "Father": 1,
     "Tag": [
@@ -3756,8 +3998,9 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
-    "EdgeWallName": "/Game/Aki/Data/PathLine/Pathline_EdgeWall/BP_BasePathLine_Edgewall_1-1.BP_BasePathLine_Edgewall_1-1",
+    "EdgeWallName": "/Game/Aki/Data/PathLine/Pathline_EdgeWall/BP_BasePathLine_Edgewall_1-3.BP_BasePathLine_Edgewall_1-3",
     "DeliveryMarkType": 0,
     "SortIndex": 0
   },
@@ -3767,6 +4010,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 200903,
     "AreaName": "MapAreaVolume_WMW_WCCS",
+    "MapConfigId": 8,
     "Title": "Area_804_Title",
     "Father": 8,
     "Tag": [
@@ -3810,6 +4054,175 @@
       }
     ],
     "WuYinQuId": 0,
+    "StateId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1101,
+    "Level": 3,
+    "CountryId": 900,
+    "DeliveryMarkId": 201201,
+    "AreaName": "MapAreaVolume_HHA_YZYXS",
+    "MapConfigId": 8,
+    "Title": "Area_1101_Title",
+    "Father": 11,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": [
+      {
+        "Key": 1,
+        "Value": 18
+      },
+      {
+        "Key": 2,
+        "Value": 35
+      },
+      {
+        "Key": 3,
+        "Value": 46
+      },
+      {
+        "Key": 4,
+        "Value": 58
+      },
+      {
+        "Key": 5,
+        "Value": 68
+      },
+      {
+        "Key": 6,
+        "Value": 78
+      },
+      {
+        "Key": 7,
+        "Value": 88
+      },
+      {
+        "Key": 8,
+        "Value": 98
+      }
+    ],
+    "WuYinQuId": 0,
+    "StateId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1102,
+    "Level": 3,
+    "CountryId": 900,
+    "DeliveryMarkId": 201202,
+    "AreaName": "MapAreaVolume_HHA_TTSNS",
+    "MapConfigId": 8,
+    "Title": "Area_1102_Title",
+    "Father": 11,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": [
+      {
+        "Key": 1,
+        "Value": 18
+      },
+      {
+        "Key": 2,
+        "Value": 35
+      },
+      {
+        "Key": 3,
+        "Value": 46
+      },
+      {
+        "Key": 4,
+        "Value": 58
+      },
+      {
+        "Key": 5,
+        "Value": 68
+      },
+      {
+        "Key": 6,
+        "Value": 78
+      },
+      {
+        "Key": 7,
+        "Value": 88
+      },
+      {
+        "Key": 8,
+        "Value": 98
+      }
+    ],
+    "WuYinQuId": 0,
+    "StateId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1103,
+    "Level": 3,
+    "CountryId": 900,
+    "DeliveryMarkId": 201203,
+    "AreaName": "MapAreaVolume_HHA_XZD",
+    "MapConfigId": 8,
+    "Title": "Area_1103_Title",
+    "Father": 11,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": [
+      {
+        "Key": 1,
+        "Value": 18
+      },
+      {
+        "Key": 2,
+        "Value": 35
+      },
+      {
+        "Key": 3,
+        "Value": 46
+      },
+      {
+        "Key": 4,
+        "Value": 58
+      },
+      {
+        "Key": 5,
+        "Value": 68
+      },
+      {
+        "Key": 6,
+        "Value": 78
+      },
+      {
+        "Key": 7,
+        "Value": 88
+      },
+      {
+        "Key": 8,
+        "Value": 98
+      }
+    ],
+    "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3821,6 +4234,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "MapAreaVolume_CXS_XJL_YBYJ_Top",
+    "MapConfigId": 8,
     "Title": "Area_1601_Title",
     "Father": 1612,
     "Tag": [
@@ -3831,6 +4245,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3842,6 +4257,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "MapAreaVolume_CXS_XJL_YBYJ_Middle",
+    "MapConfigId": 8,
     "Title": "Area_1602_Title",
     "Father": 1612,
     "Tag": [
@@ -3852,6 +4268,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3863,6 +4280,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "MapAreaVolume_CXS_XJL_YBYJ_Bottom",
+    "MapConfigId": 8,
     "Title": "Area_1603_Title",
     "Father": 1612,
     "Tag": [
@@ -3873,6 +4291,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3884,6 +4303,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 201101,
     "AreaName": "MapAreaVolume_CXS_XGT",
+    "MapConfigId": 8,
     "Title": "Area_1611_Title",
     "Father": 14,
     "Tag": [
@@ -3894,6 +4314,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3905,6 +4326,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 201102,
     "AreaName": "MapAreaVolume_CXS_XJL",
+    "MapConfigId": 8,
     "Title": "Area_1612_Title",
     "Father": 14,
     "Tag": [
@@ -3915,6 +4337,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3926,6 +4349,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 201103,
     "AreaName": "MapAreaVolume_CXS_HZ",
+    "MapConfigId": 8,
     "Title": "Area_1613_Title",
     "Father": 14,
     "Tag": [
@@ -3936,6 +4360,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3947,6 +4372,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 201104,
     "AreaName": "MapAreaVolume_CXS_TQM",
+    "MapConfigId": 8,
     "Title": "Area_1614_Title",
     "Father": 14,
     "Tag": [
@@ -3957,6 +4383,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3968,6 +4395,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 201105,
     "AreaName": "MapAreaVolume_CXS_YLJ",
+    "MapConfigId": 8,
     "Title": "Area_1615_Title",
     "Father": 14,
     "Tag": [
@@ -3978,6 +4406,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -3989,6 +4418,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 201106,
     "AreaName": "MapAreaVolume_CXS_WLG",
+    "MapConfigId": 8,
     "Title": "Area_1616_Title",
     "Father": 14,
     "Tag": [
@@ -3999,6 +4429,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -4010,6 +4441,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 201107,
     "AreaName": "MapAreaVolume_CXS_PLY",
+    "MapConfigId": 8,
     "Title": "Area_1617_Title",
     "Father": 14,
     "Tag": [
@@ -4020,6 +4452,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -4031,6 +4464,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "MapAreaVolume_CXS_TQM_HMQ_Top",
+    "MapConfigId": 8,
     "Title": "Area_1631_Title",
     "Father": 1614,
     "Tag": [
@@ -4041,6 +4475,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -4052,6 +4487,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "MapAreaVolume_CXS_TQM_HMQ_Middle",
+    "MapConfigId": 8,
     "Title": "Area_1632_Title",
     "Father": 1614,
     "Tag": [
@@ -4062,6 +4498,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -4073,6 +4510,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "MapAreaVolume_CXS_TQM_HMQ_Bottom",
+    "MapConfigId": 8,
     "Title": "Area_1633_Title",
     "Father": 1614,
     "Tag": [
@@ -4083,6 +4521,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -4094,6 +4533,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "MapAreaVolume_CXS_WLG_MLT_Top",
+    "MapConfigId": 8,
     "Title": "Area_1641_Title",
     "Father": 1616,
     "Tag": [
@@ -4104,6 +4544,7 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
     "DeliveryMarkType": 0,
@@ -4115,6 +4556,7 @@
     "CountryId": 1,
     "DeliveryMarkId": 0,
     "AreaName": "MapAreaVolume_CXS_WLG_MLT_Bottom",
+    "MapConfigId": 8,
     "Title": "Area_1642_Title",
     "Father": 1616,
     "Tag": [
@@ -4125,8 +4567,671 @@
     "IsInitActived": true,
     "WorldMonsterLevelMax": null,
     "WuYinQuId": 0,
+    "StateId": 0,
     "AtmosphereId": 0,
     "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 15,
+    "Level": 2,
+    "CountryId": 900,
+    "DeliveryMarkId": 1015,
+    "AreaName": "MapAreaVolume_TTSZD",
+    "MapConfigId": 900,
+    "Title": "Area_15_Title",
+    "Father": 1,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 0,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": null,
+    "WuYinQuId": 0,
+    "StateId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 1,
+    "SortIndex": 13
+  },
+  {
+    "AreaId": 1501,
+    "Level": 3,
+    "CountryId": 900,
+    "DeliveryMarkId": 201301,
+    "AreaName": "MapAreaVolume_TTSZD_ADSZJ",
+    "MapConfigId": 900,
+    "Title": "Area_1501_Title",
+    "Father": 15,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": [
+      {
+        "Key": 1,
+        "Value": 18
+      },
+      {
+        "Key": 2,
+        "Value": 35
+      },
+      {
+        "Key": 3,
+        "Value": 46
+      },
+      {
+        "Key": 4,
+        "Value": 58
+      },
+      {
+        "Key": 5,
+        "Value": 68
+      },
+      {
+        "Key": 6,
+        "Value": 78
+      },
+      {
+        "Key": 7,
+        "Value": 88
+      },
+      {
+        "Key": 8,
+        "Value": 98
+      }
+    ],
+    "WuYinQuId": 0,
+    "StateId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1502,
+    "Level": 3,
+    "CountryId": 900,
+    "DeliveryMarkId": 201302,
+    "AreaName": "MapAreaVolume_TTSZD_SJHL",
+    "MapConfigId": 900,
+    "Title": "Area_1502_Title",
+    "Father": 15,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": [
+      {
+        "Key": 1,
+        "Value": 18
+      },
+      {
+        "Key": 2,
+        "Value": 35
+      },
+      {
+        "Key": 3,
+        "Value": 46
+      },
+      {
+        "Key": 4,
+        "Value": 58
+      },
+      {
+        "Key": 5,
+        "Value": 68
+      },
+      {
+        "Key": 6,
+        "Value": 78
+      },
+      {
+        "Key": 7,
+        "Value": 88
+      },
+      {
+        "Key": 8,
+        "Value": 98
+      }
+    ],
+    "WuYinQuId": 0,
+    "StateId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1504,
+    "Level": 3,
+    "CountryId": 900,
+    "DeliveryMarkId": 201304,
+    "AreaName": "MapAreaVolume_TTSZD_TLDT",
+    "MapConfigId": 900,
+    "Title": "Area_1504_Title",
+    "Father": 15,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": [
+      {
+        "Key": 1,
+        "Value": 18
+      },
+      {
+        "Key": 2,
+        "Value": 35
+      },
+      {
+        "Key": 3,
+        "Value": 46
+      },
+      {
+        "Key": 4,
+        "Value": 58
+      },
+      {
+        "Key": 5,
+        "Value": 68
+      },
+      {
+        "Key": 6,
+        "Value": 78
+      },
+      {
+        "Key": 7,
+        "Value": 88
+      },
+      {
+        "Key": 8,
+        "Value": 98
+      }
+    ],
+    "WuYinQuId": 0,
+    "StateId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1505,
+    "Level": 3,
+    "CountryId": 900,
+    "DeliveryMarkId": 201305,
+    "AreaName": "MapAreaVolume_TTSZD_NYZX",
+    "MapConfigId": 900,
+    "Title": "Area_1505_Title",
+    "Father": 15,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": [
+      {
+        "Key": 1,
+        "Value": 18
+      },
+      {
+        "Key": 2,
+        "Value": 35
+      },
+      {
+        "Key": 3,
+        "Value": 46
+      },
+      {
+        "Key": 4,
+        "Value": 58
+      },
+      {
+        "Key": 5,
+        "Value": 68
+      },
+      {
+        "Key": 6,
+        "Value": 78
+      },
+      {
+        "Key": 7,
+        "Value": 88
+      },
+      {
+        "Key": 8,
+        "Value": 98
+      }
+    ],
+    "WuYinQuId": 0,
+    "StateId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1506,
+    "Level": 3,
+    "CountryId": 900,
+    "DeliveryMarkId": 201306,
+    "AreaName": "MapAreaVolume_TTSZD_MWSRS",
+    "MapConfigId": 900,
+    "Title": "Area_1506_Title",
+    "Father": 15,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": [
+      {
+        "Key": 1,
+        "Value": 18
+      },
+      {
+        "Key": 2,
+        "Value": 35
+      },
+      {
+        "Key": 3,
+        "Value": 46
+      },
+      {
+        "Key": 4,
+        "Value": 58
+      },
+      {
+        "Key": 5,
+        "Value": 68
+      },
+      {
+        "Key": 6,
+        "Value": 78
+      },
+      {
+        "Key": 7,
+        "Value": 88
+      },
+      {
+        "Key": 8,
+        "Value": 98
+      }
+    ],
+    "WuYinQuId": 0,
+    "StateId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1507,
+    "Level": 3,
+    "CountryId": 900,
+    "DeliveryMarkId": 201307,
+    "AreaName": "MapAreaVolume_TTSZD_JZD",
+    "MapConfigId": 900,
+    "Title": "Area_1507_Title",
+    "Father": 15,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": [
+      {
+        "Key": 1,
+        "Value": 18
+      },
+      {
+        "Key": 2,
+        "Value": 35
+      },
+      {
+        "Key": 3,
+        "Value": 46
+      },
+      {
+        "Key": 4,
+        "Value": 58
+      },
+      {
+        "Key": 5,
+        "Value": 68
+      },
+      {
+        "Key": 6,
+        "Value": 78
+      },
+      {
+        "Key": 7,
+        "Value": 88
+      },
+      {
+        "Key": 8,
+        "Value": 98
+      }
+    ],
+    "WuYinQuId": 0,
+    "StateId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1561,
+    "Level": 4,
+    "CountryId": 900,
+    "DeliveryMarkId": 0,
+    "AreaName": "MapAreaVolume_TTSZD_MWSRS_-1F",
+    "MapConfigId": 900,
+    "Title": "Area_1561_Title",
+    "Father": 1506,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": [
+      {
+        "Key": 1,
+        "Value": 18
+      },
+      {
+        "Key": 2,
+        "Value": 35
+      },
+      {
+        "Key": 3,
+        "Value": 46
+      },
+      {
+        "Key": 4,
+        "Value": 58
+      },
+      {
+        "Key": 5,
+        "Value": 68
+      },
+      {
+        "Key": 6,
+        "Value": 78
+      },
+      {
+        "Key": 7,
+        "Value": 88
+      },
+      {
+        "Key": 8,
+        "Value": 98
+      }
+    ],
+    "WuYinQuId": 0,
+    "StateId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1562,
+    "Level": 4,
+    "CountryId": 900,
+    "DeliveryMarkId": 0,
+    "AreaName": "MapAreaVolume_TTSZD_MWSRS_1F",
+    "MapConfigId": 900,
+    "Title": "Area_1562_Title",
+    "Father": 1506,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": [
+      {
+        "Key": 1,
+        "Value": 18
+      },
+      {
+        "Key": 2,
+        "Value": 35
+      },
+      {
+        "Key": 3,
+        "Value": 46
+      },
+      {
+        "Key": 4,
+        "Value": 58
+      },
+      {
+        "Key": 5,
+        "Value": 68
+      },
+      {
+        "Key": 6,
+        "Value": 78
+      },
+      {
+        "Key": 7,
+        "Value": 88
+      },
+      {
+        "Key": 8,
+        "Value": 98
+      }
+    ],
+    "WuYinQuId": 0,
+    "StateId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1571,
+    "Level": 4,
+    "CountryId": 900,
+    "DeliveryMarkId": 0,
+    "AreaName": "MapAreaVolume_TTSZD_JZD_1F",
+    "MapConfigId": 900,
+    "Title": "Area_1571_Title",
+    "Father": 1507,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": [
+      {
+        "Key": 1,
+        "Value": 18
+      },
+      {
+        "Key": 2,
+        "Value": 35
+      },
+      {
+        "Key": 3,
+        "Value": 46
+      },
+      {
+        "Key": 4,
+        "Value": 58
+      },
+      {
+        "Key": 5,
+        "Value": 68
+      },
+      {
+        "Key": 6,
+        "Value": 78
+      },
+      {
+        "Key": 7,
+        "Value": 88
+      },
+      {
+        "Key": 8,
+        "Value": 98
+      }
+    ],
+    "WuYinQuId": 0,
+    "StateId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1572,
+    "Level": 4,
+    "CountryId": 900,
+    "DeliveryMarkId": 0,
+    "AreaName": "MapAreaVolume_TTSZD_JZD_2F",
+    "MapConfigId": 900,
+    "Title": "Area_1572_Title",
+    "Father": 1507,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": [
+      {
+        "Key": 1,
+        "Value": 18
+      },
+      {
+        "Key": 2,
+        "Value": 35
+      },
+      {
+        "Key": 3,
+        "Value": 46
+      },
+      {
+        "Key": 4,
+        "Value": 58
+      },
+      {
+        "Key": 5,
+        "Value": 68
+      },
+      {
+        "Key": 6,
+        "Value": 78
+      },
+      {
+        "Key": 7,
+        "Value": 88
+      },
+      {
+        "Key": 8,
+        "Value": 98
+      }
+    ],
+    "WuYinQuId": 0,
+    "StateId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 1511,
+    "Level": 4,
+    "CountryId": 900,
+    "DeliveryMarkId": 0,
+    "AreaName": "MapAreaVolume_TTSZD_ADSZJ_SMFJ",
+    "MapConfigId": 900,
+    "Title": "Area_1511_Title",
+    "Father": 1501,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 1,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": [
+      {
+        "Key": 1,
+        "Value": 18
+      },
+      {
+        "Key": 2,
+        "Value": 35
+      },
+      {
+        "Key": 3,
+        "Value": 46
+      },
+      {
+        "Key": 4,
+        "Value": 58
+      },
+      {
+        "Key": 5,
+        "Value": 68
+      },
+      {
+        "Key": 6,
+        "Value": 78
+      },
+      {
+        "Key": 7,
+        "Value": 88
+      },
+      {
+        "Key": 8,
+        "Value": 98
+      }
+    ],
+    "WuYinQuId": 0,
+    "StateId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "",
+    "DeliveryMarkType": 0,
+    "SortIndex": 0
+  },
+  {
+    "AreaId": 52,
+    "Level": 5,
+    "CountryId": 1,
+    "DeliveryMarkId": 0,
+    "AreaName": "EdgeWall_World",
+    "MapConfigId": 900,
+    "Title": "",
+    "Father": 1,
+    "Tag": [
+      0
+    ],
+    "Record": 1,
+    "Tips": 0,
+    "IsInitActived": true,
+    "WorldMonsterLevelMax": null,
+    "WuYinQuId": 0,
+    "StateId": 0,
+    "AtmosphereId": 0,
+    "EdgeWallName": "/Game/Aki/Data/PathLine/Pathline_EdgeWall/BP_BasePathLine_Edgewall_1-3underground.BP_BasePathLine_Edgewall_1-3underground",
     "DeliveryMarkType": 0,
     "SortIndex": 0
   }

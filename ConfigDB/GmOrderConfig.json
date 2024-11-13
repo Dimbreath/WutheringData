@@ -597,7 +597,7 @@
     "Id": 12011,
     "Name": "一键推进到副本节点",
     "NameOverride": "一键推进到副本节点（推荐）",
-    "Code": "SkipToInstanceDungeonNode#节点Id,传送开关(默认0),快速模式开关(默认1)",
+    "Code": "SkipToInstanceDungeonNode#节点Id,传送开关(默认0),快速模式开关(默认0)",
     "CodeOverride": "SkipToInstanceDungeonNode#节点Id,是否传送,快速模式",
     "Sort": 12011,
     "Visible": true
@@ -606,8 +606,8 @@
     "Id": 12021,
     "Name": "完成当前追踪副本节点",
     "NameOverride": "完成当前追踪副本节点(PageDown)",
-    "Code": "FinishCurTrackDungeonNode#当前副本追踪的第X个节点}{是否推完(默认1)",
-    "CodeOverride": "FinishCurTrackDungeonNode#1",
+    "Code": "FinishCurTrackDungeonNode#当前副本追踪的第X个节点,是否推完(默认1)",
+    "CodeOverride": "FinishCurTrackDungeonNode#当前活跃节点中的第X个,执行完成动作(默认1)",
     "Sort": 12021,
     "Visible": true
   },
@@ -615,8 +615,8 @@
     "Id": 12031,
     "Name": "传送到当前副本追踪位置",
     "NameOverride": "传送当前副本追踪位置",
-    "Code": "TeleportToCurDungeonTrackPosition#当前追踪的第X个",
-    "CodeOverride": "TeleportToCurDungeonTrackPosition#1",
+    "Code": "TeleportToCurDungeonTrackPosition#当前活跃节点中的第X个",
+    "CodeOverride": "TeleportToCurDungeonTrackPosition#当前活跃节点中的第X个",
     "Sort": 12031,
     "Visible": true
   },
@@ -723,8 +723,8 @@
     "Id": 13021,
     "Name": "完成当前追踪任务节点",
     "NameOverride": "完成当前追踪任务节点(PageDown)",
-    "Code": "FinishCurrentTrackQuestNode#当前任务追踪的第X个节点}{是否推完(默认1)",
-    "CodeOverride": "FinishCurrentTrackQuestNode#1",
+    "Code": "FinishCurrentTrackQuestNode#当前任务追踪的第X个节点,是否推完(默认1)",
+    "CodeOverride": "FinishCurrentTrackQuestNode#当前活跃节点中的第X个,执行完成动作(默认1)",
     "Sort": 13021,
     "Visible": true
   },
@@ -732,8 +732,8 @@
     "Id": 13031,
     "Name": "传送到当前任务追踪位置",
     "NameOverride": "传送当前任务追踪位置",
-    "Code": "TeleportToCurQuestTrackPosition#当前追踪的第X个任务",
-    "CodeOverride": "TeleportToCurQuestTrackPosition#1",
+    "Code": "TeleportToCurQuestTrackPosition#当前活跃节点中的第X个",
+    "CodeOverride": "TeleportToCurQuestTrackPosition#当前活跃节点中的第X个",
     "Sort": 13031,
     "Visible": true
   },
@@ -930,8 +930,8 @@
     "Id": 14021,
     "Name": "一键推进到玩法节点",
     "NameOverride": "一键推进到玩法节点",
-    "Code": "SkipToLevelPlayNode#玩法Id,节点Id,是否传送(缺省为0)",
-    "CodeOverride": "SkipToLevelPlayNode#玩法Id,节点Id,是否传送",
+    "Code": "SkipToLevelPlayNode#玩法Id,节点Id,是否传送(缺省为0),快速模式开关(默认0)",
+    "CodeOverride": "SkipToLevelPlayNode#玩法Id,节点Id,是否传送,快速模式",
     "Sort": 14021,
     "Visible": true
   },
@@ -939,8 +939,8 @@
     "Id": 14031,
     "Name": "完成当前玩法节点",
     "NameOverride": "完成当前玩法节点",
-    "Code": "FinishCurrentLevelPlayNode#当前玩法追踪的第X个节点}{是否推完(默认1)",
-    "CodeOverride": "FinishCurrentLevelPlayNode#1",
+    "Code": "FinishCurrentLevelPlayNode#当前玩法追踪的第X个节点,是否推完(默认1)",
+    "CodeOverride": "FinishCurrentLevelPlayNode#当前活跃节点中的第X个,执行完成动作(默认1)",
     "Sort": 14031,
     "Visible": true
   },
@@ -1057,7 +1057,7 @@
     "Name": "传送到当前玩法追踪位置",
     "NameOverride": "传送当前玩法追踪位置",
     "Code": "TeleportToCurLevelPlayTrackPosition#当前活跃节点中的第X个",
-    "CodeOverride": "TeleportToCurLevelPlayTrackPosition#1",
+    "CodeOverride": "TeleportToCurLevelPlayTrackPosition#当前活跃节点中的第X个",
     "Sort": 14041,
     "Visible": true
   }

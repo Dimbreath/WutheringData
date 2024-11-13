@@ -1,5 +1,6 @@
 [
   {
+    "Id": "2",
     "Block": "3_-3",
     "MultiMapList": [
       1,
@@ -22,9 +23,11 @@
           225
         ]
       }
-    ]
+    ],
+    "MapConfigId": 8
   },
   {
+    "Id": "3",
     "Block": "3_-4",
     "MultiMapList": [
       1
@@ -38,9 +41,11 @@
           850
         ]
       }
-    ]
+    ],
+    "MapConfigId": 8
   },
   {
+    "Id": "5",
     "Block": "4_-3",
     "MultiMapList": [
       2,
@@ -83,9 +88,11 @@
           465
         ]
       }
-    ]
+    ],
+    "MapConfigId": 8
   },
   {
+    "Id": "6",
     "Block": "4_-4",
     "MultiMapList": [
       2
@@ -99,9 +106,11 @@
           850
         ]
       }
-    ]
+    ],
+    "MapConfigId": 8
   },
   {
+    "Id": "7",
     "Block": "0_-1",
     "MultiMapList": [
       4
@@ -115,9 +124,11 @@
           800
         ]
       }
-    ]
+    ],
+    "MapConfigId": 900
   },
   {
+    "Id": "8",
     "Block": "0_0",
     "MultiMapList": [
       5,
@@ -140,9 +151,11 @@
           100
         ]
       }
-    ]
+    ],
+    "MapConfigId": 900
   },
   {
+    "Id": "9",
     "Block": "1_-1",
     "MultiMapList": [
       4
@@ -156,6 +169,25 @@
           800
         ]
       }
-    ]
+    ],
+    "MapConfigId": 900
+  },
+  {
+    "Id": "10",
+    "Block": "0_-2",
+    "MultiMapList": [
+      7
+    ],
+    "MultiMapRangeList": [
+      {
+        "ArrayInt": [
+          400,
+          500,
+          650,
+          800
+        ]
+      }
+    ],
+    "MapConfigId": 8
   }
 ]
