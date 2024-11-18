@@ -22601,7 +22601,7 @@
   },
   {
     "Key": "146000000_46",
-    "Data": "{\"Type\":\"Sequence\",\"Id\":46,\"Desc\":\"\",\"SaveConfig\":{\"DisableRollbackWhileReconnect\":false}}"
+    "Data": "{\"Type\":\"Sequence\",\"Id\":46,\"Desc\":\"\",\"SaveConfig\":{\"DisableRollbackWhileReconnect\":false},\"FixProcessor\":{\"FixActions\":[{\"Timing\":\"Default\",\"Condition\":{\"Type\":0,\"Conditions\":[{\"Type\":\"CompareEntityState\",\"EntityId\":146001183,\"Compare\":\"Eq\",\"State\":\"关卡.Common.状态.常态\"}]},\"ThenActions\":[{\"Name\":\"ChangeEntityState\",\"Params\":{\"Type\":\"Directly\",\"EntityId\":146001183,\"State\":\"关卡.Common.状态.激活\"},\"ActionGuid\":\"7a406e7588aa4164a6b2994ef4d1c50f\",\"ActionId\":3000032}],\"Period\":true}]}}"
   },
   {
     "Key": "146000000_53",
