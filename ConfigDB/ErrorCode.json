@@ -11190,12 +11190,6 @@
     "IsTip": false
   },
   {
-    "Id": 700292,
-    "DebugText": "黑板字符串长度超过限制",
-    "Text": "ErrorCode_700292_Text",
-    "IsTip": false
-  },
-  {
     "Id": 200312,
     "DebugText": "角色名字无效长度",
     "Text": "ErrorCode_200312_Text",
@@ -14452,5 +14446,11 @@
     "DebugText": "请求次数过多",
     "Text": "ErrorCode_200451_Text",
     "IsTip": true
+  },
+  {
+    "Id": 700292,
+    "DebugText": "黑板字符串长度超过限制",
+    "Text": "ErrorCode_700292_Text",
+    "IsTip": false
   }
 ]
