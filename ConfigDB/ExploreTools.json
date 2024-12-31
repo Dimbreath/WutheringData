@@ -3,6 +3,7 @@
     "PhantomSkillId": 1004,
     "Name": "ExploreTools_1004_Name",
     "SkillType": 1,
+    "CanEquip": true,
     "CurrentSkillInfo": "ExploreTools_1004_CurrentSkillInfo",
     "HelpId": 0,
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconT3.SP_IconT3",
@@ -21,6 +22,7 @@
     "PhantomSkillId": 1001,
     "Name": "ExploreTools_1001_Name",
     "SkillType": 1,
+    "CanEquip": true,
     "CurrentSkillInfo": "ExploreTools_1001_CurrentSkillInfo",
     "HelpId": 0,
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconT6.SP_IconT6",
@@ -39,6 +41,7 @@
     "PhantomSkillId": 1003,
     "Name": "ExploreTools_1003_Name",
     "SkillType": 1,
+    "CanEquip": true,
     "CurrentSkillInfo": "ExploreTools_1003_CurrentSkillInfo",
     "HelpId": 0,
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconT1.SP_IconT1",
@@ -57,6 +60,7 @@
     "PhantomSkillId": 1005,
     "Name": "ExploreTools_1005_Name",
     "SkillType": 2,
+    "CanEquip": true,
     "CurrentSkillInfo": "ExploreTools_1005_CurrentSkillInfo",
     "HelpId": 0,
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconT2.SP_IconT2",
@@ -75,6 +79,7 @@
     "PhantomSkillId": 1006,
     "Name": "ExploreTools_1006_Name",
     "SkillType": 2,
+    "CanEquip": true,
     "CurrentSkillInfo": "ExploreTools_1006_CurrentSkillInfo",
     "HelpId": 0,
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconT5.SP_IconT5",
@@ -93,6 +98,7 @@
     "PhantomSkillId": 1007,
     "Name": "ExploreTools_1007_Name",
     "SkillType": 1,
+    "CanEquip": true,
     "CurrentSkillInfo": "ExploreTools_1007_CurrentSkillInfo",
     "HelpId": 0,
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconT29.SP_IconT29",
@@ -111,6 +117,7 @@
     "PhantomSkillId": 1009,
     "Name": "ExploreTools_1009_Name",
     "SkillType": 1,
+    "CanEquip": true,
     "CurrentSkillInfo": "ExploreTools_1009_CurrentSkillInfo",
     "HelpId": 0,
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconT9.SP_IconT9",
@@ -129,6 +136,7 @@
     "PhantomSkillId": 3001,
     "Name": "ExploreTools_1009_Name",
     "SkillType": 3,
+    "CanEquip": true,
     "CurrentSkillInfo": "ExploreTools_1009_CurrentSkillInfo",
     "HelpId": 0,
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconT9.SP_IconT9",
@@ -147,6 +155,7 @@
     "PhantomSkillId": 3002,
     "Name": "ExploreTools_1009_Name",
     "SkillType": 3,
+    "CanEquip": true,
     "CurrentSkillInfo": "ExploreTools_1009_CurrentSkillInfo",
     "HelpId": 0,
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconT9.SP_IconT9",
@@ -165,6 +174,7 @@
     "PhantomSkillId": 1010,
     "Name": "ExploreTools_1010_Name",
     "SkillType": 1,
+    "CanEquip": true,
     "CurrentSkillInfo": "ExploreTools_1010_CurrentSkillInfo",
     "HelpId": 30,
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconT30.SP_IconT30",
@@ -188,6 +198,7 @@
     "PhantomSkillId": 1011,
     "Name": "ExploreTools_1011_Name",
     "SkillType": 1,
+    "CanEquip": true,
     "CurrentSkillInfo": "ExploreTools_1011_CurrentSkillInfo",
     "HelpId": 28,
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconT32.SP_IconT32",
@@ -212,6 +223,10 @@
       {
         "Key": 900,
         "Value": 10805
+      },
+      {
+        "Key": 3,
+        "Value": 10809
       }
     ],
     "SummonConfigId": 0
@@ -220,6 +235,7 @@
     "PhantomSkillId": 1012,
     "Name": "ExploreTools_1012_Name",
     "SkillType": 1,
+    "CanEquip": true,
     "CurrentSkillInfo": "ExploreTools_1012_CurrentSkillInfo",
     "HelpId": 29,
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconT31.SP_IconT31",
@@ -239,6 +255,10 @@
       {
         "Key": 900,
         "Value": 10806
+      },
+      {
+        "Key": 3,
+        "Value": 10810
       }
     ],
     "SummonConfigId": 0
@@ -247,6 +267,7 @@
     "PhantomSkillId": 1013,
     "Name": "ExploreTools_1013_Name",
     "SkillType": 1,
+    "CanEquip": true,
     "CurrentSkillInfo": "ExploreTools_1013_CurrentSkillInfo",
     "HelpId": 0,
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconT34.SP_IconT34",
@@ -260,5 +281,62 @@
     "Cost": null,
     "Authorization": null,
     "SummonConfigId": 24000022
+  },
+  {
+    "PhantomSkillId": 1015,
+    "Name": "ExploreTools_1015_Name",
+    "SkillType": 1,
+    "CanEquip": true,
+    "CurrentSkillInfo": "ExploreTools_1015_CurrentSkillInfo",
+    "HelpId": 0,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconT43.SP_IconT43",
+    "BackGround": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconT43.SP_IconT43",
+    "BattleViewIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconT43.SP_IconT43",
+    "SortId": 15,
+    "AutoFill": true,
+    "ShowUnlock": false,
+    "SkillGroupId": 1,
+    "IsUseInPhantomTeam": false,
+    "Cost": null,
+    "Authorization": null,
+    "SummonConfigId": 0
+  },
+  {
+    "PhantomSkillId": 1016,
+    "Name": "ExploreTools_1016_Name",
+    "SkillType": 1,
+    "CanEquip": false,
+    "CurrentSkillInfo": "ExploreTools_1016_CurrentSkillInfo",
+    "HelpId": 0,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconDagebuou/SP_IconDagebuouUsable.SP_IconDagebuouUsable",
+    "BackGround": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconDagebuou/SP_IconDagebuouUsable.SP_IconDagebuouUsable",
+    "BattleViewIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconDagebuou/SP_IconDagebuouUsable.SP_IconDagebuouUsable",
+    "SortId": 16,
+    "AutoFill": false,
+    "ShowUnlock": false,
+    "SkillGroupId": 1,
+    "IsUseInPhantomTeam": false,
+    "Cost": null,
+    "Authorization": null,
+    "SummonConfigId": 0
+  },
+  {
+    "PhantomSkillId": 1017,
+    "Name": "ExploreTools_1017_Name",
+    "SkillType": 1,
+    "CanEquip": false,
+    "CurrentSkillInfo": "ExploreTools_1017_CurrentSkillInfo",
+    "HelpId": 0,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJimoxiaojie/SP_IconJimoxiaojieUsable.SP_IconJimoxiaojieUsable",
+    "BackGround": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJimoxiaojie/SP_IconJimoxiaojieUsable.SP_IconJimoxiaojieUsable",
+    "BattleViewIcon": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJimoxiaojie/SP_IconJimoxiaojieUsable.SP_IconJimoxiaojieUsable",
+    "SortId": 17,
+    "AutoFill": false,
+    "ShowUnlock": false,
+    "SkillGroupId": 1,
+    "IsUseInPhantomTeam": false,
+    "Cost": null,
+    "Authorization": null,
+    "SummonConfigId": 0
   }
 ]

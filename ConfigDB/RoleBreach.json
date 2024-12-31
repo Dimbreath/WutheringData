@@ -4520,5 +4520,337 @@
     ],
     "BreachReward": 0,
     "ConditionId": 504007
+  },
+  {
+    "Id": 501701,
+    "BreachGroupId": 5017,
+    "BreachLevel": 0,
+    "MaxLevel": 90,
+    "BreachConsume": null,
+    "BreachReward": 0,
+    "ConditionId": 0
+  },
+  {
+    "Id": 221,
+    "BreachGroupId": 1107,
+    "BreachLevel": 0,
+    "MaxLevel": 20,
+    "BreachConsume": null,
+    "BreachReward": 0,
+    "ConditionId": 504001
+  },
+  {
+    "Id": 222,
+    "BreachGroupId": 1107,
+    "BreachLevel": 1,
+    "MaxLevel": 40,
+    "BreachConsume": [
+      {
+        "Key": 41100041,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 5000
+      }
+    ],
+    "BreachReward": 0,
+    "ConditionId": 504002
+  },
+  {
+    "Id": 223,
+    "BreachGroupId": 1107,
+    "BreachLevel": 2,
+    "MaxLevel": 50,
+    "BreachConsume": [
+      {
+        "Key": 41400174,
+        "Value": 3
+      },
+      {
+        "Key": 42601150,
+        "Value": 4
+      },
+      {
+        "Key": 41100042,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 10000
+      }
+    ],
+    "BreachReward": 0,
+    "ConditionId": 504003
+  },
+  {
+    "Id": 224,
+    "BreachGroupId": 1107,
+    "BreachLevel": 3,
+    "MaxLevel": 60,
+    "BreachConsume": [
+      {
+        "Key": 41400174,
+        "Value": 6
+      },
+      {
+        "Key": 42601150,
+        "Value": 8
+      },
+      {
+        "Key": 41100042,
+        "Value": 8
+      },
+      {
+        "Key": 2,
+        "Value": 15000
+      }
+    ],
+    "BreachReward": 0,
+    "ConditionId": 504004
+  },
+  {
+    "Id": 225,
+    "BreachGroupId": 1107,
+    "BreachLevel": 4,
+    "MaxLevel": 70,
+    "BreachConsume": [
+      {
+        "Key": 41400174,
+        "Value": 9
+      },
+      {
+        "Key": 42601150,
+        "Value": 12
+      },
+      {
+        "Key": 41100043,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 20000
+      }
+    ],
+    "BreachReward": 0,
+    "ConditionId": 504005
+  },
+  {
+    "Id": 226,
+    "BreachGroupId": 1107,
+    "BreachLevel": 5,
+    "MaxLevel": 80,
+    "BreachConsume": [
+      {
+        "Key": 41400174,
+        "Value": 12
+      },
+      {
+        "Key": 42601150,
+        "Value": 16
+      },
+      {
+        "Key": 41100043,
+        "Value": 8
+      },
+      {
+        "Key": 2,
+        "Value": 40000
+      }
+    ],
+    "BreachReward": 0,
+    "ConditionId": 504006
+  },
+  {
+    "Id": 227,
+    "BreachGroupId": 1107,
+    "BreachLevel": 6,
+    "MaxLevel": 90,
+    "BreachConsume": [
+      {
+        "Key": 41400174,
+        "Value": 16
+      },
+      {
+        "Key": 42601150,
+        "Value": 20
+      },
+      {
+        "Key": 41100044,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 80000
+      }
+    ],
+    "BreachReward": 0,
+    "ConditionId": 504007
+  },
+  {
+    "Id": 228,
+    "BreachGroupId": 1606,
+    "BreachLevel": 0,
+    "MaxLevel": 20,
+    "BreachConsume": null,
+    "BreachReward": 0,
+    "ConditionId": 504001
+  },
+  {
+    "Id": 229,
+    "BreachGroupId": 1606,
+    "BreachLevel": 1,
+    "MaxLevel": 40,
+    "BreachConsume": [
+      {
+        "Key": 41100051,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 5000
+      }
+    ],
+    "BreachReward": 0,
+    "ConditionId": 504002
+  },
+  {
+    "Id": 230,
+    "BreachGroupId": 1606,
+    "BreachLevel": 2,
+    "MaxLevel": 50,
+    "BreachConsume": [
+      {
+        "Key": 41400164,
+        "Value": 3
+      },
+      {
+        "Key": 42601160,
+        "Value": 4
+      },
+      {
+        "Key": 41100052,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 10000
+      }
+    ],
+    "BreachReward": 0,
+    "ConditionId": 504003
+  },
+  {
+    "Id": 231,
+    "BreachGroupId": 1606,
+    "BreachLevel": 3,
+    "MaxLevel": 60,
+    "BreachConsume": [
+      {
+        "Key": 41400164,
+        "Value": 6
+      },
+      {
+        "Key": 42601160,
+        "Value": 8
+      },
+      {
+        "Key": 41100052,
+        "Value": 8
+      },
+      {
+        "Key": 2,
+        "Value": 15000
+      }
+    ],
+    "BreachReward": 0,
+    "ConditionId": 504004
+  },
+  {
+    "Id": 232,
+    "BreachGroupId": 1606,
+    "BreachLevel": 4,
+    "MaxLevel": 70,
+    "BreachConsume": [
+      {
+        "Key": 41400164,
+        "Value": 9
+      },
+      {
+        "Key": 42601160,
+        "Value": 12
+      },
+      {
+        "Key": 41100053,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 20000
+      }
+    ],
+    "BreachReward": 0,
+    "ConditionId": 504005
+  },
+  {
+    "Id": 233,
+    "BreachGroupId": 1606,
+    "BreachLevel": 5,
+    "MaxLevel": 80,
+    "BreachConsume": [
+      {
+        "Key": 41400164,
+        "Value": 12
+      },
+      {
+        "Key": 42601160,
+        "Value": 16
+      },
+      {
+        "Key": 41100053,
+        "Value": 8
+      },
+      {
+        "Key": 2,
+        "Value": 40000
+      }
+    ],
+    "BreachReward": 0,
+    "ConditionId": 504006
+  },
+  {
+    "Id": 234,
+    "BreachGroupId": 1606,
+    "BreachLevel": 6,
+    "MaxLevel": 90,
+    "BreachConsume": [
+      {
+        "Key": 41400164,
+        "Value": 16
+      },
+      {
+        "Key": 42601160,
+        "Value": 20
+      },
+      {
+        "Key": 41100054,
+        "Value": 4
+      },
+      {
+        "Key": 2,
+        "Value": 80000
+      }
+    ],
+    "BreachReward": 0,
+    "ConditionId": 504007
+  },
+  {
+    "Id": 501801,
+    "BreachGroupId": 5018,
+    "BreachLevel": 0,
+    "MaxLevel": 90,
+    "BreachConsume": null,
+    "BreachReward": 0,
+    "ConditionId": 0
   }
 ]

@@ -739,5 +739,44 @@
     "BackViewBlendName": "",
     "Icon": "",
     "LightSequence": ""
+  },
+  {
+    "Id": 80,
+    "ParentViewName": "SkinRootView",
+    "ChildViewName": "RoleSkinTabView",
+    "TabName": "UiDynamicTab_80_TabName",
+    "TabIndex": 1,
+    "FunctionId": 0,
+    "UiCameraSettingsName": "",
+    "UiCameraBlendName": "",
+    "BackViewBlendName": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconShopSkin.SP_IconShopSkin",
+    "LightSequence": "/Game/Aki/Map/UISceneLevel/UI_Scene/LevelSequence/UL_UIMap_CreateRole_Hide_light_2loop.UL_UIMap_CreateRole_Hide_light_2loop"
+  },
+  {
+    "Id": 81,
+    "ParentViewName": "SkinRootView",
+    "ChildViewName": "WeaponSkinTabView",
+    "TabName": "UiDynamicTab_81_TabName",
+    "TabIndex": 2,
+    "FunctionId": 0,
+    "UiCameraSettingsName": "",
+    "UiCameraBlendName": "",
+    "BackViewBlendName": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconRoleWeaponSkin.SP_IconRoleWeaponSkin",
+    "LightSequence": "/Game/Aki/Map/UISceneLevel/UI_Scene/LevelSequence/UL_UIMap_CreateRole_Hide_light_2loop_5.UL_UIMap_CreateRole_Hide_light_2loop_5"
+  },
+  {
+    "Id": 82,
+    "ParentViewName": "PayShopRootView",
+    "ChildViewName": "PayShopSkinView",
+    "TabName": "PayShop_6_Name",
+    "TabIndex": 6,
+    "FunctionId": 0,
+    "UiCameraSettingsName": "",
+    "UiCameraBlendName": "",
+    "BackViewBlendName": "",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconShopSkin.SP_IconShopSkin",
+    "LightSequence": ""
   }
 ]

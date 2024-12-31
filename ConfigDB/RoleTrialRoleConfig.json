@@ -97,11 +97,11 @@
   },
   {
     "RoleId": 1304,
-    "RoleStand": "/Game/Aki/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleJinxi.T_ActivityRoleJinxi",
-    "RoleStand2": "",
-    "RoleIcon": "",
-    "UiConfigId": 4,
-    "Introduction": ""
+    "RoleStand": "/Game/Aki/UI/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyJinxi.T_ActivityRoleOntrialHalfBodyJinxi",
+    "RoleStand2": "/Game/Aki/UI/UIResources/UiActivity/Image/ActivityRoleOntrial/T_ActivityRoleOntrialVagueJinxi.T_ActivityRoleOntrialVagueJinxi",
+    "RoleIcon": "/Game/Aki/UI/UIResources/UiActivity/Image/ActivityRoleOntrial/T_ActivityRoleOntrialTabJinxi.T_ActivityRoleOntrialTabJinxi",
+    "UiConfigId": 3,
+    "Introduction": "FavorRoleInfo_1304_Info"
   },
   {
     "RoleId": 1102,
@@ -129,11 +129,11 @@
   },
   {
     "RoleId": 1105,
-    "RoleStand": "/Game/Aki/UI/UIResources/Common/Image/PixActivity/T_ActivityRoleZhezhi.T_ActivityRoleZhezhi",
-    "RoleStand2": "",
-    "RoleIcon": "",
-    "UiConfigId": 4,
-    "Introduction": ""
+    "RoleStand": "/Game/Aki/UI/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyZhezhi.T_ActivityRoleOntrialHalfBodyZhezhi",
+    "RoleStand2": "/Game/Aki/UI/UIResources/UiActivity/Image/ActivityRoleOntrial/T_ActivityRoleOntrialVagueZhezhi.T_ActivityRoleOntrialVagueZhezhi",
+    "RoleIcon": "/Game/Aki/UI/UIResources/UiActivity/Image/ActivityRoleOntrial/T_ActivityRoleOntrialTabZhezhi.T_ActivityRoleOntrialTabZhezhi",
+    "UiConfigId": 0,
+    "Introduction": "FavorRoleInfo_1105_Info"
   },
   {
     "RoleId": 1505,
@@ -150,5 +150,21 @@
     "RoleIcon": "/Game/Aki/UI/UIResources/UiActivity/Image/ActivityRoleOntrial/T_ActivityRoleOntrialTabYouhu.T_ActivityRoleOntrialTabYouhu",
     "UiConfigId": 4,
     "Introduction": "FavorRoleInfo_1106_Info"
+  },
+  {
+    "RoleId": 1107,
+    "RoleStand": "/Game/Aki/UI/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyKelaita.T_ActivityRoleOntrialHalfBodyKelaita",
+    "RoleStand2": "/Game/Aki/UI/UIResources/UiActivity/Image/ActivityRoleOntrial/T_ActivityRoleOntrialVagueKelaita.T_ActivityRoleOntrialVagueKelaita",
+    "RoleIcon": "/Game/Aki/UI/UIResources/UiActivity/Image/ActivityRoleOntrial/T_ActivityRoleOntrialTabKelaita.T_ActivityRoleOntrialTabKelaita",
+    "UiConfigId": 0,
+    "Introduction": "FavorRoleInfo_1107_Info"
+  },
+  {
+    "RoleId": 1606,
+    "RoleStand": "/Game/Aki/UI/UIResources/UiActivity/Image/RoleHalfBody/T_ActivityRoleOntrialHalfBodyLuokeke.T_ActivityRoleOntrialHalfBodyLuokeke",
+    "RoleStand2": "/Game/Aki/UI/UIResources/UiActivity/Image/ActivityRoleOntrial/T_ActivityRoleOntrialVagueLuokeke.T_ActivityRoleOntrialVagueLuokeke",
+    "RoleIcon": "/Game/Aki/UI/UIResources/UiActivity/Image/ActivityRoleOntrial/T_ActivityRoleOntrialTabLuokeke.T_ActivityRoleOntrialTabLuokeke",
+    "UiConfigId": 4,
+    "Introduction": "FavorRoleInfo_1606_Info"
   }
 ]

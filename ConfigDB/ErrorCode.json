@@ -13734,15 +13734,15 @@
     "IsTip": false
   },
   {
-    "Id": 2100003,
-    "DebugText": "实体属性超过上限，请立即更改配置",
-    "Text": "ErrorCode_2100004_Text",
-    "IsTip": false
-  },
-  {
     "Id": 2200042,
     "DebugText": "修改场景实体属性，Tag Id表中不存在",
     "Text": "ErrorCode_2200042_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2100003,
+    "DebugText": "实体属性超过上限，请立即更改配置",
+    "Text": "ErrorCode_2100004_Text",
     "IsTip": false
   },
   {
@@ -14196,6 +14196,30 @@
     "IsTip": false
   },
   {
+    "Id": 1500123,
+    "DebugText": "实体不存在:{0}",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500124,
+    "DebugText": "阵营未定义:{0}",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500125,
+    "DebugText": "其他上下文校验失败:{0}",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500126,
+    "DebugText": "没有战斗组件:{0}",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
     "Id": 1400051,
     "DebugText": "地图标记配置不存在",
     "Text": "ErrorCode_1400051_Text",
@@ -14226,10 +14250,34 @@
     "IsTip": false
   },
   {
+    "Id": 1800050,
+    "DebugText": "未找到最近一次进入的大世界场景",
+    "Text": "ErrorCode_1800050_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200059,
+    "DebugText": "行为组队列中已经存在会销毁自己的行为组",
+    "Text": "ErrorCode_2200049_Text",
+    "IsTip": false
+  },
+  {
     "Id": 1100271,
     "DebugText": "剩余回音结晶奖励次数不足，无法领取奖励，请等待奖励次数刷新后再尝试。",
     "Text": "ErrorCode_1100271_Text",
     "IsTip": false
+  },
+  {
+    "Id": 1800051,
+    "DebugText": "当前玩家处于联机模式无法使用",
+    "Text": "ErrorCode_1800051_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1800052,
+    "DebugText": "未找到探索巨物实体配置",
+    "Text": "ErrorCode_1800052_Text",
+    "IsTip": true
   },
   {
     "Id": 1100272,
@@ -14253,6 +14301,96 @@
     "Id": 1100275,
     "DebugText": "肉鸽可用角色无效",
     "Text": "ErrorCode_1100275_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500127,
+    "DebugText": "缺少CombinePartInfo参数",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500128,
+    "DebugText": "合体实体不存在",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500129,
+    "DebugText": "合体实体不存在",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500130,
+    "DebugText": "合体部位不存在",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500131,
+    "DebugText": "合体组件不存在",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500132,
+    "DebugText": "已经与其他实体合体",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500133,
+    "DebugText": "缺少结合体相对位置",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500134,
+    "DebugText": "缺少结合体相对朝向",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500135,
+    "DebugText": "实体不存在",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500136,
+    "DebugText": "上下文校验失败",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200060,
+    "DebugText": "实体已经进入即将销毁状态",
+    "Text": "ErrorCode_2200050_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200061,
+    "DebugText": "添加重复的范围内玩家",
+    "Text": "添加重复的范围内玩家",
+    "IsTip": false
+  },
+  {
+    "Id": 2200062,
+    "DebugText": "添加重复的范围内实体",
+    "Text": "添加重复的范围内实体",
+    "IsTip": false
+  },
+  {
+    "Id": 2200063,
+    "DebugText": "移除不存在于范围内的玩家",
+    "Text": "移除不存在于范围内的玩家",
+    "IsTip": false
+  },
+  {
+    "Id": 2200064,
+    "DebugText": "移除不存在于范围内的实体",
+    "Text": "移除不存在于范围内的实体",
     "IsTip": false
   },
   {
@@ -14280,10 +14418,64 @@
     "IsTip": false
   },
   {
-    "Id": 1800050,
+    "Id": 1800053,
     "DebugText": "被邀请人已死亡,无法同意申请",
     "Text": "ErrorCode_1800053_Text",
     "IsTip": true
+  },
+  {
+    "Id": 2600000,
+    "DebugText": "警戒区域id错误",
+    "Text": "警戒区域id错误",
+    "IsTip": false
+  },
+  {
+    "Id": 2600001,
+    "DebugText": "警戒区域已开启",
+    "Text": "警戒区域已开启",
+    "IsTip": false
+  },
+  {
+    "Id": 2600002,
+    "DebugText": "警戒区域已关闭",
+    "Text": "警戒区域已关闭",
+    "IsTip": false
+  },
+  {
+    "Id": 2600003,
+    "DebugText": "警戒UI已开启",
+    "Text": "警戒UI已开启",
+    "IsTip": false
+  },
+  {
+    "Id": 2600004,
+    "DebugText": "警戒UI未禁用",
+    "Text": "警戒UI未禁用",
+    "IsTip": false
+  },
+  {
+    "Id": 2600005,
+    "DebugText": "警戒UI已显示",
+    "Text": "警戒UI已显示",
+    "IsTip": false
+  },
+  {
+    "Id": 2600006,
+    "DebugText": "警戒UI未隐藏",
+    "Text": "警戒UI未隐藏",
+    "IsTip": false
+  },
+  {
+    "Id": 2600007,
+    "DebugText": "警戒值不在范围内",
+    "Text": "警戒值不在范围内",
+    "IsTip": false
+  },
+  {
+    "Id": 2600008,
+    "DebugText": "错误的设置类型",
+    "Text": "错误的设置类型",
+    "IsTip": false
   },
   {
     "Id": 2500059,
@@ -14388,69 +14580,627 @@
     "IsTip": false
   },
   {
-    "Id": 200438,
-    "DebugText": "登录服务器时出错，如有疑问可联系官方客服。",
-    "Text": "ErrorCode_200447_Text",
+    "Id": 600108,
+    "DebugText": "玩家不在载具上",
+    "Text": "ErrorCode_600108_Text",
     "IsTip": false
+  },
+  {
+    "Id": 600109,
+    "DebugText": "共乘角色已存在",
+    "Text": "ErrorCode_600109_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 600110,
+    "DebugText": "创建共乘角色实体失败",
+    "Text": "ErrorCode_600110_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 600111,
+    "DebugText": "共乘角色找不到",
+    "Text": "ErrorCode_600111_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200438,
+    "DebugText": "角色皮肤未解锁",
+    "Text": "",
+    "IsTip": true
   },
   {
     "Id": 200439,
-    "DebugText": "登录服务器时出错，如有疑问可联系官方客服。",
-    "Text": "ErrorCode_200447_Text",
-    "IsTip": false
+    "DebugText": "角色皮肤配置找不到",
+    "Text": "",
+    "IsTip": true
   },
   {
     "Id": 200440,
-    "DebugText": "登录服务器时出错，如有疑问可联系官方客服。",
-    "Text": "ErrorCode_200447_Text",
-    "IsTip": false
+    "DebugText": "角色皮肤配不匹配",
+    "Text": "",
+    "IsTip": true
   },
   {
     "Id": 200441,
+    "DebugText": "非当前套装武器",
+    "Text": "",
+    "IsTip": true
+  },
+  {
+    "Id": 200442,
     "DebugText": "登录服务器时出错，如有疑问可联系官方客服。",
     "Text": "ErrorCode_200447_Text",
     "IsTip": false
   },
   {
-    "Id": 1800051,
+    "Id": 200443,
+    "DebugText": "登录服务器时出错，如有疑问可联系官方客服。",
+    "Text": "ErrorCode_200447_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200444,
+    "DebugText": "登录服务器时出错，如有疑问可联系官方客服。",
+    "Text": "ErrorCode_200447_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200445,
+    "DebugText": "登录服务器时出错，如有疑问可联系官方客服。",
+    "Text": "ErrorCode_200447_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2600009,
+    "DebugText": "玩法配置不存在",
+    "Text": "玩法配置不存在",
+    "IsTip": false
+  },
+  {
+    "Id": 2600010,
+    "DebugText": "讨伐报告玩法配置不存在",
+    "Text": "讨伐报告玩法配置不存在",
+    "IsTip": false
+  },
+  {
+    "Id": 2600011,
+    "DebugText": "讨伐报告玩法类型错误",
+    "Text": "讨伐报告玩法类型错误",
+    "IsTip": false
+  },
+  {
+    "Id": 2600012,
+    "DebugText": "讨伐报告没有配置变量",
+    "Text": "讨伐报告没有配置变量",
+    "IsTip": false
+  },
+  {
+    "Id": 2500076,
+    "DebugText": "找不到目标道具置换配置",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2500077,
+    "DebugText": "找不到消耗道具置换配置",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2500078,
+    "DebugText": "置换道具不属于同一个组",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2500079,
+    "DebugText": "道具消耗数量错误",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100280,
+    "DebugText": "解锁的声骸物品配置异常",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100281,
+    "DebugText": "要切换的声骸音乐配置不存在",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 600112,
+    "DebugText": "不能移动放置物",
+    "Text": "ErrorCode_600112_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1800054,
     "DebugText": "已死亡无法同意邀请",
     "Text": "ErrorCode_1800054_Text",
     "IsTip": true
   },
   {
-    "Id": 200442,
-    "DebugText": "请求次数过多",
-    "Text": "ErrorCode_200451_Text",
-    "IsTip": true
-  },
-  {
-    "Id": 200443,
-    "DebugText": "请求次数过多",
-    "Text": "ErrorCode_200451_Text",
-    "IsTip": true
-  },
-  {
-    "Id": 200444,
-    "DebugText": "请求次数过多",
-    "Text": "ErrorCode_200451_Text",
-    "IsTip": true
-  },
-  {
-    "Id": 200445,
-    "DebugText": "请求次数过多",
-    "Text": "ErrorCode_200451_Text",
-    "IsTip": true
-  },
-  {
     "Id": 200446,
+    "DebugText": "性别切换cd中",
+    "Text": "ErrorCode_ChangeCD_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200447,
+    "DebugText": "由于性别切换回到登录界面",
+    "Text": "ErrorCode_ChangeLogout_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200448,
+    "DebugText": "角色试用中，不可切换性别",
+    "Text": "ErrorCode_ChangeTrialActive_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1900109,
+    "DebugText": "找不到春节签到活动配置",
+    "Text": "ErrorCode_1900107_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900110,
+    "DebugText": "春节签到活动数据异常",
+    "Text": "ErrorCode_1900108_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900111,
+    "DebugText": "春节签到活动奖励已领取",
+    "Text": "ErrorCode_1900109_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900112,
+    "DebugText": "春节签到活动奖励无法领取",
+    "Text": "ErrorCode_1900110_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900113,
+    "DebugText": "活动未开启",
+    "Text": "ErrorCode_1900111_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900114,
+    "DebugText": "找不到签到任务",
+    "Text": "ErrorCode_1900112_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900115,
+    "DebugText": "签到次数不足",
+    "Text": "ErrorCode_1900113_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900116,
+    "DebugText": "没配置签到角色",
+    "Text": "ErrorCode_1900114_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900117,
+    "DebugText": "角色池为空",
+    "Text": "ErrorCode_1900115_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200449,
     "DebugText": "请求次数过多",
     "Text": "ErrorCode_200451_Text",
     "IsTip": true
+  },
+  {
+    "Id": 200450,
+    "DebugText": "请求次数过多",
+    "Text": "ErrorCode_200451_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200451,
+    "DebugText": "请求次数过多",
+    "Text": "ErrorCode_200451_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200452,
+    "DebugText": "请求次数过多",
+    "Text": "ErrorCode_200451_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200453,
+    "DebugText": "请求次数过多",
+    "Text": "ErrorCode_200451_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1100282,
+    "DebugText": "活动配置找不到",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100283,
+    "DebugText": "活动未开启",
+    "Text": "ErrorCode_1100253_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100284,
+    "DebugText": "活动直通车配置找不到",
+    "Text": "ErrorCode_1100194_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100285,
+    "DebugText": "活动类型未定义",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100286,
+    "DebugText": "设置全局变量失败",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100287,
+    "DebugText": "联机模式下不可用",
+    "Text": "CantUseInMultiplayerMode",
+    "IsTip": true
+  },
+  {
+    "Id": 2600013,
+    "DebugText": "摄像机已经预警",
+    "Text": "摄像机已经预警",
+    "IsTip": false
+  },
+  {
+    "Id": 2600014,
+    "DebugText": "摄像机未预警",
+    "Text": "摄像机未预警",
+    "IsTip": false
+  },
+  {
+    "Id": 2600015,
+    "DebugText": "摄像机预警实体状态不存在",
+    "Text": "摄像机预警实体状态不存在",
+    "IsTip": false
+  },
+  {
+    "Id": 2600016,
+    "DebugText": "玩法配置不存在",
+    "Text": "玩法配置不存在",
+    "IsTip": false
+  },
+  {
+    "Id": 1900118,
+    "DebugText": "活动未开启",
+    "Text": "ErrorCode_1900116_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900119,
+    "DebugText": "积分奖励已领取",
+    "Text": "ErrorCode_1900117_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900120,
+    "DebugText": "积分配置找不到",
+    "Text": "ErrorCode_1900118_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900121,
+    "DebugText": "积分不足",
+    "Text": "ErrorCode_1900119_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900122,
+    "DebugText": "关卡数据不存在",
+    "Text": "ErrorCode_1900120_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900123,
+    "DebugText": "关卡奖励已领取",
+    "Text": "ErrorCode_1900121_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900124,
+    "DebugText": "关卡配置找不到",
+    "Text": "ErrorCode_1900122_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900125,
+    "DebugText": "关卡难度不存在",
+    "Text": "ErrorCode_1900123_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900126,
+    "DebugText": "金币副本id无效",
+    "Text": "ErrorCode_1900124_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900127,
+    "DebugText": "行为树变量不存在",
+    "Text": "ErrorCode_1900125_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900128,
+    "DebugText": "活动缓存不存在",
+    "Text": "ErrorCode_1900126_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900129,
+    "DebugText": "活动副本没到达开放天数",
+    "Text": "ErrorCode_1900127_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900130,
+    "DebugText": "活动配置找不到",
+    "Text": "ErrorCode_1900128_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 900075,
+    "DebugText": "实体图案积分非法",
+    "Text": "ErrorCode_900073_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1900131,
+    "DebugText": "找不到活动数据",
+    "Text": "ErrorCode_1900129_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900132,
+    "DebugText": "找不到活动配置",
+    "Text": "ErrorCode_1900130_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900133,
+    "DebugText": "奖励条件未达成",
+    "Text": "ErrorCode_1900131_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900134,
+    "DebugText": "奖励已领取",
+    "Text": "ErrorCode_1900132_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900135,
+    "DebugText": "已达到最高等级",
+    "Text": "ErrorCode_1900133_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900136,
+    "DebugText": "经验不够升级",
+    "Text": "ErrorCode_1900134_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2000038,
+    "DebugText": "npc已经在载具上",
+    "Text": "ErrorCode_2000038_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200066,
+    "DebugText": "钩锁点处于锁定状态",
+    "Text": "钩锁点处于锁定状态",
+    "IsTip": false
+  },
+  {
+    "Id": 2200067,
+    "DebugText": "客户端重复请求玩家交互钩锁点",
+    "Text": "客户端重复请求玩家交互钩锁点",
+    "IsTip": false
+  },
+  {
+    "Id": 2200068,
+    "DebugText": "客户端请求玩家交互钩锁点，此前没有请求过",
+    "Text": "客户端请求玩家交互钩锁点，此前没有请求过",
+    "IsTip": false
+  },
+  {
+    "Id": 2200069,
+    "DebugText": "风筝声骸钩锁点同一时间只允许一个交互交互",
+    "Text": "风筝声骸钩锁点同一时间只允许一个交互交互",
+    "IsTip": false
+  },
+  {
+    "Id": 1500137,
+    "DebugText": "重复的角色",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900137,
+    "DebugText": "关卡未开启",
+    "Text": "ErrorCode_1900135_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2500080,
+    "DebugText": "活动未初始化",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2500081,
+    "DebugText": "角色皮肤试炼未完成",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2500082,
+    "DebugText": "临取奖励失败",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2500083,
+    "DebugText": "已经领取过奖励",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2500084,
+    "DebugText": "活动过期",
+    "Text": "ErrorCode_2500065_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1500138,
+    "DebugText": "不是状态机行为",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2600017,
+    "DebugText": "副本id重复请求",
+    "Text": "副本id重复请求",
+    "IsTip": false
+  },
+  {
+    "Id": 2600018,
+    "DebugText": "玩法不存在该副本",
+    "Text": "玩法不存在该副本",
+    "IsTip": false
+  },
+  {
+    "Id": 2600019,
+    "DebugText": "玩法id不存在",
+    "Text": "玩法id不存在",
+    "IsTip": false
+  },
+  {
+    "Id": 2000039,
+    "DebugText": "npc已经在载具上",
+    "Text": "ErrorCode_2000039_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2600020,
+    "DebugText": "超过最大副本数量",
+    "Text": "超过最大副本数量",
+    "IsTip": false
+  },
+  {
+    "Id": 2600021,
+    "DebugText": "超过最大玩法数量",
+    "Text": "超过最大玩法数量",
+    "IsTip": false
+  },
+  {
+    "Id": 2200070,
+    "DebugText": "场景实体已存在",
+    "Text": "场景实体已存在",
+    "IsTip": false
+  },
+  {
+    "Id": 600113,
+    "DebugText": "Gm限制进入副本",
+    "Text": "ErrorCode_600113_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2000040,
+    "DebugText": "雕像底座初始化匹配未成功",
+    "Text": "ErrorCode_2000040_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900138,
+    "DebugText": "区域未解锁",
+    "Text": "ErrorCode_1900136_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900139,
+    "DebugText": "找不到区域配置",
+    "Text": "ErrorCode_1900137_Text",
+    "IsTip": false
   },
   {
     "Id": 700292,
     "DebugText": "黑板字符串长度超过限制",
     "Text": "ErrorCode_700292_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 600114,
+    "DebugText": "递归设置状态达到最大深度",
+    "Text": "ErrorCode_600114_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500139,
+    "DebugText": "会触发db数据异常",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900140,
+    "DebugText": "升级消耗找不到配置",
+    "Text": "ErrorCode_1900150_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900141,
+    "DebugText": "找不到等级配置",
+    "Text": "ErrorCode_1900150_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200065,
+    "DebugText": "不存在的钩锁离开方式",
+    "Text": "不存在的钩锁离开方式",
+    "IsTip": false
+  },
+  {
+    "Id": 2200071,
+    "DebugText": "钩锁点开启条件不满足",
+    "Text": "钩锁点开启条件不满足",
+    "IsTip": false
+  },
+  {
+    "Id": 600115,
+    "DebugText": "设置状态前不能设置状态",
+    "Text": "ErrorCode_600115_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 600116,
+    "DebugText": "设置状态过程中不能设置状态",
+    "Text": "ErrorCode_600116_Text",
     "IsTip": false
   }
 ]

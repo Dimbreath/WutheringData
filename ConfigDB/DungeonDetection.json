@@ -3,9 +3,10 @@
     "Id": 20010001,
     "DungeonId": 301000,
     "Name": "InstanceDungeonEntrance_301000_Name",
+    "RoleId": 0,
     "GuideId": 3,
     "LevelPlayList": null,
-    "InstanceSubTypeDescription": "InpuBoxText_DungeonEntrance",
+    "InstanceSubTypeDescription": "InpuBoxText_DungeonEntrance_1",
     "TypeDescription1": 4,
     "Secondary": 4,
     "MatType": 1,
@@ -53,17 +54,21 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 0,
     "PhantomId": null,
-    "SubDungeonId": 301010
+    "SubDungeonId": 301010,
+    "SortId": 3,
+    "NewContent": ""
   },
   {
     "Id": 20010002,
     "DungeonId": 201000,
     "Name": "InstanceDungeonEntrance_201000_Name",
+    "RoleId": 0,
     "GuideId": 3,
     "LevelPlayList": null,
-    "InstanceSubTypeDescription": "InpuBoxText_DungeonEntrance",
+    "InstanceSubTypeDescription": "InpuBoxText_DungeonEntrance_2",
     "TypeDescription1": 4,
     "Secondary": 4,
     "MatType": 1,
@@ -111,17 +116,21 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 0,
     "PhantomId": null,
-    "SubDungeonId": 201010
+    "SubDungeonId": 201010,
+    "SortId": 3,
+    "NewContent": ""
   },
   {
     "Id": 20010003,
     "DungeonId": 302000,
     "Name": "InstanceDungeonEntrance_302000_Name",
+    "RoleId": 0,
     "GuideId": 3,
     "LevelPlayList": null,
-    "InstanceSubTypeDescription": "InpuBoxText_DungeonEntrance",
+    "InstanceSubTypeDescription": "InpuBoxText_DungeonEntrance_3",
     "TypeDescription1": 4,
     "Secondary": 4,
     "MatType": 1,
@@ -169,17 +178,21 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 0,
     "PhantomId": null,
-    "SubDungeonId": 302010
+    "SubDungeonId": 302010,
+    "SortId": 3,
+    "NewContent": ""
   },
   {
     "Id": 20010004,
     "DungeonId": 202000,
     "Name": "InstanceDungeonEntrance_202000_Name",
+    "RoleId": 0,
     "GuideId": 3,
     "LevelPlayList": null,
-    "InstanceSubTypeDescription": "InpuBoxText_DungeonEntrance",
+    "InstanceSubTypeDescription": "InpuBoxText_DungeonEntrance_4",
     "TypeDescription1": 4,
     "Secondary": 4,
     "MatType": 1,
@@ -227,14 +240,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 0,
     "PhantomId": null,
-    "SubDungeonId": 202050
+    "SubDungeonId": 202050,
+    "SortId": 3,
+    "NewContent": ""
   },
   {
     "Id": 20010006,
     "DungeonId": 2021,
-    "Name": "InstanceDungeonEntrance_2021_Name",
+    "Name": "DungeonDetection_2021_Name",
+    "RoleId": 0,
     "GuideId": 3,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -285,14 +302,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12005108,
     "PhantomId": null,
-    "SubDungeonId": 2023
+    "SubDungeonId": 2023,
+    "SortId": 3,
+    "NewContent": ""
   },
   {
     "Id": 20010012,
     "DungeonId": 4041,
     "Name": "InstanceDungeon_4041_MapName",
+    "RoleId": 0,
     "GuideId": 3,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_InstanceDungeon_4041",
@@ -343,14 +364,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 0,
     "PhantomId": null,
-    "SubDungeonId": 4041
+    "SubDungeonId": 4041,
+    "SortId": 3,
+    "NewContent": ""
   },
   {
     "Id": 20010013,
     "DungeonId": 4041,
     "Name": "InstanceDungeon_4042_MapName",
+    "RoleId": 0,
     "GuideId": 3,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_InstanceDungeon_4042",
@@ -401,14 +426,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 0,
     "PhantomId": null,
-    "SubDungeonId": 4042
+    "SubDungeonId": 4042,
+    "SortId": 3,
+    "NewContent": ""
   },
   {
     "Id": 20010014,
     "DungeonId": 4041,
     "Name": "InstanceDungeon_4044_MapName",
+    "RoleId": 0,
     "GuideId": 3,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_InstanceDungeon_4044",
@@ -459,17 +488,21 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 0,
     "PhantomId": null,
-    "SubDungeonId": 4043
+    "SubDungeonId": 4043,
+    "SortId": 3,
+    "NewContent": ""
   },
   {
     "Id": 20010100,
     "DungeonId": 203000,
     "Name": "InstanceDungeonEntrance_203000_Name",
+    "RoleId": 0,
     "GuideId": 3,
     "LevelPlayList": null,
-    "InstanceSubTypeDescription": "InpuBoxText_DungeonEntrance",
+    "InstanceSubTypeDescription": "InpuBoxText_DungeonEntrance_5",
     "TypeDescription1": 4,
     "Secondary": 4,
     "MatType": 1,
@@ -517,14 +550,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 0,
     "PhantomId": null,
-    "SubDungeonId": 203010
+    "SubDungeonId": 203010,
+    "SortId": 3,
+    "NewContent": ""
   },
   {
     "Id": 20010009,
     "DungeonId": 89,
     "Name": "DungeonDetection_20010009_Name",
+    "RoleId": 0,
     "GuideId": 3,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -547,14 +584,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 0,
     "PhantomId": null,
-    "SubDungeonId": 20001
+    "SubDungeonId": 20001,
+    "SortId": 3,
+    "NewContent": ""
   },
   {
     "Id": 20010502,
     "DungeonId": 5001,
     "Name": "DungeonDetection_20010502_Name",
+    "RoleId": 0,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -577,14 +618,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008015,
     "PhantomId": null,
-    "SubDungeonId": 5016
+    "SubDungeonId": 5016,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010503,
     "DungeonId": 5001,
     "Name": "DungeonDetection_20010503_Name",
+    "RoleId": 0,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -607,14 +652,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008003,
     "PhantomId": null,
-    "SubDungeonId": 5007
+    "SubDungeonId": 5007,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010504,
     "DungeonId": 5001,
     "Name": "DungeonDetection_20010504_Name",
+    "RoleId": 0,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -637,14 +686,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008016,
     "PhantomId": null,
-    "SubDungeonId": 5021
+    "SubDungeonId": 5021,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010505,
     "DungeonId": 5001,
     "Name": "DungeonDetection_20010505_Name",
+    "RoleId": 0,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -667,14 +720,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008020,
     "PhantomId": null,
-    "SubDungeonId": 5022
+    "SubDungeonId": 5022,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010506,
     "DungeonId": 5001,
     "Name": "DungeonDetection_20010506_Name",
+    "RoleId": 0,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -697,14 +754,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008009,
     "PhantomId": null,
-    "SubDungeonId": 5010
+    "SubDungeonId": 5010,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010507,
     "DungeonId": 5001,
     "Name": "DungeonDetection_20010507_Name",
+    "RoleId": 0,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -727,14 +788,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008014,
     "PhantomId": null,
-    "SubDungeonId": 5015
+    "SubDungeonId": 5015,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010508,
     "DungeonId": 5001,
     "Name": "DungeonDetection_20010508_Name",
+    "RoleId": 1501,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -757,14 +822,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008004,
     "PhantomId": null,
-    "SubDungeonId": 5004
+    "SubDungeonId": 5004,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010509,
     "DungeonId": 5001,
     "Name": "DungeonDetection_20010509_Name",
+    "RoleId": 1502,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -787,14 +856,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008007,
     "PhantomId": null,
-    "SubDungeonId": 5005
+    "SubDungeonId": 5005,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010510,
     "DungeonId": 5001,
     "Name": "DungeonDetection_20010510_Name",
+    "RoleId": 1605,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -817,14 +890,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008018,
     "PhantomId": null,
-    "SubDungeonId": 5019
+    "SubDungeonId": 5019,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010511,
     "DungeonId": 5001,
     "Name": "DungeonDetection_20010511_Name",
+    "RoleId": 1604,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -847,14 +924,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008019,
     "PhantomId": null,
-    "SubDungeonId": 5020
+    "SubDungeonId": 5020,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010522,
     "DungeonId": 4006,
     "Name": "DungeonDetection_20010522_Name",
+    "RoleId": 0,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -877,14 +958,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 0,
     "PhantomId": null,
-    "SubDungeonId": 4006
+    "SubDungeonId": 4006,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010523,
     "DungeonId": 4006,
     "Name": "DungeonDetection_20010523_Name",
+    "RoleId": 0,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -907,14 +992,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 0,
     "PhantomId": null,
-    "SubDungeonId": 4008
+    "SubDungeonId": 4008,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010007,
     "DungeonId": 2031,
-    "Name": "InstanceDungeonEntrance_2031_Name",
+    "Name": "DungeonDetection_2031_Name",
+    "RoleId": 0,
     "GuideId": 3,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -965,14 +1054,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 2429120,
     "PhantomId": null,
-    "SubDungeonId": 2033
+    "SubDungeonId": 2033,
+    "SortId": 3,
+    "NewContent": ""
   },
   {
     "Id": 20010501,
     "DungeonId": 5001,
     "Name": "DungeonDetection_20010501_Name",
+    "RoleId": 0,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -995,14 +1088,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008012,
     "PhantomId": null,
-    "SubDungeonId": 5013
+    "SubDungeonId": 5013,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010601,
     "DungeonId": 5001,
     "Name": "DungeonDetection_20010601_Name",
+    "RoleId": 0,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -1025,14 +1122,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008001,
     "PhantomId": null,
-    "SubDungeonId": 5001
+    "SubDungeonId": 5001,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010602,
     "DungeonId": 5001,
     "Name": "DungeonDetection_20010602_Name",
+    "RoleId": 0,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -1055,14 +1156,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008002,
     "PhantomId": null,
-    "SubDungeonId": 5002
+    "SubDungeonId": 5002,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010603,
     "DungeonId": 5001,
     "Name": "DungeonDetection_20010603_Name",
+    "RoleId": 0,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -1085,14 +1190,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008005,
     "PhantomId": null,
-    "SubDungeonId": 5008
+    "SubDungeonId": 5008,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010604,
     "DungeonId": 5001,
     "Name": "DungeonDetection_20010604_Name",
+    "RoleId": 0,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -1115,14 +1224,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008006,
     "PhantomId": null,
-    "SubDungeonId": 5006
+    "SubDungeonId": 5006,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010605,
     "DungeonId": 5001,
     "Name": "DungeonDetection_20010605_Name",
+    "RoleId": 0,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -1145,14 +1258,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008008,
     "PhantomId": null,
-    "SubDungeonId": 5009
+    "SubDungeonId": 5009,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010606,
     "DungeonId": 5001,
     "Name": "DungeonDetection_20010606_Name",
+    "RoleId": 0,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -1175,14 +1292,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008010,
     "PhantomId": null,
-    "SubDungeonId": 5011
+    "SubDungeonId": 5011,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010607,
     "DungeonId": 5001,
     "Name": "DungeonDetection_20010607_Name",
+    "RoleId": 0,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -1205,14 +1326,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008011,
     "PhantomId": null,
-    "SubDungeonId": 5012
+    "SubDungeonId": 5012,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010608,
     "DungeonId": 5001,
     "Name": "DungeonDetection_20010608_Name",
+    "RoleId": 0,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -1235,14 +1360,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008013,
     "PhantomId": null,
-    "SubDungeonId": 5014
+    "SubDungeonId": 5014,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010609,
     "DungeonId": 5001,
     "Name": "DungeonDetection_20010609_Name",
+    "RoleId": 0,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -1265,14 +1394,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008017,
     "PhantomId": null,
-    "SubDungeonId": 5017
+    "SubDungeonId": 5017,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010008,
     "DungeonId": 2041,
-    "Name": "InstanceDungeonEntrance_2022_Name",
+    "Name": "DungeonDetection_2022_Name",
+    "RoleId": 0,
     "GuideId": 3,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -1323,14 +1456,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 100001,
     "LockCon": 12005126,
     "PhantomId": null,
-    "SubDungeonId": 2043
+    "SubDungeonId": 2043,
+    "SortId": 3,
+    "NewContent": ""
   },
   {
     "Id": 20010499,
     "DungeonId": 5001,
     "Name": "DungeonDetection_20010499_Name",
+    "RoleId": 0,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -1353,14 +1490,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008021,
     "PhantomId": null,
-    "SubDungeonId": 5023
+    "SubDungeonId": 5023,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010498,
     "DungeonId": 5001,
     "Name": "DungeonDetection_20010498_Name",
+    "RoleId": 0,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -1383,14 +1524,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008022,
     "PhantomId": null,
-    "SubDungeonId": 5024
+    "SubDungeonId": 5024,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010496,
     "DungeonId": 5001,
     "Name": "RoleInfo_1105_Name",
+    "RoleId": 0,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -1413,14 +1558,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008023,
     "PhantomId": null,
-    "SubDungeonId": 5025
+    "SubDungeonId": 5025,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010497,
     "DungeonId": 5001,
     "Name": "RoleInfo_1305_Name",
+    "RoleId": 0,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -1443,14 +1592,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008024,
     "PhantomId": null,
-    "SubDungeonId": 5026
+    "SubDungeonId": 5026,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010494,
     "DungeonId": 5001,
     "Name": "RoleInfo_1505_Name",
+    "RoleId": 0,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -1473,14 +1626,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008025,
     "PhantomId": null,
-    "SubDungeonId": 5027
+    "SubDungeonId": 5027,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010495,
     "DungeonId": 5001,
     "Name": "RoleInfo_1106_Name",
+    "RoleId": 0,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -1503,14 +1660,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008026,
     "PhantomId": null,
-    "SubDungeonId": 5028
+    "SubDungeonId": 5028,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010492,
     "DungeonId": 5001,
     "Name": "RoleInfo_1603_Name",
+    "RoleId": 0,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -1533,14 +1694,18 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008027,
     "PhantomId": null,
-    "SubDungeonId": 5029
+    "SubDungeonId": 5029,
+    "SortId": 2,
+    "NewContent": ""
   },
   {
     "Id": 20010493,
     "DungeonId": 5001,
     "Name": "RoleInfo_1504_Name",
+    "RoleId": 0,
     "GuideId": 2,
     "LevelPlayList": null,
     "InstanceSubTypeDescription": "InpuBoxText_empty",
@@ -1563,8 +1728,451 @@
       }
     ],
     "BeginTimeStamp": 0,
+    "PreOpenId": 0,
     "LockCon": 12008028,
     "PhantomId": null,
-    "SubDungeonId": 5030
+    "SubDungeonId": 5030,
+    "SortId": 2,
+    "NewContent": ""
+  },
+  {
+    "Id": 20010524,
+    "DungeonId": 5001,
+    "Name": "RoleInfo_1107_Name",
+    "RoleId": 0,
+    "GuideId": 2,
+    "LevelPlayList": null,
+    "InstanceSubTypeDescription": "InpuBoxText_empty",
+    "TypeDescription1": 6,
+    "Secondary": 6,
+    "MatType": 0,
+    "TypeDescription2": "",
+    "AttributesDescriptionLock": "DungeonDetection_20010025_AttributesDescriptionLock",
+    "AttributesDescriptionUnlock": "DungeonDetection_20010025_AttributesDescriptionUnlock",
+    "BigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead175/T_IconRoleHead175_32_UI.T_IconRoleHead175_32_UI",
+    "Icon": "",
+    "LockBigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead175/T_IconRoleHead175_32_UI.T_IconRoleHead175_32_UI",
+    "TemporaryIconUnlock": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead175/T_IconRoleHead175_32_UI.T_IconRoleHead175_32_UI",
+    "TemporaryIconlock": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead175/T_IconRoleHead175_32_UI.T_IconRoleHead175_32_UI",
+    "ShowReward": 100030,
+    "ShowRewardMap": [
+      {
+        "Key": 1,
+        "Value": 100030
+      }
+    ],
+    "BeginTimeStamp": 0,
+    "PreOpenId": 0,
+    "LockCon": 12008029,
+    "PhantomId": null,
+    "SubDungeonId": 5031,
+    "SortId": 2,
+    "NewContent": ""
+  },
+  {
+    "Id": 20010525,
+    "DungeonId": 5001,
+    "Name": "RoleInfo_1606_Name",
+    "RoleId": 0,
+    "GuideId": 2,
+    "LevelPlayList": null,
+    "InstanceSubTypeDescription": "InpuBoxText_empty",
+    "TypeDescription1": 6,
+    "Secondary": 6,
+    "MatType": 0,
+    "TypeDescription2": "",
+    "AttributesDescriptionLock": "DungeonDetection_20010025_AttributesDescriptionLock",
+    "AttributesDescriptionUnlock": "DungeonDetection_20010025_AttributesDescriptionUnlock",
+    "BigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead175/T_IconRoleHead175_33_UI.T_IconRoleHead175_33_UI",
+    "Icon": "",
+    "LockBigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead175/T_IconRoleHead175_33_UI.T_IconRoleHead175_33_UI",
+    "TemporaryIconUnlock": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead175/T_IconRoleHead175_33_UI.T_IconRoleHead175_33_UI",
+    "TemporaryIconlock": "/Game/Aki/UI/UIResources/Common/Image/IconRoleHead175/T_IconRoleHead175_33_UI.T_IconRoleHead175_33_UI",
+    "ShowReward": 100031,
+    "ShowRewardMap": [
+      {
+        "Key": 1,
+        "Value": 100031
+      }
+    ],
+    "BeginTimeStamp": 0,
+    "PreOpenId": 0,
+    "LockCon": 12008030,
+    "PhantomId": null,
+    "SubDungeonId": 5032,
+    "SortId": 2,
+    "NewContent": ""
+  },
+  {
+    "Id": 20010010,
+    "DungeonId": 2051,
+    "Name": "DungeonDetection_2041_Name",
+    "RoleId": 0,
+    "GuideId": 3,
+    "LevelPlayList": null,
+    "InstanceSubTypeDescription": "InpuBoxText_empty",
+    "TypeDescription1": 7,
+    "Secondary": 7,
+    "MatType": 0,
+    "TypeDescription2": "",
+    "AttributesDescriptionLock": "",
+    "AttributesDescriptionUnlock": "",
+    "BigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34010_1_UI.T_IconMonsterHead_34010_1_UI",
+    "Icon": "",
+    "LockBigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34010_1_UI.T_IconMonsterHead_34010_1_UI",
+    "TemporaryIconUnlock": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconMonsterHead_34010_UI.SP_IconMonsterHead_33011_UI",
+    "TemporaryIconlock": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconMonsterHead_34010_UI.SP_IconMonsterHead_33011_UI",
+    "ShowReward": 10258,
+    "ShowRewardMap": [
+      {
+        "Key": 1,
+        "Value": 10261
+      },
+      {
+        "Key": 2,
+        "Value": 10262
+      },
+      {
+        "Key": 3,
+        "Value": 10263
+      },
+      {
+        "Key": 4,
+        "Value": 10264
+      },
+      {
+        "Key": 5,
+        "Value": 10265
+      },
+      {
+        "Key": 6,
+        "Value": 10266
+      },
+      {
+        "Key": 7,
+        "Value": 10267
+      },
+      {
+        "Key": 8,
+        "Value": 10268
+      }
+    ],
+    "BeginTimeStamp": 0,
+    "PreOpenId": 100002,
+    "LockCon": 12005129,
+    "PhantomId": null,
+    "SubDungeonId": 2053,
+    "SortId": 3,
+    "NewContent": "New_corner"
+  },
+  {
+    "Id": 20010016,
+    "DungeonId": 306000,
+    "Name": "InstanceDungeonEntrance_306000_Name",
+    "RoleId": 0,
+    "GuideId": 3,
+    "LevelPlayList": null,
+    "InstanceSubTypeDescription": "InpuBoxText_DungeonEntrance_1",
+    "TypeDescription1": 4,
+    "Secondary": 4,
+    "MatType": 1,
+    "TypeDescription2": "",
+    "AttributesDescriptionLock": "DungeonDetection_20010001_AttributesDescriptionLock",
+    "AttributesDescriptionUnlock": "DungeonDetection_20010001_AttributesDescriptionUnlock",
+    "BigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_14_UI.T_IconFunctionOpen_14_UI",
+    "Icon": "",
+    "LockBigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_14_UI.T_IconFunctionOpen_14_UI",
+    "TemporaryIconUnlock": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_14_UI.T_IconFunctionOpen_14_UI",
+    "TemporaryIconlock": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_14_UI.T_IconFunctionOpen_14_UI",
+    "ShowReward": 3017,
+    "ShowRewardMap": [
+      {
+        "Key": 1,
+        "Value": 3112
+      },
+      {
+        "Key": 2,
+        "Value": 3112
+      },
+      {
+        "Key": 3,
+        "Value": 3113
+      },
+      {
+        "Key": 4,
+        "Value": 3114
+      },
+      {
+        "Key": 5,
+        "Value": 3115
+      },
+      {
+        "Key": 6,
+        "Value": 3116
+      },
+      {
+        "Key": 7,
+        "Value": 3117
+      },
+      {
+        "Key": 8,
+        "Value": 3117
+      }
+    ],
+    "BeginTimeStamp": 0,
+    "PreOpenId": 0,
+    "LockCon": 12005130,
+    "PhantomId": null,
+    "SubDungeonId": 306010,
+    "SortId": 4,
+    "NewContent": "New_corner"
+  },
+  {
+    "Id": 20010017,
+    "DungeonId": 303000,
+    "Name": "InstanceDungeonEntrance_303000_Name",
+    "RoleId": 0,
+    "GuideId": 3,
+    "LevelPlayList": null,
+    "InstanceSubTypeDescription": "InpuBoxText_DungeonEntrance_2",
+    "TypeDescription1": 4,
+    "Secondary": 4,
+    "MatType": 1,
+    "TypeDescription2": "",
+    "AttributesDescriptionLock": "DungeonDetection_20010002_AttributesDescriptionLock",
+    "AttributesDescriptionUnlock": "DungeonDetection_20010002_AttributesDescriptionUnlock",
+    "BigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_14_UI.T_IconFunctionOpen_14_UI",
+    "Icon": "",
+    "LockBigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_14_UI.T_IconFunctionOpen_14_UI",
+    "TemporaryIconUnlock": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_14_UI.T_IconFunctionOpen_14_UI",
+    "TemporaryIconlock": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_14_UI.T_IconFunctionOpen_14_UI",
+    "ShowReward": 3037,
+    "ShowRewardMap": [
+      {
+        "Key": 1,
+        "Value": 3132
+      },
+      {
+        "Key": 2,
+        "Value": 3132
+      },
+      {
+        "Key": 3,
+        "Value": 3133
+      },
+      {
+        "Key": 4,
+        "Value": 3134
+      },
+      {
+        "Key": 5,
+        "Value": 3135
+      },
+      {
+        "Key": 6,
+        "Value": 3136
+      },
+      {
+        "Key": 7,
+        "Value": 3137
+      },
+      {
+        "Key": 8,
+        "Value": 3137
+      }
+    ],
+    "BeginTimeStamp": 0,
+    "PreOpenId": 0,
+    "LockCon": 12005130,
+    "PhantomId": null,
+    "SubDungeonId": 303010,
+    "SortId": 4,
+    "NewContent": "New_corner"
+  },
+  {
+    "Id": 20010018,
+    "DungeonId": 307000,
+    "Name": "InstanceDungeonEntrance_307000_Name",
+    "RoleId": 0,
+    "GuideId": 3,
+    "LevelPlayList": null,
+    "InstanceSubTypeDescription": "InpuBoxText_DungeonEntrance_3",
+    "TypeDescription1": 4,
+    "Secondary": 4,
+    "MatType": 1,
+    "TypeDescription2": "",
+    "AttributesDescriptionLock": "DungeonDetection_20010003_AttributesDescriptionLock",
+    "AttributesDescriptionUnlock": "DungeonDetection_20010003_AttributesDescriptionUnlock",
+    "BigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_14_UI.T_IconFunctionOpen_14_UI",
+    "Icon": "",
+    "LockBigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_14_UI.T_IconFunctionOpen_14_UI",
+    "TemporaryIconUnlock": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_14_UI.T_IconFunctionOpen_14_UI",
+    "TemporaryIconlock": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_14_UI.T_IconFunctionOpen_14_UI",
+    "ShowReward": 3047,
+    "ShowRewardMap": [
+      {
+        "Key": 1,
+        "Value": 3142
+      },
+      {
+        "Key": 2,
+        "Value": 3142
+      },
+      {
+        "Key": 3,
+        "Value": 3143
+      },
+      {
+        "Key": 4,
+        "Value": 3144
+      },
+      {
+        "Key": 5,
+        "Value": 3145
+      },
+      {
+        "Key": 6,
+        "Value": 3146
+      },
+      {
+        "Key": 7,
+        "Value": 3147
+      },
+      {
+        "Key": 8,
+        "Value": 3147
+      }
+    ],
+    "BeginTimeStamp": 0,
+    "PreOpenId": 0,
+    "LockCon": 12005130,
+    "PhantomId": null,
+    "SubDungeonId": 307010,
+    "SortId": 4,
+    "NewContent": "New_corner"
+  },
+  {
+    "Id": 20010019,
+    "DungeonId": 304000,
+    "Name": "InstanceDungeonEntrance_304000_Name",
+    "RoleId": 0,
+    "GuideId": 3,
+    "LevelPlayList": null,
+    "InstanceSubTypeDescription": "InpuBoxText_DungeonEntrance_4",
+    "TypeDescription1": 4,
+    "Secondary": 4,
+    "MatType": 1,
+    "TypeDescription2": "",
+    "AttributesDescriptionLock": "DungeonDetection_20010004_AttributesDescriptionLock",
+    "AttributesDescriptionUnlock": "DungeonDetection_20010004_AttributesDescriptionUnlock",
+    "BigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_14_UI.T_IconFunctionOpen_14_UI",
+    "Icon": "",
+    "LockBigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_14_UI.T_IconFunctionOpen_14_UI",
+    "TemporaryIconUnlock": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_14_UI.T_IconFunctionOpen_14_UI",
+    "TemporaryIconlock": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_14_UI.T_IconFunctionOpen_14_UI",
+    "ShowReward": 3057,
+    "ShowRewardMap": [
+      {
+        "Key": 1,
+        "Value": 3152
+      },
+      {
+        "Key": 2,
+        "Value": 3152
+      },
+      {
+        "Key": 3,
+        "Value": 3153
+      },
+      {
+        "Key": 4,
+        "Value": 3154
+      },
+      {
+        "Key": 5,
+        "Value": 3155
+      },
+      {
+        "Key": 6,
+        "Value": 3156
+      },
+      {
+        "Key": 7,
+        "Value": 3157
+      },
+      {
+        "Key": 8,
+        "Value": 3157
+      }
+    ],
+    "BeginTimeStamp": 0,
+    "PreOpenId": 0,
+    "LockCon": 12005130,
+    "PhantomId": null,
+    "SubDungeonId": 304010,
+    "SortId": 4,
+    "NewContent": "New_corner"
+  },
+  {
+    "Id": 20010020,
+    "DungeonId": 305000,
+    "Name": "InstanceDungeonEntrance_305000_Name",
+    "RoleId": 0,
+    "GuideId": 3,
+    "LevelPlayList": null,
+    "InstanceSubTypeDescription": "InpuBoxText_DungeonEntrance_5",
+    "TypeDescription1": 4,
+    "Secondary": 4,
+    "MatType": 1,
+    "TypeDescription2": "",
+    "AttributesDescriptionLock": "InstanceDungeonEntrance_203000_Description",
+    "AttributesDescriptionUnlock": "InstanceDungeonEntrance_203000_Description",
+    "BigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_14_UI.T_IconFunctionOpen_14_UI",
+    "Icon": "",
+    "LockBigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_14_UI.T_IconFunctionOpen_14_UI",
+    "TemporaryIconUnlock": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_14_UI.T_IconFunctionOpen_14_UI",
+    "TemporaryIconlock": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_14_UI.T_IconFunctionOpen_14_UI",
+    "ShowReward": 3027,
+    "ShowRewardMap": [
+      {
+        "Key": 1,
+        "Value": 3122
+      },
+      {
+        "Key": 2,
+        "Value": 3122
+      },
+      {
+        "Key": 3,
+        "Value": 3123
+      },
+      {
+        "Key": 4,
+        "Value": 3124
+      },
+      {
+        "Key": 5,
+        "Value": 3125
+      },
+      {
+        "Key": 6,
+        "Value": 3126
+      },
+      {
+        "Key": 7,
+        "Value": 3127
+      },
+      {
+        "Key": 8,
+        "Value": 3127
+      }
+    ],
+    "BeginTimeStamp": 0,
+    "PreOpenId": 0,
+    "LockCon": 12005130,
+    "PhantomId": null,
+    "SubDungeonId": 305010,
+    "SortId": 4,
+    "NewContent": "New_corner"
   }
 ]

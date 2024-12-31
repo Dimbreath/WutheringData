@@ -509,5 +509,103 @@
     "Desc": "交互通用图标：库默尼商行 路径",
     "Type": "String",
     "Value": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconMap_Shop_12_UI.SP_IconMap_Shop_12_UI"
+  },
+  {
+    "Id": 50001,
+    "Name": "WalkingPattern.MinDist",
+    "Desc": "寂寞小姐走线玩法100分距离",
+    "Type": "Int",
+    "Value": "20"
+  },
+  {
+    "Id": 50002,
+    "Name": "WalkingPattern.MaxDist",
+    "Desc": "寂寞小姐走线玩法0分距离",
+    "Type": "Int",
+    "Value": "140"
+  },
+  {
+    "Id": 50004,
+    "Name": "WalkingPattern.CheckPointDist",
+    "Desc": "寂寞小姐走线玩法检查点检测距离",
+    "Type": "Int",
+    "Value": "200"
+  },
+  {
+    "Id": 900004,
+    "Name": "StatueInteract.CheckAngle",
+    "Desc": "寂寞小姐拉取雕像玩法检测角度",
+    "Type": "Float",
+    "Value": "20"
+  },
+  {
+    "Id": 900005,
+    "Name": "StatueInteract.MoveSpeed",
+    "Desc": "寂寞小姐拉取雕像玩法移动速度(cm/s)",
+    "Type": "Int",
+    "Value": "800"
+  },
+  {
+    "Id": 900006,
+    "Name": "StatueInteract.MaxMoveTime",
+    "Desc": "寂寞小姐拉取雕像玩法最大移动时间",
+    "Type": "Float",
+    "Value": "1.5"
+  },
+  {
+    "Id": 900007,
+    "Name": "Plot.AudioEndDelay",
+    "Desc": "剧情语音默认延迟结束时间（ms）",
+    "Type": "Float",
+    "Value": "1000"
+  },
+  {
+    "Id": 900008,
+    "Name": "Plot.BubbleAudioEndDelay",
+    "Desc": "冒泡语音默认延迟结束时间（ms）",
+    "Type": "Float",
+    "Value": "1000"
+  },
+  {
+    "Id": 900009,
+    "Name": "WalkingPattern.RecordMinDist",
+    "Desc": "寂寞小姐走线玩法记录位置最小间隔距离",
+    "Type": "Int",
+    "Value": "100"
+  },
+  {
+    "Id": 900010,
+    "Name": "WalkingPattern.StepNum",
+    "Desc": "寂寞小姐走线玩法记录位置最多个数",
+    "Type": "Int",
+    "Value": "100"
+  },
+  {
+    "Id": 900011,
+    "Name": "EInteractIcon.Phonograph",
+    "Desc": "交互选项图标2.0主城留声机",
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Play_25_UI.T_IconMap_Play_25_UI"
+  },
+  {
+    "Id": 900012,
+    "Name": "EInteractIcon.LifePointShop",
+    "Desc": "交互选项图标2.0静风杂货生命点商店",
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Shop_13_UI.T_IconMap_Shop_13_UI"
+  },
+  {
+    "Id": 900013,
+    "Name": "EInteractIcon.PlushVillage",
+    "Desc": "交互选项图标2.0声匣",
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Play_24_UI.T_IconMap_Play_24_UI"
+  },
+  {
+    "Id": 900014,
+    "Name": "FloatStatue.BoundSize",
+    "Desc": "悬浮雕像碰撞检测盒体长宽高",
+    "Type": "String",
+    "Value": "0.5,0.5,3"
   }
 ]

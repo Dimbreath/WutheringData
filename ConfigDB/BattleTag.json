@@ -21,19 +21,19 @@
     "Id": 5,
     "Desc": "信号1",
     "AddTag": "怪物.common.关卡.通信专用.信号1",
-    "FinishTag": ""
+    "FinishTag": "怪物.common.关卡.通信专用.信号1"
   },
   {
     "Id": 6,
     "Desc": "信号2",
     "AddTag": "怪物.common.关卡.通信专用.信号2",
-    "FinishTag": ""
+    "FinishTag": "怪物.common.关卡.通信专用.信号2"
   },
   {
     "Id": 7,
     "Desc": "信号3",
     "AddTag": "怪物.common.关卡.通信专用.信号3",
-    "FinishTag": ""
+    "FinishTag": "怪物.common.关卡.通信专用.信号3"
   },
   {
     "Id": 8,
@@ -144,6 +144,12 @@
     "FinishTag": "怪物.ML1MiuwuMd00501.一阶段"
   },
   {
+    "Id": 50001,
+    "Desc": "金库守卫进战",
+    "AddTag": "怪物.ML1ShiXiangGuiMd00201.复刷专用.触发进战",
+    "FinishTag": ""
+  },
+  {
     "Id": 800002,
     "Desc": "系统.副本.通信.状态1",
     "AddTag": "系统.副本.通信.状态1",
@@ -178,5 +184,59 @@
     "Desc": "系统.副本.通信.状态6",
     "AddTag": "系统.副本.通信.状态6",
     "FinishTag": "系统.副本.通信.状态6"
+  },
+  {
+    "Id": 900003,
+    "Desc": "金库守卫进战刷空气墙",
+    "AddTag": "怪物.common.关卡.通信专用.进入战斗",
+    "FinishTag": "怪物.common.关卡.通信专用.进入战斗"
+  },
+  {
+    "Id": 900005,
+    "Desc": "信号4",
+    "AddTag": "怪物.common.关卡.通信专用.信号4",
+    "FinishTag": "怪物.common.关卡.通信专用.信号4"
+  },
+  {
+    "Id": 900006,
+    "Desc": "信号5",
+    "AddTag": "怪物.common.关卡.通信专用.信号5",
+    "FinishTag": "怪物.common.关卡.通信专用.信号5"
+  },
+  {
+    "Id": 900007,
+    "Desc": "信号6",
+    "AddTag": "怪物.common.关卡.通信专用.信号6",
+    "FinishTag": "怪物.common.关卡.通信专用.信号6"
+  },
+  {
+    "Id": 900008,
+    "Desc": "信号7",
+    "AddTag": "怪物.common.关卡.通信专用.信号7",
+    "FinishTag": "怪物.common.关卡.通信专用.信号7"
+  },
+  {
+    "Id": 900009,
+    "Desc": "信号8",
+    "AddTag": "怪物.common.关卡.通信专用.信号8",
+    "FinishTag": "怪物.common.关卡.通信专用.信号8"
+  },
+  {
+    "Id": 900010,
+    "Desc": "信号9",
+    "AddTag": "怪物.common.关卡.通信专用.信号9",
+    "FinishTag": "怪物.common.关卡.通信专用.信号9"
+  },
+  {
+    "Id": 900011,
+    "Desc": "叹息古龙二阶段",
+    "AddTag": "怪物.ML1GuLongMd00101.状态.激昂",
+    "FinishTag": "怪物.ML1GuLongMd00101.状态.激昂"
+  },
+  {
+    "Id": 900012,
+    "Desc": "琉璃刀伶副本直接进入二阶段",
+    "AddTag": "怪物.ME1LiulidaolingMd00301.信号2",
+    "FinishTag": "怪物.ME1LiulidaolingMd00301.通信专用.二阶段"
   }
 ]

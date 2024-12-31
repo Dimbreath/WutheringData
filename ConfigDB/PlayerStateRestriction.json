@@ -14,13 +14,13 @@
   },
   {
     "Id": 2,
-    "Type": "通用交互限制",
+    "Type": "不在技能中",
     "IncludedTags": null,
     "ExcludedTags": [
       "行为状态.逻辑状态.技能中"
     ],
     "CreatorId": 657,
-    "Remark": "通用的交互tag限制"
+    "Remark": "不在技能中"
   },
   {
     "Id": 3,
@@ -31,5 +31,17 @@
     ],
     "CreatorId": 122,
     "Remark": "声骸处于非霸体状态"
+  },
+  {
+    "Id": 900001,
+    "Type": "地面&不在技能中",
+    "IncludedTags": [
+      "行为状态.位置状态.地面"
+    ],
+    "ExcludedTags": [
+      "行为状态.逻辑状态.技能中"
+    ],
+    "CreatorId": 610,
+    "Remark": "地面&不在技能中"
   }
 ]

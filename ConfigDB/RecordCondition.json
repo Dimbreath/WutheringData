@@ -568,5 +568,40 @@
     "Param3": null,
     "Param4": null,
     "Param5": null
+  },
+  {
+    "TypeId": 38,
+    "Type": "GetItem",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "int"
+      }
+    ],
+    "Param2": null,
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
+  },
+  {
+    "TypeId": 39,
+    "Type": "CheckExploreProgress",
+    "Nullenable": null,
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "i_array"
+      }
+    ],
+    "Param2": [
+      {
+        "Key": "Num",
+        "Value": "int"
+      }
+    ],
+    "Param3": null,
+    "Param4": null,
+    "Param5": null
   }
 ]

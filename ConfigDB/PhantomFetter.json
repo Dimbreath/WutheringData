@@ -333,5 +333,279 @@
     ],
     "EffectDefineDescription": "低沉而蓄势待发的和鸣，属于变化莫测的迅影。闪电稍纵即逝，而潜伏的电荷在阴云中安静蛰伏，等待着下一次爆发。",
     "Priority": 4
+  },
+  {
+    "Id": 102,
+    "Name": "PhantomFetter_10_Name",
+    "BuffIds": null,
+    "AddProp": [
+      {
+        "Id": 14,
+        "Value": 1200.0,
+        "IsRatio": false
+      }
+    ],
+    "EffectDescription": "PhantomFetter_102_EffectDescription",
+    "FetterIcon": "/Game/Aki/UI/UIResources/Common/Image/IconElement/T_IconElementIce1.T_IconElementIce1",
+    "SimplyEffectDesc": "PhantomFetter_102_SimplyEffectDesc",
+    "EffectDescriptionParam": [
+      "12%"
+    ],
+    "EffectDefineDescription": "PhantomFetter_1_EffectDefineDescription",
+    "Priority": 19
+  },
+  {
+    "Id": 105,
+    "Name": "PhantomFetter_10_Name",
+    "BuffIds": [
+      31000010001.0,
+      31000010003.0
+    ],
+    "AddProp": null,
+    "EffectDescription": "PhantomFetter_105_EffectDescription",
+    "FetterIcon": "/Game/Aki/UI/UIResources/Common/Image/IconElement/T_IconElementIce1.T_IconElementIce1",
+    "SimplyEffectDesc": "PhantomFetter_105_SimplyEffectDesc",
+    "EffectDescriptionParam": [
+      "22.5%",
+      "15",
+      "18%",
+      "5",
+      "2"
+    ],
+    "EffectDefineDescription": "PhantomFetter_1_EffectDefineDescription",
+    "Priority": 20
+  },
+  {
+    "Id": 112,
+    "Name": "PhantomFetter_11_Name",
+    "BuffIds": null,
+    "AddProp": [
+      {
+        "Id": 26,
+        "Value": 1000.0,
+        "IsRatio": false
+      }
+    ],
+    "EffectDescription": "PhantomFetter_112_EffectDescription",
+    "FetterIcon": "/Game/Aki/UI/UIResources/Common/Image/IconElement/T_IconElementIce1.T_IconElementIce1",
+    "SimplyEffectDesc": "PhantomFetter_112_SimplyEffectDesc",
+    "EffectDescriptionParam": [
+      "10%"
+    ],
+    "EffectDefineDescription": "PhantomFetter_1_EffectDefineDescription",
+    "Priority": 21
+  },
+  {
+    "Id": 115,
+    "Name": "PhantomFetter_11_Name",
+    "BuffIds": [
+      31000011001.0,
+      31000011003.0
+    ],
+    "AddProp": null,
+    "EffectDescription": "PhantomFetter_115_EffectDescription",
+    "FetterIcon": "/Game/Aki/UI/UIResources/Common/Image/IconElement/T_IconElementIce1.T_IconElementIce1",
+    "SimplyEffectDesc": "PhantomFetter_115_SimplyEffectDesc",
+    "EffectDescriptionParam": [
+      "20%",
+      "15",
+      "10",
+      "15%",
+      "15"
+    ],
+    "EffectDefineDescription": "PhantomFetter_1_EffectDefineDescription",
+    "Priority": 22
+  },
+  {
+    "Id": 122,
+    "Name": "PhantomFetter_12_Name",
+    "BuffIds": null,
+    "AddProp": [
+      {
+        "Id": 27,
+        "Value": 1000.0,
+        "IsRatio": false
+      }
+    ],
+    "EffectDescription": "PhantomFetter_122_EffectDescription",
+    "FetterIcon": "/Game/Aki/UI/UIResources/Common/Image/IconElement/T_IconElementIce1.T_IconElementIce1",
+    "SimplyEffectDesc": "PhantomFetter_122_SimplyEffectDesc",
+    "EffectDescriptionParam": [
+      "10%"
+    ],
+    "EffectDefineDescription": "PhantomFetter_1_EffectDefineDescription",
+    "Priority": 23
+  },
+  {
+    "Id": 125,
+    "Name": "PhantomFetter_12_Name",
+    "BuffIds": [
+      31000012001.0,
+      31000012002.0
+    ],
+    "AddProp": null,
+    "EffectDescription": "PhantomFetter_125_EffectDescription",
+    "FetterIcon": "/Game/Aki/UI/UIResources/Common/Image/IconElement/T_IconElementIce1.T_IconElementIce1",
+    "SimplyEffectDesc": "PhantomFetter_125_SimplyEffectDesc",
+    "EffectDescriptionParam": [
+      "480%",
+      "15%",
+      "15"
+    ],
+    "EffectDefineDescription": "PhantomFetter_1_EffectDefineDescription",
+    "Priority": 24
+  },
+  {
+    "Id": 132,
+    "Name": "PhantomFetter_13_Name",
+    "BuffIds": null,
+    "AddProp": [
+      {
+        "Id": 11,
+        "Value": 1000.0,
+        "IsRatio": false
+      }
+    ],
+    "EffectDescription": "PhantomFetter_132_EffectDescription",
+    "FetterIcon": "/Game/Aki/UI/UIResources/Common/Image/IconElement/T_IconElementIce1.T_IconElementIce1",
+    "SimplyEffectDesc": "PhantomFetter_132_SimplyEffectDesc",
+    "EffectDescriptionParam": [
+      "10%"
+    ],
+    "EffectDefineDescription": "PhantomFetter_1_EffectDefineDescription",
+    "Priority": 25
+  },
+  {
+    "Id": 135,
+    "Name": "PhantomFetter_13_Name",
+    "BuffIds": [
+      31000013001.0,
+      31000013002.0
+    ],
+    "AddProp": null,
+    "EffectDescription": "PhantomFetter_135_EffectDescription",
+    "FetterIcon": "/Game/Aki/UI/UIResources/Common/Image/IconElement/T_IconElementIce1.T_IconElementIce1",
+    "SimplyEffectDesc": "PhantomFetter_135_SimplyEffectDesc",
+    "EffectDescriptionParam": [
+      "80%",
+      "20%",
+      "4"
+    ],
+    "EffectDefineDescription": "PhantomFetter_1_EffectDefineDescription",
+    "Priority": 26
+  },
+  {
+    "Id": 142,
+    "Name": "PhantomFetter_14_Name",
+    "BuffIds": null,
+    "AddProp": [
+      {
+        "Id": 11,
+        "Value": 1000.0,
+        "IsRatio": false
+      }
+    ],
+    "EffectDescription": "PhantomFetter_142_EffectDescription",
+    "FetterIcon": "/Game/Aki/UI/UIResources/Common/Image/IconElement/T_IconElementIce1.T_IconElementIce1",
+    "SimplyEffectDesc": "PhantomFetter_142_SimplyEffectDesc",
+    "EffectDescriptionParam": [
+      "10%"
+    ],
+    "EffectDefineDescription": "PhantomFetter_1_EffectDefineDescription",
+    "Priority": 27
+  },
+  {
+    "Id": 145,
+    "Name": "PhantomFetter_14_Name",
+    "BuffIds": [
+      31000014001.0,
+      31000014002.0
+    ],
+    "AddProp": null,
+    "EffectDescription": "PhantomFetter_145_EffectDescription",
+    "FetterIcon": "/Game/Aki/UI/UIResources/Common/Image/IconElement/T_IconElementIce1.T_IconElementIce1",
+    "SimplyEffectDesc": "PhantomFetter_145_SimplyEffectDesc",
+    "EffectDescriptionParam": [
+      "15%",
+      "250%",
+      "30%"
+    ],
+    "EffectDefineDescription": "PhantomFetter_1_EffectDefineDescription",
+    "Priority": 28
+  },
+  {
+    "Id": 152,
+    "Name": "PhantomFetter_15_Name",
+    "BuffIds": null,
+    "AddProp": [
+      {
+        "Id": 10002,
+        "Value": 0.10000000149011612,
+        "IsRatio": true
+      }
+    ],
+    "EffectDescription": "PhantomFetter_152_EffectDescription",
+    "FetterIcon": "/Game/Aki/UI/UIResources/Common/Image/IconElement/T_IconElementIce1.T_IconElementIce1",
+    "SimplyEffectDesc": "PhantomFetter_152_SimplyEffectDesc",
+    "EffectDescriptionParam": [
+      "10%"
+    ],
+    "EffectDefineDescription": "PhantomFetter_1_EffectDefineDescription",
+    "Priority": 29
+  },
+  {
+    "Id": 155,
+    "Name": "PhantomFetter_15_Name",
+    "BuffIds": null,
+    "AddProp": null,
+    "EffectDescription": "PhantomFetter_155_EffectDescription",
+    "FetterIcon": "/Game/Aki/UI/UIResources/Common/Image/IconElement/T_IconElementIce1.T_IconElementIce1",
+    "SimplyEffectDesc": "PhantomFetter_155_SimplyEffectDesc",
+    "EffectDescriptionParam": [
+      "20%",
+      "5%",
+      "15",
+      "3"
+    ],
+    "EffectDefineDescription": "PhantomFetter_1_EffectDefineDescription",
+    "Priority": 30
+  },
+  {
+    "Id": 162,
+    "Name": "PhantomFetter_16_Name",
+    "BuffIds": null,
+    "AddProp": [
+      {
+        "Id": 25,
+        "Value": 1000.0,
+        "IsRatio": false
+      }
+    ],
+    "EffectDescription": "PhantomFetter_162_EffectDescription",
+    "FetterIcon": "/Game/Aki/UI/UIResources/Common/Image/IconElement/T_IconElementIce1.T_IconElementIce1",
+    "SimplyEffectDesc": "PhantomFetter_162_SimplyEffectDesc",
+    "EffectDescriptionParam": [
+      "10%"
+    ],
+    "EffectDefineDescription": "PhantomFetter_1_EffectDefineDescription",
+    "Priority": 31
+  },
+  {
+    "Id": 165,
+    "Name": "PhantomFetter_16_Name",
+    "BuffIds": null,
+    "AddProp": null,
+    "EffectDescription": "PhantomFetter_165_EffectDescription",
+    "FetterIcon": "/Game/Aki/UI/UIResources/Common/Image/IconElement/T_IconElementIce1.T_IconElementIce1",
+    "SimplyEffectDesc": "PhantomFetter_165_SimplyEffectDesc",
+    "EffectDescriptionParam": [
+      "20%",
+      "15",
+      "6",
+      "15%",
+      "15"
+    ],
+    "EffectDefineDescription": "PhantomFetter_1_EffectDefineDescription",
+    "Priority": 32
   }
 ]

@@ -11592,6 +11592,69 @@
     "NeedTarget": true
   },
   {
+    "Id": 77050001,
+    "DistanceRange": {
+      "Min": 600.0,
+      "Max": 1800.0
+    },
+    "AngleRange": {
+      "Min": -70.0,
+      "Max": 70.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77050002,
+    "DistanceRange": {
+      "Min": 600.0,
+      "Max": 1800.0
+    },
+    "AngleRange": {
+      "Min": -70.0,
+      "Max": 70.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77050014,
+    "DistanceRange": {
+      "Min": 600.0,
+      "Max": 2000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
     "Id": 70076011,
     "DistanceRange": {
       "Min": 0.0,
@@ -11655,6 +11718,111 @@
     "NeedTarget": true
   },
   {
+    "Id": 70148001,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 150.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 70148002,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 150.0
+    },
+    "AngleRange": {
+      "Min": -90.0,
+      "Max": 90.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 70148003,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 4000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 70148004,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 200.0
+    },
+    "AngleRange": {
+      "Min": -90.0,
+      "Max": 90.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 70148005,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 4000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
     "Id": 70065804,
     "DistanceRange": {
       "Min": 0.0,
@@ -11680,6 +11848,993 @@
     "DistanceRange": {
       "Min": -10000.0,
       "Max": 10000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022001,
+    "DistanceRange": {
+      "Min": -9000.0,
+      "Max": 9000.0
+    },
+    "AngleRange": {
+      "Min": -120.0,
+      "Max": 120.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022004,
+    "DistanceRange": {
+      "Min": -700.0,
+      "Max": 1600.0
+    },
+    "AngleRange": {
+      "Min": -120.0,
+      "Max": 120.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022005,
+    "DistanceRange": {
+      "Min": -700.0,
+      "Max": 1600.0
+    },
+    "AngleRange": {
+      "Min": -120.0,
+      "Max": 120.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022007,
+    "DistanceRange": {
+      "Min": -700.0,
+      "Max": 1600.0
+    },
+    "AngleRange": {
+      "Min": -120.0,
+      "Max": 120.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022008,
+    "DistanceRange": {
+      "Min": -8000.0,
+      "Max": 8000.0
+    },
+    "AngleRange": {
+      "Min": -120.0,
+      "Max": 120.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "怪物.ML1ShiXiangGuiMd00201.阶段状态.狂暴",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022009,
+    "DistanceRange": {
+      "Min": -700.0,
+      "Max": 1600.0
+    },
+    "AngleRange": {
+      "Min": -120.0,
+      "Max": 120.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022010,
+    "DistanceRange": {
+      "Min": -700.0,
+      "Max": 1600.0
+    },
+    "AngleRange": {
+      "Min": -120.0,
+      "Max": 120.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "怪物.ML1ShiXiangGuiMd00201.阶段状态.狂暴",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022011,
+    "DistanceRange": {
+      "Min": -700.0,
+      "Max": 4000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022012,
+    "DistanceRange": {
+      "Min": -700.0,
+      "Max": 4000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022013,
+    "DistanceRange": {
+      "Min": -700.0,
+      "Max": 1000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022014,
+    "DistanceRange": {
+      "Min": -700.0,
+      "Max": 4000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022015,
+    "DistanceRange": {
+      "Min": -700.0,
+      "Max": 4000.0
+    },
+    "AngleRange": {
+      "Min": 120.0,
+      "Max": 260.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022016,
+    "DistanceRange": {
+      "Min": -8000.0,
+      "Max": 8000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022017,
+    "DistanceRange": {
+      "Min": -8000.0,
+      "Max": 8000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "怪物.ML1ShiXiangGuiMd00201.阶段状态.可大招",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022018,
+    "DistanceRange": {
+      "Min": -700.0,
+      "Max": 1600.0
+    },
+    "AngleRange": {
+      "Min": 120.0,
+      "Max": 260.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "怪物.ML1ShiXiangGuiMd00201.阶段状态.狂暴",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022020,
+    "DistanceRange": {
+      "Min": -700.0,
+      "Max": 4000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022021,
+    "DistanceRange": {
+      "Min": -700.0,
+      "Max": 4000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "怪物.ML1ShiXiangGuiMd00201.姿态.空中",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022022,
+    "DistanceRange": {
+      "Min": -700.0,
+      "Max": 4000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "怪物.ML1ShiXiangGuiMd00201.姿态.空中",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022023,
+    "DistanceRange": {
+      "Min": -700.0,
+      "Max": 4000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "怪物.ML1ShiXiangGuiMd00201.姿态.空中",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022024,
+    "DistanceRange": {
+      "Min": -700.0,
+      "Max": 4000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "怪物.ML1ShiXiangGuiMd00201.姿态.空中",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022025,
+    "DistanceRange": {
+      "Min": -700.0,
+      "Max": 4000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "怪物.ML1ShiXiangGuiMd00201.姿态.空中",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022026,
+    "DistanceRange": {
+      "Min": -700.0,
+      "Max": 4000.0
+    },
+    "AngleRange": {
+      "Min": -120.0,
+      "Max": 120.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "怪物.ML1ShiXiangGuiMd00201.姿态.空中",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022027,
+    "DistanceRange": {
+      "Min": -700.0,
+      "Max": 4000.0
+    },
+    "AngleRange": {
+      "Min": -120.0,
+      "Max": 120.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "怪物.ML1ShiXiangGuiMd00201.姿态.空中",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022028,
+    "DistanceRange": {
+      "Min": -700.0,
+      "Max": 4000.0
+    },
+    "AngleRange": {
+      "Min": -120.0,
+      "Max": 120.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "怪物.ML1ShiXiangGuiMd00201.姿态.空中",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022029,
+    "DistanceRange": {
+      "Min": -700.0,
+      "Max": 4000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "怪物.ML1ShiXiangGuiMd00201.姿态.空中",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022030,
+    "DistanceRange": {
+      "Min": -700.0,
+      "Max": 4000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "怪物.ML1ShiXiangGuiMd00201.姿态.空中",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022032,
+    "DistanceRange": {
+      "Min": -700.0,
+      "Max": 4000.0
+    },
+    "AngleRange": {
+      "Min": -120.0,
+      "Max": 120.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "怪物.ML1ShiXiangGuiMd00201.姿态.空中",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022033,
+    "DistanceRange": {
+      "Min": -700.0,
+      "Max": 4000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "怪物.ML1ShiXiangGuiMd00201.姿态.空中",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022035,
+    "DistanceRange": {
+      "Min": -9000.0,
+      "Max": 9000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80022100,
+    "DistanceRange": {
+      "Min": -9000.0,
+      "Max": 9000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 70147001,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 200.0
+    },
+    "AngleRange": {
+      "Min": -60.0,
+      "Max": 60.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 70147003,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 300.0
+    },
+    "AngleRange": {
+      "Min": -90.0,
+      "Max": 90.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 70147005,
+    "DistanceRange": {
+      "Min": 200.0,
+      "Max": 1800.0
+    },
+    "AngleRange": {
+      "Min": -90.0,
+      "Max": 90.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -2000.0,
+      "Max": 2000.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77054001,
+    "DistanceRange": {
+      "Min": 500.0,
+      "Max": 1000.0
+    },
+    "AngleRange": {
+      "Min": -60.0,
+      "Max": 60.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -500.0,
+      "Max": 500.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77054005,
+    "DistanceRange": {
+      "Min": 500.0,
+      "Max": 1000.0
+    },
+    "AngleRange": {
+      "Min": -60.0,
+      "Max": 60.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -500.0,
+      "Max": 500.0
+    },
+    "NeedTag": "怪物.common.状态标识.待机3",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77054006,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 250.0
+    },
+    "AngleRange": {
+      "Min": -90.0,
+      "Max": 90.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77054701,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 250.0
+    },
+    "AngleRange": {
+      "Min": 90.0,
+      "Max": -90.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77054011,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 250.0
+    },
+    "AngleRange": {
+      "Min": -60.0,
+      "Max": 60.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "怪物.common.状态标识.待机3",
+    "NeedTarget": true
+  },
+  {
+    "Id": 70101001,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 1000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 70101002,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 600.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 70101003,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 400.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 70101004,
+    "DistanceRange": {
+      "Min": 400.0,
+      "Max": 2000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": -45.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 1001,
+    "DistanceRange": {
+      "Min": 350.0,
+      "Max": 700.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 1002,
+    "DistanceRange": {
+      "Min": 700.0,
+      "Max": 1500.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 1003,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 1000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": 300.0,
+      "Max": 1000.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77054019,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 1000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -500.0,
+      "Max": 500.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77054020,
+    "DistanceRange": {
+      "Min": 400.0,
+      "Max": 1000.0
     },
     "AngleRange": {
       "Min": -180.0,

@@ -9,6 +9,14 @@
       {
         "Key": "角色.R2T1ChangLiMd10011.buff相关.心眼",
         "Value": 1205106
+      },
+      {
+        "Key": "载具.贡多拉.驾驶期间",
+        "Value": 100033
+      },
+      {
+        "Key": "载具.NPC浴缸狗.乘坐中",
+        "Value": 100033
       }
     ],
     "SkillIconTags": [
@@ -24,6 +32,7 @@
     "AttributeId": 0,
     "MaxAttributeId": 0,
     "AttributeIdTagMap": null,
+    "AttributeEnableTags": null,
     "MaxAttributeBurstEffectId": 0,
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
@@ -53,6 +62,7 @@
     "AttributeId": 0,
     "MaxAttributeId": 0,
     "AttributeIdTagMap": null,
+    "AttributeEnableTags": null,
     "MaxAttributeBurstEffectId": 0,
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
@@ -73,16 +83,23 @@
       {
         "Key": "角色.R2T1DengDengMd10011.状态标识.黄灯技能图标用",
         "Value": 1504035
+      },
+      {
+        "Key": "载具.贡多拉.驾驶期间",
+        "Value": 100032
       }
     ],
     "SkillIconTags": [
       "行为状态.位置状态.水中",
       "幻象.声骸角色.叮咚咚.疾跑",
-      "关卡.子弹跑.显示图标"
+      "关卡.子弹跑.显示图标",
+      "行为状态.动作状态.XA.冲刺可用",
+      "角色.Common.技能通用标识.寂寞小姐.普通镜头"
     ],
     "EnableTags": null,
     "DisableTags": [
-      "战斗状态.技能限制.禁止地面闪避"
+      "战斗状态.技能限制.禁止地面闪避",
+      "角色.Common.探索技能.禁用翱翔冲刺"
     ],
     "DisableSkillIdTags": null,
     "HiddenTags": [
@@ -92,6 +109,7 @@
     "AttributeId": 0,
     "MaxAttributeId": 0,
     "AttributeIdTagMap": null,
+    "AttributeEnableTags": null,
     "MaxAttributeBurstEffectId": 0,
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": true,
@@ -119,6 +137,10 @@
     "SkillId": 0,
     "SkillIdTagMap": [
       {
+        "Key": "角色.R2T1LuokekeMd10011.特殊机制.延奏道具",
+        "Value": 100031
+      },
+      {
         "Key": "角色.Common.技能通用标识.定点钩索可用",
         "Value": 100020
       },
@@ -129,21 +151,58 @@
       {
         "Key": "角色.Common.技能通用标识.岁光钩索可用",
         "Value": 100022
+      },
+      {
+        "Key": "角色.Common.技能通用标识.大布偶.攀爬可用",
+        "Value": 200004
+      },
+      {
+        "Key": "角色.Common.技能通用标识.大布偶.跳跃可用",
+        "Value": 200004
+      },
+      {
+        "Key": "角色.Common.技能通用标识.大布偶.粉碎岩石可用",
+        "Value": 200004
+      },
+      {
+        "Key": "角色.Common.技能通用标识.大布偶.破坏坚固岩石可用",
+        "Value": 200004
+      },
+      {
+        "Key": "角色.Common.技能通用标识.寂寞小姐.吸收污染可用",
+        "Value": 200005
+      },
+      {
+        "Key": "角色.Common.技能通用标识.寂寞小姐.变身",
+        "Value": 200005
+      },
+      {
+        "Key": "角色.Common.技能通用标识.风筝钩索可用",
+        "Value": 210130
       }
     ],
     "SkillIconTags": [
+      "角色.R2T1LuokekeMd10011.特殊机制.延奏道具",
       "GameplayCue.幻象.控物.控物角色表现",
       "角色.Common.技能通用标识.定点钩索可用",
       "角色.Common.技能通用标识.定点钩索",
-      "角色.Common.技能通用标识.拉取巨物进入范围",
-      "角色.Common.技能通用标识.岁光钩索可用"
+      "角色.Common.技能通用标识.拉取巨物可用",
+      "角色.Common.技能通用标识.岁光钩索可用",
+      "角色.Common.技能通用标识.大布偶.攀爬可用",
+      "角色.Common.技能通用标识.大布偶.跳跃可用",
+      "角色.Common.技能通用标识.大布偶.粉碎岩石可用",
+      "角色.Common.技能通用标识.大布偶.破坏坚固岩石可用",
+      "角色.Common.技能通用标识.寂寞小姐.吸收污染可用",
+      "行为状态.动作状态.XA",
+      "角色.Common.技能通用标识.拉取雕像可用",
+      "角色.Common.技能通用标识.寂寞小姐.变身",
+      "角色.Common.技能通用标识.风筝钩索可用"
     ],
     "EnableTags": null,
     "DisableTags": [
       "功能.功能制作.被击硬直时间",
       "战斗状态.技能限制.禁止探索幻象技能",
       "行为状态.逻辑状态.控物.空中控物通用",
-      "角色.Common.探索技能.新版控物.输入.控物放下禁止",
       "行为状态.动作状态.受击.被抓取"
     ],
     "DisableSkillIdTags": [
@@ -161,7 +220,8 @@
           "ArrayInt": [
             210003,
             210008,
-            210011
+            210011,
+            210030
           ]
         }
       },
@@ -178,7 +238,8 @@
         "Key": "行为状态.位置状态.水中",
         "Value": {
           "ArrayInt": [
-            210008
+            210008,
+            210030
           ]
         }
       },
@@ -238,11 +299,16 @@
     "AttributeId": 0,
     "MaxAttributeId": 0,
     "AttributeIdTagMap": null,
+    "AttributeEnableTags": null,
     "MaxAttributeBurstEffectId": 0,
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 500,
     "DynamicEffectTagMap": [
+      {
+        "Key": "角色.R2T1LuokekeMd10011.特殊机制.延奏道具",
+        "Value": 16061001
+      },
       {
         "Key": "角色.Common.技能通用标识.定点钩索可用",
         "Value": 1002
@@ -269,6 +335,38 @@
       },
       {
         "Key": "角色.Common.技能通用标识.岁光钩索可用",
+        "Value": 1002
+      },
+      {
+        "Key": "角色.Common.技能通用标识.大布偶.攀爬可用",
+        "Value": 1002
+      },
+      {
+        "Key": "角色.Common.技能通用标识.大布偶.跳跃可用",
+        "Value": 1002
+      },
+      {
+        "Key": "角色.Common.技能通用标识.大布偶.粉碎岩石可用",
+        "Value": 1002
+      },
+      {
+        "Key": "角色.Common.技能通用标识.大布偶.破坏坚固岩石可用",
+        "Value": 1002
+      },
+      {
+        "Key": "角色.Common.技能通用标识.寂寞小姐.吸收污染可用",
+        "Value": 1003
+      },
+      {
+        "Key": "角色.Common.技能通用标识.拉取雕像可用",
+        "Value": 1003
+      },
+      {
+        "Key": "角色.Common.技能通用标识.寂寞小姐.变身",
+        "Value": 1003
+      },
+      {
+        "Key": "角色.Common.技能通用标识.风筝钩索可用",
         "Value": 1002
       }
     ]
@@ -322,7 +420,19 @@
             67
           ]
         }
+      },
+      {
+        "Key": "幻象.怪物.Lord.石像鬼.判断满能量",
+        "Value": {
+          "ArrayInt": [
+            68,
+            67
+          ]
+        }
       }
+    ],
+    "AttributeEnableTags": [
+      -1691255632
     ],
     "MaxAttributeBurstEffectId": 0,
     "CdCompletedEffectId": 0,
@@ -349,7 +459,8 @@
     "SkillIconTags": null,
     "EnableTags": null,
     "DisableTags": [
-      "战斗状态.技能限制.禁止地面闪避"
+      "战斗状态.技能限制.禁止地面闪避",
+      "角色.Common.探索技能.禁用翱翔冲刺"
     ],
     "DisableSkillIdTags": null,
     "HiddenTags": [
@@ -362,6 +473,7 @@
     "AttributeId": 0,
     "MaxAttributeId": 0,
     "AttributeIdTagMap": null,
+    "AttributeEnableTags": null,
     "MaxAttributeBurstEffectId": 0,
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": true,
@@ -388,6 +500,7 @@
     "AttributeId": 0,
     "MaxAttributeId": 0,
     "AttributeIdTagMap": null,
+    "AttributeEnableTags": null,
     "MaxAttributeBurstEffectId": 0,
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
@@ -413,6 +526,7 @@
     "AttributeId": 0,
     "MaxAttributeId": 0,
     "AttributeIdTagMap": null,
+    "AttributeEnableTags": null,
     "MaxAttributeBurstEffectId": 0,
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,

@@ -125,5 +125,38 @@
     "MarkId": null,
     "ConditionId": 0,
     "QuestIdList": null
+  },
+  {
+    "Id": 11,
+    "Type": 1,
+    "MapId": 0,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconMap_WYQ_07_UI.SP_IconMap_WYQ_07_UI",
+    "Desc": "MapNote_NewLordGym_Desc",
+    "Style": 0,
+    "Priority": 4,
+    "Rank": 4,
+    "MarkIdMap": null,
+    "MarkId": null,
+    "ConditionId": 0,
+    "QuestIdList": null
+  },
+  {
+    "Id": 12,
+    "Type": 0,
+    "MapId": 0,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconMap_Play_24_UI.SP_IconMap_Play_24_UI",
+    "Desc": "MapNote_ShengxiaDoll_Desc",
+    "Style": 1,
+    "Priority": 1,
+    "Rank": 1,
+    "MarkIdMap": [
+      {
+        "Key": 4,
+        "Value": 3030
+      }
+    ],
+    "MarkId": null,
+    "ConditionId": 0,
+    "QuestIdList": null
   }
 ]

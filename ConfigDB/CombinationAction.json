@@ -172,5 +172,44 @@
     "DisplayName": "",
     "KeyboardVersion": 0,
     "GamepadVersion": 0
+  },
+  {
+    "Id": 11,
+    "ActionName": "退出精简模式",
+    "ActionType": 2,
+    "PcKeys": [
+      {
+        "Key": "LeftAlt",
+        "Value": "C"
+      }
+    ],
+    "GamepadKeys": [
+      {
+        "Key": "Gamepad_LeftShoulder",
+        "Value": "Gamepad_Special_Left"
+      }
+    ],
+    "SecondaryKeyValidTime": -1,
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "KeyboardVersion": 0,
+    "GamepadVersion": 0
+  },
+  {
+    "Id": 12,
+    "ActionName": "退出精简模式PC触摸板",
+    "ActionType": 2,
+    "PcKeys": null,
+    "GamepadKeys": [
+      {
+        "Key": "Gamepad_LeftShoulder",
+        "Value": "GenericUSBController_Button14"
+      }
+    ],
+    "SecondaryKeyValidTime": -1,
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "KeyboardVersion": 0,
+    "GamepadVersion": 0
   }
 ]

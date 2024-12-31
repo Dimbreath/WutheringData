@@ -28,7 +28,9 @@
     },
     "TriggerType3": 0,
     "TriggerEffect3": 0,
-    "TriggerEffectParams3": null
+    "TriggerEffectParams3": null,
+    "Condition": 0,
+    "PropertyIndex": 0
   },
   {
     "Id": 2,
@@ -61,7 +63,9 @@
     },
     "TriggerType3": 0,
     "TriggerEffect3": 0,
-    "TriggerEffectParams3": null
+    "TriggerEffectParams3": null,
+    "Condition": 0,
+    "PropertyIndex": 0
   },
   {
     "Id": 3,
@@ -100,7 +104,9 @@
     },
     "TriggerType3": 0,
     "TriggerEffect3": 0,
-    "TriggerEffectParams3": null
+    "TriggerEffectParams3": null,
+    "Condition": 0,
+    "PropertyIndex": 0
   },
   {
     "Id": 4,
@@ -131,7 +137,9 @@
     },
     "TriggerType3": 0,
     "TriggerEffect3": 0,
-    "TriggerEffectParams3": null
+    "TriggerEffectParams3": null,
+    "Condition": 0,
+    "PropertyIndex": 0
   },
   {
     "Id": 5,
@@ -160,7 +168,9 @@
     },
     "TriggerType3": 0,
     "TriggerEffect3": 0,
-    "TriggerEffectParams3": null
+    "TriggerEffectParams3": null,
+    "Condition": 0,
+    "PropertyIndex": 0
   },
   {
     "Id": 6,
@@ -194,7 +204,9 @@
     },
     "TriggerType3": 0,
     "TriggerEffect3": 0,
-    "TriggerEffectParams3": null
+    "TriggerEffectParams3": null,
+    "Condition": 0,
+    "PropertyIndex": 0
   },
   {
     "Id": 7,
@@ -228,7 +240,9 @@
     },
     "TriggerType3": 0,
     "TriggerEffect3": 0,
-    "TriggerEffectParams3": null
+    "TriggerEffectParams3": null,
+    "Condition": 0,
+    "PropertyIndex": 0
   },
   {
     "Id": 8,
@@ -261,7 +275,9 @@
     },
     "TriggerType3": 0,
     "TriggerEffect3": 0,
-    "TriggerEffectParams3": null
+    "TriggerEffectParams3": null,
+    "Condition": 0,
+    "PropertyIndex": 0
   },
   {
     "Id": 9,
@@ -296,6 +312,45 @@
     "TriggerEffect3": 0,
     "TriggerEffectParams3": [
       672020133.0
-    ]
+    ],
+    "Condition": 0,
+    "PropertyIndex": 0
+  },
+  {
+    "Id": 10,
+    "InitValue": 7000,
+    "InitRecoveryRate": 2400,
+    "InitMax": 7000,
+    "MarkTag": [
+      "行为状态.位置状态.空中"
+    ],
+    "ResistTag": [
+      "功能.功能制作.翱翔体力锁定"
+    ],
+    "TriggerRange1": {
+      "Min": 0.0,
+      "Max": 11.0
+    },
+    "TriggerType1": 0,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": [
+      3154.0
+    ],
+    "TriggerRange2": {
+      "Min": 9999.0,
+      "Max": 10000.0
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": null,
+    "TriggerRange3": {
+      "Min": 9999.0,
+      "Max": 10000.0
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": null,
+    "Condition": 13000189,
+    "PropertyIndex": 138
   }
 ]

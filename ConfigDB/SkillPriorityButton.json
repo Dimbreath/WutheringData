@@ -9,5 +9,24 @@
     ],
     "DisableSkillIdTags": null,
     "DynamicEffectTagMap": null
+  },
+  {
+    "Id": 2,
+    "ButtonType": 6,
+    "Name": "共鸣技能",
+    "SkillIdTagMap": [
+      {
+        "Key": 1937468570,
+        "Value": 100034
+      }
+    ],
+    "DisableTags": null,
+    "DisableSkillIdTags": null,
+    "DynamicEffectTagMap": [
+      {
+        "Key": 1937468570,
+        "Value": 0
+      }
+    ]
   }
 ]

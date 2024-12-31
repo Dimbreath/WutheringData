@@ -579,5 +579,99 @@
     "DefaultCameraBlendName": "10007",
     "UiCameraBlendNameMap": null,
     "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 2034,
+    "ViewName": "RoleSkinTabView",
+    "DefaultUiCameraSettingsName": "1080_M",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "PlayLoadingCameraAnimation": false,
+    "BodyTargetType": 3,
+    "BodyCameraSettingsNameMap": [
+      {
+        "Key": "FemaleM",
+        "Value": "1080_M"
+      },
+      {
+        "Key": "MaleM",
+        "Value": "1080_M"
+      },
+      {
+        "Key": "FemaleMS",
+        "Value": "1080_MSS"
+      },
+      {
+        "Key": "FemaleS",
+        "Value": "1080_S"
+      },
+      {
+        "Key": "MaleS",
+        "Value": "1080_MS"
+      },
+      {
+        "Key": "FemaleXL",
+        "Value": "1080_M"
+      },
+      {
+        "Key": "MaleXL",
+        "Value": "1080_XL"
+      }
+    ],
+    "DefaultCameraBlendName": "1001",
+    "UiCameraBlendNameMap": [
+      {
+        "Key": "RoleRootView",
+        "Value": "1001"
+      }
+    ],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 2035,
+    "ViewName": "WeaponSkinTabView",
+    "DefaultUiCameraSettingsName": "1080_M",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "PlayLoadingCameraAnimation": false,
+    "BodyTargetType": 3,
+    "BodyCameraSettingsNameMap": [
+      {
+        "Key": "FemaleM",
+        "Value": "1080_M"
+      },
+      {
+        "Key": "MaleM",
+        "Value": "1080_M"
+      },
+      {
+        "Key": "FemaleMS",
+        "Value": "1080_MSS"
+      },
+      {
+        "Key": "FemaleS",
+        "Value": "1080_S"
+      },
+      {
+        "Key": "MaleS",
+        "Value": "1080_MS"
+      },
+      {
+        "Key": "FemaleXL",
+        "Value": "1080_M"
+      },
+      {
+        "Key": "MaleXL",
+        "Value": "1080_XL"
+      }
+    ],
+    "DefaultCameraBlendName": "1001",
+    "UiCameraBlendNameMap": [
+      {
+        "Key": "RoleRootView",
+        "Value": "1001"
+      }
+    ],
+    "UiCameraDelayTime": 0
   }
 ]

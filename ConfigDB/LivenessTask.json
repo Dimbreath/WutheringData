@@ -487,5 +487,21 @@
     ],
     "UnlockCondition": 13000020,
     "SortRank": 1
+  },
+  {
+    "TaskId": 100,
+    "TaskName": "LivenessTask_100_TaskName",
+    "UpdateType": 0,
+    "TaskReward": [
+      {
+        "Key": 9,
+        "Value": 20
+      }
+    ],
+    "TaskFunc": [
+      "1"
+    ],
+    "UnlockCondition": 0,
+    "SortRank": 1
   }
 ]

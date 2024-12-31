@@ -687,6 +687,26 @@
     "Description": "SkillInput_150505_Description"
   },
   {
+    "Id": 160601,
+    "InputArray": [
+      "技能1"
+    ],
+    "SkillArray": [
+      1002702
+    ],
+    "Description": "SkillInput_160601_Description"
+  },
+  {
+    "Id": 160602,
+    "InputArray": [
+      "攻击"
+    ],
+    "SkillArray": [
+      1002701
+    ],
+    "Description": "SkillInput_160602_Description"
+  },
+  {
     "Id": 160301,
     "InputArray": [
       "攻击"
@@ -745,5 +765,37 @@
       1002602
     ],
     "Description": "SkillInput_150403_Description"
+  },
+  {
+    "Id": 110701,
+    "InputArray": [
+      "技能1"
+    ],
+    "SkillArray": [
+      1002802
+    ],
+    "Description": "SkillInput_110701_Description"
+  },
+  {
+    "Id": 110702,
+    "InputArray": [
+      "攻击"
+    ],
+    "SkillArray": [
+      1002801
+    ],
+    "Description": "SkillInput_110702_Description"
+  },
+  {
+    "Id": 110703,
+    "InputArray": [
+      "大招",
+      "攻击"
+    ],
+    "SkillArray": [
+      1002803,
+      1002801
+    ],
+    "Description": "SkillInput_110703_Description"
   }
 ]

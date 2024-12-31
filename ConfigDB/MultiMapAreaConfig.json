@@ -189,5 +189,95 @@
       }
     ],
     "MapConfigId": 8
+  },
+  {
+    "Id": "11",
+    "Block": "10_-5",
+    "MultiMapList": [
+      8,
+      9
+    ],
+    "MultiMapRangeList": [
+      {
+        "ArrayInt": [
+          600,
+          200,
+          800,
+          400
+        ]
+      },
+      {
+        "ArrayInt": [
+          300,
+          50,
+          750,
+          500
+        ]
+      }
+    ],
+    "MapConfigId": 8
+  },
+  {
+    "Id": "12",
+    "Block": "10_-6",
+    "MultiMapList": [
+      10,
+      11
+    ],
+    "MultiMapRangeList": [
+      {
+        "ArrayInt": [
+          750,
+          350,
+          850,
+          520
+        ]
+      },
+      {
+        "ArrayInt": [
+          20,
+          300,
+          160,
+          450
+        ]
+      }
+    ],
+    "MapConfigId": 8
+  },
+  {
+    "Id": "13",
+    "Block": "10_-7",
+    "MultiMapList": [
+      12
+    ],
+    "MultiMapRangeList": [
+      {
+        "ArrayInt": [
+          50,
+          450,
+          300,
+          750
+        ]
+      }
+    ],
+    "MapConfigId": 8
+  },
+  {
+    "Id": "14",
+    "Block": "11_-6",
+    "MultiMapList": [
+      13
+    ],
+    "MultiMapRangeList": [
+      {
+        "ArrayInt": [
+          600,
+          320,
+          850,
+          620
+        ]
+      }
+    ],
+    "MapConfigId": 8
   }
 ]

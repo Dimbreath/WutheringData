@@ -1717,7 +1717,7 @@
       3,
       4
     ],
-    "MonsterInfoId": 330000020,
+    "MonsterInfoId": 350000120,
     "AllExp": 100,
     "SortId": 2203,
     "MonsterProbeId": 330000020,
@@ -1726,6 +1726,690 @@
     "HandBookCamera": "800011",
     "MonsterNumber": "W77-",
     "InteractionRadius": 500,
+    "IsShow": false
+  },
+  {
+    "MonsterId": 6000061,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 310000370,
+    "AllExp": 100,
+    "SortId": 414,
+    "MonsterProbeId": 310000370,
+    "HandBookBp": "/Game/Aki/Character/Kpose/Ordinary/MO1BinlangMd00401.MO1BinlangMd00401",
+    "MonsterBodyType": 1,
+    "HandBookCamera": "800021",
+    "MonsterNumber": "H23-",
+    "InteractionRadius": 150,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000062,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 310000380,
+    "AllExp": 100,
+    "SortId": 415,
+    "MonsterProbeId": 310000380,
+    "HandBookBp": "/Game/Aki/Character/Kpose/Ordinary/MO1BinlangMd00301.MO1BinlangMd00301",
+    "MonsterBodyType": 1,
+    "HandBookCamera": "800021",
+    "MonsterNumber": "H24-",
+    "InteractionRadius": 150,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000063,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 310000390,
+    "AllExp": 100,
+    "SortId": 416,
+    "MonsterProbeId": 310000390,
+    "HandBookBp": "/Game/Aki/Character/Kpose/Ordinary/MO1BinlangMd00201.MO1BinlangMd00201",
+    "MonsterBodyType": 1,
+    "HandBookCamera": "800021",
+    "MonsterNumber": "H25-",
+    "InteractionRadius": 150,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000064,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 310000400,
+    "AllExp": 100,
+    "SortId": 1201,
+    "MonsterProbeId": 310000400,
+    "HandBookBp": "/Game/Aki/Character/Kpose/Ordinary/MO1QifuouyanjingMd00101.MO1QifuouyanjingMd00101",
+    "MonsterBodyType": 1,
+    "HandBookCamera": "800021",
+    "MonsterNumber": "R01-",
+    "InteractionRadius": 150,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000065,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 310000410,
+    "AllExp": 100,
+    "SortId": 1202,
+    "MonsterProbeId": 310000410,
+    "HandBookBp": "/Game/Aki/Character/Kpose/Ordinary/MO1QifuouzuoshouMd00501.MO1QifuouzuoshouMd00501",
+    "MonsterBodyType": 1,
+    "HandBookCamera": "800021",
+    "MonsterNumber": "R02-",
+    "InteractionRadius": 150,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000066,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 310000420,
+    "AllExp": 100,
+    "SortId": 1203,
+    "MonsterProbeId": 310000420,
+    "HandBookBp": "/Game/Aki/Character/Kpose/Ordinary/MO1QifuouyoushouMd00601.MO1QifuouyoushouMd00601",
+    "MonsterBodyType": 1,
+    "HandBookCamera": "800021",
+    "MonsterNumber": "R03-",
+    "InteractionRadius": 150,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000067,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 310000430,
+    "AllExp": 100,
+    "SortId": 1204,
+    "MonsterProbeId": 310000430,
+    "HandBookBp": "/Game/Aki/Character/Kpose/Elite/MO1YoulinghuoMd00101.MO1YoulinghuoMd00101",
+    "MonsterBodyType": 1,
+    "HandBookCamera": "800021",
+    "MonsterNumber": "R04-",
+    "InteractionRadius": 150,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000068,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 310000440,
+    "AllExp": 100,
+    "SortId": 1205,
+    "MonsterProbeId": 310000440,
+    "HandBookBp": "/Game/Aki/Character/Kpose/Elite/MO1YunhaiyaojingMd00501.MO1YunhaiyaojingMd00501",
+    "MonsterBodyType": 1,
+    "HandBookCamera": "800021",
+    "MonsterNumber": "R05-",
+    "InteractionRadius": 150,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000069,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 310000450,
+    "AllExp": 100,
+    "SortId": 1206,
+    "MonsterProbeId": 310000450,
+    "HandBookBp": "/Game/Aki/Character/Kpose/Ordinary/MOP1BuouMd00601.MOP1BuouMd00601",
+    "MonsterBodyType": 1,
+    "HandBookCamera": "800021",
+    "MonsterNumber": "R06-",
+    "InteractionRadius": 150,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000070,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 310000460,
+    "AllExp": 100,
+    "SortId": 1207,
+    "MonsterProbeId": 310000460,
+    "HandBookBp": "/Game/Aki/Character/Kpose/Ordinary/MOP1BuouMd00501.MOP1BuouMd00501",
+    "MonsterBodyType": 1,
+    "HandBookCamera": "800021",
+    "MonsterNumber": "R07-",
+    "InteractionRadius": 150,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000071,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 310000470,
+    "AllExp": 100,
+    "SortId": 1208,
+    "MonsterProbeId": 310000470,
+    "HandBookBp": "/Game/Aki/Character/Kpose/Ordinary/MOP1BuouMd00001.MOP1BuouMd00001",
+    "MonsterBodyType": 1,
+    "HandBookCamera": "800021",
+    "MonsterNumber": "R08-",
+    "InteractionRadius": 150,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000072,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 310000480,
+    "AllExp": 100,
+    "SortId": 1209,
+    "MonsterProbeId": 310000480,
+    "HandBookBp": "/Game/Aki/Character/Kpose/Ordinary/MO1BaoxiangguaiMd00501.MO1BaoxiangguaiMd00501",
+    "MonsterBodyType": 1,
+    "HandBookCamera": "800022",
+    "MonsterNumber": "R09-",
+    "InteractionRadius": 150,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000073,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 320000220,
+    "AllExp": 100,
+    "SortId": 2105,
+    "MonsterProbeId": 320000220,
+    "HandBookBp": "/Game/Aki/Character/Kpose/Elite/MP1HeibaiqishiMd00301.MP1HeibaiqishiMd00301",
+    "MonsterBodyType": 2,
+    "HandBookCamera": "800022",
+    "MonsterNumber": "W64-",
+    "InteractionRadius": 200,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000074,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 320000230,
+    "AllExp": 100,
+    "SortId": 2106,
+    "MonsterProbeId": 320000230,
+    "HandBookBp": "/Game/Aki/Character/Kpose/Elite/MP1HeibaiqishiMd00501.MP1HeibaiqishiMd00501",
+    "MonsterBodyType": 2,
+    "HandBookCamera": "800022",
+    "MonsterNumber": "W65-",
+    "InteractionRadius": 200,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000075,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 320000240,
+    "AllExp": 100,
+    "SortId": 2107,
+    "MonsterProbeId": 320000240,
+    "HandBookBp": "/Game/Aki/Character/Kpose/Elite/MP1HeibaiqishiMd00601.MP1HeibaiqishiMd00601",
+    "MonsterBodyType": 2,
+    "HandBookCamera": "800022",
+    "MonsterNumber": "W66-",
+    "InteractionRadius": 200,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000076,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 320000250,
+    "AllExp": 100,
+    "SortId": 2108,
+    "MonsterProbeId": 320000250,
+    "HandBookBp": "/Game/Aki/Character/Kpose/Elite/ME1DuguizuMd00201.ME1DuguizuMd00201",
+    "MonsterBodyType": 2,
+    "HandBookCamera": "800022",
+    "MonsterNumber": "W67-",
+    "InteractionRadius": 200,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000077,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 320000260,
+    "AllExp": 100,
+    "SortId": 2109,
+    "MonsterProbeId": 320000260,
+    "HandBookBp": "/Game/Aki/Character/Kpose/Elite/ME1DuguizuMd00211.ME1DuguizuMd00211",
+    "MonsterBodyType": 2,
+    "HandBookCamera": "800022",
+    "MonsterNumber": "W68-",
+    "InteractionRadius": 200,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000078,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 320000270,
+    "AllExp": 100,
+    "SortId": 2110,
+    "MonsterProbeId": 320000270,
+    "HandBookBp": "/Game/Aki/Character/Kpose/Elite/ME1DuguizuMd00221.ME1DuguizuMd00221",
+    "MonsterBodyType": 2,
+    "HandBookCamera": "800022",
+    "MonsterNumber": "W69-",
+    "InteractionRadius": 200,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000079,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 320000280,
+    "AllExp": 100,
+    "SortId": 1302,
+    "MonsterProbeId": 320000280,
+    "HandBookBp": "/Game/Aki/Character/Kpose/Elite/MP1HeibaiqishiMd00602.MP1HeibaiqishiMd00602",
+    "MonsterBodyType": 2,
+    "HandBookCamera": "800022",
+    "MonsterNumber": "R41-",
+    "InteractionRadius": 200,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000080,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 320000290,
+    "AllExp": 100,
+    "SortId": 2111,
+    "MonsterProbeId": 320000290,
+    "HandBookBp": "/Game/Aki/Character/Kpose/Elite/ME1LiulidaolingMd00301.ME1LiulidaolingMd00301",
+    "MonsterBodyType": 2,
+    "HandBookCamera": "800022",
+    "MonsterNumber": "W70-",
+    "InteractionRadius": 200,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000081,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 320000300,
+    "AllExp": 100,
+    "SortId": 1303,
+    "MonsterProbeId": 320000300,
+    "HandBookBp": "/Game/Aki/Character/Kpose/Elite/ME1DabuouMd00001.ME1DabuouMd00001",
+    "MonsterBodyType": 2,
+    "HandBookCamera": "800021",
+    "MonsterNumber": "R42-",
+    "InteractionRadius": 200,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000082,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 330000110,
+    "AllExp": 100,
+    "SortId": 2204,
+    "MonsterProbeId": 330000110,
+    "HandBookBp": "/Game/Aki/Character/Kpose/BOSS/ML1HaiYaoMd00601.ML1HaiYaoMd00601",
+    "MonsterBodyType": 1,
+    "HandBookCamera": "800022",
+    "MonsterNumber": "W83-",
+    "InteractionRadius": 800,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000083,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 330000120,
+    "AllExp": 100,
+    "SortId": 2205,
+    "MonsterProbeId": 330000120,
+    "HandBookBp": "/Game/Aki/Character/Kpose/BOSS/ML1ShiXiangGuiMd00201.ML1ShiXiangGuiMd00201",
+    "MonsterBodyType": 1,
+    "HandBookCamera": "800032",
+    "MonsterNumber": "W84-",
+    "InteractionRadius": 800,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000084,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 330000130,
+    "AllExp": 100,
+    "SortId": 606,
+    "MonsterProbeId": 330000130,
+    "HandBookBp": "/Game/Aki/Character/Kpose/BOSS/ML1GuLongMd00101.ML1GuLongMd00101",
+    "MonsterBodyType": 1,
+    "HandBookCamera": "800023",
+    "MonsterNumber": "H82-",
+    "InteractionRadius": 800,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000085,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 340000100,
+    "AllExp": 100,
+    "SortId": 2301,
+    "MonsterProbeId": 340000100,
+    "HandBookBp": "/Game/Aki/Character/Kpose/BOSS/MB1HecateMd00611.MB1HecateMd00611",
+    "MonsterBodyType": 1,
+    "HandBookCamera": "800032",
+    "MonsterNumber": "W93-",
+    "InteractionRadius": 800,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000086,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 330000140,
+    "AllExp": 100,
+    "SortId": 601,
+    "MonsterProbeId": 330000140,
+    "HandBookBp": "/Game/Aki/Character/Kpose/BOSS/ML1FerLianMd00201_1.ML1FerLianMd00201_1",
+    "MonsterBodyType": 2,
+    "HandBookCamera": "800023",
+    "MonsterNumber": "H71-",
+    "InteractionRadius": 500,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000087,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 330000150,
+    "AllExp": 100,
+    "SortId": 602,
+    "MonsterProbeId": 330000150,
+    "HandBookBp": "/Game/Aki/Character/Kpose/BOSS/ML1WuChangluMd00601_1.ML1WuChangluMd00601_1",
+    "MonsterBodyType": 2,
+    "HandBookCamera": "800023",
+    "MonsterNumber": "H72-",
+    "InteractionRadius": 450,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000088,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 330000160,
+    "AllExp": 100,
+    "SortId": 2202,
+    "MonsterProbeId": 330000160,
+    "HandBookBp": "/Game/Aki/Character/Kpose/BOSS/ML1LinrenMd00311_1.ML1LinrenMd00311_1",
+    "MonsterBodyType": 2,
+    "HandBookCamera": "800022",
+    "MonsterNumber": "W76-",
+    "InteractionRadius": 250,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000089,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 330000170,
+    "AllExp": 100,
+    "SortId": 2201,
+    "MonsterProbeId": 330000170,
+    "HandBookBp": "/Game/Aki/Character/Kpose/BOSS/ML1LinrenMd00301_1.ML1LinrenMd00301_1",
+    "MonsterBodyType": 2,
+    "HandBookCamera": "800011",
+    "MonsterNumber": "W75-",
+    "InteractionRadius": 200,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000090,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 330000180,
+    "AllExp": 100,
+    "SortId": 604,
+    "MonsterProbeId": 330000180,
+    "HandBookBp": "/Game/Aki/Character/Kpose/BOSS/MB1Wuguanzhe00601_1.MB1Wuguanzhe00601_1",
+    "MonsterBodyType": 2,
+    "HandBookCamera": "800011",
+    "MonsterNumber": "H80-",
+    "InteractionRadius": 250,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000091,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 330000190,
+    "AllExp": 100,
+    "SortId": 2203,
+    "MonsterProbeId": 330000190,
+    "HandBookBp": "/Game/Aki/Character/Kpose/BOSS/ML1QiShiMd00001_1.ML1QiShiMd00001_1",
+    "MonsterBodyType": 2,
+    "HandBookCamera": "800011",
+    "MonsterNumber": "W77-",
+    "InteractionRadius": 500,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6000092,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 330000200,
+    "AllExp": 100,
+    "SortId": 603,
+    "MonsterProbeId": 330000200,
+    "HandBookBp": "/Game/Aki/Character/Kpose/BOSS/ML1AiShengGuYuanMd00501_1.ML1AiShengGuYuanMd00501_1",
+    "MonsterBodyType": 2,
+    "HandBookCamera": "800023",
+    "MonsterNumber": "H73-",
+    "InteractionRadius": 500,
+    "IsShow": true
+  },
+  {
+    "MonsterId": 6010071,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 350000130,
+    "AllExp": 100,
+    "SortId": 3,
+    "MonsterProbeId": 310000470,
+    "HandBookBp": "/Game/Aki/Character/Kpose/Ordinary/MOP1BuouMd10001.MOP1BuouMd10001",
+    "MonsterBodyType": 1,
+    "HandBookCamera": "800021",
+    "MonsterNumber": "R08-",
+    "InteractionRadius": 150,
+    "IsShow": false
+  },
+  {
+    "MonsterId": 6010080,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 350000140,
+    "AllExp": 100,
+    "SortId": 502,
+    "MonsterProbeId": 320000290,
+    "HandBookBp": "/Game/Aki/Character/Kpose/Elite/ME1LiulidaolingMd10301.ME1LiulidaolingMd10301",
+    "MonsterBodyType": 2,
+    "HandBookCamera": "800022",
+    "MonsterNumber": "W70-",
+    "InteractionRadius": 200,
+    "IsShow": false
+  },
+  {
+    "MonsterId": 6010073,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 350000150,
+    "AllExp": 100,
+    "SortId": 502,
+    "MonsterProbeId": 320000220,
+    "HandBookBp": "/Game/Aki/Character/Kpose/Elite/MP1HeibaiqishiMd10301.MP1HeibaiqishiMd10301",
+    "MonsterBodyType": 2,
+    "HandBookCamera": "800022",
+    "MonsterNumber": "W64-",
+    "InteractionRadius": 200,
+    "IsShow": false
+  },
+  {
+    "MonsterId": 6010083,
+    "DevelopCondition": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "MonsterInfoId": 350000160,
+    "AllExp": 100,
+    "SortId": 3202,
+    "MonsterProbeId": 330000120,
+    "HandBookBp": "/Game/Aki/Character/Kpose/BOSS/ML1ShiXiangGuiMd10201.ML1ShiXiangGuiMd10201",
+    "MonsterBodyType": 1,
+    "HandBookCamera": "800032",
+    "MonsterNumber": "W84-",
+    "InteractionRadius": 800,
     "IsShow": false
   }
 ]

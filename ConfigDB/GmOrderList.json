@@ -1699,7 +1699,9 @@
       "add_new_role_config 12026",
       "add_new_role_config 12027",
       "add_new_role_config 12028",
-      "add_new_role_config 12029"
+      "add_new_role_config 12029",
+      "add_new_role_config 12031",
+      "add_new_role_config 12030"
     ]
   },
   {
@@ -1812,6 +1814,13 @@
       "add_new_role_config 13026",
       "add_new_role_config 13027",
       "add_new_role_config 13028",
+      "add_new_role_config 12028",
+      "add_new_role_config 12029",
+      "add_new_role_config 12031",
+      "add_new_role_config 12030",
+      "add_new_role_config 40160400",
+      "add_new_role_config 12003",
+      "add_new_role_config 40160500",
       "funcopengm 0",
       "add_item 1 50000",
       "activateteleport 0",
@@ -1822,6 +1831,23 @@
       "add_item 10802 1",
       "add_item 10808 999",
       "RunActionList#[{\"Name\": \"SetEntityVisible\",\"Params\": {\"Visible\": false,\"EntityIds\": [141900335,141900336]},\"ActionGuid\": \"9b78e89ef270405d8c7100ae5da03451\"}]"
+    ]
+  },
+  {
+    "Id": 140,
+    "Name": "洛可可一键毕业",
+    "OrderList": [
+      "add_new_role_config 12030",
+      "add_new_role_config 40160400",
+      "add_new_role_config 12003",
+      "add_new_role_config 40160500"
+    ]
+  },
+  {
+    "Id": 141,
+    "Name": "珂莱塔90一键毕业",
+    "OrderList": [
+      "add_new_role_config 12031"
     ]
   }
 ]

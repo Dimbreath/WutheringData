@@ -534,9 +534,7 @@
     "Meshes": null,
     "Materials": null,
     "AnimationBlueprints": null,
-    "Others": [
-      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_HuanXiangShouFu.GA_HuanXiangShouFu_C"
-    ]
+    "Others": null
   },
   {
     "Id": 220002,
@@ -1147,9 +1145,7 @@
     "Meshes": null,
     "Materials": null,
     "AnimationBlueprints": null,
-    "Others": [
-      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_Common_Paralysis_Camera.GA_Common_Paralysis_Camera_C"
-    ]
+    "Others": null
   },
   {
     "Id": 70000002,
@@ -1369,16 +1365,29 @@
     "IsCommon": true,
     "HasMontagePath": false,
     "ActorClass": null,
-    "Animations": [
-      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Land_Roll_Attack01_2.AM_Land_Roll_Attack01_2"
-    ],
+    "Animations": null,
     "Effects": null,
     "Audios": null,
     "Meshes": null,
     "Materials": null,
     "AnimationBlueprints": null,
     "Others": [
-      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_Super_Sprint_Attack.GA_Super_Sprint_Attack_C"
+      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_Role_FixHook.GA_Role_FixHook_C"
+    ]
+  },
+  {
+    "Id": 210030,
+    "IsCommon": true,
+    "HasMontagePath": false,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_XA.GA_XA_C"
     ]
   },
   {
@@ -1454,6 +1463,154 @@
     "AnimationBlueprints": null,
     "Others": [
       "/Game/Aki/Character/Role/Common/Abilities/GA/GA_Super_Sprint_Start_Yanxu.GA_Super_Sprint_Start_Yanxu_C"
+    ]
+  },
+  {
+    "Id": 210130,
+    "IsCommon": true,
+    "HasMontagePath": false,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_Kite.GA_Kite_C"
+    ]
+  },
+  {
+    "Id": 2100033,
+    "IsCommon": true,
+    "HasMontagePath": false,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Vision/GA/Role/GA_Role_Manipulate_Statues_Interact.GA_Role_Manipulate_Statues_Interact_C"
+    ]
+  },
+  {
+    "Id": 100031,
+    "IsCommon": true,
+    "HasMontagePath": false,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_Luokeke_Peiluo.GA_Luokeke_Peiluo_C"
+    ]
+  },
+  {
+    "Id": 100032,
+    "IsCommon": true,
+    "HasMontagePath": false,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 100033,
+    "IsCommon": true,
+    "HasMontagePath": false,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 200004,
+    "IsCommon": true,
+    "HasMontagePath": true,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/MaterialController/DA_Vision/DA_Fx_VisionBS_Start_HidePlayer.DA_Fx_VisionBS_Start_HidePlayer"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Vision/GA/Role/GA_Role_Bianshen_DBO.GA_Role_Bianshen_DBO_C"
+    ]
+  },
+  {
+    "Id": 200005,
+    "IsCommon": true,
+    "HasMontagePath": true,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/MaterialController/DA_Vision/DA_Fx_VisionBS_Start_HidePlayer.DA_Fx_VisionBS_Start_HidePlayer"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Vision/GA/Role/GA_Role_Bianshen_Doll.GA_Role_Bianshen_Doll_C"
+    ]
+  },
+  {
+    "Id": 230004,
+    "IsCommon": true,
+    "HasMontagePath": false,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Vision/VM_Boss/VM_MB1Hecate/Md00611/Ability/GA_Hecate_Zhuan.GA_Hecate_Zhuan_C"
+    ]
+  },
+  {
+    "Id": 100034,
+    "IsCommon": true,
+    "HasMontagePath": false,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 210330,
+    "IsCommon": true,
+    "HasMontagePath": false,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_XA.GA_XA_C"
     ]
   }
 ]

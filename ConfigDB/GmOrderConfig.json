@@ -607,7 +607,7 @@
     "Name": "完成当前追踪副本节点",
     "NameOverride": "完成当前追踪副本节点(PageDown)",
     "Code": "FinishCurTrackDungeonNode#当前副本追踪的第X个节点,是否推完(默认1)",
-    "CodeOverride": "FinishCurTrackDungeonNode#当前活跃节点中的第X个,执行完成动作(默认1)",
+    "CodeOverride": "FinishCurTrackDungeonNode#1",
     "Sort": 12021,
     "Visible": true
   },
@@ -616,7 +616,7 @@
     "Name": "传送到当前副本追踪位置",
     "NameOverride": "传送当前副本追踪位置",
     "Code": "TeleportToCurDungeonTrackPosition#当前活跃节点中的第X个",
-    "CodeOverride": "TeleportToCurDungeonTrackPosition#当前活跃节点中的第X个",
+    "CodeOverride": "TeleportToCurDungeonTrackPosition#1",
     "Sort": 12031,
     "Visible": true
   },
@@ -724,7 +724,7 @@
     "Name": "完成当前追踪任务节点",
     "NameOverride": "完成当前追踪任务节点(PageDown)",
     "Code": "FinishCurrentTrackQuestNode#当前任务追踪的第X个节点,是否推完(默认1)",
-    "CodeOverride": "FinishCurrentTrackQuestNode#当前活跃节点中的第X个,执行完成动作(默认1)",
+    "CodeOverride": "FinishCurrentTrackQuestNode#1",
     "Sort": 13021,
     "Visible": true
   },
@@ -733,7 +733,7 @@
     "Name": "传送到当前任务追踪位置",
     "NameOverride": "传送当前任务追踪位置",
     "Code": "TeleportToCurQuestTrackPosition#当前活跃节点中的第X个",
-    "CodeOverride": "TeleportToCurQuestTrackPosition#当前活跃节点中的第X个",
+    "CodeOverride": "TeleportToCurQuestTrackPosition#1",
     "Sort": 13031,
     "Visible": true
   },
@@ -940,7 +940,7 @@
     "Name": "完成当前玩法节点",
     "NameOverride": "完成当前玩法节点",
     "Code": "FinishCurrentLevelPlayNode#当前玩法追踪的第X个节点,是否推完(默认1)",
-    "CodeOverride": "FinishCurrentLevelPlayNode#当前活跃节点中的第X个,执行完成动作(默认1)",
+    "CodeOverride": "FinishCurrentLevelPlayNode#1",
     "Sort": 14031,
     "Visible": true
   },
@@ -1057,8 +1057,17 @@
     "Name": "传送到当前玩法追踪位置",
     "NameOverride": "传送当前玩法追踪位置",
     "Code": "TeleportToCurLevelPlayTrackPosition#当前活跃节点中的第X个",
-    "CodeOverride": "TeleportToCurLevelPlayTrackPosition#当前活跃节点中的第X个",
+    "CodeOverride": "TeleportToCurLevelPlayTrackPosition#1",
     "Sort": 14041,
+    "Visible": true
+  },
+  {
+    "Id": 11105,
+    "Name": "设置所有模块条件完成",
+    "NameOverride": "设置条件组完成(通用)",
+    "Code": "gmsetplayerallconditiongroupcomplete 条件组id",
+    "CodeOverride": "gmsetplayerallconditiongroupcomplete 条件组id",
+    "Sort": 11105,
     "Visible": true
   }
 ]

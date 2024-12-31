@@ -144,7 +144,69 @@
         }
       },
       {
+        "Key": "载具.贡多拉.类型.城区贡多拉",
+        "Value": {
+          "ArrayInt": [
+            7,
+            1
+          ]
+        }
+      },
+      {
+        "Key": "载具.贡多拉.允许共乘",
+        "Value": {
+          "ArrayInt": [
+            5,
+            7,
+            6,
+            1
+          ]
+        }
+      },
+      {
+        "Key": "载具.贡多拉.驾驶期间",
+        "Value": {
+          "ArrayInt": [
+            5,
+            7,
+            1
+          ]
+        }
+      },
+      {
+        "Key": "载具.NPC浴缸狗.乘坐中",
+        "Value": {
+          "ArrayInt": [
+            1
+          ]
+        }
+      },
+      {
+        "Key": "行为状态.动作状态.XA",
+        "Value": {
+          "ArrayInt": [
+            5,
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      },
+      {
         "Key": "角色.R2T1YouHuMd10011.替换图标",
+        "Value": {
+          "ArrayInt": [
+            4,
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      },
+      {
+        "Key": "角色.R2T1KamolaMd10011.被动.基础图标替换",
         "Value": {
           "ArrayInt": [
             4,
@@ -241,6 +303,146 @@
             1
           ]
         }
+      },
+      {
+        "Key": "载具.贡多拉.类型.城区贡多拉",
+        "Value": {
+          "ArrayInt": [
+            -1,
+            -1,
+            -1,
+            7,
+            -1,
+            -1,
+            1
+          ]
+        }
+      },
+      {
+        "Key": "载具.贡多拉.允许共乘",
+        "Value": {
+          "ArrayInt": [
+            -1,
+            6,
+            -1,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": "载具.贡多拉.驾驶期间",
+        "Value": {
+          "ArrayInt": [
+            -1,
+            -1,
+            -1,
+            7,
+            -1,
+            5,
+            1
+          ]
+        }
+      },
+      {
+        "Key": "载具.NPC浴缸狗.乘坐中",
+        "Value": {
+          "ArrayInt": [
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1,
+            1
+          ]
+        }
+      }
+    ],
+    "GamepadButtonTypeMap": [
+      {
+        "Key": 504239013,
+        "Value": {
+          "ArrayInt": [
+            1,
+            2,
+            4,
+            5,
+            7,
+            104
+          ]
+        }
+      },
+      {
+        "Key": 855966206,
+        "Value": {
+          "ArrayInt": [
+            5,
+            7,
+            104
+          ]
+        }
+      },
+      {
+        "Key": -943572384,
+        "Value": {
+          "ArrayInt": [
+            1,
+            -1,
+            7,
+            104
+          ]
+        }
+      },
+      {
+        "Key": 1937468570,
+        "Value": {
+          "ArrayInt": [
+            1,
+            5,
+            6,
+            7,
+            104
+          ]
+        }
+      },
+      {
+        "Key": 1754192253,
+        "Value": {
+          "ArrayInt": [
+            1,
+            5,
+            7,
+            104
+          ]
+        }
+      },
+      {
+        "Key": 2097030355,
+        "Value": {
+          "ArrayInt": [
+            1,
+            -1,
+            -1,
+            104
+          ]
+        }
+      },
+      {
+        "Key": -2027866845,
+        "Value": {
+          "ArrayInt": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            104
+          ]
+        }
       }
     ]
   },
@@ -262,7 +464,8 @@
     "TagDesktopButtonTypeList": null,
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
-    "PadButtonTypeMap": null
+    "PadButtonTypeMap": null,
+    "GamepadButtonTypeMap": null
   },
   {
     "Id": 5009,
@@ -282,7 +485,8 @@
     "TagDesktopButtonTypeList": null,
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
-    "PadButtonTypeMap": null
+    "PadButtonTypeMap": null,
+    "GamepadButtonTypeMap": null
   },
   {
     "Id": 5010,
@@ -304,7 +508,8 @@
     "TagDesktopButtonTypeList": null,
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
-    "PadButtonTypeMap": null
+    "PadButtonTypeMap": null,
+    "GamepadButtonTypeMap": null
   },
   {
     "Id": 5012,
@@ -318,7 +523,8 @@
     "TagDesktopButtonTypeList": null,
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
-    "PadButtonTypeMap": null
+    "PadButtonTypeMap": null,
+    "GamepadButtonTypeMap": null
   },
   {
     "Id": 5011,
@@ -340,7 +546,8 @@
     "TagDesktopButtonTypeList": null,
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
-    "PadButtonTypeMap": null
+    "PadButtonTypeMap": null,
+    "GamepadButtonTypeMap": null
   },
   {
     "Id": 5006,
@@ -361,7 +568,8 @@
     "TagDesktopButtonTypeList": null,
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
-    "PadButtonTypeMap": null
+    "PadButtonTypeMap": null,
+    "GamepadButtonTypeMap": null
   },
   {
     "Id": 5007,
@@ -383,7 +591,8 @@
     "TagDesktopButtonTypeList": null,
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
-    "PadButtonTypeMap": null
+    "PadButtonTypeMap": null,
+    "GamepadButtonTypeMap": null
   },
   {
     "Id": 5013,
@@ -404,7 +613,8 @@
     "TagDesktopButtonTypeList": null,
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
-    "PadButtonTypeMap": null
+    "PadButtonTypeMap": null,
+    "GamepadButtonTypeMap": null
   },
   {
     "Id": 5014,
@@ -425,7 +635,8 @@
     "TagDesktopButtonTypeList": null,
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
-    "PadButtonTypeMap": null
+    "PadButtonTypeMap": null,
+    "GamepadButtonTypeMap": null
   },
   {
     "Id": 5002,
@@ -446,7 +657,8 @@
     "TagDesktopButtonTypeList": null,
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
-    "PadButtonTypeMap": null
+    "PadButtonTypeMap": null,
+    "GamepadButtonTypeMap": null
   },
   {
     "Id": 5001,
@@ -572,7 +784,8 @@
           ]
         }
       }
-    ]
+    ],
+    "GamepadButtonTypeMap": null
   },
   {
     "Id": 5003,
@@ -698,7 +911,8 @@
           ]
         }
       }
-    ]
+    ],
+    "GamepadButtonTypeMap": null
   },
   {
     "Id": 5004,
@@ -824,7 +1038,8 @@
           ]
         }
       }
-    ]
+    ],
+    "GamepadButtonTypeMap": null
   },
   {
     "Id": 5005,
@@ -950,7 +1165,8 @@
           ]
         }
       }
-    ]
+    ],
+    "GamepadButtonTypeMap": null
   },
   {
     "Id": 5015,
@@ -1076,7 +1292,8 @@
           ]
         }
       }
-    ]
+    ],
+    "GamepadButtonTypeMap": null
   },
   {
     "Id": 5016,
@@ -1202,6 +1419,59 @@
           ]
         }
       }
-    ]
+    ],
+    "GamepadButtonTypeMap": null
+  },
+  {
+    "Id": 5017,
+    "DesktopButtonTypeList": [
+      4,
+      5,
+      7,
+      1
+    ],
+    "PadButtonTypeList": [
+      4,
+      0,
+      0,
+      7,
+      0,
+      5,
+      1,
+      0,
+      0
+    ],
+    "TagList": null,
+    "TagDesktopButtonTypeList": null,
+    "TagPadButtonTypeList": null,
+    "DesktopButtonTypeMap": null,
+    "PadButtonTypeMap": null,
+    "GamepadButtonTypeMap": null
+  },
+  {
+    "Id": 5018,
+    "DesktopButtonTypeList": [
+      4,
+      6,
+      5,
+      1
+    ],
+    "PadButtonTypeList": [
+      4,
+      6,
+      0,
+      0,
+      0,
+      5,
+      1,
+      0,
+      0
+    ],
+    "TagList": null,
+    "TagDesktopButtonTypeList": null,
+    "TagPadButtonTypeList": null,
+    "DesktopButtonTypeMap": null,
+    "PadButtonTypeMap": null,
+    "GamepadButtonTypeMap": null
   }
 ]

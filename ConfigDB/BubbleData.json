@@ -495,5 +495,152 @@
     "Async_": false,
     "Params": "{\"EntityIds\":[311700118,311700117],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_1_2_角色_折枝线\",\"FlowId\":6,\"StateId\":14},\"WaitTime\":50}",
     "ActionId": 3000048
+  },
+  {
+    "ActionGuid": "df393d122bba4ef2b368866b4056f5f9",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[114001554],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_2_0_黎那汐塔主线_第三幕下_狂欢节\",\"FlowId\":19,\"StateId\":1},\"WaitTime\":30}",
+    "ActionId": 3000011
+  },
+  {
+    "ActionGuid": "357093a276f04a0b80ab4b5052742dc6",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[311900261],\"EnterRadius\":800,\"LeaveRadius\":1600,\"Flow\":{\"FlowListName\":\"剧情_2_0_黎那汐塔主线_第二幕上\",\"FlowId\":66,\"StateId\":1},\"WaitTime\":30}",
+    "ActionId": 3000013
+  },
+  {
+    "ActionGuid": "adbcc260e1264b1596eda5f6797b946e",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[147900218]}",
+    "ActionId": 4000012
+  },
+  {
+    "ActionGuid": "606423026db14d58ae9a4fd58ed68022",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[311900229],\"EnterRadius\":1000,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_2_0_黎那汐塔主线_第二幕上\",\"FlowId\":69,\"StateId\":1}}",
+    "ActionId": 3000039
+  },
+  {
+    "ActionGuid": "9975b0c7ecad4bb992a84ffd8da764b4",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[311900229]}",
+    "ActionId": 3000008
+  },
+  {
+    "ActionGuid": "6259053c628046948ab9ad106de3c04b",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[311900234]}",
+    "ActionId": 3000101
+  },
+  {
+    "ActionGuid": "b102dd787b44477384a2aca839e86a1c",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[311900236],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_2_0_黎那汐塔主线_第二幕上\",\"FlowId\":69,\"StateId\":7},\"WaitTime\":10}",
+    "ActionId": 3000102
+  },
+  {
+    "ActionGuid": "e774da4b92224193ab80d88ee6496476",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[311900234],\"EnterRadius\":600,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_2_0_黎那汐塔主线_第二幕上\",\"FlowId\":69,\"StateId\":6},\"WaitTime\":10}",
+    "ActionId": 3000100
+  },
+  {
+    "ActionGuid": "574d2dfa8504451c8077d9b058fd504c",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[915900016]}",
+    "ActionId": 3000232
+  },
+  {
+    "ActionGuid": "977dd30e187c42e9b30823a1cbdf22ea",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[915900012]}",
+    "ActionId": 3000224
+  },
+  {
+    "ActionGuid": "0f1f27bf68da44dfa659c74698252190",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[915900012],\"EnterRadius\":200,\"LeaveRadius\":500,\"Flow\":{\"FlowListName\":\"剧情_2_0_黎那汐塔主线_序幕\",\"FlowId\":17,\"StateId\":3}}",
+    "ActionId": 3000219
+  },
+  {
+    "ActionGuid": "763078be11aa4fe293dd9b63e036e2b7",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[915900016],\"EnterRadius\":200,\"LeaveRadius\":500,\"Flow\":{\"FlowListName\":\"剧情_2_0_黎那汐塔主线_序幕\",\"FlowId\":17,\"StateId\":4}}",
+    "ActionId": 3000216
+  },
+  {
+    "ActionGuid": "6dbd35e812f642d0a55b475942e071bd",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[147000057,147000191],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_2_0_拍照涂鸦\",\"FlowId\":10,\"StateId\":1}}",
+    "ActionId": 3000003
+  },
+  {
+    "ActionGuid": "c118ce4a26ea4e5880704dfcfb4de427",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[147000191,147000057]}",
+    "ActionId": 3000005
+  },
+  {
+    "ActionGuid": "a3d4be0bc1854535b7fecd361e448891",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[114900081],\"EnterRadius\":1000,\"LeaveRadius\":2000,\"Flow\":{\"FlowListName\":\"剧情_2_0_黎那汐塔主线_第三幕下_狂欢节\",\"FlowId\":63,\"StateId\":2}}",
+    "ActionId": 3000027
+  },
+  {
+    "ActionGuid": "fedaff0bc53849009d7891d440c3030c",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[114900075,114900080,114900120],\"EnterRadius\":1000,\"LeaveRadius\":2000,\"Flow\":{\"FlowListName\":\"剧情_2_0_黎那汐塔主线_第三幕下_狂欢节\",\"FlowId\":63,\"StateId\":1},\"WaitTime\":30}",
+    "ActionId": 3000018
+  },
+  {
+    "ActionGuid": "6386bd13370e405480184b0d1943102b",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[114900098],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_2_0_黎那汐塔主线_第三幕下_狂欢节\",\"FlowId\":63,\"StateId\":8}}",
+    "ActionId": 3000278
+  },
+  {
+    "ActionGuid": "a5e9c316ffc54362b0889213e6675cbf",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[114900098],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_2_0_黎那汐塔主线_第三幕下_狂欢节\",\"FlowId\":63,\"StateId\":8}}",
+    "ActionId": 3000226
+  },
+  {
+    "ActionGuid": "6658ed3a6a6941bca328e89c4f1f4681",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[147900218],\"EnterRadius\":2000,\"LeaveRadius\":2500,\"Flow\":{\"FlowListName\":\"剧情_2_0_骑士试炼岛\",\"FlowId\":1,\"StateId\":1},\"RedDot\":true,\"WaitTime\":3}",
+    "ActionId": 4000126
+  },
+  {
+    "ActionGuid": "9e054c6b3f154ab385b474a5f3242b43",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[164900055,164900004],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_2_0_黎那汐塔主线_第三幕上_帕尔米罗\",\"FlowId\":5,\"StateId\":1}}",
+    "ActionId": 3000065
+  },
+  {
+    "ActionGuid": "f9ef8872701540718bfb8cb41f41d4e8",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[114900098],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_2_0_黎那汐塔主线_第三幕下_狂欢节\",\"FlowId\":63,\"StateId\":8}}",
+    "ActionId": 3000329
   }
 ]

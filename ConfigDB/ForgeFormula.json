@@ -5,6 +5,7 @@
     "ItemId": 21010034,
     "TypeId": 1,
     "Unlock": true,
+    "SortId": 0,
     "Name": "改进型重刃·正则贰",
     "ConsumeItems": [
       {
@@ -30,6 +31,7 @@
     "ItemId": 21020034,
     "TypeId": 1,
     "Unlock": true,
+    "SortId": 0,
     "Name": "改进型鸣刀·锋镝贰",
     "ConsumeItems": [
       {
@@ -55,6 +57,7 @@
     "ItemId": 21030034,
     "TypeId": 1,
     "Unlock": true,
+    "SortId": 0,
     "Name": "test/改进型手枪",
     "ConsumeItems": [
       {
@@ -80,6 +83,7 @@
     "ItemId": 21040034,
     "TypeId": 1,
     "Unlock": true,
+    "SortId": 0,
     "Name": "test/改进型拳套",
     "ConsumeItems": [
       {
@@ -105,6 +109,7 @@
     "ItemId": 21050034,
     "TypeId": 1,
     "Unlock": true,
+    "SortId": 0,
     "Name": "改进型音感仪·定序贰",
     "ConsumeItems": [
       {
@@ -130,6 +135,7 @@
     "ItemId": 21010053,
     "TypeId": 1,
     "Unlock": true,
+    "SortId": 0,
     "Name": "test/T3-5天城系列大剑",
     "ConsumeItems": [
       {
@@ -151,6 +157,7 @@
     "ItemId": 21020053,
     "TypeId": 1,
     "Unlock": true,
+    "SortId": 0,
     "Name": "test/T3-5天城系列短剑",
     "ConsumeItems": [
       {
@@ -172,6 +179,7 @@
     "ItemId": 21030053,
     "TypeId": 1,
     "Unlock": true,
+    "SortId": 0,
     "Name": "test/T3-5天城系列手枪",
     "ConsumeItems": [
       {
@@ -193,6 +201,7 @@
     "ItemId": 21040053,
     "TypeId": 1,
     "Unlock": true,
+    "SortId": 0,
     "Name": "test/T3-5天城系列拳套",
     "ConsumeItems": [
       {
@@ -214,6 +223,7 @@
     "ItemId": 21050053,
     "TypeId": 1,
     "Unlock": true,
+    "SortId": 0,
     "Name": "test/T3-5天城系列法器",
     "ConsumeItems": [
       {
@@ -223,6 +233,162 @@
       {
         "ItemId": 2,
         "Count": 10000
+      }
+    ],
+    "ForgeContent": "",
+    "Background": "",
+    "RoleList": null
+  },
+  {
+    "Id": 211,
+    "FormulaItemId": 44010041,
+    "ItemId": 21010094,
+    "TypeId": 1,
+    "Unlock": false,
+    "SortId": 0,
+    "Name": "容赦的沉思录",
+    "ConsumeItems": [
+      {
+        "ItemId": 42601180,
+        "Count": 100
+      },
+      {
+        "ItemId": 42500070,
+        "Count": 2
+      },
+      {
+        "ItemId": 2,
+        "Count": 100000
+      }
+    ],
+    "ForgeContent": "",
+    "Background": "",
+    "RoleList": null
+  },
+  {
+    "Id": 212,
+    "FormulaItemId": 44010042,
+    "ItemId": 21020094,
+    "TypeId": 1,
+    "Unlock": false,
+    "SortId": 0,
+    "Name": "风流的寓言诗",
+    "ConsumeItems": [
+      {
+        "ItemId": 42601180,
+        "Count": 100
+      },
+      {
+        "ItemId": 42500070,
+        "Count": 2
+      },
+      {
+        "ItemId": 2,
+        "Count": 100000
+      }
+    ],
+    "ForgeContent": "",
+    "Background": "",
+    "RoleList": null
+  },
+  {
+    "Id": 213,
+    "FormulaItemId": 44010043,
+    "ItemId": 21030094,
+    "TypeId": 1,
+    "Unlock": false,
+    "SortId": 0,
+    "Name": "叙别的罗曼史",
+    "ConsumeItems": [
+      {
+        "ItemId": 42601190,
+        "Count": 100
+      },
+      {
+        "ItemId": 42500070,
+        "Count": 2
+      },
+      {
+        "ItemId": 2,
+        "Count": 100000
+      }
+    ],
+    "ForgeContent": "",
+    "Background": "",
+    "RoleList": null
+  },
+  {
+    "Id": 214,
+    "FormulaItemId": 44010044,
+    "ItemId": 21040094,
+    "TypeId": 1,
+    "Unlock": false,
+    "SortId": 0,
+    "Name": "酩酊的英雄志",
+    "ConsumeItems": [
+      {
+        "ItemId": 42601190,
+        "Count": 100
+      },
+      {
+        "ItemId": 42500070,
+        "Count": 2
+      },
+      {
+        "ItemId": 2,
+        "Count": 100000
+      }
+    ],
+    "ForgeContent": "",
+    "Background": "",
+    "RoleList": null
+  },
+  {
+    "Id": 215,
+    "FormulaItemId": 44010045,
+    "ItemId": 21050094,
+    "TypeId": 1,
+    "Unlock": false,
+    "SortId": 0,
+    "Name": "虚饰的华尔兹",
+    "ConsumeItems": [
+      {
+        "ItemId": 42601190,
+        "Count": 100
+      },
+      {
+        "ItemId": 42500070,
+        "Count": 2
+      },
+      {
+        "ItemId": 2,
+        "Count": 100000
+      }
+    ],
+    "ForgeContent": "",
+    "Background": "",
+    "RoleList": null
+  },
+  {
+    "Id": 216,
+    "FormulaItemId": 44010046,
+    "ItemId": 21050017,
+    "TypeId": 1,
+    "Unlock": false,
+    "SortId": 0,
+    "Name": "渊海回声",
+    "ConsumeItems": [
+      {
+        "ItemId": 42601190,
+        "Count": 100
+      },
+      {
+        "ItemId": 42500070,
+        "Count": 2
+      },
+      {
+        "ItemId": 2,
+        "Count": 100000
       }
     ],
     "ForgeContent": "",

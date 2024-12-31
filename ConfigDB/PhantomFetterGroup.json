@@ -13,8 +13,8 @@
     ],
     "FetterGroupName": "PhantomFetter_1_Name",
     "FetterGroupDesc": "PrefabTextItem_Empty_Text",
-    "FetterElementColor": "41AEFBFF",
-    "FetterElementPath": "/Game/Aki/UI/UIResources/Common/Image/IconElement/T_IconElementIce1.T_IconElementIce1"
+    "FetterElementColor": "FFFFFF00",
+    "FetterElementPath": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriIce.T_IconElementAttriIce"
   },
   {
     "Id": 2,
@@ -30,8 +30,8 @@
     ],
     "FetterGroupName": "PhantomFetter_2_Name",
     "FetterGroupDesc": "PrefabTextItem_Empty_Text",
-    "FetterElementColor": "F0744EFF",
-    "FetterElementPath": "/Game/Aki/UI/UIResources/Common/Image/IconElement/T_IconElementFire1.T_IconElementFire1"
+    "FetterElementColor": "FFFFFF00",
+    "FetterElementPath": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFire.T_IconElementAttriFire"
   },
   {
     "Id": 3,
@@ -47,8 +47,8 @@
     ],
     "FetterGroupName": "PhantomFetter_3_Name",
     "FetterGroupDesc": "PrefabTextItem_Empty_Text",
-    "FetterElementColor": "B46BFFFF",
-    "FetterElementPath": "/Game/Aki/UI/UIResources/Common/Image/IconElement/T_IconElementThunder1.T_IconElementThunder1"
+    "FetterElementColor": "FFFFFF00",
+    "FetterElementPath": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriThunder.T_IconElementAttriThunder"
   },
   {
     "Id": 4,
@@ -64,8 +64,8 @@
     ],
     "FetterGroupName": "PhantomFetter_4_Name",
     "FetterGroupDesc": "PrefabTextItem_Empty_Text",
-    "FetterElementColor": "55FFB5FF",
-    "FetterElementPath": "/Game/Aki/UI/UIResources/Common/Image/IconElement/T_IconElementWind1.T_IconElementWind1"
+    "FetterElementColor": "FFFFFF00",
+    "FetterElementPath": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWind.T_IconElementAttriWind"
   },
   {
     "Id": 5,
@@ -81,8 +81,8 @@
     ],
     "FetterGroupName": "PhantomFetter_5_Name",
     "FetterGroupDesc": "PrefabTextItem_Empty_Text",
-    "FetterElementColor": "F8E56CFF",
-    "FetterElementPath": "/Game/Aki/UI/UIResources/Common/Image/IconElement/T_IconElementLight1.T_IconElementLight1"
+    "FetterElementColor": "FFFFFF00",
+    "FetterElementPath": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLight.T_IconElementAttriLight"
   },
   {
     "Id": 6,
@@ -98,8 +98,8 @@
     ],
     "FetterGroupName": "PhantomFetter_6_Name",
     "FetterGroupDesc": "PrefabTextItem_Empty_Text",
-    "FetterElementColor": "C98BB3FF",
-    "FetterElementPath": "/Game/Aki/UI/UIResources/Common/Image/IconElement/T_IconElementDark1.T_IconElementDark1"
+    "FetterElementColor": "FFFFFF00",
+    "FetterElementPath": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDark.T_IconElementAttriDark"
   },
   {
     "Id": 7,
@@ -115,8 +115,8 @@
     ],
     "FetterGroupName": "PhantomFetter_7_Name",
     "FetterGroupDesc": "PrefabTextItem_Empty_Text",
-    "FetterElementColor": "9BDB2DFF",
-    "FetterElementPath": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyhealingtag_UI.T_Iconpropertyhealingtag_UI"
+    "FetterElementColor": "FFFFFF00",
+    "FetterElementPath": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCure.T_IconElementAttriCure"
   },
   {
     "Id": 8,
@@ -132,8 +132,8 @@
     ],
     "FetterGroupName": "PhantomFetter_8_Name",
     "FetterGroupDesc": "PrefabTextItem_Empty_Text",
-    "FetterElementColor": "FFFFFFFF",
-    "FetterElementPath": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyswitchtag_UI.T_Iconpropertyswitchtag_UI"
+    "FetterElementColor": "FFFFFF00",
+    "FetterElementPath": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCloud.T_IconElementAttriCloud"
   },
   {
     "Id": 9,
@@ -149,7 +149,92 @@
     ],
     "FetterGroupName": "PhantomFetter_9_Name",
     "FetterGroupDesc": "PrefabTextItem_Empty_Text",
-    "FetterElementColor": "C72C25FF",
-    "FetterElementPath": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyattacktag_UI.T_Iconpropertyattacktag_UI"
+    "FetterElementColor": "FFFFFF00",
+    "FetterElementPath": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriAttack.T_IconElementAttriAttack"
+  },
+  {
+    "Id": 10,
+    "FetterMap": [
+      {
+        "Key": 2,
+        "Value": 102
+      },
+      {
+        "Key": 5,
+        "Value": 105
+      }
+    ],
+    "FetterGroupName": "PhantomFetter_10_Name",
+    "FetterGroupDesc": "PrefabTextItem_Empty_Text",
+    "FetterElementColor": "FFFFFF00",
+    "FetterElementPath": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriIceUltimateSkill.T_IconElementAttriIceUltimateSkill"
+  },
+  {
+    "Id": 11,
+    "FetterMap": [
+      {
+        "Key": 2,
+        "Value": 112
+      },
+      {
+        "Key": 5,
+        "Value": 115
+      }
+    ],
+    "FetterGroupName": "PhantomFetter_11_Name",
+    "FetterGroupDesc": "PrefabTextItem_Empty_Text",
+    "FetterElementColor": "FFFFFF00",
+    "FetterElementPath": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightError.T_IconElementAttriLightError"
+  },
+  {
+    "Id": 12,
+    "FetterMap": [
+      {
+        "Key": 2,
+        "Value": 122
+      },
+      {
+        "Key": 5,
+        "Value": 125
+      }
+    ],
+    "FetterGroupName": "PhantomFetter_12_Name",
+    "FetterGroupDesc": "PrefabTextItem_Empty_Text",
+    "FetterElementColor": "FFFFFF00",
+    "FetterElementPath": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkAssist.T_IconElementAttriDarkAssist"
+  },
+  {
+    "Id": 13,
+    "FetterMap": [
+      {
+        "Key": 2,
+        "Value": 132
+      },
+      {
+        "Key": 5,
+        "Value": 135
+      }
+    ],
+    "FetterGroupName": "PhantomFetter_13_Name",
+    "FetterGroupDesc": "PrefabTextItem_Empty_Text",
+    "FetterElementColor": "FFFFFF00",
+    "FetterElementPath": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCooperate.T_IconElementAttriCooperate"
+  },
+  {
+    "Id": 14,
+    "FetterMap": [
+      {
+        "Key": 2,
+        "Value": 142
+      },
+      {
+        "Key": 5,
+        "Value": 145
+      }
+    ],
+    "FetterGroupName": "PhantomFetter_14_Name",
+    "FetterGroupDesc": "PrefabTextItem_Empty_Text",
+    "FetterElementColor": "FFFFFF00",
+    "FetterElementPath": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriEnergy.T_IconElementAttriEnergy"
   }
 ]

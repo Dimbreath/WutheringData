@@ -50,7 +50,7 @@
   {
     "ShopId": 3,
     "TabId": 2,
-    "Sort": 2,
+    "Sort": 3,
     "Name": "PayShopTab_3_2_Name",
     "Logic": 3,
     "Enable": true
@@ -133,6 +133,30 @@
     "Sort": 1,
     "Name": "PayShopTab_Rogue_Name",
     "Logic": 2,
+    "Enable": true
+  },
+  {
+    "ShopId": 6,
+    "TabId": 1,
+    "Sort": 1,
+    "Name": "PayShopTab_6_1_Name",
+    "Logic": 1,
+    "Enable": true
+  },
+  {
+    "ShopId": 5,
+    "TabId": 3,
+    "Sort": 3,
+    "Name": "PayShopTab_5_3_Name",
+    "Logic": 2,
+    "Enable": true
+  },
+  {
+    "ShopId": 3,
+    "TabId": 4,
+    "Sort": 2,
+    "Name": "PayShopTab_3_3_Name",
+    "Logic": 3,
     "Enable": true
   }
 ]

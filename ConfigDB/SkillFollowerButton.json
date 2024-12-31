@@ -287,5 +287,39 @@
         "Value": 1003
       }
     ]
+  },
+  {
+    "Id": 5001,
+    "PbDataId": 14000176,
+    "Name": "攻击",
+    "ButtonType": 4,
+    "ActionType": 4,
+    "SkillId": 5018001,
+    "SkillIdTagMap": null,
+    "SkillIcon": "",
+    "SkillIconTags": null,
+    "DisableTags": null,
+    "DisableSkillIdTags": null,
+    "IsVisible": true,
+    "IsLongPressControlCamera": false,
+    "LongPressTime": 0,
+    "DynamicEffectTagMap": null
+  },
+  {
+    "Id": 5002,
+    "PbDataId": 14000176,
+    "Name": "副开火",
+    "ButtonType": 11,
+    "ActionType": 4,
+    "SkillId": 5018001,
+    "SkillIdTagMap": null,
+    "SkillIcon": "",
+    "SkillIconTags": null,
+    "DisableTags": null,
+    "DisableSkillIdTags": null,
+    "IsVisible": true,
+    "IsLongPressControlCamera": true,
+    "LongPressTime": 300,
+    "DynamicEffectTagMap": null
   }
 ]

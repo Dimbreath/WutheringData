@@ -1202,5 +1202,344 @@
     "RoleList": [
       1106
     ]
+  },
+  {
+    "Id": 10041,
+    "FormulaItemId": 80010041,
+    "FoodItemId": 80000041,
+    "TypeId": 1,
+    "Unlock": false,
+    "Name": "传统窑炉披萨",
+    "ConsumeItems": [
+      {
+        "ItemId": 80050000,
+        "Count": 2
+      },
+      {
+        "ItemId": 42400030,
+        "Count": 2
+      },
+      {
+        "ItemId": 80050001,
+        "Count": 2
+      }
+    ],
+    "Proficiency": 20,
+    "MaxProficiencyCount": 20,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10042,
+    "FormulaItemId": 80010042,
+    "FoodItemId": 80000042,
+    "TypeId": 2,
+    "Unlock": false,
+    "Name": "热海皇梨披萨",
+    "ConsumeItems": [
+      {
+        "ItemId": 80050000,
+        "Count": 3
+      },
+      {
+        "ItemId": 42601070,
+        "Count": 1
+      },
+      {
+        "ItemId": 80050001,
+        "Count": 2
+      }
+    ],
+    "Proficiency": 20,
+    "MaxProficiencyCount": 20,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10043,
+    "FormulaItemId": 80010043,
+    "FoodItemId": 80000043,
+    "TypeId": 3,
+    "Unlock": false,
+    "Name": "三球冰激凌",
+    "ConsumeItems": [
+      {
+        "ItemId": 80050005,
+        "Count": 2
+      },
+      {
+        "ItemId": 42600010,
+        "Count": 2
+      },
+      {
+        "ItemId": 80050003,
+        "Count": 2
+      }
+    ],
+    "Proficiency": 20,
+    "MaxProficiencyCount": 20,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": [
+      1606
+    ]
+  },
+  {
+    "Id": 10044,
+    "FormulaItemId": 80010044,
+    "FoodItemId": 80000044,
+    "TypeId": 3,
+    "Unlock": false,
+    "Name": "云凝肉酱烩面",
+    "ConsumeItems": [
+      {
+        "ItemId": 42601090,
+        "Count": 2
+      },
+      {
+        "ItemId": 80050000,
+        "Count": 4
+      },
+      {
+        "ItemId": 42400030,
+        "Count": 3
+      }
+    ],
+    "Proficiency": 40,
+    "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10045,
+    "FormulaItemId": 80010045,
+    "FoodItemId": 80000045,
+    "TypeId": 3,
+    "Unlock": false,
+    "Name": "拉古那浓缩咖啡",
+    "ConsumeItems": [
+      {
+        "ItemId": 42601110,
+        "Count": 1
+      },
+      {
+        "ItemId": 80050005,
+        "Count": 2
+      }
+    ],
+    "Proficiency": 10,
+    "MaxProficiencyCount": 30,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": [
+      1107
+    ]
+  },
+  {
+    "Id": 10046,
+    "FormulaItemId": 80010046,
+    "FoodItemId": 80000046,
+    "TypeId": 1,
+    "Unlock": false,
+    "Name": "玛格丽特牛排",
+    "ConsumeItems": [
+      {
+        "ItemId": 42400030,
+        "Count": 4
+      },
+      {
+        "ItemId": 42601130,
+        "Count": 2
+      }
+    ],
+    "Proficiency": 20,
+    "MaxProficiencyCount": 20,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10047,
+    "FormulaItemId": 80010047,
+    "FoodItemId": 80000047,
+    "TypeId": 2,
+    "Unlock": false,
+    "Name": "青枝月桂沙拉",
+    "ConsumeItems": [
+      {
+        "ItemId": 42601110,
+        "Count": 3
+      },
+      {
+        "ItemId": 42601010,
+        "Count": 3
+      },
+      {
+        "ItemId": 42601130,
+        "Count": 3
+      }
+    ],
+    "Proficiency": 40,
+    "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10048,
+    "FormulaItemId": 80010048,
+    "FoodItemId": 80000048,
+    "TypeId": 2,
+    "Unlock": false,
+    "Name": "日冕蜜露",
+    "ConsumeItems": [
+      {
+        "ItemId": 42601100,
+        "Count": 2
+      },
+      {
+        "ItemId": 80050003,
+        "Count": 1
+      }
+    ],
+    "Proficiency": 10,
+    "MaxProficiencyCount": 30,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10049,
+    "FormulaItemId": 80010049,
+    "FoodItemId": 80000049,
+    "TypeId": 1,
+    "Unlock": false,
+    "Name": "每日一样帕尼尼",
+    "ConsumeItems": [
+      {
+        "ItemId": 80050000,
+        "Count": 3
+      },
+      {
+        "ItemId": 42400030,
+        "Count": 2
+      },
+      {
+        "ItemId": 42601070,
+        "Count": 1
+      }
+    ],
+    "Proficiency": 20,
+    "MaxProficiencyCount": 20,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10050,
+    "FormulaItemId": 80010050,
+    "FoodItemId": 80000050,
+    "TypeId": 1,
+    "Unlock": false,
+    "Name": "怪味铛铛蟹",
+    "ConsumeItems": [
+      {
+        "ItemId": 42601080,
+        "Count": 3
+      },
+      {
+        "ItemId": 42400120,
+        "Count": 4
+      },
+      {
+        "ItemId": 80050000,
+        "Count": 5
+      }
+    ],
+    "Proficiency": 60,
+    "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10051,
+    "FormulaItemId": 80010051,
+    "FoodItemId": 80000051,
+    "TypeId": 2,
+    "Unlock": false,
+    "Name": "棍子面包",
+    "ConsumeItems": [
+      {
+        "ItemId": 80050000,
+        "Count": 2
+      },
+      {
+        "ItemId": 80050005,
+        "Count": 1
+      }
+    ],
+    "Proficiency": 10,
+    "MaxProficiencyCount": 30,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10052,
+    "FormulaItemId": 80010052,
+    "FoodItemId": 80000052,
+    "TypeId": 1,
+    "Unlock": false,
+    "Name": "剧团烈度",
+    "ConsumeItems": [
+      {
+        "ItemId": 42310090,
+        "Count": 2
+      },
+      {
+        "ItemId": 80050003,
+        "Count": 1
+      }
+    ],
+    "Proficiency": 10,
+    "MaxProficiencyCount": 30,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10053,
+    "FormulaItemId": 80010053,
+    "FoodItemId": 80000053,
+    "TypeId": 1,
+    "Unlock": false,
+    "Name": "大满贯披萨",
+    "ConsumeItems": [
+      {
+        "ItemId": 80050000,
+        "Count": 2
+      },
+      {
+        "ItemId": 80050005,
+        "Count": 2
+      },
+      {
+        "ItemId": 42601030,
+        "Count": 3
+      },
+      {
+        "ItemId": 42400030,
+        "Count": 2
+      }
+    ],
+    "Proficiency": 40,
+    "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
   }
 ]
