@@ -75347,5 +75347,20 @@
     "IsClient": true,
     "Description": "",
     "AccessId": 0
+  },
+  {
+    "Id": 131200561,
+    "Type": "FinishGuideStepByEvent",
+    "NeedNum": 1,
+    "LimitParams": [
+      {
+        "Key": "Tag",
+        "Value": "ComposeCarryOnView"
+      }
+    ],
+    "LimitParamsOpe": null,
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
   }
 ]
