@@ -2662,6 +2662,28 @@
     "SenseTarget": 0
   },
   {
+    "Id": 77067,
+    "SenseType": 1,
+    "DefaultEnabled": true,
+    "SenseDistanceRange": {
+      "Min": 2000.0,
+      "Max": 3000.0
+    },
+    "HorizontalAngle": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "VerticalAngle": {
+      "Min": -90.0,
+      "Max": 90.0
+    },
+    "CantBeBlock": false,
+    "BlockType": 0,
+    "WalkSenseRate": 1.0,
+    "AirSenseRate": 1.0,
+    "SenseTarget": 0
+  },
+  {
     "Id": 170002,
     "SenseType": 2,
     "DefaultEnabled": false,
