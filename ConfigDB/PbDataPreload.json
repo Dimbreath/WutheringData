@@ -3504,32 +3504,30 @@
   {
     "Id": 73,
     "MapId": 8002,
-    "PbDataId": 313700532,
+    "PbDataId": 229700012,
     "ActorClass": null,
     "Animations": [
-      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_StandUp.AM_StandUp",
-      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_Behit_Fly_Fall.AM_Behit_Fly_Fall",
-      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_Behit_Fly_Loop.AM_Behit_Fly_Loop",
-      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_Behit_Push_Loop.AM_Behit_Push_Loop",
-      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_Behit_Hover.AM_Behit_Hover",
-      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_Behit_Push_Start.AM_Behit_Push_Start",
-      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_Behit_Fly_Start.AM_Behit_Fly_Start",
-      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_Behit_B_R.AM_Behit_B_R",
-      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_Behit_B_L.AM_Behit_B_L",
-      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_Behit_S_R.AM_Behit_S_R",
-      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_Behit_S_L.AM_Behit_S_L",
-      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_Born.AM_Born",
-      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_SM_JingJie_P3.AM_SM_JingJie_P3",
-      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_PatrolToFight.AM_PatrolToFight"
+      "/Game/Aki/Character/Monster/Lord/ML1MiuwuMd00501/CommonAnim/AM_PatrolToFight.AM_PatrolToFight",
+      "/Game/Aki/Character/Monster/Lord/ML1MiuwuMd00501/CommonAnim/AM_SM_DaoGuanBorn.AM_SM_DaoGuanBorn",
+      "/Game/Aki/Character/Monster/Lord/ML1MiuwuMd00501/CommonAnim/AM_Death.AM_Death",
+      "/Game/Aki/Character/Monster/Lord/ML1MiuwuMd00501/CommonAnim/AM_SM_Paralysis_End_P2.AM_SM_Paralysis_End_P2",
+      "/Game/Aki/Character/Monster/Lord/ML1MiuwuMd00501/CommonAnim/AM_SM_Paralysis_Loop_P2.AM_SM_Paralysis_Loop_P2",
+      "/Game/Aki/Character/Monster/Lord/ML1MiuwuMd00501/CommonAnim/AM_SM_Paralysis_Start_P2.AM_SM_Paralysis_Start_P2",
+      "/Game/Aki/Character/Monster/Lord/ML1MiuwuMd00501/CommonAnim/AM_SM_Paralysis_End_P1.AM_SM_Paralysis_End_P1",
+      "/Game/Aki/Character/Monster/Lord/ML1MiuwuMd00501/CommonAnim/AM_SM_Paralysis_Loop_P1.AM_SM_Paralysis_Loop_P1",
+      "/Game/Aki/Character/Monster/Lord/ML1MiuwuMd00501/CommonAnim/AM_SM_Paralysis_Start_P1.AM_SM_Paralysis_Start_P1",
+      "/Game/Aki/Character/Monster/Lord/ML1MiuwuMd00501/CommonAnim/AM_Behit_B_L.AM_Behit_B_L"
     ],
     "Effects": [
-      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breacher_Moster_Buff_Box_Big.DA_Fx_Group_Breacher_Moster_Buff_Box_Big",
-      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breacher_Moster_Buff_Box_Middle.DA_Fx_Group_Breacher_Moster_Buff_Box_Middle",
-      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breacher_Moster_Buff_Box_Small.DA_Fx_Group_Breacher_Moster_Buff_Box_Small",
-      "/Game/Aki/Effect/MaterialController/Common/DA_Fx_TimeController_Specil.DA_Fx_TimeController_Specil",
-      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_CommonBornSmoke.DA_Fx_Group_CommonBornSmoke",
       "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born",
-      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Monster_Detect.DA_Fx_Group_Monster_Detect"
+      "/Game/Aki/Effect/EffectGroup/ML1Miuwu00501/DA_Fx_Group_MLs_HeiDong.DA_Fx_Group_MLs_HeiDong",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking",
+      "/Game/Aki/Effect/MaterialController/DA_Lord/ML1Miuwu00501/DA_Fx_Miuwu_Dis.DA_Fx_Miuwu_Dis",
+      "/Game/Aki/Effect/EffectGroup/ML1Miuwu00501/Kpose/DA_Fx_Group_Kpose_Shine_Eye.DA_Fx_Group_Kpose_Shine_Eye",
+      "/Game/Aki/Effect/EffectGroup/ML1Miuwu00501/DA_Fx_Group_MLs_ChuanSongMen5.DA_Fx_Group_MLs_ChuanSongMen5",
+      "/Game/Aki/Effect/EffectGroup/ML1Miuwu00501/DA_Fx_Group_MLs_GuangShu.DA_Fx_Group_MLs_GuangShu",
+      "/Game/Aki/Effect/EffectGroup/ML1Miuwu00501/DA_Fx_Group_MLs_ZaDi.DA_Fx_Group_MLs_ZaDi",
+      "/Game/Aki/Effect/EffectGroup/ML1Miuwu00501/DA_Fx_Group_MLa_Dis_Body.DA_Fx_Group_MLa_Dis_Body"
     ],
     "Audios": null,
     "Meshes": null,
@@ -3540,7 +3538,7 @@
   {
     "Id": 74,
     "MapId": 8002,
-    "PbDataId": 313700533,
+    "PbDataId": 313700532,
     "ActorClass": null,
     "Animations": [
       "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_StandUp.AM_StandUp",
@@ -3576,7 +3574,7 @@
   {
     "Id": 75,
     "MapId": 8002,
-    "PbDataId": 313700534,
+    "PbDataId": 313700533,
     "ActorClass": null,
     "Animations": [
       "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_StandUp.AM_StandUp",
@@ -3612,7 +3610,7 @@
   {
     "Id": 76,
     "MapId": 8002,
-    "PbDataId": 313700535,
+    "PbDataId": 313700534,
     "ActorClass": null,
     "Animations": [
       "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_StandUp.AM_StandUp",
@@ -3648,7 +3646,7 @@
   {
     "Id": 77,
     "MapId": 8002,
-    "PbDataId": 313700537,
+    "PbDataId": 313700535,
     "ActorClass": null,
     "Animations": [
       "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_StandUp.AM_StandUp",
@@ -3684,7 +3682,7 @@
   {
     "Id": 78,
     "MapId": 8002,
-    "PbDataId": 313700538,
+    "PbDataId": 313700537,
     "ActorClass": null,
     "Animations": [
       "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_StandUp.AM_StandUp",
@@ -3719,6 +3717,42 @@
   },
   {
     "Id": 79,
+    "MapId": 8002,
+    "PbDataId": 313700538,
+    "ActorClass": null,
+    "Animations": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_StandUp.AM_StandUp",
+      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_Behit_Fly_Fall.AM_Behit_Fly_Fall",
+      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_Behit_Fly_Loop.AM_Behit_Fly_Loop",
+      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_Behit_Push_Loop.AM_Behit_Push_Loop",
+      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_Behit_Hover.AM_Behit_Hover",
+      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_Behit_Push_Start.AM_Behit_Push_Start",
+      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_Behit_Fly_Start.AM_Behit_Fly_Start",
+      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_Behit_B_R.AM_Behit_B_R",
+      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_Behit_B_L.AM_Behit_B_L",
+      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_Behit_S_R.AM_Behit_S_R",
+      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_Behit_S_L.AM_Behit_S_L",
+      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_Born.AM_Born",
+      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_SM_JingJie_P3.AM_SM_JingJie_P3",
+      "/Game/Aki/Character/Monster/Ordinary/MO1ZhantuanjunshioneMd00001/CommonAnim/AM_PatrolToFight.AM_PatrolToFight"
+    ],
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breacher_Moster_Buff_Box_Big.DA_Fx_Group_Breacher_Moster_Buff_Box_Big",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breacher_Moster_Buff_Box_Middle.DA_Fx_Group_Breacher_Moster_Buff_Box_Middle",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breacher_Moster_Buff_Box_Small.DA_Fx_Group_Breacher_Moster_Buff_Box_Small",
+      "/Game/Aki/Effect/MaterialController/Common/DA_Fx_TimeController_Specil.DA_Fx_TimeController_Specil",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_CommonBornSmoke.DA_Fx_Group_CommonBornSmoke",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Monster_Detect.DA_Fx_Group_Monster_Detect"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 80,
     "MapId": 8407,
     "PbDataId": 291800007,
     "ActorClass": null,
@@ -3746,7 +3780,7 @@
     ]
   },
   {
-    "Id": 80,
+    "Id": 81,
     "MapId": 8407,
     "PbDataId": 291800016,
     "ActorClass": null,
@@ -3806,7 +3840,7 @@
     ]
   },
   {
-    "Id": 81,
+    "Id": 82,
     "MapId": 8407,
     "PbDataId": 291800029,
     "ActorClass": null,
@@ -3841,7 +3875,7 @@
     "Others": null
   },
   {
-    "Id": 82,
+    "Id": 83,
     "MapId": 902,
     "PbDataId": 122700128,
     "ActorClass": null,
@@ -3888,7 +3922,7 @@
     "Others": null
   },
   {
-    "Id": 83,
+    "Id": 84,
     "MapId": 902,
     "PbDataId": 122700129,
     "ActorClass": null,
@@ -3934,7 +3968,7 @@
     "Others": null
   },
   {
-    "Id": 84,
+    "Id": 85,
     "MapId": 95,
     "PbDataId": 129000003,
     "ActorClass": null,
