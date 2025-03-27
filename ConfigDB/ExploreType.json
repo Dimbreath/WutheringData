@@ -104,7 +104,7 @@
     "Name": "ExploreProgress_13_TypeName",
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconMap_Play_15_UI.SP_IconMap_Play_15_UI",
     "DescBg": "/Game/Aki/UI/UIResources/Common/Image/MapMethod/T_MapMethod02.T_MapMethod02",
-    "LockDescId": "",
+    "LockDescId": "ExploreLockName",
     "DescId": "ExploreProgress_13_Desc_Text",
     "CountMode": 1,
     "SortIndex": 203
@@ -144,7 +144,7 @@
     "Name": "ExploreProgress_17_TypeName",
     "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconMap_Play_22_UI.SP_IconMap_Play_22_UI",
     "DescBg": "/Game/Aki/UI/UIResources/Common/Image/MapMethod/T_MapMethod06.T_MapMethod06",
-    "LockDescId": "",
+    "LockDescId": "ExploreLockName",
     "DescId": "ExploreProgress_17_Desc_Text",
     "CountMode": 1,
     "SortIndex": 213
@@ -238,5 +238,35 @@
     "DescId": "ExploreProgress_26_Desc_Text",
     "CountMode": 1,
     "SortIndex": 214
+  },
+  {
+    "ExploreType": 27,
+    "Name": "ExploreProgress_27_TypeName",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconMap_Play_37_UI.SP_IconMap_Play_37_UI",
+    "DescBg": "/Game/Aki/UI/UIResources/Common/Image/MapMethod/T_MapMethod26.T_MapMethod26",
+    "LockDescId": "ExploreLockName",
+    "DescId": "ExploreProgress_27_Desc_Text",
+    "CountMode": 1,
+    "SortIndex": 215
+  },
+  {
+    "ExploreType": 28,
+    "Name": "ExploreProgress_28_TypeName",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconMap_Play_36_UI.SP_IconMap_Play_36_UI",
+    "DescBg": "/Game/Aki/UI/UIResources/Common/Image/MapMethod/T_MapMethod25.T_MapMethod25",
+    "LockDescId": "ExploreLockName",
+    "DescId": "ExploreProgress_28_Desc_Text",
+    "CountMode": 1,
+    "SortIndex": 216
+  },
+  {
+    "ExploreType": 29,
+    "Name": "ExploreProgress_29_TypeName",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconMap_Play_33_UI.SP_IconMap_Play_33_UI",
+    "DescBg": "/Game/Aki/UI/UIResources/Common/Image/MapMethod/T_MapMethod27.T_MapMethod27",
+    "LockDescId": "ExploreLockName",
+    "DescId": "ExploreProgress_29_Desc_Text",
+    "CountMode": 1,
+    "SortIndex": 217
   }
 ]

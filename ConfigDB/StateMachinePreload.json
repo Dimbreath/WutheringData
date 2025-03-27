@@ -16,15 +16,36 @@
     "FsmKey": "SM_AIMB1ShanghengMd00501",
     "ActorClass": null,
     "Animations": null,
-    "Effects": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking"
+    ],
     "Audios": null,
     "Meshes": null,
     "Materials": null,
     "AnimationBlueprints": null,
-    "Others": null
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera"
+    ]
   },
   {
     "Id": 3,
+    "FsmKey": "SM_AIMB1ShanghengMd00501_DaMao",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera"
+    ]
+  },
+  {
+    "Id": 4,
     "FsmKey": "SM_AIMB1SuiguangMd00501",
     "ActorClass": null,
     "Animations": null,
@@ -36,24 +57,29 @@
     "Others": null
   },
   {
-    "Id": 4,
+    "Id": 5,
     "FsmKey": "SM_AIR2T1ShanghenMd10011",
     "ActorClass": null,
     "Animations": null,
-    "Effects": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking"
+    ],
     "Audios": null,
     "Meshes": null,
     "Materials": null,
     "AnimationBlueprints": null,
-    "Others": null
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera"
+    ]
   },
   {
-    "Id": 5,
+    "Id": 6,
     "FsmKey": "SM_Common",
     "ActorClass": null,
     "Animations": null,
     "Effects": [
       "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born",
       "/Game/Aki/Effect/MaterialController/Common/DA_Fx_MonsterMask.DA_Fx_MonsterMask",
       "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Monster_Nengliangti1.DA_Fx_Group_Monster_Nengliangti1",
       "/Game/Aki/Effect/EffectGroup/Common/Vision/DA_Fx_Group_Monster_Ordinary_Zhaohuan.DA_Fx_Group_Monster_Ordinary_Zhaohuan",
@@ -61,18 +87,26 @@
       "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Monster_Particle_Advance.DA_Fx_Group_Monster_Particle_Advance",
       "/Game/Aki/Effect/MaterialController/DA_Vision/DA_Fx_Group_Elite_Zhaohuan.DA_Fx_Group_Elite_Zhaohuan",
       "/Game/Aki/Effect/EffectGroup/Common/Vision/DA_Fx_Group_Monster_Elite_Zhaohuan.DA_Fx_Group_Monster_Elite_Zhaohuan",
+      "/Game/Aki/Effect/MaterialController/Common/DA_Fx_Breacher_Moster_Buff_Mask.DA_Fx_Breacher_Moster_Buff_Mask",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breacher_Moster_Born.DA_Fx_Group_Breacher_Moster_Born",
+      "/Game/Aki/Effect/MaterialController/Common/DA_Fx_Group_Breacher_Moster_Buff.DA_Fx_Group_Breacher_Moster_Buff",
       "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_CommonBornSmoke.DA_Fx_Group_CommonBornSmoke",
-      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born",
-      "/Game/Aki/Effect/MaterialController/Common/DA_Fx_TimeController_Specil.DA_Fx_TimeController_Specil"
+      "/Game/Aki/Effect/MaterialController/Common/DA_Fx_TimeController_Specil.DA_Fx_TimeController_Specil",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breacher_Moster_Buff_Box_Small.DA_Fx_Group_Breacher_Moster_Buff_Box_Small",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breacher_Moster_Buff_Box_Middle.DA_Fx_Group_Breacher_Moster_Buff_Box_Middle",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breacher_Moster_Buff_Box_Big.DA_Fx_Group_Breacher_Moster_Buff_Box_Big",
+      "/Game/Aki/Effect/MaterialController/Common/DA_Fx_Breacher_Moster_Buff_Explode.DA_Fx_Breacher_Moster_Buff_Explode"
     ],
     "Audios": null,
     "Meshes": null,
     "Materials": null,
     "AnimationBlueprints": null,
-    "Others": null
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera"
+    ]
   },
   {
-    "Id": 6,
+    "Id": 7,
     "FsmKey": "SM_Common_Didi_JiyanInstance",
     "ActorClass": null,
     "Animations": null,
@@ -84,7 +118,79 @@
     "Others": null
   },
   {
-    "Id": 7,
+    "Id": 8,
+    "FsmKey": "SM_MB1FuludelisiMd00401",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 9,
+    "FsmKey": "SM_MB1HecateMd00601",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/MB1HecateMd0601/L2/DA_Fx_Group_Paralysis_Light01.DA_Fx_Group_Paralysis_Light01",
+      "/Game/Aki/Effect/EffectGroup/MB1HecateMd0601/L2/DA_Fx_Group_Paralysis_Hua01.DA_Fx_Group_Paralysis_Hua01"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 10,
+    "FsmKey": "SM_MB1HecateMd00601_DaoGuan",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/MB1HecateMd0601/L2/DA_Fx_Group_Paralysis_Light01.DA_Fx_Group_Paralysis_Light01",
+      "/Game/Aki/Effect/EffectGroup/MB1HecateMd0601/L2/DA_Fx_Group_Paralysis_Hua01.DA_Fx_Group_Paralysis_Hua01",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera"
+    ]
+  },
+  {
+    "Id": 11,
+    "FsmKey": "SM_MB1HecateMd00611_DaoGuan",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/MB1HecateMd0601/L2/DA_Fx_Group_Paralysis_Light01.DA_Fx_Group_Paralysis_Light01",
+      "/Game/Aki/Effect/EffectGroup/MB1HecateMd0601/L2/DA_Fx_Group_Paralysis_Hua01.DA_Fx_Group_Paralysis_Hua01"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 12,
+    "FsmKey": "SM_MB1KatixiyaMd00201",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 13,
     "FsmKey": "SM_MB1MingzhongzhiguiMd00201",
     "ActorClass": null,
     "Animations": null,
@@ -104,7 +210,27 @@
     "Others": null
   },
   {
-    "Id": 8,
+    "Id": 14,
+    "FsmKey": "SM_MB1MingzhongzhiguiMd00201_HuoDong",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/MaterialController/DA_Lord/MB1Mingzhongzhigui/DA_Fx_Lord_Mingzhongzhigui_Ice1.DA_Fx_Lord_Mingzhongzhigui_Ice1",
+      "/Game/Aki/Effect/EffectGroup/MB1Mingzhongzhigui/DA_Fx_Group_MBa33_Pojia.DA_Fx_Group_MBa33_Pojia",
+      "/Game/Aki/Effect/MaterialController/DA_Lord/MB1Mingzhongzhigui/DA_Fx_Lord_Mingzhongzhigui_Stone_Darken.DA_Fx_Lord_Mingzhongzhigui_Stone_Darken",
+      "/Game/Aki/Effect/MaterialController/DA_Lord/MB1Mingzhongzhigui/DA_Fx_Lord_Mingzhongzhigui_Flower_Diss.DA_Fx_Lord_Mingzhongzhigui_Flower_Diss",
+      "/Game/Aki/Effect/EffectGroup/MB1Mingzhongzhigui/DA_Fx_Group_MBa_Bell_Reborn.DA_Fx_Group_MBa_Bell_Reborn",
+      "/Game/Aki/Effect/MaterialController/DA_Lord/MB1Mingzhongzhigui/DA_Fx_Lord_Mingzhongzhigui_zhong.DA_Fx_Lord_Mingzhongzhigui_zhong",
+      "/Game/Aki/Effect/EffectGroup/MB1Mingzhongzhigui/DA_Fx_Group_IceSmoke.DA_Fx_Group_IceSmoke"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 15,
     "FsmKey": "SM_MB1Wuguanzhe00601",
     "ActorClass": null,
     "Animations": null,
@@ -112,16 +238,19 @@
       "/Game/Aki/Effect/EffectGroup/MB1Wuguanzhe00601/DA_Fx_Group_L2_MBa05_Buffglowshenti.DA_Fx_Group_L2_MBa05_Buffglowshenti",
       "/Game/Aki/Effect/EffectGroup/MB1Wuguanzhe00601/DA_Fx_Group_L2_MBa05_Trail04.DA_Fx_Group_L2_MBa05_Trail04",
       "/Game/Aki/Effect/EffectGroup/MB1Wuguanzhe00601/DA_Fx_Group_L2_MBa05_Buffwuqi.DA_Fx_Group_L2_MBa05_Buffwuqi",
-      "/Game/Aki/Effect/EffectGroup/MB1Wuguanzhe00601/DA_Fx_Group_L2_MBa05_Buffyumao.DA_Fx_Group_L2_MBa05_Buffyumao"
+      "/Game/Aki/Effect/EffectGroup/MB1Wuguanzhe00601/DA_Fx_Group_L2_MBa05_Buffyumao.DA_Fx_Group_L2_MBa05_Buffyumao",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking"
     ],
     "Audios": null,
     "Meshes": null,
     "Materials": null,
     "AnimationBlueprints": null,
-    "Others": null
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera"
+    ]
   },
   {
-    "Id": 9,
+    "Id": 16,
     "FsmKey": "SM_MB1Wuguanzhe00601_InZhenShenBOSSFight",
     "ActorClass": null,
     "Animations": null,
@@ -129,16 +258,19 @@
       "/Game/Aki/Effect/EffectGroup/MB1Wuguanzhe00601/DA_Fx_Group_L2_MBa05_Buffglowshenti.DA_Fx_Group_L2_MBa05_Buffglowshenti",
       "/Game/Aki/Effect/EffectGroup/MB1Wuguanzhe00601/DA_Fx_Group_L2_MBa05_Trail04.DA_Fx_Group_L2_MBa05_Trail04",
       "/Game/Aki/Effect/EffectGroup/MB1Wuguanzhe00601/DA_Fx_Group_L2_MBa05_Buffwuqi.DA_Fx_Group_L2_MBa05_Buffwuqi",
-      "/Game/Aki/Effect/EffectGroup/MB1Wuguanzhe00601/DA_Fx_Group_L2_MBa05_Buffyumao.DA_Fx_Group_L2_MBa05_Buffyumao"
+      "/Game/Aki/Effect/EffectGroup/MB1Wuguanzhe00601/DA_Fx_Group_L2_MBa05_Buffyumao.DA_Fx_Group_L2_MBa05_Buffyumao",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking"
     ],
     "Audios": null,
     "Meshes": null,
     "Materials": null,
     "AnimationBlueprints": null,
-    "Others": null
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera"
+    ]
   },
   {
-    "Id": 10,
+    "Id": 17,
     "FsmKey": "SM_MB1Wuguanzhe00601_Layer3",
     "ActorClass": null,
     "Animations": null,
@@ -146,16 +278,41 @@
       "/Game/Aki/Effect/EffectGroup/MB1Wuguanzhe00601/DA_Fx_Group_L2_MBa05_Buffglowshenti.DA_Fx_Group_L2_MBa05_Buffglowshenti",
       "/Game/Aki/Effect/EffectGroup/MB1Wuguanzhe00601/DA_Fx_Group_L2_MBa05_Trail04.DA_Fx_Group_L2_MBa05_Trail04",
       "/Game/Aki/Effect/EffectGroup/MB1Wuguanzhe00601/DA_Fx_Group_L2_MBa05_Buffwuqi.DA_Fx_Group_L2_MBa05_Buffwuqi",
-      "/Game/Aki/Effect/EffectGroup/MB1Wuguanzhe00601/DA_Fx_Group_L2_MBa05_Buffyumao.DA_Fx_Group_L2_MBa05_Buffyumao"
+      "/Game/Aki/Effect/EffectGroup/MB1Wuguanzhe00601/DA_Fx_Group_L2_MBa05_Buffyumao.DA_Fx_Group_L2_MBa05_Buffyumao",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born"
     ],
     "Audios": null,
     "Meshes": null,
     "Materials": null,
     "AnimationBlueprints": null,
-    "Others": null
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera"
+    ]
   },
   {
-    "Id": 11,
+    "Id": 18,
+    "FsmKey": "SM_MB1Wuguanzhe00601_Layer3_DaMao",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/MB1Wuguanzhe00601/DA_Fx_Group_L2_MBa05_Buffglowshenti.DA_Fx_Group_L2_MBa05_Buffglowshenti",
+      "/Game/Aki/Effect/EffectGroup/MB1Wuguanzhe00601/DA_Fx_Group_L2_MBa05_Trail04.DA_Fx_Group_L2_MBa05_Trail04",
+      "/Game/Aki/Effect/EffectGroup/MB1Wuguanzhe00601/DA_Fx_Group_L2_MBa05_Buffwuqi.DA_Fx_Group_L2_MBa05_Buffwuqi",
+      "/Game/Aki/Effect/EffectGroup/MB1Wuguanzhe00601/DA_Fx_Group_L2_MBa05_Buffyumao.DA_Fx_Group_L2_MBa05_Buffyumao",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera"
+    ]
+  },
+  {
+    "Id": 19,
     "FsmKey": "SM_MB1ZhenwuguanzheMd00601_Layer3",
     "ActorClass": null,
     "Animations": null,
@@ -167,35 +324,63 @@
     "Others": null
   },
   {
-    "Id": 12,
+    "Id": 20,
     "FsmKey": "SM_MB1ZhenwuguanzheMd00601_Layer3_MainQuest",
     "ActorClass": null,
     "Animations": null,
-    "Effects": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking"
+    ],
     "Audios": null,
     "Meshes": null,
     "Materials": null,
     "AnimationBlueprints": null,
-    "Others": null
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera"
+    ]
   },
   {
-    "Id": 13,
+    "Id": 21,
     "FsmKey": "SM_MB1ZhenwuguanzheMd00601__Fushua",
     "ActorClass": null,
     "Animations": null,
     "Effects": [
       "/Game/Aki/Effect/EffectGroup/MB1ZhenwuguanzheMd00601/L2/DA_Fx_Group_MBa_S2_Head.DA_Fx_Group_MBa_S2_Head",
       "/Game/Aki/Effect/EffectGroup/MB1ZhenwuguanzheMd00601/L2/DA_Fx_Group_MBa_S2_Ham.DA_Fx_Group_MBa_S2_Ham",
-      "/Game/Aki/Effect/EffectGroup/MB1ZhenwuguanzheMd00601/L2/DA_Fx_Group_MBa_S2_Buff.DA_Fx_Group_MBa_S2_Buff"
+      "/Game/Aki/Effect/EffectGroup/MB1ZhenwuguanzheMd00601/L2/DA_Fx_Group_MBa_S2_Buff.DA_Fx_Group_MBa_S2_Buff",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking"
     ],
     "Audios": null,
     "Meshes": null,
     "Materials": null,
     "AnimationBlueprints": null,
-    "Others": null
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera"
+    ]
   },
   {
-    "Id": 14,
+    "Id": 22,
+    "FsmKey": "SM_MB1ZhenwuguanzheMd00601__Fushua_Link",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/MB1ZhenwuguanzheMd00601/L2/DA_Fx_Group_MBa_S2_Head.DA_Fx_Group_MBa_S2_Head",
+      "/Game/Aki/Effect/EffectGroup/MB1ZhenwuguanzheMd00601/L2/DA_Fx_Group_MBa_S2_Ham.DA_Fx_Group_MBa_S2_Ham",
+      "/Game/Aki/Effect/EffectGroup/MB1ZhenwuguanzheMd00601/L2/DA_Fx_Group_MBa_S2_Buff.DA_Fx_Group_MBa_S2_Buff",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera"
+    ]
+  },
+  {
+    "Id": 23,
     "FsmKey": "SM_MB1ZhenwuguanzheMd00612",
     "ActorClass": null,
     "Animations": null,
@@ -207,7 +392,55 @@
     "Others": null
   },
   {
-    "Id": 15,
+    "Id": 24,
+    "FsmKey": "SM_MB1ZhenwuguanzheMd00612_2",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 25,
+    "FsmKey": "SM_MB1ZhenwuguanzheMd00613",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 26,
+    "FsmKey": "SM_MB1ZhenwuguanzheMd00613_QTE",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 27,
+    "FsmKey": "SM_ME1AntankeMd00601",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 28,
     "FsmKey": "SM_ME1AntankeMd00601_Guide",
     "ActorClass": null,
     "Animations": null,
@@ -224,7 +457,7 @@
     "Others": null
   },
   {
-    "Id": 16,
+    "Id": 29,
     "FsmKey": "SM_ME1BaoZiMd00001",
     "ActorClass": null,
     "Animations": null,
@@ -236,7 +469,7 @@
     "Others": null
   },
   {
-    "Id": 17,
+    "Id": 30,
     "FsmKey": "SM_ME1BingPaoTaiMd00201",
     "ActorClass": null,
     "Animations": null,
@@ -248,7 +481,130 @@
     "Others": null
   },
   {
-    "Id": 18,
+    "Id": 31,
+    "FsmKey": "SM_ME1DabuouMd00001",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 32,
+    "FsmKey": "SM_ME1DabuouMd00001taofabaogao",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 33,
+    "FsmKey": "SM_ME1DuguizuMd00201",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 34,
+    "FsmKey": "SM_ME1DuguizuMd00201_sanchongtajianyi",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 35,
+    "FsmKey": "SM_ME1DuguizuMd00202_sanchongta",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_CommonBornSmoke.DA_Fx_Group_CommonBornSmoke",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 36,
+    "FsmKey": "SM_ME1DuguizuMd00211",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 37,
+    "FsmKey": "SM_ME1DuguizuMd00211_sanchongta",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 38,
+    "FsmKey": "SM_ME1DuguizuMd00221",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 39,
+    "FsmKey": "SM_ME1DuguizuMd00221_sanchongta",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 40,
+    "FsmKey": "SM_ME1DuguizuMd00221_sanchongtazhenchang",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 41,
     "FsmKey": "SM_ME1FengrenlianMd00401",
     "ActorClass": null,
     "Animations": null,
@@ -260,7 +616,7 @@
     "Others": null
   },
   {
-    "Id": 19,
+    "Id": 42,
     "FsmKey": "SM_ME1GuangtankeMd00501",
     "ActorClass": null,
     "Animations": null,
@@ -272,7 +628,31 @@
     "Others": null
   },
   {
-    "Id": 20,
+    "Id": 43,
+    "FsmKey": "SM_ME1GuangtankeMd00501_2",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 44,
+    "FsmKey": "SM_ME1GuguhetunMd00201_AnKeTask",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 45,
     "FsmKey": "SM_ME1JiancuxiongMd00001_Pai",
     "ActorClass": null,
     "Animations": null,
@@ -284,8 +664,8 @@
     "Others": null
   },
   {
-    "Id": 21,
-    "FsmKey": "SM_ME1LeiFaMd00301",
+    "Id": 46,
+    "FsmKey": "SM_ME1JingNiaoMd00401",
     "ActorClass": null,
     "Animations": null,
     "Effects": null,
@@ -296,7 +676,61 @@
     "Others": null
   },
   {
-    "Id": 22,
+    "Id": 47,
+    "FsmKey": "SM_ME1JTJunTuanZhangMd00501",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 48,
+    "FsmKey": "SM_ME1JTJunTuanZhangMd00501_SpBorn",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_CommonBornSmoke.DA_Fx_Group_CommonBornSmoke",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 49,
+    "FsmKey": "SM_ME1JTJunTuanZhangMd00501_TaskUnDead",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_CommonBornSmoke.DA_Fx_Group_CommonBornSmoke",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 50,
+    "FsmKey": "SM_ME1LeiFaMd00301_2",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 51,
     "FsmKey": "SM_ME1LiufanggongmingMd00501",
     "ActorClass": null,
     "Animations": null,
@@ -308,7 +742,7 @@
     "Others": null
   },
   {
-    "Id": 23,
+    "Id": 52,
     "FsmKey": "SM_ME1LiufangzheleaderMd00601",
     "ActorClass": null,
     "Animations": null,
@@ -322,7 +756,79 @@
     "Others": null
   },
   {
-    "Id": 24,
+    "Id": 53,
+    "FsmKey": "SM_ME1LiulidaolingMd00301",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_CommonBornSmoke.DA_Fx_Group_CommonBornSmoke",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 54,
+    "FsmKey": "SM_ME1LiulidaolingMd00301_JinKu",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_CommonBornSmoke.DA_Fx_Group_CommonBornSmoke",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera"
+    ]
+  },
+  {
+    "Id": 55,
+    "FsmKey": "SM_ME1LiulidaolingMd00301_Shanguang",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_CommonBornSmoke.DA_Fx_Group_CommonBornSmoke",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 56,
+    "FsmKey": "SM_ME1QifuouMd00101_fengche",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 57,
+    "FsmKey": "SM_ME1QifuouMd00101_migong",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 58,
     "FsmKey": "SM_ME1QunJingMd00001_Chong",
     "ActorClass": null,
     "Animations": null,
@@ -334,7 +840,31 @@
     "Others": null
   },
   {
-    "Id": 25,
+    "Id": 59,
+    "FsmKey": "SM_ME1QunJingMd00501",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 60,
+    "FsmKey": "SM_ME1ShihuaxiMd00101",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 61,
     "FsmKey": "SM_ME1ShuimuguMd00601",
     "ActorClass": null,
     "Animations": null,
@@ -346,15 +876,39 @@
     "Others": null
   },
   {
-    "Id": 26,
+    "Id": 62,
+    "FsmKey": "SM_ME1SiXiaoMd00201",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 63,
+    "FsmKey": "SM_ME1SiXiaoMd00601",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 64,
     "FsmKey": "SM_ME1YouLinJiShuMd00201",
     "ActorClass": null,
     "Animations": null,
     "Effects": [
-      "/Game/Aki/Effect/EffectGroup/ME1YouLinJiShuMd00201/DA_Fx_Group_MEs_ShieldLoop.DA_Fx_Group_MEs_ShieldLoop",
-      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_CommonBornSmoke.DA_Fx_Group_CommonBornSmoke",
-      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born",
-      "/Game/Aki/Effect/MaterialController/Common/DA_Fx_TimeController_Specil.DA_Fx_TimeController_Specil"
+      "/Game/Aki/Effect/MaterialController/Common/DA_Fx_Breacher_Moster_Buff_Mask.DA_Fx_Breacher_Moster_Buff_Mask",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breacher_Moster_Born.DA_Fx_Group_Breacher_Moster_Born",
+      "/Game/Aki/Effect/MaterialController/Common/DA_Fx_Group_Breacher_Moster_Buff.DA_Fx_Group_Breacher_Moster_Buff",
+      "/Game/Aki/Effect/EffectGroup/ME1YouLinJiShuMd00201/DA_Fx_Group_MEs_ShieldLoop.DA_Fx_Group_MEs_ShieldLoop"
     ],
     "Audios": null,
     "Meshes": null,
@@ -363,11 +917,13 @@
     "Others": null
   },
   {
-    "Id": 27,
+    "Id": 65,
     "FsmKey": "SM_ML1AiShengGuYuanMd00501",
     "ActorClass": null,
     "Animations": null,
-    "Effects": null,
+    "Effects": [
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born"
+    ],
     "Audios": null,
     "Meshes": null,
     "Materials": null,
@@ -378,11 +934,33 @@
     ]
   },
   {
-    "Id": 28,
+    "Id": 66,
     "FsmKey": "SM_ML1FerLianMd00201",
     "ActorClass": null,
     "Animations": null,
-    "Effects": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/CounterAttack/Camera/M_SizeM_CounterAttackCamera.M_SizeM_CounterAttackCamera"
+    ]
+  },
+  {
+    "Id": 67,
+    "FsmKey": "SM_ML1GuLongMd00101",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born",
+      "/Game/Aki/Effect/EffectGroup/ML1GuLongMd00101/DA_Fx_Group_MLa_Jiang_Fire.DA_Fx_Group_MLa_Jiang_Fire",
+      "/Game/Aki/Effect/MaterialController/DA_Lord/ML1GuLongMd00101/DA_Fx_Lord_GuLong_JiAng_6.DA_Fx_Lord_GuLong_JiAng_6",
+      "/Game/Aki/Effect/MaterialController/DA_Lord/ML1GuLongMd00101/DA_Fx_Lord_GuLong_JiAng_8.DA_Fx_Lord_GuLong_JiAng_8"
+    ],
     "Audios": null,
     "Meshes": null,
     "Materials": null,
@@ -390,19 +968,42 @@
     "Others": null
   },
   {
-    "Id": 29,
+    "Id": 68,
+    "FsmKey": "SM_ML1HaiYaoMd00601",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/DataAsset/SkeletalMesh/ML1HaiYaoMd00601/DA_Fx_Mesh_MLa_HaiYao_Huan.DA_Fx_Mesh_MLa_HaiYao_Huan",
+      "/Game/Aki/Effect/EffectGroup/ML1HaiYaoMd00601/DA_Fx_Group_HaiYao_MLa_ShuihuanBlue.DA_Fx_Group_HaiYao_MLa_ShuihuanBlue",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/CounterAttack/Camera/M_SizeM_CounterAttackCamera.M_SizeM_CounterAttackCamera"
+    ]
+  },
+  {
+    "Id": 69,
     "FsmKey": "SM_ML1HuiYingMd00101",
     "ActorClass": null,
     "Animations": null,
-    "Effects": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born"
+    ],
     "Audios": null,
     "Meshes": null,
     "Materials": null,
     "AnimationBlueprints": null,
-    "Others": null
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera"
+    ]
   },
   {
-    "Id": 30,
+    "Id": 70,
     "FsmKey": "SM_ML1HuiYingMd00101_New",
     "ActorClass": null,
     "Animations": null,
@@ -414,13 +1015,13 @@
     "Others": null
   },
   {
-    "Id": 31,
-    "FsmKey": "SM_ML1LinrenMd00301",
+    "Id": 71,
+    "FsmKey": "SM_ML1LinrenMd00201",
     "ActorClass": null,
     "Animations": null,
     "Effects": [
-      "/Game/Aki/Effect/EffectGroup/ML1LinrenMd00301/DA_Fx_Group_MLa_Wind.DA_Fx_Group_MLa_Wind",
-      "/Game/Aki/Effect/EffectGroup/ML1LinrenMd00301/DA_Fx_Group_MLa_RHand_Bip001RForearmEffect.DA_Fx_Group_MLa_RHand_Bip001RForearmEffect"
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Monster_Particle_Glow.DA_Fx_Group_Monster_Particle_Glow",
+      "/Game/Aki/Effect/MaterialController/Common/DA_Fx_MonsterMask_Lord_320001.DA_Fx_MonsterMask_Lord_320001"
     ],
     "Audios": null,
     "Meshes": null,
@@ -429,7 +1030,38 @@
     "Others": null
   },
   {
-    "Id": 32,
+    "Id": 72,
+    "FsmKey": "SM_ML1LinrenMd00201_FenShen",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Monster_Particle_Glow.DA_Fx_Group_Monster_Particle_Glow",
+      "/Game/Aki/Effect/MaterialController/Common/DA_Fx_MonsterMask_Lord_320001.DA_Fx_MonsterMask_Lord_320001"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 73,
+    "FsmKey": "SM_ML1LinrenMd00301",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/ML1LinrenMd00301/DA_Fx_Group_MLa_Wind.DA_Fx_Group_MLa_Wind",
+      "/Game/Aki/Effect/EffectGroup/ML1LinrenMd00301/DA_Fx_Group_MLa_RHand_Bip001RForearmEffect.DA_Fx_Group_MLa_RHand_Bip001RForearmEffect",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 74,
     "FsmKey": "SM_ML1LinrenMd00311",
     "ActorClass": null,
     "Animations": null,
@@ -441,44 +1073,202 @@
     "Others": null
   },
   {
-    "Id": 33,
+    "Id": 75,
+    "FsmKey": "SM_ML1MiuwuMd00501",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/ML1Miuwu00501/DA_Fx_Group_MLs_HeiDong.DA_Fx_Group_MLs_HeiDong",
+      "/Game/Aki/Effect/EffectGroup/ML1Miuwu00501/Kpose/DA_Fx_Group_Kpose_Shine_Eye.DA_Fx_Group_Kpose_Shine_Eye",
+      "/Game/Aki/Effect/MaterialController/DA_Lord/ML1Miuwu00501/DA_Fx_Miuwu_Dis.DA_Fx_Miuwu_Dis",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 76,
+    "FsmKey": "SM_ML1MiuwuMd00501_DaMao",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/ML1Miuwu00501/DA_Fx_Group_MLs_HeiDong.DA_Fx_Group_MLs_HeiDong",
+      "/Game/Aki/Effect/EffectGroup/ML1Miuwu00501/Kpose/DA_Fx_Group_Kpose_Shine_Eye.DA_Fx_Group_Kpose_Shine_Eye",
+      "/Game/Aki/Effect/MaterialController/DA_Lord/ML1Miuwu00501/DA_Fx_Miuwu_Dis.DA_Fx_Miuwu_Dis",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 77,
+    "FsmKey": "SM_ML1MiuwuMd00501_DG",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/ML1Miuwu00501/DA_Fx_Group_MLs_HeiDong.DA_Fx_Group_MLs_HeiDong",
+      "/Game/Aki/Effect/EffectGroup/ML1Miuwu00501/Kpose/DA_Fx_Group_Kpose_Shine_Eye.DA_Fx_Group_Kpose_Shine_Eye",
+      "/Game/Aki/Effect/MaterialController/DA_Lord/ML1Miuwu00501/DA_Fx_Miuwu_Dis.DA_Fx_Miuwu_Dis",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 78,
     "FsmKey": "SM_ML1QiShiMd00001",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born",
+      "/Game/Aki/Effect/EffectGroup/ML1QiShiMd00001/DA_Fx_Group_Weapon.DA_Fx_Group_Weapon",
+      "/Game/Aki/Effect/EffectGroup/ML1QiShiMd00001/DA_Fx_Group_Paiqiguan.DA_Fx_Group_Paiqiguan",
+      "/Game/Aki/Effect/EffectGroup/ML1QiShiMd00001/DA_Fx_Group_Normal.DA_Fx_Group_Normal",
+      "/Game/Aki/Effect/EffectGroup/ML1QiShiMd00001/DA_Fx_Group_Bodyfire.DA_Fx_Group_Bodyfire",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera"
+    ]
+  },
+  {
+    "Id": 79,
+    "FsmKey": "SM_ML1QiShiMd00002",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breacher_Moster_Buff_Big.DA_Fx_Group_Breacher_Moster_Buff_Big",
+      "/Game/Aki/Effect/MaterialController/Common/DA_Fx_Breacher_Moster_Buff_Mask.DA_Fx_Breacher_Moster_Buff_Mask",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breacher_Moster_Born.DA_Fx_Group_Breacher_Moster_Born",
+      "/Game/Aki/Effect/MaterialController/Common/DA_Fx_Group_Breacher_Moster_Buff.DA_Fx_Group_Breacher_Moster_Buff",
+      "/Game/Aki/Effect/EffectGroup/ML1QiShiMd00001/DA_Fx_Group_Weapon.DA_Fx_Group_Weapon",
+      "/Game/Aki/Effect/EffectGroup/ML1QiShiMd00001/DA_Fx_Group_Bodyfire.DA_Fx_Group_Bodyfire",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera"
+    ]
+  },
+  {
+    "Id": 80,
+    "FsmKey": "SM_ML1QiShiMd00003",
     "ActorClass": null,
     "Animations": null,
     "Effects": [
       "/Game/Aki/Effect/EffectGroup/ML1QiShiMd00001/DA_Fx_Group_Weapon.DA_Fx_Group_Weapon",
       "/Game/Aki/Effect/EffectGroup/ML1QiShiMd00001/DA_Fx_Group_Paiqiguan.DA_Fx_Group_Paiqiguan",
       "/Game/Aki/Effect/EffectGroup/ML1QiShiMd00001/DA_Fx_Group_Normal.DA_Fx_Group_Normal",
-      "/Game/Aki/Effect/EffectGroup/ML1QiShiMd00001/DA_Fx_Group_Bodyfire.DA_Fx_Group_Bodyfire"
+      "/Game/Aki/Effect/EffectGroup/ML1QiShiMd00001/DA_Fx_Group_Bodyfire.DA_Fx_Group_Bodyfire",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking"
     ],
     "Audios": null,
     "Meshes": null,
     "Materials": null,
     "AnimationBlueprints": null,
-    "Others": null
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera"
+    ]
   },
   {
-    "Id": 34,
+    "Id": 81,
     "FsmKey": "SM_ML1QunnieMd00401",
     "ActorClass": null,
     "Animations": null,
     "Effects": [
-      "/Game/Aki/Effect/MaterialController/DA_Lord/ML1QunnieMd00401/Lhand_Group_03.Lhand_Group_03",
-      "/Game/Aki/Effect/MaterialController/DA_Lord/ML1QunnieMd00401/DA_Fx_Qunnie_Fight_Lights01.DA_Fx_Qunnie_Fight_Lights01"
+      "/Game/Aki/Effect/MaterialController/DA_Lord/ML1QunnieMd00401/DA_Fx_Group_Qunnie_Lhand_03.DA_Fx_Group_Qunnie_Lhand_03",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking",
+      "/Game/Aki/Effect/MaterialController/DA_Lord/ML1QunnieMd00401/DA_Fx_Qunnie_Fight_Lights01.DA_Fx_Qunnie_Fight_Lights01",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born"
     ],
     "Audios": null,
     "Meshes": null,
     "Materials": null,
     "AnimationBlueprints": null,
-    "Others": null
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera"
+    ]
   },
   {
-    "Id": 35,
+    "Id": 82,
     "FsmKey": "SM_ML1QunnieMd00401_Yinlin",
     "ActorClass": null,
     "Animations": null,
     "Effects": [
-      "/Game/Aki/Effect/MaterialController/DA_Lord/ML1QunnieMd00401/Lhand_Group_03.Lhand_Group_03"
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera"
+    ]
+  },
+  {
+    "Id": 83,
+    "FsmKey": "SM_ML1QunnieMd00401_ZhuiYue",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/MaterialController/DA_Lord/ML1QunnieMd00401/DA_Fx_Qunnie_Fight_Lights01.DA_Fx_Qunnie_Fight_Lights01",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking",
+      "/Game/Aki/Effect/EffectGroup/Common/Buff/DA_Fx_Group_MutantMonsterBuff.DA_Fx_Group_MutantMonsterBuff",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_MutantMonsterBuffMa_L.DA_Fx_MutantMonsterBuffMa_L"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera"
+    ]
+  },
+  {
+    "Id": 84,
+    "FsmKey": "SM_ML1ShiXiangGuiMd00201",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking",
+      "/Game/Aki/Effect/MaterialController/DA_Lord/ML1ShiXiangGuiMd00201/DA_Fx_ShiXiangGui_HeadGlow_Blue.DA_Fx_ShiXiangGui_HeadGlow_Blue",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born",
+      "/Game/Aki/Effect/MaterialController/DA_Lord/ML1ShiXiangGuiMd00201/DA_Fx_ShiXiangGui_HeadGlow_Red.DA_Fx_ShiXiangGui_HeadGlow_Red",
+      "/Game/Aki/Effect/MaterialController/DA_Lord/ML1ShiXiangGuiMd00201/DA_Fx_ShiXiangGui_Emissive_Red.DA_Fx_ShiXiangGui_Emissive_Red"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera"
+    ]
+  },
+  {
+    "Id": 85,
+    "FsmKey": "SM_ML1ShiXiangGuiMd00201_ForTask",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/MaterialController/DA_Lord/ML1ShiXiangGuiMd00201/DA_Fx_ShiXiangGui_HeadGlow_Blue.DA_Fx_ShiXiangGui_HeadGlow_Blue",
+      "/Game/Aki/Effect/MaterialController/DA_Lord/ML1ShiXiangGuiMd00201/DA_Fx_ShiXiangGui_HeadGlow_Red.DA_Fx_ShiXiangGui_HeadGlow_Red",
+      "/Game/Aki/Effect/MaterialController/DA_Lord/ML1ShiXiangGuiMd00201/DA_Fx_ShiXiangGui_Emissive_Red.DA_Fx_ShiXiangGui_Emissive_Red"
     ],
     "Audios": null,
     "Meshes": null,
@@ -487,7 +1277,26 @@
     "Others": null
   },
   {
-    "Id": 36,
+    "Id": 86,
+    "FsmKey": "SM_ML1ShiXiangGuiMd00201_ForTask_New",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking",
+      "/Game/Aki/Effect/MaterialController/DA_Lord/ML1ShiXiangGuiMd00201/DA_Fx_ShiXiangGui_HeadGlow_Blue.DA_Fx_ShiXiangGui_HeadGlow_Blue",
+      "/Game/Aki/Effect/MaterialController/DA_Lord/ML1ShiXiangGuiMd00201/DA_Fx_ShiXiangGui_HeadGlow_Red.DA_Fx_ShiXiangGui_HeadGlow_Red",
+      "/Game/Aki/Effect/MaterialController/DA_Lord/ML1ShiXiangGuiMd00201/DA_Fx_ShiXiangGui_Emissive_Red.DA_Fx_ShiXiangGui_Emissive_Red"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera"
+    ]
+  },
+  {
+    "Id": 87,
     "FsmKey": "SM_ML1WuChangluMd00601",
     "ActorClass": null,
     "Animations": null,
@@ -499,7 +1308,19 @@
     "Others": null
   },
   {
-    "Id": 37,
+    "Id": 88,
+    "FsmKey": "SM_ML1WuChangluMd00601_ChunTask",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 89,
     "FsmKey": "SM_ML1WuChangluMd00601_MainTask",
     "ActorClass": null,
     "Animations": null,
@@ -511,8 +1332,8 @@
     "Others": null
   },
   {
-    "Id": 38,
-    "FsmKey": "SM_ML1YuanWuMd00001",
+    "Id": 90,
+    "FsmKey": "SM_ML1YangYangMd00001",
     "ActorClass": null,
     "Animations": null,
     "Effects": null,
@@ -523,7 +1344,19 @@
     "Others": null
   },
   {
-    "Id": 39,
+    "Id": 91,
+    "FsmKey": "SM_ML1ZheZhiMd00001",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 92,
     "FsmKey": "SM_MO1AWukakaMd00601",
     "ActorClass": null,
     "Animations": null,
@@ -535,7 +1368,48 @@
     "Others": null
   },
   {
-    "Id": 40,
+    "Id": 93,
+    "FsmKey": "SM_MO1BaoxiangguaiMd00501",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_CommonBornSmoke.DA_Fx_Group_CommonBornSmoke",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 94,
+    "FsmKey": "SM_MO1BaoxiangguaiMd00501_2",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 95,
+    "FsmKey": "SM_MO1BingciqiuMd00201",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/MB1Mingzhongzhigui/DA_Fx_Group_MBa52_Iceball.DA_Fx_Group_MBa52_Iceball"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 96,
     "FsmKey": "SM_MO1Bingjian1Md00201",
     "ActorClass": null,
     "Animations": null,
@@ -547,7 +1421,7 @@
     "Others": null
   },
   {
-    "Id": 41,
+    "Id": 97,
     "FsmKey": "SM_MO1Bingjian2Md00201",
     "ActorClass": null,
     "Animations": null,
@@ -559,7 +1433,7 @@
     "Others": null
   },
   {
-    "Id": 42,
+    "Id": 98,
     "FsmKey": "SM_MO1Bingjian3Md00201",
     "ActorClass": null,
     "Animations": null,
@@ -571,7 +1445,19 @@
     "Others": null
   },
   {
-    "Id": 43,
+    "Id": 99,
+    "FsmKey": "SM_MO1BinglieMd00201",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 100,
     "FsmKey": "SM_MO1BinlangMd00101",
     "ActorClass": null,
     "Animations": null,
@@ -583,7 +1469,31 @@
     "Others": null
   },
   {
-    "Id": 44,
+    "Id": 101,
+    "FsmKey": "SM_MO1BuouMd00001",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 102,
+    "FsmKey": "SM_MO1DaMaoMd00001_link",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 103,
     "FsmKey": "SM_MO1DingdongdongMd00201",
     "ActorClass": null,
     "Animations": null,
@@ -595,7 +1505,7 @@
     "Others": null
   },
   {
-    "Id": 45,
+    "Id": 104,
     "FsmKey": "SM_MO1DujiaoshouMd00001",
     "ActorClass": null,
     "Animations": null,
@@ -607,7 +1517,31 @@
     "Others": null
   },
   {
-    "Id": 46,
+    "Id": 105,
+    "FsmKey": "SM_MO1FenglieMd00401_2",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 106,
+    "FsmKey": "SM_MO1FengXYLMd00401",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 107,
     "FsmKey": "SM_MO1FHuxiuxiuMd00401",
     "ActorClass": null,
     "Animations": null,
@@ -619,7 +1553,7 @@
     "Others": null
   },
   {
-    "Id": 47,
+    "Id": 108,
     "FsmKey": "SM_MO1GAziziMd00501",
     "ActorClass": null,
     "Animations": null,
@@ -631,7 +1565,19 @@
     "Others": null
   },
   {
-    "Id": 48,
+    "Id": 109,
+    "FsmKey": "SM_MO1GAziziMd00501_xxgtest",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 110,
     "FsmKey": "SM_MO1GuangZhuMd00003",
     "ActorClass": null,
     "Animations": null,
@@ -643,7 +1589,19 @@
     "Others": null
   },
   {
-    "Id": 49,
+    "Id": 111,
+    "FsmKey": "SM_MO1GuguhetunMd00201_Dredge",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 112,
     "FsmKey": "SM_MO1GuguhetunMd00201_JiYanTask",
     "ActorClass": null,
     "Animations": null,
@@ -655,7 +1613,19 @@
     "Others": null
   },
   {
-    "Id": 50,
+    "Id": 113,
+    "FsmKey": "SM_MO1GuguhetunMd00201_SpecialMonster",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 114,
     "FsmKey": "SM_MO1HKacacaMd00101",
     "ActorClass": null,
     "Animations": null,
@@ -667,7 +1637,79 @@
     "Others": null
   },
   {
-    "Id": 51,
+    "Id": 115,
+    "FsmKey": "SM_MO1HongLvDengMd00501",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 116,
+    "FsmKey": "SM_MO1HuojinMd00101_2",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 117,
+    "FsmKey": "SM_MO1JiQiangKuLuoLuoMd00001",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 118,
+    "FsmKey": "SM_MO1JTMuShiMd00401",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 119,
+    "FsmKey": "SM_MO1JTQiShiMd00001",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 120,
+    "FsmKey": "SM_MO1JTSheShouMd00501",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 121,
     "FsmKey": "SM_MO1LeilieMd00301",
     "ActorClass": null,
     "Animations": null,
@@ -679,7 +1721,33 @@
     "Others": null
   },
   {
-    "Id": 52,
+    "Id": 122,
+    "FsmKey": "SM_MO1LeilieMd00301_sanchongta",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/MaterialController/Common/DA_Fx_JingZheLieShou_Mosyer.DA_Fx_JingZheLieShou_Mosyer"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 123,
+    "FsmKey": "SM_MO1LeiXYLMd00301",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 124,
     "FsmKey": "SM_MO1LiufangzhemanMd00001",
     "ActorClass": null,
     "Animations": null,
@@ -694,7 +1762,7 @@
     "Others": null
   },
   {
-    "Id": 53,
+    "Id": 125,
     "FsmKey": "SM_MO1LuguiMd00201",
     "ActorClass": null,
     "Animations": null,
@@ -706,7 +1774,85 @@
     "Others": null
   },
   {
-    "Id": 54,
+    "Id": 126,
+    "FsmKey": "SM_MO1QifuouyanjingMd00101",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 127,
+    "FsmKey": "SM_MO1QifuouyanjingMd00101_fengche",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 128,
+    "FsmKey": "SM_MO1QifuouyoushouMd00601",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_CommonBornSmoke.DA_Fx_Group_CommonBornSmoke",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 129,
+    "FsmKey": "SM_MO1QifuouzuoshouMd00501",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_CommonBornSmoke.DA_Fx_Group_CommonBornSmoke",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 130,
+    "FsmKey": "SM_MO1QifuouzuoshouMd00501_fengche",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 131,
+    "FsmKey": "SM_MO1QifuouzuoshouMd00501_taofabaogao",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 132,
     "FsmKey": "SM_MO1RonhuochongMd00001",
     "ActorClass": null,
     "Animations": null,
@@ -718,12 +1864,12 @@
     "Others": null
   },
   {
-    "Id": 55,
+    "Id": 133,
     "FsmKey": "SM_MO1RonhuochongMd00101",
     "ActorClass": null,
     "Animations": null,
     "Effects": [
-      "/Game/Aki/Effect/EffectGroup/MO1RonhuochongMd00101/DA_Fx_Group_MOa_Loop.DA_Fx_Group_MOa_Loop"
+      "/Game/Aki/Effect/DataAsset/Decal/MO1RonhuochongMd00101/DA_Fx_Decal_MOa.DA_Fx_Decal_MOa"
     ],
     "Audios": null,
     "Meshes": null,
@@ -732,7 +1878,31 @@
     "Others": null
   },
   {
-    "Id": 56,
+    "Id": 134,
+    "FsmKey": "SM_MO1ShouhuMd00002",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 135,
+    "FsmKey": "SM_MO1SiXiaoMd00401",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 136,
     "FsmKey": "SM_MO1YeGuiManMd00001",
     "ActorClass": null,
     "Animations": null,
@@ -747,7 +1917,55 @@
     "Others": null
   },
   {
-    "Id": 57,
+    "Id": 137,
+    "FsmKey": "SM_MO1YoulinghuoMd00101",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 138,
+    "FsmKey": "SM_MO1YoulinghuoMd00102_taofabaogao",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 139,
+    "FsmKey": "SM_MO1YouyidieMd00501",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 140,
+    "FsmKey": "SM_MO1YunhaiyaojingMd00501",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 141,
     "FsmKey": "SM_MO1ZhuzhutuoMd00001",
     "ActorClass": null,
     "Animations": null,
@@ -759,7 +1977,187 @@
     "Others": null
   },
   {
-    "Id": 58,
+    "Id": 142,
+    "FsmKey": "SM_MOP1BuouMd00001",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 143,
+    "FsmKey": "SM_MOP1BuouMd00501",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 144,
+    "FsmKey": "SM_MOP1BuouMd00601",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 145,
+    "FsmKey": "SM_MP1HeibaiqishiMd00301",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/MP1HeibaiqishiMd00301/DA_Fx_Group_MPa_weapon_O.DA_Fx_Group_MPa_weapon_O",
+      "/Game/Aki/Effect/EffectGroup/MP1HeibaiqishiMd00301/DA_Fx_Group_MPa_weapon_L.DA_Fx_Group_MPa_weapon_L",
+      "/Game/Aki/Effect/EffectGroup/MP1HeibaiqishiMd00301/DA_Fx_Group_MPa_weapon_D.DA_Fx_Group_MPa_weapon_D",
+      "/Game/Aki/Effect/EffectGroup/MP1HeibaiqishiMd00301/DA_Fx_Group_MPa_weapon_T.DA_Fx_Group_MPa_weapon_T",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 146,
+    "FsmKey": "SM_MP1HeibaiqishiMd00301_Born",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_CommonBornSmoke.DA_Fx_Group_CommonBornSmoke",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born",
+      "/Game/Aki/Effect/EffectGroup/MP1HeibaiqishiMd00301/DA_Fx_Group_MPa_weapon_O.DA_Fx_Group_MPa_weapon_O",
+      "/Game/Aki/Effect/EffectGroup/MP1HeibaiqishiMd00301/DA_Fx_Group_MPa_weapon_L.DA_Fx_Group_MPa_weapon_L",
+      "/Game/Aki/Effect/EffectGroup/MP1HeibaiqishiMd00301/DA_Fx_Group_MPa_weapon_D.DA_Fx_Group_MPa_weapon_D",
+      "/Game/Aki/Effect/EffectGroup/MP1HeibaiqishiMd00301/DA_Fx_Group_MPa_weapon_T.DA_Fx_Group_MPa_weapon_T",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 147,
+    "FsmKey": "SM_MP1HeibaiqishiMd00501",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/MP1HeibaiqishiMd00301/DA_Fx_Group_MPa_weapon_O.DA_Fx_Group_MPa_weapon_O",
+      "/Game/Aki/Effect/EffectGroup/MP1HeibaiqishiMd00301/DA_Fx_Group_MPa_weapon_L.DA_Fx_Group_MPa_weapon_L",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 148,
+    "FsmKey": "SM_MP1HeibaiqishiMd00501_Born",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_CommonBornSmoke.DA_Fx_Group_CommonBornSmoke",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born",
+      "/Game/Aki/Effect/EffectGroup/MP1HeibaiqishiMd00301/DA_Fx_Group_MPa_weapon_O.DA_Fx_Group_MPa_weapon_O",
+      "/Game/Aki/Effect/EffectGroup/MP1HeibaiqishiMd00301/DA_Fx_Group_MPa_weapon_L.DA_Fx_Group_MPa_weapon_L",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 149,
+    "FsmKey": "SM_MP1HeibaiqishiMd00501_Born1",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/MaterialController/DA_Lord/MP1HeibaiqishiMd00301/DA_Fx_Heibaiqishi_fumo.DA_Fx_Heibaiqishi_fumo",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_CommonBornSmoke.DA_Fx_Group_CommonBornSmoke",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born",
+      "/Game/Aki/Effect/EffectGroup/MP1HeibaiqishiMd00301/DA_Fx_Group_MPa_weapon_O.DA_Fx_Group_MPa_weapon_O",
+      "/Game/Aki/Effect/EffectGroup/MP1HeibaiqishiMd00301/DA_Fx_Group_MPa_weapon_L.DA_Fx_Group_MPa_weapon_L",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 150,
+    "FsmKey": "SM_MP1HeibaiqishiMd00601",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/MP1HeibaiqishiMd00301/DA_Fx_Group_MPa_weapon_O.DA_Fx_Group_MPa_weapon_O",
+      "/Game/Aki/Effect/EffectGroup/MP1HeibaiqishiMd00301/DA_Fx_Group_MPa_weapon_D.DA_Fx_Group_MPa_weapon_D",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 151,
+    "FsmKey": "SM_MP1HeibaiqishiMd00601_Born",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_CommonBornSmoke.DA_Fx_Group_CommonBornSmoke",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born",
+      "/Game/Aki/Effect/EffectGroup/MP1HeibaiqishiMd00301/DA_Fx_Group_MPa_weapon_O.DA_Fx_Group_MPa_weapon_O",
+      "/Game/Aki/Effect/EffectGroup/MP1HeibaiqishiMd00301/DA_Fx_Group_MPa_weapon_D.DA_Fx_Group_MPa_weapon_D",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 152,
+    "FsmKey": "SM_MP1HeibaiqishiMd00601_Born1",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/MaterialController/DA_Lord/MP1HeibaiqishiMd00301/DA_Fx_Heibaiqishi_fumo.DA_Fx_Heibaiqishi_fumo",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_CommonBornSmoke.DA_Fx_Group_CommonBornSmoke",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born",
+      "/Game/Aki/Effect/EffectGroup/MP1HeibaiqishiMd00301/DA_Fx_Group_MPa_weapon_O.DA_Fx_Group_MPa_weapon_O",
+      "/Game/Aki/Effect/EffectGroup/MP1HeibaiqishiMd00301/DA_Fx_Group_MPa_weapon_D.DA_Fx_Group_MPa_weapon_D",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 153,
     "FsmKey": "SM_MP1TaguanghuMd00501",
     "ActorClass": null,
     "Animations": null,
@@ -773,13 +2171,39 @@
     "Others": null
   },
   {
-    "Id": 59,
+    "Id": 154,
     "FsmKey": "SM_MP1TaguanghuMd00501_02",
     "ActorClass": null,
     "Animations": null,
     "Effects": [
       "/Game/Aki/Effect/MaterialController/DA_Lord/MP1TaguanghuMd00501/DA_Fx_Taguanghu_Xuruo.DA_Fx_Taguanghu_Xuruo"
     ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 155,
+    "FsmKey": "SM_MP1TaguanghuMd00501_ForTaskNew",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/MaterialController/DA_Lord/MP1TaguanghuMd00501/DA_Fx_Taguanghu_Xuruo.DA_Fx_Taguanghu_Xuruo"
+    ],
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 156,
+    "FsmKey": "SM_RoleBeHit",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
     "Audios": null,
     "Meshes": null,
     "Materials": null,

@@ -1,7 +1,7 @@
 [
   {
     "MapId": 1,
-    "MapName": "阿拉德大陆",
+    "MapName": "Country_1_Title",
     "FatherMap": 0,
     "GroupMark": 0,
     "Floor": 0,
@@ -12,11 +12,12 @@
     "BigMapMinScale": 150,
     "BigMapMaxScale": 500,
     "LittleMapDefaultScale": 1000,
-    "LimitContent": "limit()"
+    "LimitContent": "limit()",
+    "IsGravityMap": false
   },
   {
     "MapId": 2,
-    "MapName": "测试分层地图-1",
+    "MapName": "Country_1_Title",
     "FatherMap": 1,
     "GroupMark": 2000,
     "Floor": -1,
@@ -27,11 +28,12 @@
     "BigMapMinScale": 0,
     "BigMapMaxScale": 0,
     "LittleMapDefaultScale": 100,
-    "LimitContent": "limit()"
+    "LimitContent": "limit()",
+    "IsGravityMap": false
   },
   {
     "MapId": 3,
-    "MapName": "测试分层地图1",
+    "MapName": "Country_1_Title",
     "FatherMap": 1,
     "GroupMark": 2000,
     "Floor": 1,
@@ -42,11 +44,12 @@
     "BigMapMinScale": 0,
     "BigMapMaxScale": 0,
     "LittleMapDefaultScale": 100,
-    "LimitContent": "limit()"
+    "LimitContent": "limit()",
+    "IsGravityMap": false
   },
   {
     "MapId": 4,
-    "MapName": "测试分层地图2",
+    "MapName": "Country_1_Title",
     "FatherMap": 1,
     "GroupMark": 2000,
     "Floor": 2,
@@ -57,11 +60,12 @@
     "BigMapMinScale": 0,
     "BigMapMaxScale": 0,
     "LittleMapDefaultScale": 100,
-    "LimitContent": "limit()"
+    "LimitContent": "limit()",
+    "IsGravityMap": false
   },
   {
     "MapId": 5,
-    "MapName": "测试分层地图3",
+    "MapName": "Country_1_Title",
     "FatherMap": 1,
     "GroupMark": 2000,
     "Floor": 3,
@@ -72,11 +76,12 @@
     "BigMapMinScale": 0,
     "BigMapMaxScale": 0,
     "LittleMapDefaultScale": 100,
-    "LimitContent": "limit()"
+    "LimitContent": "limit()",
+    "IsGravityMap": false
   },
   {
     "MapId": 6,
-    "MapName": "测试分层地图-1",
+    "MapName": "Country_1_Title",
     "FatherMap": 1,
     "GroupMark": 2001,
     "Floor": -3,
@@ -87,11 +92,12 @@
     "BigMapMinScale": 0,
     "BigMapMaxScale": 0,
     "LittleMapDefaultScale": 100,
-    "LimitContent": "limit()"
+    "LimitContent": "limit()",
+    "IsGravityMap": false
   },
   {
     "MapId": 7,
-    "MapName": "测试分层地图1",
+    "MapName": "Country_1_Title",
     "FatherMap": 1,
     "GroupMark": 2001,
     "Floor": -2,
@@ -102,11 +108,12 @@
     "BigMapMinScale": 0,
     "BigMapMaxScale": 0,
     "LittleMapDefaultScale": 100,
-    "LimitContent": "limit()"
+    "LimitContent": "limit()",
+    "IsGravityMap": false
   },
   {
     "MapId": 8,
-    "MapName": "测试分层地图2",
+    "MapName": "Country_1_Title",
     "FatherMap": 1,
     "GroupMark": 2001,
     "Floor": -1,
@@ -117,11 +124,12 @@
     "BigMapMinScale": 180,
     "BigMapMaxScale": 700,
     "LittleMapDefaultScale": 150,
-    "LimitContent": "limit()"
+    "LimitContent": "limit()",
+    "IsGravityMap": false
   },
   {
     "MapId": 9,
-    "MapName": "测试分层地图3",
+    "MapName": "Country_1_Title",
     "FatherMap": 1,
     "GroupMark": 2001,
     "Floor": 1,
@@ -132,11 +140,12 @@
     "BigMapMinScale": 0,
     "BigMapMaxScale": 0,
     "LittleMapDefaultScale": 100,
-    "LimitContent": "limit()"
+    "LimitContent": "limit()",
+    "IsGravityMap": false
   },
   {
     "MapId": 900,
-    "MapName": "黑海岸",
+    "MapName": "Country_2_Title",
     "FatherMap": 1,
     "GroupMark": 2001,
     "Floor": -1,
@@ -147,11 +156,28 @@
     "BigMapMinScale": 180,
     "BigMapMaxScale": 700,
     "LittleMapDefaultScale": 150,
-    "LimitContent": "limit()"
+    "LimitContent": "limit()",
+    "IsGravityMap": false
+  },
+  {
+    "MapId": 903,
+    "MapName": "Area_25_Title",
+    "FatherMap": 1,
+    "GroupMark": 2001,
+    "Floor": -1,
+    "SwitchCondition": "",
+    "MapPic3d": "",
+    "MapPic2d": "",
+    "BigMapDefaultScale": 200,
+    "BigMapMinScale": 180,
+    "BigMapMaxScale": 700,
+    "LittleMapDefaultScale": 150,
+    "LimitContent": "limit()",
+    "IsGravityMap": true
   },
   {
     "MapId": 902,
-    "MapName": "云底藏馆",
+    "MapName": "Area_27_Title",
     "FatherMap": 1,
     "GroupMark": 2001,
     "Floor": -1,
@@ -162,6 +188,7 @@
     "BigMapMinScale": 180,
     "BigMapMaxScale": 700,
     "LittleMapDefaultScale": 150,
-    "LimitContent": "limit()"
+    "LimitContent": "limit()",
+    "IsGravityMap": false
   }
 ]

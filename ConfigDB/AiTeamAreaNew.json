@@ -114,5 +114,27 @@
       "Max": 1300.0
     },
     "AttackWeightId": 3
+  },
+  {
+    "Id": 7,
+    "MaxCharacter": 99,
+    "ReactionTime": {
+      "Min": 0.0,
+      "Max": 2000.0
+    },
+    "CharTypes": [
+      2.0,
+      5.0,
+      1.0,
+      3.0,
+      4.0,
+      6.0
+    ],
+    "AreaAngle": 50.0,
+    "AreaDistance": {
+      "Min": 500.0,
+      "Max": 800.0
+    },
+    "AttackWeightId": 1
   }
 ]

@@ -1557,9 +1557,9 @@
     "MatType": 0,
     "AttributesDescriptionLock": "LordGymInfo_Text2",
     "AttributesDescriptionUnlock": "LordGymInfo_Text2",
-    "BigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_QX_33013_UI.T_IconMonsterHead_QX_33013_UI",
-    "Icon": "/Game/Aki/UI/UIResources/Common/Image/ImgCopy/T_ImgCopy_005_UI.T_ImgCopy_005_UI",
-    "LockBigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_QX_33013_UI.T_IconMonsterHead_QX_33013_UI",
+    "BigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_QX_33012_UI.T_IconMonsterHead_QX_33012_UI",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_QX_33012_UI.T_IconMonsterHead_QX_33012_UI",
+    "LockBigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_QX_33012_UI.T_IconMonsterHead_QX_33012_UI",
     "TemporaryIconUnlock": "/Game/Aki/UI/UIResources/Common/Image/ImgCopy/T_ImgCopy_005_UI.T_ImgCopy_005_UI",
     "TemporaryIconlock": "/Game/Aki/UI/UIResources/Common/Image/ImgCopy/T_ImgCopy_001_UI.T_ImgCopy_001_UI",
     "ShowReward": 48806,
@@ -2093,6 +2093,126 @@
     "FirstDropId": 0,
     "AdditionalId": 0,
     "SortId": 13,
+    "NewContent": "New_corner"
+  },
+  {
+    "Id": 30010020,
+    "Name": "MapMark_5011_MarkTitle",
+    "GuideId": 3,
+    "LevelPlayList": [
+      316750001
+    ],
+    "InstanceSubTypeDescription": "InpuBoxText_TacetField",
+    "DangerType": 3,
+    "Secondary": 22,
+    "TypeDescription2": 22,
+    "MatType": 0,
+    "AttributesDescriptionLock": "SilentAreaDetection_30010016_AttributesDescriptionLock",
+    "AttributesDescriptionUnlock": "SilentAreaDetection_30010016_AttributesDescriptionUnlock",
+    "BigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_01_UI.T_IconA_shlb_01_UI",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/ImgCopy/T_ImgCopy_004_UI.T_ImgCopy_004_UI",
+    "LockBigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconA/T_IconA_shlb_01_UI.T_IconA_shlb_01_UI",
+    "TemporaryIconUnlock": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_13_UI.T_IconFunctionOpen_13_UI",
+    "TemporaryIconlock": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_13_UI.T_IconFunctionOpen_13_UI",
+    "ShowReward": 16108,
+    "ShowRewardMap": [
+      {
+        "Key": 1,
+        "Value": 16101
+      },
+      {
+        "Key": 2,
+        "Value": 16102
+      },
+      {
+        "Key": 3,
+        "Value": 16103
+      },
+      {
+        "Key": 4,
+        "Value": 16104
+      },
+      {
+        "Key": 5,
+        "Value": 16105
+      },
+      {
+        "Key": 6,
+        "Value": 16106
+      },
+      {
+        "Key": 7,
+        "Value": 16107
+      },
+      {
+        "Key": 8,
+        "Value": 16108
+      }
+    ],
+    "BeginTimeStamp": 0,
+    "PreOpenId": 0,
+    "MarkId": 5011,
+    "LockCon": 0,
+    "PhantomId": null,
+    "FirstDropId": 0,
+    "AdditionalId": 0,
+    "SortId": 14,
+    "NewContent": "New_corner"
+  },
+  {
+    "Id": 30020010,
+    "Name": "LordGymInfo_Text4",
+    "GuideId": 2,
+    "LevelPlayList": [
+      227750000
+    ],
+    "InstanceSubTypeDescription": "InpuBoxText_empty",
+    "DangerType": 3,
+    "Secondary": 61,
+    "TypeDescription2": 61,
+    "MatType": 0,
+    "AttributesDescriptionLock": "LordGymInfo_Text4",
+    "AttributesDescriptionUnlock": "LordGymInfo_Text3",
+    "BigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_QX_33013_UI.T_IconMonsterHead_QX_33013_UI",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_QX_33013_UI.T_IconMonsterHead_QX_33013_UI",
+    "LockBigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_QX_33013_UI.T_IconMonsterHead_QX_33013_UI",
+    "TemporaryIconUnlock": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_QX_34010_UI.T_IconMonsterHead_QX_34010_UI",
+    "TemporaryIconlock": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_QX_34010_UI.T_IconMonsterHead_QX_34010_UI",
+    "ShowReward": 49106,
+    "ShowRewardMap": [
+      {
+        "Key": 1,
+        "Value": 49101
+      },
+      {
+        "Key": 2,
+        "Value": 49102
+      },
+      {
+        "Key": 3,
+        "Value": 49103
+      },
+      {
+        "Key": 4,
+        "Value": 49104
+      },
+      {
+        "Key": 5,
+        "Value": 49105
+      },
+      {
+        "Key": 6,
+        "Value": 49106
+      }
+    ],
+    "BeginTimeStamp": 0,
+    "PreOpenId": 0,
+    "MarkId": 4026,
+    "LockCon": 12005001,
+    "PhantomId": null,
+    "FirstDropId": 0,
+    "AdditionalId": 19010,
+    "SortId": 14,
     "NewContent": "New_corner"
   }
 ]

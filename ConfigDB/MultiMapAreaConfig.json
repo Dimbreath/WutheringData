@@ -24,7 +24,8 @@
         ]
       }
     ],
-    "MapConfigId": 8
+    "MapConfigId": 8,
+    "GravityFlip": 1
   },
   {
     "Id": "3",
@@ -42,7 +43,8 @@
         ]
       }
     ],
-    "MapConfigId": 8
+    "MapConfigId": 8,
+    "GravityFlip": 1
   },
   {
     "Id": "5",
@@ -89,7 +91,8 @@
         ]
       }
     ],
-    "MapConfigId": 8
+    "MapConfigId": 8,
+    "GravityFlip": 1
   },
   {
     "Id": "6",
@@ -107,7 +110,8 @@
         ]
       }
     ],
-    "MapConfigId": 8
+    "MapConfigId": 8,
+    "GravityFlip": 1
   },
   {
     "Id": "7",
@@ -125,7 +129,8 @@
         ]
       }
     ],
-    "MapConfigId": 900
+    "MapConfigId": 900,
+    "GravityFlip": 1
   },
   {
     "Id": "8",
@@ -152,7 +157,8 @@
         ]
       }
     ],
-    "MapConfigId": 900
+    "MapConfigId": 900,
+    "GravityFlip": 1
   },
   {
     "Id": "9",
@@ -170,7 +176,8 @@
         ]
       }
     ],
-    "MapConfigId": 900
+    "MapConfigId": 900,
+    "GravityFlip": 1
   },
   {
     "Id": "10",
@@ -188,7 +195,8 @@
         ]
       }
     ],
-    "MapConfigId": 8
+    "MapConfigId": 8,
+    "GravityFlip": 1
   },
   {
     "Id": "11",
@@ -215,7 +223,8 @@
         ]
       }
     ],
-    "MapConfigId": 8
+    "MapConfigId": 8,
+    "GravityFlip": 1
   },
   {
     "Id": "12",
@@ -242,7 +251,8 @@
         ]
       }
     ],
-    "MapConfigId": 8
+    "MapConfigId": 8,
+    "GravityFlip": 1
   },
   {
     "Id": "13",
@@ -260,7 +270,8 @@
         ]
       }
     ],
-    "MapConfigId": 8
+    "MapConfigId": 8,
+    "GravityFlip": 1
   },
   {
     "Id": "14",
@@ -278,7 +289,8 @@
         ]
       }
     ],
-    "MapConfigId": 8
+    "MapConfigId": 8,
+    "GravityFlip": 1
   },
   {
     "Id": "15",
@@ -314,7 +326,8 @@
         ]
       }
     ],
-    "MapConfigId": 902
+    "MapConfigId": 902,
+    "GravityFlip": 1
   },
   {
     "Id": "16",
@@ -332,7 +345,8 @@
         ]
       }
     ],
-    "MapConfigId": 902
+    "MapConfigId": 902,
+    "GravityFlip": 1
   },
   {
     "Id": "17",
@@ -350,7 +364,8 @@
         ]
       }
     ],
-    "MapConfigId": 902
+    "MapConfigId": 902,
+    "GravityFlip": 1
   },
   {
     "Id": "18",
@@ -368,7 +383,8 @@
         ]
       }
     ],
-    "MapConfigId": 902
+    "MapConfigId": 902,
+    "GravityFlip": 1
   },
   {
     "Id": "19",
@@ -386,7 +402,8 @@
         ]
       }
     ],
-    "MapConfigId": 8
+    "MapConfigId": 8,
+    "GravityFlip": 1
   },
   {
     "Id": "20",
@@ -404,6 +421,26 @@
         ]
       }
     ],
-    "MapConfigId": 8
+    "MapConfigId": 8,
+    "GravityFlip": 1
+  },
+  {
+    "Id": "21",
+    "Block": "12_-9",
+    "MultiMapList": [
+      19
+    ],
+    "MultiMapRangeList": [
+      {
+        "ArrayInt": [
+          450,
+          150,
+          650,
+          450
+        ]
+      }
+    ],
+    "MapConfigId": 8,
+    "GravityFlip": 1
   }
 ]

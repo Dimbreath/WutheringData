@@ -1353,6 +1353,7 @@
       "/Game/Aki/Character/Role/MaleXL/Qiushui/Data/DT_SkillInfo.DT_SkillInfo",
       "/Game/Aki/Character/Role/MaleXL/Qiushui/Data/System/Rogue/DT_SkillInfo_Rogue.DT_SkillInfo_Rogue",
       "/Game/Aki/Character/Role/MaleXL/Qiushui/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Role/MaleXL/Qiushui/Data/System/Rogue/DT_ReBulletDataMain_Rogue.DT_ReBulletDataMain_Rogue",
       "/Game/Aki/Character/Role/MaleXL/Qiushui/Data/DT_HitEffect.DT_HitEffect",
       "/Game/Aki/Character/Role/MaleXL/Qiushui/Data/DA_PartHitEffect.DA_PartHitEffect"
     ]
@@ -44593,7 +44594,7 @@
       "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_RoleDeath.DA_Fx_Group_RoleDeath",
       "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Press_Smoke.DA_Fx_Group_Press_Smoke",
       "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_MoveChongci.DA_Fx_Group_MoveChongci",
-      "/Game/Aki/Effect/DataAsset/Ghost/DA_Fx_Ghost_R2T1AnkeMd10011.DA_Fx_Ghost_R2T1AnkeMd10011",
+      "/Game/Aki/Effect/DataAsset/Ghost/DA_Fx_Ghost_R2T1YouhuMd10011.DA_Fx_Ghost_R2T1YouhuMd10011",
       "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Jixianshanbi_Start_02.DA_Fx_Group_Jixianshanbi_Start_02",
       "/Game/Aki/Effect/EffectGroup/Common/Zidanpao/DA_Fx_Group_Zidanpao_Pofeng.DA_Fx_Group_Zidanpao_Pofeng",
       "/Game/Aki/Effect/EffectGroup/Common/Zidanpao/DA_Fx_Group_Zidanpao_Suduxian.DA_Fx_Group_Zidanpao_Suduxian",
@@ -52554,7 +52555,7 @@
       "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_RoleDeath.DA_Fx_Group_RoleDeath",
       "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Press_Smoke.DA_Fx_Group_Press_Smoke",
       "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_MoveChongci.DA_Fx_Group_MoveChongci",
-      "/Game/Aki/Effect/DataAsset/Ghost/DA_Fx_Ghost_R2T1AnkeMd10011.DA_Fx_Ghost_R2T1AnkeMd10011",
+      "/Game/Aki/Effect/DataAsset/Ghost/DA_Fx_Ghost_R2T1LuokekeMd10011.DA_Fx_Ghost_R2T1LuokekeMd10011",
       "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Jixianshanbi_Start_02.DA_Fx_Group_Jixianshanbi_Start_02",
       "/Game/Aki/Effect/EffectGroup/Common/Zidanpao/DA_Fx_Group_Zidanpao_Pofeng.DA_Fx_Group_Zidanpao_Pofeng",
       "/Game/Aki/Effect/EffectGroup/Common/Zidanpao/DA_Fx_Group_Zidanpao_Suduxian.DA_Fx_Group_Zidanpao_Suduxian",
@@ -55548,6 +55549,7 @@
       "/Game/Aki/Character/Role/MaleXL/Qiushui/Data/DT_SkillInfo.DT_SkillInfo",
       "/Game/Aki/Character/Role/MaleXL/Qiushui/Data/System/Rogue/DT_SkillInfo_Rogue.DT_SkillInfo_Rogue",
       "/Game/Aki/Character/Role/MaleXL/Qiushui/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Role/MaleXL/Qiushui/Data/System/Rogue/DT_ReBulletDataMain_Rogue.DT_ReBulletDataMain_Rogue",
       "/Game/Aki/Character/Role/MaleXL/Qiushui/Data/DT_HitEffect.DT_HitEffect",
       "/Game/Aki/Character/Role/MaleXL/Qiushui/Data/DA_PartHitEffect.DA_PartHitEffect"
     ]
@@ -57325,6 +57327,104 @@
     "Others": null
   },
   {
+    "Id": 100036,
+    "ActorClassPath": "/Game/Aki/Character/Role/MaleM/WindNanzhu/BP_WindNanzhu.BP_WindNanzhu_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Role/MaleM/WindNanzhu/BP_WindNanzhu.BP_WindNanzhu_C"
+    ],
+    "Animations": [
+      "/Game/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Death.AM_Death",
+      "/Game/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Death_InWater.AM_Death_InWater",
+      "/Game/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Move_F.AM_Move_F",
+      "/Game/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Move_B.AM_Move_B",
+      "/Game/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Jump_Second_F.AM_Jump_Second_F",
+      "/Game/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Jump_Second_B.AM_Jump_Second_B",
+      "/Game/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Move_Limit_F.AM_Move_Limit_F",
+      "/Game/Aki/Character/Role/MaleM/WindNanzhu/CommonAnim/AM_Move_Limit_B.AM_Move_Limit_B",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Super_Sprint_Start.AM_Super_Sprint_Start",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Super_Sprint_End.AM_Super_Sprint_End",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Super_Sprint_Start_F.AM_Super_Sprint_Start_F",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Land_Roll_Attack01_2.AM_Land_Roll_Attack01_2",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Super_Sprint_Stop.AM_Super_Sprint_Stop",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Henshin.AM_Henshin",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_StandUp.AM_StandUp",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_StandUp_Air.AM_StandUp_Air",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Summon.AM_Summon",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Hook_Up.AM_Hook_Up",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Manipulate_Absorb_Start.AM_Manipulate_Absorb_Start",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Manipulate_Releas_F.AM_Manipulate_Releas_F",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Manipulate_Release_F_02.AM_Manipulate_Release_F_02",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Manipulate_Absorb_End.AM_Manipulate_Absorb_End",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Shifang_ShuiLongJuan.AM_Shifang_ShuiLongJuan",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_ShouFu.AM_ShouFu",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Summon_Mingzhongzhigui_Vision.AM_Summon_Mingzhongzhigui_Vision",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Summon_JiXie_Vision.AM_Summon_JiXie_Vision",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Manipulate_Giant.AM_Manipulate_Giant",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Catapult.AM_Catapult",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Catapult_Up.AM_Catapult_Up",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Bounce.AM_Bounce",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_SuperCatapult.AM_SuperCatapult",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Stand_Control.AM_Stand_Control",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Stand_Control_2_0.AM_Stand_Control_2_0",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Captured.AM_Captured",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Behit_Fly_Fall.AM_Behit_Fly_Fall",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Behit_Fly_Loop.AM_Behit_Fly_Loop",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Behit_Push_Loop.AM_Behit_Push_Loop",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Behit_Fly_Start.AM_Behit_Fly_Start",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Behit_Push_Start.AM_Behit_Push_Start",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Behit_S_L.AM_Behit_S_L",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Behit_B_R.AM_Behit_B_R",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Behit_B_L.AM_Behit_B_L",
+      "/Game/Aki/Character/Role/MaleM/BaseAnim/AM_Behit_S_R.AM_Behit_S_R"
+    ],
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Chongci.DA_Fx_Group_Hook_Chongci",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Particle.DA_Fx_Group_Hook_Particle",
+      "/Game/Aki/Effect/EffectGroup/R2T1DarkNvzhu10011/DA_Fx_Group_R2a_Chibang_End_02.DA_Fx_Group_R2a_Chibang_End_02",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Aoxiang_Qitiao.DA_Fx_Group_Aoxiang_Qitiao",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Tread.DA_Fx_Group_Tread",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Aoxiang_Start.DA_Fx_Group_Aoxiang_Start",
+      "/Game/Aki/Effect/EffectGroup/Common/Fight/DA_Fx_Group_Strike.DA_Fx_Group_Strike",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Press_Smoke.DA_Fx_Group_Press_Smoke",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Climb_Ribbon.DA_Fx_Group_Climb_Ribbon",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_RoleDeath.DA_Fx_Group_RoleDeath",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Push_Fall.DA_Fx_Group_Push_Fall",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Move.DA_Fx_Group_Move",
+      "/Game/Aki/Effect/UI/Niagaras/Common/NS_Fx_LGUI_FightHook_Wind_01.NS_Fx_LGUI_FightHook_Wind_01",
+      "/Game/Aki/Effect/Niagara/NI_Common/NS_Fx_Hook_Beam1.NS_Fx_Hook_Beam1",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Ball.DA_Fx_Group_Hook_Ball",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Ball1.DA_Fx_Group_Hook_Ball1",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_MoveChongci.DA_Fx_Group_MoveChongci",
+      "/Game/Aki/Effect/DataAsset/Ghost/DA_Fx_Ghost_R2T1PlayerMaleMd10011.DA_Fx_Ghost_R2T1PlayerMaleMd10011",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Jixianshanbi_Start_02.DA_Fx_Group_Jixianshanbi_Start_02",
+      "/Game/Aki/Effect/EffectGroup/Common/Zidanpao/DA_Fx_Group_Zidanpao_Pofeng.DA_Fx_Group_Zidanpao_Pofeng",
+      "/Game/Aki/Effect/EffectGroup/Common/Zidanpao/DA_Fx_Group_Zidanpao_Suduxian.DA_Fx_Group_Zidanpao_Suduxian",
+      "/Game/Aki/Effect/EffectGroup/ML1AiShengGuYuanMd00501/3C/DA_Fx_Group_3C_MLa_Dash03.DA_Fx_Group_3C_MLa_Dash03",
+      "/Game/Aki/Effect/EffectGroup/Common/Zidanpao/DA_Fx_Group_Zidanpao_Zuji.DA_Fx_Group_Zidanpao_Zuji",
+      "/Game/Aki/Effect/EffectGroup/BigWorld/Dengdengmao/DA_Fx_Group_Dengdengmao_Smoke02.DA_Fx_Group_Dengdengmao_Smoke02",
+      "/Game/Aki/Effect/EffectGroup/NPC_NM008/DA_Fx_Group_Mesh_Attack01.DA_Fx_Group_Mesh_Attack01",
+      "/Game/Aki/Effect/EffectGroup/BigWorld/Dengdengmao/DA_Fx_Group_Dengdengmao_Fangun.DA_Fx_Group_Dengdengmao_Fangun",
+      "/Game/Aki/Effect/EffectGroup/BigWorld/Dengdengmao/DA_Fx_Group_Dengdengmao_Xiaza01.DA_Fx_Group_Dengdengmao_Xiaza01",
+      "/Game/Aki/Effect/EffectGroup/BigWorld/Paoku/DA_Fx_Group_Sl3_Paoku_Jiasu_01Feng.DA_Fx_Group_Sl3_Paoku_Jiasu_01Feng",
+      "/Game/Aki/Effect/EffectGroup/UI_Scenes/DA_Fx_Group_Jiguan.DA_Fx_Group_Jiguan",
+      "/Game/Aki/Effect/EffectGroup/UI_Scenes/DA_Fx_Group_Jiguan_2_0.DA_Fx_Group_Jiguan_2_0"
+    ],
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Role/MaleM/Nanzhu/R2T1PlayerMaleMd10011/Model/R2T1PlayerMaleMd10011.R2T1PlayerMaleMd10011"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/Role/MaleM/WindNanzhu/R2T1WindNanzhuMd10011/ABP_WindNanzhu_PC.ABP_WindNanzhu_PC_C"
+    ],
+    "Others": [
+      "/Game/Aki/Character/Role/MaleM/WindNanzhu/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Role/MaleM/WindNanzhu/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Role/MaleM/WindNanzhu/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/Role/MaleM/WindNanzhu/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
     "Id": 390279,
     "ActorClassPath": "/Game/Aki/Character/Monster/ElitePro/MP1HeibaiqishiMd00501/BP_MP1HeibaiqishiMd00501.BP_MP1HeibaiqishiMd00501_C",
     "ActorClass": [
@@ -57653,6 +57753,126 @@
       "/Game/Aki/Character/Role/FemaleM/Sanhua/Data/DT_HitEffect.DT_HitEffect",
       "/Game/Aki/Character/Role/FemaleM/Sanhua/Data/DA_PartHitEffect.DA_PartHitEffect",
       "/Game/Aki/Character/Role/FemaleM/Sanhua/R2T1SanhuaMd20011/DT_ReplaceEffect.DT_ReplaceEffect"
+    ]
+  },
+  {
+    "Id": 100037,
+    "ActorClassPath": "/Game/Aki/Character/Role/FemaleXL/Kanteleila/BP_Kanteleila.BP_Kanteleila_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Role/FemaleXL/Kanteleila/BP_Kanteleila.BP_Kanteleila_C"
+    ],
+    "Animations": [
+      "/Game/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Death.AM_Death",
+      "/Game/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Death_InWater.AM_Death_InWater",
+      "/Game/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Move_F.AM_Move_F",
+      "/Game/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Move_B.AM_Move_B",
+      "/Game/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Jump_Second_F.AM_Jump_Second_F",
+      "/Game/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Jump_Second_B.AM_Jump_Second_B",
+      "/Game/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Move_Limit_F.AM_Move_Limit_F",
+      "/Game/Aki/Character/Role/FemaleXL/Kanteleila/CommonAnim/AM_Move_Limit_B.AM_Move_Limit_B",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Super_Sprint_Start.AM_Super_Sprint_Start",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Super_Sprint_End.AM_Super_Sprint_End",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Super_Sprint_Start_F.AM_Super_Sprint_Start_F",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Land_Roll_Attack01_2.AM_Land_Roll_Attack01_2",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Super_Sprint_Stop.AM_Super_Sprint_Stop",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Henshin.AM_Henshin",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_StandUp.AM_StandUp",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_StandUp_Air.AM_StandUp_Air",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Summon.AM_Summon",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Hook_Up.AM_Hook_Up",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Manipulate_Absorb_Start.AM_Manipulate_Absorb_Start",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Manipulate_Releas_F.AM_Manipulate_Releas_F",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Manipulate_Release_F_02.AM_Manipulate_Release_F_02",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Manipulate_Absorb_End.AM_Manipulate_Absorb_End",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Shifang_ShuiLongJuan.AM_Shifang_ShuiLongJuan",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_ShouFu.AM_ShouFu",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Summon_Mingzhongzhigui_Vision.AM_Summon_Mingzhongzhigui_Vision",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Summon_JiXie_Vision.AM_Summon_JiXie_Vision",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Manipulate_Giant.AM_Manipulate_Giant",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult.AM_Catapult",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up.AM_Catapult_Up",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Bounce.AM_Bounce",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_SuperCatapult.AM_SuperCatapult",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Stand_Control.AM_Stand_Control",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Stand_Control_2_0.AM_Stand_Control_2_0",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Captured.AM_Captured",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Behit_Fly_Fall.AM_Behit_Fly_Fall",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Behit_Fly_Loop.AM_Behit_Fly_Loop",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Behit_Push_Loop.AM_Behit_Push_Loop",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Behit_Fly_Start.AM_Behit_Fly_Start",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Behit_Push_Start.AM_Behit_Push_Start",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Behit_S_L.AM_Behit_S_L",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Behit_B_R.AM_Behit_B_R",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Behit_B_L.AM_Behit_B_L",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Behit_S_R.AM_Behit_S_R"
+    ],
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/R2T1KanteleilaMd10011/DA_Fx_Group_R1s_HandTrail.DA_Fx_Group_R1s_HandTrail",
+      "/Game/Aki/Effect/EffectGroup/R2T1KanteleilaMd10011/DA_Fx_Group_R1s_Stand.DA_Fx_Group_R1s_Stand",
+      "/Game/Aki/Effect/EffectGroup/R2T1KanteleilaMd10011/DA_Fx_Group_R1s_ShuimuTrail.DA_Fx_Group_R1s_ShuimuTrail",
+      "/Game/Aki/Effect/DataAsset/Niagara/R2T1KanteleilaMd10011/DA_Fx_R1a_HAttack_San.DA_Fx_R1a_HAttack_San",
+      "/Game/Aki/Effect/EffectGroup/R2T1KanteleilaMd10011/DA_Fx_Group_R1a_Sp3_Bao.DA_Fx_Group_R1a_Sp3_Bao",
+      "/Game/Aki/Effect/EffectGroup/R2T1KanteleilaMd10011/DA_Fx_Group_R1b_SmTrail.DA_Fx_Group_R1b_SmTrail",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Chongci.DA_Fx_Group_Hook_Chongci",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Particle.DA_Fx_Group_Hook_Particle",
+      "/Game/Aki/Effect/EffectGroup/R2T1DarkNvzhu10011/DA_Fx_Group_R2a_Chibang_End_02.DA_Fx_Group_R2a_Chibang_End_02",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Aoxiang_Qitiao.DA_Fx_Group_Aoxiang_Qitiao",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Tread.DA_Fx_Group_Tread",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Aoxiang_Start.DA_Fx_Group_Aoxiang_Start",
+      "/Game/Aki/Effect/EffectGroup/Common/Fight/DA_Fx_Group_Strike.DA_Fx_Group_Strike",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Press_Smoke.DA_Fx_Group_Press_Smoke",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Climb_Ribbon.DA_Fx_Group_Climb_Ribbon",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_RoleDeath.DA_Fx_Group_RoleDeath",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Push_Fall.DA_Fx_Group_Push_Fall",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Move.DA_Fx_Group_Move",
+      "/Game/Aki/Effect/EffectGroup/R2T1KanteleilaMd10011/DA_Fx_Group_R1s_Move.DA_Fx_Group_R1s_Move",
+      "/Game/Aki/Effect/EffectGroup/R2T1KanteleilaMd10011/DA_Fx_Group_Mesh_Stand1_Shuimu.DA_Fx_Group_Mesh_Stand1_Shuimu",
+      "/Game/Aki/Effect/EffectGroup/R2T1KanteleilaMd10011/DA_Fx_Group_R1a_Stand1_Trail.DA_Fx_Group_R1a_Stand1_Trail",
+      "/Game/Aki/Effect/EffectGroup/R2T1KanteleilaMd10011/DA_Fx_Group_Mesh_Stand1_Shuimuda.DA_Fx_Group_Mesh_Stand1_Shuimuda",
+      "/Game/Aki/Effect/EffectGroup/R2T1KanteleilaMd10011/DA_Fx_Group_R1a_Stand_Shuimu.DA_Fx_Group_R1a_Stand_Shuimu",
+      "/Game/Aki/Effect/EffectGroup/R2T1KanteleilaMd10011/DA_Fx_Group_Mesh_Stand1_Yaopin.DA_Fx_Group_Mesh_Stand1_Yaopin",
+      "/Game/Aki/Effect/EffectGroup/R2T1KanteleilaMd10011/DA_Fx_Group_R1a_Stand2_Shui.DA_Fx_Group_R1a_Stand2_Shui",
+      "/Game/Aki/Effect/EffectGroup/R2T1KanteleilaMd10011/DA_Fx_Group_Mesh_Stand1_Guo.DA_Fx_Group_Mesh_Stand1_Guo",
+      "/Game/Aki/Effect/EffectGroup/R2T1KanteleilaMd10011/DA_Fx_Group_R1b_Shuimu.DA_Fx_Group_R1b_Shuimu",
+      "/Game/Aki/Effect/EffectGroup/R2T1KanteleilaMd10011/DA_Fx_Group_R1a05_SanOpen.DA_Fx_Group_R1a05_SanOpen",
+      "/Game/Aki/Effect/EffectGroup/R2T1KanteleilaMd10011/DA_Fx_Group_Mesh_Stand1_San.DA_Fx_Group_Mesh_Stand1_San",
+      "/Game/Aki/Effect/EffectGroup/R2T1KanteleilaMd10011/DA_Fx_Group_R1a_Stand1_Daoguang.DA_Fx_Group_R1a_Stand1_Daoguang",
+      "/Game/Aki/Effect/EffectGroup/R2T1KanteleilaMd10011/DA_Fx_Group_R1a_Stand1_Fenwei.DA_Fx_Group_R1a_Stand1_Fenwei",
+      "/Game/Aki/Effect/DataAsset/PostProcess/R2T1KanteleilaMd10011/DA_Fx_Post_R1s_Sky_Stand.DA_Fx_Post_R1s_Sky_Stand",
+      "/Game/Aki/Effect/UI/Niagaras/Common/NS_Fx_LGUI_FightHook_Wind_01.NS_Fx_LGUI_FightHook_Wind_01",
+      "/Game/Aki/Effect/Niagara/NI_Common/NS_Fx_Hook_Beam1.NS_Fx_Hook_Beam1",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Ball.DA_Fx_Group_Hook_Ball",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Ball1.DA_Fx_Group_Hook_Ball1",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_MoveChongci.DA_Fx_Group_MoveChongci",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Jixianshanbi_Start_02.DA_Fx_Group_Jixianshanbi_Start_02",
+      "/Game/Aki/Effect/EffectGroup/Common/Zidanpao/DA_Fx_Group_Zidanpao_Pofeng.DA_Fx_Group_Zidanpao_Pofeng",
+      "/Game/Aki/Effect/EffectGroup/Common/Zidanpao/DA_Fx_Group_Zidanpao_Suduxian.DA_Fx_Group_Zidanpao_Suduxian",
+      "/Game/Aki/Effect/EffectGroup/ML1AiShengGuYuanMd00501/3C/DA_Fx_Group_3C_MLa_Dash03.DA_Fx_Group_3C_MLa_Dash03",
+      "/Game/Aki/Effect/EffectGroup/Common/Zidanpao/DA_Fx_Group_Zidanpao_Zuji.DA_Fx_Group_Zidanpao_Zuji",
+      "/Game/Aki/Effect/EffectGroup/BigWorld/Dengdengmao/DA_Fx_Group_Dengdengmao_Smoke02.DA_Fx_Group_Dengdengmao_Smoke02",
+      "/Game/Aki/Effect/EffectGroup/NPC_NM008/DA_Fx_Group_Mesh_Attack01.DA_Fx_Group_Mesh_Attack01",
+      "/Game/Aki/Effect/EffectGroup/BigWorld/Dengdengmao/DA_Fx_Group_Dengdengmao_Fangun.DA_Fx_Group_Dengdengmao_Fangun",
+      "/Game/Aki/Effect/EffectGroup/BigWorld/Dengdengmao/DA_Fx_Group_Dengdengmao_Xiaza01.DA_Fx_Group_Dengdengmao_Xiaza01",
+      "/Game/Aki/Effect/EffectGroup/BigWorld/Paoku/DA_Fx_Group_Sl3_Paoku_Jiasu_01Feng.DA_Fx_Group_Sl3_Paoku_Jiasu_01Feng",
+      "/Game/Aki/Effect/EffectGroup/UI_Scenes/DA_Fx_Group_Jiguan.DA_Fx_Group_Jiguan",
+      "/Game/Aki/Effect/EffectGroup/UI_Scenes/DA_Fx_Group_Jiguan_2_0.DA_Fx_Group_Jiguan_2_0"
+    ],
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Role/FemaleXL/Kanteleila/R2T1KanteleilaMd10011/Model/R2T1KanteleilaMd10011.R2T1KanteleilaMd10011"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/Role/FemaleXL/Kanteleila/R2T1KanteleilaMd10011/ABP_R2T1KanteleilaMd10011_PC.ABP_R2T1KanteleilaMd10011_PC_C"
+    ],
+    "Others": [
+      "/Game/Aki/Character/Role/FemaleXL/Kanteleila/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Role/FemaleXL/Kanteleila/Data/System/DT_SkillInfo_Rogue.DT_SkillInfo_Rogue",
+      "/Game/Aki/Character/Role/FemaleXL/Kanteleila/Data/System/DT_SkillInfo_Performance.DT_SkillInfo_Performance",
+      "/Game/Aki/Character/Role/FemaleXL/Kanteleila/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Role/FemaleXL/Kanteleila/Data/System/DT_ReBulletDataMain_Rogue.DT_ReBulletDataMain_Rogue",
+      "/Game/Aki/Character/Role/FemaleXL/Kanteleila/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/Role/FemaleXL/Kanteleila/Data/DA_PartHitEffect.DA_PartHitEffect"
     ]
   },
   {
@@ -58183,6 +58403,127 @@
     ]
   },
   {
+    "Id": 39004904,
+    "ActorClassPath": "/Game/Aki/Character/Monster/Ordinary/MO1GAziziMd00501/BP_MO1GAziziMd00501_xxgtest.BP_MO1GAziziMd00501_xxgtest_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1GAziziMd00501/BP_MO1GAziziMd00501_xxgtest.BP_MO1GAziziMd00501_xxgtest_C"
+    ],
+    "Animations": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1GAziziMd00501/CommonAnim/AM_Death.AM_Death",
+      "/Game/Aki/Character/Monster/Ordinary/MO1GAziziMd00501/CommonAnim/AM_Death_InWater.AM_Death_InWater",
+      "/Game/Aki/Character/Monster/Ordinary/MO1GAziziMd00501/CommonAnim/AM_Death_Shoufu.AM_Death_Shoufu",
+      "/Game/Aki/Character/Monster/Ordinary/MO1GAziziMd00501/CommonAnim/AM_Death_Falling.AM_Death_Falling",
+      "/Game/Aki/Character/Monster/Ordinary/MO1GAziziMd00501/CommonAnim/AM_StandUp.AM_StandUp",
+      "/Game/Aki/Character/Monster/Ordinary/MO1GAziziMd00501/CommonAnim/AM_Behit_Fly_Fall.AM_Behit_Fly_Fall",
+      "/Game/Aki/Character/Monster/Ordinary/MO1GAziziMd00501/CommonAnim/AM_Behit_Fly_Loop.AM_Behit_Fly_Loop",
+      "/Game/Aki/Character/Monster/Ordinary/MO1GAziziMd00501/CommonAnim/AM_Behit_Push_Loop.AM_Behit_Push_Loop",
+      "/Game/Aki/Character/Monster/Ordinary/MO1GAziziMd00501/CommonAnim/AM_Behit_Fly_Start.AM_Behit_Fly_Start",
+      "/Game/Aki/Character/Monster/Ordinary/MO1GAziziMd00501/CommonAnim/AM_Behit_Push_Start.AM_Behit_Push_Start",
+      "/Game/Aki/Character/Monster/Ordinary/MO1GAziziMd00501/CommonAnim/AM_Behit_S_L.AM_Behit_S_L",
+      "/Game/Aki/Character/Monster/Ordinary/MO1GAziziMd00501/CommonAnim/AM_Behit_S_Press.AM_Behit_S_Press",
+      "/Game/Aki/Character/Monster/Ordinary/MO1GAziziMd00501/CommonAnim/AM_Behit_B_R.AM_Behit_B_R",
+      "/Game/Aki/Character/Monster/Ordinary/MO1GAziziMd00501/CommonAnim/AM_Behit_B_L.AM_Behit_B_L",
+      "/Game/Aki/Character/Monster/Ordinary/MO1GAziziMd00501/CommonAnim/AM_Behit_S_R.AM_Behit_S_R"
+    ],
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Death.DA_Fx_Group_Death",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Monster_Die_InWater.DA_Fx_Group_Monster_Die_InWater",
+      "/Game/Aki/Effect/EffectGroup/Common/Fight/DA_Fx_Group_Shoufu_Start.DA_Fx_Group_Shoufu_Start",
+      "/Game/Aki/Effect/EffectGroup/MO1GAziziMd00501/DA_Fx_Group_BeShouji_01.DA_Fx_Group_BeShouji_01"
+    ],
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1GAziziMd00501/Model/MO1GAziziMd00501.MO1GAziziMd00501"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1GAziziMd00501/ABP_MO1GAziziMd00501_xxgtest.ABP_MO1GAziziMd00501_xxgtest_C"
+    ],
+    "Others": null
+  },
+  {
+    "Id": 39004905,
+    "ActorClassPath": "/Game/Aki/Character/Monster/Elite/ME1AntankeMd00601/BP_ME1AntankeMd00601_xxgtest.BP_ME1AntankeMd00601_xxgtest_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Monster/Elite/ME1AntankeMd00601/BP_ME1AntankeMd00601_xxgtest.BP_ME1AntankeMd00601_xxgtest_C"
+    ],
+    "Animations": [
+      "/Game/Aki/Character/Monster/Elite/ME1AntankeMd00601/CommonAnim/AM_Death.AM_Death",
+      "/Game/Aki/Character/Monster/Elite/ME1AntankeMd00601/CommonAnim/AM_Death_InWater.AM_Death_InWater",
+      "/Game/Aki/Character/Monster/Elite/ME1AntankeMd00601/CommonAnim/AM_Death_Shoufu.AM_Death_Shoufu",
+      "/Game/Aki/Character/Monster/Elite/ME1AntankeMd00601/CommonAnim/AM_Behit_S_L.AM_Behit_S_L",
+      "/Game/Aki/Character/Monster/Elite/ME1AntankeMd00601/CommonAnim/AM_Behit_Block.AM_Behit_Block",
+      "/Game/Aki/Character/Monster/Elite/ME1AntankeMd00601/CommonAnim/AM_Behit_B_R.AM_Behit_B_R",
+      "/Game/Aki/Character/Monster/Elite/ME1AntankeMd00601/CommonAnim/AM_Behit_B_L.AM_Behit_B_L",
+      "/Game/Aki/Character/Monster/Elite/ME1AntankeMd00601/CommonAnim/AM_Behit_S_R.AM_Behit_S_R"
+    ],
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Death.DA_Fx_Group_Death",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Monster_Die_InWater.DA_Fx_Group_Monster_Die_InWater"
+    ],
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Monster/Elite/ME1AntankeMd00601/Model/ME1AntankeMd00601.ME1AntankeMd00601"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/Monster/Elite/ME1AntankeMd00601/ABP_ME1AntankeMd00601_xxgtest.ABP_ME1AntankeMd00601_xxgtest_C"
+    ],
+    "Others": null
+  },
+  {
+    "Id": 39004906,
+    "ActorClassPath": "/Game/Aki/Character/Monster/Elite/ME1LeiFaMd00301/BP_ME1LeiFaMd00301_xxgtest.BP_ME1LeiFaMd00301_xxgtest_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Monster/Elite/ME1LeiFaMd00301/BP_ME1LeiFaMd00301_xxgtest.BP_ME1LeiFaMd00301_xxgtest_C"
+    ],
+    "Animations": [
+      "/Game/Aki/Character/Monster/Elite/ME1LeiFaMd00301/CommonAnim/AM_Death.AM_Death",
+      "/Game/Aki/Character/Monster/Elite/ME1LeiFaMd00301/CommonAnim/AM_Death_InWater.AM_Death_InWater",
+      "/Game/Aki/Character/Monster/Elite/ME1LeiFaMd00301/CommonAnim/AM_Death_Shoufu.AM_Death_Shoufu",
+      "/Game/Aki/Character/Monster/Elite/ME1LeiFaMd00301/CommonAnim/AM_Behit_S_L.AM_Behit_S_L",
+      "/Game/Aki/Character/Monster/Elite/ME1LeiFaMd00301/CommonAnim/AM_Behit_Block.AM_Behit_Block",
+      "/Game/Aki/Character/Monster/Elite/ME1LeiFaMd00301/CommonAnim/AM_Behit_B_R.AM_Behit_B_R",
+      "/Game/Aki/Character/Monster/Elite/ME1LeiFaMd00301/CommonAnim/AM_Behit_B_L.AM_Behit_B_L",
+      "/Game/Aki/Character/Monster/Elite/ME1LeiFaMd00301/CommonAnim/AM_Behit_S_R.AM_Behit_S_R"
+    ],
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Death.DA_Fx_Group_Death",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Monster_Die_InWater.DA_Fx_Group_Monster_Die_InWater"
+    ],
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Monster/Elite/ME1LeiFaMd00301/Model/ME1LeiFaMd00301.ME1LeiFaMd00301"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/Monster/Elite/ME1LeiFaMd00301/ABP_ME1LeiFaMd00301_xxgtest.ABP_ME1LeiFaMd00301_xxgtest_C"
+    ],
+    "Others": null
+  },
+  {
+    "Id": 39009503,
+    "ActorClassPath": "/Game/Aki/Character/ControlMonster/Ordinary/MO1TuanZi/BP_GuguhetunMd00201_ControlMoonster_xxgtest.BP_GuguhetunMd00201_ControlMoonster_xxgtest_C",
+    "ActorClass": [
+      "/Game/Aki/Character/ControlMonster/Ordinary/MO1TuanZi/BP_GuguhetunMd00201_ControlMoonster_xxgtest.BP_GuguhetunMd00201_ControlMoonster_xxgtest_C"
+    ],
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1GuguhetunMd00201/Model/MO1GuguhetunMd00201.MO1GuguhetunMd00201"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/ControlMonster/Ordinary/MO1TuanZi/ABP_GuguhetunMd00201_ControlMoonster_xxgtest.ABP_GuguhetunMd00201_ControlMoonster_xxgtest_C"
+    ],
+    "Others": [
+      "/Game/Aki/Character/ControlMonster/Ordinary/MO1TuanZi/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/ControlMonster/Ordinary/MO1TuanZi/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/ControlMonster/Ordinary/MO1TuanZi/Data/DT_HitEffect.DT_HitEffect"
+    ]
+  },
+  {
     "Id": 562034,
     "ActorClassPath": "/Game/Aki/Character/Item/BP_BaseItem.BP_BaseItem_C",
     "ActorClass": [
@@ -58400,6 +58741,22 @@
     ]
   },
   {
+    "Id": 790063,
+    "ActorClassPath": "/Game/Aki/Character/Item/BP_BaseItem.BP_BaseItem_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Item/BP_BaseItem.BP_BaseItem_C"
+    ],
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Scene/InteractionLevel/Prefab/2_2/TPrefab_yincangshuguimen.TPrefab_yincangshuguimen"
+    ]
+  },
+  {
     "Id": 420140,
     "ActorClassPath": "/Game/Aki/Character/NPC/RoleNPC/FemaleM/Chun/BP_Chun_NPC.BP_Chun_NPC_C",
     "ActorClass": [
@@ -58561,44 +58918,7 @@
     "ActorClass": [
       "/Game/Aki/Character/Role/FemaleMS/Katixiya/BP_Katixiya.BP_Katixiya_C"
     ],
-    "Animations": [
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Super_Sprint_Start.AM_Super_Sprint_Start",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Super_Sprint_End.AM_Super_Sprint_End",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Super_Sprint_Start_F.AM_Super_Sprint_Start_F",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Land_Roll_Attack01_2.AM_Land_Roll_Attack01_2",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Super_Sprint_Stop.AM_Super_Sprint_Stop",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Henshin.AM_Henshin",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_StandUp.AM_StandUp",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_StandUp_Air.AM_StandUp_Air",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Summon.AM_Summon",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Hook_Up.AM_Hook_Up",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Manipulate_Absorb_Start.AM_Manipulate_Absorb_Start",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Manipulate_Releas_F.AM_Manipulate_Releas_F",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Manipulate_Release_F_02.AM_Manipulate_Release_F_02",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Manipulate_Absorb_End.AM_Manipulate_Absorb_End",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Shifang_ShuiLongJuan.AM_Shifang_ShuiLongJuan",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_ShouFu.AM_ShouFu",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Summon_Mingzhongzhigui_Vision.AM_Summon_Mingzhongzhigui_Vision",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Summon_JiXie_Vision.AM_Summon_JiXie_Vision",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Manipulate_Giant.AM_Manipulate_Giant",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Catapult.AM_Catapult",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Catapult_Up.AM_Catapult_Up",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Bounce.AM_Bounce",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_SuperCatapult.AM_SuperCatapult",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Stand_Control.AM_Stand_Control",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Stand_Control_2_0.AM_Stand_Control_2_0",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_DurationInteract_Start.AM_DurationInteract_Start",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Captured.AM_Captured",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Behit_Fly_Fall.AM_Behit_Fly_Fall",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Behit_Fly_Loop.AM_Behit_Fly_Loop",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Behit_Push_Loop.AM_Behit_Push_Loop",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Behit_Fly_Start.AM_Behit_Fly_Start",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Behit_Push_Start.AM_Behit_Push_Start",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Behit_S_L.AM_Behit_S_L",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Behit_B_R.AM_Behit_B_R",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Behit_B_L.AM_Behit_B_L",
-      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Behit_S_R.AM_Behit_S_R"
-    ],
+    "Animations": null,
     "Effects": [
       "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Chongci.DA_Fx_Group_Hook_Chongci",
       "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Particle.DA_Fx_Group_Hook_Particle",
@@ -58615,18 +58935,7 @@
       "/Game/Aki/Effect/UI/Niagaras/Common/NS_Fx_LGUI_FightHook_Wind_01.NS_Fx_LGUI_FightHook_Wind_01",
       "/Game/Aki/Effect/Niagara/NI_Common/NS_Fx_Hook_Beam1.NS_Fx_Hook_Beam1",
       "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Ball.DA_Fx_Group_Hook_Ball",
-      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Ball1.DA_Fx_Group_Hook_Ball1",
-      "/Game/Aki/Effect/EffectGroup/Common/Zidanpao/DA_Fx_Group_Zidanpao_Pofeng.DA_Fx_Group_Zidanpao_Pofeng",
-      "/Game/Aki/Effect/EffectGroup/Common/Zidanpao/DA_Fx_Group_Zidanpao_Suduxian.DA_Fx_Group_Zidanpao_Suduxian",
-      "/Game/Aki/Effect/EffectGroup/ML1AiShengGuYuanMd00501/3C/DA_Fx_Group_3C_MLa_Dash03.DA_Fx_Group_3C_MLa_Dash03",
-      "/Game/Aki/Effect/EffectGroup/Common/Zidanpao/DA_Fx_Group_Zidanpao_Zuji.DA_Fx_Group_Zidanpao_Zuji",
-      "/Game/Aki/Effect/EffectGroup/BigWorld/Dengdengmao/DA_Fx_Group_Dengdengmao_Smoke02.DA_Fx_Group_Dengdengmao_Smoke02",
-      "/Game/Aki/Effect/EffectGroup/NPC_NM008/DA_Fx_Group_Mesh_Attack01.DA_Fx_Group_Mesh_Attack01",
-      "/Game/Aki/Effect/EffectGroup/BigWorld/Dengdengmao/DA_Fx_Group_Dengdengmao_Fangun.DA_Fx_Group_Dengdengmao_Fangun",
-      "/Game/Aki/Effect/EffectGroup/BigWorld/Dengdengmao/DA_Fx_Group_Dengdengmao_Xiaza01.DA_Fx_Group_Dengdengmao_Xiaza01",
-      "/Game/Aki/Effect/EffectGroup/BigWorld/Paoku/DA_Fx_Group_Sl3_Paoku_Jiasu_01Feng.DA_Fx_Group_Sl3_Paoku_Jiasu_01Feng",
-      "/Game/Aki/Effect/EffectGroup/UI_Scenes/DA_Fx_Group_Jiguan.DA_Fx_Group_Jiguan",
-      "/Game/Aki/Effect/EffectGroup/UI_Scenes/DA_Fx_Group_Jiguan_2_0.DA_Fx_Group_Jiguan_2_0"
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Ball1.DA_Fx_Group_Hook_Ball1"
     ],
     "Audios": null,
     "Meshes": [
@@ -58797,13 +59106,84 @@
     ]
   },
   {
+    "Id": 390295,
+    "ActorClassPath": "/Game/Aki/Character/Monster/Boss/MB1FuludelisiMd00401/BP_MB1FuludelisiMd00401.BP_MB1FuludelisiMd00401_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Monster/Boss/MB1FuludelisiMd00401/BP_MB1FuludelisiMd00401.BP_MB1FuludelisiMd00401_C"
+    ],
+    "Animations": [
+      "/Game/Aki/Character/Monster/Boss/MB1FuludelisiMd00401/CommonAnim/AM_Death.AM_Death",
+      "/Game/Aki/Character/Monster/Boss/MB1FuludelisiMd00401/CommonAnim/AM_Behit_S_L.AM_Behit_S_L",
+      "/Game/Aki/Character/Monster/Boss/MB1FuludelisiMd00401/CommonAnim/AM_Behit_B_R.AM_Behit_B_R",
+      "/Game/Aki/Character/Monster/Boss/MB1FuludelisiMd00401/CommonAnim/AM_Behit_B_L.AM_Behit_B_L",
+      "/Game/Aki/Character/Monster/Boss/MB1FuludelisiMd00401/CommonAnim/AM_Behit_S_R.AM_Behit_S_R"
+    ],
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/MB1KatixiyaMd00201/DA_Fx_Group_Katixiya_MBa07_Takong.DA_Fx_Group_Katixiya_MBa07_Takong",
+      "/Game/Aki/Effect/EffectGroup/MB1KatixiyaMd00201/DA_Fx_Group_Katixiya_MBa_Weapon.DA_Fx_Group_Katixiya_MBa_Weapon",
+      "/Game/Aki/Effect/EffectGroup/MB1KatixiyaMd00201/DA_Fx_Group_Katixiya_MBa_Death.DA_Fx_Group_Katixiya_MBa_Death",
+      "/Game/Aki/Effect/EffectGroup/MB1KatixiyaMd00201/DA_Fx_Group_Katixiya_MBa_DeathBurst.DA_Fx_Group_Katixiya_MBa_DeathBurst"
+    ],
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Role/FemaleZ/R2T1FuludelisiMd10011/Model/R2T1FuludelisiMd10011.R2T1FuludelisiMd10011"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/Monster/Boss/MB1FuludelisiMd00401/ABP_MB1FuludelisiMd00401.ABP_MB1FuludelisiMd00401_C"
+    ],
+    "Others": [
+      "/Game/Aki/Character/Monster/Boss/MB1FuludelisiMd00401/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Monster/Boss/MB1FuludelisiMd00401/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Monster/Boss/MB1FuludelisiMd00401/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/Monster/Boss/MB1FuludelisiMd00401/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
     "Id": 100039,
     "ActorClassPath": "/Game/Aki/Character/Role/FemaleXL/Zanni/BP_Zanni.BP_Zanni_C",
     "ActorClass": [
       "/Game/Aki/Character/Role/FemaleXL/Zanni/BP_Zanni.BP_Zanni_C"
     ],
-    "Animations": null,
+    "Animations": [
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Super_Sprint_Start.AM_Super_Sprint_Start",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Super_Sprint_End.AM_Super_Sprint_End",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Super_Sprint_Start_F.AM_Super_Sprint_Start_F",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Land_Roll_Attack01_2.AM_Land_Roll_Attack01_2",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Super_Sprint_Stop.AM_Super_Sprint_Stop",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Henshin.AM_Henshin",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_StandUp.AM_StandUp",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_StandUp_Air.AM_StandUp_Air",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Summon.AM_Summon",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Hook_Up.AM_Hook_Up",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Manipulate_Absorb_Start.AM_Manipulate_Absorb_Start",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Manipulate_Releas_F.AM_Manipulate_Releas_F",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Manipulate_Release_F_02.AM_Manipulate_Release_F_02",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Manipulate_Absorb_End.AM_Manipulate_Absorb_End",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Shifang_ShuiLongJuan.AM_Shifang_ShuiLongJuan",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_ShouFu.AM_ShouFu",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Summon_Mingzhongzhigui_Vision.AM_Summon_Mingzhongzhigui_Vision",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Summon_JiXie_Vision.AM_Summon_JiXie_Vision",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Manipulate_Giant.AM_Manipulate_Giant",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult.AM_Catapult",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Catapult_Up.AM_Catapult_Up",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Bounce.AM_Bounce",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_SuperCatapult.AM_SuperCatapult",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Stand_Control.AM_Stand_Control",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Stand_Control_2_0.AM_Stand_Control_2_0",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Captured.AM_Captured",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Behit_Fly_Fall.AM_Behit_Fly_Fall",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Behit_Fly_Loop.AM_Behit_Fly_Loop",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Behit_Push_Loop.AM_Behit_Push_Loop",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Behit_Fly_Start.AM_Behit_Fly_Start",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Behit_Push_Start.AM_Behit_Push_Start",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Behit_S_L.AM_Behit_S_L",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Behit_B_R.AM_Behit_B_R",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Behit_B_L.AM_Behit_B_L",
+      "/Game/Aki/Character/Role/FemaleXL/BaseAnim/AM_Behit_S_R.AM_Behit_S_R"
+    ],
     "Effects": [
+      "/Game/Aki/Effect/DataAsset/Ghost/DA_Fx_Ghost_R2T1Changli_140001.DA_Fx_Ghost_R2T1Changli_140001",
       "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Chongci.DA_Fx_Group_Hook_Chongci",
       "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Particle.DA_Fx_Group_Hook_Particle",
       "/Game/Aki/Effect/EffectGroup/R2T1DarkNvzhu10011/DA_Fx_Group_R2a_Chibang_End_02.DA_Fx_Group_R2a_Chibang_End_02",
@@ -58819,7 +59199,18 @@
       "/Game/Aki/Effect/UI/Niagaras/Common/NS_Fx_LGUI_FightHook_Wind_01.NS_Fx_LGUI_FightHook_Wind_01",
       "/Game/Aki/Effect/Niagara/NI_Common/NS_Fx_Hook_Beam1.NS_Fx_Hook_Beam1",
       "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Ball.DA_Fx_Group_Hook_Ball",
-      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Ball1.DA_Fx_Group_Hook_Ball1"
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Ball1.DA_Fx_Group_Hook_Ball1",
+      "/Game/Aki/Effect/EffectGroup/Common/Zidanpao/DA_Fx_Group_Zidanpao_Pofeng.DA_Fx_Group_Zidanpao_Pofeng",
+      "/Game/Aki/Effect/EffectGroup/Common/Zidanpao/DA_Fx_Group_Zidanpao_Suduxian.DA_Fx_Group_Zidanpao_Suduxian",
+      "/Game/Aki/Effect/EffectGroup/ML1AiShengGuYuanMd00501/3C/DA_Fx_Group_3C_MLa_Dash03.DA_Fx_Group_3C_MLa_Dash03",
+      "/Game/Aki/Effect/EffectGroup/Common/Zidanpao/DA_Fx_Group_Zidanpao_Zuji.DA_Fx_Group_Zidanpao_Zuji",
+      "/Game/Aki/Effect/EffectGroup/BigWorld/Dengdengmao/DA_Fx_Group_Dengdengmao_Smoke02.DA_Fx_Group_Dengdengmao_Smoke02",
+      "/Game/Aki/Effect/EffectGroup/NPC_NM008/DA_Fx_Group_Mesh_Attack01.DA_Fx_Group_Mesh_Attack01",
+      "/Game/Aki/Effect/EffectGroup/BigWorld/Dengdengmao/DA_Fx_Group_Dengdengmao_Fangun.DA_Fx_Group_Dengdengmao_Fangun",
+      "/Game/Aki/Effect/EffectGroup/BigWorld/Dengdengmao/DA_Fx_Group_Dengdengmao_Xiaza01.DA_Fx_Group_Dengdengmao_Xiaza01",
+      "/Game/Aki/Effect/EffectGroup/BigWorld/Paoku/DA_Fx_Group_Sl3_Paoku_Jiasu_01Feng.DA_Fx_Group_Sl3_Paoku_Jiasu_01Feng",
+      "/Game/Aki/Effect/EffectGroup/UI_Scenes/DA_Fx_Group_Jiguan.DA_Fx_Group_Jiguan",
+      "/Game/Aki/Effect/EffectGroup/UI_Scenes/DA_Fx_Group_Jiguan_2_0.DA_Fx_Group_Jiguan_2_0"
     ],
     "Audios": null,
     "Meshes": [
@@ -70364,31 +70755,6 @@
     "Others": null
   },
   {
-    "Id": 4882002,
-    "ActorClassPath": "/Game/Aki/Character/NPC/Animal/NA042/BP_NA042.BP_NA042_C",
-    "ActorClass": [
-      "/Game/Aki/Character/NPC/Animal/NA042/BP_NA042.BP_NA042_C"
-    ],
-    "Animations": [
-      "/Game/Aki/Character/NPC/Animal/NA042/CommonAnim/AM_Death.AM_Death"
-    ],
-    "Effects": null,
-    "Audios": null,
-    "Meshes": [
-      "/Game/Aki/Character/NPC/Animal/NA042/Model/NA042.NA042"
-    ],
-    "Materials": null,
-    "AnimationBlueprints": [
-      "/Game/Aki/Character/NPC/Animal/NA042/ABP_NA042.ABP_NA042_C"
-    ],
-    "Others": [
-      "/Game/Aki/Character/NPC/Animal/NA042/Data/DT_SkillInfo.DT_SkillInfo",
-      "/Game/Aki/Character/NPC/Animal/NA042/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
-      "/Game/Aki/Character/NPC/Animal/NA042/Data/DT_HitEffect.DT_HitEffect",
-      "/Game/Aki/Character/NPC/Animal/NA042/Data/DA_PartHitEffect.DA_PartHitEffect"
-    ]
-  },
-  {
     "Id": 39004911,
     "ActorClassPath": "/Game/Aki/Character/Monster/Ordinary/MO1GuguhetunMd00201/BP_MO1GuguhetunMd00201_221.BP_MO1GuguhetunMd00201_221_C",
     "ActorClass": [
@@ -70431,6 +70797,31 @@
       "/Game/Aki/Character/Monster/Ordinary/MO1GuguhetunMd00201/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
       "/Game/Aki/Character/Monster/Ordinary/MO1GuguhetunMd00201/Data/DT_HitEffect.DT_HitEffect",
       "/Game/Aki/Character/Monster/Ordinary/MO1GuguhetunMd00201/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
+    "Id": 4882002,
+    "ActorClassPath": "/Game/Aki/Character/NPC/Animal/NA042/BP_NA042.BP_NA042_C",
+    "ActorClass": [
+      "/Game/Aki/Character/NPC/Animal/NA042/BP_NA042.BP_NA042_C"
+    ],
+    "Animations": [
+      "/Game/Aki/Character/NPC/Animal/NA042/CommonAnim/AM_Death.AM_Death"
+    ],
+    "Effects": null,
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/NPC/Animal/NA042/Model/NA042.NA042"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/NPC/Animal/NA042/ABP_NA042.ABP_NA042_C"
+    ],
+    "Others": [
+      "/Game/Aki/Character/NPC/Animal/NA042/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/NPC/Animal/NA042/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/NPC/Animal/NA042/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/NPC/Animal/NA042/Data/DA_PartHitEffect.DA_PartHitEffect"
     ]
   },
   {
@@ -70944,6 +71335,84 @@
     ]
   },
   {
+    "Id": 390298,
+    "ActorClassPath": "/Game/Aki/Character/Monster/Ordinary/MO1JTQiShiMd00001_NPC/BP_MO1JTQiShiMd00001.BP_MO1JTQiShiMd00001_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTQiShiMd00001_NPC/BP_MO1JTQiShiMd00001.BP_MO1JTQiShiMd00001_C"
+    ],
+    "Animations": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTQiShiMd00001_NPC/CommonAnim/AM_Death.AM_Death",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTQiShiMd00001_NPC/CommonAnim/AM_Death_InWater.AM_Death_InWater",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTQiShiMd00001_NPC/CommonAnim/AM_Death_Shoufu.AM_Death_Shoufu",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTQiShiMd00001_NPC/CommonAnim/AM_StandUp.AM_StandUp",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTQiShiMd00001_NPC/CommonAnim/AM_Behit_Fly_Fall.AM_Behit_Fly_Fall",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTQiShiMd00001_NPC/CommonAnim/AM_Behit_Fly_Loop.AM_Behit_Fly_Loop",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTQiShiMd00001_NPC/CommonAnim/AM_Behit_Fly_Start.AM_Behit_Fly_Start",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTQiShiMd00001_NPC/CommonAnim/AM_Behit_S_L.AM_Behit_S_L",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTQiShiMd00001_NPC/CommonAnim/AM_Behit_Block.AM_Behit_Block",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTQiShiMd00001_NPC/CommonAnim/AM_Behit_S_Press.AM_Behit_S_Press",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTQiShiMd00001_NPC/CommonAnim/AM_Behit_B_R.AM_Behit_B_R",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTQiShiMd00001_NPC/CommonAnim/AM_Behit_B_L.AM_Behit_B_L",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTQiShiMd00001_NPC/CommonAnim/AM_Behit_S_R.AM_Behit_S_R"
+    ],
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Death.DA_Fx_Group_Death",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Monster_Die_InWater.DA_Fx_Group_Monster_Die_InWater"
+    ],
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTQiShiMd00001_NPC/Model/MO1JTQiShiMd00001_NPC.MO1JTQiShiMd00001_NPC"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTQiShiMd00001_NPC/ABP_MO1JTQiShiMd00001.ABP_MO1JTQiShiMd00001_C"
+    ],
+    "Others": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTQiShiMd00001_NPC/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTQiShiMd00001_NPC/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTQiShiMd00001_NPC/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTQiShiMd00001_NPC/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
+    "Id": 390299,
+    "ActorClassPath": "/Game/Aki/Character/Monster/Ordinary/MO1JTSheShouMd00501/BP_MO1JTSheShouMd00501.BP_MO1JTSheShouMd00501_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTSheShouMd00501/BP_MO1JTSheShouMd00501.BP_MO1JTSheShouMd00501_C"
+    ],
+    "Animations": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTSheShouMd00501/CommonAnim/AM_Death.AM_Death",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTSheShouMd00501/CommonAnim/AM_Death_InWater.AM_Death_InWater",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTSheShouMd00501/CommonAnim/AM_Death_Shoufu.AM_Death_Shoufu",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTSheShouMd00501/CommonAnim/AM_StandUp.AM_StandUp",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTSheShouMd00501/CommonAnim/AM_Behit_Fly_Fall.AM_Behit_Fly_Fall",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTSheShouMd00501/CommonAnim/AM_Behit_Fly_Loop.AM_Behit_Fly_Loop",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTSheShouMd00501/CommonAnim/AM_Behit_Fly_Start.AM_Behit_Fly_Start",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTSheShouMd00501/CommonAnim/AM_Behit_S_L.AM_Behit_S_L",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTSheShouMd00501/CommonAnim/AM_Behit_S_Press.AM_Behit_S_Press",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTSheShouMd00501/CommonAnim/AM_Behit_B_R.AM_Behit_B_R",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTSheShouMd00501/CommonAnim/AM_Behit_B_L.AM_Behit_B_L",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTSheShouMd00501/CommonAnim/AM_Behit_S_R.AM_Behit_S_R"
+    ],
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Death.DA_Fx_Group_Death"
+    ],
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTSheShouMd00501/Model/MO1JTSheShouMd00501.MO1JTSheShouMd00501"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTSheShouMd00501/ABP_MO1JTSheShouMd00501.ABP_MO1JTSheShouMd00501_C"
+    ],
+    "Others": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTSheShouMd00501/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTSheShouMd00501/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTSheShouMd00501/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTSheShouMd00501/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
     "Id": 391265,
     "ActorClassPath": "/Game/Aki/Character/Monster/ElitePro/MP1HeibaiqishiMd00301/BP_MP1HeibaiqishiMd00301.BP_MP1HeibaiqishiMd00301_C",
     "ActorClass": [
@@ -70973,60 +71442,6 @@
       "/Game/Aki/Character/Monster/ElitePro/MP1HeibaiqishiMd00301/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
       "/Game/Aki/Character/Monster/ElitePro/MP1HeibaiqishiMd00301/Data/DT_HitEffect.DT_HitEffect",
       "/Game/Aki/Character/Monster/ElitePro/MP1HeibaiqishiMd00301/Data/DA_PartHitEffect.DA_PartHitEffect"
-    ]
-  },
-  {
-    "Id": 21020036,
-    "ActorClassPath": "",
-    "ActorClass": null,
-    "Animations": null,
-    "Effects": null,
-    "Audios": null,
-    "Meshes": [
-      "/Game/Aki/Character/Weapon/Sword/R5Sword503/R5Sword503Md20001/Model/R5Sword503Md20001.R5Sword503Md20001"
-    ],
-    "Materials": null,
-    "AnimationBlueprints": [
-      "/Game/Aki/Character/Weapon/Sword/R5Sword503/R5Sword503Md20001/ABP_R5SwordSword503_PC.ABP_R5SwordSword503_PC_C"
-    ],
-    "Others": [
-      "/Game/Aki/Character/Weapon/Sword/R5Sword503/DATA/DA_WPU_R5Sword503Md20001.DA_WPU_R5Sword503Md20001"
-    ]
-  },
-  {
-    "Id": 21050046,
-    "ActorClassPath": "",
-    "ActorClass": null,
-    "Animations": null,
-    "Effects": null,
-    "Audios": null,
-    "Meshes": [
-      "/Game/Aki/Character/Weapon/Device/R5Device504/R5Device504Md20001/Model/R5Device504Md20001.R5Device504Md20001"
-    ],
-    "Materials": null,
-    "AnimationBlueprints": [
-      "/Game/Aki/Character/Weapon/Device/R5Device504/R5Device504Md20001/ABP_R5Device504.ABP_R5Device504_C"
-    ],
-    "Others": [
-      "/Game/Aki/Character/Weapon/Device/R5Device504/DATA/DA_WPU_R5Device504Md200011.DA_WPU_R5Device504Md200011"
-    ]
-  },
-  {
-    "Id": 21120036,
-    "ActorClassPath": "",
-    "ActorClass": null,
-    "Animations": null,
-    "Effects": null,
-    "Audios": null,
-    "Meshes": [
-      "/Game/Aki/Character/Weapon/Sword/R5Sword503/R5Scabbard503Md20001/Model/R5Scabbard503Md20001.R5Scabbard503Md20001"
-    ],
-    "Materials": null,
-    "AnimationBlueprints": [
-      "/Game/Aki/Character/Weapon/Sword/R5Sword503/R5Scabbard503Md20001/ABP_R5SwordScabbarcd503.ABP_R5SwordScabbarcd503_C"
-    ],
-    "Others": [
-      "/Game/Aki/Character/Weapon/Sword/R5Sword503/DATA/DA_WPU_R5Sword503Md20001.DA_WPU_R5Sword503Md20001"
     ]
   },
   {
@@ -71223,6 +71638,60 @@
       "/Game/Aki/Character/Monster/Elite/ME1JiancuxiongMd00401/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
       "/Game/Aki/Character/Monster/Elite/ME1JiancuxiongMd00401/Data/DT_HitEffect.DT_HitEffect",
       "/Game/Aki/Character/Monster/Elite/ME1JiancuxiongMd00401/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
+    "Id": 21020036,
+    "ActorClassPath": "",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Weapon/Sword/R5Sword503/R5Sword503Md20001/Model/R5Sword503Md20001.R5Sword503Md20001"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/Weapon/Sword/R5Sword503/R5Sword503Md20001/ABP_R5SwordSword503_PC.ABP_R5SwordSword503_PC_C"
+    ],
+    "Others": [
+      "/Game/Aki/Character/Weapon/Sword/R5Sword503/DATA/DA_WPU_R5Sword503Md20001.DA_WPU_R5Sword503Md20001"
+    ]
+  },
+  {
+    "Id": 21050046,
+    "ActorClassPath": "",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Weapon/Device/R5Device504/R5Device504Md20001/Model/R5Device504Md20001.R5Device504Md20001"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/Weapon/Device/R5Device504/R5Device504Md20001/ABP_R5Device504.ABP_R5Device504_C"
+    ],
+    "Others": [
+      "/Game/Aki/Character/Weapon/Device/R5Device504/DATA/DA_WPU_R5Device504Md200011.DA_WPU_R5Device504Md200011"
+    ]
+  },
+  {
+    "Id": 21120036,
+    "ActorClassPath": "",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Weapon/Sword/R5Sword503/R5Scabbard503Md20001/Model/R5Scabbard503Md20001.R5Scabbard503Md20001"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/Weapon/Sword/R5Sword503/R5Scabbard503Md20001/ABP_R5SwordScabbarcd503.ABP_R5SwordScabbarcd503_C"
+    ],
+    "Others": [
+      "/Game/Aki/Character/Weapon/Sword/R5Sword503/DATA/DA_WPU_R5Sword503Md20001.DA_WPU_R5Sword503Md20001"
     ]
   },
   {
@@ -72300,6 +72769,31 @@
     ]
   },
   {
+    "Id": 30100672,
+    "ActorClassPath": "/Game/Aki/Character/ControlMonster/Floater/Floater_SDTideng/BP_Floater_SDTideng.BP_Floater_SDTideng_C",
+    "ActorClass": [
+      "/Game/Aki/Character/ControlMonster/Floater/Floater_SDTideng/BP_Floater_SDTideng.BP_Floater_SDTideng_C"
+    ],
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/NPC_NM013/DA_Fx_Group_NPC_NM013_Zhuangshi.DA_Fx_Group_NPC_NM013_Zhuangshi"
+    ],
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/NPC/AlienNPC/Level_D/SD1Tideng/Model/SD1Tideng.SD1Tideng"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/ControlMonster/Floater/Floater_SDTideng/ABP_Floater_SDTideng.ABP_Floater_SDTideng_C"
+    ],
+    "Others": [
+      "/Game/Aki/Character/ControlMonster/Floater/Floater_SDTideng/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/ControlMonster/Floater/Floater_SDTideng/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/ControlMonster/Floater/Floater_SDTideng/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/ControlMonster/Floater/Floater_SDTideng/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
     "Id": 21050027,
     "ActorClassPath": "",
     "ActorClass": null,
@@ -72427,6 +72921,290 @@
     ]
   },
   {
+    "Id": 390300,
+    "ActorClassPath": "/Game/Aki/Character/Monster/Ordinary/MO1JTMuShiMd00401/BP_MO1JTMuShiMd00401.BP_MO1JTMuShiMd00401_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTMuShiMd00401/BP_MO1JTMuShiMd00401.BP_MO1JTMuShiMd00401_C"
+    ],
+    "Animations": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTMuShiMd00401/CommonAnim/AM_Death.AM_Death",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTMuShiMd00401/CommonAnim/AM_Death_InWater.AM_Death_InWater",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTMuShiMd00401/CommonAnim/AM_Death_Shoufu.AM_Death_Shoufu",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTMuShiMd00401/CommonAnim/AM_Behit_S_L.AM_Behit_S_L",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTMuShiMd00401/CommonAnim/AM_Behit_B_R.AM_Behit_B_R",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTMuShiMd00401/CommonAnim/AM_Behit_B_L.AM_Behit_B_L",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTMuShiMd00401/CommonAnim/AM_Behit_S_R.AM_Behit_S_R"
+    ],
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Death.DA_Fx_Group_Death"
+    ],
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTMuShiMd00401/Model/MO1JTMuShiMd00401.MO1JTMuShiMd00401"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTMuShiMd00401/ABP_MO1JTMuShiMd00401.ABP_MO1JTMuShiMd00401_C"
+    ],
+    "Others": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTMuShiMd00401/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTMuShiMd00401/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTMuShiMd00401/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTMuShiMd00401/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
+    "Id": 390301,
+    "ActorClassPath": "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/BP_ME1JTJunTuanZhangMd00501.BP_ME1JTJunTuanZhangMd00501_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/BP_ME1JTJunTuanZhangMd00501.BP_ME1JTJunTuanZhangMd00501_C"
+    ],
+    "Animations": [
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/CommonAnim/AM_Death.AM_Death",
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/CommonAnim/AM_Death_InWater.AM_Death_InWater",
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/CommonAnim/AM_Death_Shoufu.AM_Death_Shoufu",
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/CommonAnim/AM_Behit_S_L.AM_Behit_S_L",
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/CommonAnim/AM_Behit_Block.AM_Behit_Block",
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/CommonAnim/AM_Behit_B_R.AM_Behit_B_R",
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/CommonAnim/AM_Behit_B_L.AM_Behit_B_L",
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/CommonAnim/AM_Behit_S_R.AM_Behit_S_R"
+    ],
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Death.DA_Fx_Group_Death",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Monster_Die_InWater.DA_Fx_Group_Monster_Die_InWater"
+    ],
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/Model/ME1JTJunTuanZhangMd00501.ME1JTJunTuanZhangMd00501"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/ABP_ME1JTJunTuanZhangMd00501.ABP_ME1JTJunTuanZhangMd00501_C"
+    ],
+    "Others": [
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
+    "Id": 390302,
+    "ActorClassPath": "/Game/Aki/Character/Monster/Ordinary/MO1LeiXYLMd00301/BP_MO1LeiXYLMd00301.BP_MO1LeiXYLMd00301_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1LeiXYLMd00301/BP_MO1LeiXYLMd00301.BP_MO1LeiXYLMd00301_C"
+    ],
+    "Animations": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1LeiXYLMd00301/CommonAnim/AM_Death.AM_Death",
+      "/Game/Aki/Character/Monster/Ordinary/MO1LeiXYLMd00301/CommonAnim/AM_Death_InWater.AM_Death_InWater",
+      "/Game/Aki/Character/Monster/Ordinary/MO1LeiXYLMd00301/CommonAnim/AM_Death_Shoufu.AM_Death_Shoufu",
+      "/Game/Aki/Character/Monster/Ordinary/MO1LeiXYLMd00301/CommonAnim/AM_StandUp.AM_StandUp",
+      "/Game/Aki/Character/Monster/Ordinary/MO1LeiXYLMd00301/CommonAnim/AM_Behit_Fly_Fall.AM_Behit_Fly_Fall",
+      "/Game/Aki/Character/Monster/Ordinary/MO1LeiXYLMd00301/CommonAnim/AM_Behit_Fly_Loop.AM_Behit_Fly_Loop",
+      "/Game/Aki/Character/Monster/Ordinary/MO1LeiXYLMd00301/CommonAnim/AM_Behit_Fly_Start.AM_Behit_Fly_Start",
+      "/Game/Aki/Character/Monster/Ordinary/MO1LeiXYLMd00301/CommonAnim/AM_Behit_S_L.AM_Behit_S_L",
+      "/Game/Aki/Character/Monster/Ordinary/MO1LeiXYLMd00301/CommonAnim/AM_Behit_S_Press.AM_Behit_S_Press",
+      "/Game/Aki/Character/Monster/Ordinary/MO1LeiXYLMd00301/CommonAnim/AM_Behit_B_R.AM_Behit_B_R",
+      "/Game/Aki/Character/Monster/Ordinary/MO1LeiXYLMd00301/CommonAnim/AM_Behit_B_L.AM_Behit_B_L",
+      "/Game/Aki/Character/Monster/Ordinary/MO1LeiXYLMd00301/CommonAnim/AM_Behit_S_R.AM_Behit_S_R"
+    ],
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Death.DA_Fx_Group_Death",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Monster_Die_InWater.DA_Fx_Group_Monster_Die_InWater"
+    ],
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1LeiXYLMd00301/Model/MO1LeiXYLMd00301.MO1LeiXYLMd00301"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1LeiXYLMd00301/ABP_MO1LeiXYLMd00301.ABP_MO1LeiXYLMd00301_C"
+    ],
+    "Others": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1LeiXYLMd00301/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Monster/Ordinary/MO1LeiXYLMd00301/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Monster/Ordinary/MO1LeiXYLMd00301/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/Monster/Ordinary/MO1LeiXYLMd00301/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
+    "Id": 100042,
+    "ActorClassPath": "/Game/Aki/Character/Role/FemaleM/WindNvzhu/BP_WindNvzhu.BP_WindNvzhu_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Role/FemaleM/WindNvzhu/BP_WindNvzhu.BP_WindNvzhu_C"
+    ],
+    "Animations": [
+      "/Game/Aki/Character/Role/FemaleM/WindNvzhu/CommonAnim/AM_Death.AM_Death",
+      "/Game/Aki/Character/Role/FemaleM/WindNvzhu/CommonAnim/AM_Death_InWater.AM_Death_InWater",
+      "/Game/Aki/Character/Role/FemaleM/WindNvzhu/CommonAnim/AM_Move_F.AM_Move_F",
+      "/Game/Aki/Character/Role/FemaleM/WindNvzhu/CommonAnim/AM_Move_B.AM_Move_B",
+      "/Game/Aki/Character/Role/FemaleM/WindNvzhu/CommonAnim/AM_Jump_Second_F.AM_Jump_Second_F",
+      "/Game/Aki/Character/Role/FemaleM/WindNvzhu/CommonAnim/AM_Jump_Second_B.AM_Jump_Second_B",
+      "/Game/Aki/Character/Role/FemaleM/WindNvzhu/CommonAnim/AM_Move_Limit_F.AM_Move_Limit_F",
+      "/Game/Aki/Character/Role/FemaleM/WindNvzhu/CommonAnim/AM_Move_Limit_B.AM_Move_Limit_B",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Super_Sprint_Start.AM_Super_Sprint_Start",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Super_Sprint_End.AM_Super_Sprint_End",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Super_Sprint_Start_F.AM_Super_Sprint_Start_F",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Land_Roll_Attack01_2.AM_Land_Roll_Attack01_2",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Super_Sprint_Stop.AM_Super_Sprint_Stop",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Henshin.AM_Henshin",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_StandUp.AM_StandUp",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_StandUp_Air.AM_StandUp_Air",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Summon.AM_Summon",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Hook_Up.AM_Hook_Up",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Manipulate_Absorb_Start.AM_Manipulate_Absorb_Start",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Manipulate_Releas_F.AM_Manipulate_Releas_F",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Manipulate_Release_F_02.AM_Manipulate_Release_F_02",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Manipulate_Absorb_End.AM_Manipulate_Absorb_End",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Shifang_ShuiLongJuan.AM_Shifang_ShuiLongJuan",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_ShouFu.AM_ShouFu",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Summon_Mingzhongzhigui_Vision.AM_Summon_Mingzhongzhigui_Vision",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Summon_JiXie_Vision.AM_Summon_JiXie_Vision",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Manipulate_Giant.AM_Manipulate_Giant",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Catapult.AM_Catapult",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Catapult_Up.AM_Catapult_Up",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Bounce.AM_Bounce",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_SuperCatapult.AM_SuperCatapult",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Stand_Control.AM_Stand_Control",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Stand_Control_2_0.AM_Stand_Control_2_0",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_DurationInteract_Start.AM_DurationInteract_Start",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Captured.AM_Captured",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Behit_Fly_Fall.AM_Behit_Fly_Fall",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Behit_Fly_Loop.AM_Behit_Fly_Loop",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Behit_Push_Loop.AM_Behit_Push_Loop",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Behit_Fly_Start.AM_Behit_Fly_Start",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Behit_Push_Start.AM_Behit_Push_Start",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Behit_S_L.AM_Behit_S_L",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Behit_B_R.AM_Behit_B_R",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Behit_B_L.AM_Behit_B_L",
+      "/Game/Aki/Character/Role/FemaleM/BaseAnim/AM_Behit_S_R.AM_Behit_S_R"
+    ],
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Chongci.DA_Fx_Group_Hook_Chongci",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Particle.DA_Fx_Group_Hook_Particle",
+      "/Game/Aki/Effect/EffectGroup/R2T1DarkNvzhu10011/DA_Fx_Group_R2a_Chibang_End_02.DA_Fx_Group_R2a_Chibang_End_02",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Aoxiang_Qitiao.DA_Fx_Group_Aoxiang_Qitiao",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Tread.DA_Fx_Group_Tread",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Aoxiang_Start.DA_Fx_Group_Aoxiang_Start",
+      "/Game/Aki/Effect/EffectGroup/Common/Fight/DA_Fx_Group_Strike.DA_Fx_Group_Strike",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Press_Smoke.DA_Fx_Group_Press_Smoke",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Climb_Ribbon.DA_Fx_Group_Climb_Ribbon",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_RoleDeath.DA_Fx_Group_RoleDeath",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Push_Fall.DA_Fx_Group_Push_Fall",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Move.DA_Fx_Group_Move",
+      "/Game/Aki/Effect/UI/Niagaras/Common/NS_Fx_LGUI_FightHook_Wind_01.NS_Fx_LGUI_FightHook_Wind_01",
+      "/Game/Aki/Effect/Niagara/NI_Common/NS_Fx_Hook_Beam1.NS_Fx_Hook_Beam1",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Ball.DA_Fx_Group_Hook_Ball",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Ball1.DA_Fx_Group_Hook_Ball1",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_MoveChongci.DA_Fx_Group_MoveChongci",
+      "/Game/Aki/Effect/DataAsset/Ghost/DA_Fx_Ghost_R2T1PlayerFemaleMd10011.DA_Fx_Ghost_R2T1PlayerFemaleMd10011",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Jixianshanbi_Start_02.DA_Fx_Group_Jixianshanbi_Start_02",
+      "/Game/Aki/Effect/EffectGroup/Common/Zidanpao/DA_Fx_Group_Zidanpao_Pofeng.DA_Fx_Group_Zidanpao_Pofeng",
+      "/Game/Aki/Effect/EffectGroup/Common/Zidanpao/DA_Fx_Group_Zidanpao_Suduxian.DA_Fx_Group_Zidanpao_Suduxian",
+      "/Game/Aki/Effect/EffectGroup/ML1AiShengGuYuanMd00501/3C/DA_Fx_Group_3C_MLa_Dash03.DA_Fx_Group_3C_MLa_Dash03",
+      "/Game/Aki/Effect/EffectGroup/Common/Zidanpao/DA_Fx_Group_Zidanpao_Zuji.DA_Fx_Group_Zidanpao_Zuji",
+      "/Game/Aki/Effect/EffectGroup/BigWorld/Dengdengmao/DA_Fx_Group_Dengdengmao_Smoke02.DA_Fx_Group_Dengdengmao_Smoke02",
+      "/Game/Aki/Effect/EffectGroup/NPC_NM008/DA_Fx_Group_Mesh_Attack01.DA_Fx_Group_Mesh_Attack01",
+      "/Game/Aki/Effect/EffectGroup/BigWorld/Dengdengmao/DA_Fx_Group_Dengdengmao_Fangun.DA_Fx_Group_Dengdengmao_Fangun",
+      "/Game/Aki/Effect/EffectGroup/BigWorld/Dengdengmao/DA_Fx_Group_Dengdengmao_Xiaza01.DA_Fx_Group_Dengdengmao_Xiaza01",
+      "/Game/Aki/Effect/EffectGroup/BigWorld/Paoku/DA_Fx_Group_Sl3_Paoku_Jiasu_01Feng.DA_Fx_Group_Sl3_Paoku_Jiasu_01Feng",
+      "/Game/Aki/Effect/EffectGroup/UI_Scenes/DA_Fx_Group_Jiguan.DA_Fx_Group_Jiguan",
+      "/Game/Aki/Effect/EffectGroup/UI_Scenes/DA_Fx_Group_Jiguan_2_0.DA_Fx_Group_Jiguan_2_0"
+    ],
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Role/FemaleM/Nvzhu/R2T1PlayerFemaleMd10011/Model/R2T1PlayerFemaleMd10011.R2T1PlayerFemaleMd10011"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/Role/FemaleM/WindNvzhu/R2T1WindNvzhuMd10011/ABP_WindNvzhu_PC.ABP_WindNvzhu_PC_C"
+    ],
+    "Others": [
+      "/Game/Aki/Character/Role/FemaleM/WindNvzhu/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Role/FemaleM/WindNvzhu/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Role/FemaleM/WindNvzhu/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/Role/FemaleM/WindNvzhu/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
+    "Id": 390303,
+    "ActorClassPath": "/Game/Aki/Character/Monster/Ordinary/MO1FengXYLMd00401/BP_MO1FengXYLMd00401.BP_MO1FengXYLMd00401_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1FengXYLMd00401/BP_MO1FengXYLMd00401.BP_MO1FengXYLMd00401_C"
+    ],
+    "Animations": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1FengXYLMd00401/CommonAnim/AM_Death.AM_Death",
+      "/Game/Aki/Character/Monster/Ordinary/MO1FengXYLMd00401/CommonAnim/AM_Death_InWater.AM_Death_InWater",
+      "/Game/Aki/Character/Monster/Ordinary/MO1FengXYLMd00401/CommonAnim/AM_Death_Shoufu.AM_Death_Shoufu",
+      "/Game/Aki/Character/Monster/Ordinary/MO1FengXYLMd00401/CommonAnim/AM_StandUp.AM_StandUp",
+      "/Game/Aki/Character/Monster/Ordinary/MO1FengXYLMd00401/CommonAnim/AM_Behit_Fly_Fall.AM_Behit_Fly_Fall",
+      "/Game/Aki/Character/Monster/Ordinary/MO1FengXYLMd00401/CommonAnim/AM_Behit_Fly_Loop.AM_Behit_Fly_Loop",
+      "/Game/Aki/Character/Monster/Ordinary/MO1FengXYLMd00401/CommonAnim/AM_Behit_Fly_Start.AM_Behit_Fly_Start",
+      "/Game/Aki/Character/Monster/Ordinary/MO1FengXYLMd00401/CommonAnim/AM_Behit_S_L.AM_Behit_S_L",
+      "/Game/Aki/Character/Monster/Ordinary/MO1FengXYLMd00401/CommonAnim/AM_Behit_S_Press.AM_Behit_S_Press",
+      "/Game/Aki/Character/Monster/Ordinary/MO1FengXYLMd00401/CommonAnim/AM_Behit_B_R.AM_Behit_B_R",
+      "/Game/Aki/Character/Monster/Ordinary/MO1FengXYLMd00401/CommonAnim/AM_Behit_B_L.AM_Behit_B_L",
+      "/Game/Aki/Character/Monster/Ordinary/MO1FengXYLMd00401/CommonAnim/AM_Behit_S_R.AM_Behit_S_R"
+    ],
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Death.DA_Fx_Group_Death",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Monster_Die_InWater.DA_Fx_Group_Monster_Die_InWater"
+    ],
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1FengXYLMd00401/Model/MO1FengXYLMd00401.MO1FengXYLMd00401"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1FengXYLMd00401/ABP_MO1FengXYLMd00401.ABP_MO1FengXYLMd00401_C"
+    ],
+    "Others": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1FengXYLMd00401/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Monster/Ordinary/MO1FengXYLMd00401/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Monster/Ordinary/MO1FengXYLMd00401/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/Monster/Ordinary/MO1FengXYLMd00401/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
+    "Id": 390304,
+    "ActorClassPath": "/Game/Aki/Character/Monster/Ordinary/MO1BingXYLMd00201/BP_MO1BingXYLMd00201.BP_MO1BingXYLMd00201_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1BingXYLMd00201/BP_MO1BingXYLMd00201.BP_MO1BingXYLMd00201_C"
+    ],
+    "Animations": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1BingXYLMd00201/CommonAnim/AM_Death.AM_Death",
+      "/Game/Aki/Character/Monster/Ordinary/MO1BingXYLMd00201/CommonAnim/AM_Death_InWater.AM_Death_InWater",
+      "/Game/Aki/Character/Monster/Ordinary/MO1BingXYLMd00201/CommonAnim/AM_Death_Shoufu.AM_Death_Shoufu",
+      "/Game/Aki/Character/Monster/Ordinary/MO1BingXYLMd00201/CommonAnim/AM_StandUp.AM_StandUp",
+      "/Game/Aki/Character/Monster/Ordinary/MO1BingXYLMd00201/CommonAnim/AM_Behit_Fly_Fall.AM_Behit_Fly_Fall",
+      "/Game/Aki/Character/Monster/Ordinary/MO1BingXYLMd00201/CommonAnim/AM_Behit_Fly_Loop.AM_Behit_Fly_Loop",
+      "/Game/Aki/Character/Monster/Ordinary/MO1BingXYLMd00201/CommonAnim/AM_Behit_Fly_Start.AM_Behit_Fly_Start",
+      "/Game/Aki/Character/Monster/Ordinary/MO1BingXYLMd00201/CommonAnim/AM_Behit_S_L.AM_Behit_S_L",
+      "/Game/Aki/Character/Monster/Ordinary/MO1BingXYLMd00201/CommonAnim/AM_Behit_S_Press.AM_Behit_S_Press",
+      "/Game/Aki/Character/Monster/Ordinary/MO1BingXYLMd00201/CommonAnim/AM_Behit_B_R.AM_Behit_B_R",
+      "/Game/Aki/Character/Monster/Ordinary/MO1BingXYLMd00201/CommonAnim/AM_Behit_B_L.AM_Behit_B_L",
+      "/Game/Aki/Character/Monster/Ordinary/MO1BingXYLMd00201/CommonAnim/AM_Behit_S_R.AM_Behit_S_R"
+    ],
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Death.DA_Fx_Group_Death",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Monster_Die_InWater.DA_Fx_Group_Monster_Die_InWater"
+    ],
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1BingXYLMd00201/Model/MO1BingXYLMd00201.MO1BingXYLMd00201"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1BingXYLMd00201/ABP_MO1BingXYLMd00201.ABP_MO1BingXYLMd00201_C"
+    ],
+    "Others": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1BingXYLMd00201/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Monster/Ordinary/MO1BingXYLMd00201/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Monster/Ordinary/MO1BingXYLMd00201/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/Monster/Ordinary/MO1BingXYLMd00201/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
     "Id": 4882011,
     "ActorClassPath": "/Game/Aki/Character/NPC/Animal/NA046/BP_NA046.BP_NA046_C",
     "ActorClass": [
@@ -72461,6 +73239,153 @@
       "/Game/Aki/Character/NPC/Animal/NA048/ABP_NA048.ABP_NA048_C"
     ],
     "Others": null
+  },
+  {
+    "Id": 200082,
+    "ActorClassPath": "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1JTQiShiMd00/Md00001/BP_Vision_MO1JTQiShiMd00.BP_Vision_MO1JTQiShiMd00_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1JTQiShiMd00/Md00001/BP_Vision_MO1JTQiShiMd00.BP_Vision_MO1JTQiShiMd00_C"
+    ],
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTQiShiMd00001_NPC/Model/MO1JTQiShiMd00001_NPC.MO1JTQiShiMd00001_NPC"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1JTQiShiMd00/Md00001/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1JTQiShiMd00/Md00001/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1JTQiShiMd00/Md00001/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1JTQiShiMd00/Md00001/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
+    "Id": 200083,
+    "ActorClassPath": "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1JTSheShou/Md00501/BP_Vision_MO1JTSheShou.BP_Vision_MO1JTSheShou_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1JTSheShou/Md00501/BP_Vision_MO1JTSheShou.BP_Vision_MO1JTSheShou_C"
+    ],
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTSheShouMd00501/Model/MO1JTSheShouMd00501.MO1JTSheShouMd00501"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1JTSheShou/Md00501/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1JTSheShou/Md00501/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1JTSheShou/Md00501/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1JTSheShou/Md00501/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
+    "Id": 200084,
+    "ActorClassPath": "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1JTMuShi/Md00401/BP_Vision_MO1JTMuShi.BP_Vision_MO1JTMuShi_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1JTMuShi/Md00401/BP_Vision_MO1JTMuShi.BP_Vision_MO1JTMuShi_C"
+    ],
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1JTMuShiMd00401/Model/MO1JTMuShiMd00401.MO1JTMuShiMd00401"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1JTMuShi/Md00401/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1JTMuShi/Md00401/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1JTMuShi/Md00401/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1JTMuShi/Md00401/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
+    "Id": 200085,
+    "ActorClassPath": "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1FengXYL/Md00401/BP_Vision_MO1FengXYL.BP_Vision_MO1FengXYL_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1FengXYL/Md00401/BP_Vision_MO1FengXYL.BP_Vision_MO1FengXYL_C"
+    ],
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1FengXYLMd00401/Model/MO1FengXYLMd00401.MO1FengXYLMd00401"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1FengXYL/Md00401/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1FengXYL/Md00401/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1FengXYL/Md00401/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1FengXYL/Md00401/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
+    "Id": 200086,
+    "ActorClassPath": "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1LeiXYL/Md00301/BP_Vision_MO1LeiXYL.BP_Vision_MO1LeiXYL_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1LeiXYL/Md00301/BP_Vision_MO1LeiXYL.BP_Vision_MO1LeiXYL_C"
+    ],
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1LeiXYLMd00301/Model/MO1LeiXYLMd00301.MO1LeiXYLMd00301"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1LeiXYL/Md00301/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1LeiXYL/Md00301/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1LeiXYL/Md00301/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1LeiXYL/Md00301/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
+    "Id": 200087,
+    "ActorClassPath": "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1BingXYL/Md00101/BP_Vision_MO1BingXYL.BP_Vision_MO1BingXYL_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1BingXYL/Md00101/BP_Vision_MO1BingXYL.BP_Vision_MO1BingXYL_C"
+    ],
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1BingXYLMd00201/Model/MO1BingXYLMd00201.MO1BingXYLMd00201"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1BingXYL/Md00101/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1BingXYL/Md00101/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1BingXYL/Md00101/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1BingXYL/Md00101/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
+    "Id": 200088,
+    "ActorClassPath": "/Game/Aki/Character/Vision/VM_Elite/VM_ME1JTJunTuanZhang/Md00501/BP_Vision_ME1JTJunTuanZhang.BP_Vision_ME1JTJunTuanZhang_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Vision/VM_Elite/VM_ME1JTJunTuanZhang/Md00501/BP_Vision_ME1JTJunTuanZhang.BP_Vision_ME1JTJunTuanZhang_C"
+    ],
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/Model/ME1JTJunTuanZhangMd00501.ME1JTJunTuanZhangMd00501"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Vision/VM_Elite/VM_ME1JTJunTuanZhang/Md00501/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Vision/VM_Elite/VM_ME1JTJunTuanZhang/Md00501/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Vision/VM_Elite/VM_ME1JTJunTuanZhang/Md00501/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/Vision/VM_Elite/VM_ME1JTJunTuanZhang/Md00501/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
   },
   {
     "Id": 391276,
@@ -72521,5 +73446,443 @@
       "/Game/Aki/Character/Vision/VM_Lord/VM_ML1HaiYao/Md00601/Data/DA_PartHitEffect.DA_PartHitEffect",
       "/Game/Aki/Character/Vision/VM_Lord/VM_ML1HaiYao/Md00601/Data/DT_ReplaceEffect.DT_ReplaceEffect"
     ]
+  },
+  {
+    "Id": 391277,
+    "ActorClassPath": "/Game/Aki/Character/Monster/Lord/ML1LinrenMd00201/BP_ML1LinrenMd00201.BP_ML1LinrenMd00201_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Monster/Lord/ML1LinrenMd00201/BP_ML1LinrenMd00201.BP_ML1LinrenMd00201_C"
+    ],
+    "Animations": [
+      "/Game/Aki/Character/Monster/Lord/ML1LinrenMd00201/CommonAnim/AM_Death.AM_Death",
+      "/Game/Aki/Character/Monster/Lord/ML1LinrenMd00201/CommonAnim/AM_Death_InWater.AM_Death_InWater",
+      "/Game/Aki/Character/Monster/Lord/ML1LinrenMd00201/CommonAnim/AM_Death_Shoufu.AM_Death_Shoufu"
+    ],
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/MO1AnjinMd00601/DA_Fx_Group_Run.DA_Fx_Group_Run",
+      "/Game/Aki/Effect/EffectGroup/ML1LinrenMd00201/DA_Fx_Group_MLa_Death_Water01.DA_Fx_Group_MLa_Death_Water01"
+    ],
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Monster/Lord/ML1LinrenMd00201/Model/ML1LinrenMd00201.ML1LinrenMd00201"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/Monster/Lord/ML1LinrenMd00201/ABP_ML1LinrenMd00201.ABP_ML1LinrenMd00201_C"
+    ],
+    "Others": [
+      "/Game/Aki/Character/Monster/Lord/ML1LinrenMd00201/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Monster/Lord/ML1LinrenMd00201/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Monster/Lord/ML1LinrenMd00201/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/Monster/Lord/ML1LinrenMd00201/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
+    "Id": 21050056,
+    "ActorClassPath": "",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Weapon/Device/R5Device505/R5Device505Md20001/Model/R5Device505Md20001.R5Device505Md20001"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/Weapon/Device/R5Device505/R5Device505Md20001/ABP_R5Device505_PC.ABP_R5Device505_PC_C"
+    ],
+    "Others": [
+      "/Game/Aki/Character/Weapon/Device/R5Device505/DATA/DA_WPU_R5Device505Md20001.DA_WPU_R5Device505Md20001"
+    ]
+  },
+  {
+    "Id": 21020046,
+    "ActorClassPath": "",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Weapon/Sword/R5Sword504/R5Sword504Md20001/Model/R5Sword504Md20001.R5Sword504Md20001"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/Weapon/Sword/R5Sword504/R5Sword504Md20001/ABP_R5SwordSword504.ABP_R5SwordSword504_C"
+    ],
+    "Others": [
+      "/Game/Aki/Character/Weapon/Sword/R5Sword504/DATA/DA_WPU_R5Sword504Md20001.DA_WPU_R5Sword504Md20001"
+    ]
+  },
+  {
+    "Id": 21120046,
+    "ActorClassPath": "",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Weapon/Sword/R5Sword504/R5Scabbard504Md20001/Model/R5Scabbard504Md20001.R5Scabbard504Md20001"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/Weapon/Sword/R5Sword504/R5Scabbard504Md20001/ABP_R5SwordScabbarcd504.ABP_R5SwordScabbarcd504_C"
+    ],
+    "Others": [
+      "/Game/Aki/Character/Weapon/Sword/R5Sword504/DATA/DA_WPU_R5Sword504Md20001.DA_WPU_R5Sword504Md20001"
+    ]
+  },
+  {
+    "Id": 280025,
+    "ActorClassPath": "/Game/Aki/Character/Vision/VM_Lord/VM_ML1HuiYing/Md00201/BP_Vision_ML1HuiYing_2.BP_Vision_ML1HuiYing_2_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Vision/VM_Lord/VM_ML1HuiYing/Md00201/BP_Vision_ML1HuiYing_2.BP_Vision_ML1HuiYing_2_C"
+    ],
+    "Animations": null,
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/ML1HuiYingMd00101/DA_Fx_Group_Body.DA_Fx_Group_Body",
+      "/Game/Aki/Effect/EffectGroup/ML1HuiYingMd00101/DA_Fx_Group_Chibang_L.DA_Fx_Group_Chibang_L",
+      "/Game/Aki/Effect/EffectGroup/ML1HuiYingMd00101/DA_Fx_Group_Chibang_R.DA_Fx_Group_Chibang_R",
+      "/Game/Aki/Effect/EffectGroup/ML1HuiYingMd00101/DA_Fx_Group_Stand03.DA_Fx_Group_Stand03",
+      "/Game/Aki/Effect/EffectGroup/ML1HuiYingMd00101/DA_Fx_Group_Stand03_1.DA_Fx_Group_Stand03_1"
+    ],
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Monster/Lord/ML1HuiYingMd00101/Model/ML1HuiYingMd00101.ML1HuiYingMd00101"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Vision/VM_Lord/VM_ML1HuiYing/Md00201/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Vision/VM_Lord/VM_ML1HuiYing/Md00201/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Vision/VM_Lord/VM_ML1HuiYing/Md00201/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/Vision/VM_Lord/VM_ML1HuiYing/Md00201/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
+    "Id": 288205,
+    "ActorClassPath": "/Game/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.BP_Vision01_ML1Miuwu_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/BP_Vision01_ML1Miuwu.BP_Vision01_ML1Miuwu_C"
+    ],
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Monster/Lord/ML1MiuwuMd00501/Model/ML1MiuwuMd00501.ML1MiuwuMd00501"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/Vision/VM_Lord/VM_ML1Miuwu/Md00501/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
+    "Id": 390305,
+    "ActorClassPath": "/Game/Aki/Character/Monster/NoMesh/MO1ShouhuMd00002/BP_MO1ShouhuMd00003.BP_MO1ShouhuMd00003_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Monster/NoMesh/MO1ShouhuMd00002/BP_MO1ShouhuMd00003.BP_MO1ShouhuMd00003_C"
+    ],
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 201069,
+    "ActorClassPath": "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1Yunhaiyaojing/Md00501/BP_Vision_MO1Yunhaiyaojing.BP_Vision_MO1Yunhaiyaojing_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1Yunhaiyaojing/Md00501/BP_Vision_MO1Yunhaiyaojing.BP_Vision_MO1Yunhaiyaojing_C"
+    ],
+    "Animations": [
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1Yunhaiyaojing/Md00501/CommonAnim/AM_Death.AM_Death"
+    ],
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/MO1YunhaiyaojingMd00501/DA_Fx_Group_Yunhaiyaojing_MOa01_Colud_Sad.DA_Fx_Group_Yunhaiyaojing_MOa01_Colud_Sad"
+    ],
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Monster/Ordinary/MO1YunhaiyaojingMd00501/Model/MO1YunhaiyaojingMd00501.MO1YunhaiyaojingMd00501"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1Yunhaiyaojing/Md00501/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1Yunhaiyaojing/Md00501/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1Yunhaiyaojing/Md00501/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/Vision/VM_Ordinary/VM_MO1Yunhaiyaojing/Md00501/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
+    "Id": 800008,
+    "ActorClassPath": "/Game/Aki/Character/Vehicle/Gongduola2/BP_Gongduola3_BaseVehicle2.BP_Gongduola3_BaseVehicle2_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Vehicle/Gongduola2/BP_Gongduola3_BaseVehicle2.BP_Gongduola3_BaseVehicle2_C"
+    ],
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/NPC/AlienNPC/Level_B/SB1Gongduola3/Model/SB1Gongduola3.SB1Gongduola3"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/Vehicle/Gongduola2/ABP_Gongduola3_BaseVehicle2.ABP_Gongduola3_BaseVehicle2_C"
+    ],
+    "Others": null
+  },
+  {
+    "Id": 391301,
+    "ActorClassPath": "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/BP_ME1JTJunTuanZhangMd00501.BP_ME1JTJunTuanZhangMd00501_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/BP_ME1JTJunTuanZhangMd00501.BP_ME1JTJunTuanZhangMd00501_C"
+    ],
+    "Animations": [
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/CommonAnim/AM_Death.AM_Death",
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/CommonAnim/AM_Death_InWater.AM_Death_InWater",
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/CommonAnim/AM_Death_Shoufu.AM_Death_Shoufu",
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/CommonAnim/AM_Behit_S_L.AM_Behit_S_L",
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/CommonAnim/AM_Behit_Block.AM_Behit_Block",
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/CommonAnim/AM_Behit_B_R.AM_Behit_B_R",
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/CommonAnim/AM_Behit_B_L.AM_Behit_B_L",
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/CommonAnim/AM_Behit_S_R.AM_Behit_S_R"
+    ],
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Death.DA_Fx_Group_Death",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Monster_Die_InWater.DA_Fx_Group_Monster_Die_InWater"
+    ],
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/Model/SP1/ME1JTJunTuanZhangMd10501.ME1JTJunTuanZhangMd10501"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/ABP_ME1JTJunTuanZhangMd00501.ABP_ME1JTJunTuanZhangMd00501_C"
+    ],
+    "Others": [
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
+    "Id": 201088,
+    "ActorClassPath": "/Game/Aki/Character/Vision/VM_Elite/VM_ME1JTJunTuanZhang/Md00501/BP_Vision_ME1JTJunTuanZhang.BP_Vision_ME1JTJunTuanZhang_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Vision/VM_Elite/VM_ME1JTJunTuanZhang/Md00501/BP_Vision_ME1JTJunTuanZhang.BP_Vision_ME1JTJunTuanZhang_C"
+    ],
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Monster/Elite/ME1JTJunTuanZhangMd00501/Model/SP1/ME1JTJunTuanZhangMd10501.ME1JTJunTuanZhangMd10501"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Vision/VM_Elite/VM_ME1JTJunTuanZhang/Md00501/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Vision/VM_Elite/VM_ME1JTJunTuanZhang/Md00501/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Vision/VM_Elite/VM_ME1JTJunTuanZhang/Md00501/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/Vision/VM_Elite/VM_ME1JTJunTuanZhang/Md00501/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
+    "Id": 4882013,
+    "ActorClassPath": "/Game/Aki/Character/NPC/Common/BP_BaseNPC.BP_BaseNPC_C",
+    "ActorClass": [
+      "/Game/Aki/Character/NPC/Common/BP_BaseNPC.BP_BaseNPC_C"
+    ],
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/NPC/Animal/NA046/Model/NA046.NA046"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/NPC/Animal/NA046/ABP_NA046_NPC.ABP_NA046_NPC_C"
+    ],
+    "Others": null
+  },
+  {
+    "Id": 4882014,
+    "ActorClassPath": "/Game/Aki/Character/NPC/Monster/ME1DuguizuMd00221_NPC/BP_ME1DuguizuMd00221_NPC.BP_ME1DuguizuMd00221_NPC_C",
+    "ActorClass": [
+      "/Game/Aki/Character/NPC/Monster/ME1DuguizuMd00221_NPC/BP_ME1DuguizuMd00221_NPC.BP_ME1DuguizuMd00221_NPC_C"
+    ],
+    "Animations": [
+      "/Game/Aki/Character/NPC/Monster/ME1DuguizuMd00221_NPC/CommonAnim/AM_Death.AM_Death",
+      "/Game/Aki/Character/NPC/Monster/ME1DuguizuMd00221_NPC/CommonAnim/AM_Death_InWater.AM_Death_InWater",
+      "/Game/Aki/Character/NPC/Monster/ME1DuguizuMd00221_NPC/CommonAnim/AM_Death_Shoufu.AM_Death_Shoufu",
+      "/Game/Aki/Character/NPC/Monster/ME1DuguizuMd00221_NPC/CommonAnim/AM_Death_Falling.AM_Death_Falling",
+      "/Game/Aki/Character/NPC/Monster/ME1DuguizuMd00221_NPC/CommonAnim/AM_StandUp.AM_StandUp",
+      "/Game/Aki/Character/NPC/Monster/ME1DuguizuMd00221_NPC/CommonAnim/AM_Behit_Fly_Fall.AM_Behit_Fly_Fall",
+      "/Game/Aki/Character/NPC/Monster/ME1DuguizuMd00221_NPC/CommonAnim/AM_Behit_Fly_Loop.AM_Behit_Fly_Loop",
+      "/Game/Aki/Character/NPC/Monster/ME1DuguizuMd00221_NPC/CommonAnim/AM_Behit_Push_Loop.AM_Behit_Push_Loop",
+      "/Game/Aki/Character/NPC/Monster/ME1DuguizuMd00221_NPC/CommonAnim/AM_Behit_Fly_Start.AM_Behit_Fly_Start",
+      "/Game/Aki/Character/NPC/Monster/ME1DuguizuMd00221_NPC/CommonAnim/AM_Behit_Push_Start.AM_Behit_Push_Start",
+      "/Game/Aki/Character/NPC/Monster/ME1DuguizuMd00221_NPC/CommonAnim/AM_Behit_S_L.AM_Behit_S_L",
+      "/Game/Aki/Character/NPC/Monster/ME1DuguizuMd00221_NPC/CommonAnim/AM_Behit_Block.AM_Behit_Block",
+      "/Game/Aki/Character/NPC/Monster/ME1DuguizuMd00221_NPC/CommonAnim/AM_Behit_S_Press.AM_Behit_S_Press",
+      "/Game/Aki/Character/NPC/Monster/ME1DuguizuMd00221_NPC/CommonAnim/AM_Behit_B_R.AM_Behit_B_R",
+      "/Game/Aki/Character/NPC/Monster/ME1DuguizuMd00221_NPC/CommonAnim/AM_Behit_B_L.AM_Behit_B_L",
+      "/Game/Aki/Character/NPC/Monster/ME1DuguizuMd00221_NPC/CommonAnim/AM_Behit_S_R.AM_Behit_S_R"
+    ],
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Death_Human.DA_Fx_Group_Death_Human",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Press_Smoke.DA_Fx_Group_Press_Smoke",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Death_Human02.DA_Fx_Group_Death_Human02",
+      "/Game/Aki/Effect/EffectGroup/ME1DuguizuMd00201/DA_Fx_Group_Duguizu_ShouJi.DA_Fx_Group_Duguizu_ShouJi"
+    ],
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Monster/Elite/ME1DuguizuMd00221/Model/ME1DuguizuMd00221.ME1DuguizuMd00221"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/NPC/Monster/ME1DuguizuMd00221_NPC/ABP_ME1DuguizuMd00221_NPC.ABP_ME1DuguizuMd00221_NPC_C"
+    ],
+    "Others": null
+  },
+  {
+    "Id": 280026,
+    "ActorClassPath": "/Game/Aki/Character/Vision/VM_Boss/VM_MB1Fuludelisi/Md00401/BP_Vision_MB1Fuludelisi.BP_Vision_MB1Fuludelisi_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Vision/VM_Boss/VM_MB1Fuludelisi/Md00401/BP_Vision_MB1Fuludelisi.BP_Vision_MB1Fuludelisi_C"
+    ],
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Weapon/Prop/Role/FuludelisiProp/EFuludelisiDajianMd10011/Model/EFuludelisiDajianMd10011.EFuludelisiDajianMd10011"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Vision/VM_Boss/VM_MB1Fuludelisi/Md00401/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Vision/VM_Boss/VM_MB1Fuludelisi/Md00401/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Vision/VM_Boss/VM_MB1Fuludelisi/Md00401/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/Vision/VM_Boss/VM_MB1Fuludelisi/Md00401/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
+    "Id": 288204,
+    "ActorClassPath": "/Game/Aki/Character/Vision/VM_Lord/VM_ML1GuLong/Md00201/BP_Vision01_ML1GuLong.BP_Vision01_ML1GuLong_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Vision/VM_Lord/VM_ML1GuLong/Md00201/BP_Vision01_ML1GuLong.BP_Vision01_ML1GuLong_C"
+    ],
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Monster/Lord/ML1GuLongMd00101/Model/ML1GuLongMd00101.ML1GuLongMd00101"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Vision/VM_Lord/VM_ML1GuLong/Md00201/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Vision/VM_Lord/VM_ML1GuLong/Md00201/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Vision/VM_Lord/VM_ML1GuLong/Md00201/Data/DT_HitEffect.DT_HitEffect",
+      "/Game/Aki/Character/Vision/VM_Lord/VM_ML1GuLong/Md00201/Data/DA_PartHitEffect.DA_PartHitEffect"
+    ]
+  },
+  {
+    "Id": 100045,
+    "ActorClassPath": "/Game/Aki/Character/Role/FemaleMS/Katixiya_story/BP_Katixiya_Story.BP_Katixiya_Story_C",
+    "ActorClass": [
+      "/Game/Aki/Character/Role/FemaleMS/Katixiya_story/BP_Katixiya_Story.BP_Katixiya_Story_C"
+    ],
+    "Animations": [
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Super_Sprint_Start.AM_Super_Sprint_Start",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Super_Sprint_End.AM_Super_Sprint_End",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Super_Sprint_Start_F.AM_Super_Sprint_Start_F",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Land_Roll_Attack01_2.AM_Land_Roll_Attack01_2",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Super_Sprint_Stop.AM_Super_Sprint_Stop",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Henshin.AM_Henshin",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_StandUp.AM_StandUp",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_StandUp_Air.AM_StandUp_Air",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Summon.AM_Summon",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Hook_Up.AM_Hook_Up",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Manipulate_Absorb_Start.AM_Manipulate_Absorb_Start",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Manipulate_Releas_F.AM_Manipulate_Releas_F",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Manipulate_Release_F_02.AM_Manipulate_Release_F_02",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Manipulate_Absorb_End.AM_Manipulate_Absorb_End",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Shifang_ShuiLongJuan.AM_Shifang_ShuiLongJuan",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_ShouFu.AM_ShouFu",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Summon_Mingzhongzhigui_Vision.AM_Summon_Mingzhongzhigui_Vision",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Summon_JiXie_Vision.AM_Summon_JiXie_Vision",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Manipulate_Giant.AM_Manipulate_Giant",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Catapult.AM_Catapult",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Catapult_Up.AM_Catapult_Up",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Bounce.AM_Bounce",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_SuperCatapult.AM_SuperCatapult",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Stand_Control.AM_Stand_Control",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Stand_Control_2_0.AM_Stand_Control_2_0",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_DurationInteract_Start.AM_DurationInteract_Start",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Captured.AM_Captured",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Behit_Fly_Fall.AM_Behit_Fly_Fall",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Behit_Fly_Loop.AM_Behit_Fly_Loop",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Behit_Push_Loop.AM_Behit_Push_Loop",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Behit_Fly_Start.AM_Behit_Fly_Start",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Behit_Push_Start.AM_Behit_Push_Start",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Behit_S_L.AM_Behit_S_L",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Behit_B_R.AM_Behit_B_R",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Behit_B_L.AM_Behit_B_L",
+      "/Game/Aki/Character/Role/FemaleMS/BaseAnim/AM_Behit_S_R.AM_Behit_S_R"
+    ],
+    "Effects": [
+      "/Game/Aki/Effect/EffectGroup/Common/Zidanpao/DA_Fx_Group_Zidanpao_Pofeng.DA_Fx_Group_Zidanpao_Pofeng",
+      "/Game/Aki/Effect/EffectGroup/Common/Zidanpao/DA_Fx_Group_Zidanpao_Suduxian.DA_Fx_Group_Zidanpao_Suduxian",
+      "/Game/Aki/Effect/EffectGroup/ML1AiShengGuYuanMd00501/3C/DA_Fx_Group_3C_MLa_Dash03.DA_Fx_Group_3C_MLa_Dash03",
+      "/Game/Aki/Effect/EffectGroup/Common/Zidanpao/DA_Fx_Group_Zidanpao_Zuji.DA_Fx_Group_Zidanpao_Zuji",
+      "/Game/Aki/Effect/EffectGroup/BigWorld/Dengdengmao/DA_Fx_Group_Dengdengmao_Smoke02.DA_Fx_Group_Dengdengmao_Smoke02",
+      "/Game/Aki/Effect/EffectGroup/NPC_NM008/DA_Fx_Group_Mesh_Attack01.DA_Fx_Group_Mesh_Attack01",
+      "/Game/Aki/Effect/EffectGroup/BigWorld/Dengdengmao/DA_Fx_Group_Dengdengmao_Fangun.DA_Fx_Group_Dengdengmao_Fangun",
+      "/Game/Aki/Effect/EffectGroup/BigWorld/Dengdengmao/DA_Fx_Group_Dengdengmao_Xiaza01.DA_Fx_Group_Dengdengmao_Xiaza01",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Press_Smoke.DA_Fx_Group_Press_Smoke",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Move.DA_Fx_Group_Move",
+      "/Game/Aki/Effect/EffectGroup/BigWorld/Paoku/DA_Fx_Group_Sl3_Paoku_Jiasu_01Feng.DA_Fx_Group_Sl3_Paoku_Jiasu_01Feng",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Hook_Chongci.DA_Fx_Group_Hook_Chongci",
+      "/Game/Aki/Effect/EffectGroup/UI_Scenes/DA_Fx_Group_Jiguan.DA_Fx_Group_Jiguan",
+      "/Game/Aki/Effect/EffectGroup/UI_Scenes/DA_Fx_Group_Jiguan_2_0.DA_Fx_Group_Jiguan_2_0",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Push_Fall.DA_Fx_Group_Push_Fall"
+    ],
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/Role/FemaleMS/Katixiya/R2T1KatixiyaMd10011/Model/R2T1KatixiyaMd10011.R2T1KatixiyaMd10011"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/Role/FemaleMS/Katixiya_story/ABP_Katixiya_Story.ABP_Katixiya_Story_C"
+    ],
+    "Others": [
+      "/Game/Aki/Character/Role/FemaleMS/Katixiya_story/Data/DT_SkillInfo.DT_SkillInfo",
+      "/Game/Aki/Character/Role/FemaleMS/Katixiya_story/Data/DT_ReBulletDataMain.DT_ReBulletDataMain",
+      "/Game/Aki/Character/Role/FemaleMS/Katixiya_story/Data/DT_HitEffect.DT_HitEffect"
+    ]
+  },
+  {
+    "Id": 4882015,
+    "ActorClassPath": "/Game/Aki/Character/NPC/Animal/NA046/BP_NA046_NPC.BP_NA046_NPC_C",
+    "ActorClass": [
+      "/Game/Aki/Character/NPC/Animal/NA046/BP_NA046_NPC.BP_NA046_NPC_C"
+    ],
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": [
+      "/Game/Aki/Character/NPC/Animal/NA047/Model/NA047.NA047"
+    ],
+    "Materials": null,
+    "AnimationBlueprints": [
+      "/Game/Aki/Character/NPC/Animal/NA046/ABP_NA046_NPC.ABP_NA046_NPC_C"
+    ],
+    "Others": null
   }
 ]

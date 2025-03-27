@@ -10,7 +10,8 @@
       10,
       20,
       50
-    ]
+    ],
+    "AudioIntervalLimit": 30
   },
   {
     "Id": 2,
@@ -23,7 +24,8 @@
       10,
       20,
       50
-    ]
+    ],
+    "AudioIntervalLimit": 0
   },
   {
     "Id": 3,
@@ -36,7 +38,8 @@
       10,
       20,
       50
-    ]
+    ],
+    "AudioIntervalLimit": 0
   },
   {
     "Id": 4,
@@ -45,6 +48,7 @@
     ],
     "TriggerTime": [
       5
-    ]
+    ],
+    "AudioIntervalLimit": 0
   }
 ]

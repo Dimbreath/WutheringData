@@ -7,6 +7,10 @@
     "SkillId": 100010,
     "SkillIdTagMap": [
       {
+        "Key": 1919693123,
+        "Value": 1607121
+      },
+      {
         "Key": 629953454,
         "Value": 1205106
       },
@@ -42,7 +46,8 @@
         "Key": 629953454,
         "Value": 12051310
       }
-    ]
+    ],
+    "ShowLongPressTags": null
   },
   {
     "Id": 1001,
@@ -67,7 +72,8 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": null,
+    "ShowLongPressTags": null
   },
   {
     "Id": 1002,
@@ -127,7 +133,8 @@
         "Key": 1168178249,
         "Value": 15041000
       }
-    ]
+    ],
+    "ShowLongPressTags": null
   },
   {
     "Id": 1003,
@@ -211,6 +218,14 @@
         "Value": {
           "ArrayInt": [
             210001
+          ]
+        }
+      },
+      {
+        "Key": 761126017,
+        "Value": {
+          "ArrayInt": [
+            210008
           ]
         }
       },
@@ -369,7 +384,8 @@
         "Key": -1526637662,
         "Value": 1002
       }
-    ]
+    ],
+    "ShowLongPressTags": null
   },
   {
     "Id": 1004,
@@ -447,7 +463,8 @@
         "Key": 693080645,
         "Value": 291001
       }
-    ]
+    ],
+    "ShowLongPressTags": null
   },
   {
     "Id": 1005,
@@ -479,7 +496,8 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": true,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": null,
+    "ShowLongPressTags": null
   },
   {
     "Id": 1006,
@@ -506,7 +524,8 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": null,
+    "ShowLongPressTags": null
   },
   {
     "Id": 1007,
@@ -532,6 +551,7 @@
     "CdCompletedEffectId": 0,
     "IsLongPressControlCamera": false,
     "LongPressTime": 0,
-    "DynamicEffectTagMap": null
+    "DynamicEffectTagMap": null,
+    "ShowLongPressTags": null
   }
 ]

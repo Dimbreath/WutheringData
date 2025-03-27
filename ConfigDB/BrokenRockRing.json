@@ -1066,5 +1066,99 @@
       0
     ],
     "IsAnticlockwise": false
+  },
+  {
+    "Id": 150001,
+    "InvalidBox": null,
+    "RandomBox": [
+      8,
+      10
+    ],
+    "PerfectBox": 3,
+    "BonusRate": [
+      {
+        "Key": 0,
+        "Value": 0
+      },
+      {
+        "Key": 30,
+        "Value": 0
+      },
+      {
+        "Key": 50,
+        "Value": 100
+      }
+    ],
+    "GoodScore": 3,
+    "PerfectScore": 8,
+    "BonusScore": 2,
+    "Speed": [
+      {
+        "Key": 0,
+        "Value": 65
+      },
+      {
+        "Key": 35,
+        "Value": 85
+      },
+      {
+        "Key": 75,
+        "Value": 115
+      }
+    ],
+    "ColdTime": 200,
+    "MultiBoxGroup": 1,
+    "Offset": [
+      0,
+      0
+    ],
+    "IsAnticlockwise": false
+  },
+  {
+    "Id": 150002,
+    "InvalidBox": null,
+    "RandomBox": [
+      8,
+      10
+    ],
+    "PerfectBox": 3,
+    "BonusRate": [
+      {
+        "Key": 0,
+        "Value": 0
+      },
+      {
+        "Key": 30,
+        "Value": 0
+      },
+      {
+        "Key": 50,
+        "Value": 100
+      }
+    ],
+    "GoodScore": 3,
+    "PerfectScore": 8,
+    "BonusScore": 2,
+    "Speed": [
+      {
+        "Key": 0,
+        "Value": 65
+      },
+      {
+        "Key": 35,
+        "Value": 85
+      },
+      {
+        "Key": 75,
+        "Value": 115
+      }
+    ],
+    "ColdTime": 200,
+    "MultiBoxGroup": 1,
+    "Offset": [
+      0,
+      0
+    ],
+    "IsAnticlockwise": false
   }
 ]

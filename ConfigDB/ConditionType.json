@@ -16051,5 +16051,530 @@
     "DefaultParam15": "",
     "Param16": null,
     "DefaultParam16": ""
+  },
+  {
+    "Type": "CheckMulExploreProgress",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "AreaIds",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [
+      {
+        "Key": "Rate",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam2": "",
+    "Param3": null,
+    "DefaultParam3": "",
+    "Param4": null,
+    "DefaultParam4": "",
+    "Param5": null,
+    "DefaultParam5": "",
+    "Param6": null,
+    "DefaultParam6": "",
+    "Param7": null,
+    "DefaultParam7": "",
+    "Param8": null,
+    "DefaultParam8": "",
+    "Param9": null,
+    "DefaultParam9": "",
+    "Param10": null,
+    "DefaultParam10": "",
+    "Param11": null,
+    "DefaultParam11": "",
+    "Param12": null,
+    "DefaultParam12": "",
+    "Param13": null,
+    "DefaultParam13": "",
+    "Param14": null,
+    "DefaultParam14": "",
+    "Param15": null,
+    "DefaultParam15": "",
+    "Param16": null,
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "BabelTowerLevelFinish",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [
+      {
+        "Key": "BuffId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam2": "0",
+    "Param3": [
+      {
+        "Key": "DeBuffs",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam3": "0",
+    "Param4": [
+      {
+        "Key": "IsPass",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam4": "0",
+    "Param5": null,
+    "DefaultParam5": "",
+    "Param6": null,
+    "DefaultParam6": "",
+    "Param7": null,
+    "DefaultParam7": "",
+    "Param8": null,
+    "DefaultParam8": "",
+    "Param9": null,
+    "DefaultParam9": "",
+    "Param10": null,
+    "DefaultParam10": "",
+    "Param11": null,
+    "DefaultParam11": "",
+    "Param12": null,
+    "DefaultParam12": "",
+    "Param13": null,
+    "DefaultParam13": "",
+    "Param14": null,
+    "DefaultParam14": "",
+    "Param15": null,
+    "DefaultParam15": "",
+    "Param16": null,
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "BabelTowerLevelFinishStar",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": null,
+    "DefaultParam2": "",
+    "Param3": null,
+    "DefaultParam3": "",
+    "Param4": null,
+    "DefaultParam4": "",
+    "Param5": null,
+    "DefaultParam5": "",
+    "Param6": null,
+    "DefaultParam6": "",
+    "Param7": null,
+    "DefaultParam7": "",
+    "Param8": null,
+    "DefaultParam8": "",
+    "Param9": null,
+    "DefaultParam9": "",
+    "Param10": null,
+    "DefaultParam10": "",
+    "Param11": null,
+    "DefaultParam11": "",
+    "Param12": null,
+    "DefaultParam12": "",
+    "Param13": null,
+    "DefaultParam13": "",
+    "Param14": null,
+    "DefaultParam14": "",
+    "Param15": null,
+    "DefaultParam15": "",
+    "Param16": null,
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "BabelTowerLevelStar",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [
+      {
+        "Key": "ActivityId",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam2": "",
+    "Param3": [
+      {
+        "Key": "Difficulty",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam3": "1",
+    "Param4": null,
+    "DefaultParam4": "",
+    "Param5": null,
+    "DefaultParam5": "",
+    "Param6": null,
+    "DefaultParam6": "",
+    "Param7": null,
+    "DefaultParam7": "",
+    "Param8": null,
+    "DefaultParam8": "",
+    "Param9": null,
+    "DefaultParam9": "",
+    "Param10": null,
+    "DefaultParam10": "",
+    "Param11": null,
+    "DefaultParam11": "",
+    "Param12": null,
+    "DefaultParam12": "",
+    "Param13": null,
+    "DefaultParam13": "",
+    "Param14": null,
+    "DefaultParam14": "",
+    "Param15": null,
+    "DefaultParam15": "",
+    "Param16": null,
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "AlwaysFalse",
+    "IsClientTrigger": true,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": null,
+    "DefaultParam1": "",
+    "Param2": null,
+    "DefaultParam2": "",
+    "Param3": null,
+    "DefaultParam3": "",
+    "Param4": null,
+    "DefaultParam4": "",
+    "Param5": null,
+    "DefaultParam5": "",
+    "Param6": null,
+    "DefaultParam6": "",
+    "Param7": null,
+    "DefaultParam7": "",
+    "Param8": null,
+    "DefaultParam8": "",
+    "Param9": null,
+    "DefaultParam9": "",
+    "Param10": null,
+    "DefaultParam10": "",
+    "Param11": null,
+    "DefaultParam11": "",
+    "Param12": null,
+    "DefaultParam12": "",
+    "Param13": null,
+    "DefaultParam13": "",
+    "Param14": null,
+    "DefaultParam14": "",
+    "Param15": null,
+    "DefaultParam15": "",
+    "Param16": null,
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "CorniceMeetingScore",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "ActivityId",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [
+      {
+        "Key": "Count",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam2": "",
+    "Param3": null,
+    "DefaultParam3": "",
+    "Param4": null,
+    "DefaultParam4": "",
+    "Param5": null,
+    "DefaultParam5": "",
+    "Param6": null,
+    "DefaultParam6": "",
+    "Param7": null,
+    "DefaultParam7": "",
+    "Param8": null,
+    "DefaultParam8": "",
+    "Param9": null,
+    "DefaultParam9": "",
+    "Param10": null,
+    "DefaultParam10": "",
+    "Param11": null,
+    "DefaultParam11": "",
+    "Param12": null,
+    "DefaultParam12": "",
+    "Param13": null,
+    "DefaultParam13": "",
+    "Param14": null,
+    "DefaultParam14": "",
+    "Param15": null,
+    "DefaultParam15": "",
+    "Param16": null,
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "AvignonTaskRewardedNum",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "ActivityId",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": null,
+    "DefaultParam2": "",
+    "Param3": null,
+    "DefaultParam3": "",
+    "Param4": null,
+    "DefaultParam4": "",
+    "Param5": null,
+    "DefaultParam5": "",
+    "Param6": null,
+    "DefaultParam6": "",
+    "Param7": null,
+    "DefaultParam7": "",
+    "Param8": null,
+    "DefaultParam8": "",
+    "Param9": null,
+    "DefaultParam9": "",
+    "Param10": null,
+    "DefaultParam10": "",
+    "Param11": null,
+    "DefaultParam11": "",
+    "Param12": null,
+    "DefaultParam12": "",
+    "Param13": null,
+    "DefaultParam13": "",
+    "Param14": null,
+    "DefaultParam14": "",
+    "Param15": null,
+    "DefaultParam15": "",
+    "Param16": null,
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "TowerPassMaxDifficultCount",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": null,
+    "DefaultParam1": "",
+    "Param2": null,
+    "DefaultParam2": "",
+    "Param3": null,
+    "DefaultParam3": "",
+    "Param4": null,
+    "DefaultParam4": "",
+    "Param5": null,
+    "DefaultParam5": "",
+    "Param6": null,
+    "DefaultParam6": "",
+    "Param7": null,
+    "DefaultParam7": "",
+    "Param8": null,
+    "DefaultParam8": "",
+    "Param9": null,
+    "DefaultParam9": "",
+    "Param10": null,
+    "DefaultParam10": "",
+    "Param11": null,
+    "DefaultParam11": "",
+    "Param12": null,
+    "DefaultParam12": "",
+    "Param13": null,
+    "DefaultParam13": "",
+    "Param14": null,
+    "DefaultParam14": "",
+    "Param15": null,
+    "DefaultParam15": "",
+    "Param16": null,
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "SlashTowerEndlessMaxScoreCount",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": null,
+    "DefaultParam1": "",
+    "Param2": null,
+    "DefaultParam2": "",
+    "Param3": null,
+    "DefaultParam3": "",
+    "Param4": null,
+    "DefaultParam4": "",
+    "Param5": null,
+    "DefaultParam5": "",
+    "Param6": null,
+    "DefaultParam6": "",
+    "Param7": null,
+    "DefaultParam7": "",
+    "Param8": null,
+    "DefaultParam8": "",
+    "Param9": null,
+    "DefaultParam9": "",
+    "Param10": null,
+    "DefaultParam10": "",
+    "Param11": null,
+    "DefaultParam11": "",
+    "Param12": null,
+    "DefaultParam12": "",
+    "Param13": null,
+    "DefaultParam13": "",
+    "Param14": null,
+    "DefaultParam14": "",
+    "Param15": null,
+    "DefaultParam15": "",
+    "Param16": null,
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "PassTowerDefence",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "Id",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": null,
+    "DefaultParam2": "",
+    "Param3": null,
+    "DefaultParam3": "",
+    "Param4": null,
+    "DefaultParam4": "",
+    "Param5": null,
+    "DefaultParam5": "",
+    "Param6": null,
+    "DefaultParam6": "",
+    "Param7": null,
+    "DefaultParam7": "",
+    "Param8": null,
+    "DefaultParam8": "",
+    "Param9": null,
+    "DefaultParam9": "",
+    "Param10": null,
+    "DefaultParam10": "",
+    "Param11": null,
+    "DefaultParam11": "",
+    "Param12": null,
+    "DefaultParam12": "",
+    "Param13": null,
+    "DefaultParam13": "",
+    "Param14": null,
+    "DefaultParam14": "",
+    "Param15": null,
+    "DefaultParam15": "",
+    "Param16": null,
+    "DefaultParam16": ""
+  },
+  {
+    "Type": "PassInstWithRoles",
+    "IsClientTrigger": false,
+    "SubType": 0,
+    "RegisterPlaces": [
+      0
+    ],
+    "Param1": [
+      {
+        "Key": "InstanceId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam1": "",
+    "Param2": [
+      {
+        "Key": "RoleId",
+        "Value": "IntArray"
+      }
+    ],
+    "DefaultParam2": "",
+    "Param3": [
+      {
+        "Key": "Type",
+        "Value": "Int"
+      }
+    ],
+    "DefaultParam3": "0",
+    "Param4": null,
+    "DefaultParam4": "",
+    "Param5": null,
+    "DefaultParam5": "",
+    "Param6": null,
+    "DefaultParam6": "",
+    "Param7": null,
+    "DefaultParam7": "",
+    "Param8": null,
+    "DefaultParam8": "",
+    "Param9": null,
+    "DefaultParam9": "",
+    "Param10": null,
+    "DefaultParam10": "",
+    "Param11": null,
+    "DefaultParam11": "",
+    "Param12": null,
+    "DefaultParam12": "",
+    "Param13": null,
+    "DefaultParam13": "",
+    "Param14": null,
+    "DefaultParam14": "",
+    "Param15": null,
+    "DefaultParam15": "",
+    "Param16": null,
+    "DefaultParam16": ""
   }
 ]

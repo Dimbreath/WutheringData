@@ -114,7 +114,7 @@
     "SortNumber": 26,
     "ConditionGroupId": 12980063,
     "Text": "DetectionText_5_Text",
-    "SubText": "DetectionText_5_SubText",
+    "SubText": "",
     "Icon": "/Game/Aki/UI/UIResources/UiDevelopmentGuide/Atlas/SP_IconDevelopment02.SP_IconDevelopment02",
     "HelpGroupId": 0,
     "ShowDropDown": false
@@ -244,7 +244,7 @@
     "SortNumber": 28,
     "ConditionGroupId": 131300001,
     "Text": "DetectionText_28_Text",
-    "SubText": "DetectionText_28_SubText",
+    "SubText": "",
     "Icon": "/Game/Aki/UI/UIResources/UiDevelopmentGuide/Atlas/SP_IconDevelopment12.SP_IconDevelopment12",
     "HelpGroupId": 0,
     "ShowDropDown": false
@@ -256,6 +256,16 @@
     "Text": "DetectionText_29_Text",
     "SubText": "",
     "Icon": "/Game/Aki/UI/UIResources/UiDevelopmentGuide/Atlas/SP_IconDevelopment11.SP_IconDevelopment11",
+    "HelpGroupId": 0,
+    "ShowDropDown": false
+  },
+  {
+    "Id": 20,
+    "SortNumber": 8,
+    "ConditionGroupId": 0,
+    "Text": "DetectionText_20_Text",
+    "SubText": "",
+    "Icon": "",
     "HelpGroupId": 0,
     "ShowDropDown": false
   }

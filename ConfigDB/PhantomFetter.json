@@ -593,17 +593,17 @@
   {
     "Id": 165,
     "Name": "PhantomFetter_16_Name",
-    "BuffIds": null,
+    "BuffIds": [
+      31000016001.0
+    ],
     "AddProp": null,
     "EffectDescription": "PhantomFetter_165_EffectDescription",
     "FetterIcon": "/Game/Aki/UI/UIResources/Common/Image/IconElement/T_IconElementIce1.T_IconElementIce1",
     "SimplyEffectDesc": "PhantomFetter_165_SimplyEffectDesc",
     "EffectDescriptionParam": [
-      "20%",
-      "15",
-      "6",
       "15%",
-      "15"
+      "15%",
+      "20"
     ],
     "EffectDefineDescription": "PhantomFetter_1_EffectDefineDescription",
     "Priority": 32

@@ -481,7 +481,7 @@
   },
   {
     "MapId": 8150,
-    "PakRule": 1,
+    "PakRule": 0,
     "MapPath": "/Game/Aki/Map/Level/Huodong/huodong002_gecao/InstanceTree_Huodong002"
   },
   {
@@ -531,7 +531,7 @@
   },
   {
     "MapId": 8400,
-    "PakRule": 1,
+    "PakRule": 0,
     "MapPath": "/Game/Aki/Map/Level/Huodong/1_2_BOSS/InstanceTree_1_2_BOSS"
   },
   {
@@ -546,7 +546,7 @@
   },
   {
     "MapId": 8160,
-    "PakRule": 1,
+    "PakRule": 0,
     "MapPath": "/Game/Aki/Map/Level/Huodong/1_1_BossRush/InstanceTree_Huodong003"
   },
   {
@@ -581,7 +581,7 @@
   },
   {
     "MapId": 8170,
-    "PakRule": 1,
+    "PakRule": 0,
     "MapPath": "/Game/Aki/Map/Level/Huodong/1_2_Tafang/InstanceTree_Tafang"
   },
   {
@@ -621,12 +621,12 @@
   },
   {
     "MapId": 8151,
-    "PakRule": 1,
+    "PakRule": 0,
     "MapPath": "/Game/Aki/Map/Level/Huodong/huodong002_gecao/InstanceTree_1_2_gecao"
   },
   {
     "MapId": 8201,
-    "PakRule": 1,
+    "PakRule": 0,
     "MapPath": "/Game/Aki/Map/Level/Huodong/huodong002_gecao/InstanceTree_1_2_gecao"
   },
   {
@@ -646,7 +646,7 @@
   },
   {
     "MapId": 8180,
-    "PakRule": 1,
+    "PakRule": 0,
     "MapPath": "/Game/Aki/Map/Level/Huodong/1_3_LJboss/InstanceTree_LJboss"
   },
   {
@@ -676,12 +676,12 @@
   },
   {
     "MapId": 8700,
-    "PakRule": 1,
+    "PakRule": 0,
     "MapPath": "/Game/Aki/Map/Level/Huodong/2_0_BaoJinBi/InstanceTree_2_0_BaoJinBi"
   },
   {
     "MapId": 8161,
-    "PakRule": 1,
+    "PakRule": 0,
     "MapPath": "/Game/Aki/Map/Level/Huodong/1_4_BossRush/InstanceTree_1_4_BossRush"
   },
   {
@@ -690,14 +690,34 @@
     "MapPath": "/Game/Aki/Map/Level/Roles/2_0_Kamola/InstanceTree_Kelaita_quest"
   },
   {
+    "MapId": 903,
+    "PakRule": 1,
+    "MapPath": "/Game/Aki/Map/Level/WP/DianDaoTa/WP_DianDaoTa2"
+  },
+  {
+    "MapId": 1010,
+    "PakRule": 1,
+    "MapPath": "/Game/Aki/Map/Level/Roles/2_2_Kanteleila/InstanceTree_Kanteleila"
+  },
+  {
     "MapId": 1509,
     "PakRule": 1,
     "MapPath": "/Game/Aki/Map/Level/Main/2_1_JinKu_ZYJL/InstanceTree_ZYJL"
   },
   {
+    "MapId": 1513,
+    "PakRule": 1,
+    "MapPath": "/Game/Aki/Map/Level/Main/2_2_Katixiya/InstanceTree_Katixiya"
+  },
+  {
     "MapId": 104,
     "PakRule": 0,
     "MapPath": "/Game/Aki/UniverseEditor/Test/VehicleTest"
+  },
+  {
+    "MapId": 904,
+    "PakRule": 1,
+    "MapPath": "/Game/Aki/Map/Level/WP/2_2_GZZD/WP_GZZD"
   },
   {
     "MapId": 97,
@@ -711,7 +731,7 @@
   },
   {
     "MapId": 8800,
-    "PakRule": 1,
+    "PakRule": 0,
     "MapPath": "/Game/Aki/Map/Level/Huodong/1_4_MowingTower/InstanceTree_1_4_MowingTower"
   },
   {
@@ -736,7 +756,7 @@
   },
   {
     "MapId": 8610,
-    "PakRule": 1,
+    "PakRule": 0,
     "MapPath": "/Game/Aki/Map/Level/Huodong/2_0_LJpush/InstanceTree_LJPush"
   },
   {
@@ -746,7 +766,7 @@
   },
   {
     "MapId": 9000,
-    "PakRule": 1,
+    "PakRule": 0,
     "MapPath": "/Game/Aki/Map/Level/Huodong/2_0_MowingTower/InstanceTree_2_0_MowingTower"
   },
   {
@@ -756,8 +776,18 @@
   },
   {
     "MapId": 8162,
-    "PakRule": 1,
+    "PakRule": 0,
     "MapPath": "/Game/Aki/Map/Level/Huodong/2_1_BossRush/InstanceTree_2_1_BossRush"
+  },
+  {
+    "MapId": 2512,
+    "PakRule": 1,
+    "MapPath": "/Game/Aki/Map/Level/WorldInstance/2_2_YingXianHu/InstanceTree_YingXianHu"
+  },
+  {
+    "MapId": 39004,
+    "PakRule": 0,
+    "MapPath": "/Game/Aki/Map/Level/System/Babel/InstanceTree_Activity_Babel_test"
   },
   {
     "MapId": 9201,
@@ -803,5 +833,30 @@
     "MapId": 815,
     "PakRule": 1,
     "MapPath": "/Game/Aki/Map/UISceneLevel/UI_Scene/UL_UIMap_Bosslevel"
+  },
+  {
+    "MapId": 105,
+    "PakRule": 0,
+    "MapPath": "/Game/Aki/UniverseEditor/Test/VehicleTestLevels/VehicleTestMainLevel"
+  },
+  {
+    "MapId": 8620,
+    "PakRule": 1,
+    "MapPath": "/Game/Aki/Map/Level/Huodong/2_2_LJboss2/InstanceTree_LJboss2"
+  },
+  {
+    "MapId": 2061,
+    "PakRule": 1,
+    "MapPath": "/Game/Aki/Map/Level/Main/2_2_Katixiya/InstanceTree_Katixiya_fushua"
+  },
+  {
+    "MapId": 891,
+    "PakRule": 1,
+    "MapPath": "/Game/Aki/Map/Level/Other/IOS_TEST/InstanceTree_ios_test"
+  },
+  {
+    "MapId": 818,
+    "PakRule": 1,
+    "MapPath": "/Game/Aki/Map/UISceneLevel/UI_Scene/UL_UIMap_CycleRougeLevels"
   }
 ]

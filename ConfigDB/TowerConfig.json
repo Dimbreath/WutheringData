@@ -11333,11 +11333,11 @@
     ],
     "ShowBuffs": [
       92007134.0,
-      92008064.0
+      92008066.0
     ],
     "RoleBuff": [
       622100102.0,
-      92008064.0
+      92008066.0
     ],
     "MonsterBuff": [
       92007111.0,
@@ -11388,11 +11388,11 @@
     ],
     "ShowBuffs": [
       92007134.0,
-      92008064.0
+      92008066.0
     ],
     "RoleBuff": [
       622100102.0,
-      92008064.0
+      92008066.0
     ],
     "MonsterBuff": [
       92007111.0,
@@ -11597,6 +11597,516 @@
     ],
     "MonsterBuff": [
       92007113.0
+    ],
+    "Target": [
+      0,
+      120,
+      180
+    ],
+    "TargetConfig": [
+      1,
+      6,
+      7
+    ],
+    "BgPath": "/Game/Aki/UI/UIResources/UiDailyTower/Image/T_loopTowerBg04_UI_png.T_loopTowerBg04_UI_png",
+    "ItemBgPath": "/Game/Aki/UI/UIResources/UiDailyTower/Image/T_DailyTowerL4.T_DailyTowerL4"
+  },
+  {
+    "Id": 229,
+    "Season": 22,
+    "Difficulty": 3,
+    "AreaNum": 1,
+    "Floor": 1,
+    "InstanceId": 20013,
+    "AreaName": "Text_TowerOne_Text",
+    "Cost": 1,
+    "RecommendElement": [
+      2
+    ],
+    "ShowMonsters": [
+      310000050,
+      310000100
+    ],
+    "ShowMonstersAndLevel": [
+      {
+        "Item1": 310000280,
+        "Item2": 10
+      },
+      {
+        "Item1": 320000010,
+        "Item2": 5
+      }
+    ],
+    "ShowBuffs": [
+      92007111.0,
+      92008038.0
+    ],
+    "RoleBuff": [
+      622100102.0,
+      92008038.0
+    ],
+    "MonsterBuff": [
+      92007111.0
+    ],
+    "Target": [
+      0,
+      90,
+      150
+    ],
+    "TargetConfig": [
+      1,
+      2,
+      3
+    ],
+    "BgPath": "/Game/Aki/UI/UIResources/UiDailyTower/Image/T_loopTowerBg01_UI_png.T_loopTowerBg01_UI_png",
+    "ItemBgPath": "/Game/Aki/UI/UIResources/UiDailyTower/Image/T_DailyTowerL1.T_DailyTowerL1"
+  },
+  {
+    "Id": 230,
+    "Season": 22,
+    "Difficulty": 3,
+    "AreaNum": 1,
+    "Floor": 2,
+    "InstanceId": 20014,
+    "AreaName": "Text_TowerOne_Text",
+    "Cost": 2,
+    "RecommendElement": [
+      2
+    ],
+    "ShowMonsters": [
+      310000370,
+      320000120
+    ],
+    "ShowMonstersAndLevel": [
+      {
+        "Item1": 310000280,
+        "Item2": 10
+      },
+      {
+        "Item1": 320000010,
+        "Item2": 5
+      }
+    ],
+    "ShowBuffs": [
+      92007111.0,
+      92008038.0
+    ],
+    "RoleBuff": [
+      622100102.0,
+      92008038.0
+    ],
+    "MonsterBuff": [
+      92007111.0
+    ],
+    "Target": [
+      0,
+      90,
+      150
+    ],
+    "TargetConfig": [
+      1,
+      2,
+      3
+    ],
+    "BgPath": "/Game/Aki/UI/UIResources/UiDailyTower/Image/T_loopTowerBg02_UI_png.T_loopTowerBg02_UI_png",
+    "ItemBgPath": "/Game/Aki/UI/UIResources/UiDailyTower/Image/T_DailyTowerL2.T_DailyTowerL2"
+  },
+  {
+    "Id": 231,
+    "Season": 22,
+    "Difficulty": 3,
+    "AreaNum": 1,
+    "Floor": 3,
+    "InstanceId": 20015,
+    "AreaName": "Text_TowerOne_Text",
+    "Cost": 3,
+    "RecommendElement": [
+      2
+    ],
+    "ShowMonsters": [
+      310000100,
+      310000050,
+      320000030,
+      320000320
+    ],
+    "ShowMonstersAndLevel": [
+      {
+        "Item1": 310000280,
+        "Item2": 10
+      },
+      {
+        "Item1": 320000010,
+        "Item2": 5
+      }
+    ],
+    "ShowBuffs": [
+      92007111.0,
+      92008038.0
+    ],
+    "RoleBuff": [
+      622100102.0,
+      92008038.0
+    ],
+    "MonsterBuff": [
+      92007111.0
+    ],
+    "Target": [
+      0,
+      120,
+      180
+    ],
+    "TargetConfig": [
+      1,
+      6,
+      7
+    ],
+    "BgPath": "/Game/Aki/UI/UIResources/UiDailyTower/Image/T_loopTowerBg03_UI_png.T_loopTowerBg03_UI_png",
+    "ItemBgPath": "/Game/Aki/UI/UIResources/UiDailyTower/Image/T_DailyTowerL3.T_DailyTowerL3"
+  },
+  {
+    "Id": 232,
+    "Season": 22,
+    "Difficulty": 3,
+    "AreaNum": 1,
+    "Floor": 4,
+    "InstanceId": 20016,
+    "AreaName": "Text_TowerOne_Text",
+    "Cost": 4,
+    "RecommendElement": [
+      2
+    ],
+    "ShowMonsters": [
+      320000110,
+      310000300,
+      330000050
+    ],
+    "ShowMonstersAndLevel": [
+      {
+        "Item1": 310000280,
+        "Item2": 10
+      },
+      {
+        "Item1": 320000010,
+        "Item2": 5
+      }
+    ],
+    "ShowBuffs": [
+      92007111.0,
+      92008038.0
+    ],
+    "RoleBuff": [
+      622100102.0,
+      92008038.0
+    ],
+    "MonsterBuff": [
+      92007111.0
+    ],
+    "Target": [
+      0,
+      120,
+      180
+    ],
+    "TargetConfig": [
+      1,
+      6,
+      7
+    ],
+    "BgPath": "/Game/Aki/UI/UIResources/UiDailyTower/Image/T_loopTowerBg04_UI_png.T_loopTowerBg04_UI_png",
+    "ItemBgPath": "/Game/Aki/UI/UIResources/UiDailyTower/Image/T_DailyTowerL4.T_DailyTowerL4"
+  },
+  {
+    "Id": 233,
+    "Season": 22,
+    "Difficulty": 3,
+    "AreaNum": 2,
+    "Floor": 1,
+    "InstanceId": 20019,
+    "AreaName": "Text_TowerThree_Text",
+    "Cost": 5,
+    "RecommendElement": [
+      4,
+      5
+    ],
+    "ShowMonsters": [
+      330000130
+    ],
+    "ShowMonstersAndLevel": [
+      {
+        "Item1": 310000280,
+        "Item2": 10
+      },
+      {
+        "Item1": 320000010,
+        "Item2": 5
+      }
+    ],
+    "ShowBuffs": [
+      92007136.0,
+      92008067.0
+    ],
+    "RoleBuff": [
+      622100102.0,
+      92008067.0
+    ],
+    "MonsterBuff": [
+      92007113.0,
+      92007114.0,
+      92007117.0,
+      92007116.0,
+      920080672.0
+    ],
+    "Target": [
+      90,
+      150,
+      180
+    ],
+    "TargetConfig": [
+      2,
+      3,
+      7
+    ],
+    "BgPath": "/Game/Aki/UI/UIResources/UiDailyTower/Image/T_loopTowerBg03_UI_png.T_loopTowerBg03_UI_png",
+    "ItemBgPath": "/Game/Aki/UI/UIResources/UiDailyTower/Image/T_DailyTowerL3.T_DailyTowerL3"
+  },
+  {
+    "Id": 234,
+    "Season": 22,
+    "Difficulty": 3,
+    "AreaNum": 2,
+    "Floor": 2,
+    "InstanceId": 20020,
+    "AreaName": "Text_TowerThree_Text",
+    "Cost": 5,
+    "RecommendElement": [
+      4,
+      5
+    ],
+    "ShowMonsters": [
+      320000190,
+      320000250,
+      330000120
+    ],
+    "ShowMonstersAndLevel": [
+      {
+        "Item1": 310000280,
+        "Item2": 10
+      },
+      {
+        "Item1": 320000010,
+        "Item2": 5
+      }
+    ],
+    "ShowBuffs": [
+      92007136.0,
+      92008067.0
+    ],
+    "RoleBuff": [
+      622100102.0,
+      92008067.0
+    ],
+    "MonsterBuff": [
+      92007113.0,
+      92007114.0,
+      92007117.0,
+      92007116.0,
+      920080672.0
+    ],
+    "Target": [
+      90,
+      150,
+      180
+    ],
+    "TargetConfig": [
+      2,
+      3,
+      7
+    ],
+    "BgPath": "/Game/Aki/UI/UIResources/UiDailyTower/Image/T_loopTowerBg04_UI_png.T_loopTowerBg04_UI_png",
+    "ItemBgPath": "/Game/Aki/UI/UIResources/UiDailyTower/Image/T_DailyTowerL4.T_DailyTowerL4"
+  },
+  {
+    "Id": 235,
+    "Season": 22,
+    "Difficulty": 3,
+    "AreaNum": 3,
+    "Floor": 1,
+    "InstanceId": 20021,
+    "AreaName": "Text_TowerTwo_Text",
+    "Cost": 1,
+    "RecommendElement": [
+      1
+    ],
+    "ShowMonsters": [
+      320000300
+    ],
+    "ShowMonstersAndLevel": [
+      {
+        "Item1": 310000280,
+        "Item2": 10
+      },
+      {
+        "Item1": 320000010,
+        "Item2": 5
+      }
+    ],
+    "ShowBuffs": [
+      92007110.0,
+      92008055.0
+    ],
+    "RoleBuff": [
+      622100102.0,
+      92008057.0
+    ],
+    "MonsterBuff": [
+      92007110.0
+    ],
+    "Target": [
+      0,
+      90,
+      150
+    ],
+    "TargetConfig": [
+      1,
+      2,
+      3
+    ],
+    "BgPath": "/Game/Aki/UI/UIResources/UiDailyTower/Image/T_loopTowerBg01_UI_png.T_loopTowerBg01_UI_png",
+    "ItemBgPath": "/Game/Aki/UI/UIResources/UiDailyTower/Image/T_DailyTowerL1.T_DailyTowerL1"
+  },
+  {
+    "Id": 236,
+    "Season": 22,
+    "Difficulty": 3,
+    "AreaNum": 3,
+    "Floor": 2,
+    "InstanceId": 20022,
+    "AreaName": "Text_TowerTwo_Text",
+    "Cost": 2,
+    "RecommendElement": [
+      1
+    ],
+    "ShowMonsters": [
+      320000010,
+      310000060
+    ],
+    "ShowMonstersAndLevel": [
+      {
+        "Item1": 310000280,
+        "Item2": 10
+      },
+      {
+        "Item1": 320000010,
+        "Item2": 5
+      }
+    ],
+    "ShowBuffs": [
+      92007110.0,
+      92008055.0
+    ],
+    "RoleBuff": [
+      622100102.0,
+      92008057.0
+    ],
+    "MonsterBuff": [
+      92007110.0
+    ],
+    "Target": [
+      0,
+      90,
+      150
+    ],
+    "TargetConfig": [
+      1,
+      2,
+      3
+    ],
+    "BgPath": "/Game/Aki/UI/UIResources/UiDailyTower/Image/T_loopTowerBg02_UI_png.T_loopTowerBg02_UI_png",
+    "ItemBgPath": "/Game/Aki/UI/UIResources/UiDailyTower/Image/T_DailyTowerL2.T_DailyTowerL2"
+  },
+  {
+    "Id": 237,
+    "Season": 22,
+    "Difficulty": 3,
+    "AreaNum": 3,
+    "Floor": 3,
+    "InstanceId": 20023,
+    "AreaName": "Text_TowerTwo_Text",
+    "Cost": 3,
+    "RecommendElement": [
+      1
+    ],
+    "ShowMonsters": [
+      320000280
+    ],
+    "ShowMonstersAndLevel": [
+      {
+        "Item1": 310000280,
+        "Item2": 10
+      },
+      {
+        "Item1": 320000010,
+        "Item2": 5
+      }
+    ],
+    "ShowBuffs": [
+      92007110.0,
+      92008055.0
+    ],
+    "RoleBuff": [
+      622100102.0,
+      92008057.0
+    ],
+    "MonsterBuff": [
+      92007110.0
+    ],
+    "Target": [
+      0,
+      120,
+      180
+    ],
+    "TargetConfig": [
+      1,
+      6,
+      7
+    ],
+    "BgPath": "/Game/Aki/UI/UIResources/UiDailyTower/Image/T_loopTowerBg03_UI_png.T_loopTowerBg03_UI_png",
+    "ItemBgPath": "/Game/Aki/UI/UIResources/UiDailyTower/Image/T_DailyTowerL3.T_DailyTowerL3"
+  },
+  {
+    "Id": 238,
+    "Season": 22,
+    "Difficulty": 3,
+    "AreaNum": 3,
+    "Floor": 4,
+    "InstanceId": 20024,
+    "AreaName": "Text_TowerTwo_Text",
+    "Cost": 4,
+    "RecommendElement": [
+      1
+    ],
+    "ShowMonsters": [
+      330000020
+    ],
+    "ShowMonstersAndLevel": [
+      {
+        "Item1": 310000280,
+        "Item2": 10
+      },
+      {
+        "Item1": 320000010,
+        "Item2": 5
+      }
+    ],
+    "ShowBuffs": [
+      92007110.0,
+      92008055.0
+    ],
+    "RoleBuff": [
+      622100102.0,
+      92008057.0
+    ],
+    "MonsterBuff": [
+      92007110.0
     ],
     "Target": [
       0,

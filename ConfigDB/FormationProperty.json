@@ -352,5 +352,40 @@
     "TriggerEffectParams3": null,
     "Condition": 13000189,
     "PropertyIndex": 138
+  },
+  {
+    "Id": 11,
+    "InitValue": 18000,
+    "InitRecoveryRate": 0,
+    "InitMax": 18000,
+    "MarkTag": null,
+    "ResistTag": [
+      "关卡.28b35ef7.d02b8931"
+    ],
+    "TriggerRange1": {
+      "Min": 0.0,
+      "Max": 200.0
+    },
+    "TriggerType1": 0,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": [
+      640017001.0
+    ],
+    "TriggerRange2": {
+      "Min": 9999.0,
+      "Max": 10000.0
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": null,
+    "TriggerRange3": {
+      "Min": 9999.0,
+      "Max": 10000.0
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": null,
+    "Condition": 0,
+    "PropertyIndex": 0
   }
 ]

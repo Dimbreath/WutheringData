@@ -5270,7 +5270,7 @@
       463,
       464
     ],
-    "OpenLimitCondition": 0,
+    "OpenLimitCondition": 131200405,
     "AutoOpenCondition": 0,
     "LimitRepeat": [
       -1
@@ -5300,7 +5300,7 @@
       475,
       476
     ],
-    "OpenLimitCondition": 0,
+    "OpenLimitCondition": 131200405,
     "AutoOpenCondition": 0,
     "LimitRepeat": [
       -1
@@ -8763,7 +8763,7 @@
       20275
     ],
     "OpenLimitCondition": 0,
-    "AutoOpenCondition": 131200150,
+    "AutoOpenCondition": 0,
     "LimitRepeat": [
       -1
     ],
@@ -8984,8 +8984,8 @@
       20293,
       20294
     ],
-    "OpenLimitCondition": 131200205,
-    "AutoOpenCondition": 131200206,
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
     "LimitRepeat": [
       -1
     ],
@@ -12840,6 +12840,25 @@
     "Priority": 0
   },
   {
+    "Id": 10180,
+    "Step": [
+      770,
+      771,
+      772
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      1010
+    ],
+    "ResetInDungeon": true,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
     "Id": 33027,
     "Step": [
       33027
@@ -13034,6 +13053,249 @@
     "Priority": 0
   },
   {
+    "Id": 2429210,
+    "Step": [
+      1277,
+      1278,
+      1279
+    ],
+    "OpenLimitCondition": 242916903,
+    "AutoOpenCondition": 242917017,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      5036
+    ],
+    "ResetInDungeon": true,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 2429211,
+    "Step": [
+      1280,
+      1281,
+      1282
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      5036
+    ],
+    "ResetInDungeon": true,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 2429212,
+    "Step": [
+      1283,
+      1284,
+      1285
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      5036
+    ],
+    "ResetInDungeon": true,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 2429213,
+    "Step": [
+      1286,
+      1287,
+      1288
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      5036
+    ],
+    "ResetInDungeon": true,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 2429214,
+    "Step": [
+      1289,
+      1290,
+      1291
+    ],
+    "OpenLimitCondition": 242917020,
+    "AutoOpenCondition": 242917019,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      5036
+    ],
+    "ResetInDungeon": true,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 2429215,
+    "Step": [
+      1292,
+      1293,
+      1294
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      5036
+    ],
+    "ResetInDungeon": true,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 2429216,
+    "Step": [
+      1295,
+      1296,
+      1297
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      5036
+    ],
+    "ResetInDungeon": true,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 2429217,
+    "Step": [
+      1298,
+      1299,
+      1300
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 242917021,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      5036
+    ],
+    "ResetInDungeon": true,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 2429218,
+    "Step": [
+      1301,
+      1302,
+      1303
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      5036
+    ],
+    "ResetInDungeon": true,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 34126,
+    "Step": [
+      34126
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      903
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 34127,
+    "Step": [
+      34127
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      903
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 2429219,
+    "Step": [
+      1304,
+      1305,
+      1306
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      5035
+    ],
+    "ResetInDungeon": true,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 2429220,
+    "Step": [
+      1304,
+      1305,
+      1306
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      5037
+    ],
+    "ResetInDungeon": true,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
     "Id": 20098,
     "Step": [
       20261,
@@ -13074,6 +13336,784 @@
     ],
     "ResetInDungeon": false,
     "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 10181,
+    "Step": [
+      782,
+      783,
+      784
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      1010
+    ],
+    "ResetInDungeon": true,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 20100,
+    "Step": [
+      20452,
+      20453,
+      20454
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 131200399,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      1,
+      8,
+      900,
+      902,
+      30004,
+      30005,
+      30006,
+      30007,
+      30008,
+      30009,
+      30010,
+      30011
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 20101,
+    "Step": [
+      20458,
+      20459,
+      20460,
+      20461,
+      20462,
+      20463
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 131200400,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      1,
+      8,
+      900,
+      902,
+      30004,
+      30005,
+      30006,
+      30007,
+      30008,
+      30009,
+      30010,
+      30011
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 20102,
+    "Step": [
+      20464,
+      20465,
+      20466
+    ],
+    "OpenLimitCondition": 131200401,
+    "AutoOpenCondition": 131200399,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      1,
+      8,
+      900,
+      902,
+      30004,
+      30005,
+      30006,
+      30007,
+      30008,
+      30009,
+      30010,
+      30011
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 10182,
+    "Step": [
+      785,
+      786,
+      787,
+      788,
+      789,
+      790,
+      791,
+      792,
+      793,
+      794,
+      795,
+      796
+    ],
+    "OpenLimitCondition": 131200404,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      8,
+      900
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 10183,
+    "Step": [
+      797,
+      798,
+      799,
+      800,
+      801,
+      802,
+      803,
+      804,
+      805,
+      806,
+      807,
+      808
+    ],
+    "OpenLimitCondition": 131200404,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      8,
+      900
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 10184,
+    "Step": [
+      809,
+      810,
+      811
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      903
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 10185,
+    "Step": [
+      812,
+      813,
+      814
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      903
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 10186,
+    "Step": [
+      815,
+      816,
+      817
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      1,
+      2,
+      8
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 10187,
+    "Step": [
+      818,
+      819,
+      820
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      1,
+      2,
+      8
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 32037,
+    "Step": [
+      32037
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 131200402,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      8,
+      903
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 32038,
+    "Step": [
+      32038
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 131200403,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      8,
+      903
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 33029,
+    "Step": [
+      31010
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      8,
+      1513
+    ],
+    "ResetInDungeon": true,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 33030,
+    "Step": [
+      33030
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      8,
+      903
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 34128,
+    "Step": [
+      34128
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      8,
+      903
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 34130,
+    "Step": [
+      34130
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      8,
+      903
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 34131,
+    "Step": [
+      34131
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      8,
+      903
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 34132,
+    "Step": [
+      34132
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      8,
+      903
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 34133,
+    "Step": [
+      34133
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      1,
+      8,
+      903
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 34134,
+    "Step": [
+      34134
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      8,
+      903
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 34135,
+    "Step": [
+      34135
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      8,
+      903
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 34136,
+    "Step": [
+      34136
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      8,
+      903
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 34137,
+    "Step": [
+      34137
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      8,
+      903
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 34138,
+    "Step": [
+      34138
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      1010
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 34139,
+    "Step": [
+      34139
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      1010
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 34140,
+    "Step": [
+      34140
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      1010
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 34141,
+    "Step": [
+      34141
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      1010
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 34142,
+    "Step": [
+      34142
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      8,
+      903
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 34143,
+    "Step": [
+      34143
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      8,
+      903
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 34144,
+    "Step": [
+      34144
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      8,
+      903
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 34145,
+    "Step": [
+      34145
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      8,
+      903
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 34146,
+    "Step": [
+      34146
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      8,
+      903
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 34147,
+    "Step": [
+      34147
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      8,
+      903
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 10188,
+    "Step": [
+      821,
+      822,
+      823
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": null,
+    "DungeonId": [
+      1,
+      1010
+    ],
+    "ResetInDungeon": true,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 10189,
+    "Step": [
+      824,
+      825,
+      826
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 0,
+    "LimitRepeat": null,
+    "DungeonId": [
+      1,
+      1010
+    ],
+    "ResetInDungeon": true,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 20103,
+    "Step": [
+      20455,
+      20456,
+      20457
+    ],
+    "OpenLimitCondition": 131200406,
+    "AutoOpenCondition": 131200408,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      1,
+      8,
+      900,
+      902,
+      30004,
+      30005,
+      30006,
+      30007,
+      30008,
+      30009,
+      30010,
+      30011
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 20104,
+    "Step": [
+      20467,
+      20468,
+      20469
+    ],
+    "OpenLimitCondition": 131200407,
+    "AutoOpenCondition": 131200409,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      1,
+      8,
+      900,
+      902,
+      30004,
+      30005,
+      30006,
+      30007,
+      30008,
+      30009,
+      30010,
+      30011
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 1,
+    "Priority": 0
+  },
+  {
+    "Id": 20105,
+    "Step": [
+      20273,
+      20274,
+      20275
+    ],
+    "OpenLimitCondition": 0,
+    "AutoOpenCondition": 131200150,
+    "LimitRepeat": [
+      -1
+    ],
+    "DungeonId": [
+      1,
+      2,
+      8
+    ],
+    "ResetInDungeon": false,
+    "OnlineMode": 3,
     "Priority": 0
   }
 ]

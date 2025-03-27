@@ -604,10 +604,10 @@
   },
   {
     "Id": 12021,
-    "Name": "完成当前追踪副本节点",
+    "Name": "完成当前副本节点",
     "NameOverride": "完成当前追踪副本节点(PageDown)",
-    "Code": "FinishCurTrackDungeonNode#当前副本追踪的第X个节点,是否推完(默认1)",
-    "CodeOverride": "FinishCurTrackDungeonNode#1",
+    "Code": "FinishCurDungeonNode#进行中节点id(缺省按index来),进行中节点index(备选,默认1),是否推完(默认1)",
+    "CodeOverride": "FinishCurDungeonNode#",
     "Sort": 12021,
     "Visible": true
   },
@@ -615,8 +615,8 @@
     "Id": 12031,
     "Name": "传送到当前副本追踪位置",
     "NameOverride": "传送当前副本追踪位置",
-    "Code": "TeleportToCurDungeonTrackPosition#当前活跃节点中的第X个",
-    "CodeOverride": "TeleportToCurDungeonTrackPosition#1",
+    "Code": "TeleportToCurDungeonTrackPosition#进行中节点id(缺省按index来),进行中节点index(备选,默认1)",
+    "CodeOverride": "TeleportToCurDungeonTrackPosition#",
     "Sort": 12031,
     "Visible": true
   },
@@ -721,10 +721,10 @@
   },
   {
     "Id": 13021,
-    "Name": "完成当前追踪任务节点",
+    "Name": "完成当前任务节点",
     "NameOverride": "完成当前追踪任务节点(PageDown)",
-    "Code": "FinishCurrentTrackQuestNode#当前任务追踪的第X个节点,是否推完(默认1)",
-    "CodeOverride": "FinishCurrentTrackQuestNode#1",
+    "Code": "FinishCurQuestNode#进行中节点id(缺省按index来),进行中节点index(备选,默认1),是否推完(默认1)",
+    "CodeOverride": "FinishCurQuestNode#",
     "Sort": 13021,
     "Visible": true
   },
@@ -732,8 +732,8 @@
     "Id": 13031,
     "Name": "传送到当前任务追踪位置",
     "NameOverride": "传送当前任务追踪位置",
-    "Code": "TeleportToCurQuestTrackPosition#当前活跃节点中的第X个",
-    "CodeOverride": "TeleportToCurQuestTrackPosition#1",
+    "Code": "TeleportToCurQuestTrackPosition#进行中节点id(缺省按index来),进行中节点index(备选,默认1)",
+    "CodeOverride": "TeleportToCurQuestTrackPosition#",
     "Sort": 13031,
     "Visible": true
   },
@@ -939,8 +939,8 @@
     "Id": 14031,
     "Name": "完成当前玩法节点",
     "NameOverride": "完成当前玩法节点",
-    "Code": "FinishCurrentLevelPlayNode#当前玩法追踪的第X个节点,是否推完(默认1)",
-    "CodeOverride": "FinishCurrentLevelPlayNode#1",
+    "Code": "FinishCurLevelPlayNode#玩法id(缺省选追踪中/距离最近),进行中节点id(缺省按index来),进行中节点index(备选,默认1),是否推完(默认1)",
+    "CodeOverride": "FinishCurLevelPlayNode#",
     "Sort": 14031,
     "Visible": true
   },
@@ -1056,8 +1056,8 @@
     "Id": 14041,
     "Name": "传送到当前玩法追踪位置",
     "NameOverride": "传送当前玩法追踪位置",
-    "Code": "TeleportToCurLevelPlayTrackPosition#当前活跃节点中的第X个",
-    "CodeOverride": "TeleportToCurLevelPlayTrackPosition#1",
+    "Code": "TeleportToCurLevelPlayTrackPosition#玩法id(缺省选追踪中/距离最近),进行中节点id(缺省按index来),进行中节点index(备选,默认1)",
+    "CodeOverride": "TeleportToCurLevelPlayTrackPosition#",
     "Sort": 14041,
     "Visible": true
   },

@@ -17998,5 +17998,1205 @@
       }
     ],
     "UnlockCondition": 500008
+  },
+  {
+    "Id": 481,
+    "NodeIndex": 1,
+    "NodeGroup": 1607,
+    "ParentNodes": null,
+    "NodeType": 2,
+    "Coordinate": 1,
+    "Condition": null,
+    "SkillId": 1003101,
+    "PropertyNodeTitle": "",
+    "PropertyNodeDescribe": "",
+    "PropertyNodeParam": null,
+    "PropertyNodeIcon": "",
+    "Property": null,
+    "Consume": [
+      {
+        "Key": 43020032,
+        "Value": 2
+      },
+      {
+        "Key": 41100022,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 3900
+      }
+    ],
+    "UnlockCondition": 0
+  },
+  {
+    "Id": 482,
+    "NodeIndex": 2,
+    "NodeGroup": 1607,
+    "ParentNodes": null,
+    "NodeType": 2,
+    "Coordinate": 2,
+    "Condition": null,
+    "SkillId": 1003102,
+    "PropertyNodeTitle": "",
+    "PropertyNodeDescribe": "",
+    "PropertyNodeParam": null,
+    "PropertyNodeIcon": "",
+    "Property": null,
+    "Consume": [
+      {
+        "Key": 43020032,
+        "Value": 2
+      },
+      {
+        "Key": 41100022,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 3900
+      }
+    ],
+    "UnlockCondition": 0
+  },
+  {
+    "Id": 483,
+    "NodeIndex": 3,
+    "NodeGroup": 1607,
+    "ParentNodes": null,
+    "NodeType": 2,
+    "Coordinate": 3,
+    "Condition": null,
+    "SkillId": 1003103,
+    "PropertyNodeTitle": "",
+    "PropertyNodeDescribe": "",
+    "PropertyNodeParam": null,
+    "PropertyNodeIcon": "",
+    "Property": null,
+    "Consume": [
+      {
+        "Key": 43020032,
+        "Value": 2
+      },
+      {
+        "Key": 41100022,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 3900
+      }
+    ],
+    "UnlockCondition": 0
+  },
+  {
+    "Id": 484,
+    "NodeIndex": 4,
+    "NodeGroup": 1607,
+    "ParentNodes": [
+      7
+    ],
+    "NodeType": 3,
+    "Coordinate": 2,
+    "Condition": [
+      1
+    ],
+    "SkillId": 1003104,
+    "PropertyNodeTitle": "",
+    "PropertyNodeDescribe": "",
+    "PropertyNodeParam": null,
+    "PropertyNodeIcon": "",
+    "Property": null,
+    "Consume": [
+      {
+        "Key": 43020032,
+        "Value": 2
+      },
+      {
+        "Key": 41100022,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 3900
+      }
+    ],
+    "UnlockCondition": 0
+  },
+  {
+    "Id": 485,
+    "NodeIndex": 5,
+    "NodeGroup": 1607,
+    "ParentNodes": [
+      4
+    ],
+    "NodeType": 3,
+    "Coordinate": 3,
+    "Condition": [
+      1
+    ],
+    "SkillId": 1003105,
+    "PropertyNodeTitle": "",
+    "PropertyNodeDescribe": "",
+    "PropertyNodeParam": null,
+    "PropertyNodeIcon": "",
+    "Property": null,
+    "Consume": [
+      {
+        "Key": 43020032,
+        "Value": 2
+      },
+      {
+        "Key": 41100022,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 3900
+      }
+    ],
+    "UnlockCondition": 0
+  },
+  {
+    "Id": 486,
+    "NodeIndex": 6,
+    "NodeGroup": 1607,
+    "ParentNodes": null,
+    "NodeType": 2,
+    "Coordinate": 4,
+    "Condition": null,
+    "SkillId": 1003106,
+    "PropertyNodeTitle": "",
+    "PropertyNodeDescribe": "",
+    "PropertyNodeParam": null,
+    "PropertyNodeIcon": "",
+    "Property": null,
+    "Consume": [
+      {
+        "Key": 43020032,
+        "Value": 2
+      },
+      {
+        "Key": 41100022,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 3900
+      }
+    ],
+    "UnlockCondition": 0
+  },
+  {
+    "Id": 487,
+    "NodeIndex": 7,
+    "NodeGroup": 1607,
+    "ParentNodes": null,
+    "NodeType": 1,
+    "Coordinate": 1,
+    "Condition": null,
+    "SkillId": 1003107,
+    "PropertyNodeTitle": "",
+    "PropertyNodeDescribe": "",
+    "PropertyNodeParam": null,
+    "PropertyNodeIcon": "",
+    "Property": null,
+    "Consume": [
+      {
+        "Key": 43020032,
+        "Value": 2
+      },
+      {
+        "Key": 41100022,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 3900
+      }
+    ],
+    "UnlockCondition": 0
+  },
+  {
+    "Id": 488,
+    "NodeIndex": 8,
+    "NodeGroup": 1607,
+    "ParentNodes": null,
+    "NodeType": 3,
+    "Coordinate": 1,
+    "Condition": null,
+    "SkillId": 1003109,
+    "PropertyNodeTitle": "",
+    "PropertyNodeDescribe": "",
+    "PropertyNodeParam": null,
+    "PropertyNodeIcon": "",
+    "Property": null,
+    "Consume": [
+      {
+        "Key": 43020032,
+        "Value": 2
+      },
+      {
+        "Key": 41100022,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 3900
+      }
+    ],
+    "UnlockCondition": 0
+  },
+  {
+    "Id": 489,
+    "NodeIndex": 9,
+    "NodeGroup": 1607,
+    "ParentNodes": [
+      1
+    ],
+    "NodeType": 4,
+    "Coordinate": 1,
+    "Condition": [
+      1
+    ],
+    "SkillId": 0,
+    "PropertyNodeTitle": "SkillTree_297_PropertyNodeTitle",
+    "PropertyNodeDescribe": "SkillTree_297_PropertyNodeDescribe",
+    "PropertyNodeParam": [
+      "1.20%"
+    ],
+    "PropertyNodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+    "Property": [
+      {
+        "Id": 8,
+        "Value": 120.0,
+        "IsRatio": false
+      }
+    ],
+    "Consume": [
+      {
+        "Key": 43020033,
+        "Value": 3
+      },
+      {
+        "Key": 41100043,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 50000
+      }
+    ],
+    "UnlockCondition": 500006
+  },
+  {
+    "Id": 490,
+    "NodeIndex": 10,
+    "NodeGroup": 1607,
+    "ParentNodes": [
+      2
+    ],
+    "NodeType": 4,
+    "Coordinate": 1,
+    "Condition": [
+      1
+    ],
+    "SkillId": 0,
+    "PropertyNodeTitle": "SkillTree_298_PropertyNodeTitle",
+    "PropertyNodeDescribe": "SkillTree_298_PropertyNodeDescribe",
+    "PropertyNodeParam": [
+      "1.80%"
+    ],
+    "PropertyNodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+    "Property": [
+      {
+        "Id": 10007,
+        "Value": 0.017999999225139618,
+        "IsRatio": true
+      }
+    ],
+    "Consume": [
+      {
+        "Key": 43020033,
+        "Value": 3
+      },
+      {
+        "Key": 41100043,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 50000
+      }
+    ],
+    "UnlockCondition": 500005
+  },
+  {
+    "Id": 491,
+    "NodeIndex": 11,
+    "NodeGroup": 1607,
+    "ParentNodes": [
+      3
+    ],
+    "NodeType": 4,
+    "Coordinate": 1,
+    "Condition": [
+      1
+    ],
+    "SkillId": 0,
+    "PropertyNodeTitle": "SkillTree_299_PropertyNodeTitle",
+    "PropertyNodeDescribe": "SkillTree_299_PropertyNodeDescribe",
+    "PropertyNodeParam": [
+      "1.80%"
+    ],
+    "PropertyNodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+    "Property": [
+      {
+        "Id": 10007,
+        "Value": 0.017999999225139618,
+        "IsRatio": true
+      }
+    ],
+    "Consume": [
+      {
+        "Key": 43020033,
+        "Value": 3
+      },
+      {
+        "Key": 41100043,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 50000
+      }
+    ],
+    "UnlockCondition": 500005
+  },
+  {
+    "Id": 492,
+    "NodeIndex": 12,
+    "NodeGroup": 1607,
+    "ParentNodes": [
+      6
+    ],
+    "NodeType": 4,
+    "Coordinate": 1,
+    "Condition": [
+      1
+    ],
+    "SkillId": 0,
+    "PropertyNodeTitle": "SkillTree_300_PropertyNodeTitle",
+    "PropertyNodeDescribe": "SkillTree_300_PropertyNodeDescribe",
+    "PropertyNodeParam": [
+      "1.20%"
+    ],
+    "PropertyNodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+    "Property": [
+      {
+        "Id": 8,
+        "Value": 120.0,
+        "IsRatio": false
+      }
+    ],
+    "Consume": [
+      {
+        "Key": 43020033,
+        "Value": 3
+      },
+      {
+        "Key": 41100043,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 50000
+      }
+    ],
+    "UnlockCondition": 500006
+  },
+  {
+    "Id": 493,
+    "NodeIndex": 13,
+    "NodeGroup": 1607,
+    "ParentNodes": [
+      9
+    ],
+    "NodeType": 4,
+    "Coordinate": 2,
+    "Condition": [
+      1
+    ],
+    "SkillId": 0,
+    "PropertyNodeTitle": "SkillTree_301_PropertyNodeTitle",
+    "PropertyNodeDescribe": "SkillTree_301_PropertyNodeDescribe",
+    "PropertyNodeParam": [
+      "2.80%"
+    ],
+    "PropertyNodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+    "Property": [
+      {
+        "Id": 8,
+        "Value": 280.0,
+        "IsRatio": false
+      }
+    ],
+    "Consume": [
+      {
+        "Key": 43020034,
+        "Value": 3
+      },
+      {
+        "Key": 41100044,
+        "Value": 3
+      },
+      {
+        "Key": 41400204,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 100000
+      }
+    ],
+    "UnlockCondition": 500008
+  },
+  {
+    "Id": 494,
+    "NodeIndex": 14,
+    "NodeGroup": 1607,
+    "ParentNodes": [
+      10
+    ],
+    "NodeType": 4,
+    "Coordinate": 2,
+    "Condition": [
+      1
+    ],
+    "SkillId": 0,
+    "PropertyNodeTitle": "SkillTree_302_PropertyNodeTitle",
+    "PropertyNodeDescribe": "SkillTree_302_PropertyNodeDescribe",
+    "PropertyNodeParam": [
+      "4.20%"
+    ],
+    "PropertyNodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+    "Property": [
+      {
+        "Id": 10007,
+        "Value": 0.041999999433755875,
+        "IsRatio": true
+      }
+    ],
+    "Consume": [
+      {
+        "Key": 43020034,
+        "Value": 3
+      },
+      {
+        "Key": 41100044,
+        "Value": 3
+      },
+      {
+        "Key": 41400204,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 100000
+      }
+    ],
+    "UnlockCondition": 500007
+  },
+  {
+    "Id": 495,
+    "NodeIndex": 15,
+    "NodeGroup": 1607,
+    "ParentNodes": [
+      11
+    ],
+    "NodeType": 4,
+    "Coordinate": 2,
+    "Condition": [
+      1
+    ],
+    "SkillId": 0,
+    "PropertyNodeTitle": "SkillTree_303_PropertyNodeTitle",
+    "PropertyNodeDescribe": "SkillTree_303_PropertyNodeDescribe",
+    "PropertyNodeParam": [
+      "4.20%"
+    ],
+    "PropertyNodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+    "Property": [
+      {
+        "Id": 10007,
+        "Value": 0.041999999433755875,
+        "IsRatio": true
+      }
+    ],
+    "Consume": [
+      {
+        "Key": 43020034,
+        "Value": 3
+      },
+      {
+        "Key": 41100044,
+        "Value": 3
+      },
+      {
+        "Key": 41400204,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 100000
+      }
+    ],
+    "UnlockCondition": 500007
+  },
+  {
+    "Id": 496,
+    "NodeIndex": 16,
+    "NodeGroup": 1607,
+    "ParentNodes": [
+      12
+    ],
+    "NodeType": 4,
+    "Coordinate": 2,
+    "Condition": [
+      1
+    ],
+    "SkillId": 0,
+    "PropertyNodeTitle": "SkillTree_304_PropertyNodeTitle",
+    "PropertyNodeDescribe": "SkillTree_304_PropertyNodeDescribe",
+    "PropertyNodeParam": [
+      "2.80%"
+    ],
+    "PropertyNodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+    "Property": [
+      {
+        "Id": 8,
+        "Value": 280.0,
+        "IsRatio": false
+      }
+    ],
+    "Consume": [
+      {
+        "Key": 43020034,
+        "Value": 3
+      },
+      {
+        "Key": 41100044,
+        "Value": 3
+      },
+      {
+        "Key": 41400204,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 100000
+      }
+    ],
+    "UnlockCondition": 500008
+  },
+  {
+    "Id": 497,
+    "NodeIndex": 1,
+    "NodeGroup": 1406,
+    "ParentNodes": null,
+    "NodeType": 2,
+    "Coordinate": 1,
+    "Condition": null,
+    "SkillId": 1003201,
+    "PropertyNodeTitle": "",
+    "PropertyNodeDescribe": "",
+    "PropertyNodeParam": null,
+    "PropertyNodeIcon": "",
+    "Property": null,
+    "Consume": [
+      {
+        "Key": 43020032,
+        "Value": 2
+      },
+      {
+        "Key": 41100022,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 3900
+      }
+    ],
+    "UnlockCondition": 0
+  },
+  {
+    "Id": 498,
+    "NodeIndex": 2,
+    "NodeGroup": 1406,
+    "ParentNodes": null,
+    "NodeType": 2,
+    "Coordinate": 2,
+    "Condition": null,
+    "SkillId": 1003202,
+    "PropertyNodeTitle": "",
+    "PropertyNodeDescribe": "",
+    "PropertyNodeParam": null,
+    "PropertyNodeIcon": "",
+    "Property": null,
+    "Consume": [
+      {
+        "Key": 43020032,
+        "Value": 2
+      },
+      {
+        "Key": 41100022,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 3900
+      }
+    ],
+    "UnlockCondition": 0
+  },
+  {
+    "Id": 499,
+    "NodeIndex": 3,
+    "NodeGroup": 1406,
+    "ParentNodes": null,
+    "NodeType": 2,
+    "Coordinate": 3,
+    "Condition": null,
+    "SkillId": 1003203,
+    "PropertyNodeTitle": "",
+    "PropertyNodeDescribe": "",
+    "PropertyNodeParam": null,
+    "PropertyNodeIcon": "",
+    "Property": null,
+    "Consume": [
+      {
+        "Key": 43020032,
+        "Value": 2
+      },
+      {
+        "Key": 41100022,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 3900
+      }
+    ],
+    "UnlockCondition": 0
+  },
+  {
+    "Id": 500,
+    "NodeIndex": 4,
+    "NodeGroup": 1406,
+    "ParentNodes": [
+      7
+    ],
+    "NodeType": 3,
+    "Coordinate": 2,
+    "Condition": [
+      1
+    ],
+    "SkillId": 1003204,
+    "PropertyNodeTitle": "",
+    "PropertyNodeDescribe": "",
+    "PropertyNodeParam": null,
+    "PropertyNodeIcon": "",
+    "Property": null,
+    "Consume": [
+      {
+        "Key": 43020032,
+        "Value": 2
+      },
+      {
+        "Key": 41100022,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 3900
+      }
+    ],
+    "UnlockCondition": 0
+  },
+  {
+    "Id": 501,
+    "NodeIndex": 5,
+    "NodeGroup": 1406,
+    "ParentNodes": [
+      4
+    ],
+    "NodeType": 3,
+    "Coordinate": 3,
+    "Condition": [
+      1
+    ],
+    "SkillId": 1003205,
+    "PropertyNodeTitle": "",
+    "PropertyNodeDescribe": "",
+    "PropertyNodeParam": null,
+    "PropertyNodeIcon": "",
+    "Property": null,
+    "Consume": [
+      {
+        "Key": 43020032,
+        "Value": 2
+      },
+      {
+        "Key": 41100022,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 3900
+      }
+    ],
+    "UnlockCondition": 0
+  },
+  {
+    "Id": 502,
+    "NodeIndex": 6,
+    "NodeGroup": 1406,
+    "ParentNodes": null,
+    "NodeType": 2,
+    "Coordinate": 4,
+    "Condition": null,
+    "SkillId": 1003206,
+    "PropertyNodeTitle": "",
+    "PropertyNodeDescribe": "",
+    "PropertyNodeParam": null,
+    "PropertyNodeIcon": "",
+    "Property": null,
+    "Consume": [
+      {
+        "Key": 43020032,
+        "Value": 2
+      },
+      {
+        "Key": 41100022,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 3900
+      }
+    ],
+    "UnlockCondition": 0
+  },
+  {
+    "Id": 503,
+    "NodeIndex": 7,
+    "NodeGroup": 1406,
+    "ParentNodes": null,
+    "NodeType": 1,
+    "Coordinate": 1,
+    "Condition": null,
+    "SkillId": 1003207,
+    "PropertyNodeTitle": "",
+    "PropertyNodeDescribe": "",
+    "PropertyNodeParam": null,
+    "PropertyNodeIcon": "",
+    "Property": null,
+    "Consume": [
+      {
+        "Key": 43020032,
+        "Value": 2
+      },
+      {
+        "Key": 41100022,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 3900
+      }
+    ],
+    "UnlockCondition": 0
+  },
+  {
+    "Id": 504,
+    "NodeIndex": 8,
+    "NodeGroup": 1406,
+    "ParentNodes": null,
+    "NodeType": 3,
+    "Coordinate": 1,
+    "Condition": null,
+    "SkillId": 1003209,
+    "PropertyNodeTitle": "",
+    "PropertyNodeDescribe": "",
+    "PropertyNodeParam": null,
+    "PropertyNodeIcon": "",
+    "Property": null,
+    "Consume": [
+      {
+        "Key": 43020032,
+        "Value": 2
+      },
+      {
+        "Key": 41100022,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 3900
+      }
+    ],
+    "UnlockCondition": 0
+  },
+  {
+    "Id": 505,
+    "NodeIndex": 9,
+    "NodeGroup": 1406,
+    "ParentNodes": [
+      1
+    ],
+    "NodeType": 4,
+    "Coordinate": 1,
+    "Condition": [
+      1
+    ],
+    "SkillId": 0,
+    "PropertyNodeTitle": "SkillTree_25_PropertyNodeTitle",
+    "PropertyNodeDescribe": "SkillTree_25_PropertyNodeDescribe",
+    "PropertyNodeParam": [
+      "1.80%"
+    ],
+    "PropertyNodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreencure_UI.T_Iconpropertygreencure_UI",
+    "Property": [
+      {
+        "Id": 35,
+        "Value": 180.0,
+        "IsRatio": false
+      }
+    ],
+    "Consume": [
+      {
+        "Key": 43020013,
+        "Value": 3
+      },
+      {
+        "Key": 41100053,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 50000
+      }
+    ],
+    "UnlockCondition": 500006
+  },
+  {
+    "Id": 506,
+    "NodeIndex": 10,
+    "NodeGroup": 1406,
+    "ParentNodes": [
+      2
+    ],
+    "NodeType": 4,
+    "Coordinate": 1,
+    "Condition": [
+      1
+    ],
+    "SkillId": 0,
+    "PropertyNodeTitle": "SkillTree_298_PropertyNodeTitle",
+    "PropertyNodeDescribe": "SkillTree_298_PropertyNodeDescribe",
+    "PropertyNodeParam": [
+      "1.80%"
+    ],
+    "PropertyNodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+    "Property": [
+      {
+        "Id": 10007,
+        "Value": 0.017999999225139618,
+        "IsRatio": true
+      }
+    ],
+    "Consume": [
+      {
+        "Key": 43020013,
+        "Value": 3
+      },
+      {
+        "Key": 41100053,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 50000
+      }
+    ],
+    "UnlockCondition": 500005
+  },
+  {
+    "Id": 507,
+    "NodeIndex": 11,
+    "NodeGroup": 1406,
+    "ParentNodes": [
+      3
+    ],
+    "NodeType": 4,
+    "Coordinate": 1,
+    "Condition": [
+      1
+    ],
+    "SkillId": 0,
+    "PropertyNodeTitle": "SkillTree_299_PropertyNodeTitle",
+    "PropertyNodeDescribe": "SkillTree_299_PropertyNodeDescribe",
+    "PropertyNodeParam": [
+      "1.80%"
+    ],
+    "PropertyNodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+    "Property": [
+      {
+        "Id": 10007,
+        "Value": 0.017999999225139618,
+        "IsRatio": true
+      }
+    ],
+    "Consume": [
+      {
+        "Key": 43020013,
+        "Value": 3
+      },
+      {
+        "Key": 41100053,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 50000
+      }
+    ],
+    "UnlockCondition": 500005
+  },
+  {
+    "Id": 508,
+    "NodeIndex": 12,
+    "NodeGroup": 1406,
+    "ParentNodes": [
+      6
+    ],
+    "NodeType": 4,
+    "Coordinate": 1,
+    "Condition": [
+      1
+    ],
+    "SkillId": 0,
+    "PropertyNodeTitle": "SkillTree_28_PropertyNodeTitle",
+    "PropertyNodeDescribe": "SkillTree_28_PropertyNodeDescribe",
+    "PropertyNodeParam": [
+      "1.80%"
+    ],
+    "PropertyNodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreencure_UI.T_Iconpropertygreencure_UI",
+    "Property": [
+      {
+        "Id": 35,
+        "Value": 180.0,
+        "IsRatio": false
+      }
+    ],
+    "Consume": [
+      {
+        "Key": 43020013,
+        "Value": 3
+      },
+      {
+        "Key": 41100053,
+        "Value": 3
+      },
+      {
+        "Key": 2,
+        "Value": 50000
+      }
+    ],
+    "UnlockCondition": 500006
+  },
+  {
+    "Id": 509,
+    "NodeIndex": 13,
+    "NodeGroup": 1406,
+    "ParentNodes": [
+      9
+    ],
+    "NodeType": 4,
+    "Coordinate": 2,
+    "Condition": [
+      1
+    ],
+    "SkillId": 0,
+    "PropertyNodeTitle": "SkillTree_29_PropertyNodeTitle",
+    "PropertyNodeDescribe": "SkillTree_29_PropertyNodeDescribe",
+    "PropertyNodeParam": [
+      "4.20%"
+    ],
+    "PropertyNodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreencure_UI.T_Iconpropertygreencure_UI",
+    "Property": [
+      {
+        "Id": 35,
+        "Value": 420.0,
+        "IsRatio": false
+      }
+    ],
+    "Consume": [
+      {
+        "Key": 43020014,
+        "Value": 3
+      },
+      {
+        "Key": 41100054,
+        "Value": 3
+      },
+      {
+        "Key": 41400204,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 100000
+      }
+    ],
+    "UnlockCondition": 500008
+  },
+  {
+    "Id": 510,
+    "NodeIndex": 14,
+    "NodeGroup": 1406,
+    "ParentNodes": [
+      10
+    ],
+    "NodeType": 4,
+    "Coordinate": 2,
+    "Condition": [
+      1
+    ],
+    "SkillId": 0,
+    "PropertyNodeTitle": "SkillTree_302_PropertyNodeTitle",
+    "PropertyNodeDescribe": "SkillTree_302_PropertyNodeDescribe",
+    "PropertyNodeParam": [
+      "4.20%"
+    ],
+    "PropertyNodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+    "Property": [
+      {
+        "Id": 10007,
+        "Value": 0.041999999433755875,
+        "IsRatio": true
+      }
+    ],
+    "Consume": [
+      {
+        "Key": 43020014,
+        "Value": 3
+      },
+      {
+        "Key": 41100054,
+        "Value": 3
+      },
+      {
+        "Key": 41400204,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 100000
+      }
+    ],
+    "UnlockCondition": 500007
+  },
+  {
+    "Id": 511,
+    "NodeIndex": 15,
+    "NodeGroup": 1406,
+    "ParentNodes": [
+      11
+    ],
+    "NodeType": 4,
+    "Coordinate": 2,
+    "Condition": [
+      1
+    ],
+    "SkillId": 0,
+    "PropertyNodeTitle": "SkillTree_303_PropertyNodeTitle",
+    "PropertyNodeDescribe": "SkillTree_303_PropertyNodeDescribe",
+    "PropertyNodeParam": [
+      "4.20%"
+    ],
+    "PropertyNodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+    "Property": [
+      {
+        "Id": 10007,
+        "Value": 0.041999999433755875,
+        "IsRatio": true
+      }
+    ],
+    "Consume": [
+      {
+        "Key": 43020014,
+        "Value": 3
+      },
+      {
+        "Key": 41100054,
+        "Value": 3
+      },
+      {
+        "Key": 41400204,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 100000
+      }
+    ],
+    "UnlockCondition": 500007
+  },
+  {
+    "Id": 512,
+    "NodeIndex": 16,
+    "NodeGroup": 1406,
+    "ParentNodes": [
+      12
+    ],
+    "NodeType": 4,
+    "Coordinate": 2,
+    "Condition": [
+      1
+    ],
+    "SkillId": 0,
+    "PropertyNodeTitle": "SkillTree_32_PropertyNodeTitle",
+    "PropertyNodeDescribe": "SkillTree_32_PropertyNodeDescribe",
+    "PropertyNodeParam": [
+      "4.20%"
+    ],
+    "PropertyNodeIcon": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreencure_UI.T_Iconpropertygreencure_UI",
+    "Property": [
+      {
+        "Id": 35,
+        "Value": 420.0,
+        "IsRatio": false
+      }
+    ],
+    "Consume": [
+      {
+        "Key": 43020014,
+        "Value": 3
+      },
+      {
+        "Key": 41100054,
+        "Value": 3
+      },
+      {
+        "Key": 41400204,
+        "Value": 1
+      },
+      {
+        "Key": 2,
+        "Value": 100000
+      }
+    ],
+    "UnlockCondition": 500008
   }
 ]

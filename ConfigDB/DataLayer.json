@@ -392,6 +392,62 @@
     "InitLoad": false
   },
   {
+    "Id": 150001,
+    "DataLayer": "DataLayerRuntime_DLTask_DDT01a",
+    "CnName": "颠倒塔-花园-第一块-初始",
+    "LevelId": 903,
+    "InitLoad": true
+  },
+  {
+    "Id": 150002,
+    "DataLayer": "DataLayerRuntime_DLTask_DDT01b",
+    "CnName": "颠倒塔-花园-第一块-末尾",
+    "LevelId": 903,
+    "InitLoad": false
+  },
+  {
+    "Id": 150003,
+    "DataLayer": "DataLayerRuntime_DLTask_DDT02a",
+    "CnName": "颠倒塔-花园-第二块-初始",
+    "LevelId": 903,
+    "InitLoad": true
+  },
+  {
+    "Id": 150004,
+    "DataLayer": "DataLayerRuntime_DLTask_DDT02b",
+    "CnName": "颠倒塔-花园-第二块-末尾",
+    "LevelId": 903,
+    "InitLoad": false
+  },
+  {
+    "Id": 150005,
+    "DataLayer": "DataLayerRuntime_DLTask_DDT03a",
+    "CnName": "颠倒塔-花园-第三块-初始",
+    "LevelId": 903,
+    "InitLoad": true
+  },
+  {
+    "Id": 150006,
+    "DataLayer": "DataLayerRuntime_DLTask_DDT03b",
+    "CnName": "颠倒塔-花园-第三块-末尾",
+    "LevelId": 903,
+    "InitLoad": false
+  },
+  {
+    "Id": 150007,
+    "DataLayer": "DataLayerRuntime_DLTask_DDT04a",
+    "CnName": "颠倒塔-花园-第四块-初始",
+    "LevelId": 903,
+    "InitLoad": true
+  },
+  {
+    "Id": 150008,
+    "DataLayer": "DataLayerRuntime_DLTask_DDT04b",
+    "CnName": "颠倒塔-花园-第四块-末尾",
+    "LevelId": 903,
+    "InitLoad": false
+  },
+  {
     "Id": 900018,
     "DataLayer": "DataLayerRuntime_DLTask_BOC01",
     "CnName": "重建布偶村阶段一",
@@ -425,6 +481,34 @@
     "CnName": "风暴中心POI完成前氛围",
     "LevelId": 8,
     "InitLoad": true
+  },
+  {
+    "Id": 150009,
+    "DataLayer": "DataLayerRuntime_DLTask_DDT01c",
+    "CnName": "颠倒塔-花园-第一块-过程",
+    "LevelId": 903,
+    "InitLoad": false
+  },
+  {
+    "Id": 150010,
+    "DataLayer": "DataLayerRuntime_DLTask_DDT02c",
+    "CnName": "颠倒塔-花园-第二块-过程",
+    "LevelId": 903,
+    "InitLoad": false
+  },
+  {
+    "Id": 150011,
+    "DataLayer": "DataLayerRuntime_DLTask_DDT03c",
+    "CnName": "颠倒塔-花园-第三块-过程",
+    "LevelId": 903,
+    "InitLoad": false
+  },
+  {
+    "Id": 150012,
+    "DataLayer": "DataLayerRuntime_DLTask_DDT04c",
+    "CnName": "颠倒塔-花园-第四块-过程",
+    "LevelId": 903,
+    "InitLoad": false
   },
   {
     "Id": 700005,
@@ -476,10 +560,59 @@
     "InitLoad": true
   },
   {
+    "Id": 750009,
+    "DataLayer": "DataLayerRuntime_DLTask_DDT04a",
+    "CnName": "颠倒塔-牵引塔-初始",
+    "LevelId": 8,
+    "InitLoad": true
+  },
+  {
+    "Id": 750010,
+    "DataLayer": "DataLayerRuntime_DLTask_DDT04b",
+    "CnName": "颠倒塔-牵引塔-末尾",
+    "LevelId": 8,
+    "InitLoad": false
+  },
+  {
     "Id": 700012,
     "DataLayer": "DataLayerRuntime_DLTask_HDLJPK01",
     "CnName": "2.1联机跑酷空气墙",
     "LevelId": 8,
     "InitLoad": false
+  },
+  {
+    "Id": 750011,
+    "DataLayer": "DataLayerRuntime_DLTask_KTLL01",
+    "CnName": "坎特蕾拉角色线-广场",
+    "LevelId": 8,
+    "InitLoad": false
+  },
+  {
+    "Id": 750012,
+    "DataLayer": "DataLayerRuntime_DLTask_KTLL02",
+    "CnName": "坎特蕾拉角色线-水池",
+    "LevelId": 8,
+    "InitLoad": true
+  },
+  {
+    "Id": 750013,
+    "DataLayer": "DataLayerRuntime_DLTask_KTLL03",
+    "CnName": "坎特蕾拉角色线-店铺",
+    "LevelId": 8,
+    "InitLoad": false
+  },
+  {
+    "Id": 750014,
+    "DataLayer": "DataLayerRuntime_DLTask_KTLL04",
+    "CnName": "坎特蕾拉角色线-宅邸",
+    "LevelId": 8,
+    "InitLoad": false
+  },
+  {
+    "Id": 750015,
+    "DataLayer": "DataLayerRuntime_DLTask_YCSJ01",
+    "CnName": "2.2d异常数据跑酷活动",
+    "LevelId": 8,
+    "InitLoad": true
   }
 ]
