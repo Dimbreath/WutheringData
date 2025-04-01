@@ -7541,9 +7541,11 @@
     "TriggerFormula": "FALSE",
     "SubSkillAction": null,
     "InstigatorType": "Victim",
-    "SkillAction": "AddBuff",
+    "SkillAction": "RemoveBuff",
     "SkillActionParams": [
-      "1607210105"
+      "1607210102#-1",
+      "1607210103#-1",
+      "1607210203#-1"
     ]
   },
   {
@@ -16970,9 +16972,12 @@
     "TriggerFormula": "FALSE",
     "SubSkillAction": null,
     "InstigatorType": "Victim",
-    "SkillAction": "AddBuff",
+    "SkillAction": "RemoveBuff",
     "SkillActionParams": [
-      "1607210204"
+      "1607210102#-1",
+      "1607210103#-1",
+      "1607210202#-1",
+      "1607210203#-1"
     ]
   },
   {
