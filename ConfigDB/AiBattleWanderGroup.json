@@ -4745,5 +4745,146 @@
       "Max": 5000.0
     },
     "OnlyForward": false
+  },
+  {
+    "Id": 70161,
+    "DistanceRange": [
+      100.0,
+      400.0,
+      700.0,
+      1000.0,
+      1500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      480.0,
+      480.0,
+      480.0,
+      480.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 289000,
+    "DistanceRange": [
+      0.0,
+      100.0,
+      500.0,
+      900.0,
+      1500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      50.0,
+      25.0,
+      25.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      25.0,
+      25.0,
+      25.0,
+      25.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      180.0,
+      180.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 270.0,
+    "WanderTime": {
+      "Min": 300.0,
+      "Max": 600.0
+    },
+    "SumWanderTime": {
+      "Min": 1000.0,
+      "Max": 1500.0
+    },
+    "OnlyForward": false
+  },
+  {
+    "Id": 289001,
+    "DistanceRange": [
+      0.0,
+      300.0,
+      700.0,
+      1100.0,
+      1500.0
+    ],
+    "NearActionRates": [
+      0.0,
+      40.0,
+      30.0,
+      30.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      10.0,
+      40.0,
+      25.0,
+      25.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      180.0,
+      180.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 270.0,
+    "WanderTime": {
+      "Min": 300.0,
+      "Max": 600.0
+    },
+    "SumWanderTime": {
+      "Min": 1000.0,
+      "Max": 1500.0
+    },
+    "OnlyForward": false
   }
 ]

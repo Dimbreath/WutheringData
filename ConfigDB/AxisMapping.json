@@ -790,5 +790,73 @@
     "DisplayName": "",
     "KeyboardVersion": 0,
     "GamepadVersion": 0
+  },
+  {
+    "Id": 36,
+    "AxisName": "MapMoveForward2",
+    "AxisType": 4,
+    "PcKeys": [
+      {
+        "Key": "S",
+        "Value": -1.0
+      },
+      {
+        "Key": "W",
+        "Value": 1.0
+      }
+    ],
+    "FrancePcKeys": [
+      {
+        "Key": "S",
+        "Value": -1.0
+      },
+      {
+        "Key": "Z",
+        "Value": 1.0
+      }
+    ],
+    "GamepadKeys": [
+      {
+        "Key": "Gamepad_RightY",
+        "Value": -1.0
+      }
+    ],
+    "DisplayName": "",
+    "KeyboardVersion": 0,
+    "GamepadVersion": 0
+  },
+  {
+    "Id": 37,
+    "AxisName": "MapMoveRight2",
+    "AxisType": 4,
+    "PcKeys": [
+      {
+        "Key": "A",
+        "Value": -1.0
+      },
+      {
+        "Key": "D",
+        "Value": 1.0
+      }
+    ],
+    "FrancePcKeys": [
+      {
+        "Key": "Q",
+        "Value": -1.0
+      },
+      {
+        "Key": "D",
+        "Value": 1.0
+      }
+    ],
+    "GamepadKeys": [
+      {
+        "Key": "Gamepad_RightX",
+        "Value": 1.0
+      }
+    ],
+    "DisplayName": "",
+    "KeyboardVersion": 0,
+    "GamepadVersion": 0
   }
 ]

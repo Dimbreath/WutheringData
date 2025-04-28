@@ -15013,5 +15013,68 @@
     },
     "NeedTag": "怪物.78b6c8eb.4cc165e9.74283930",
     "NeedTarget": true
+  },
+  {
+    "Id": 70161001,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 100.0
+    },
+    "AngleRange": {
+      "Min": -90.0,
+      "Max": 90.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 289000000,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 300.0
+    },
+    "AngleRange": {
+      "Min": -120.0,
+      "Max": 120.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 289000001,
+    "DistanceRange": {
+      "Min": 300.0,
+      "Max": 1500.0
+    },
+    "AngleRange": {
+      "Min": -150.0,
+      "Max": 150.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
   }
 ]
