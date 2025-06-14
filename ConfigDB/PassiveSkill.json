@@ -26911,5 +26911,30 @@
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1409001016.0,
+    "SkillDesc": "死亡效果",
+    "Cdtime": 0.10000000149011612,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.逻辑状态.濒死",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBullet",
+    "SkillActionParams": [
+      "140990006"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
   }
 ]
