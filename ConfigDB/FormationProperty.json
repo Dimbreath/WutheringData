@@ -387,5 +387,36 @@
     "TriggerEffectParams3": null,
     "Condition": 0,
     "PropertyIndex": 0
+  },
+  {
+    "Id": 12,
+    "InitValue": 8000,
+    "InitRecoveryRate": 3000,
+    "InitMax": 8000,
+    "MarkTag": null,
+    "ResistTag": null,
+    "TriggerRange1": {
+      "Min": 0.0,
+      "Max": 0.0
+    },
+    "TriggerType1": 0,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": null,
+    "TriggerRange2": {
+      "Min": 9999.0,
+      "Max": 10000.0
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": null,
+    "TriggerRange3": {
+      "Min": 9999.0,
+      "Max": 10000.0
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": null,
+    "Condition": 0,
+    "PropertyIndex": 0
   }
 ]

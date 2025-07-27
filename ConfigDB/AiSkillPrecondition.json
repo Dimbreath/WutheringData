@@ -15834,6 +15834,69 @@
     "NeedTarget": true
   },
   {
+    "Id": 80031001,
+    "DistanceRange": {
+      "Min": -8000.0,
+      "Max": 8000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80031002,
+    "DistanceRange": {
+      "Min": -8000.0,
+      "Max": 8000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80031003,
+    "DistanceRange": {
+      "Min": -8000.0,
+      "Max": 2500.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
     "Id": 77062001,
     "DistanceRange": {
       "Min": 0.0,
@@ -16577,6 +16640,90 @@
     "AngleRange": {
       "Min": -180.0,
       "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 70160001,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 250.0
+    },
+    "AngleRange": {
+      "Min": -60.0,
+      "Max": 60.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 70160002,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 150.0
+    },
+    "AngleRange": {
+      "Min": -90.0,
+      "Max": 90.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 70160003,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 350.0
+    },
+    "AngleRange": {
+      "Min": -60.0,
+      "Max": 60.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 70160005,
+    "DistanceRange": {
+      "Min": 50.0,
+      "Max": 500.0
+    },
+    "AngleRange": {
+      "Min": -90.0,
+      "Max": 90.0
     },
     "TargetAngleRange": {
       "Min": -180.0,
@@ -17472,6 +17619,237 @@
     "NeedTarget": true
   },
   {
+    "Id": 70139017,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 600.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80031000,
+    "DistanceRange": {
+      "Min": -8000.0,
+      "Max": 8000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80031004,
+    "DistanceRange": {
+      "Min": -8000.0,
+      "Max": 2500.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80031005,
+    "DistanceRange": {
+      "Min": -8000.0,
+      "Max": 3200.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80031006,
+    "DistanceRange": {
+      "Min": -8000.0,
+      "Max": 6000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80031007,
+    "DistanceRange": {
+      "Min": -8000.0,
+      "Max": 2600.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": 400.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80031008,
+    "DistanceRange": {
+      "Min": -8000.0,
+      "Max": 2500.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80031009,
+    "DistanceRange": {
+      "Min": 2600.0,
+      "Max": 8000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80031010,
+    "DistanceRange": {
+      "Min": -8000.0,
+      "Max": 3000.0
+    },
+    "AngleRange": {
+      "Min": 45.0,
+      "Max": 315.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80031011,
+    "DistanceRange": {
+      "Min": -8000.0,
+      "Max": 6000.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 80031012,
+    "DistanceRange": {
+      "Min": -8000.0,
+      "Max": 2500.0
+    },
+    "AngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
     "Id": 80003101,
     "DistanceRange": {
       "Min": 0.0,
@@ -17854,6 +18232,132 @@
     "DistanceRange": {
       "Min": 0.0,
       "Max": 1000.0
+    },
+    "AngleRange": {
+      "Min": -90.0,
+      "Max": 90.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77066001,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 1000.0
+    },
+    "AngleRange": {
+      "Min": -30.0,
+      "Max": 30.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77066002,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 1500.0
+    },
+    "AngleRange": {
+      "Min": -90.0,
+      "Max": 90.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -1300.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77066003,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 1500.0
+    },
+    "AngleRange": {
+      "Min": -30.0,
+      "Max": 30.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -1300.0,
+      "Max": 1000.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77066004,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 1000.0
+    },
+    "AngleRange": {
+      "Min": -60.0,
+      "Max": 60.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77066005,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 300.0
+    },
+    "AngleRange": {
+      "Min": -90.0,
+      "Max": 90.0
+    },
+    "TargetAngleRange": {
+      "Min": -180.0,
+      "Max": 180.0
+    },
+    "HeightRange": {
+      "Min": -600.0,
+      "Max": 600.0
+    },
+    "NeedTag": "",
+    "NeedTarget": true
+  },
+  {
+    "Id": 77066006,
+    "DistanceRange": {
+      "Min": 0.0,
+      "Max": 2000.0
     },
     "AngleRange": {
       "Min": -90.0,
