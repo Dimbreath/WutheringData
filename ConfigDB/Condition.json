@@ -114412,5 +114412,20 @@
     "IsClient": false,
     "Description": "",
     "AccessId": 0
+  },
+  {
+    "Id": 601060015,
+    "Type": "RogueResHasItemCount",
+    "NeedNum": 50,
+    "LimitParams": [
+      {
+        "Key": "Id",
+        "Value": "80100100"
+      }
+    ],
+    "LimitParamsOpe": null,
+    "IsClient": true,
+    "Description": "",
+    "AccessId": 0
   }
 ]
