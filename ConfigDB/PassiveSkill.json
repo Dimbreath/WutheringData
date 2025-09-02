@@ -189,10 +189,8 @@
     "TriggerFormula": "NewValue<OldValue\nAND\n(OldValue-NewValue)/GetAttributeByID(Owner,61)>=0.5",
     "SubSkillAction": null,
     "InstigatorType": "Owner",
-    "SkillAction": "RemoveBuff",
-    "SkillActionParams": [
-      "1502700077#-1"
-    ],
+    "SkillAction": "",
+    "SkillActionParams": null,
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
@@ -4029,9 +4027,7 @@
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "640011042"
-    ],
+    "SkillActionParams": null,
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
@@ -6747,10 +6743,8 @@
     "TriggerFormula": "FALSE",
     "SubSkillAction": null,
     "InstigatorType": "Owner",
-    "SkillAction": "RemoveBuff",
-    "SkillActionParams": [
-      "5020002003"
-    ],
+    "SkillAction": "",
+    "SkillActionParams": null,
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
@@ -9376,22 +9370,7 @@
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "9001700007371",
-      "9001700007372",
-      "9001700007373",
-      "9001700007374",
-      "9001700007375",
-      "9001700007376",
-      "9001700007377",
-      "9001800007371",
-      "9001800007372",
-      "9001800007373",
-      "9001800007374",
-      "9001800007375",
-      "9001800007376",
-      "9001800007377"
-    ],
+    "SkillActionParams": null,
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
@@ -9411,9 +9390,7 @@
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "900170000742"
-    ],
+    "SkillActionParams": null,
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
@@ -9755,7 +9732,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900171002100",
-      "900171002070"
+      "9001710021000",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -9783,7 +9762,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900171002100",
-      "900171002070"
+      "9001710021000",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -9811,7 +9792,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900171002101",
-      "900171002070"
+      "9001710021010",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -9839,7 +9822,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900171002101",
-      "900171002070"
+      "9001710021010",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -9853,13 +9838,14 @@
     "MaxCount": 1,
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
-    "TriggerType": "DamageTrigger",
+    "TriggerType": "VisionTrigger",
     "TriggerPreset": [
       "0",
-      "0"
+      "-1",
+      "-1"
     ],
     "TriggerParams": "{\n    \"CheckCondetionTags\": [\n        \"隐喻.触发条件重击伤害\",\"隐喻.触发条件共鸣解放伤害\",\"隐喻.触发条件共鸣技能伤害\",\"隐喻.触发条件普攻伤害\"\n    ],\n      \"CheckCDTags\": [\n          \"机制.龙卷风.法术CD中\",\"状态.0500636b\",\"法术隐喻.触发次数+1\"\n],\n \"CheckCost1Tags\": [\n          \"隐喻.法术消耗降低50%\",\"隐喻.法术消耗提升50%\"\n],\n \"CheckCost2Tags\": [\n         \"法术隐喻.强制满蓝触发\",\"隐喻.不消耗法力值\"\n]\n}",
-    "TriggerFormula": "SkillType == 1\nAND\nMatchAnyTag(Owner,CheckCondetionTags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\n(\nMatchAllTags(Owner,CheckCost1Tags)\nOR\nMatchAnyTag(Owner,CheckCost1Tags) == FALSE\n)\nAND\nMatchAnyTag(Owner,CheckCost2Tags) == FALSE",
+    "TriggerFormula": "MatchAnyTag(Owner,CheckCondetionTags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\n(\nMatchAllTags(Owner,CheckCost1Tags)\nOR\nMatchAnyTag(Owner,CheckCost1Tags) == FALSE\n)\nAND\nMatchAnyTag(Owner,CheckCost2Tags) == FALSE",
     "SubSkillAction": [
       170000595.0
     ],
@@ -9909,13 +9895,14 @@
     "MaxCount": 1,
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
-    "TriggerType": "DamageTrigger",
+    "TriggerType": "VisionTrigger",
     "TriggerPreset": [
       "0",
-      "0"
+      "-1",
+      "-1"
     ],
     "TriggerParams": "{\n    \"CheckCondetion1Tags\": [\n         \"隐喻.触发条件重击伤害\",\"隐喻.触发条件共鸣解放伤害\",\"隐喻.触发条件共鸣技能伤害\",\"隐喻.触发条件普攻伤害\"\n    ],\n      \"CheckCDTags\": [\n          \"机制.龙卷风.法术CD中\",\"状态.0500636b\"\n],\n \"CheckCondetion2Tags\": [\n        \"法术隐喻.触发次数+1\"\n    ],\n \"CheckCost1Tags\": [\n          \"隐喻.法术消耗降低50%\",\"隐喻.法术消耗提升50%\"\n],\n \"CheckCost2Tags\": [\n          \"法术隐喻.强制满蓝触发\",\"隐喻.不消耗法力值\"\n]\n}",
-    "TriggerFormula": "SkillType == 1\nAND\nMatchAnyTag(Owner,CheckCondetion1Tags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCondetion2Tags) == TRUE\nAND\n(\nMatchAllTags(Owner,CheckCost1Tags)\nOR\nMatchAnyTag(Owner,CheckCost1Tags) == FALSE\n)\nAND\nMatchAnyTag(Owner,CheckCost2Tags) == FALSE",
+    "TriggerFormula": "MatchAnyTag(Owner,CheckCondetion1Tags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCondetion2Tags) == TRUE\nAND\n(\nMatchAllTags(Owner,CheckCost1Tags)\nOR\nMatchAnyTag(Owner,CheckCost1Tags) == FALSE\n)\nAND\nMatchAnyTag(Owner,CheckCost2Tags) == FALSE",
     "SubSkillAction": [
       170000595.0
     ],
@@ -9979,7 +9966,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900171002102",
-      "900171002070"
+      "9001710021020",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -10007,7 +9996,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900171002102",
-      "900171002070"
+      "9001710021020",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -10035,7 +10026,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900171002105",
-      "900171002070"
+      "9001710021050",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -10063,7 +10056,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900171002105",
-      "900171002070"
+      "9001710021050",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -10077,13 +10072,14 @@
     "MaxCount": 1,
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
-    "TriggerType": "DamageTrigger",
+    "TriggerType": "VisionTrigger",
     "TriggerPreset": [
       "0",
-      "0"
+      "-1",
+      "-1"
     ],
     "TriggerParams": "{\n    \"CheckCondetionTags\": [\n        \"隐喻.触发条件重击伤害\",\"隐喻.触发条件共鸣解放伤害\",\"隐喻.触发条件共鸣技能伤害\",\"隐喻.触发条件普攻伤害\"\n    ],\n      \"CheckCDTags\": [\n          \"机制.龙卷风.法术CD中\",\"状态.0500636b\",\"法术隐喻.触发次数+1\"\n],\n \"CheckCost1Tags\": [\n         \"隐喻.法术消耗提升50%\"\n],\n \"CheckCost2Tags\": [\n         \"隐喻.法术消耗降低50%\",\"法术隐喻.强制满蓝触发\",\"隐喻.不消耗法力值\"\n]\n}",
-    "TriggerFormula": "SkillType == 1\nAND\nMatchAnyTag(Owner,CheckCondetionTags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCost1Tags)\nAND\nMatchAnyTag(Owner,CheckCost2Tags) == FALSE\nAND\nGetBattleScore() >= 0",
+    "TriggerFormula": "MatchAnyTag(Owner,CheckCondetionTags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCost1Tags)\nAND\nMatchAnyTag(Owner,CheckCost2Tags) == FALSE\nAND\nGetBattleScore() >= 0",
     "SubSkillAction": [
       170000595.0
     ],
@@ -10133,13 +10129,14 @@
     "MaxCount": 1,
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
-    "TriggerType": "DamageTrigger",
+    "TriggerType": "VisionTrigger",
     "TriggerPreset": [
       "0",
-      "0"
+      "-1",
+      "-1"
     ],
     "TriggerParams": "{\n    \"CheckCondetion1Tags\": [\n         \"隐喻.触发条件重击伤害\",\"隐喻.触发条件共鸣解放伤害\",\"隐喻.触发条件共鸣技能伤害\",\"隐喻.触发条件普攻伤害\"\n    ],\n      \"CheckCDTags\": [\n          \"机制.龙卷风.法术CD中\",\"状态.0500636b\"\n],\n \"CheckCondetion2Tags\": [\n        \"法术隐喻.触发次数+1\"\n    ],\n \"CheckCost1Tags\": [\n         \"隐喻.法术消耗提升50%\"\n],\n \"CheckCost2Tags\": [\n           \"隐喻.法术消耗降低50%\",\"法术隐喻.强制满蓝触发\",\"隐喻.不消耗法力值\"\n]\n}",
-    "TriggerFormula": "SkillType == 1\nAND\nMatchAnyTag(Owner,CheckCondetion1Tags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCondetion2Tags) == TRUE\nAND\nMatchAllTags(Owner,CheckCost1Tags)\nAND\nMatchAnyTag(Owner,CheckCost2Tags) == FALSE\nAND\nGetBattleScore() >= 0",
+    "TriggerFormula": "MatchAnyTag(Owner,CheckCondetion1Tags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCondetion2Tags) == TRUE\nAND\nMatchAllTags(Owner,CheckCost1Tags)\nAND\nMatchAnyTag(Owner,CheckCost2Tags) == FALSE\nAND\nGetBattleScore() >= 0",
     "SubSkillAction": [
       170000595.0
     ],
@@ -10204,7 +10201,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900171002102",
-      "900171002070"
+      "9001710021020",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -10233,7 +10232,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900171002102",
-      "900171002070"
+      "9001710021020",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -10262,7 +10263,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900171002103",
-      "900171002070"
+      "9001710021030",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -10291,7 +10294,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900171002103",
-      "900171002070"
+      "9001710021030",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -10305,13 +10310,14 @@
     "MaxCount": 1,
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
-    "TriggerType": "DamageTrigger",
+    "TriggerType": "VisionTrigger",
     "TriggerPreset": [
       "0",
-      "0"
+      "-1",
+      "-1"
     ],
     "TriggerParams": "{\n    \"CheckCondetionTags\": [\n        \"隐喻.触发条件重击伤害\",\"隐喻.触发条件共鸣解放伤害\",\"隐喻.触发条件共鸣技能伤害\",\"隐喻.触发条件普攻伤害\"\n    ],\n      \"CheckCDTags\": [\n          \"机制.龙卷风.法术CD中\",\"状态.0500636b\",\"法术隐喻.触发次数+1\",\"隐喻.法力上限200\"\n],\n \"CheckCost1Tags\": [\n         \"法术隐喻.强制满蓝触发\",\"状态.0500636b\"\n],\n \"CheckCost2Tags\": [\n         \"隐喻.法术消耗降低50%\",\"法术隐喻.强制满蓝触发\",\"状态.0500636b\",\"隐喻.不消耗法力值\"\n]\n}",
-    "TriggerFormula": "SkillType == 1\nAND\nMatchAnyTag(Owner,CheckCondetionTags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCost1Tags)\nAND\nGetBattleScore() >= 0",
+    "TriggerFormula": "MatchAnyTag(Owner,CheckCondetionTags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCost1Tags)\nAND\nGetBattleScore() >= 0",
     "SubSkillAction": [
       170000595.0,
       1700005940.0
@@ -10363,13 +10369,14 @@
     "MaxCount": 1,
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
-    "TriggerType": "DamageTrigger",
+    "TriggerType": "VisionTrigger",
     "TriggerPreset": [
       "0",
-      "0"
+      "-1",
+      "-1"
     ],
     "TriggerParams": "{\n    \"CheckCondetion1Tags\": [\n         \"隐喻.触发条件重击伤害\",\"隐喻.触发条件共鸣解放伤害\",\"隐喻.触发条件共鸣技能伤害\",\"隐喻.触发条件普攻伤害\"\n    ],\n      \"CheckCDTags\": [\n          \"机制.龙卷风.法术CD中\",\"状态.0500636b\",\"隐喻.法力上限200\"\n],\n \"CheckCondetion2Tags\": [\n        \"法术隐喻.触发次数+1\"\n    ],\n \"CheckCost1Tags\": [\n         \"法术隐喻.强制满蓝触发\",\"状态.0500636b\"\n],\n \"CheckCost2Tags\": [\n           \"隐喻.法术消耗降低50%\",\"法术隐喻.强制满蓝触发\",\"状态.0500636b\",\"隐喻.不消耗法力值\"\n]\n}",
-    "TriggerFormula": "SkillType == 1\nAND\nMatchAnyTag(Owner,CheckCondetion1Tags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCondetion2Tags) == TRUE\nAND\nMatchAllTags(Owner,CheckCost1Tags)\nAND\nGetBattleScore() >= 0",
+    "TriggerFormula": "MatchAnyTag(Owner,CheckCondetion1Tags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCondetion2Tags) == TRUE\nAND\nMatchAllTags(Owner,CheckCost1Tags)\nAND\nGetBattleScore() >= 0",
     "SubSkillAction": [
       170000595.0,
       1700005940.0
@@ -10436,7 +10443,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900171002104",
-      "900171002070"
+      "9001710021040",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -10465,7 +10474,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900171002104",
-      "900171002070"
+      "9001710021040",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -10494,7 +10505,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900171002105",
-      "900171002070"
+      "9001710021050",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -10523,7 +10536,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900171002105",
-      "900171002070"
+      "9001710021050",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -10537,13 +10552,14 @@
     "MaxCount": 1,
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
-    "TriggerType": "DamageTrigger",
+    "TriggerType": "VisionTrigger",
     "TriggerPreset": [
       "0",
-      "0"
+      "-1",
+      "-1"
     ],
     "TriggerParams": "{\n    \"CheckCondetionTags\": [\n        \"隐喻.触发条件重击伤害\",\"隐喻.触发条件共鸣解放伤害\",\"隐喻.触发条件共鸣技能伤害\",\"隐喻.触发条件普攻伤害\"\n    ],\n      \"CheckCDTags\": [\n          \"机制.龙卷风.法术CD中\",\"状态.0500636b\",\"法术隐喻.触发次数+1\"\n],\n \"CheckCost1Tags\": [\n         \"法术隐喻.强制满蓝触发\",\"状态.0500636b\",\"隐喻.法力上限200\"\n],\n \"CheckCost2Tags\": [\n         \"隐喻.法术消耗降低50%\",\"法术隐喻.强制满蓝触发\",\"状态.0500636b\",\"隐喻.法力上限200\",\"隐喻.不消耗法力值\"\n]\n}",
-    "TriggerFormula": "SkillType == 1\nAND\nMatchAnyTag(Owner,CheckCondetionTags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCost1Tags)\nAND\nGetBattleScore() >= 0",
+    "TriggerFormula": "MatchAnyTag(Owner,CheckCondetionTags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCost1Tags)\nAND\nGetBattleScore() >= 0",
     "SubSkillAction": [
       170000595.0,
       1700005940.0
@@ -10595,13 +10611,14 @@
     "MaxCount": 1,
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
-    "TriggerType": "DamageTrigger",
+    "TriggerType": "VisionTrigger",
     "TriggerPreset": [
       "0",
-      "0"
+      "-1",
+      "-1"
     ],
     "TriggerParams": "{\n    \"CheckCondetion1Tags\": [\n         \"隐喻.触发条件重击伤害\",\"隐喻.触发条件共鸣解放伤害\",\"隐喻.触发条件共鸣技能伤害\",\"隐喻.触发条件普攻伤害\"\n    ],\n      \"CheckCDTags\": [\n          \"机制.龙卷风.法术CD中\",\"状态.0500636b\"\n],\n \"CheckCondetion2Tags\": [\n        \"法术隐喻.触发次数+1\"\n    ],\n \"CheckCost1Tags\": [\n         \"法术隐喻.强制满蓝触发\",\"状态.0500636b\",\"隐喻.法力上限200\"\n],\n \"CheckCost2Tags\": [\n           \"隐喻.法术消耗降低50%\",\"法术隐喻.强制满蓝触发\",\"状态.0500636b\",\"隐喻.法力上限200\",\"隐喻.不消耗法力值\"\n]\n}",
-    "TriggerFormula": "SkillType == 1\nAND\nMatchAnyTag(Owner,CheckCondetion1Tags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCondetion2Tags) == TRUE\nAND\nMatchAllTags(Owner,CheckCost1Tags)\nAND\nGetBattleScore() >= 0",
+    "TriggerFormula": "MatchAnyTag(Owner,CheckCondetion1Tags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCondetion2Tags) == TRUE\nAND\nMatchAllTags(Owner,CheckCost1Tags)\nAND\nGetBattleScore() >= 0",
     "SubSkillAction": [
       170000595.0,
       1700005940.0
@@ -10667,7 +10684,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "9001700007360",
       "9001700007361",
       "9001700007362",
       "9001700007363",
@@ -10709,7 +10725,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "9001700007360",
       "9001700007361",
       "9001700007362",
       "9001700007363",
@@ -10752,21 +10767,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "9001700007360",
-      "9001700007371",
-      "9001700007372",
-      "9001700007373",
-      "9001700007374",
-      "9001700007375",
-      "9001700007376",
-      "9001700007377",
-      "9001800007371",
-      "9001800007372",
-      "9001800007373",
-      "9001800007374",
-      "9001800007375",
-      "9001800007376",
-      "9001800007377",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -10794,21 +10794,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "9001700007360",
-      "9001700007371",
-      "9001700007372",
-      "9001700007373",
-      "9001700007374",
-      "9001700007375",
-      "9001700007376",
-      "9001700007377",
-      "9001800007371",
-      "9001800007372",
-      "9001800007373",
-      "9001800007374",
-      "9001800007375",
-      "9001800007376",
-      "9001800007377",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -10838,21 +10823,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "9001700007360",
-      "9001700007371",
-      "9001700007372",
-      "9001700007373",
-      "9001700007374",
-      "9001700007375",
-      "9001700007376",
-      "9001700007377",
-      "9001800007371",
-      "9001800007372",
-      "9001800007373",
-      "9001800007374",
-      "9001800007375",
-      "9001800007376",
-      "9001800007377",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -10881,21 +10851,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "9001700007360",
-      "9001700007371",
-      "9001700007372",
-      "9001700007373",
-      "9001700007374",
-      "9001700007375",
-      "9001700007376",
-      "9001700007377",
-      "9001800007371",
-      "9001800007372",
-      "9001800007373",
-      "9001800007374",
-      "9001800007375",
-      "9001800007376",
-      "9001800007377",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -10981,12 +10936,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "900170000742",
-      "9001700007422",
-      "9001700007423",
-      "9001700007424",
-      "9001700007425",
-      "9001700007426",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -11014,12 +10963,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "900170000742",
-      "9001700007422",
-      "9001700007423",
-      "9001700007424",
-      "9001700007425",
-      "9001700007426",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -11049,12 +10992,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "900170000742",
-      "9001700007422",
-      "9001700007423",
-      "9001700007424",
-      "9001700007425",
-      "9001700007426",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -11083,12 +11020,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "900170000742",
-      "9001700007422",
-      "9001700007423",
-      "9001700007424",
-      "9001700007425",
-      "9001700007426",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -11117,7 +11048,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "9001700007360",
       "9001700007361",
       "9001700007362",
       "9001700007363",
@@ -11159,7 +11089,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "9001700007360",
       "9001700007361",
       "9001700007362",
       "9001700007363",
@@ -11202,21 +11131,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "9001700007360",
-      "9001700007371",
-      "9001700007372",
-      "9001700007373",
-      "9001700007374",
-      "9001700007375",
-      "9001700007376",
-      "9001700007377",
-      "9001800007371",
-      "9001800007372",
-      "9001800007373",
-      "9001800007374",
-      "9001800007375",
-      "9001800007376",
-      "9001800007377",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -11244,21 +11158,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "9001700007360",
-      "9001700007371",
-      "9001700007372",
-      "9001700007373",
-      "9001700007374",
-      "9001700007375",
-      "9001700007376",
-      "9001700007377",
-      "9001800007371",
-      "9001800007372",
-      "9001800007373",
-      "9001800007374",
-      "9001800007375",
-      "9001800007376",
-      "9001800007377",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -11288,21 +11187,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "9001700007360",
-      "9001700007371",
-      "9001700007372",
-      "9001700007373",
-      "9001700007374",
-      "9001700007375",
-      "9001700007376",
-      "9001700007377",
-      "9001800007371",
-      "9001800007372",
-      "9001800007373",
-      "9001800007374",
-      "9001800007375",
-      "9001800007376",
-      "9001800007377",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -11331,21 +11215,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "9001700007360",
-      "9001700007371",
-      "9001700007372",
-      "9001700007373",
-      "9001700007374",
-      "9001700007375",
-      "9001700007376",
-      "9001700007377",
-      "9001800007371",
-      "9001800007372",
-      "9001800007373",
-      "9001800007374",
-      "9001800007375",
-      "9001800007376",
-      "9001800007377",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -11431,12 +11300,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "900170000742",
-      "9001700007422",
-      "9001700007423",
-      "9001700007424",
-      "9001700007425",
-      "9001700007426",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -11464,12 +11327,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "900170000742",
-      "9001700007422",
-      "9001700007423",
-      "9001700007424",
-      "9001700007425",
-      "9001700007426",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -11499,12 +11356,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "900170000742",
-      "9001700007422",
-      "9001700007423",
-      "9001700007424",
-      "9001700007425",
-      "9001700007426",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -11533,12 +11384,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "900170000742",
-      "9001700007422",
-      "9001700007423",
-      "9001700007424",
-      "9001700007425",
-      "9001700007426",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -11568,7 +11413,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "9001700007360",
       "9001700007361",
       "9001700007362",
       "9001700007363",
@@ -11611,7 +11455,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "9001700007360",
       "9001700007361",
       "9001700007362",
       "9001700007363",
@@ -11657,21 +11500,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "9001700007360",
-      "9001700007371",
-      "9001700007372",
-      "9001700007373",
-      "9001700007374",
-      "9001700007375",
-      "9001700007376",
-      "9001700007377",
-      "9001800007371",
-      "9001800007372",
-      "9001800007373",
-      "9001800007374",
-      "9001800007375",
-      "9001800007376",
-      "9001800007377",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -11702,21 +11530,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "9001700007360",
-      "9001700007371",
-      "9001700007372",
-      "9001700007373",
-      "9001700007374",
-      "9001700007375",
-      "9001700007376",
-      "9001700007377",
-      "9001800007371",
-      "9001800007372",
-      "9001800007373",
-      "9001800007374",
-      "9001800007375",
-      "9001800007376",
-      "9001800007377",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -11749,21 +11562,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "9001700007360",
-      "9001700007371",
-      "9001700007372",
-      "9001700007373",
-      "9001700007374",
-      "9001700007375",
-      "9001700007376",
-      "9001700007377",
-      "9001800007371",
-      "9001800007372",
-      "9001800007373",
-      "9001800007374",
-      "9001800007375",
-      "9001800007376",
-      "9001800007377",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -11795,21 +11593,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "9001700007360",
-      "9001700007371",
-      "9001700007372",
-      "9001700007373",
-      "9001700007374",
-      "9001700007375",
-      "9001700007376",
-      "9001700007377",
-      "9001800007371",
-      "9001800007372",
-      "9001800007373",
-      "9001800007374",
-      "9001800007375",
-      "9001800007376",
-      "9001800007377",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -11900,12 +11683,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "900170000742",
-      "9001700007422",
-      "9001700007423",
-      "9001700007424",
-      "9001700007425",
-      "9001700007426",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -11936,12 +11713,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "900170000742",
-      "9001700007422",
-      "9001700007423",
-      "9001700007424",
-      "9001700007425",
-      "9001700007426",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -11974,12 +11745,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "900170000742",
-      "9001700007422",
-      "9001700007423",
-      "9001700007424",
-      "9001700007425",
-      "9001700007426",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -12011,12 +11776,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "900170000742",
-      "9001700007422",
-      "9001700007423",
-      "9001700007424",
-      "9001700007425",
-      "9001700007426",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -12046,7 +11805,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "9001700007360",
       "9001700007361",
       "9001700007362",
       "9001700007363",
@@ -12089,7 +11847,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "9001700007360",
       "9001700007361",
       "9001700007362",
       "9001700007363",
@@ -12137,21 +11894,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "9001700007360",
-      "9001700007371",
-      "9001700007372",
-      "9001700007373",
-      "9001700007374",
-      "9001700007375",
-      "9001700007376",
-      "9001700007377",
-      "9001800007371",
-      "9001800007372",
-      "9001800007373",
-      "9001800007374",
-      "9001800007375",
-      "9001800007376",
-      "9001800007377",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -12184,21 +11926,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "9001700007360",
-      "9001700007371",
-      "9001700007372",
-      "9001700007373",
-      "9001700007374",
-      "9001700007375",
-      "9001700007376",
-      "9001700007377",
-      "9001800007371",
-      "9001800007372",
-      "9001800007373",
-      "9001800007374",
-      "9001800007375",
-      "9001800007376",
-      "9001800007377",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -12233,21 +11960,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "9001700007360",
-      "9001700007371",
-      "9001700007372",
-      "9001700007373",
-      "9001700007374",
-      "9001700007375",
-      "9001700007376",
-      "9001700007377",
-      "9001800007371",
-      "9001800007372",
-      "9001800007373",
-      "9001800007374",
-      "9001800007375",
-      "9001800007376",
-      "9001800007377",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -12281,21 +11993,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "9001700007360",
-      "9001700007371",
-      "9001700007372",
-      "9001700007373",
-      "9001700007374",
-      "9001700007375",
-      "9001700007376",
-      "9001700007377",
-      "9001800007371",
-      "9001800007372",
-      "9001800007373",
-      "9001800007374",
-      "9001800007375",
-      "9001800007376",
-      "9001800007377",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -12388,12 +12085,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "900170000742",
-      "9001700007422",
-      "9001700007423",
-      "9001700007424",
-      "9001700007425",
-      "9001700007426",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -12426,12 +12117,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "900170000742",
-      "9001700007422",
-      "9001700007423",
-      "9001700007424",
-      "9001700007425",
-      "9001700007426",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -12466,12 +12151,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "900170000742",
-      "9001700007422",
-      "9001700007423",
-      "9001700007424",
-      "9001700007425",
-      "9001700007426",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -12505,12 +12184,6 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "900170000742",
-      "9001700007422",
-      "9001700007423",
-      "9001700007424",
-      "9001700007425",
-      "9001700007426",
       "900171002090"
     ],
     "ActionScriptParams": "{}",
@@ -12983,7 +12656,7 @@
   {
     "Id": 170000544.0,
     "SkillDesc": "法术造成伤害时，回复前场角色4%已损生命值",
-    "Cdtime": 0.0,
+    "Cdtime": 0.10000000149011612,
     "CdThreshold": -1.0,
     "ShareGroupId": 0,
     "MaxCount": 1,
@@ -13008,7 +12681,7 @@
   {
     "Id": 170000545.0,
     "SkillDesc": "法术造成伤害时，回复前场角色4%生命值",
-    "Cdtime": 0.0,
+    "Cdtime": 0.10000000149011612,
     "CdThreshold": -1.0,
     "ShareGroupId": 0,
     "MaxCount": 1,
@@ -14492,8 +14165,8 @@
   },
   {
     "Id": 170000552.0,
-    "SkillDesc": "法术造成伤害时-延长1秒【明晰梦】持续时间",
-    "Cdtime": 0.5,
+    "SkillDesc": "明晰梦状态下，造成伤害延长1秒【明晰梦】持续时间",
+    "Cdtime": 0.10000000149011612,
     "CdThreshold": -1.0,
     "ShareGroupId": 0,
     "MaxCount": 1,
@@ -14504,8 +14177,8 @@
       "0",
       "0"
     ],
-    "TriggerParams": "{ \n\"CheckCost1Tags\": [\n        \"法术.状态类.狂化\",\"法术.状态类.心流\"\n],\n\"CheckCost2Tags\": [\n        \"状态.0500636b\"\n]\n}",
-    "TriggerFormula": "MatchAnyTag(Owner,CheckCost1Tags)\nAND\nMatchAllTags(Owner,CheckCost2Tags)",
+    "TriggerParams": "{ \n\"CheckCostTags\": [\n        \"状态.0500636b\"\n]\n}",
+    "TriggerFormula": "MatchAnyTag(Owner,CheckCostTags)",
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
@@ -14530,9 +14203,9 @@
     "TriggerFormula": "FALSE",
     "SubSkillAction": null,
     "InstigatorType": "Owner",
-    "SkillAction": "RemoveBuff",
+    "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "900172000207"
+      "90026110012"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -14634,7 +14307,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900181002100",
-      "900171002070"
+      "9001810021000",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -14662,7 +14337,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900181002100",
-      "900171002070"
+      "9001810021000",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -14690,7 +14367,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900181002101",
-      "900171002070"
+      "9001810021010",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -14718,7 +14397,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900181002101",
-      "900171002070"
+      "9001810021010",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -14732,13 +14413,14 @@
     "MaxCount": 1,
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
-    "TriggerType": "DamageTrigger",
+    "TriggerType": "VisionTrigger",
     "TriggerPreset": [
       "0",
-      "0"
+      "-1",
+      "-1"
     ],
     "TriggerParams": "{\n    \"CheckCondetionTags\": [\n        \"隐喻.触发条件重击伤害\",\"隐喻.触发条件共鸣解放伤害\",\"隐喻.触发条件共鸣技能伤害\",\"隐喻.触发条件普攻伤害\"\n    ],\n      \"CheckCDTags\": [\n          \"机制.龙卷风.法术CD中\",\"法术隐喻.触发次数+1\"\n],\n \"CheckCost1Tags\": [\n          \"隐喻.法术消耗降低50%\",\"隐喻.法术消耗提升50%\"\n],\n \"CheckCost2Tags\": [\n         \"法术隐喻.强制满蓝触发\",\"隐喻.不消耗法力值\"\n],\n \"CheckTrueTags\": [\n          \"状态.0500636b\"\n]\n}",
-    "TriggerFormula": "SkillType == 1\nAND\nMatchAnyTag(Owner,CheckCondetionTags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\n(\nMatchAllTags(Owner,CheckCost1Tags)\nOR\nMatchAnyTag(Owner,CheckCost1Tags) == FALSE\n)\nAND\nMatchAnyTag(Owner,CheckCost2Tags) == FALSE\nAND\nMatchAllTags(Owner,CheckTrueTags)",
+    "TriggerFormula": "MatchAnyTag(Owner,CheckCondetionTags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\n(\nMatchAllTags(Owner,CheckCost1Tags)\nOR\nMatchAnyTag(Owner,CheckCost1Tags) == FALSE\n)\nAND\nMatchAnyTag(Owner,CheckCost2Tags) == FALSE\nAND\nMatchAllTags(Owner,CheckTrueTags)",
     "SubSkillAction": [
       170000595.0
     ],
@@ -14788,13 +14470,14 @@
     "MaxCount": 1,
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
-    "TriggerType": "DamageTrigger",
+    "TriggerType": "VisionTrigger",
     "TriggerPreset": [
       "0",
-      "0"
+      "-1",
+      "-1"
     ],
     "TriggerParams": "{\n    \"CheckCondetion1Tags\": [\n         \"隐喻.触发条件重击伤害\",\"隐喻.触发条件共鸣解放伤害\",\"隐喻.触发条件共鸣技能伤害\",\"隐喻.触发条件普攻伤害\"\n    ],\n      \"CheckCDTags\": [\n          \"机制.龙卷风.法术CD中\"\n],\n \"CheckCondetion2Tags\": [\n        \"法术隐喻.触发次数+1\"\n    ],\n \"CheckCost1Tags\": [\n          \"隐喻.法术消耗降低50%\",\"隐喻.法术消耗提升50%\"\n],\n \"CheckCost2Tags\": [\n          \"法术隐喻.强制满蓝触发\",\"隐喻.不消耗法力值\"\n],\n \"CheckTrueTags\": [\n          \"状态.0500636b\"\n]\n}",
-    "TriggerFormula": "SkillType == 1\nAND\nMatchAnyTag(Owner,CheckCondetion1Tags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCondetion2Tags) == TRUE\nAND\n(\nMatchAllTags(Owner,CheckCost1Tags)\nOR\nMatchAnyTag(Owner,CheckCost1Tags) == FALSE\n)\nAND\nMatchAnyTag(Owner,CheckCost2Tags) == FALSE\nAND\nMatchAllTags(Owner,CheckTrueTags)",
+    "TriggerFormula": "MatchAnyTag(Owner,CheckCondetion1Tags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCondetion2Tags) == TRUE\nAND\n(\nMatchAllTags(Owner,CheckCost1Tags)\nOR\nMatchAnyTag(Owner,CheckCost1Tags) == FALSE\n)\nAND\nMatchAnyTag(Owner,CheckCost2Tags) == FALSE\nAND\nMatchAllTags(Owner,CheckTrueTags)",
     "SubSkillAction": [
       170000595.0
     ],
@@ -14858,7 +14541,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900181002102",
-      "900171002070"
+      "9001810021020",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -14886,7 +14571,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900181002102",
-      "900171002070"
+      "9001810021020",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -14914,7 +14601,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900181002105",
-      "900171002070"
+      "9001810021050",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -14942,7 +14631,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900181002105",
-      "900171002070"
+      "9001810021050",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -14956,13 +14647,14 @@
     "MaxCount": 1,
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
-    "TriggerType": "DamageTrigger",
+    "TriggerType": "VisionTrigger",
     "TriggerPreset": [
       "0",
-      "0"
+      "-1",
+      "-1"
     ],
     "TriggerParams": "{\n    \"CheckCondetionTags\": [\n        \"隐喻.触发条件重击伤害\",\"隐喻.触发条件共鸣解放伤害\",\"隐喻.触发条件共鸣技能伤害\",\"隐喻.触发条件普攻伤害\"\n    ],\n      \"CheckCDTags\": [\n          \"机制.龙卷风.法术CD中\",\"法术隐喻.触发次数+1\"\n],\n \"CheckCost1Tags\": [\n         \"隐喻.法术消耗提升50%\"\n],\n \"CheckCost2Tags\": [\n         \"隐喻.法术消耗降低50%\",\"法术隐喻.强制满蓝触发\",\"隐喻.不消耗法力值\"\n],\n \"CheckTrueTags\": [\n          \"状态.0500636b\"\n]\n}",
-    "TriggerFormula": "SkillType == 1\nAND\nMatchAnyTag(Owner,CheckCondetionTags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCost1Tags)\nAND\nMatchAnyTag(Owner,CheckCost2Tags) == FALSE\nAND\nGetBattleScore() >= 0\nAND\nMatchAllTags(Owner,CheckTrueTags)",
+    "TriggerFormula": "MatchAnyTag(Owner,CheckCondetionTags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCost1Tags)\nAND\nMatchAnyTag(Owner,CheckCost2Tags) == FALSE\nAND\nGetBattleScore() >= 0\nAND\nMatchAllTags(Owner,CheckTrueTags)",
     "SubSkillAction": [
       170000595.0
     ],
@@ -15012,13 +14704,14 @@
     "MaxCount": 1,
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
-    "TriggerType": "DamageTrigger",
+    "TriggerType": "VisionTrigger",
     "TriggerPreset": [
       "0",
-      "0"
+      "-1",
+      "-1"
     ],
     "TriggerParams": "{\n    \"CheckCondetion1Tags\": [\n         \"隐喻.触发条件重击伤害\",\"隐喻.触发条件共鸣解放伤害\",\"隐喻.触发条件共鸣技能伤害\",\"隐喻.触发条件普攻伤害\"\n    ],\n      \"CheckCDTags\": [\n          \"机制.龙卷风.法术CD中\"\n],\n \"CheckCondetion2Tags\": [\n        \"法术隐喻.触发次数+1\"\n    ],\n \"CheckCost1Tags\": [\n         \"隐喻.法术消耗提升50%\"\n],\n \"CheckCost2Tags\": [\n           \"隐喻.法术消耗降低50%\",\"法术隐喻.强制满蓝触发\",\"隐喻.不消耗法力值\"\n],\n \"CheckTrueTags\": [\n          \"状态.0500636b\"\n]\n}",
-    "TriggerFormula": "SkillType == 1\nAND\nMatchAnyTag(Owner,CheckCondetion1Tags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCondetion2Tags) == TRUE\nAND\nMatchAllTags(Owner,CheckCost1Tags)\nAND\nMatchAnyTag(Owner,CheckCost2Tags) == FALSE\nAND\nGetBattleScore() >= 0\nAND\nMatchAllTags(Owner,CheckTrueTags)",
+    "TriggerFormula": "MatchAnyTag(Owner,CheckCondetion1Tags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCondetion2Tags) == TRUE\nAND\nMatchAllTags(Owner,CheckCost1Tags)\nAND\nMatchAnyTag(Owner,CheckCost2Tags) == FALSE\nAND\nGetBattleScore() >= 0\nAND\nMatchAllTags(Owner,CheckTrueTags)",
     "SubSkillAction": [
       170000595.0
     ],
@@ -15083,7 +14776,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900181002102",
-      "900171002070"
+      "9001810021020",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -15112,7 +14807,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900181002102",
-      "900171002070"
+      "9001810021020",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -15141,7 +14838,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900181002103",
-      "900171002070"
+      "9001810021030",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -15170,7 +14869,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900181002103",
-      "900171002070"
+      "9001810021030",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -15184,13 +14885,14 @@
     "MaxCount": 1,
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
-    "TriggerType": "DamageTrigger",
+    "TriggerType": "VisionTrigger",
     "TriggerPreset": [
       "0",
-      "0"
+      "-1",
+      "-1"
     ],
     "TriggerParams": "{\n    \"CheckCondetionTags\": [\n        \"隐喻.触发条件重击伤害\",\"隐喻.触发条件共鸣解放伤害\",\"隐喻.触发条件共鸣技能伤害\",\"隐喻.触发条件普攻伤害\"\n    ],\n      \"CheckCDTags\": [\n          \"机制.龙卷风.法术CD中\",\"法术隐喻.触发次数+1\",\"隐喻.法力上限200\"\n],\n \"CheckCost1Tags\": [\n         \"法术隐喻.强制满蓝触发\",\"状态.0500636b\"\n],\n \"CheckCost2Tags\": [\n         \"隐喻.法术消耗降低50%\",\"法术隐喻.强制满蓝触发\",\"状态.0500636b\",\"隐喻.不消耗法力值\"\n],\n \"CheckTrueTags\": [\n          \"状态.0500636b\"\n]\n}",
-    "TriggerFormula": "SkillType == 1\nAND\nMatchAnyTag(Owner,CheckCondetionTags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCost1Tags)\nAND\nMatchAllTags(Owner,CheckTrueTags)",
+    "TriggerFormula": "MatchAnyTag(Owner,CheckCondetionTags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCost1Tags)\nAND\nMatchAllTags(Owner,CheckTrueTags)",
     "SubSkillAction": [
       170000595.0,
       1700005940.0
@@ -15242,13 +14944,14 @@
     "MaxCount": 1,
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
-    "TriggerType": "DamageTrigger",
+    "TriggerType": "VisionTrigger",
     "TriggerPreset": [
       "0",
-      "0"
+      "-1",
+      "-1"
     ],
     "TriggerParams": "{\n    \"CheckCondetion1Tags\": [\n         \"隐喻.触发条件重击伤害\",\"隐喻.触发条件共鸣解放伤害\",\"隐喻.触发条件共鸣技能伤害\",\"隐喻.触发条件普攻伤害\"\n    ],\n      \"CheckCDTags\": [\n          \"机制.龙卷风.法术CD中\",\"隐喻.法力上限200\"\n],\n \"CheckCondetion2Tags\": [\n        \"法术隐喻.触发次数+1\"\n    ],\n \"CheckCost1Tags\": [\n         \"法术隐喻.强制满蓝触发\",\"状态.0500636b\"\n],\n \"CheckCost2Tags\": [\n           \"隐喻.法术消耗降低50%\",\"法术隐喻.强制满蓝触发\",\"状态.0500636b\",\"隐喻.不消耗法力值\"\n],\n \"CheckTrueTags\": [\n          \"状态.0500636b\"\n]\n}",
-    "TriggerFormula": "SkillType == 1\nAND\nMatchAnyTag(Owner,CheckCondetion1Tags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCondetion2Tags) == TRUE\nAND\nMatchAllTags(Owner,CheckCost1Tags)\nAND\nMatchAllTags(Owner,CheckTrueTags)",
+    "TriggerFormula": "MatchAnyTag(Owner,CheckCondetion1Tags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCondetion2Tags) == TRUE\nAND\nMatchAllTags(Owner,CheckCost1Tags)\nAND\nMatchAllTags(Owner,CheckTrueTags)",
     "SubSkillAction": [
       170000595.0,
       1700005940.0
@@ -15315,7 +15018,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900181002104",
-      "900171002070"
+      "9001810021040",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -15344,7 +15049,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900181002104",
-      "900171002070"
+      "9001810021040",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -15373,7 +15080,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900181002105",
-      "900171002070"
+      "9001810021050",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -15402,7 +15111,9 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "900181002105",
-      "900171002070"
+      "9001810021050",
+      "900171002070",
+      "900261000058"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -15416,13 +15127,14 @@
     "MaxCount": 1,
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
-    "TriggerType": "DamageTrigger",
+    "TriggerType": "VisionTrigger",
     "TriggerPreset": [
       "0",
-      "0"
+      "-1",
+      "-1"
     ],
     "TriggerParams": "{\n    \"CheckCondetionTags\": [\n        \"隐喻.触发条件重击伤害\",\"隐喻.触发条件共鸣解放伤害\",\"隐喻.触发条件共鸣技能伤害\",\"隐喻.触发条件普攻伤害\"\n    ],\n      \"CheckCDTags\": [\n          \"机制.龙卷风.法术CD中\",\"法术隐喻.触发次数+1\"\n],\n \"CheckCost1Tags\": [\n         \"法术隐喻.强制满蓝触发\",\"状态.0500636b\",\"隐喻.法力上限200\"\n],\n \"CheckCost2Tags\": [\n         \"隐喻.法术消耗降低50%\",\"法术隐喻.强制满蓝触发\",\"状态.0500636b\",\"隐喻.法力上限200\",\"隐喻.不消耗法力值\"\n],\n \"CheckTrueTags\": [\n          \"状态.0500636b\"\n]\n}",
-    "TriggerFormula": "SkillType == 1\nAND\nMatchAnyTag(Owner,CheckCondetionTags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCost1Tags)\nAND\nMatchAllTags(Owner,CheckTrueTags)",
+    "TriggerFormula": "MatchAnyTag(Owner,CheckCondetionTags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCost1Tags)\nAND\nMatchAllTags(Owner,CheckTrueTags)",
     "SubSkillAction": [
       170000595.0,
       1700005940.0
@@ -15474,13 +15186,14 @@
     "MaxCount": 1,
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
-    "TriggerType": "DamageTrigger",
+    "TriggerType": "VisionTrigger",
     "TriggerPreset": [
       "0",
-      "0"
+      "-1",
+      "-1"
     ],
     "TriggerParams": "{\n    \"CheckCondetion1Tags\": [\n         \"隐喻.触发条件重击伤害\",\"隐喻.触发条件共鸣解放伤害\",\"隐喻.触发条件共鸣技能伤害\",\"隐喻.触发条件普攻伤害\"\n    ],\n      \"CheckCDTags\": [\n          \"机制.龙卷风.法术CD中\"\n],\n \"CheckCondetion2Tags\": [\n        \"法术隐喻.触发次数+1\"\n    ],\n \"CheckCost1Tags\": [\n         \"法术隐喻.强制满蓝触发\",\"状态.0500636b\",\"隐喻.法力上限200\"\n],\n \"CheckCost2Tags\": [\n           \"隐喻.法术消耗降低50%\",\"法术隐喻.强制满蓝触发\",\"状态.0500636b\",\"隐喻.法力上限200\",\"隐喻.不消耗法力值\"\n],\n \"CheckTrueTags\": [\n          \"状态.0500636b\"\n]\n}",
-    "TriggerFormula": "SkillType == 1\nAND\nMatchAnyTag(Owner,CheckCondetion1Tags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCondetion2Tags) == TRUE\nAND\nMatchAllTags(Owner,CheckCost1Tags)\nAND\nMatchAllTags(Owner,CheckTrueTags)",
+    "TriggerFormula": "MatchAnyTag(Owner,CheckCondetion1Tags) == FALSE\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\nMatchAllTags(Owner,CheckCondetion2Tags) == TRUE\nAND\nMatchAllTags(Owner,CheckCost1Tags)\nAND\nMatchAllTags(Owner,CheckTrueTags)",
     "SubSkillAction": [
       170000595.0,
       1700005940.0
@@ -16623,7 +16336,7 @@
   },
   {
     "Id": 171000014.0,
-    "SkillDesc": "造成普攻伤害叠层",
+    "SkillDesc": "任意伤害均可叠层",
     "Cdtime": 0.0,
     "CdThreshold": -1.0,
     "ShareGroupId": 0,
@@ -16636,7 +16349,7 @@
       "0"
     ],
     "TriggerParams": "{}",
-    "TriggerFormula": "DamageType == 0",
+    "TriggerFormula": "TRUE",
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
@@ -16691,9 +16404,7 @@
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "900173000086"
-    ],
+    "SkillActionParams": null,
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
@@ -16712,13 +16423,14 @@
       "1"
     ],
     "TriggerParams": "{}",
-    "TriggerFormula": "(\nGetBuffStack(Owner,900173000084) >= 0\nAND\nGetBuffStack(Owner,900173000084) < 10\n)\nAND\n(\nGetBuffStack(Owner,9001730000844) >= 0\nAND\nGetBuffStack(Owner,9001730000844) < 10\n)",
+    "TriggerFormula": "(\nGetBuffStack(Owner,900173000084) >= 0\nAND\nGetBuffStack(Owner,900173000084) < 10\n)\nOR\n(\nGetBuffStack(Owner,9001730000844) >= 0\nAND\nGetBuffStack(Owner,9001730000844) < 10\n)",
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "9001730000850",
       "9001730000891",
+      "900269000011",
       "9001730000846"
     ],
     "ActionScriptParams": "{}",
@@ -16746,6 +16458,7 @@
     "SkillActionParams": [
       "9001730000851",
       "9001730000891",
+      "900269000011",
       "9001730000846"
     ],
     "ActionScriptParams": "{}",
@@ -16773,6 +16486,7 @@
     "SkillActionParams": [
       "9001730000852",
       "9001730000891",
+      "900269000011",
       "9001730000846"
     ],
     "ActionScriptParams": "{}",
@@ -16800,6 +16514,7 @@
     "SkillActionParams": [
       "9001730000853",
       "9001730000891",
+      "900269000011",
       "9001730000846"
     ],
     "ActionScriptParams": "{}",
@@ -16827,6 +16542,7 @@
     "SkillActionParams": [
       "9001730000854",
       "9001730000891",
+      "900269000011",
       "9001730000846"
     ],
     "ActionScriptParams": "{}",
@@ -16854,6 +16570,7 @@
     "SkillActionParams": [
       "9001730000855",
       "9001730000891",
+      "900269000011",
       "9001730000846"
     ],
     "ActionScriptParams": "{}",
@@ -16881,6 +16598,7 @@
     "SkillActionParams": [
       "9001730000856",
       "9001730000891",
+      "900269000011",
       "9001730000846"
     ],
     "ActionScriptParams": "{}",
@@ -16908,6 +16626,7 @@
     "SkillActionParams": [
       "9001730000857",
       "9001730000891",
+      "900269000011",
       "9001730000846"
     ],
     "ActionScriptParams": "{}",
@@ -16935,6 +16654,7 @@
     "SkillActionParams": [
       "9001730000858",
       "9001730000891",
+      "900269000011",
       "9001730000846"
     ],
     "ActionScriptParams": "{}",
@@ -16962,6 +16682,7 @@
     "SkillActionParams": [
       "9001730000859",
       "9001730000891",
+      "900269000011",
       "9001730000846"
     ],
     "ActionScriptParams": "{}",
@@ -16989,6 +16710,7 @@
     "SkillActionParams": [
       "9001730000860",
       "9001730000891",
+      "900269000011",
       "9001730000846"
     ],
     "ActionScriptParams": "{}",
@@ -16996,8 +16718,8 @@
   },
   {
     "Id": 1810000150.0,
-    "SkillDesc": "提前引爆触发器-造成普攻伤害时-0层",
-    "Cdtime": 1.0,
+    "SkillDesc": "提前引爆触发器-造成伤害时-0层",
+    "Cdtime": 0.0,
     "CdThreshold": -1.0,
     "ShareGroupId": 0,
     "MaxCount": 1,
@@ -17009,21 +16731,23 @@
       "0"
     ],
     "TriggerParams": "{}",
-    "TriggerFormula": "(\nGetBuffStack(Owner,900173000084) >= 0\nAND\nGetBuffStack(Owner,900173000084) < 10\nAND\nDamageType == 0\n)\nAND\n(\nGetBuffStack(Owner,9001730000844) >= 0\nAND\nGetBuffStack(Owner,9001730000844) < 10\nAND\nDamageType == 0\n)",
+    "TriggerFormula": "(\nGetBuffStack(Owner,900173000084) >= 0\nAND\nGetBuffStack(Owner,900173000084) < 10\nAND\nGetBuffStack(Owner,900269000021) < 1\n)\nOR\n(\nGetBuffStack(Owner,9001730000844) >= 0\nAND\nGetBuffStack(Owner,9001730000844) < 10\nAND\nGetBuffStack(Owner,900269000021) < 1\n)",
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "9001830000850",
-      "9001730000891"
+      "9001730000891",
+      "900269000011",
+      "900269000021"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
   {
     "Id": 1810000151.0,
-    "SkillDesc": "提前引爆触发器-造成普攻伤害时-10层",
-    "Cdtime": 1.0,
+    "SkillDesc": "提前引爆触发器-造成伤害时-10层",
+    "Cdtime": 0.0,
     "CdThreshold": -1.0,
     "ShareGroupId": 0,
     "MaxCount": 1,
@@ -17035,21 +16759,23 @@
       "0"
     ],
     "TriggerParams": "{}",
-    "TriggerFormula": "(\nGetBuffStack(Owner,900173000084) >= 10\nAND\nGetBuffStack(Owner,900173000084) < 20\nAND\nDamageType == 0\n)\nOR\n(\nGetBuffStack(Owner,9001730000844) >= 10\nAND\nGetBuffStack(Owner,9001730000844) < 20\nAND\nDamageType == 0\n)",
+    "TriggerFormula": "(\nGetBuffStack(Owner,900173000084) >= 10\nAND\nGetBuffStack(Owner,900173000084) < 20\nAND\nGetBuffStack(Owner,900269000021) < 1\n)\nOR\n(\nGetBuffStack(Owner,9001730000844) >= 10\nAND\nGetBuffStack(Owner,9001730000844) < 20\nAND\nGetBuffStack(Owner,900269000021) < 1\n)",
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "9001830000851",
-      "9001730000891"
+      "9001730000891",
+      "900269000011",
+      "900269000021"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
   {
     "Id": 1810000152.0,
-    "SkillDesc": "提前引爆触发器-造成普攻伤害时-20层",
-    "Cdtime": 1.0,
+    "SkillDesc": "提前引爆触发器-造成伤害时-20层",
+    "Cdtime": 0.0,
     "CdThreshold": -1.0,
     "ShareGroupId": 0,
     "MaxCount": 1,
@@ -17061,21 +16787,23 @@
       "0"
     ],
     "TriggerParams": "{}",
-    "TriggerFormula": "(\nGetBuffStack(Owner,900173000084) >= 20\nAND\nGetBuffStack(Owner,900173000084) < 30\nAND\nDamageType == 0\n)\nOR\n(\nGetBuffStack(Owner,9001730000844) >= 20\nAND\nGetBuffStack(Owner,9001730000844) < 30\nAND\nDamageType == 0\n)",
+    "TriggerFormula": "(\nGetBuffStack(Owner,900173000084) >= 20\nAND\nGetBuffStack(Owner,900173000084) < 30\nAND\nGetBuffStack(Owner,900269000021) < 1\n)\nOR\n(\nGetBuffStack(Owner,9001730000844) >= 20\nAND\nGetBuffStack(Owner,9001730000844) < 30\nAND\nGetBuffStack(Owner,900269000021) < 1\n)",
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "9001830000852",
-      "9001730000891"
+      "9001730000891",
+      "900269000011",
+      "900269000021"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
   {
     "Id": 1810000153.0,
-    "SkillDesc": "提前引爆触发器-造成普攻伤害时-30层",
-    "Cdtime": 1.0,
+    "SkillDesc": "提前引爆触发器-造成伤害时-30层",
+    "Cdtime": 0.0,
     "CdThreshold": -1.0,
     "ShareGroupId": 0,
     "MaxCount": 1,
@@ -17087,21 +16815,23 @@
       "0"
     ],
     "TriggerParams": "{}",
-    "TriggerFormula": "(\nGetBuffStack(Owner,900173000084) >= 30\nAND\nGetBuffStack(Owner,900173000084) < 40\nAND\nDamageType == 0\n)\nOR\n(\nGetBuffStack(Owner,9001730000844) >= 30\nAND\nGetBuffStack(Owner,9001730000844) < 40\nAND\nDamageType == 0\n)",
+    "TriggerFormula": "(\nGetBuffStack(Owner,900173000084) >= 30\nAND\nGetBuffStack(Owner,900173000084) < 40\nAND\nGetBuffStack(Owner,900269000021) < 1\n)\nOR\n(\nGetBuffStack(Owner,9001730000844) >= 30\nAND\nGetBuffStack(Owner,9001730000844) < 40\nAND\nGetBuffStack(Owner,900269000021) < 1\n)",
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "9001830000853",
-      "9001730000891"
+      "9001730000891",
+      "900269000011",
+      "900269000021"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
   {
     "Id": 1810000154.0,
-    "SkillDesc": "提前引爆触发器-造成普攻伤害时-40层",
-    "Cdtime": 1.0,
+    "SkillDesc": "提前引爆触发器-造成伤害时-40层",
+    "Cdtime": 0.0,
     "CdThreshold": -1.0,
     "ShareGroupId": 0,
     "MaxCount": 1,
@@ -17113,21 +16843,23 @@
       "0"
     ],
     "TriggerParams": "{}",
-    "TriggerFormula": "(\nGetBuffStack(Owner,900173000084) >= 40\nAND\nGetBuffStack(Owner,900173000084) < 50\nAND\nDamageType == 0\n)\nOR\n(\nGetBuffStack(Owner,9001730000844) >= 40\nAND\nGetBuffStack(Owner,9001730000844) < 50\nAND\nDamageType == 0\n)",
+    "TriggerFormula": "(\nGetBuffStack(Owner,900173000084) >= 40\nAND\nGetBuffStack(Owner,900173000084) < 50\nAND\nGetBuffStack(Owner,900269000021) < 1\n)\nOR\n(\nGetBuffStack(Owner,9001730000844) >= 40\nAND\nGetBuffStack(Owner,9001730000844) < 50\nAND\nGetBuffStack(Owner,900269000021) < 1\n)",
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "9001830000854",
-      "9001730000891"
+      "9001730000891",
+      "900269000011",
+      "900269000021"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
   {
     "Id": 1810000155.0,
-    "SkillDesc": "提前引爆触发器-造成普攻伤害时-50层",
-    "Cdtime": 1.0,
+    "SkillDesc": "提前引爆触发器-造成伤害时-50层",
+    "Cdtime": 0.0,
     "CdThreshold": -1.0,
     "ShareGroupId": 0,
     "MaxCount": 1,
@@ -17139,21 +16871,23 @@
       "0"
     ],
     "TriggerParams": "{}",
-    "TriggerFormula": "(\nGetBuffStack(Owner,900173000084) >= 50\nAND\nGetBuffStack(Owner,900173000084) < 60\nAND\nDamageType == 0\n)\nOR\n(\nGetBuffStack(Owner,9001730000844) >= 50\nAND\nGetBuffStack(Owner,9001730000844) < 60\nAND\nDamageType == 0\n)",
+    "TriggerFormula": "(\nGetBuffStack(Owner,900173000084) >= 50\nAND\nGetBuffStack(Owner,900173000084) < 60\nAND\nGetBuffStack(Owner,900269000021) < 1\n)\nOR\n(\nGetBuffStack(Owner,9001730000844) >= 50\nAND\nGetBuffStack(Owner,9001730000844) < 60\nAND\nGetBuffStack(Owner,900269000021) < 1\n)",
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "9001830000855",
-      "9001730000891"
+      "9001730000891",
+      "900269000011",
+      "900269000021"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
   {
     "Id": 1810000156.0,
-    "SkillDesc": "提前引爆触发器-造成普攻伤害时-60层",
-    "Cdtime": 1.0,
+    "SkillDesc": "提前引爆触发器-造成伤害时-60层",
+    "Cdtime": 0.0,
     "CdThreshold": -1.0,
     "ShareGroupId": 0,
     "MaxCount": 1,
@@ -17165,21 +16899,23 @@
       "0"
     ],
     "TriggerParams": "{}",
-    "TriggerFormula": "(\nGetBuffStack(Owner,900173000084) >= 60\nAND\nGetBuffStack(Owner,900173000084) < 70\nAND\nDamageType == 0\n)\nOR\n(\nGetBuffStack(Owner,9001730000844) >= 60\nAND\nGetBuffStack(Owner,9001730000844) < 70\nAND\nDamageType == 0\n)",
+    "TriggerFormula": "(\nGetBuffStack(Owner,900173000084) >= 60\nAND\nGetBuffStack(Owner,900173000084) < 70\nAND\nGetBuffStack(Owner,900269000021) < 1\n)\nOR\n(\nGetBuffStack(Owner,9001730000844) >= 60\nAND\nGetBuffStack(Owner,9001730000844) < 70\nAND\nGetBuffStack(Owner,900269000021) < 1\n)",
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "9001830000856",
-      "9001730000891"
+      "9001730000891",
+      "900269000011",
+      "900269000021"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
   {
     "Id": 1810000157.0,
-    "SkillDesc": "提前引爆触发器-造成普攻伤害时-70层",
-    "Cdtime": 1.0,
+    "SkillDesc": "提前引爆触发器-造成伤害时-70层",
+    "Cdtime": 0.0,
     "CdThreshold": -1.0,
     "ShareGroupId": 0,
     "MaxCount": 1,
@@ -17191,21 +16927,23 @@
       "0"
     ],
     "TriggerParams": "{}",
-    "TriggerFormula": "(\nGetBuffStack(Owner,900173000084) >= 70\nAND\nGetBuffStack(Owner,900173000084) < 80\nAND\nDamageType == 0\n)\nOR\n(\nGetBuffStack(Owner,9001730000844) >= 70\nAND\nGetBuffStack(Owner,9001730000844) < 80\nAND\nDamageType == 0\n)",
+    "TriggerFormula": "(\nGetBuffStack(Owner,900173000084) >= 70\nAND\nGetBuffStack(Owner,900173000084) < 80\nAND\nGetBuffStack(Owner,900269000021) < 1\n)\nOR\n(\nGetBuffStack(Owner,9001730000844) >= 70\nAND\nGetBuffStack(Owner,9001730000844) < 80\nAND\nGetBuffStack(Owner,900269000021) < 1\n)",
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "9001830000857",
-      "9001730000891"
+      "9001730000891",
+      "900269000011",
+      "900269000021"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
   {
     "Id": 1810000158.0,
-    "SkillDesc": "提前引爆触发器-造成普攻伤害时-80层",
-    "Cdtime": 1.0,
+    "SkillDesc": "提前引爆触发器-造成伤害时-80层",
+    "Cdtime": 0.0,
     "CdThreshold": -1.0,
     "ShareGroupId": 0,
     "MaxCount": 1,
@@ -17217,21 +16955,23 @@
       "0"
     ],
     "TriggerParams": "{}",
-    "TriggerFormula": "(\nGetBuffStack(Owner,900173000084) >= 80\nAND\nGetBuffStack(Owner,900173000084) < 90\nAND\nDamageType == 0\n)\nOR\n(\nGetBuffStack(Owner,9001730000844) >= 80\nAND\nGetBuffStack(Owner,9001730000844) < 90\nAND\nDamageType == 0\n)",
+    "TriggerFormula": "(\nGetBuffStack(Owner,900173000084) >= 80\nAND\nGetBuffStack(Owner,900173000084) < 90\nAND\nGetBuffStack(Owner,900269000021) < 1\n)\nOR\n(\nGetBuffStack(Owner,9001730000844) >= 80\nAND\nGetBuffStack(Owner,9001730000844) < 90\nAND\nGetBuffStack(Owner,900269000021) < 1\n)",
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "9001830000858",
-      "9001730000891"
+      "9001730000891",
+      "900269000011",
+      "900269000021"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
   {
     "Id": 1810000159.0,
-    "SkillDesc": "提前引爆触发器-造成普攻伤害时-90层",
-    "Cdtime": 1.0,
+    "SkillDesc": "提前引爆触发器-造成伤害时-90层",
+    "Cdtime": 0.0,
     "CdThreshold": -1.0,
     "ShareGroupId": 0,
     "MaxCount": 1,
@@ -17243,21 +16983,23 @@
       "0"
     ],
     "TriggerParams": "{}",
-    "TriggerFormula": "(\nGetBuffStack(Owner,900173000084) >= 90\nAND\nGetBuffStack(Owner,900173000084) < 100\nAND\nDamageType == 0\n)\nOR\n(\nGetBuffStack(Owner,9001730000844) >= 90\nAND\nGetBuffStack(Owner,9001730000844) < 100\nAND\nDamageType == 0\n)",
+    "TriggerFormula": "(\nGetBuffStack(Owner,900173000084) >= 90\nAND\nGetBuffStack(Owner,900173000084) < 100\nAND\nGetBuffStack(Owner,900269000021) < 1\n)\nOR\n(\nGetBuffStack(Owner,9001730000844) >= 90\nAND\nGetBuffStack(Owner,9001730000844) < 100\nAND\nGetBuffStack(Owner,900269000021) < 1\n)",
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "9001830000859",
-      "9001730000891"
+      "9001730000891",
+      "900269000011",
+      "900269000021"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
   {
     "Id": 1810000160.0,
-    "SkillDesc": "提前引爆触发器-造成普攻伤害时-100层",
-    "Cdtime": 1.0,
+    "SkillDesc": "提前引爆触发器-造成伤害时-100层",
+    "Cdtime": 0.0,
     "CdThreshold": -1.0,
     "ShareGroupId": 0,
     "MaxCount": 1,
@@ -17269,13 +17011,15 @@
       "0"
     ],
     "TriggerParams": "{}",
-    "TriggerFormula": "(\nGetBuffStack(Owner,900173000084) == 100\nAND\nDamageType == 0\n)\nOR\n(\nGetBuffStack(Owner,9001730000844) == 100\nAND\nDamageType == 0\n)",
+    "TriggerFormula": "(\nGetBuffStack(Owner,900173000084) == 100\nAND\nGetBuffStack(Owner,900269000021) < 1\n)\nOR\n(\nGetBuffStack(Owner,9001730000844) == 100\nAND\nGetBuffStack(Owner,900269000021) < 1\n)",
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "9001830000860",
-      "9001730000891"
+      "9001730000891",
+      "900269000011",
+      "900269000021"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -17688,7 +17432,7 @@
   {
     "Id": 1710000163.0,
     "SkillDesc": "触发器-明晰梦状态下减少50%共鸣技能冷却时间",
-    "Cdtime": 0.0,
+    "Cdtime": 4.0,
     "CdThreshold": -1.0,
     "ShareGroupId": 0,
     "MaxCount": 1,
@@ -17714,7 +17458,7 @@
   {
     "Id": 1710000164.0,
     "SkillDesc": "触发器-明晰梦状态下减少50%共鸣解放冷却时间",
-    "Cdtime": 0.0,
+    "Cdtime": 4.0,
     "CdThreshold": -1.0,
     "ShareGroupId": 0,
     "MaxCount": 1,
@@ -19603,10 +19347,8 @@
     "TriggerFormula": "SkillType == 1",
     "SubSkillAction": null,
     "InstigatorType": "Owner",
-    "SkillAction": "RemoveBuff",
-    "SkillActionParams": [
-      "230003800#0"
-    ],
+    "SkillAction": "AddBuff",
+    "SkillActionParams": null,
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
@@ -19725,10 +19467,8 @@
     "TriggerFormula": "MatchAnyTag(Owner, CheckOwnerTags)",
     "SubSkillAction": null,
     "InstigatorType": "Owner",
-    "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "1206690520"
-    ],
+    "SkillAction": "",
+    "SkillActionParams": null,
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
@@ -20226,9 +19966,7 @@
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "96030030002"
-    ],
+    "SkillActionParams": null,
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
@@ -20498,10 +20236,8 @@
     "TriggerFormula": "DamageValue>=1",
     "SubSkillAction": null,
     "InstigatorType": "Owner",
-    "SkillAction": "RemoveBuff",
-    "SkillActionParams": [
-      "9003122313032#5"
-    ],
+    "SkillAction": "AddBuff",
+    "SkillActionParams": null,
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
@@ -21681,9 +21417,7 @@
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "630319011"
-    ],
+    "SkillActionParams": null,
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
@@ -22185,9 +21919,7 @@
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "235010820"
-    ],
+    "SkillActionParams": null,
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
@@ -22210,9 +21942,7 @@
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "235010821"
-    ],
+    "SkillActionParams": null,
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
@@ -22235,9 +21965,7 @@
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "235010822"
-    ],
+    "SkillActionParams": null,
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
@@ -22364,9 +22092,7 @@
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "235010823"
-    ],
+    "SkillActionParams": null,
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
@@ -26272,9 +25998,7 @@
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "1409401036"
-    ],
+    "SkillActionParams": null,
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
@@ -26298,9 +26022,7 @@
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "1409401038"
-    ],
+    "SkillActionParams": null,
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
@@ -26324,9 +26046,7 @@
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "1409401038"
-    ],
+    "SkillActionParams": null,
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
@@ -26350,9 +26070,7 @@
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "1409401038"
-    ],
+    "SkillActionParams": null,
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
@@ -26376,9 +26094,7 @@
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "1409401038"
-    ],
+    "SkillActionParams": null,
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
@@ -26402,9 +26118,7 @@
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "1409401038"
-    ],
+    "SkillActionParams": null,
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
@@ -26428,9 +26142,7 @@
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "1409401038"
-    ],
+    "SkillActionParams": null,
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
@@ -26454,9 +26166,7 @@
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "1409401038"
-    ],
+    "SkillActionParams": null,
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
@@ -26480,9 +26190,7 @@
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "1409401038"
-    ],
+    "SkillActionParams": null,
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
@@ -26506,9 +26214,7 @@
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "1409401038"
-    ],
+    "SkillActionParams": null,
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
@@ -26532,9 +26238,7 @@
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
-    "SkillActionParams": [
-      "1409401038"
-    ],
+    "SkillActionParams": null,
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
   },
@@ -26736,6 +26440,156 @@
     "SkillActionParams": [
       "1409001099",
       "1409001098"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 920080771.0,
+    "SkillDesc": "冰属性检测",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.逻辑状态.进入战斗",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "GetEntityCountCheckAttr(Owner,1,97,1,1)>1",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "92008077"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 920080772.0,
+    "SkillDesc": "火属性检测",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.逻辑状态.进入战斗",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "GetEntityCountCheckAttr(Owner,1,97,1,2)>1",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "92008077"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 920080773.0,
+    "SkillDesc": "雷属性检测",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.逻辑状态.进入战斗",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "GetEntityCountCheckAttr(Owner,1,97,1,3)>1",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "92008077"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 920080774.0,
+    "SkillDesc": "风属性检测",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.逻辑状态.进入战斗",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "GetEntityCountCheckAttr(Owner,1,97,1,4)>1",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "92008077"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 920080775.0,
+    "SkillDesc": "光属性检测",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.逻辑状态.进入战斗",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "GetEntityCountCheckAttr(Owner,1,97,1,5)>1",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "92008077"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 920080776.0,
+    "SkillDesc": "暗属性检测",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.逻辑状态.进入战斗",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "GetEntityCountCheckAttr(Owner,1,97,1,6)>1",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "92008077"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -27013,6 +26867,32 @@
     "SkillActionScript": "FALSE"
   },
   {
+    "Id": 92008081.0,
+    "SkillDesc": "释放声骸技能时，加最终伤害标记buff",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "VisionTrigger",
+    "TriggerPreset": [
+      "0",
+      "-1",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "920080811"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
     "Id": 1409001015.0,
     "SkillDesc": "进入水面中断声骸技能",
     "Cdtime": 0.0,
@@ -27079,6 +26959,30 @@
     "SkillAction": "AddBullet",
     "SkillActionParams": [
       "1409292001"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 80027001.0,
+    "SkillDesc": "神王数值验证被动",
+    "Cdtime": 1.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "CounterType==1\nOR\nSkillType==9",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "8002720033"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -27748,25 +27652,52 @@
     "SkillActionScript": "FALSE"
   },
   {
-    "Id": 80031051.0,
-    "SkillDesc": "教皇瘫痪受击被动",
-    "Cdtime": 0.20000000298023224,
+    "Id": 680050101.0,
+    "SkillDesc": "释放声骸技能时，加暗伤buff",
+    "Cdtime": 0.0,
     "CdThreshold": -1.0,
     "ShareGroupId": 0,
     "MaxCount": 1,
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
-    "TriggerType": "BeDamageTrigger",
+    "TriggerType": "VisionTrigger",
     "TriggerPreset": [
-      "0"
+      "0",
+      "-1",
+      "1"
     ],
-    "TriggerParams": "{\n    \"CheckOwnerTags\": [\n        \"功能.功能制作.狂暴生效\"\n    ]\n}",
-    "TriggerFormula": "!MatchAnyTag(Owner, CheckOwnerTags) \nAND\nDamageValue>=1",
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
     "SubSkillAction": null,
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "80031050"
+      "680050102"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1410100902.0,
+    "SkillDesc": "角色造成伤害时，自身恢复一定生命值和体力，效果CD3秒",
+    "Cdtime": 1.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>=1\nAND\n(DamageType!=5\nAND\nDamageType!=6)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1410010105"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -27794,6 +27725,30 @@
       "611501012",
       "611501016",
       "611501014"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 80031051.0,
+    "SkillDesc": "教皇瘫痪受击被动",
+    "Cdtime": 0.20000000298023224,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeDamageTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{\n    \"CheckOwnerTags\": [\n        \"功能.功能制作.狂暴生效\"\n    ]\n}",
+    "TriggerFormula": "!MatchAnyTag(Owner, CheckOwnerTags) \nAND\nDamageValue>=1",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "80031050"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -27923,6 +27878,78 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "611501010"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 640020009.0,
+    "SkillDesc": "监听",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "怪物.common.过程标识.自爆"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [
+      640020010.0,
+      640020011.0
+    ],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "640020009"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 640020010.0,
+    "SkillDesc": "时停",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "",
+    "TriggerPreset": null,
+    "TriggerParams": "{}",
+    "TriggerFormula": "FALSE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "640020010"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 640020011.0,
+    "SkillDesc": "去掉BUFF",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "",
+    "TriggerPreset": null,
+    "TriggerParams": "{}",
+    "TriggerFormula": "FALSE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "640020009#-1",
+      "640020008#-1"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -28203,6 +28230,79 @@
     "SkillActionScript": "FALSE"
   },
   {
+    "Id": 1306005002.0,
+    "SkillDesc": "大招击杀",
+    "Cdtime": 1.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "KillTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageID==1306601000\nOR\nDamageID==1306602000\nOR\nDamageID==1306602010\nOR\nDamageID==1306604000\nOR\nDamageID==1306604010\nOR\nDamageID==1306604020\nOR\nDamageID==1306605000\nOR\nDamageID==1306605010\nOR\nDamageID==1306605020\nOR\nDamageID==1306605030",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1306005003"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1306005004.0,
+    "SkillDesc": "普通派生击杀",
+    "Cdtime": 1.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "KillTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageID==1306190001\nOR\nDamageID==1306190002\nOR\nDamageID==1306180003\nOR\nDamageID==1306180004\nOR\nDamageID==1306180005\nOR\nDamageID==1306281001\nOR\nDamageID==1306281002\nOR\nDamageID==1306281003\nOR\nDamageID==1306290001\nOR\nDamageID==1306290002\nOR\nDamageID==1306290003\nOR\nDamageID==1306200001\nOR\nDamageID==1306200002\nOR\nDamageID==1306300010\nOR\nDamageID==1306300011\nOR\nDamageID==1306300021\nOR\nDamageID==1306300022\nOR\nDamageID==1306300023\nOR\nDamageID==1306300024",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1306005005"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1306005006.0,
+    "SkillDesc": "",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "AttributeChangedTrigger",
+    "TriggerPreset": [
+      "0",
+      "3"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "NewValue<OldValue",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1306005007"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
     "Id": 1608210004.0,
     "SkillDesc": "弗洛洛进入战斗状态监听",
     "Cdtime": 0.0,
@@ -28225,6 +28325,62 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "1608210005"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 640020012.0,
+    "SkillDesc": "附加BUFF",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "怪物.common.关卡.自爆玩法.a39d56bd",
+      "0",
+      "0",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "70053",
+      "70048",
+      "640020008",
+      "640020011",
+      "640020017"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 90026200002.0,
+    "SkillDesc": "睡大觉时，回复共鸣解放能量并清除CD",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "状态.0500636b",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900262000021"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -28255,6 +28411,130 @@
     "SkillActionScript": "FALSE"
   },
   {
+    "Id": 9002650000.0,
+    "SkillDesc": "起床时，移除全部暴击爆伤提升",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "状态.0500636b",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "9001700007411#-1",
+      "90017000074110#-1"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 900266000001.0,
+    "SkillDesc": "检测发出光/风异常",
+    "Cdtime": 0.10000000149011612,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffInstigatorTrigger",
+    "TriggerPreset": [
+      "0",
+      "10051000#10041000"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900266000002"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 900266000004.0,
+    "SkillDesc": "起床时，移除全部怪物DOT触发器",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "状态.0500636b",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": null,
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 900262000001.0,
+    "SkillDesc": "睡大觉时，回复50%共鸣解放能量",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "状态.0500636b",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900262000001"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 900263000001.0,
+    "SkillDesc": "睡大觉时，回复50%变奏能量",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "状态.0500636b",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900263000001"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
     "Id": 1608666001.0,
     "SkillDesc": "命中召唤锁链额外攻击",
     "Cdtime": 1.5,
@@ -28280,19 +28560,18 @@
     "SkillActionScript": "FALSE"
   },
   {
-    "Id": 680050101.0,
-    "SkillDesc": "释放声骸技能时，加暗伤buff",
+    "Id": 900267000014.0,
+    "SkillDesc": "睡大觉时，清除所有声骸CD",
     "Cdtime": 0.0,
     "CdThreshold": -1.0,
     "ShareGroupId": 0,
     "MaxCount": 1,
     "IsShareAllCdSkill": false,
     "IsDefaultActivated": true,
-    "TriggerType": "VisionTrigger",
+    "TriggerType": "TagTrigger",
     "TriggerPreset": [
-      "0",
-      "-1",
-      "1"
+      "状态.0500636b",
+      "0"
     ],
     "TriggerParams": "{}",
     "TriggerFormula": "TRUE",
@@ -28300,7 +28579,83 @@
     "InstigatorType": "Owner",
     "SkillAction": "AddBuff",
     "SkillActionParams": [
-      "680050102"
+      "900267000015"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 900268000001.0,
+    "SkillDesc": "睡大觉时，全队获得护盾",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "状态.0500636b",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900268000009"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 900268000014.0,
+    "SkillDesc": "睡大觉时，清空全部额外荣耀，荣耀转化为特殊BUFF",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "状态.0500636b",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900268000015",
+      "900268000016"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 90026800002.0,
+    "SkillDesc": "睡大觉时，获得重击获得肉鸽加深的BUFF",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "状态.0500636b",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900268000023"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -28330,6 +28685,57 @@
     "SkillActionScript": "FALSE"
   },
   {
+    "Id": 90026110005.0,
+    "SkillDesc": "睡大觉时，失去所有生命值并获得100%盾",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "状态.0500636b",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "90026110006",
+      "90026110007"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 900266000043.0,
+    "SkillDesc": "检测发出光/风异常",
+    "Cdtime": 0.10000000149011612,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffInstigatorTrigger",
+    "TriggerPreset": [
+      "0",
+      "10051000#10041000"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900266000044"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
     "Id": 640008094.0,
     "SkillDesc": "赫卡忒道馆-声骸技能判定",
     "Cdtime": 0.0,
@@ -28353,6 +28759,56 @@
       "640008091",
       "640008092",
       "640008095"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 31000020003.0,
+    "SkillDesc": "奥古斯塔套-检测叠层buff达到上限",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffVictimTrigger",
+    "TriggerPreset": [
+      "0",
+      "0#31000020002#4"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "31000020005"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 31000020004.0,
+    "SkillDesc": "奥古斯塔套-检测叠层buff消失",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffVictimTrigger",
+    "TriggerPreset": [
+      "1",
+      "0#31000020002#0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "31000020005"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"
@@ -28427,6 +28883,31 @@
     "SkillActionScript": "AddBuff2(Owner, 1608250011, NewStack-24, Owner)"
   },
   {
+    "Id": 900266000041.0,
+    "SkillDesc": "检测发出光/风异常",
+    "Cdtime": 0.10000000149011612,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffInstigatorTrigger",
+    "TriggerPreset": [
+      "0",
+      "10051000#10041000"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900266000002"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
     "Id": 31000019021.0,
     "SkillDesc": "声骸套装-检测共鸣能量为0",
     "Cdtime": 0.0,
@@ -28479,6 +28960,60 @@
     "SkillActionScript": "FALSE"
   },
   {
+    "Id": 1306003024.0,
+    "SkillDesc": "判断奥古斯塔脱战多少秒",
+    "Cdtime": 4.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.逻辑状态.进入战斗",
+      "1",
+      "0",
+      "2"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1306003025"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1410291002.0,
+    "SkillDesc": "【触发器】尤诺-休闲待机1（戏水）-中途打断的淡出特效",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "角色.7d25c1f5.8798905e.bf8d4521",
+      "1",
+      "0",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1410291001"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
     "Id": 1608330002.0,
     "SkillDesc": "弗洛洛共鸣4-彩乐命中监听",
     "Cdtime": 0.0,
@@ -28522,6 +29057,760 @@
     "SkillAction": "AddBuff",
     "SkillActionParams": [
       "1608360004"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1410010030.0,
+    "SkillDesc": "尤诺特殊能量判断",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "AttributeChangedTrigger",
+    "TriggerPreset": [
+      "0",
+      "62"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "NewValue>0",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1410010031"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1410010032.0,
+    "SkillDesc": "尤诺特殊能量判断",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "AttributeChangedTrigger",
+    "TriggerPreset": [
+      "0",
+      "62"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "NewValue<=0",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "1410010031"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 680050901.0,
+    "SkillDesc": "造成伤害时，触发子弹",
+    "Cdtime": 6.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "680050902",
+      "680050904"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 680051101.0,
+    "SkillDesc": "造成伤害时，触发子弹",
+    "Cdtime": 6.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "680051102",
+      "680051106"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 632709111.0,
+    "SkillDesc": "监听怪物2s内是否受伤",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeDamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "632709411"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 900273000108.0,
+    "SkillDesc": "火球术触发器",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "0"
+    ],
+    "TriggerParams": "{\n\"CheckCondetion1Tags\": [\n      \"隐喻.强制满蓝触发\"\n],\n\"CheckCondetion2Tags\": [\n      \"状态.0500636b\"\n],\n\"CheckCondetion3Tags\": [\n      \"隐喻.触发条件普攻伤害\"\n],\n      \"CheckCDTags\": [\n          \"机制.火球术.法术CD中\"\n]\n}",
+    "TriggerFormula": "(\n(DamageType == 0 \nAND\nMatchAnyTag(Owner,CheckCondetion3Tags))\nOR\n(SkillType == 0 \nAND\nMatchAnyTag(Owner,CheckCondetion3Tags)) == FALSE\n)\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\n(\nMatchAnyTag(Owner,CheckCondetion1Tags) == FALSE\nOR\n(MatchAnyTag(Owner,CheckCondetion1Tags)\nAND\nMatchAnyTag(Owner,CheckCondetion2Tags))\n)\nAND\nGetBattleScore() >= 0",
+    "SubSkillAction": [
+      170000595.0
+    ],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900273000108",
+      "900273000112",
+      "9001710021000",
+      "9001710021010",
+      "900171002070"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 900273000109.0,
+    "SkillDesc": "龙卷风触发器",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "VisionTrigger",
+    "TriggerPreset": [
+      "0",
+      "-1",
+      "-1"
+    ],
+    "TriggerParams": "{\n\"CheckCondetion1Tags\": [\n      \"隐喻.强制满蓝触发\"\n],\n\"CheckCondetion2Tags\": [\n      \"状态.0500636b\"\n],\n      \"CheckCDTags\": [\n          \"机制.龙卷风.法术CD中\"\n]\n}",
+    "TriggerFormula": "MatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\n(\nMatchAnyTag(Owner,CheckCondetion1Tags) == FALSE\nOR\n(MatchAnyTag(Owner,CheckCondetion1Tags)\nAND\nMatchAnyTag(Owner,CheckCondetion2Tags))\n)\nAND\nGetBattleScore() >= 0",
+    "SubSkillAction": [
+      170000595.0
+    ],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900273000109",
+      "900273000113",
+      "900171002080",
+      "900267000031",
+      "900267000032"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 900273000110.0,
+    "SkillDesc": "雷暴术触发器",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "-1",
+      "0"
+    ],
+    "TriggerParams": "{\n\"CheckCondetion1Tags\": [\n      \"隐喻.强制满蓝触发\"\n],\n\"CheckCondetion2Tags\": [\n      \"状态.0500636b\"\n],\n      \"CheckCDTags\": [\n          \"机制.落雷.法术CD中\"\n]\n}",
+    "TriggerFormula": "SkillType == 3\nAND\nMatchAnyTag(Owner,CheckCDTags) == FALSE\nAND\n(\nMatchAnyTag(Owner,CheckCondetion1Tags) == FALSE\nOR\n(MatchAnyTag(Owner,CheckCondetion1Tags)\nAND\nMatchAnyTag(Owner,CheckCondetion2Tags))\n)\nAND\nGetBattleScore() >= 0",
+    "SubSkillAction": [
+      170000595.0
+    ],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900273000110",
+      "900273000114",
+      "900171002081"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 900273000111.0,
+    "SkillDesc": "冰绽术触发器",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "QteGoBattleTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{\n\"CheckCondetion1Tags\": [\n      \"隐喻.强制满蓝触发\"\n],\n\"CheckCondetion2Tags\": [\n      \"状态.0500636b\"\n]\n}",
+    "TriggerFormula": "(\nMatchAnyTag(Owner,CheckCondetion1Tags) == FALSE\nOR\n(MatchAnyTag(Owner,CheckCondetion1Tags)\nAND\nMatchAnyTag(Owner,CheckCondetion2Tags))\n)\nAND\nGetBattleScore() >= 0",
+    "SubSkillAction": [
+      170000595.0
+    ],
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900273000111",
+      "900273000115"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1306004020.0,
+    "SkillDesc": "QTE触发器",
+    "Cdtime": 0.5,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "QteGoDownTrigger",
+    "TriggerPreset": [
+      "2"
+    ],
+    "TriggerParams": "{\n    \"Tags1\": [\n        \"角色.177fd2b0.f3662ad3.3e043af4\"\n    ]\n}",
+    "TriggerFormula": "MatchAnyTag(GoDownEntity,Tags1) == TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1306004021",
+      "1306008005"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 920080838.0,
+    "SkillDesc": "3层标记时添加激活态",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffVictimTrigger",
+    "TriggerPreset": [
+      "0",
+      "0#920080833#3"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "94300200"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1306004022.0,
+    "SkillDesc": "QTE触发器",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagStackTrigger",
+    "TriggerPreset": [
+      "角色.177fd2b0.f3662ad3.a679b9d1",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "NewStack>=2",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1306004023",
+      "1306004024",
+      "1101002008"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 632710004.0,
+    "SkillDesc": "怪物受伤时提升伤害",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeDamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "632719004"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 632710003.0,
+    "SkillDesc": "监听是否受到超过10%生命值的伤害",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeDamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageValue>GetAttributeByID(Owner,2)*(0.1)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "71000111001"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1410010100.0,
+    "SkillDesc": "尤诺监听编队角色获得护盾",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "ShieldTrigger",
+    "TriggerPreset": [
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "UpdateType==0",
+    "SubSkillAction": null,
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1410010101",
+      "1410010109"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1306003034.0,
+    "SkillDesc": "太阳领域效果-2-qte时给自己1层盾",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "QteGoBattleTrigger",
+    "TriggerPreset": [
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "Customize",
+    "SkillActionParams": null,
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "AddBuff2(GoBattleEntity,1306003035,1,Owner)"
+  },
+  {
+    "Id": 1410010320.0,
+    "SkillDesc": "尤诺共鸣链-监听满月加成的层数",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffVictimTrigger",
+    "TriggerPreset": [
+      "1",
+      "0#1410010101#10"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1410010321"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 31000021024.0,
+    "SkillDesc": "声骸辅助套装-检测自身声骸技能种类施放",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "VisionTrigger",
+    "TriggerPreset": [
+      "0",
+      "-1",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "GetBuffStack(Owner,31000021023) < 4",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "31000021023"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 31000021025.0,
+    "SkillDesc": "声骸辅助套装-叠层buff达到上限时走这个触发",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "VisionTrigger",
+    "TriggerPreset": [
+      "0",
+      "-1",
+      "-1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "GetBuffStack(Owner,31000021023) == 4",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "31000021023"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 31000021026.0,
+    "SkillDesc": "声骸辅助套装-检测叠层buff清除",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "幻象.羁绊.333d5968",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": [
+      31000021027.0
+    ],
+    "InstigatorType": "Owner",
+    "SkillAction": "RemoveBuff",
+    "SkillActionParams": [
+      "31000021024"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 31000021027.0,
+    "SkillDesc": "声骸辅助套装-重新获得删掉的buff",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "",
+    "TriggerPreset": null,
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "31000021024"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 612700006.0,
+    "SkillDesc": "击飞受击移除监听",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.动作状态.受击.击飞",
+      "1",
+      "0",
+      "2"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "612700007"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 612700008.0,
+    "SkillDesc": "轻受击移除监听",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.动作状态.受击.轻击",
+      "1",
+      "0",
+      "2"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "612700009"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 612700010.0,
+    "SkillDesc": "重受击移除监听",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.动作状态.受击.重击",
+      "1",
+      "0",
+      "2"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "612700011"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 612700013.0,
+    "SkillDesc": "重受击移除监听",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.动作状态.冲刺",
+      "1",
+      "0",
+      "2"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "612700015"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 612700019.0,
+    "SkillDesc": "击飞受击移除监听",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeDamageTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{\n    \"Tags1\": [\n        \"角色.Common.技能通用标识.大招\"\n    ]\n}",
+    "TriggerFormula": "MatchAnyTag(Attacker,Tags1) == TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "612700020"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 1410010313.0,
+    "SkillDesc": "尤诺共鸣链1-监听满月领域展开",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "角色.7d25c1f5.fe2b308a.0927b2a6",
+      "0",
+      "0",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1410010314"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 900274000005.0,
+    "SkillDesc": "闪避反击命中给15层BUFF",
+    "Cdtime": 2.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "SkillType == 5",
+    "SubSkillAction": null,
+    "InstigatorType": "Attacker",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900274000007"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE"
+  },
+  {
+    "Id": 900274000006.0,
+    "SkillDesc": "逆势回击命中给15层BUFF",
+    "Cdtime": 2.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "HitTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "CounterType == 1",
+    "SubSkillAction": null,
+    "InstigatorType": "Attacker",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "900274000007"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE"

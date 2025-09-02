@@ -4832,6 +4832,38 @@
     "SwornHatredTag": ""
   },
   {
+    "Id": 80027,
+    "BaseHatred": 1.0,
+    "DecreaseRate": 0.8,
+    "DecreaseTimeLength": 5000.0,
+    "DecreaseTimeCd": 10000.0,
+    "IncreaseRateWhenDecreasing": 1.0,
+    "MinClearTime": 1000.0,
+    "DisengageDistanceRange": {
+      "Min": 8500.0,
+      "Max": 9000.0
+    },
+    "DisengageTimeRange": {
+      "Min": 40000.0,
+      "Max": 45000.0
+    },
+    "DisengageHeightRange": {
+      "Min": -5000.0,
+      "Max": 5000.0
+    },
+    "DisengageHeightRangeMax": {
+      "Min": -5000.0,
+      "Max": 5000.0
+    },
+    "DisengageBornDistance": {
+      "Min": 4000.0,
+      "Max": 5000.0
+    },
+    "MaxMoveFromBorn": 4000.0,
+    "ExcludeTag": "行为状态.逻辑状态.隐身",
+    "SwornHatredTag": ""
+  },
+  {
     "Id": 80031,
     "BaseHatred": 1.0,
     "DecreaseRate": 0.8,

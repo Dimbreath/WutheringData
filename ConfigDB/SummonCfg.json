@@ -5261,6 +5261,22 @@
     "BornSelectDamageAttributeTargetBuff": null
   },
   {
+    "Id": 3980028,
+    "BlueprintType": "Monster_branch2.6",
+    "SurvivalTime": 0,
+    "InheritLevelType": 0,
+    "InheritLevelParam": 0,
+    "AttributeType": 0,
+    "InheritAttributeBaseType": 0,
+    "InheritSummonerAttribute": null,
+    "UnCalculateBuffAttributes": null,
+    "FollowSummonerAttr": null,
+    "BornBuffId": null,
+    "ShareDamage": true,
+    "InitVisiable": false,
+    "BornSelectDamageAttributeTargetBuff": null
+  },
+  {
     "Id": 200089,
     "BlueprintType": "Vision20089",
     "SurvivalTime": 15,
@@ -5847,6 +5863,22 @@
     "BornSelectDamageAttributeTargetBuff": null
   },
   {
+    "Id": 3980031,
+    "BlueprintType": "Gameplay_Branch2.0_045",
+    "SurvivalTime": 0,
+    "InheritLevelType": 0,
+    "InheritLevelParam": 0,
+    "AttributeType": 0,
+    "InheritAttributeBaseType": 0,
+    "InheritSummonerAttribute": null,
+    "UnCalculateBuffAttributes": null,
+    "FollowSummonerAttr": null,
+    "BornBuffId": null,
+    "ShareDamage": false,
+    "InitVisiable": false,
+    "BornSelectDamageAttributeTargetBuff": null
+  },
+  {
     "Id": 3980032,
     "BlueprintType": "Monster_Branch2.5_003",
     "SurvivalTime": 0,
@@ -6382,6 +6414,22 @@
     "BornSelectDamageAttributeTargetBuff": null
   },
   {
+    "Id": 3980041,
+    "BlueprintType": "Monster_branch2.6_671",
+    "SurvivalTime": 0,
+    "InheritLevelType": 0,
+    "InheritLevelParam": 0,
+    "AttributeType": 0,
+    "InheritAttributeBaseType": 0,
+    "InheritSummonerAttribute": null,
+    "UnCalculateBuffAttributes": null,
+    "FollowSummonerAttr": null,
+    "BornBuffId": null,
+    "ShareDamage": false,
+    "InitVisiable": false,
+    "BornSelectDamageAttributeTargetBuff": null
+  },
+  {
     "Id": 100902,
     "BlueprintType": "Player020_2",
     "SurvivalTime": 0,
@@ -6442,6 +6490,43 @@
     "BornSelectDamageAttributeTargetBuff": null
   },
   {
+    "Id": 100711,
+    "BlueprintType": "branch2.6_651_Player037_2",
+    "SurvivalTime": 0,
+    "InheritLevelType": 0,
+    "InheritLevelParam": 0,
+    "AttributeType": 0,
+    "InheritAttributeBaseType": 0,
+    "InheritSummonerAttribute": [
+      {
+        "Key": 2,
+        "Value": {
+          "ArrayInt": [
+            1000,
+            2000
+          ]
+        }
+      },
+      {
+        "Key": 7,
+        "Value": {
+          "ArrayInt": [
+            1000,
+            2000
+          ]
+        }
+      }
+    ],
+    "UnCalculateBuffAttributes": null,
+    "FollowSummonerAttr": null,
+    "BornBuffId": [
+      1410100010.0
+    ],
+    "ShareDamage": true,
+    "InitVisiable": false,
+    "BornSelectDamageAttributeTargetBuff": null
+  },
+  {
     "Id": 281023,
     "BlueprintType": "VisionBoss1023",
     "SurvivalTime": 15,
@@ -6457,6 +6542,127 @@
       1101009004.0,
       2100000033.0,
       640012031.0
+    ],
+    "ShareDamage": false,
+    "InitVisiable": false,
+    "BornSelectDamageAttributeTargetBuff": null
+  },
+  {
+    "Id": 281024,
+    "BlueprintType": "Vision281024",
+    "SurvivalTime": 15,
+    "InheritLevelType": 2,
+    "InheritLevelParam": 1,
+    "AttributeType": 0,
+    "InheritAttributeBaseType": 0,
+    "InheritSummonerAttribute": null,
+    "UnCalculateBuffAttributes": null,
+    "FollowSummonerAttr": null,
+    "BornBuffId": [
+      1001002004.0,
+      1101009004.0,
+      2100000033.0,
+      640012031.0
+    ],
+    "ShareDamage": false,
+    "InitVisiable": false,
+    "BornSelectDamageAttributeTargetBuff": null
+  },
+  {
+    "Id": 201094,
+    "BlueprintType": "Vision201094",
+    "SurvivalTime": 15,
+    "InheritLevelType": 2,
+    "InheritLevelParam": 1,
+    "AttributeType": 0,
+    "InheritAttributeBaseType": 0,
+    "InheritSummonerAttribute": null,
+    "UnCalculateBuffAttributes": null,
+    "FollowSummonerAttr": null,
+    "BornBuffId": [
+      1001002004.0,
+      1101009004.0,
+      2100000033.0
+    ],
+    "ShareDamage": false,
+    "InitVisiable": false,
+    "BornSelectDamageAttributeTargetBuff": null
+  },
+  {
+    "Id": 281013,
+    "BlueprintType": "Vision281013",
+    "SurvivalTime": 15,
+    "InheritLevelType": 2,
+    "InheritLevelParam": 1,
+    "AttributeType": 0,
+    "InheritAttributeBaseType": 0,
+    "InheritSummonerAttribute": null,
+    "UnCalculateBuffAttributes": null,
+    "FollowSummonerAttr": null,
+    "BornBuffId": [
+      1001002004.0,
+      1101009004.0,
+      2100000033.0
+    ],
+    "ShareDamage": false,
+    "InitVisiable": false,
+    "BornSelectDamageAttributeTargetBuff": null
+  },
+  {
+    "Id": 200098,
+    "BlueprintType": "Vision20098",
+    "SurvivalTime": 15,
+    "InheritLevelType": 2,
+    "InheritLevelParam": 1,
+    "AttributeType": 0,
+    "InheritAttributeBaseType": 0,
+    "InheritSummonerAttribute": null,
+    "UnCalculateBuffAttributes": null,
+    "FollowSummonerAttr": null,
+    "BornBuffId": [
+      1001002004.0,
+      1101009004.0,
+      2100000033.0
+    ],
+    "ShareDamage": false,
+    "InitVisiable": false,
+    "BornSelectDamageAttributeTargetBuff": null
+  },
+  {
+    "Id": 280031,
+    "BlueprintType": "VisionBoss031",
+    "SurvivalTime": 15,
+    "InheritLevelType": 2,
+    "InheritLevelParam": 1,
+    "AttributeType": 0,
+    "InheritAttributeBaseType": 0,
+    "InheritSummonerAttribute": null,
+    "UnCalculateBuffAttributes": null,
+    "FollowSummonerAttr": null,
+    "BornBuffId": [
+      1001002004.0,
+      1101009004.0,
+      2100000033.0
+    ],
+    "ShareDamage": false,
+    "InitVisiable": false,
+    "BornSelectDamageAttributeTargetBuff": null
+  },
+  {
+    "Id": 280032,
+    "BlueprintType": "VisionBoss032",
+    "SurvivalTime": 15,
+    "InheritLevelType": 2,
+    "InheritLevelParam": 1,
+    "AttributeType": 0,
+    "InheritAttributeBaseType": 0,
+    "InheritSummonerAttribute": null,
+    "UnCalculateBuffAttributes": null,
+    "FollowSummonerAttr": null,
+    "BornBuffId": [
+      1001002004.0,
+      1101009004.0,
+      2100000033.0
     ],
     "ShareDamage": false,
     "InitVisiable": false,
@@ -6548,6 +6754,256 @@
     "InheritLevelType": 0,
     "InheritLevelParam": 0,
     "AttributeType": 1,
+    "InheritAttributeBaseType": 0,
+    "InheritSummonerAttribute": null,
+    "UnCalculateBuffAttributes": null,
+    "FollowSummonerAttr": null,
+    "BornBuffId": null,
+    "ShareDamage": false,
+    "InitVisiable": false,
+    "BornSelectDamageAttributeTargetBuff": null
+  },
+  {
+    "Id": 200099,
+    "BlueprintType": "Vision017",
+    "SurvivalTime": 15,
+    "InheritLevelType": 2,
+    "InheritLevelParam": 1,
+    "AttributeType": 0,
+    "InheritAttributeBaseType": 0,
+    "InheritSummonerAttribute": null,
+    "UnCalculateBuffAttributes": null,
+    "FollowSummonerAttr": null,
+    "BornBuffId": [
+      1001002004.0,
+      1101009004.0,
+      2100000033.0,
+      640012031.0
+    ],
+    "ShareDamage": false,
+    "InitVisiable": false,
+    "BornSelectDamageAttributeTargetBuff": null
+  },
+  {
+    "Id": 200100,
+    "BlueprintType": "Vision018",
+    "SurvivalTime": 15,
+    "InheritLevelType": 2,
+    "InheritLevelParam": 1,
+    "AttributeType": 0,
+    "InheritAttributeBaseType": 0,
+    "InheritSummonerAttribute": null,
+    "UnCalculateBuffAttributes": null,
+    "FollowSummonerAttr": null,
+    "BornBuffId": [
+      1001002004.0,
+      1101009004.0,
+      2100000033.0,
+      640012031.0
+    ],
+    "ShareDamage": false,
+    "InitVisiable": false,
+    "BornSelectDamageAttributeTargetBuff": null
+  },
+  {
+    "Id": 200101,
+    "BlueprintType": "Vision015",
+    "SurvivalTime": 15,
+    "InheritLevelType": 2,
+    "InheritLevelParam": 1,
+    "AttributeType": 0,
+    "InheritAttributeBaseType": 0,
+    "InheritSummonerAttribute": null,
+    "UnCalculateBuffAttributes": null,
+    "FollowSummonerAttr": null,
+    "BornBuffId": [
+      1001002004.0,
+      1101009004.0,
+      2100000033.0,
+      640012031.0
+    ],
+    "ShareDamage": false,
+    "InitVisiable": false,
+    "BornSelectDamageAttributeTargetBuff": null
+  },
+  {
+    "Id": 200102,
+    "BlueprintType": "Vision016",
+    "SurvivalTime": 15,
+    "InheritLevelType": 2,
+    "InheritLevelParam": 1,
+    "AttributeType": 0,
+    "InheritAttributeBaseType": 0,
+    "InheritSummonerAttribute": null,
+    "UnCalculateBuffAttributes": null,
+    "FollowSummonerAttr": null,
+    "BornBuffId": [
+      1001002004.0,
+      1101009004.0,
+      2100000033.0,
+      640012031.0
+    ],
+    "ShareDamage": false,
+    "InitVisiable": false,
+    "BornSelectDamageAttributeTargetBuff": null
+  },
+  {
+    "Id": 200103,
+    "BlueprintType": "Vision026",
+    "SurvivalTime": 15,
+    "InheritLevelType": 2,
+    "InheritLevelParam": 1,
+    "AttributeType": 0,
+    "InheritAttributeBaseType": 0,
+    "InheritSummonerAttribute": null,
+    "UnCalculateBuffAttributes": null,
+    "FollowSummonerAttr": null,
+    "BornBuffId": [
+      1001002004.0,
+      1101009004.0,
+      2100000033.0,
+      640012031.0
+    ],
+    "ShareDamage": false,
+    "InitVisiable": false,
+    "BornSelectDamageAttributeTargetBuff": null
+  },
+  {
+    "Id": 200104,
+    "BlueprintType": "Vision027",
+    "SurvivalTime": 15,
+    "InheritLevelType": 2,
+    "InheritLevelParam": 1,
+    "AttributeType": 0,
+    "InheritAttributeBaseType": 0,
+    "InheritSummonerAttribute": null,
+    "UnCalculateBuffAttributes": null,
+    "FollowSummonerAttr": null,
+    "BornBuffId": [
+      1001002004.0,
+      1101009004.0,
+      2100000033.0,
+      640012031.0
+    ],
+    "ShareDamage": false,
+    "InitVisiable": false,
+    "BornSelectDamageAttributeTargetBuff": null
+  },
+  {
+    "Id": 24000038,
+    "BlueprintType": "Floater_2.6_Tafang",
+    "SurvivalTime": 0,
+    "InheritLevelType": 2,
+    "InheritLevelParam": 1,
+    "AttributeType": 2,
+    "InheritAttributeBaseType": 0,
+    "InheritSummonerAttribute": null,
+    "UnCalculateBuffAttributes": null,
+    "FollowSummonerAttr": null,
+    "BornBuffId": [
+      1001002004.0,
+      1001002003.0
+    ],
+    "ShareDamage": false,
+    "InitVisiable": false,
+    "BornSelectDamageAttributeTargetBuff": null
+  },
+  {
+    "Id": 28003101,
+    "BlueprintType": "VisionBoss03101",
+    "SurvivalTime": 15,
+    "InheritLevelType": 2,
+    "InheritLevelParam": 1,
+    "AttributeType": 0,
+    "InheritAttributeBaseType": 0,
+    "InheritSummonerAttribute": null,
+    "UnCalculateBuffAttributes": null,
+    "FollowSummonerAttr": null,
+    "BornBuffId": [
+      1001002004.0,
+      1101009004.0,
+      2100000033.0
+    ],
+    "ShareDamage": false,
+    "InitVisiable": false,
+    "BornSelectDamageAttributeTargetBuff": null
+  },
+  {
+    "Id": 100712,
+    "BlueprintType": "branch2.6_658_Player037_3",
+    "SurvivalTime": 0,
+    "InheritLevelType": 0,
+    "InheritLevelParam": 0,
+    "AttributeType": 0,
+    "InheritAttributeBaseType": 0,
+    "InheritSummonerAttribute": [
+      {
+        "Key": 2,
+        "Value": {
+          "ArrayInt": [
+            1000,
+            2000
+          ]
+        }
+      },
+      {
+        "Key": 7,
+        "Value": {
+          "ArrayInt": [
+            1000,
+            2000
+          ]
+        }
+      }
+    ],
+    "UnCalculateBuffAttributes": null,
+    "FollowSummonerAttr": null,
+    "BornBuffId": [
+      1306002020.0
+    ],
+    "ShareDamage": true,
+    "InitVisiable": false,
+    "BornSelectDamageAttributeTargetBuff": null
+  },
+  {
+    "Id": 1306600091,
+    "BlueprintType": "branch2.6_160_SceneObj2",
+    "SurvivalTime": 10,
+    "InheritLevelType": 2,
+    "InheritLevelParam": 1,
+    "AttributeType": 2,
+    "InheritAttributeBaseType": 0,
+    "InheritSummonerAttribute": null,
+    "UnCalculateBuffAttributes": null,
+    "FollowSummonerAttr": null,
+    "BornBuffId": null,
+    "ShareDamage": false,
+    "InitVisiable": false,
+    "BornSelectDamageAttributeTargetBuff": null
+  },
+  {
+    "Id": 1306600092,
+    "BlueprintType": "branch2.6_160_SceneObj3",
+    "SurvivalTime": 10,
+    "InheritLevelType": 2,
+    "InheritLevelParam": 1,
+    "AttributeType": 2,
+    "InheritAttributeBaseType": 0,
+    "InheritSummonerAttribute": null,
+    "UnCalculateBuffAttributes": null,
+    "FollowSummonerAttr": null,
+    "BornBuffId": null,
+    "ShareDamage": false,
+    "InitVisiable": false,
+    "BornSelectDamageAttributeTargetBuff": null
+  },
+  {
+    "Id": 1306600093,
+    "BlueprintType": "branch2.6_160_SceneObj4",
+    "SurvivalTime": 10,
+    "InheritLevelType": 2,
+    "InheritLevelParam": 1,
+    "AttributeType": 2,
     "InheritAttributeBaseType": 0,
     "InheritSummonerAttribute": null,
     "UnCalculateBuffAttributes": null,
