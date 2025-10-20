@@ -5311,6 +5311,53 @@
     "OnlyForward": false
   },
   {
+    "Id": 80030,
+    "DistanceRange": [
+      200.0,
+      500.0,
+      700.0,
+      1200.0,
+      2000.0
+    ],
+    "NearActionRates": [
+      0.0,
+      100.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "MiddleActionRates": [
+      0.0,
+      0.0,
+      50.0,
+      50.0,
+      0.0
+    ],
+    "FarActionRates": [
+      100.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TurnSpeeds": [
+      180.0,
+      180.0,
+      180.0,
+      180.0
+    ],
+    "RunTurnSpeed": 360.0,
+    "WanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "SumWanderTime": {
+      "Min": 3000.0,
+      "Max": 5000.0
+    },
+    "OnlyForward": false
+  },
+  {
     "Id": 80029,
     "DistanceRange": [
       500.0,

@@ -23,12 +23,17 @@
       "X": 0.0,
       "Y": 0.0,
       "Z": 0.0
+    },
+    "ScabbardRotationOffset": {
+      "X": 90.0,
+      "Y": -55.0,
+      "Z": 105.0
     }
   },
   {
     "Id": 2,
     "Location": {
-      "X": -3.0,
+      "X": -5.0,
       "Y": 11.0,
       "Z": 14.0
     },
@@ -40,67 +45,82 @@
     "Size": 0.4000000059604645,
     "RotateTime": 40000,
     "ScabbardOffset": {
-      "X": -0.35899999737739563,
+      "X": 2.0,
       "Y": 1.1435999870300293,
-      "Z": 1.8392000198364258
+      "Z": 3.5
     },
     "ShowScabbard": true,
     "AxisRotate": {
       "X": 0.0,
       "Y": 0.0,
       "Z": 0.0
+    },
+    "ScabbardRotationOffset": {
+      "X": 90.0,
+      "Y": -55.0,
+      "Z": 105.0
     }
   },
   {
     "Id": 3,
     "Location": {
-      "X": 0.0,
-      "Y": -9.0,
-      "Z": -5.0
+      "X": 10.0,
+      "Y": -13.0,
+      "Z": 8.0
     },
     "Rotation": {
       "X": 90.0,
-      "Y": 23.0,
+      "Y": -45.0,
       "Z": 98.0
     },
     "Size": 1.0,
     "RotateTime": 40000,
     "ScabbardOffset": {
-      "X": 3.0,
-      "Y": -6.0,
-      "Z": -3.0
+      "X": -10.0,
+      "Y": 13.0,
+      "Z": 8.0
     },
-    "ShowScabbard": false,
+    "ShowScabbard": true,
     "AxisRotate": {
       "X": 0.0,
       "Y": 0.0,
       "Z": 0.0
+    },
+    "ScabbardRotationOffset": {
+      "X": 90.0,
+      "Y": -45.0,
+      "Z": -82.0
     }
   },
   {
     "Id": 4,
     "Location": {
-      "X": 0.0,
-      "Y": 2.0,
+      "X": -3.0,
+      "Y": 6.0,
       "Z": -5.0
     },
     "Rotation": {
-      "X": 46.0,
-      "Y": 0.0,
-      "Z": 160.0
+      "X": 70.0,
+      "Y": -20.0,
+      "Z": 80.0
     },
-    "Size": 0.8999999761581421,
+    "Size": 0.800000011920929,
     "RotateTime": 40000,
     "ScabbardOffset": {
       "X": 3.0,
       "Y": -6.0,
-      "Z": -3.0
+      "Z": -1.0
     },
-    "ShowScabbard": false,
+    "ShowScabbard": true,
     "AxisRotate": {
       "X": 0.0,
       "Y": 0.0,
       "Z": 0.0
+    },
+    "ScabbardRotationOffset": {
+      "X": 70.0,
+      "Y": -20.0,
+      "Z": -100.0
     }
   },
   {
@@ -124,6 +144,11 @@
     },
     "ShowScabbard": false,
     "AxisRotate": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "ScabbardRotationOffset": {
       "X": 0.0,
       "Y": 0.0,
       "Z": 0.0
