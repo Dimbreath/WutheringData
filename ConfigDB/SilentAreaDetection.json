@@ -2266,7 +2266,7 @@
   {
     "Id": 30030001,
     "Name": "MapMark_9101_MarkTitle",
-    "GuideId": 3,
+    "GuideId": 5,
     "LevelPlayList": [
       227700000
     ],
@@ -4113,5 +4113,133 @@
     "PhantomFetterGroup": [
       22
     ]
+  },
+  {
+    "Id": 30015005,
+    "Name": "MapMark_7005_MarkTitle",
+    "GuideId": 3,
+    "LevelPlayList": [
+      316850010
+    ],
+    "InstanceSubTypeDescription": "InpuBoxText_TacetField",
+    "DangerType": 3,
+    "Secondary": 63,
+    "TypeDescription2": 63,
+    "MatType": 0,
+    "AttributesDescriptionLock": "SilentAreaDetection_316700003_AttributesDescriptionLock",
+    "AttributesDescriptionUnlock": "SilentAreaDetection_316700003_AttributesDescriptionUnlock",
+    "BigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_24_UI.T_IconFunctionOpen_24_UI",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_24_UI.T_IconFunctionOpen_24_UI",
+    "LockBigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconFunctionOpen/T_IconFunctionOpen_24_UI.T_IconFunctionOpen_24_UI",
+    "TemporaryIconUnlock": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconMonsterHead_1006_UI.SP_IconMonsterHead_1006_UI",
+    "TemporaryIconlock": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconMonsterHead_1006_1_UI.SP_IconMonsterHead_1006_1_UI",
+    "ShowReward": 16301,
+    "ShowRewardMap": [
+      {
+        "Key": 1,
+        "Value": 16301
+      }
+    ],
+    "ShowRewardMapCalabash": [
+      {
+        "Key": 1,
+        "Value": 16321
+      },
+      {
+        "Key": 5,
+        "Value": 16322
+      },
+      {
+        "Key": 8,
+        "Value": 16323
+      },
+      {
+        "Key": 15,
+        "Value": 16324
+      },
+      {
+        "Key": 21,
+        "Value": 16325
+      }
+    ],
+    "BeginTimeStamp": 0,
+    "PreOpenId": 0,
+    "MarkId": 7005,
+    "LockCon": 0,
+    "MapId": 910,
+    "PhantomId": null,
+    "FirstDropId": 0,
+    "AdditionalId": 0,
+    "SortId": 19,
+    "NewContent": "New_corner",
+    "DetectionTabType": 3,
+    "PhantomFetterGroup": [
+      23
+    ]
+  },
+  {
+    "Id": 30020016,
+    "Name": "LordGymInfo_Text10",
+    "GuideId": 2,
+    "LevelPlayList": [
+      210850000
+    ],
+    "InstanceSubTypeDescription": "InpuBoxText_empty",
+    "DangerType": 3,
+    "Secondary": 61,
+    "TypeDescription2": 61,
+    "MatType": 0,
+    "AttributesDescriptionLock": "LordGymInfo_Text10",
+    "AttributesDescriptionUnlock": "LordGymInfo_Text10",
+    "BigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_QX_34017_UI.T_IconMonsterHead_QX_34017_UI",
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_QX_34018_UI.T_IconMonsterHead_QX_34018_UI",
+    "LockBigIcon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_QX_33022_UI.T_IconMonsterHead_QX_34017_UI",
+    "TemporaryIconUnlock": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_QX_34011_UI.T_IconMonsterHead_QX_34011_UI",
+    "TemporaryIconlock": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_QX_34011_UI.T_IconMonsterHead_QX_34011_UI",
+    "ShowReward": 49706,
+    "ShowRewardMap": [
+      {
+        "Key": 1,
+        "Value": 49701
+      },
+      {
+        "Key": 2,
+        "Value": 49702
+      },
+      {
+        "Key": 3,
+        "Value": 49703
+      },
+      {
+        "Key": 4,
+        "Value": 49704
+      },
+      {
+        "Key": 5,
+        "Value": 49705
+      },
+      {
+        "Key": 6,
+        "Value": 49706
+      }
+    ],
+    "ShowRewardMapCalabash": [
+      {
+        "Key": 1,
+        "Value": 14008
+      }
+    ],
+    "BeginTimeStamp": 0,
+    "PreOpenId": 0,
+    "MarkId": 4026,
+    "LockCon": 12005001,
+    "MapId": 8,
+    "PhantomId": null,
+    "FirstDropId": 0,
+    "AdditionalId": 25010,
+    "SortId": 20,
+    "NewContent": "New_corner",
+    "DetectionTabType": 0,
+    "PhantomFetterGroup": null
   }
 ]

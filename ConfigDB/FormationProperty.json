@@ -30,7 +30,7 @@
     "TriggerEffect3": 0,
     "TriggerEffectParams3": null,
     "Condition": 0,
-    "PropertyIndex": 0
+    "PropertyIndex": 52
   },
   {
     "Id": 2,
@@ -65,7 +65,7 @@
     "TriggerEffect3": 0,
     "TriggerEffectParams3": null,
     "Condition": 0,
-    "PropertyIndex": 0
+    "PropertyIndex": 48
   },
   {
     "Id": 3,
@@ -106,7 +106,7 @@
     "TriggerEffect3": 0,
     "TriggerEffectParams3": null,
     "Condition": 0,
-    "PropertyIndex": 0
+    "PropertyIndex": 52
   },
   {
     "Id": 4,
@@ -139,7 +139,7 @@
     "TriggerEffect3": 0,
     "TriggerEffectParams3": null,
     "Condition": 0,
-    "PropertyIndex": 0
+    "PropertyIndex": 48
   },
   {
     "Id": 5,
@@ -170,7 +170,7 @@
     "TriggerEffect3": 0,
     "TriggerEffectParams3": null,
     "Condition": 0,
-    "PropertyIndex": 0
+    "PropertyIndex": 44
   },
   {
     "Id": 6,
@@ -206,7 +206,7 @@
     "TriggerEffect3": 0,
     "TriggerEffectParams3": null,
     "Condition": 0,
-    "PropertyIndex": 0
+    "PropertyIndex": 52
   },
   {
     "Id": 7,
@@ -242,7 +242,7 @@
     "TriggerEffect3": 0,
     "TriggerEffectParams3": null,
     "Condition": 0,
-    "PropertyIndex": 0
+    "PropertyIndex": 48
   },
   {
     "Id": 8,
@@ -277,7 +277,7 @@
     "TriggerEffect3": 0,
     "TriggerEffectParams3": null,
     "Condition": 0,
-    "PropertyIndex": 0
+    "PropertyIndex": 56
   },
   {
     "Id": 9,
@@ -314,7 +314,7 @@
       672020133.0
     ],
     "Condition": 0,
-    "PropertyIndex": 0
+    "PropertyIndex": 56
   },
   {
     "Id": 10,
@@ -351,7 +351,7 @@
     "TriggerEffect3": 0,
     "TriggerEffectParams3": null,
     "Condition": 13000189,
-    "PropertyIndex": 138
+    "PropertyIndex": 176
   },
   {
     "Id": 11,
@@ -386,7 +386,7 @@
     "TriggerEffect3": 0,
     "TriggerEffectParams3": null,
     "Condition": 0,
-    "PropertyIndex": 0
+    "PropertyIndex": 56
   },
   {
     "Id": 12,
@@ -417,7 +417,42 @@
     "TriggerEffect3": 0,
     "TriggerEffectParams3": null,
     "Condition": 0,
-    "PropertyIndex": 0
+    "PropertyIndex": 48
+  },
+  {
+    "Id": 13,
+    "InitValue": 50,
+    "InitRecoveryRate": 0,
+    "InitMax": 50,
+    "MarkTag": null,
+    "ResistTag": null,
+    "TriggerRange1": {
+      "Min": 3001.0,
+      "Max": 10000.0
+    },
+    "TriggerType1": 0,
+    "TriggerEffect1": 0,
+    "TriggerEffectParams1": [
+      633120010.0
+    ],
+    "TriggerRange2": {
+      "Min": 0.0,
+      "Max": 3000.0
+    },
+    "TriggerType2": 0,
+    "TriggerEffect2": 0,
+    "TriggerEffectParams2": [
+      633120012.0
+    ],
+    "TriggerRange3": {
+      "Min": 9999.0,
+      "Max": 10000.0
+    },
+    "TriggerType3": 0,
+    "TriggerEffect3": 0,
+    "TriggerEffectParams3": null,
+    "Condition": 0,
+    "PropertyIndex": 56
   },
   {
     "Id": 15,
@@ -450,6 +485,6 @@
     "TriggerEffect3": 0,
     "TriggerEffectParams3": null,
     "Condition": 0,
-    "PropertyIndex": 0
+    "PropertyIndex": 44
   }
 ]
