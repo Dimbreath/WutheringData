@@ -144,6 +144,12 @@
     "Desc": "寻痕玩法完成"
   },
   {
+    "Id": 100001,
+    "Key": "LockEventKey_FGL",
+    "Name": "密码锁实体自身事件",
+    "Desc": "主线浮光林实验室密码锁"
+  },
+  {
     "Id": 800001,
     "Key": "SwitchSubLevelInside",
     "Name": "黑潮神国切换里世界",
@@ -154,5 +160,11 @@
     "Key": "SwitchSubLevelOutside",
     "Name": "黑潮神国切换表世界",
     "Desc": "黑潮神国切换表世界"
+  },
+  {
+    "Id": 700004,
+    "Key": "MusicLevel_FGL",
+    "Name": "音乐关弹出状态事件",
+    "Desc": "浮光林POI音乐关记录柱子板子是否弹出"
   }
 ]

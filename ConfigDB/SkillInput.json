@@ -2258,10 +2258,10 @@
   {
     "Id": 150804,
     "InputArray": [
-      "攻击"
+      "0"
     ],
     "SkillArray": [
-      1004201
+      0
     ],
     "ImageArray": null,
     "Description": "SkillInput_150804_Description"
@@ -2349,5 +2349,171 @@
     "SkillArray": null,
     "ImageArray": null,
     "Description": "RoleSkillInput_1307_DescList_4"
+  },
+  {
+    "Id": 120901,
+    "InputArray": [
+      "攻击"
+    ],
+    "SkillArray": [
+      1004401
+    ],
+    "ImageArray": null,
+    "Description": "RoleSkillInput_1209_DescList_1"
+  },
+  {
+    "Id": 120902,
+    "InputArray": [
+      "攻击"
+    ],
+    "SkillArray": [
+      1004401
+    ],
+    "ImageArray": null,
+    "Description": "RoleSkillInput_1209_DescList_2"
+  },
+  {
+    "Id": 120903,
+    "InputArray": [
+      "攻击"
+    ],
+    "SkillArray": [
+      1004401
+    ],
+    "ImageArray": null,
+    "Description": "RoleSkillInput_1209_DescList_3"
+  },
+  {
+    "Id": 120904,
+    "InputArray": [
+      "攻击"
+    ],
+    "SkillArray": [
+      1004401
+    ],
+    "ImageArray": null,
+    "Description": "RoleSkillInput_1209_DescList_4"
+  },
+  {
+    "Id": 120905,
+    "InputArray": [
+      "大招"
+    ],
+    "SkillArray": [
+      1004403
+    ],
+    "ImageArray": null,
+    "Description": "RoleSkillInput_1209_DescList_5"
+  },
+  {
+    "Id": 120906,
+    "InputArray": null,
+    "SkillArray": null,
+    "ImageArray": [
+      "/Game/Aki/UI/UIResources/UiRole/Image/T_RoleSkillTreeMoning.T_RoleSkillTreeMoning"
+    ],
+    "Description": "SkillInput_1209_DescList_1"
+  },
+  {
+    "Id": 120907,
+    "InputArray": null,
+    "SkillArray": null,
+    "ImageArray": null,
+    "Description": "SkillInput_1209_DescList_2"
+  },
+  {
+    "Id": 150901,
+    "InputArray": [
+      "攻击",
+      "技能1"
+    ],
+    "SkillArray": [
+      1004501,
+      1004502
+    ],
+    "ImageArray": null,
+    "Description": "RoleSkillInput_1509_DescList_1"
+  },
+  {
+    "Id": 150902,
+    "InputArray": [
+      "攻击"
+    ],
+    "SkillArray": [
+      1004501
+    ],
+    "ImageArray": null,
+    "Description": "RoleSkillInput_1509_DescList_2"
+  },
+  {
+    "Id": 150903,
+    "InputArray": [
+      "攻击"
+    ],
+    "SkillArray": [
+      1004501
+    ],
+    "ImageArray": null,
+    "Description": "RoleSkillInput_1509_DescList_3"
+  },
+  {
+    "Id": 150904,
+    "InputArray": [
+      "0"
+    ],
+    "SkillArray": [
+      0
+    ],
+    "ImageArray": null,
+    "Description": "RoleSkillInput_1509_DescList_4"
+  },
+  {
+    "Id": 150905,
+    "InputArray": [
+      "攻击"
+    ],
+    "SkillArray": [
+      1004501
+    ],
+    "ImageArray": null,
+    "Description": "RoleSkillInput_1509_DescList_5"
+  },
+  {
+    "Id": 150906,
+    "InputArray": [
+      "大招"
+    ],
+    "SkillArray": [
+      1004503
+    ],
+    "ImageArray": null,
+    "Description": "RoleSkillInput_1509_DescList_6"
+  },
+  {
+    "Id": 150907,
+    "InputArray": null,
+    "SkillArray": null,
+    "ImageArray": [
+      "/Game/Aki/UI/UIResources/UiRole/Image/T_RoleSkillTreeLinNai3.T_RoleSkillTreeLinNai3"
+    ],
+    "Description": "SkillInput_1509_DescList_1"
+  },
+  {
+    "Id": 150908,
+    "InputArray": null,
+    "SkillArray": null,
+    "ImageArray": [
+      "/Game/Aki/UI/UIResources/UiRole/Image/T_RoleSkillTreeLinNai1.T_RoleSkillTreeLinNai1"
+    ],
+    "Description": "SkillInput_1509_DescList_2"
+  },
+  {
+    "Id": 150909,
+    "InputArray": null,
+    "SkillArray": null,
+    "ImageArray": [
+      "/Game/Aki/UI/UIResources/UiRole/Image/T_RoleSkillTreeLinNai2.T_RoleSkillTreeLinNai2"
+    ],
+    "Description": "SkillInput_1509_DescList_3"
   }
 ]

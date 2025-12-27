@@ -2,8 +2,14 @@
   {
     "Id": 900001,
     "RoleId": 1606,
+    "VehicleType": "Gongduola",
     "TriggerType": 5,
     "Priority": 1001,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_洛可可",
       "1",
@@ -14,8 +20,14 @@
   {
     "Id": 900002,
     "RoleId": 1606,
+    "VehicleType": "Gongduola",
     "TriggerType": 6,
     "Priority": 1002,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_洛可可",
       "1",
@@ -24,90 +36,174 @@
     "Voice": ""
   },
   {
+    "Id": 900016,
+    "RoleId": 1606,
+    "VehicleType": "Gongduola",
+    "TriggerType": 7,
+    "Priority": 900016,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
+    "PlotFlow": [
+      "剧情_贡多拉共乘_洛可可",
+      "1",
+      "3"
+    ],
+    "Voice": ""
+  },
+  {
     "Id": 900003,
     "RoleId": 1606,
+    "VehicleType": "Gongduola",
     "TriggerType": 0,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_luokeke_npc_gondola_treasure"
   },
   {
     "Id": 900004,
     "RoleId": 1606,
+    "VehicleType": "Gongduola",
     "TriggerType": 1,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_luokeke_npc_gondola_compass"
   },
   {
     "Id": 900005,
     "RoleId": 1606,
+    "VehicleType": "Gongduola",
     "TriggerType": 2,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_luokeke_npc_gondola_movement"
   },
   {
     "Id": 900006,
     "RoleId": 1606,
+    "VehicleType": "Gongduola",
     "TriggerType": 3,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_luokeke_npc_gondola_stop"
   },
   {
     "Id": 900007,
     "RoleId": 1606,
+    "VehicleType": "Gongduola",
     "TriggerType": 4,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_luokeke_npc_gondola_idle"
   },
   {
     "Id": 900008,
     "RoleId": 1107,
+    "VehicleType": "Gongduola",
     "TriggerType": 0,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_kelaita_npc_gondola_treasure"
   },
   {
     "Id": 900009,
     "RoleId": 1107,
+    "VehicleType": "Gongduola",
     "TriggerType": 1,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_kelaita_npc_gondola_compass"
   },
   {
     "Id": 900010,
     "RoleId": 1107,
+    "VehicleType": "Gongduola",
     "TriggerType": 2,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_kelaita_npc_gondola_movement"
   },
   {
     "Id": 900011,
     "RoleId": 1107,
+    "VehicleType": "Gongduola",
     "TriggerType": 3,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_kelaita_npc_gondola_stop"
   },
   {
     "Id": 900012,
     "RoleId": 1107,
+    "VehicleType": "Gongduola",
     "TriggerType": 4,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_kelaita_npc_gondola_idle"
   },
   {
     "Id": 900014,
     "RoleId": 1107,
+    "VehicleType": "Gongduola",
     "TriggerType": 5,
     "Priority": 1001,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_卡莫拉",
       "1",
@@ -118,8 +214,14 @@
   {
     "Id": 900015,
     "RoleId": 1107,
+    "VehicleType": "Gongduola",
     "TriggerType": 6,
     "Priority": 1002,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_卡莫拉",
       "1",
@@ -128,22 +230,16 @@
     "Voice": ""
   },
   {
-    "Id": 900016,
-    "RoleId": 1606,
-    "TriggerType": 7,
-    "Priority": 900016,
-    "PlotFlow": [
-      "剧情_贡多拉共乘_洛可可",
-      "1",
-      "3"
-    ],
-    "Voice": ""
-  },
-  {
     "Id": 900018,
     "RoleId": 1107,
+    "VehicleType": "Gongduola",
     "TriggerType": 7,
     "Priority": 900018,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_卡莫拉",
       "1",
@@ -154,8 +250,14 @@
   {
     "Id": 900017,
     "RoleId": 1107,
+    "VehicleType": "Gongduola",
     "TriggerType": 8,
     "Priority": 900017,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_卡莫拉",
       "1",
@@ -166,136 +268,238 @@
   {
     "Id": 700001,
     "RoleId": 10001,
+    "VehicleType": "FishingBoat",
     "TriggerType": 9,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_feibi_sys_fishing_approachingshoal"
   },
   {
     "Id": 700002,
     "RoleId": 10001,
+    "VehicleType": "FishingBoat",
     "TriggerType": 2,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_feibi_sys_fishing_movement"
   },
   {
     "Id": 700003,
     "RoleId": 10001,
+    "VehicleType": "FishingBoat",
     "TriggerType": 3,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_feibi_sys_fishing_stop"
   },
   {
     "Id": 700004,
     "RoleId": 10001,
+    "VehicleType": "FishingBoat",
     "TriggerType": 4,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_feibi_sys_fishing_idle"
   },
   {
     "Id": 700005,
     "RoleId": 10001,
+    "VehicleType": "FishingBoat",
     "TriggerType": 6,
     "Priority": 1100,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_feibi_sys_fishing_poi01"
   },
   {
     "Id": 700006,
     "RoleId": 10001,
+    "VehicleType": "FishingBoat",
     "TriggerType": 7,
     "Priority": 1100,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_feibi_sys_fishing_poi02"
   },
   {
     "Id": 700007,
     "RoleId": 1506,
+    "VehicleType": "Gongduola",
     "TriggerType": 0,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_feibi_npc_gondola_treasure"
   },
   {
     "Id": 700008,
     "RoleId": 1506,
+    "VehicleType": "Gongduola",
     "TriggerType": 1,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_feibi_npc_gondola_compass"
   },
   {
     "Id": 700009,
     "RoleId": 1506,
+    "VehicleType": "Gongduola",
     "TriggerType": 2,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_feibi_npc_gondola_movement"
   },
   {
     "Id": 700014,
     "RoleId": 1506,
+    "VehicleType": "Gongduola",
     "TriggerType": 3,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_feibi_npc_gondola_stop"
   },
   {
     "Id": 700013,
     "RoleId": 1506,
+    "VehicleType": "Gongduola",
     "TriggerType": 4,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_feibi_npc_gondola_idle"
   },
   {
     "Id": 700012,
     "RoleId": 1206,
+    "VehicleType": "Gongduola",
     "TriggerType": 0,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_bulante_npc_gondola_treasure"
   },
   {
     "Id": 700011,
     "RoleId": 1206,
+    "VehicleType": "Gongduola",
     "TriggerType": 1,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_bulante_npc_gondola_compass"
   },
   {
     "Id": 700010,
     "RoleId": 1206,
+    "VehicleType": "Gongduola",
     "TriggerType": 2,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_bulante_npc_gondola_movement"
   },
   {
     "Id": 700015,
     "RoleId": 1206,
+    "VehicleType": "Gongduola",
     "TriggerType": 3,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_bulante_npc_gondola_stop"
   },
   {
     "Id": 700016,
     "RoleId": 1206,
+    "VehicleType": "Gongduola",
     "TriggerType": 4,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_bulante_npc_gondola_idle"
   },
   {
     "Id": 700017,
     "RoleId": 1206,
+    "VehicleType": "Gongduola",
     "TriggerType": 5,
     "Priority": 10001,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_布兰特",
       "1",
@@ -306,8 +510,14 @@
   {
     "Id": 700019,
     "RoleId": 1206,
+    "VehicleType": "Gongduola",
     "TriggerType": 7,
     "Priority": 10002,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_布兰特",
       "1",
@@ -318,8 +528,14 @@
   {
     "Id": 700018,
     "RoleId": 1206,
+    "VehicleType": "Gongduola",
     "TriggerType": 8,
     "Priority": 10003,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_布兰特",
       "1",
@@ -330,8 +546,14 @@
   {
     "Id": 700020,
     "RoleId": 1506,
+    "VehicleType": "Gongduola",
     "TriggerType": 5,
     "Priority": 10001,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_菲比",
       "1",
@@ -342,8 +564,14 @@
   {
     "Id": 700021,
     "RoleId": 1506,
+    "VehicleType": "Gongduola",
     "TriggerType": 6,
     "Priority": 10002,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_菲比",
       "1",
@@ -354,8 +582,14 @@
   {
     "Id": 700022,
     "RoleId": 1506,
+    "VehicleType": "Gongduola",
     "TriggerType": 7,
     "Priority": 10003,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_菲比",
       "1",
@@ -366,48 +600,84 @@
   {
     "Id": 750001,
     "RoleId": 1607,
+    "VehicleType": "Gongduola",
     "TriggerType": 0,
     "Priority": 750001,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_kanteleila_npc_gondola_treasure"
   },
   {
     "Id": 750002,
     "RoleId": 1607,
+    "VehicleType": "Gongduola",
     "TriggerType": 1,
     "Priority": 750002,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_kanteleila_npc_gondola_compass"
   },
   {
     "Id": 750003,
     "RoleId": 1607,
+    "VehicleType": "Gongduola",
     "TriggerType": 2,
     "Priority": 750003,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_kanteleila_npc_gondola_movement"
   },
   {
     "Id": 750004,
     "RoleId": 1607,
+    "VehicleType": "Gongduola",
     "TriggerType": 3,
     "Priority": 750004,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_kanteleila_npc_gondola_stop"
   },
   {
     "Id": 750005,
     "RoleId": 1607,
+    "VehicleType": "Gongduola",
     "TriggerType": 4,
     "Priority": 750005,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_kanteleila_npc_gondola_idle"
   },
   {
     "Id": 750006,
     "RoleId": 1607,
+    "VehicleType": "Gongduola",
     "TriggerType": 5,
     "Priority": 750006,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_坎特蕾拉",
       "1",
@@ -418,8 +688,14 @@
   {
     "Id": 750008,
     "RoleId": 1607,
+    "VehicleType": "Gongduola",
     "TriggerType": 7,
     "Priority": 750008,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_坎特蕾拉",
       "1",
@@ -430,8 +706,14 @@
   {
     "Id": 750009,
     "RoleId": 1607,
+    "VehicleType": "Gongduola",
     "TriggerType": 8,
     "Priority": 750009,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_坎特蕾拉",
       "1",
@@ -442,48 +724,84 @@
   {
     "Id": 800001,
     "RoleId": 1507,
+    "VehicleType": "Gongduola",
     "TriggerType": 0,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_zanni_npc_gondola_treasure"
   },
   {
     "Id": 800002,
     "RoleId": 1507,
+    "VehicleType": "Gongduola",
     "TriggerType": 1,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_zanni_npc_gondola_compass"
   },
   {
     "Id": 800003,
     "RoleId": 1507,
+    "VehicleType": "Gongduola",
     "TriggerType": 2,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_zanni_npc_gondola_movement"
   },
   {
     "Id": 800004,
     "RoleId": 1507,
+    "VehicleType": "Gongduola",
     "TriggerType": 3,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_zanni_npc_gondola_stop"
   },
   {
     "Id": 800005,
     "RoleId": 1507,
+    "VehicleType": "Gongduola",
     "TriggerType": 4,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_zanni_npc_gondola_stop"
   },
   {
     "Id": 800007,
     "RoleId": 1507,
+    "VehicleType": "Gongduola",
     "TriggerType": 5,
     "Priority": 100010,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_赞妮",
       "1",
@@ -494,8 +812,14 @@
   {
     "Id": 800009,
     "RoleId": 1507,
+    "VehicleType": "Gongduola",
     "TriggerType": 6,
     "Priority": 100020,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_赞妮",
       "2",
@@ -506,8 +830,14 @@
   {
     "Id": 800008,
     "RoleId": 1507,
+    "VehicleType": "Gongduola",
     "TriggerType": 8,
     "Priority": 100030,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_赞妮",
       "3",
@@ -518,48 +848,84 @@
   {
     "Id": 800006,
     "RoleId": 1407,
+    "VehicleType": "Gongduola",
     "TriggerType": 0,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_xiakong_npc_gondola_treasure"
   },
   {
     "Id": 800010,
     "RoleId": 1407,
+    "VehicleType": "Gongduola",
     "TriggerType": 1,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_xiakong_npc_gondola_compass"
   },
   {
     "Id": 800011,
     "RoleId": 1407,
+    "VehicleType": "Gongduola",
     "TriggerType": 2,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_xiakong_npc_gondola_movement"
   },
   {
     "Id": 800012,
     "RoleId": 1407,
+    "VehicleType": "Gongduola",
     "TriggerType": 3,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_xiakong_npc_gondola_stop"
   },
   {
     "Id": 800013,
     "RoleId": 1407,
+    "VehicleType": "Gongduola",
     "TriggerType": 4,
     "Priority": 1000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_xiakong_npc_gondola_stop"
   },
   {
     "Id": 800014,
     "RoleId": 1407,
+    "VehicleType": "Gongduola",
     "TriggerType": 5,
     "Priority": 100010,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_夏空",
       "1",
@@ -570,8 +936,14 @@
   {
     "Id": 800015,
     "RoleId": 1407,
+    "VehicleType": "Gongduola",
     "TriggerType": 6,
     "Priority": 100020,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_夏空",
       "2",
@@ -582,8 +954,14 @@
   {
     "Id": 800016,
     "RoleId": 1407,
+    "VehicleType": "Gongduola",
     "TriggerType": 8,
     "Priority": 100030,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_夏空",
       "3",
@@ -594,48 +972,84 @@
   {
     "Id": 850001,
     "RoleId": 1409,
+    "VehicleType": "Gongduola",
     "TriggerType": 0,
     "Priority": 850001,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_katixiya_npc_gondola_treasure"
   },
   {
     "Id": 850002,
     "RoleId": 1409,
+    "VehicleType": "Gongduola",
     "TriggerType": 1,
     "Priority": 850002,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_katixiya_npc_gondola_compass"
   },
   {
     "Id": 850003,
     "RoleId": 1409,
+    "VehicleType": "Gongduola",
     "TriggerType": 2,
     "Priority": 850003,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_katixiya_npc_gondola_movement"
   },
   {
     "Id": 850004,
     "RoleId": 1409,
+    "VehicleType": "Gongduola",
     "TriggerType": 3,
     "Priority": 850004,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_katixiya_npc_gondola_stop"
   },
   {
     "Id": 850005,
     "RoleId": 1409,
+    "VehicleType": "Gongduola",
     "TriggerType": 4,
     "Priority": 850005,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_katixiya_npc_gondola_idle"
   },
   {
     "Id": 850006,
     "RoleId": 1409,
+    "VehicleType": "Gongduola",
     "TriggerType": 5,
     "Priority": 1000000,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_katixiya",
       "1",
@@ -646,8 +1060,14 @@
   {
     "Id": 850007,
     "RoleId": 1409,
+    "VehicleType": "Gongduola",
     "TriggerType": 6,
     "Priority": 1000001,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_katixiya",
       "1",
@@ -658,8 +1078,14 @@
   {
     "Id": 850008,
     "RoleId": 1409,
+    "VehicleType": "Gongduola",
     "TriggerType": 7,
     "Priority": 1000002,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_katixiya",
       "1",
@@ -670,48 +1096,84 @@
   {
     "Id": 850009,
     "RoleId": 1207,
+    "VehicleType": "Gongduola",
     "TriggerType": 0,
     "Priority": 850009,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_lupa_npc_gondola_treasure"
   },
   {
     "Id": 850010,
     "RoleId": 1207,
+    "VehicleType": "Gongduola",
     "TriggerType": 1,
     "Priority": 850010,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_lupa_npc_gondola_compass"
   },
   {
     "Id": 850011,
     "RoleId": 1207,
+    "VehicleType": "Gongduola",
     "TriggerType": 2,
     "Priority": 850011,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_lupa_npc_gondola_movement"
   },
   {
     "Id": 850012,
     "RoleId": 1207,
+    "VehicleType": "Gongduola",
     "TriggerType": 3,
     "Priority": 850012,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_lupa_npc_gondola_stop"
   },
   {
     "Id": 850013,
     "RoleId": 1207,
+    "VehicleType": "Gongduola",
     "TriggerType": 4,
     "Priority": 850013,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_lupa_npc_gondola_idle"
   },
   {
     "Id": 850014,
     "RoleId": 1207,
+    "VehicleType": "Gongduola",
     "TriggerType": 5,
     "Priority": 850014,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_露帕",
       "1",
@@ -722,8 +1184,14 @@
   {
     "Id": 850015,
     "RoleId": 1207,
+    "VehicleType": "Gongduola",
     "TriggerType": 6,
     "Priority": 850015,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_露帕",
       "1",
@@ -734,8 +1202,14 @@
   {
     "Id": 850016,
     "RoleId": 1207,
+    "VehicleType": "Gongduola",
     "TriggerType": 7,
     "Priority": 850016,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_露帕",
       "1",
@@ -746,48 +1220,84 @@
   {
     "Id": 700023,
     "RoleId": 1608,
+    "VehicleType": "Gongduola",
     "TriggerType": 0,
     "Priority": 700023,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_fuluoluo_npc_gondola_treasure"
   },
   {
     "Id": 700024,
     "RoleId": 1608,
+    "VehicleType": "Gongduola",
     "TriggerType": 1,
     "Priority": 700024,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_fuluoluo_npc_gondola_compass"
   },
   {
     "Id": 700025,
     "RoleId": 1608,
+    "VehicleType": "Gongduola",
     "TriggerType": 2,
     "Priority": 700025,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_fuluoluo_npc_gondola_movement"
   },
   {
     "Id": 700026,
     "RoleId": 1608,
+    "VehicleType": "Gongduola",
     "TriggerType": 3,
     "Priority": 700026,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_fuluoluo_npc_gondola_stop"
   },
   {
     "Id": 700027,
     "RoleId": 1608,
+    "VehicleType": "Gongduola",
     "TriggerType": 4,
     "Priority": 700027,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_fuluoluo_npc_gondola_idle"
   },
   {
     "Id": 700028,
     "RoleId": 1608,
+    "VehicleType": "Gongduola",
     "TriggerType": 5,
     "Priority": 700028,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_弗洛洛",
       "1",
@@ -798,8 +1308,14 @@
   {
     "Id": 700029,
     "RoleId": 1608,
+    "VehicleType": "Gongduola",
     "TriggerType": 6,
     "Priority": 700029,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_弗洛洛",
       "1",
@@ -810,8 +1326,14 @@
   {
     "Id": 700030,
     "RoleId": 1608,
+    "VehicleType": "Gongduola",
     "TriggerType": 7,
     "Priority": 700030,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_弗洛洛",
       "1",
@@ -822,48 +1344,84 @@
   {
     "Id": 750010,
     "RoleId": 1306,
+    "VehicleType": "Gongduola",
     "TriggerType": 0,
     "Priority": 750010,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_aogusita_npc_gondola_treasure"
   },
   {
     "Id": 750012,
     "RoleId": 1306,
+    "VehicleType": "Gongduola",
     "TriggerType": 1,
     "Priority": 750012,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_aogusita_npc_gondola_compass"
   },
   {
     "Id": 750013,
     "RoleId": 1306,
+    "VehicleType": "Gongduola",
     "TriggerType": 2,
     "Priority": 750013,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_aogusita_npc_gondola_movement"
   },
   {
     "Id": 750014,
     "RoleId": 1306,
+    "VehicleType": "Gongduola",
     "TriggerType": 3,
     "Priority": 750014,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_aogusita_npc_gondola_stop"
   },
   {
     "Id": 750015,
     "RoleId": 1306,
+    "VehicleType": "Gongduola",
     "TriggerType": 4,
     "Priority": 750015,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_aogusita_npc_gondola_idle"
   },
   {
     "Id": 750024,
     "RoleId": 1306,
+    "VehicleType": "Gongduola",
     "TriggerType": 5,
     "Priority": 750024,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_奥古斯塔",
       "1",
@@ -874,8 +1432,14 @@
   {
     "Id": 750025,
     "RoleId": 1306,
+    "VehicleType": "Gongduola",
     "TriggerType": 8,
     "Priority": 750025,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_奥古斯塔",
       "1",
@@ -886,8 +1450,14 @@
   {
     "Id": 750023,
     "RoleId": 1306,
+    "VehicleType": "Gongduola",
     "TriggerType": 7,
     "Priority": 750023,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_奥古斯塔",
       "1",
@@ -898,8 +1468,14 @@
   {
     "Id": 750030,
     "RoleId": 1306,
+    "VehicleType": "Gongduola",
     "TriggerType": 8,
     "Priority": 750030,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_奥古斯塔",
       "1",
@@ -910,48 +1486,84 @@
   {
     "Id": 750018,
     "RoleId": 1410,
+    "VehicleType": "Gongduola",
     "TriggerType": 0,
     "Priority": 750018,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_younuo_npc_gondola_treasure"
   },
   {
     "Id": 750019,
     "RoleId": 1410,
+    "VehicleType": "Gongduola",
     "TriggerType": 1,
     "Priority": 750019,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_younuo_npc_gondola_compass"
   },
   {
     "Id": 750020,
     "RoleId": 1410,
+    "VehicleType": "Gongduola",
     "TriggerType": 2,
     "Priority": 750020,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_younuo_npc_gondola_movement"
   },
   {
     "Id": 750021,
     "RoleId": 1410,
+    "VehicleType": "Gongduola",
     "TriggerType": 3,
     "Priority": 750021,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_younuo_npc_gondola_stop"
   },
   {
     "Id": 750022,
     "RoleId": 1410,
+    "VehicleType": "Gongduola",
     "TriggerType": 4,
     "Priority": 750022,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_younuo_npc_gondola_idle"
   },
   {
     "Id": 750026,
     "RoleId": 1410,
+    "VehicleType": "Gongduola",
     "TriggerType": 5,
     "Priority": 750026,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_尤诺",
       "1",
@@ -962,8 +1574,14 @@
   {
     "Id": 750027,
     "RoleId": 1410,
+    "VehicleType": "Gongduola",
     "TriggerType": 6,
     "Priority": 750027,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_尤诺",
       "1",
@@ -974,8 +1592,14 @@
   {
     "Id": 750028,
     "RoleId": 1410,
+    "VehicleType": "Gongduola",
     "TriggerType": 7,
     "Priority": 750028,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_尤诺",
       "1",
@@ -986,8 +1610,14 @@
   {
     "Id": 750029,
     "RoleId": 1410,
+    "VehicleType": "Gongduola",
     "TriggerType": 8,
     "Priority": 750029,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_尤诺",
       "1",
@@ -998,48 +1628,84 @@
   {
     "Id": 800017,
     "RoleId": 1208,
+    "VehicleType": "Gongduola",
     "TriggerType": 0,
     "Priority": 800017,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_jiabeilina_npc_gondola_treasure"
   },
   {
     "Id": 800018,
     "RoleId": 1208,
+    "VehicleType": "Gongduola",
     "TriggerType": 1,
     "Priority": 800018,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_jiabeilina_npc_gondola_compass"
   },
   {
     "Id": 800019,
     "RoleId": 1208,
+    "VehicleType": "Gongduola",
     "TriggerType": 2,
     "Priority": 800019,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_jiabeilina_npc_gondola_movement"
   },
   {
     "Id": 800020,
     "RoleId": 1208,
+    "VehicleType": "Gongduola",
     "TriggerType": 3,
     "Priority": 800020,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_jiabeilina_npc_gondola_stop"
   },
   {
     "Id": 800021,
     "RoleId": 1208,
+    "VehicleType": "Gongduola",
     "TriggerType": 4,
     "Priority": 800021,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_jiabeilina_npc_gondola_idle"
   },
   {
     "Id": 800028,
     "RoleId": 1208,
+    "VehicleType": "Gongduola",
     "TriggerType": 5,
     "Priority": 800001,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_仇远和嘉贝丽娜",
       "2",
@@ -1050,8 +1716,14 @@
   {
     "Id": 800029,
     "RoleId": 1411,
+    "VehicleType": "Gongduola",
     "TriggerType": 5,
     "Priority": 800002,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": [
       "剧情_贡多拉共乘_仇远和嘉贝丽娜",
       "1",
@@ -1062,41 +1734,389 @@
   {
     "Id": 800022,
     "RoleId": 1411,
+    "VehicleType": "Gongduola",
     "TriggerType": 0,
     "Priority": 800022,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_qiuyuan_npc_gondola_treasure"
   },
   {
     "Id": 800023,
     "RoleId": 1411,
+    "VehicleType": "Gongduola",
     "TriggerType": 1,
     "Priority": 800023,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_qiuyuan_npc_gondola_compass"
   },
   {
     "Id": 800024,
     "RoleId": 1411,
+    "VehicleType": "Gongduola",
     "TriggerType": 2,
     "Priority": 800024,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_qiuyuan_npc_gondola_movement"
   },
   {
     "Id": 800025,
     "RoleId": 1411,
+    "VehicleType": "Gongduola",
     "TriggerType": 3,
     "Priority": 800025,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_qiuyuan_npc_gondola_stop"
   },
   {
     "Id": 800027,
     "RoleId": 1411,
+    "VehicleType": "Gongduola",
     "TriggerType": 4,
     "Priority": 800027,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
     "PlotFlow": null,
     "Voice": "play_vo_qiuyuan_npc_gondola_idle"
+  },
+  {
+    "Id": 850017,
+    "RoleId": 1508,
+    "VehicleType": "Motorcycle",
+    "TriggerType": 5,
+    "Priority": 1001,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
+    "PlotFlow": [
+      "剧情_摩托车共乘_千咲",
+      "1",
+      "1"
+    ],
+    "Voice": ""
+  },
+  {
+    "Id": 850021,
+    "RoleId": 1508,
+    "VehicleType": "Motorcycle",
+    "TriggerType": 10,
+    "Priority": 1000,
+    "TriggerWeatherIds": [
+      1
+    ],
+    "TriggerTimePeriod": [
+      "DayTime"
+    ],
+    "ConditionParam": [
+      15.0
+    ],
+    "PlotFlow": [
+      "剧情_摩托车共乘_千咲",
+      "1",
+      "2"
+    ],
+    "Voice": ""
+  },
+  {
+    "Id": 850020,
+    "RoleId": 1508,
+    "VehicleType": "Motorcycle",
+    "TriggerType": 10,
+    "Priority": 1000,
+    "TriggerWeatherIds": [
+      1
+    ],
+    "TriggerTimePeriod": [
+      "Night"
+    ],
+    "ConditionParam": [
+      15.0
+    ],
+    "PlotFlow": [
+      "剧情_摩托车共乘_千咲",
+      "1",
+      "4"
+    ],
+    "Voice": ""
+  },
+  {
+    "Id": 850019,
+    "RoleId": 1508,
+    "VehicleType": "Motorcycle",
+    "TriggerType": 10,
+    "Priority": 1000,
+    "TriggerWeatherIds": [
+      30003
+    ],
+    "TriggerTimePeriod": [
+      "DayTime"
+    ],
+    "ConditionParam": [
+      15.0
+    ],
+    "PlotFlow": [
+      "剧情_摩托车共乘_千咲",
+      "1",
+      "3"
+    ],
+    "Voice": ""
+  },
+  {
+    "Id": 850018,
+    "RoleId": 1508,
+    "VehicleType": "Motorcycle",
+    "TriggerType": 10,
+    "Priority": 1000,
+    "TriggerWeatherIds": [
+      30003
+    ],
+    "TriggerTimePeriod": [
+      "Night"
+    ],
+    "ConditionParam": [
+      15.0
+    ],
+    "PlotFlow": [
+      "剧情_摩托车共乘_千咲",
+      "1",
+      "5"
+    ],
+    "Voice": ""
+  },
+  {
+    "Id": 700031,
+    "RoleId": 1509,
+    "VehicleType": "Motorcycle",
+    "TriggerType": 5,
+    "Priority": 1001,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
+    "PlotFlow": [
+      "剧情_摩托车共乘_琳奈",
+      "1",
+      "1"
+    ],
+    "Voice": ""
+  },
+  {
+    "Id": 700032,
+    "RoleId": 1509,
+    "VehicleType": "Motorcycle",
+    "TriggerType": 10,
+    "Priority": 1000,
+    "TriggerWeatherIds": [
+      1
+    ],
+    "TriggerTimePeriod": [
+      "DayTime"
+    ],
+    "ConditionParam": [
+      15.0
+    ],
+    "PlotFlow": [
+      "剧情_摩托车共乘_琳奈",
+      "1",
+      "2"
+    ],
+    "Voice": ""
+  },
+  {
+    "Id": 700033,
+    "RoleId": 1509,
+    "VehicleType": "Motorcycle",
+    "TriggerType": 10,
+    "Priority": 1000,
+    "TriggerWeatherIds": [
+      1
+    ],
+    "TriggerTimePeriod": [
+      "Night"
+    ],
+    "ConditionParam": [
+      15.0
+    ],
+    "PlotFlow": [
+      "剧情_摩托车共乘_琳奈",
+      "1",
+      "4"
+    ],
+    "Voice": ""
+  },
+  {
+    "Id": 700034,
+    "RoleId": 1509,
+    "VehicleType": "Motorcycle",
+    "TriggerType": 10,
+    "Priority": 1000,
+    "TriggerWeatherIds": [
+      30003
+    ],
+    "TriggerTimePeriod": [
+      "DayTime"
+    ],
+    "ConditionParam": [
+      15.0
+    ],
+    "PlotFlow": [
+      "剧情_摩托车共乘_琳奈",
+      "1",
+      "3"
+    ],
+    "Voice": ""
+  },
+  {
+    "Id": 700035,
+    "RoleId": 1509,
+    "VehicleType": "Motorcycle",
+    "TriggerType": 10,
+    "Priority": 1000,
+    "TriggerWeatherIds": [
+      30003
+    ],
+    "TriggerTimePeriod": [
+      "Night"
+    ],
+    "ConditionParam": [
+      15.0
+    ],
+    "PlotFlow": [
+      "剧情_摩托车共乘_琳奈",
+      "1",
+      "5"
+    ],
+    "Voice": ""
+  },
+  {
+    "Id": 700036,
+    "RoleId": 1209,
+    "VehicleType": "Motorcycle",
+    "TriggerType": 5,
+    "Priority": 1001,
+    "TriggerWeatherIds": null,
+    "TriggerTimePeriod": null,
+    "ConditionParam": [
+      0.0
+    ],
+    "PlotFlow": [
+      "剧情_摩托车共乘_莫宁",
+      "1",
+      "1"
+    ],
+    "Voice": ""
+  },
+  {
+    "Id": 700037,
+    "RoleId": 1209,
+    "VehicleType": "Motorcycle",
+    "TriggerType": 10,
+    "Priority": 1000,
+    "TriggerWeatherIds": [
+      1
+    ],
+    "TriggerTimePeriod": [
+      "DayTime"
+    ],
+    "ConditionParam": [
+      15.0
+    ],
+    "PlotFlow": [
+      "剧情_摩托车共乘_莫宁",
+      "1",
+      "2"
+    ],
+    "Voice": ""
+  },
+  {
+    "Id": 700038,
+    "RoleId": 1209,
+    "VehicleType": "Motorcycle",
+    "TriggerType": 10,
+    "Priority": 1000,
+    "TriggerWeatherIds": [
+      1
+    ],
+    "TriggerTimePeriod": [
+      "Night"
+    ],
+    "ConditionParam": [
+      15.0
+    ],
+    "PlotFlow": [
+      "剧情_摩托车共乘_莫宁",
+      "1",
+      "4"
+    ],
+    "Voice": ""
+  },
+  {
+    "Id": 700039,
+    "RoleId": 1209,
+    "VehicleType": "Motorcycle",
+    "TriggerType": 10,
+    "Priority": 1000,
+    "TriggerWeatherIds": [
+      30003
+    ],
+    "TriggerTimePeriod": [
+      "DayTime"
+    ],
+    "ConditionParam": [
+      15.0
+    ],
+    "PlotFlow": [
+      "剧情_摩托车共乘_莫宁",
+      "1",
+      "3"
+    ],
+    "Voice": ""
+  },
+  {
+    "Id": 700040,
+    "RoleId": 1209,
+    "VehicleType": "Motorcycle",
+    "TriggerType": 10,
+    "Priority": 1000,
+    "TriggerWeatherIds": [
+      30003
+    ],
+    "TriggerTimePeriod": [
+      "Night"
+    ],
+    "ConditionParam": [
+      15.0
+    ],
+    "PlotFlow": [
+      "剧情_摩托车共乘_莫宁",
+      "1",
+      "5"
+    ],
+    "Voice": ""
   }
 ]

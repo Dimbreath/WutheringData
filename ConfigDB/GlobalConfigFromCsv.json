@@ -845,5 +845,40 @@
     "Desc": "剧情转场弹窗时长（秒）",
     "Type": "Float",
     "Value": "4"
+  },
+  {
+    "Id": 700006,
+    "Name": "EInteractIcon.Sunstone",
+    "Desc": "交互选项图标3.0日灵交付",
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Play_51_UI.T_IconMap_Play_51_UI"
+  },
+  {
+    "Id": 700007,
+    "Name": "EInteractIcon.Arseni",
+    "Desc": "交互选项图标3.0声匣交付",
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Image/IconWorldMap/T_IconMap_Play_50_UI.T_IconMap_Play_50_UI"
+  },
+  {
+    "Id": 700008,
+    "Name": "EInteractIcon.RollBlock",
+    "Desc": "交互选项图标滚方块交互",
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/UiPlot/Image/T_PlotIconCubeMove_UI.T_PlotIconCubeMove_UI"
+  },
+  {
+    "Id": 700009,
+    "Name": "EInteractIcon.BvbInteract",
+    "Desc": "3.0bvb交互图标",
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/UiPlot/Image/T_PlotIcon_BvB1_UI.T_PlotIcon_BvB1_UI"
+  },
+  {
+    "Id": 700010,
+    "Name": "ENearbyTrackingTexture.Paver",
+    "Desc": "3.0铺路机追踪图标",
+    "Type": "String",
+    "Value": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconMap_Activity_Navigation_10_UI.SP_IconMap_Activity_Navigation_10_UI"
   }
 ]

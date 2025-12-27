@@ -203,6 +203,10 @@
       {
         "Key": "FemaleMS",
         "Value": "1086"
+      },
+      {
+        "Key": "ShopIRIS",
+        "Value": "1123"
       }
     ],
     "DefaultCameraBlendName": "",
@@ -234,8 +238,13 @@
     "IsCheckSpecialState": false,
     "SpecialStateCameraSettingName": "1002",
     "PlayLoadingCameraAnimation": true,
-    "BodyTargetType": 0,
-    "BodyCameraSettingsNameMap": null,
+    "BodyTargetType": 1,
+    "BodyCameraSettingsNameMap": [
+      {
+        "Key": "Motor",
+        "Value": "1130"
+      }
+    ],
     "DefaultCameraBlendName": "",
     "UiCameraBlendNameMap": [
       {
@@ -2514,6 +2523,343 @@
     "BodyCameraSettingsNameMap": null,
     "DefaultCameraBlendName": "",
     "UiCameraBlendNameMap": null,
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1123,
+    "ViewName": "MotorcycleRootView",
+    "DefaultUiCameraSettingsName": "Cam_MotorBike",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "PlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": null,
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": [
+      {
+        "Key": "MotorcycleLevelInfoTabView",
+        "Value": "1001"
+      },
+      {
+        "Key": "MotorcycleDiyRootView",
+        "Value": "1001"
+      }
+    ],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1124,
+    "ViewName": "LordGymThirdBossSelectView",
+    "DefaultUiCameraSettingsName": "1120",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "PlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": null,
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": [
+      {
+        "Key": "LordGymThirdDifficultySelectView",
+        "Value": "1001"
+      }
+    ],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1125,
+    "ViewName": "LordGymThirdDifficultySelectView",
+    "DefaultUiCameraSettingsName": "1121",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "PlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": null,
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": [
+      {
+        "Key": "LordGymThirdBossSelectView",
+        "Value": "1001"
+      }
+    ],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1126,
+    "ViewName": "InfrastructureMainView",
+    "DefaultUiCameraSettingsName": "JiJianTianWenTaiCamera",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "PlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": null,
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": null,
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1127,
+    "ViewName": "InfrMaterialsDeliveryView",
+    "DefaultUiCameraSettingsName": "JiJianRoadCamera_1",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "PlayLoadingCameraAnimation": true,
+    "BodyTargetType": 9,
+    "BodyCameraSettingsNameMap": [
+      {
+        "Key": "JiJianRoadOne",
+        "Value": "JiJianRoadCamera_1"
+      },
+      {
+        "Key": "JiJianRoadTwo",
+        "Value": "JiJianRoadCamera_2"
+      },
+      {
+        "Key": "JiJianRoadThree",
+        "Value": "JiJianRoadCamera_3"
+      },
+      {
+        "Key": "JiJianRoadFour",
+        "Value": "JiJianRoadCamera_4"
+      },
+      {
+        "Key": "JiJianRoadFive",
+        "Value": "JiJianRoadCamera_5"
+      },
+      {
+        "Key": "JiJianRoadSix",
+        "Value": "JiJianRoadCamera_6"
+      },
+      {
+        "Key": "JiJianRoadSeven",
+        "Value": "JiJianRoadCamera_7"
+      },
+      {
+        "Key": "JiJianRoadEight",
+        "Value": "JiJianRoadCamera_8"
+      },
+      {
+        "Key": "JiJianRoadNine",
+        "Value": "JiJianRoadCamera_9"
+      },
+      {
+        "Key": "JiJianRoadTen",
+        "Value": "JiJianRoadCamera_10"
+      }
+    ],
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": null,
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1128,
+    "ViewName": "LaHaiLuoCollectView",
+    "DefaultUiCameraSettingsName": "1118",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "PlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": null,
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": null,
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1129,
+    "ViewName": "RiLingCollectView",
+    "DefaultUiCameraSettingsName": "1119",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "PlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": null,
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": null,
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1133,
+    "ViewName": "MotorcycleTechTreeDetailView",
+    "DefaultUiCameraSettingsName": "Cam_MotorBike",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "PlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": null,
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": null,
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1134,
+    "ViewName": "MotorcycleTechTreeLevelDetailView",
+    "DefaultUiCameraSettingsName": "Cam_MotorBike_TechTree",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "PlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": null,
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": null,
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1135,
+    "ViewName": "MotorcycleLevelAttrDetailView",
+    "DefaultUiCameraSettingsName": "Cam_MotorBike",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "PlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": null,
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": null,
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1136,
+    "ViewName": "MotorcycleMusicPlayerView",
+    "DefaultUiCameraSettingsName": "1001",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "PlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": null,
+    "DefaultCameraBlendName": "1001",
+    "UiCameraBlendNameMap": null,
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1137,
+    "ViewName": "PhantomInteractSummonView",
+    "DefaultUiCameraSettingsName": "1124",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "PlayLoadingCameraAnimation": true,
+    "BodyTargetType": 1,
+    "BodyCameraSettingsNameMap": null,
+    "DefaultCameraBlendName": "1001",
+    "UiCameraBlendNameMap": null,
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1138,
+    "ViewName": "MotorcycleDiyRootView",
+    "DefaultUiCameraSettingsName": "Cam_MotorStickerAL_0",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "PlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": null,
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": [
+      {
+        "Key": "MotorcycleRootView",
+        "Value": "1001"
+      }
+    ],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1139,
+    "ViewName": "PhoneMsgPanelViewBig",
+    "DefaultUiCameraSettingsName": "1001",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "PlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": null,
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": [
+      {
+        "Key": "WorldMapView",
+        "Value": "10003"
+      },
+      {
+        "Key": "InventoryView",
+        "Value": "10005"
+      },
+      {
+        "Key": "QuestView",
+        "Value": "10005"
+      },
+      {
+        "Key": "EditFormationView",
+        "Value": "10005"
+      },
+      {
+        "Key": "InventoryPcView",
+        "Value": "10005"
+      },
+      {
+        "Key": "PhantomGuideView",
+        "Value": "10005"
+      },
+      {
+        "Key": "RoleRootView",
+        "Value": "10004"
+      },
+      {
+        "Key": "TimeOfDayView",
+        "Value": "10005"
+      },
+      {
+        "Key": "GachaMainView",
+        "Value": "10005"
+      },
+      {
+        "Key": "PayShopRootView",
+        "Value": "10005"
+      }
+    ],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1140,
+    "ViewName": "CookSchoolMechanismRootView",
+    "DefaultUiCameraSettingsName": "1125",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "PlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": null,
+    "DefaultCameraBlendName": "",
+    "UiCameraBlendNameMap": [
+      {
+        "Key": "RoleRootView",
+        "Value": "1001"
+      }
+    ],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1141,
+    "ViewName": "MotorSkinBuyDetailView",
+    "DefaultUiCameraSettingsName": "Cam_Motoshop",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "PlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": null,
+    "DefaultCameraBlendName": "1001",
+    "UiCameraBlendNameMap": null,
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 1142,
+    "ViewName": "MotorcycleDiyImportPresetView",
+    "DefaultUiCameraSettingsName": "Cam_MotorPreset",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "PlayLoadingCameraAnimation": true,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": null,
+    "DefaultCameraBlendName": "1001",
+    "UiCameraBlendNameMap": [
+      {
+        "Key": "MotorcycleDiyRootView",
+        "Value": "1001"
+      }
+    ],
     "UiCameraDelayTime": 0
   }
 ]

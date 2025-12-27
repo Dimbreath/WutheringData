@@ -3,6 +3,7 @@
     "Id": 1,
     "AxisName": "LookUp",
     "AxisType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       {
         "Key": "MouseY",
@@ -10,6 +11,12 @@
       }
     ],
     "FrancePcKeys": [
+      {
+        "Key": "MouseY",
+        "Value": -1.0
+      }
+    ],
+    "ThaiPcKeys": [
       {
         "Key": "MouseY",
         "Value": -1.0
@@ -23,12 +30,15 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 2,
     "AxisName": "MoveForward",
     "AxisType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       {
         "Key": "S",
@@ -49,6 +59,16 @@
         "Value": 1.0
       }
     ],
+    "ThaiPcKeys": [
+      {
+        "Key": "S",
+        "Value": -1.0
+      },
+      {
+        "Key": "W",
+        "Value": 1.0
+      }
+    ],
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftY",
@@ -57,12 +77,15 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 3,
     "AxisName": "MoveRight",
     "AxisType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       {
         "Key": "A",
@@ -83,6 +106,16 @@
         "Value": 1.0
       }
     ],
+    "ThaiPcKeys": [
+      {
+        "Key": "A",
+        "Value": -1.0
+      },
+      {
+        "Key": "D",
+        "Value": 1.0
+      }
+    ],
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftX",
@@ -91,12 +124,15 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 4,
     "AxisName": "Turn",
     "AxisType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       {
         "Key": "MouseX",
@@ -104,6 +140,12 @@
       }
     ],
     "FrancePcKeys": [
+      {
+        "Key": "MouseX",
+        "Value": 1.0
+      }
+    ],
+    "ThaiPcKeys": [
       {
         "Key": "MouseX",
         "Value": 1.0
@@ -117,12 +159,15 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 5,
     "AxisName": "Zoom",
     "AxisType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       {
         "Key": "MouseWheelAxis",
@@ -135,15 +180,24 @@
         "Value": 1.0
       }
     ],
+    "ThaiPcKeys": [
+      {
+        "Key": "MouseWheelAxis",
+        "Value": 1.0
+      }
+    ],
     "GamepadKeys": null,
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 6,
     "AxisName": "WheelAxis",
     "AxisType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       {
         "Key": "MouseWheelAxis",
@@ -156,15 +210,24 @@
         "Value": 1.0
       }
     ],
+    "ThaiPcKeys": [
+      {
+        "Key": "MouseWheelAxis",
+        "Value": 1.0
+      }
+    ],
     "GamepadKeys": null,
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 7,
     "AxisName": "UiIncrease",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       {
         "Key": "C",
@@ -172,6 +235,12 @@
       }
     ],
     "FrancePcKeys": [
+      {
+        "Key": "C",
+        "Value": 1.0
+      }
+    ],
+    "ThaiPcKeys": [
       {
         "Key": "C",
         "Value": 1.0
@@ -185,12 +254,15 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 8,
     "AxisName": "UiReduce",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       {
         "Key": "Z",
@@ -200,6 +272,12 @@
     "FrancePcKeys": [
       {
         "Key": "W",
+        "Value": -1.0
+      }
+    ],
+    "ThaiPcKeys": [
+      {
+        "Key": "Z",
         "Value": -1.0
       }
     ],
@@ -211,12 +289,15 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 9,
     "AxisName": "UiMoveForward",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       {
         "Key": "S",
@@ -237,6 +318,16 @@
         "Value": 1.0
       }
     ],
+    "ThaiPcKeys": [
+      {
+        "Key": "S",
+        "Value": -1.0
+      },
+      {
+        "Key": "W",
+        "Value": 1.0
+      }
+    ],
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftY",
@@ -245,12 +336,15 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 10,
     "AxisName": "UiMoveRight",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       {
         "Key": "A",
@@ -271,6 +365,16 @@
         "Value": 1.0
       }
     ],
+    "ThaiPcKeys": [
+      {
+        "Key": "A",
+        "Value": -1.0
+      },
+      {
+        "Key": "D",
+        "Value": 1.0
+      }
+    ],
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftX",
@@ -279,14 +383,18 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 11,
     "AxisName": "UiIncrease2",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_DPad_Right",
@@ -299,14 +407,18 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 12,
     "AxisName": "UiReduce2",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_DPad_Left",
@@ -319,14 +431,18 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 13,
     "AxisName": "NavigationTopDown",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftY",
@@ -335,14 +451,18 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 14,
     "AxisName": "NavigationLeftRight",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftX",
@@ -351,14 +471,18 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 15,
     "AxisName": "UiScroll1",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_RightY",
@@ -367,14 +491,18 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 16,
     "AxisName": "UiScroll2",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_RightX",
@@ -383,12 +511,15 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 17,
     "AxisName": "UiLookUp",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       {
         "Key": "MouseY",
@@ -396,6 +527,12 @@
       }
     ],
     "FrancePcKeys": [
+      {
+        "Key": "MouseY",
+        "Value": 1.0
+      }
+    ],
+    "ThaiPcKeys": [
       {
         "Key": "MouseY",
         "Value": 1.0
@@ -409,12 +546,15 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 18,
     "AxisName": "UiTurn",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       {
         "Key": "MouseX",
@@ -422,6 +562,12 @@
       }
     ],
     "FrancePcKeys": [
+      {
+        "Key": "MouseX",
+        "Value": 1.0
+      }
+    ],
+    "ThaiPcKeys": [
       {
         "Key": "MouseX",
         "Value": 1.0
@@ -435,12 +581,15 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 19,
     "AxisName": "UiWheelAxis",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       {
         "Key": "MouseWheelAxis",
@@ -448,6 +597,12 @@
       }
     ],
     "FrancePcKeys": [
+      {
+        "Key": "MouseWheelAxis",
+        "Value": 1.0
+      }
+    ],
+    "ThaiPcKeys": [
       {
         "Key": "MouseWheelAxis",
         "Value": 1.0
@@ -456,12 +611,15 @@
     "GamepadKeys": null,
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 20,
     "AxisName": "Ui左摇杆",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       {
         "Key": "Mouse2D",
@@ -469,6 +627,12 @@
       }
     ],
     "FrancePcKeys": [
+      {
+        "Key": "Mouse2D",
+        "Value": 1.0
+      }
+    ],
+    "ThaiPcKeys": [
       {
         "Key": "Mouse2D",
         "Value": 1.0
@@ -482,12 +646,15 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 21,
     "AxisName": "Ui右摇杆",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       {
         "Key": "Mouse2D",
@@ -495,6 +662,12 @@
       }
     ],
     "FrancePcKeys": [
+      {
+        "Key": "Mouse2D",
+        "Value": 1.0
+      }
+    ],
+    "ThaiPcKeys": [
       {
         "Key": "Mouse2D",
         "Value": 1.0
@@ -508,12 +681,15 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 22,
     "AxisName": "MouseMove",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       {
         "Key": "MouseX",
@@ -525,6 +701,16 @@
       }
     ],
     "FrancePcKeys": [
+      {
+        "Key": "MouseX",
+        "Value": 1.0
+      },
+      {
+        "Key": "MouseY",
+        "Value": 1.0
+      }
+    ],
+    "ThaiPcKeys": [
       {
         "Key": "MouseX",
         "Value": 1.0
@@ -537,14 +723,18 @@
     "GamepadKeys": null,
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 23,
     "AxisName": "NextGroup",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftX",
@@ -553,14 +743,18 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 24,
     "AxisName": "PrevGroup",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftX",
@@ -569,14 +763,18 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 25,
     "AxisName": "MapIncrease",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftTriggerAxis",
@@ -585,14 +783,18 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 26,
     "AxisName": "MapReduce",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_RightTriggerAxis",
@@ -601,12 +803,15 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 27,
     "AxisName": "MapMoveForward",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       {
         "Key": "S",
@@ -627,6 +832,16 @@
         "Value": 1.0
       }
     ],
+    "ThaiPcKeys": [
+      {
+        "Key": "S",
+        "Value": -1.0
+      },
+      {
+        "Key": "W",
+        "Value": 1.0
+      }
+    ],
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftY",
@@ -635,12 +850,15 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 28,
     "AxisName": "MapMoveRight",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       {
         "Key": "A",
@@ -654,6 +872,16 @@
     "FrancePcKeys": [
       {
         "Key": "Q",
+        "Value": -1.0
+      },
+      {
+        "Key": "D",
+        "Value": 1.0
+      }
+    ],
+    "ThaiPcKeys": [
+      {
+        "Key": "A",
         "Value": -1.0
       },
       {
@@ -669,14 +897,18 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 29,
     "AxisName": "RoleLookUp",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_RightY",
@@ -685,14 +917,18 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 30,
     "AxisName": "RoleTurn",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_RightX",
@@ -701,14 +937,18 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 31,
     "AxisName": "RoleIncrease",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_RightTriggerAxis",
@@ -717,14 +957,18 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 32,
     "AxisName": "RoleReduce",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftTriggerAxis",
@@ -733,14 +977,18 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 33,
     "AxisName": "MapIncrease2",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftTriggerAxis",
@@ -753,14 +1001,18 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 34,
     "AxisName": "MapReduce2",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_RightTriggerAxis",
@@ -773,14 +1025,18 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 35,
     "AxisName": "NextGroup2",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftY",
@@ -789,12 +1045,15 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 36,
     "AxisName": "MapMoveForward2",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       {
         "Key": "S",
@@ -815,6 +1074,16 @@
         "Value": 1.0
       }
     ],
+    "ThaiPcKeys": [
+      {
+        "Key": "S",
+        "Value": -1.0
+      },
+      {
+        "Key": "W",
+        "Value": 1.0
+      }
+    ],
     "GamepadKeys": [
       {
         "Key": "Gamepad_RightY",
@@ -823,12 +1092,15 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 37,
     "AxisName": "MapMoveRight2",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       {
         "Key": "A",
@@ -849,6 +1121,16 @@
         "Value": 1.0
       }
     ],
+    "ThaiPcKeys": [
+      {
+        "Key": "A",
+        "Value": -1.0
+      },
+      {
+        "Key": "D",
+        "Value": 1.0
+      }
+    ],
     "GamepadKeys": [
       {
         "Key": "Gamepad_RightX",
@@ -857,14 +1139,18 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 38,
     "AxisName": "UiIncrease3",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_DPad_Right",
@@ -873,14 +1159,18 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 39,
     "AxisName": "UiReduce3",
     "AxisType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_DPad_Left",
@@ -889,12 +1179,15 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 40,
     "AxisName": "TrapDefenseMoveForward",
     "AxisType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       {
         "Key": "S",
@@ -915,6 +1208,16 @@
         "Value": 1.0
       }
     ],
+    "ThaiPcKeys": [
+      {
+        "Key": "S",
+        "Value": -1.0
+      },
+      {
+        "Key": "W",
+        "Value": 1.0
+      }
+    ],
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftY",
@@ -923,12 +1226,15 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 41,
     "AxisName": "TrapDefenseMoveRight",
     "AxisType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       {
         "Key": "A",
@@ -949,6 +1255,16 @@
         "Value": 1.0
       }
     ],
+    "ThaiPcKeys": [
+      {
+        "Key": "A",
+        "Value": -1.0
+      },
+      {
+        "Key": "D",
+        "Value": 1.0
+      }
+    ],
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftX",
@@ -957,12 +1273,15 @@
     ],
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 42,
     "AxisName": "TrapDefenseZoom",
     "AxisType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       {
         "Key": "MouseWheelAxis",
@@ -975,9 +1294,115 @@
         "Value": 1.0
       }
     ],
+    "ThaiPcKeys": [
+      {
+        "Key": "MouseWheelAxis",
+        "Value": 1.0
+      }
+    ],
     "GamepadKeys": null,
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 50,
+    "AxisName": "MotorMoveForward",
+    "AxisType": 1,
+    "ExclusiveType": 1,
+    "PcKeys": [
+      {
+        "Key": "S",
+        "Value": -1.0
+      },
+      {
+        "Key": "W",
+        "Value": 1.0
+      }
+    ],
+    "FrancePcKeys": [
+      {
+        "Key": "S",
+        "Value": -1.0
+      },
+      {
+        "Key": "Z",
+        "Value": 1.0
+      }
+    ],
+    "ThaiPcKeys": [
+      {
+        "Key": "S",
+        "Value": -1.0
+      },
+      {
+        "Key": "W",
+        "Value": 1.0
+      }
+    ],
+    "GamepadKeys": [
+      {
+        "Key": "Gamepad_LeftTriggerAxis",
+        "Value": -1.0
+      },
+      {
+        "Key": "Gamepad_RightTriggerAxis",
+        "Value": 1.0
+      }
+    ],
+    "DisplayName": "",
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 51,
+    "AxisName": "MotorMoveRight",
+    "AxisType": 1,
+    "ExclusiveType": 1,
+    "PcKeys": [
+      {
+        "Key": "A",
+        "Value": -1.0
+      },
+      {
+        "Key": "D",
+        "Value": 1.0
+      }
+    ],
+    "FrancePcKeys": [
+      {
+        "Key": "Q",
+        "Value": -1.0
+      },
+      {
+        "Key": "D",
+        "Value": 1.0
+      }
+    ],
+    "ThaiPcKeys": [
+      {
+        "Key": "A",
+        "Value": -1.0
+      },
+      {
+        "Key": "D",
+        "Value": 1.0
+      }
+    ],
+    "GamepadKeys": [
+      {
+        "Key": "Gamepad_LeftX",
+        "Value": 1.0
+      }
+    ],
+    "DisplayName": "",
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   }
 ]

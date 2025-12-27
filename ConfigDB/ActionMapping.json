@@ -3,10 +3,14 @@
     "Id": 1,
     "ActionName": "跳跃",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "SpaceBar"
     ],
     "FrancePcKeys": [
+      "SpaceBar"
+    ],
+    "ThaiPcKeys": [
       "SpaceBar"
     ],
     "GamepadKeys": [
@@ -16,16 +20,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 2,
     "ActionName": "攀爬",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "X"
     ],
     "FrancePcKeys": [
+      "X"
+    ],
+    "ThaiPcKeys": [
       "X"
     ],
     "GamepadKeys": [
@@ -35,16 +45,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 3,
     "ActionName": "走跑切换",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "LeftControl"
     ],
     "FrancePcKeys": [
+      "LeftControl"
+    ],
+    "ThaiPcKeys": [
       "LeftControl"
     ],
     "GamepadKeys": null,
@@ -52,18 +68,24 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 4,
     "ActionName": "攻击",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "LeftMouseButton"
     ],
     "FrancePcKeys": [
       "LeftMouseButton"
     ],
+    "ThaiPcKeys": [
+      "LeftMouseButton"
+    ],
     "GamepadKeys": [
       "Gamepad_FaceButton_Left"
     ],
@@ -71,14 +93,18 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 5,
     "ActionName": "手柄主攻击",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       "Gamepad_FaceButton_Left"
     ],
@@ -86,14 +112,18 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 6,
     "ActionName": "手柄副攻击",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       "Gamepad_RightTrigger"
     ],
@@ -101,17 +131,24 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 7,
     "ActionName": "闪避",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "RightMouseButton",
       "LeftShift"
     ],
     "FrancePcKeys": [
+      "RightMouseButton",
+      "LeftShift"
+    ],
+    "ThaiPcKeys": [
       "RightMouseButton",
       "LeftShift"
     ],
@@ -122,16 +159,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 8,
     "ActionName": "技能1",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "E"
     ],
     "FrancePcKeys": [
+      "E"
+    ],
+    "ThaiPcKeys": [
       "E"
     ],
     "GamepadKeys": [
@@ -141,16 +184,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 9,
     "ActionName": "幻象1",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "T"
     ],
     "FrancePcKeys": [
+      "T"
+    ],
+    "ThaiPcKeys": [
       "T"
     ],
     "GamepadKeys": null,
@@ -158,16 +207,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 10,
     "ActionName": "大招",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "R"
     ],
     "FrancePcKeys": [
+      "R"
+    ],
+    "ThaiPcKeys": [
       "R"
     ],
     "GamepadKeys": [
@@ -177,17 +232,23 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 11,
     "ActionName": "幻象2",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Q"
     ],
     "FrancePcKeys": [
       "A"
+    ],
+    "ThaiPcKeys": [
+      "Q"
     ],
     "GamepadKeys": [
       "Gamepad_LeftTrigger"
@@ -196,17 +257,23 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 12,
     "ActionName": "切换角色1",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "One"
     ],
     "FrancePcKeys": [
       "Ampersand"
+    ],
+    "ThaiPcKeys": [
+      "One"
     ],
     "GamepadKeys": [
       "Gamepad_DPad_Up",
@@ -216,17 +283,23 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 13,
     "ActionName": "切换角色2",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Two"
     ],
     "FrancePcKeys": [
       "E_AccentAigu"
+    ],
+    "ThaiPcKeys": [
+      "Slash"
     ],
     "GamepadKeys": [
       "Gamepad_DPad_Right"
@@ -235,17 +308,23 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 14,
     "ActionName": "切换角色3",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Three"
     ],
     "FrancePcKeys": [
       "Quote"
+    ],
+    "ThaiPcKeys": [
+      "Hyphen"
     ],
     "GamepadKeys": [
       "Gamepad_DPad_Down"
@@ -254,33 +333,45 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 15,
     "ActionName": "切换角色4",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Four"
     ],
     "FrancePcKeys": [
       "Apostrophe"
     ],
+    "ThaiPcKeys": [
+      "Four"
+    ],
     "GamepadKeys": null,
     "MobileIconPath": "",
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 16,
     "ActionName": "瞄准",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "G"
     ],
     "FrancePcKeys": [
+      "G"
+    ],
+    "ThaiPcKeys": [
       "G"
     ],
     "GamepadKeys": null,
@@ -288,16 +379,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 17,
     "ActionName": "锁定目标",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "MiddleMouseButton"
     ],
     "FrancePcKeys": [
+      "MiddleMouseButton"
+    ],
+    "ThaiPcKeys": [
       "MiddleMouseButton"
     ],
     "GamepadKeys": [
@@ -307,14 +404,18 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 18,
     "ActionName": "组合主键",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       "Gamepad_LeftShoulder"
     ],
@@ -322,16 +423,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 19,
     "ActionName": "通用交互",
     "ActionType": 2,
+    "ExclusiveType": 0,
     "PcKeys": [
       "F"
     ],
     "FrancePcKeys": [
+      "F"
+    ],
+    "ThaiPcKeys": [
       "F"
     ],
     "GamepadKeys": [
@@ -341,16 +448,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 21,
     "ActionName": "任务追踪",
     "ActionType": 2,
+    "ExclusiveType": 0,
     "PcKeys": [
       "V"
     ],
     "FrancePcKeys": [
+      "V"
+    ],
+    "ThaiPcKeys": [
       "V"
     ],
     "GamepadKeys": null,
@@ -358,14 +471,18 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 22,
     "ActionName": "切换交互",
     "ActionType": 2,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       "Gamepad_LeftThumbstick"
     ],
@@ -373,16 +490,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 23,
     "ActionName": "邮件",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "N"
     ],
     "FrancePcKeys": [
+      "N"
+    ],
+    "ThaiPcKeys": [
       "N"
     ],
     "GamepadKeys": null,
@@ -390,17 +513,23 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 24,
     "ActionName": "地图",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "M"
     ],
     "FrancePcKeys": [
       "Comma"
+    ],
+    "ThaiPcKeys": [
+      "M"
     ],
     "GamepadKeys": [
       "Gamepad_Special_Left",
@@ -410,16 +539,27 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 2
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 2,
+    "GamepadVersionMap": [
+      {
+        "Key": 0,
+        "Value": 2
+      }
+    ]
   },
   {
     "Id": 25,
     "ActionName": "商店",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "I"
     ],
     "FrancePcKeys": [
+      "I"
+    ],
+    "ThaiPcKeys": [
       "I"
     ],
     "GamepadKeys": null,
@@ -427,16 +567,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 26,
     "ActionName": "任务",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "J"
     ],
     "FrancePcKeys": [
+      "J"
+    ],
+    "ThaiPcKeys": [
       "J"
     ],
     "GamepadKeys": null,
@@ -444,16 +590,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 27,
     "ActionName": "功能菜单",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Escape"
     ],
     "FrancePcKeys": [
+      "Escape"
+    ],
+    "ThaiPcKeys": [
       "Escape"
     ],
     "GamepadKeys": [
@@ -463,16 +615,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 28,
     "ActionName": "编队",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "L"
     ],
     "FrancePcKeys": [
+      "L"
+    ],
+    "ThaiPcKeys": [
       "L"
     ],
     "GamepadKeys": null,
@@ -480,16 +638,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 29,
     "ActionName": "背包",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "B"
     ],
     "FrancePcKeys": [
+      "B"
+    ],
+    "ThaiPcKeys": [
       "B"
     ],
     "GamepadKeys": null,
@@ -497,16 +661,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 30,
     "ActionName": "角色选择界面",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "C"
     ],
     "FrancePcKeys": [
+      "C"
+    ],
+    "ThaiPcKeys": [
       "C"
     ],
     "GamepadKeys": null,
@@ -514,16 +684,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 31,
     "ActionName": "幻象列表界面",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "O"
     ],
     "FrancePcKeys": [
+      "O"
+    ],
+    "ThaiPcKeys": [
       "O"
     ],
     "GamepadKeys": null,
@@ -531,16 +707,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 32,
     "ActionName": "显示鼠标",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "LeftAlt"
     ],
     "FrancePcKeys": [
+      "LeftAlt"
+    ],
+    "ThaiPcKeys": [
       "LeftAlt"
     ],
     "GamepadKeys": null,
@@ -548,16 +730,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 33,
     "ActionName": "幻象探索选择界面",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Tab"
     ],
     "FrancePcKeys": [
+      "Tab"
+    ],
+    "ThaiPcKeys": [
       "Tab"
     ],
     "GamepadKeys": [
@@ -567,16 +755,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 34,
     "ActionName": "GM指令",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "F7"
     ],
     "FrancePcKeys": [
+      "F7"
+    ],
+    "ThaiPcKeys": [
       "F7"
     ],
     "GamepadKeys": null,
@@ -584,16 +778,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 35,
     "ActionName": "聊天",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Enter"
     ],
     "FrancePcKeys": [
+      "Enter"
+    ],
+    "ThaiPcKeys": [
       "Enter"
     ],
     "GamepadKeys": [
@@ -604,16 +804,27 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 2
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 2,
+    "GamepadVersionMap": [
+      {
+        "Key": 0,
+        "Value": 2
+      }
+    ]
   },
   {
     "Id": 36,
     "ActionName": "教程",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "H"
     ],
     "FrancePcKeys": [
+      "H"
+    ],
+    "ThaiPcKeys": [
       "H"
     ],
     "GamepadKeys": null,
@@ -621,16 +832,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 37,
     "ActionName": "展开教程百科详情",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "H"
     ],
     "FrancePcKeys": [
+      "H"
+    ],
+    "ThaiPcKeys": [
       "H"
     ],
     "GamepadKeys": [
@@ -641,16 +858,27 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 2
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 2,
+    "GamepadVersionMap": [
+      {
+        "Key": 0,
+        "Value": 2
+      }
+    ]
   },
   {
     "Id": 38,
     "ActionName": "联机",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "U"
     ],
     "FrancePcKeys": [
+      "U"
+    ],
+    "ThaiPcKeys": [
       "U"
     ],
     "GamepadKeys": null,
@@ -658,16 +886,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 39,
     "ActionName": "玩法放弃",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "P"
     ],
     "FrancePcKeys": [
+      "P"
+    ],
+    "ThaiPcKeys": [
       "P"
     ],
     "GamepadKeys": null,
@@ -675,16 +909,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 40,
     "ActionName": "拍照",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Enter"
     ],
     "FrancePcKeys": [
+      "Enter"
+    ],
+    "ThaiPcKeys": [
       "Enter"
     ],
     "GamepadKeys": null,
@@ -692,16 +932,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 41,
     "ActionName": "小活动",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "F1"
     ],
     "FrancePcKeys": [
+      "F1"
+    ],
+    "ThaiPcKeys": [
       "F1"
     ],
     "GamepadKeys": null,
@@ -709,16 +955,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 42,
     "ActionName": "调谐",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "F3"
     ],
     "FrancePcKeys": [
+      "F3"
+    ],
+    "ThaiPcKeys": [
       "F3"
     ],
     "GamepadKeys": null,
@@ -726,16 +978,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 43,
     "ActionName": "变星",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "F4"
     ],
     "FrancePcKeys": [
+      "F4"
+    ],
+    "ThaiPcKeys": [
       "F4"
     ],
     "GamepadKeys": null,
@@ -743,16 +1001,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 44,
     "ActionName": "拾音辑录",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "F2"
     ],
     "FrancePcKeys": [
+      "F2"
+    ],
+    "ThaiPcKeys": [
       "F2"
     ],
     "GamepadKeys": null,
@@ -760,18 +1024,25 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 45,
     "ActionName": "UI方向上",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "W",
       "Up"
     ],
     "FrancePcKeys": [
       "Z",
+      "Up"
+    ],
+    "ThaiPcKeys": [
+      "W",
       "Up"
     ],
     "GamepadKeys": [
@@ -781,17 +1052,24 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 46,
     "ActionName": "UI方向下",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "S",
       "Down"
     ],
     "FrancePcKeys": [
+      "S",
+      "Down"
+    ],
+    "ThaiPcKeys": [
       "S",
       "Down"
     ],
@@ -802,18 +1080,25 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 47,
     "ActionName": "UI方向左",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "A",
       "Left"
     ],
     "FrancePcKeys": [
       "Q",
+      "Left"
+    ],
+    "ThaiPcKeys": [
+      "A",
       "Left"
     ],
     "GamepadKeys": [
@@ -823,17 +1108,24 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 48,
     "ActionName": "UI方向右",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "D",
       "Right"
     ],
     "FrancePcKeys": [
+      "D",
+      "Right"
+    ],
+    "ThaiPcKeys": [
       "D",
       "Right"
     ],
@@ -844,16 +1136,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 49,
     "ActionName": "UI左键点击",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "LeftMouseButton"
     ],
     "FrancePcKeys": [
+      "LeftMouseButton"
+    ],
+    "ThaiPcKeys": [
       "LeftMouseButton"
     ],
     "GamepadKeys": null,
@@ -861,16 +1159,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 50,
     "ActionName": "UI右键点击",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "RightMouseButton"
     ],
     "FrancePcKeys": [
+      "RightMouseButton"
+    ],
+    "ThaiPcKeys": [
       "RightMouseButton"
     ],
     "GamepadKeys": null,
@@ -878,16 +1182,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 51,
     "ActionName": "UI返回",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Escape"
     ],
     "FrancePcKeys": [
+      "Escape"
+    ],
+    "ThaiPcKeys": [
       "Escape"
     ],
     "GamepadKeys": [
@@ -898,16 +1208,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 52,
     "ActionName": "UI键盘F手柄A",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "F"
     ],
     "FrancePcKeys": [
+      "F"
+    ],
+    "ThaiPcKeys": [
       "F"
     ],
     "GamepadKeys": [
@@ -917,16 +1233,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 53,
     "ActionName": "UI键盘R手柄X",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "R"
     ],
     "FrancePcKeys": [
+      "R"
+    ],
+    "ThaiPcKeys": [
       "R"
     ],
     "GamepadKeys": [
@@ -936,16 +1258,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 54,
     "ActionName": "UI键盘T手柄Y",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "T"
     ],
     "FrancePcKeys": [
+      "T"
+    ],
+    "ThaiPcKeys": [
       "T"
     ],
     "GamepadKeys": [
@@ -955,17 +1283,23 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 55,
     "ActionName": "UI键盘Q手柄LB",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Q"
     ],
     "FrancePcKeys": [
       "A"
+    ],
+    "ThaiPcKeys": [
+      "Q"
     ],
     "GamepadKeys": [
       "Gamepad_LeftShoulder"
@@ -974,16 +1308,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 56,
     "ActionName": "UI键盘E手柄RB",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "E"
     ],
     "FrancePcKeys": [
+      "E"
+    ],
+    "ThaiPcKeys": [
       "E"
     ],
     "GamepadKeys": [
@@ -993,17 +1333,23 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 57,
     "ActionName": "UI键盘Z手柄LT",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Z"
     ],
     "FrancePcKeys": [
       "W"
+    ],
+    "ThaiPcKeys": [
+      "Z"
     ],
     "GamepadKeys": [
       "Gamepad_LeftTrigger"
@@ -1012,16 +1358,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 58,
     "ActionName": "UI键盘C手柄RT",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "C"
     ],
     "FrancePcKeys": [
+      "C"
+    ],
+    "ThaiPcKeys": [
       "C"
     ],
     "GamepadKeys": [
@@ -1031,16 +1383,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 59,
     "ActionName": "UI键盘G手柄特右",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "G"
     ],
     "FrancePcKeys": [
+      "G"
+    ],
+    "ThaiPcKeys": [
       "G"
     ],
     "GamepadKeys": [
@@ -1050,16 +1408,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 60,
     "ActionName": "UI键盘X手柄特左",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "X"
     ],
     "FrancePcKeys": [
+      "X"
+    ],
+    "ThaiPcKeys": [
       "X"
     ],
     "GamepadKeys": [
@@ -1070,16 +1434,27 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 2
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 2,
+    "GamepadVersionMap": [
+      {
+        "Key": 0,
+        "Value": 2
+      }
+    ]
   },
   {
     "Id": 61,
     "ActionName": "UI键盘G手柄右摇杆",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "G"
     ],
     "FrancePcKeys": [
+      "G"
+    ],
+    "ThaiPcKeys": [
       "G"
     ],
     "GamepadKeys": [
@@ -1089,16 +1464,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 62,
     "ActionName": "UI键盘Y手柄特右",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Y"
     ],
     "FrancePcKeys": [
+      "Y"
+    ],
+    "ThaiPcKeys": [
       "Y"
     ],
     "GamepadKeys": [
@@ -1108,16 +1489,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 63,
     "ActionName": "UI键盘H手柄特左",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "H"
     ],
     "FrancePcKeys": [
+      "H"
+    ],
+    "ThaiPcKeys": [
       "H"
     ],
     "GamepadKeys": [
@@ -1128,16 +1515,27 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 2
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 2,
+    "GamepadVersionMap": [
+      {
+        "Key": 0,
+        "Value": 2
+      }
+    ]
   },
   {
     "Id": 64,
     "ActionName": "UI键盘ESC手柄B",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Escape"
     ],
     "FrancePcKeys": [
+      "Escape"
+    ],
+    "ThaiPcKeys": [
       "Escape"
     ],
     "GamepadKeys": [
@@ -1147,17 +1545,24 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 65,
     "ActionName": "UI键鼠F空格",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "SpaceBar",
       "F"
     ],
     "FrancePcKeys": [
+      "SpaceBar",
+      "F"
+    ],
+    "ThaiPcKeys": [
       "SpaceBar",
       "F"
     ],
@@ -1168,27 +1573,35 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 67,
     "ActionName": "UI手柄右摇杆下",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": null,
     "MobileIconPath": "",
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 68,
     "ActionName": "滚动条切换",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       "Gamepad_RightThumbstick"
     ],
@@ -1196,16 +1609,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 69,
     "ActionName": "UI键盘U手柄左摇杆",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "U"
     ],
     "FrancePcKeys": [
+      "U"
+    ],
+    "ThaiPcKeys": [
       "U"
     ],
     "GamepadKeys": [
@@ -1215,27 +1634,35 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 66,
     "ActionName": "UI手柄右摇杆上",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": null,
     "MobileIconPath": "",
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 70,
     "ActionName": "UI手柄A方向右",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       "Gamepad_DPad_Right"
     ],
@@ -1243,14 +1670,18 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 71,
     "ActionName": "UI手柄B方向左",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       "Gamepad_DPad_Left"
     ],
@@ -1258,14 +1689,18 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 72,
     "ActionName": "轮盘切换",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       "Gamepad_RightShoulder"
     ],
@@ -1273,17 +1708,23 @@
     "DisplayName": "",
     "IsIdleAction": true,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 101,
     "ActionName": "向前移动",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "W"
     ],
     "FrancePcKeys": [
       "Z"
+    ],
+    "ThaiPcKeys": [
+      "W"
     ],
     "GamepadKeys": [
       "Gamepad_LeftStick_Up"
@@ -1292,16 +1733,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 102,
     "ActionName": "向后移动",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "S"
     ],
     "FrancePcKeys": [
+      "S"
+    ],
+    "ThaiPcKeys": [
       "S"
     ],
     "GamepadKeys": [
@@ -1311,17 +1758,23 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 103,
     "ActionName": "向左移动",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "A"
     ],
     "FrancePcKeys": [
       "Q"
+    ],
+    "ThaiPcKeys": [
+      "A"
     ],
     "GamepadKeys": [
       "Gamepad_LeftStick_Left"
@@ -1330,16 +1783,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 104,
     "ActionName": "向右移动",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "D"
     ],
     "FrancePcKeys": [
+      "D"
+    ],
+    "ThaiPcKeys": [
       "D"
     ],
     "GamepadKeys": [
@@ -1349,16 +1808,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 105,
     "ActionName": "QTE交互",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "F"
     ],
     "FrancePcKeys": [
+      "F"
+    ],
+    "ThaiPcKeys": [
       "F"
     ],
     "GamepadKeys": [
@@ -1368,14 +1833,18 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 73,
     "ActionName": "手柄引导下一步",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       "Gamepad_FaceButton_Right",
       "Gamepad_FaceButton_Bottom"
@@ -1384,14 +1853,18 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 74,
     "ActionName": "UI左摇杆左",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       "Gamepad_LeftStick_Left",
       "Gamepad_DPad_Left"
@@ -1400,14 +1873,18 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 75,
     "ActionName": "UI左摇杆右",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       "Gamepad_LeftStick_Right",
       "Gamepad_DPad_Right"
@@ -1416,16 +1893,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 106,
     "ActionName": "放弃改键",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Escape"
     ],
     "FrancePcKeys": [
+      "Escape"
+    ],
+    "ThaiPcKeys": [
       "Escape"
     ],
     "GamepadKeys": [
@@ -1435,16 +1918,27 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 1,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": [
+      {
+        "Key": 0,
+        "Value": 1
+      }
+    ],
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 76,
     "ActionName": "UI鼠标侧键前",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "ThumbMouseButton"
     ],
     "FrancePcKeys": [
+      "ThumbMouseButton"
+    ],
+    "ThaiPcKeys": [
       "ThumbMouseButton"
     ],
     "GamepadKeys": null,
@@ -1452,16 +1946,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 77,
     "ActionName": "UI鼠标侧键后",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "ThumbMouseButton2"
     ],
     "FrancePcKeys": [
+      "ThumbMouseButton2"
+    ],
+    "ThaiPcKeys": [
       "ThumbMouseButton2"
     ],
     "GamepadKeys": null,
@@ -1469,16 +1969,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 78,
     "ActionName": "UI键盘V手柄特左",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "V"
     ],
     "FrancePcKeys": [
+      "V"
+    ],
+    "ThaiPcKeys": [
       "V"
     ],
     "GamepadKeys": [
@@ -1489,16 +1995,27 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 2
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 2,
+    "GamepadVersionMap": [
+      {
+        "Key": 0,
+        "Value": 2
+      }
+    ]
   },
   {
     "Id": 79,
     "ActionName": "激活聊天",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Enter"
     ],
     "FrancePcKeys": [
+      "Enter"
+    ],
+    "ThaiPcKeys": [
       "Enter"
     ],
     "GamepadKeys": [
@@ -1508,14 +2025,18 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 80,
     "ActionName": "UI左摇杆上",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       "Gamepad_LeftStick_Up",
       "Gamepad_DPad_Up"
@@ -1524,14 +2045,18 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 81,
     "ActionName": "UI左摇杆下",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       "Gamepad_LeftStick_Down",
       "Gamepad_DPad_Down"
@@ -1540,17 +2065,23 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 82,
     "ActionName": "QTE数字1",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "W"
     ],
     "FrancePcKeys": [
       "Z"
+    ],
+    "ThaiPcKeys": [
+      "W"
     ],
     "GamepadKeys": [
       "Gamepad_FaceButton_Top"
@@ -1559,16 +2090,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 83,
     "ActionName": "QTE数字2",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "D"
     ],
     "FrancePcKeys": [
+      "D"
+    ],
+    "ThaiPcKeys": [
       "D"
     ],
     "GamepadKeys": [
@@ -1578,17 +2115,23 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 84,
     "ActionName": "QTE数字3",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "A"
     ],
     "FrancePcKeys": [
       "Q"
+    ],
+    "ThaiPcKeys": [
+      "A"
     ],
     "GamepadKeys": [
       "Gamepad_FaceButton_Left"
@@ -1597,16 +2140,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 85,
     "ActionName": "QTE数字4",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "S"
     ],
     "FrancePcKeys": [
+      "S"
+    ],
+    "ThaiPcKeys": [
       "S"
     ],
     "GamepadKeys": [
@@ -1616,16 +2165,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 86,
     "ActionName": "重新挑战",
     "ActionType": 2,
+    "ExclusiveType": 0,
     "PcKeys": [
       "V"
     ],
     "FrancePcKeys": [
+      "V"
+    ],
+    "ThaiPcKeys": [
       "V"
     ],
     "GamepadKeys": null,
@@ -1633,16 +2188,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 87,
     "ActionName": "UI键盘N",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "N"
     ],
     "FrancePcKeys": [
+      "N"
+    ],
+    "ThaiPcKeys": [
       "N"
     ],
     "GamepadKeys": null,
@@ -1650,16 +2211,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 88,
     "ActionName": "UI鼠标中键手柄特右",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "MiddleMouseButton"
     ],
     "FrancePcKeys": [
+      "MiddleMouseButton"
+    ],
+    "ThaiPcKeys": [
       "MiddleMouseButton"
     ],
     "GamepadKeys": [
@@ -1669,16 +2236,22 @@
     "DisplayName": "",
     "IsIdleAction": true,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 89,
     "ActionName": "轮盘2",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "CapsLock"
     ],
     "FrancePcKeys": [
+      "CapsLock"
+    ],
+    "ThaiPcKeys": [
       "CapsLock"
     ],
     "GamepadKeys": null,
@@ -1686,17 +2259,23 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 90,
     "ActionName": "UI键盘数字1手柄上",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "One"
     ],
     "FrancePcKeys": [
       "Ampersand"
+    ],
+    "ThaiPcKeys": [
+      "One"
     ],
     "GamepadKeys": [
       "Gamepad_DPad_Up"
@@ -1705,17 +2284,23 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 91,
     "ActionName": "UI键盘数字2手柄左",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Two"
     ],
     "FrancePcKeys": [
       "E_AccentAigu"
+    ],
+    "ThaiPcKeys": [
+      "Slash"
     ],
     "GamepadKeys": [
       "Gamepad_DPad_Left"
@@ -1724,17 +2309,23 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 92,
     "ActionName": "UI键盘数字3手柄右",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Three"
     ],
     "FrancePcKeys": [
       "Quote"
+    ],
+    "ThaiPcKeys": [
+      "Hyphen"
     ],
     "GamepadKeys": [
       "Gamepad_DPad_Right"
@@ -1743,17 +2334,23 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 93,
     "ActionName": "UI键盘数字4手柄下",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Four"
     ],
     "FrancePcKeys": [
       "Apostrophe"
+    ],
+    "ThaiPcKeys": [
+      "Four"
     ],
     "GamepadKeys": [
       "Gamepad_DPad_Down"
@@ -1762,16 +2359,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 94,
     "ActionName": "UI键盘回车",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Enter"
     ],
     "FrancePcKeys": [
+      "Enter"
+    ],
+    "ThaiPcKeys": [
       "Enter"
     ],
     "GamepadKeys": null,
@@ -1779,33 +2382,45 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 95,
     "ActionName": "Link大招",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Four"
     ],
     "FrancePcKeys": [
       "Apostrophe"
     ],
+    "ThaiPcKeys": [
+      "Four"
+    ],
     "GamepadKeys": null,
     "MobileIconPath": "",
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 96,
     "ActionName": "团子养成",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "C"
     ],
     "FrancePcKeys": [
+      "C"
+    ],
+    "ThaiPcKeys": [
       "C"
     ],
     "GamepadKeys": [
@@ -1815,16 +2430,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 97,
     "ActionName": "团子商店",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "E"
     ],
     "FrancePcKeys": [
+      "E"
+    ],
+    "ThaiPcKeys": [
       "E"
     ],
     "GamepadKeys": [
@@ -1834,16 +2455,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 98,
     "ActionName": "退出团子副本",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Escape"
     ],
     "FrancePcKeys": [
+      "Escape"
+    ],
+    "ThaiPcKeys": [
       "Escape"
     ],
     "GamepadKeys": [
@@ -1853,16 +2480,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 99,
     "ActionName": "UI键盘空格",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "SpaceBar"
     ],
     "FrancePcKeys": [
+      "SpaceBar"
+    ],
+    "ThaiPcKeys": [
       "SpaceBar"
     ],
     "GamepadKeys": null,
@@ -1870,16 +2503,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 107,
     "ActionName": "浴场同伴",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "E"
     ],
     "FrancePcKeys": [
+      "E"
+    ],
+    "ThaiPcKeys": [
       "E"
     ],
     "GamepadKeys": [
@@ -1889,16 +2528,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 108,
     "ActionName": "浴场切换视角",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "R"
     ],
     "FrancePcKeys": [
+      "R"
+    ],
+    "ThaiPcKeys": [
       "R"
     ],
     "GamepadKeys": [
@@ -1908,16 +2553,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 109,
     "ActionName": "浴场快照",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "T"
     ],
     "FrancePcKeys": [
+      "T"
+    ],
+    "ThaiPcKeys": [
       "T"
     ],
     "GamepadKeys": [
@@ -1927,16 +2578,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 110,
     "ActionName": "塔防射击",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "LeftMouseButton"
     ],
     "FrancePcKeys": [
+      "LeftMouseButton"
+    ],
+    "ThaiPcKeys": [
       "LeftMouseButton"
     ],
     "GamepadKeys": [
@@ -1946,16 +2603,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 112,
     "ActionName": "塔防旋转",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "R"
     ],
     "FrancePcKeys": [
+      "R"
+    ],
+    "ThaiPcKeys": [
       "R"
     ],
     "GamepadKeys": [
@@ -1965,16 +2628,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 113,
     "ActionName": "塔防回收机关",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "T"
     ],
     "FrancePcKeys": [
+      "T"
+    ],
+    "ThaiPcKeys": [
       "T"
     ],
     "GamepadKeys": [
@@ -1984,16 +2653,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 114,
     "ActionName": "塔防整备",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "B"
     ],
     "FrancePcKeys": [
+      "B"
+    ],
+    "ThaiPcKeys": [
       "B"
     ],
     "GamepadKeys": [
@@ -2003,16 +2678,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 115,
     "ActionName": "塔防开始",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "G"
     ],
     "FrancePcKeys": [
+      "G"
+    ],
+    "ThaiPcKeys": [
       "G"
     ],
     "GamepadKeys": [
@@ -2022,101 +2703,68 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 116,
     "ActionName": "塔防选择1",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "One"
     ],
     "FrancePcKeys": [
       "Ampersand"
     ],
+    "ThaiPcKeys": [
+      "One"
+    ],
     "GamepadKeys": null,
     "MobileIconPath": "",
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 117,
     "ActionName": "塔防选择2",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Two"
     ],
     "FrancePcKeys": [
       "E_AccentAigu"
     ],
+    "ThaiPcKeys": [
+      "Slash"
+    ],
     "GamepadKeys": null,
     "MobileIconPath": "",
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 118,
     "ActionName": "塔防选择3",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Three"
     ],
     "FrancePcKeys": [
       "Quote"
     ],
-    "GamepadKeys": null,
-    "MobileIconPath": "",
-    "DisplayName": "",
-    "IsIdleAction": false,
-    "KeyboardVersion": 0,
-    "GamepadVersion": 0
-  },
-  {
-    "Id": 119,
-    "ActionName": "塔防选择4",
-    "ActionType": 4,
-    "PcKeys": [
-      "Four"
-    ],
-    "FrancePcKeys": [
-      "Apostrophe"
-    ],
-    "GamepadKeys": null,
-    "MobileIconPath": "",
-    "DisplayName": "",
-    "IsIdleAction": false,
-    "KeyboardVersion": 0,
-    "GamepadVersion": 0
-  },
-  {
-    "Id": 120,
-    "ActionName": "塔防选择5",
-    "ActionType": 4,
-    "PcKeys": [
-      "Five"
-    ],
-    "FrancePcKeys": [
-      "LeftParantheses"
-    ],
-    "GamepadKeys": null,
-    "MobileIconPath": "",
-    "DisplayName": "",
-    "IsIdleAction": false,
-    "KeyboardVersion": 0,
-    "GamepadVersion": 0
-  },
-  {
-    "Id": 121,
-    "ActionName": "塔防选择6",
-    "ActionType": 4,
-    "PcKeys": [
-      "Six"
-    ],
-    "FrancePcKeys": [
+    "ThaiPcKeys": [
       "Hyphen"
     ],
     "GamepadKeys": null,
@@ -2124,50 +2772,137 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 119,
+    "ActionName": "塔防选择4",
+    "ActionType": 4,
+    "ExclusiveType": 0,
+    "PcKeys": [
+      "Four"
+    ],
+    "FrancePcKeys": [
+      "Apostrophe"
+    ],
+    "ThaiPcKeys": [
+      "Four"
+    ],
+    "GamepadKeys": null,
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "IsIdleAction": false,
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 120,
+    "ActionName": "塔防选择5",
+    "ActionType": 4,
+    "ExclusiveType": 0,
+    "PcKeys": [
+      "Five"
+    ],
+    "FrancePcKeys": [
+      "LeftParantheses"
+    ],
+    "ThaiPcKeys": [
+      "Five"
+    ],
+    "GamepadKeys": null,
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "IsIdleAction": false,
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 121,
+    "ActionName": "塔防选择6",
+    "ActionType": 4,
+    "ExclusiveType": 0,
+    "PcKeys": [
+      "Six"
+    ],
+    "FrancePcKeys": [
+      "Hyphen"
+    ],
+    "ThaiPcKeys": [
+      "Six"
+    ],
+    "GamepadKeys": null,
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "IsIdleAction": false,
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 122,
     "ActionName": "塔防选择7",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Seven"
     ],
     "FrancePcKeys": [
       "E_AccentGrave"
     ],
+    "ThaiPcKeys": [
+      "Seven"
+    ],
     "GamepadKeys": null,
     "MobileIconPath": "",
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 123,
     "ActionName": "塔防选择8",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Eight"
     ],
     "FrancePcKeys": [
       "Underscore"
     ],
+    "ThaiPcKeys": [
+      "Eight"
+    ],
     "GamepadKeys": null,
     "MobileIconPath": "",
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 124,
     "ActionName": "塔防跳跃",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "SpaceBar"
     ],
     "FrancePcKeys": [
+      "SpaceBar"
+    ],
+    "ThaiPcKeys": [
       "SpaceBar"
     ],
     "GamepadKeys": [
@@ -2177,16 +2912,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 125,
     "ActionName": "塔防辅助机开合",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Z"
     ],
     "FrancePcKeys": [
+      "Z"
+    ],
+    "ThaiPcKeys": [
       "Z"
     ],
     "GamepadKeys": null,
@@ -2194,17 +2935,24 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 126,
     "ActionName": "塔防冲刺",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "RightMouseButton",
       "LeftShift"
     ],
     "FrancePcKeys": [
+      "RightMouseButton",
+      "LeftShift"
+    ],
+    "ThaiPcKeys": [
       "RightMouseButton",
       "LeftShift"
     ],
@@ -2215,17 +2963,23 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 127,
     "ActionName": "塔防选择上一个",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Q"
     ],
     "FrancePcKeys": [
       "A"
+    ],
+    "ThaiPcKeys": [
+      "Q"
     ],
     "GamepadKeys": [
       "Gamepad_DPad_Left"
@@ -2234,16 +2988,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 128,
     "ActionName": "塔防选择下一个",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "E"
     ],
     "FrancePcKeys": [
+      "E"
+    ],
+    "ThaiPcKeys": [
       "E"
     ],
     "GamepadKeys": [
@@ -2253,14 +3013,18 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 129,
     "ActionName": "塔防组合主键",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       "Gamepad_LeftShoulder"
     ],
@@ -2268,16 +3032,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 130,
     "ActionName": "塔防商店",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "F"
     ],
     "FrancePcKeys": [
+      "F"
+    ],
+    "ThaiPcKeys": [
       "F"
     ],
     "GamepadKeys": [
@@ -2287,16 +3057,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 131,
     "ActionName": "塔防轮盘",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Tab"
     ],
     "FrancePcKeys": [
+      "Tab"
+    ],
+    "ThaiPcKeys": [
       "Tab"
     ],
     "GamepadKeys": [
@@ -2306,16 +3082,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 132,
     "ActionName": "塔防道具",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": [
       "C"
     ],
     "FrancePcKeys": [
+      "C"
+    ],
+    "ThaiPcKeys": [
       "C"
     ],
     "GamepadKeys": [
@@ -2325,17 +3107,23 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 133,
     "ActionName": "塔防地图",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": [
       "M"
     ],
     "FrancePcKeys": [
       "Comma"
+    ],
+    "ThaiPcKeys": [
+      "M"
     ],
     "GamepadKeys": [
       "Gamepad_Special_Left",
@@ -2345,16 +3133,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 134,
     "ActionName": "塔防攀爬时落下",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "X"
     ],
     "FrancePcKeys": [
+      "X"
+    ],
+    "ThaiPcKeys": [
       "X"
     ],
     "GamepadKeys": [
@@ -2364,16 +3158,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 135,
     "ActionName": "塔防走跑切换",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "LeftControl"
     ],
     "FrancePcKeys": [
+      "LeftControl"
+    ],
+    "ThaiPcKeys": [
       "LeftControl"
     ],
     "GamepadKeys": null,
@@ -2381,17 +3181,23 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 136,
     "ActionName": "QTE选项1",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "One"
     ],
     "FrancePcKeys": [
       "Ampersand"
+    ],
+    "ThaiPcKeys": [
+      "One"
     ],
     "GamepadKeys": [
       "Gamepad_FaceButton_Top"
@@ -2400,17 +3206,23 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 137,
     "ActionName": "QTE选项2",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Two"
     ],
     "FrancePcKeys": [
       "E_AccentAigu"
+    ],
+    "ThaiPcKeys": [
+      "Slash"
     ],
     "GamepadKeys": [
       "Gamepad_FaceButton_Right"
@@ -2419,17 +3231,23 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 138,
     "ActionName": "QTE选项3",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Three"
     ],
     "FrancePcKeys": [
       "Quote"
+    ],
+    "ThaiPcKeys": [
+      "Hyphen"
     ],
     "GamepadKeys": [
       "Gamepad_FaceButton_Bottom"
@@ -2438,17 +3256,23 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 139,
     "ActionName": "QTE选项4",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Four"
     ],
     "FrancePcKeys": [
       "Apostrophe"
+    ],
+    "ThaiPcKeys": [
+      "Four"
     ],
     "GamepadKeys": [
       "Gamepad_FaceButton_Left"
@@ -2457,17 +3281,23 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 140,
     "ActionName": "qte方向上",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "W"
     ],
     "FrancePcKeys": [
       "Z"
+    ],
+    "ThaiPcKeys": [
+      "W"
     ],
     "GamepadKeys": [
       "Gamepad_LeftStick_Up",
@@ -2477,16 +3307,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 141,
     "ActionName": "qte方向下",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "S"
     ],
     "FrancePcKeys": [
+      "S"
+    ],
+    "ThaiPcKeys": [
       "S"
     ],
     "GamepadKeys": [
@@ -2497,18 +3333,24 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 142,
     "ActionName": "qte方向左",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "A"
     ],
     "FrancePcKeys": [
       "Q"
     ],
+    "ThaiPcKeys": [
+      "A"
+    ],
     "GamepadKeys": [
       "Gamepad_LeftStick_Left",
       "Gamepad_DPad_Left"
@@ -2517,16 +3359,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 143,
     "ActionName": "qte方向右",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "D"
     ],
     "FrancePcKeys": [
+      "D"
+    ],
+    "ThaiPcKeys": [
       "D"
     ],
     "GamepadKeys": [
@@ -2537,18 +3385,24 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 146,
     "ActionName": "QTE分体选项1-左",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "One"
     ],
     "FrancePcKeys": [
       "Ampersand"
     ],
+    "ThaiPcKeys": [
+      "One"
+    ],
     "GamepadKeys": [
       "Gamepad_LeftStick_Left",
       "Gamepad_DPad_Left"
@@ -2557,17 +3411,23 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 147,
     "ActionName": "QTE分体选项2-右",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "Two"
     ],
     "FrancePcKeys": [
       "E_AccentAigu"
+    ],
+    "ThaiPcKeys": [
+      "Slash"
     ],
     "GamepadKeys": [
       "Gamepad_LeftStick_Right",
@@ -2577,16 +3437,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 148,
     "ActionName": "QTE-R2攻击",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "LeftMouseButton"
     ],
     "FrancePcKeys": [
+      "LeftMouseButton"
+    ],
+    "ThaiPcKeys": [
       "LeftMouseButton"
     ],
     "GamepadKeys": [
@@ -2596,14 +3462,18 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 149,
     "ActionName": "D级限时选项-1",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       "Gamepad_FaceButton_Top"
     ],
@@ -2611,14 +3481,18 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 150,
     "ActionName": "D级限时选项-2",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       "Gamepad_FaceButton_Left"
     ],
@@ -2626,16 +3500,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 151,
     "ActionName": "交互动态漫-向上拖动",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "LeftMouseButton"
     ],
     "FrancePcKeys": [
+      "LeftMouseButton"
+    ],
+    "ThaiPcKeys": [
       "LeftMouseButton"
     ],
     "GamepadKeys": [
@@ -2645,16 +3525,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 152,
     "ActionName": "交互动态漫-转动",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "LeftMouseButton"
     ],
     "FrancePcKeys": [
+      "LeftMouseButton"
+    ],
+    "ThaiPcKeys": [
       "LeftMouseButton"
     ],
     "GamepadKeys": [
@@ -2664,14 +3550,18 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 153,
     "ActionName": "交互动态漫-点击",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": null,
     "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       "Gamepad_RightTrigger"
     ],
@@ -2679,16 +3569,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 154,
     "ActionName": "交互动态漫-长按",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "SpaceBar"
     ],
     "FrancePcKeys": [
+      "SpaceBar"
+    ],
+    "ThaiPcKeys": [
       "SpaceBar"
     ],
     "GamepadKeys": [
@@ -2698,16 +3594,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 155,
     "ActionName": "QTE-空格和A键",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "SpaceBar"
     ],
     "FrancePcKeys": [
+      "SpaceBar"
+    ],
+    "ThaiPcKeys": [
       "SpaceBar"
     ],
     "GamepadKeys": [
@@ -2717,16 +3619,22 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 156,
     "ActionName": "交互动态漫-向下拖动",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": [
       "LeftMouseButton"
     ],
     "FrancePcKeys": [
+      "LeftMouseButton"
+    ],
+    "ThaiPcKeys": [
       "LeftMouseButton"
     ],
     "GamepadKeys": [
@@ -2736,6 +3644,431 @@
     "DisplayName": "",
     "IsIdleAction": false,
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 170,
+    "ActionName": "载具漂移",
+    "ActionType": 1,
+    "ExclusiveType": 1,
+    "PcKeys": [
+      "SpaceBar"
+    ],
+    "FrancePcKeys": [
+      "SpaceBar"
+    ],
+    "ThaiPcKeys": [
+      "SpaceBar"
+    ],
+    "GamepadKeys": [
+      "Gamepad_FaceButton_Left"
+    ],
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "IsIdleAction": false,
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 171,
+    "ActionName": "载具子弹跳",
+    "ActionType": 1,
+    "ExclusiveType": 1,
+    "PcKeys": [
+      "E"
+    ],
+    "FrancePcKeys": [
+      "E"
+    ],
+    "ThaiPcKeys": [
+      "E"
+    ],
+    "GamepadKeys": [
+      "Gamepad_FaceButton_Bottom"
+    ],
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "IsIdleAction": false,
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 172,
+    "ActionName": "载具退场技和下车",
+    "ActionType": 1,
+    "ExclusiveType": 1,
+    "PcKeys": [
+      "R"
+    ],
+    "FrancePcKeys": [
+      "R"
+    ],
+    "ThaiPcKeys": [
+      "R"
+    ],
+    "GamepadKeys": [
+      "Gamepad_FaceButton_Top"
+    ],
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "IsIdleAction": false,
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 174,
+    "ActionName": "载具探索工具",
+    "ActionType": 1,
+    "ExclusiveType": 1,
+    "PcKeys": [
+      "T"
+    ],
+    "FrancePcKeys": [
+      "T"
+    ],
+    "ThaiPcKeys": [
+      "T"
+    ],
+    "GamepadKeys": null,
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "IsIdleAction": false,
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 175,
+    "ActionName": "载具氮气",
+    "ActionType": 1,
+    "ExclusiveType": 1,
+    "PcKeys": [
+      "RightMouseButton",
+      "LeftShift"
+    ],
+    "FrancePcKeys": [
+      "RightMouseButton",
+      "LeftShift"
+    ],
+    "ThaiPcKeys": [
+      "RightMouseButton",
+      "LeftShift"
+    ],
+    "GamepadKeys": [
+      "Gamepad_RightShoulder"
+    ],
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "IsIdleAction": false,
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 177,
+    "ActionName": "载具子弹跳1",
+    "ActionType": 1,
+    "ExclusiveType": 1,
+    "PcKeys": [
+      "LeftMouseButton"
+    ],
+    "FrancePcKeys": [
+      "LeftMouseButton"
+    ],
+    "ThaiPcKeys": [
+      "LeftMouseButton"
+    ],
+    "GamepadKeys": null,
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "IsIdleAction": false,
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 178,
+    "ActionName": "载具视角切换",
+    "ActionType": 1,
+    "ExclusiveType": 1,
+    "PcKeys": [
+      "G"
+    ],
+    "FrancePcKeys": [
+      "G"
+    ],
+    "ThaiPcKeys": [
+      "G"
+    ],
+    "GamepadKeys": null,
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "IsIdleAction": false,
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 179,
+    "ActionName": "载具空中抬升",
+    "ActionType": 1,
+    "ExclusiveType": 1,
+    "PcKeys": [
+      "LeftControl"
+    ],
+    "FrancePcKeys": [
+      "LeftControl"
+    ],
+    "ThaiPcKeys": [
+      "LeftControl"
+    ],
+    "GamepadKeys": null,
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "IsIdleAction": false,
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 181,
+    "ActionName": "载具音乐上一首",
+    "ActionType": 1,
+    "ExclusiveType": 1,
+    "PcKeys": [
+      "ThumbMouseButton2"
+    ],
+    "FrancePcKeys": [
+      "ThumbMouseButton2"
+    ],
+    "ThaiPcKeys": [
+      "ThumbMouseButton2"
+    ],
+    "GamepadKeys": null,
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "IsIdleAction": false,
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 182,
+    "ActionName": "载具音乐下一首",
+    "ActionType": 1,
+    "ExclusiveType": 1,
+    "PcKeys": [
+      "ThumbMouseButton"
+    ],
+    "FrancePcKeys": [
+      "ThumbMouseButton"
+    ],
+    "ThaiPcKeys": [
+      "ThumbMouseButton"
+    ],
+    "GamepadKeys": null,
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "IsIdleAction": false,
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 183,
+    "ActionName": "载具音乐播放暂停",
+    "ActionType": 1,
+    "ExclusiveType": 1,
+    "PcKeys": [
+      "Z"
+    ],
+    "FrancePcKeys": [
+      "W"
+    ],
+    "ThaiPcKeys": [
+      "Z"
+    ],
+    "GamepadKeys": null,
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "IsIdleAction": false,
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 184,
+    "ActionName": "载具锁定目标",
+    "ActionType": 1,
+    "ExclusiveType": 1,
+    "PcKeys": [
+      "MiddleMouseButton"
+    ],
+    "FrancePcKeys": [
+      "MiddleMouseButton"
+    ],
+    "ThaiPcKeys": [
+      "MiddleMouseButton"
+    ],
+    "GamepadKeys": [
+      "Gamepad_RightThumbstick"
+    ],
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "IsIdleAction": false,
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 190,
+    "ActionName": "UI键盘子弹跳",
+    "ActionType": 4,
+    "ExclusiveType": 0,
+    "PcKeys": [
+      "E"
+    ],
+    "FrancePcKeys": [
+      "E"
+    ],
+    "ThaiPcKeys": [
+      "E"
+    ],
+    "GamepadKeys": [
+      "Gamepad_FaceButton_Bottom"
+    ],
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "IsIdleAction": false,
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 191,
+    "ActionName": "UI键盘交互",
+    "ActionType": 4,
+    "ExclusiveType": 0,
+    "PcKeys": [
+      "F"
+    ],
+    "FrancePcKeys": [
+      "F"
+    ],
+    "ThaiPcKeys": [
+      "F"
+    ],
+    "GamepadKeys": null,
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "IsIdleAction": false,
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 192,
+    "ActionName": "UI手柄退场技",
+    "ActionType": 4,
+    "ExclusiveType": 0,
+    "PcKeys": null,
+    "FrancePcKeys": null,
+    "ThaiPcKeys": null,
+    "GamepadKeys": [
+      "Gamepad_FaceButton_Top"
+    ],
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "IsIdleAction": false,
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 193,
+    "ActionName": "UI手柄漂移",
+    "ActionType": 4,
+    "ExclusiveType": 0,
+    "PcKeys": [
+      "SpaceBar"
+    ],
+    "FrancePcKeys": [
+      "SpaceBar"
+    ],
+    "ThaiPcKeys": [
+      "SpaceBar"
+    ],
+    "GamepadKeys": [
+      "Gamepad_FaceButton_Left"
+    ],
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "IsIdleAction": false,
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 194,
+    "ActionName": "飞讯",
+    "ActionType": 3,
+    "ExclusiveType": 0,
+    "PcKeys": [
+      "I"
+    ],
+    "FrancePcKeys": [
+      "I"
+    ],
+    "ThaiPcKeys": [
+      "I"
+    ],
+    "GamepadKeys": null,
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "IsIdleAction": false,
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 185,
+    "ActionName": "载具辅助机攻击",
+    "ActionType": 1,
+    "ExclusiveType": 1,
+    "PcKeys": null,
+    "FrancePcKeys": null,
+    "ThaiPcKeys": null,
+    "GamepadKeys": [
+      "Gamepad_FaceButton_Left"
+    ],
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "IsIdleAction": false,
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   }
 ]

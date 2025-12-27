@@ -1302,6 +1302,41 @@
     "ActionId": 3000199
   },
   {
+    "ActionGuid": "2e2eca241cbc47d19dfb2af7adb32c36",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[169000185,169000189],\"EnterRadius\":1200,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_天文台主线任务\",\"FlowId\":3,\"StateId\":2}}",
+    "ActionId": 3000013
+  },
+  {
+    "ActionGuid": "39f660d47c0a4cd29d72d9beaeecdb6f",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[169000185]}",
+    "ActionId": 3000015
+  },
+  {
+    "ActionGuid": "3e9a7ddb678f4495821bc785fd44d1bc",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[169000198,169000199],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_天文台主线任务\",\"FlowId\":5,\"StateId\":2}}",
+    "ActionId": 3000026
+  },
+  {
+    "ActionGuid": "9e973cc1a2e3492b861c20ca6d79e953",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[169000188],\"EnterRadius\":1200,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_天文台主线任务\",\"FlowId\":3,\"StateId\":4}}",
+    "ActionId": 3000016
+  },
+  {
+    "ActionGuid": "ffd5d644263341609be3de8c533a0d77",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[169000188]}",
+    "ActionId": 3000017
+  },
+  {
     "ActionGuid": "adfb13ba888d49fb86ae5ae17acb4a5d",
     "Name": "AddPlayBubble",
     "Async_": false,
@@ -1309,11 +1344,46 @@
     "ActionId": 3000029
   },
   {
+    "ActionGuid": "1ed9838c1d3b4c40b61b5d1221f5329f",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[692700217],\"EnterRadius\":800,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_POI_摩托模拟赛\",\"FlowId\":2,\"StateId\":2}}",
+    "ActionId": 3000002
+  },
+  {
+    "ActionGuid": "b28d40ad23104ce9a8b8617d70c6a80f",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[192700003],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_V3.0BVB引导任务\",\"FlowId\":1,\"StateId\":1}}",
+    "ActionId": 3000009
+  },
+  {
+    "ActionGuid": "5edf59f79e6245379fa73c81724f62fc",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[181700081,181700080],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3.0星炬学院教学区\",\"FlowId\":3,\"StateId\":19},\"WaitTime\":60}",
+    "ActionId": 4000003
+  },
+  {
     "ActionGuid": "9a1ff655a2994c1b8abb66fb2b6bcc8e",
     "Name": "ClearPlayBubble",
     "Async_": false,
     "Params": "{\"EntityIds\":[165850032,165850033]}",
     "ActionId": 3000001
+  },
+  {
+    "ActionGuid": "13b68d6f57874ea5a9a19904cf0a7cc7",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[181700100,181700101],\"EnterRadius\":1000,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3.0星炬学院教学区\",\"FlowId\":1,\"StateId\":9},\"WaitTime\":60}",
+    "ActionId": 4000024
+  },
+  {
+    "ActionGuid": "f9378591dfbe49478655f241d44e1d5d",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[181700099],\"EnterRadius\":1000,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3.0星炬学院教学区\",\"FlowId\":1,\"StateId\":4},\"WaitTime\":60}",
+    "ActionId": 4000019
   },
   {
     "ActionGuid": "2d7bf819a00b484b9d0c0a4760c891a3",
@@ -1330,11 +1400,74 @@
     "ActionId": 4000050
   },
   {
+    "ActionGuid": "0b74b120b9f34a95a4b61ba54e935f45",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[192700013,192700012]}",
+    "ActionId": 3000016
+  },
+  {
+    "ActionGuid": "9ec85c4ccc7f45c8a7708c8569b16869",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[192700006],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_V3.0BVB引导任务\",\"FlowId\":1,\"StateId\":10}}",
+    "ActionId": 3000005
+  },
+  {
+    "ActionGuid": "a9e6eacf4e1f4c5fa4ac1881f85ad891",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[192700006]}",
+    "ActionId": 3000006
+  },
+  {
+    "ActionGuid": "ba120bbf68d342c39f6f90e8991ba006",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[192700005]}",
+    "ActionId": 3000002
+  },
+  {
+    "ActionGuid": "c24784dce49e46f190063adc02fe6eb4",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[192700005],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_V3.0BVB引导任务\",\"FlowId\":1,\"StateId\":7}}",
+    "ActionId": 3000001
+  },
+  {
+    "ActionGuid": "8c59da6c24d24091a44b8133cf03204c",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[169000236,176700047,176700048]}",
+    "ActionId": 3000046
+  },
+  {
+    "ActionGuid": "920ce923d9a8424c8880f0ff43ddd19d",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[176700003,176700002]}",
+    "ActionId": 3000093
+  },
+  {
     "ActionGuid": "3d8ced716a4b46c18918e55557fbdf03",
     "Name": "AddPlayBubble",
     "Async_": false,
     "Params": "{\"EntityIds\":[165000144,165000138],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_2.8黑海岸对1.3生态的更新_冒泡\",\"FlowId\":1,\"StateId\":9},\"WaitTime\":20}",
     "ActionId": 3000012
+  },
+  {
+    "ActionGuid": "45f382e6673b40678234f0a3cbc1c4ba",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[169000236],\"EnterRadius\":5000,\"LeaveRadius\":15000,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_天文台主线任务\",\"FlowId\":7,\"StateId\":6},\"WaitTime\":5}",
+    "ActionId": 3000036
+  },
+  {
+    "ActionGuid": "b680e97324d44d599067381865389074",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[176700048,176700047],\"EnterRadius\":1500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_天文台主线任务\",\"FlowId\":11,\"StateId\":2},\"WaitTime\":10000}",
+    "ActionId": 3000102
   },
   {
     "ActionGuid": "183d9f40996641e6a8e40d40b34b5fbd",
@@ -1391,5 +1524,446 @@
     "Async_": false,
     "Params": "{\"EntityIds\":[165000005,165850008],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_2_8_下半_穗波市\",\"FlowId\":3,\"StateId\":25}}",
     "ActionId": 4000087
+  },
+  {
+    "ActionGuid": "ff593741eace4e59898c2df18d5d2bbd",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[181700043,181700044]}",
+    "ActionId": 4000038
+  },
+  {
+    "ActionGuid": "a41f9a5a4acf458b8e69d0574263dd25",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[181700372,181700373],\"EnterRadius\":800,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3.0拉海洛_好流民营地\",\"FlowId\":7,\"StateId\":1},\"WaitTime\":30}",
+    "ActionId": 4000051
+  },
+  {
+    "ActionGuid": "931ce837db794df5862478e8493fdaad",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[181700428,181700429],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3.0拉海洛_坏流民营地\",\"FlowId\":3,\"StateId\":1},\"WaitTime\":20}",
+    "ActionId": 4000065
+  },
+  {
+    "ActionGuid": "cb72688f8ef747ad83c34264e6bc7f22",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[],\"EnterRadius\":2000,\"LeaveRadius\":3000,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_基建新手引导任务\",\"FlowId\":9,\"StateId\":1}}",
+    "ActionId": 3000120
+  },
+  {
+    "ActionGuid": "fca3c6b51a1e405cbfc423287ef4c461",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[169700173]}",
+    "ActionId": 3000121
+  },
+  {
+    "ActionGuid": "822185c25ea64827a7fbb8714c9331da",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[160700064],\"EnterRadius\":10000,\"LeaveRadius\":12000,\"Flow\":{\"FlowListName\":\"剧情_3_0_二级POI_飞鱼任务\",\"FlowId\":13,\"StateId\":1},\"WaitTime\":5}",
+    "ActionId": 3000003
+  },
+  {
+    "ActionGuid": "9e28a030a06c492586703c9027fad2b8",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[160700077]}",
+    "ActionId": 3000025
+  },
+  {
+    "ActionGuid": "af47d4fe0b994898b4015e891339cf51",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[160700006],\"EnterRadius\":2000,\"LeaveRadius\":2200,\"Flow\":{\"FlowListName\":\"剧情_3_0_二级POI_飞鱼任务\",\"FlowId\":9,\"StateId\":1},\"WaitTime\":5}",
+    "ActionId": 3000010
+  },
+  {
+    "ActionGuid": "b416435549c043c69500f2850b7b8e03",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[686700031],\"EnterRadius\":10000,\"LeaveRadius\":12000,\"Flow\":{\"FlowListName\":\"剧情_3_0_二级POI_飞鱼任务\",\"FlowId\":16,\"StateId\":1},\"WaitTime\":5}",
+    "ActionId": 3000015
+  },
+  {
+    "ActionGuid": "b794c2cc7c814772b575379e97c237cd",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[160700064]}",
+    "ActionId": 3000004
+  },
+  {
+    "ActionGuid": "bf87c52f8c6d4658925ecb929eeabf2d",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[160700077],\"EnterRadius\":10000,\"LeaveRadius\":12000,\"Flow\":{\"FlowListName\":\"剧情_3_0_二级POI_飞鱼任务\",\"FlowId\":19,\"StateId\":1},\"WaitTime\":5}",
+    "ActionId": 3000023
+  },
+  {
+    "ActionGuid": "e443be119e0842469574654a0167d730",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[686700031]}",
+    "ActionId": 3000016
+  },
+  {
+    "ActionGuid": "ea1056c811404d16bba9d754c0b9053c",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[160700006]}",
+    "ActionId": 3000013
+  },
+  {
+    "ActionGuid": "387ef0bbcce24be28d5afa5992e9a54a",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[181700646,189700073],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3.0拉海洛_坏流民营地\",\"FlowId\":3,\"StateId\":1},\"WaitTime\":20}",
+    "ActionId": 4000067
+  },
+  {
+    "ActionGuid": "117a54eeff11433c8c6f3ba48ac91322",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[169000241,169000239],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_天文台主线任务\",\"FlowId\":8,\"StateId\":1}}",
+    "ActionId": 3000061
+  },
+  {
+    "ActionGuid": "e6161f1c8308470da88145b769f55b66",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[176700061],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_天文台主线任务\",\"FlowId\":8,\"StateId\":3}}",
+    "ActionId": 3000083
+  },
+  {
+    "ActionGuid": "99d410a65a734f1c8775e9ea4efabe6f",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[169000181]}",
+    "ActionId": 3000104
+  },
+  {
+    "ActionGuid": "f5005fea7fa9496ebd753bac66846d90",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[169000181,176700007],\"EnterRadius\":1200,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_天文台主线任务\",\"FlowId\":1,\"StateId\":5},\"WaitTime\":15}",
+    "ActionId": 3000009
+  },
+  {
+    "ActionGuid": "bdd4166f086b4e1fb59d5f636ff12e73",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[157700561],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_浮光林\",\"FlowId\":14,\"StateId\":1},\"WaitTime\":4}",
+    "ActionId": 4000167
+  },
+  {
+    "ActionGuid": "f12987908dc049af9c2a2de7e4a71436",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[157700568],\"EnterRadius\":4000,\"LeaveRadius\":4000,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_浮光林\",\"FlowId\":12,\"StateId\":1},\"WaitTime\":4}",
+    "ActionId": 4000182
+  },
+  {
+    "ActionGuid": "db322e9c04c6413fb2d652c773b38380",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[181700082],\"EnterRadius\":700,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3.0星炬学院教学区\",\"FlowId\":4}}",
+    "ActionId": 4000047
+  },
+  {
+    "ActionGuid": "78608c4092c64a5ca619926ceb82d977",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[915700096,915700098],\"EnterRadius\":800,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_主线_拉海洛主线_上半_1\",\"FlowId\":12,\"StateId\":2},\"WaitTime\":10}",
+    "ActionId": 3000040
+  },
+  {
+    "ActionGuid": "fa827ba6adef4042a22f2b2c0a8c062b",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[915700098,915700096]}",
+    "ActionId": 3000009
+  },
+  {
+    "ActionGuid": "de721461bc5944a38b6e1742571e0157",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[169000241,169000239],\"EnterRadius\":5000,\"LeaveRadius\":15000,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_天文台主线任务\",\"FlowId\":7,\"StateId\":9},\"WaitTime\":1}",
+    "ActionId": 3000048
+  },
+  {
+    "ActionGuid": "90bc9dbbe23745dca6e1757b43597e36",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[197700015],\"EnterRadius\":1000,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3.0拉海洛_农学部\",\"FlowId\":13,\"StateId\":1}}",
+    "ActionId": 3000002
+  },
+  {
+    "ActionGuid": "ff370fae8f804d7eb2bde2d0aebe9b51",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[197700015]}",
+    "ActionId": 3000004
+  },
+  {
+    "ActionGuid": "0d5df2719a6f47c19edbb73d833e1bc7",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[181700730],\"EnterRadius\":1000,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3.0星炬学院教学区\",\"FlowId\":5}}",
+    "ActionId": 4000144
+  },
+  {
+    "ActionGuid": "2bc223a6e2e24a88869faac6804ef87a",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[181700733]}",
+    "ActionId": 4000116
+  },
+  {
+    "ActionGuid": "82f6efbcf258455894210687c0fd79bd",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[181700733],\"EnterRadius\":800,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3.0拉海洛_学院通用对话和冒泡1\",\"FlowId\":5,\"StateId\":5},\"WaitTime\":60}",
+    "ActionId": 4000079
+  },
+  {
+    "ActionGuid": "852b3b559bed4f8c9309ec08f3010cb2",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[181700730]}",
+    "ActionId": 4000146
+  },
+  {
+    "ActionGuid": "b2a48502a83d482abeca9f8e7eb8f0e2",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[],\"EnterRadius\":1000,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3.0拉海洛_学院通用对话和冒泡1\",\"FlowId\":5,\"StateId\":4},\"WaitTime\":60}",
+    "ActionId": 4000082
+  },
+  {
+    "ActionGuid": "c7b93fe7706b493ebc0d0a9668c4a754",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[181700042]}",
+    "ActionId": 4000114
+  },
+  {
+    "ActionGuid": "eeb41537964b4e62ad6923495a71a6b2",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3.0星炬学院教学区\",\"FlowId\":6}}",
+    "ActionId": 4000115
+  },
+  {
+    "ActionGuid": "f6a66cc235364116944b903ffe6d0f1c",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[181700042],\"EnterRadius\":1000,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3.0拉海洛_学院通用对话和冒泡1\",\"FlowId\":5,\"StateId\":3},\"WaitTime\":60}",
+    "ActionId": 4000081
+  },
+  {
+    "ActionGuid": "0178a0ef749c44b783b417a64c9cca66",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[157700377],\"EnterRadius\":1500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_浮光林\",\"FlowId\":14,\"StateId\":1},\"WaitTime\":5}",
+    "ActionId": 4000186
+  },
+  {
+    "ActionGuid": "0adec39b9f6445b48631516ad19176c2",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[157700407],\"EnterRadius\":1500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_浮光林\",\"FlowId\":14,\"StateId\":1},\"WaitTime\":5}",
+    "ActionId": 4000122
+  },
+  {
+    "ActionGuid": "260e078e422b4ded879eb4f985432925",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[157700260],\"EnterRadius\":1500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_浮光林\",\"FlowId\":14,\"StateId\":1},\"WaitTime\":5}",
+    "ActionId": 4000194
+  },
+  {
+    "ActionGuid": "9eea14343d57473f80f3d793038ac2cb",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[157700437],\"EnterRadius\":1500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_浮光林\",\"FlowId\":14,\"StateId\":1},\"WaitTime\":5}",
+    "ActionId": 4000190
+  },
+  {
+    "ActionGuid": "f7ad5b97a7f94c84a250930b0ee7582f",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[157700632],\"EnterRadius\":1500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_浮光林\",\"FlowId\":14,\"StateId\":1},\"WaitTime\":5}",
+    "ActionId": 4000119
+  },
+  {
+    "ActionGuid": "54b1ad212b0c4bc5b5266626c2c725d7",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[158700000],\"EnterRadius\":1000,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_拉海洛主线_下半_炉芯领主战斗\",\"FlowId\":14,\"StateId\":1},\"WaitTime\":120}",
+    "ActionId": 3000002
+  },
+  {
+    "ActionGuid": "e60000310b744a618ae68ba7255df7b7",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[158700000]}",
+    "ActionId": 3000003
+  },
+  {
+    "ActionGuid": "61e9800f52d64f7bb45d4f1d8be1bb7a",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[181700373,181700372],\"EnterRadius\":600,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3.0拉海洛_好流民营地\",\"FlowId\":8,\"StateId\":1},\"WaitTime\":15}",
+    "ActionId": 4000154
+  },
+  {
+    "ActionGuid": "564148c9b4834750a7bd1fb2940fc70d",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[157700652],\"EnterRadius\":1500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_浮光林\",\"FlowId\":14,\"StateId\":1},\"WaitTime\":5}",
+    "ActionId": 4000208
+  },
+  {
+    "ActionGuid": "6b1ca52087084f79bfa3e94698b6bc8c",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[157700647],\"EnterRadius\":1500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_浮光林\",\"FlowId\":14,\"StateId\":1},\"WaitTime\":5}",
+    "ActionId": 4000205
+  },
+  {
+    "ActionGuid": "b889ab4d45f54bdcb3b90fcdd8aad064",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[157700637],\"EnterRadius\":1500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_浮光林\",\"FlowId\":14,\"StateId\":1},\"WaitTime\":5}",
+    "ActionId": 4000196
+  },
+  {
+    "ActionGuid": "c30f01ec75ac42abb282bf483c26b943",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[157700642],\"EnterRadius\":1500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_浮光林\",\"FlowId\":14,\"StateId\":1},\"WaitTime\":5}",
+    "ActionId": 4000200
+  },
+  {
+    "ActionGuid": "944e9652756949b29bce1f03436d2963",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[169000198,169000199]}",
+    "ActionId": 3000149
+  },
+  {
+    "ActionGuid": "01a0f4ad05044d06b11639ceaecff281",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[155700119,155700116,155700115,155700118,155700117]}",
+    "ActionId": 3000171
+  },
+  {
+    "ActionGuid": "3b5c2fe7e05a4575a56ec8c860877a96",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[155700115,155700116],\"EnterRadius\":1000,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_拉海洛主线_下半_1\",\"FlowId\":25,\"StateId\":1}}",
+    "ActionId": 3000170
+  },
+  {
+    "ActionGuid": "ca30ba2c417942f48202a2d0cc3e7dd4",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[155700118,155700117],\"EnterRadius\":1000,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_拉海洛主线_下半_1\",\"FlowId\":24,\"StateId\":1}}",
+    "ActionId": 3000169
+  },
+  {
+    "ActionGuid": "d8de9f256d89484b98883811f3644de3",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[155700119],\"EnterRadius\":1000,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_拉海洛主线_下半_1\",\"FlowId\":23,\"StateId\":1}}",
+    "ActionId": 3000168
+  },
+  {
+    "ActionGuid": "8acb18573a2f4a78a84d94442240106c",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[157700205],\"EnterRadius\":1500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_浮光林\",\"FlowId\":14,\"StateId\":1},\"WaitTime\":4}",
+    "ActionId": 4000224
+  },
+  {
+    "ActionGuid": "e267d37544ed4c82a765123ff3f021ca",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[157700245],\"EnterRadius\":1500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_浮光林\",\"FlowId\":13,\"StateId\":1},\"WaitTime\":4}",
+    "ActionId": 4000080
+  },
+  {
+    "ActionGuid": "601e155cbbf341efbe595048ae431cd2",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[192700013,192700012],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_V3.0BVB引导任务\",\"FlowId\":1,\"StateId\":14}}",
+    "ActionId": 3000012
+  },
+  {
+    "ActionGuid": "1b3baaf736694f1d9aa9e4e202cc0f69",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[157700242],\"EnterRadius\":1500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_浮光林\",\"FlowId\":14,\"StateId\":1},\"WaitTime\":4}",
+    "ActionId": 4000183
+  },
+  {
+    "ActionGuid": "84ee015893cc4c1f9cdc4e78a28b9e60",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[181700043],\"EnterRadius\":1000,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3.0星炬学院教学区\",\"FlowId\":3,\"StateId\":13},\"WaitTime\":50}",
+    "ActionId": 4000035
+  },
+  {
+    "ActionGuid": "ba4864ae458545e9b9b3fe5175b4067f",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[181700044],\"EnterRadius\":1000,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3.0星炬学院教学区\",\"FlowId\":3,\"StateId\":14},\"WaitTime\":50}",
+    "ActionId": 4000037
+  },
+  {
+    "ActionGuid": "91f1b562a9b849c8a0d476045daea417",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[181700043]}",
+    "ActionId": 4000060
+  },
+  {
+    "ActionGuid": "8fe5e3c62287497a99e93a477c7209b4",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[157700561],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_浮光林\",\"FlowId\":14,\"StateId\":1},\"WaitTime\":4}",
+    "ActionId": 4000178
+  },
+  {
+    "ActionGuid": "c2a7759fef21488da62d124c07de835c",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[157700561],\"EnterRadius\":500,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_浮光林\",\"FlowId\":12,\"StateId\":1},\"WaitTime\":3}",
+    "ActionId": 4000164
+  },
+  {
+    "ActionGuid": "6012cf346bbd4c9cb2bd427dc032e68a",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[169000224]}",
+    "ActionId": 3000032
+  },
+  {
+    "ActionGuid": "ac2830f5ca174dbb8f009de3e850f905",
+    "Name": "ClearPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[176700048,176700047]}",
+    "ActionId": 3000096
+  },
+  {
+    "ActionGuid": "f54e78d04768473480d70347b6f8b729",
+    "Name": "AddPlayBubble",
+    "Async_": false,
+    "Params": "{\"EntityIds\":[169000224],\"EnterRadius\":1200,\"LeaveRadius\":1500,\"Flow\":{\"FlowListName\":\"剧情_3_0_一级POI_天文台主线任务\",\"FlowId\":7,\"StateId\":2}}",
+    "ActionId": 3000031
   }
 ]

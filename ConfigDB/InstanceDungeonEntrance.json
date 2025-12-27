@@ -2858,6 +2858,169 @@
     "MapBgPath": "/Game/Aki/UI/UIResources/Common/Image/ImgCopy/T_ImgCopy_001_UI.T_ImgCopy_001_UI"
   },
   {
+    "Id": 4043,
+    "MarkId": 390071,
+    "Name": "InstanceDungeonEntrance_4043_Name",
+    "Description": "InstanceDungeonEntrance_4043_Description",
+    "InstanceDungeonList": [
+      4048,
+      4049,
+      4050
+    ],
+    "FlowId": 1,
+    "HelpButtonId": 0,
+    "TitleSprite": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_Checkpoints1.SP_Checkpoints1",
+    "TeleportEntityConfigId": 314700006,
+    "UnlockCondition": 0,
+    "RegularReward": null,
+    "PowerCostShow": 60,
+    "MapBgPath": ""
+  },
+  {
+    "Id": 308000,
+    "MarkId": 390066,
+    "Name": "InstanceDungeonEntrance_308000_Name",
+    "Description": "InstanceDungeonEntrance_308000_Description",
+    "InstanceDungeonList": [
+      308010,
+      308011,
+      308012,
+      308013,
+      308014,
+      308015
+    ],
+    "FlowId": 1,
+    "HelpButtonId": 0,
+    "TitleSprite": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_Checkpoints1.SP_Checkpoints1",
+    "TeleportEntityConfigId": 138000019,
+    "UnlockCondition": 0,
+    "RegularReward": null,
+    "PowerCostShow": 60,
+    "MapBgPath": ""
+  },
+  {
+    "Id": 309000,
+    "MarkId": 390067,
+    "Name": "InstanceDungeonEntrance_309000_Name",
+    "Description": "InstanceDungeonEntrance_309000_Description",
+    "InstanceDungeonList": [
+      308020,
+      308021,
+      308022,
+      308023,
+      308024,
+      308025
+    ],
+    "FlowId": 1,
+    "HelpButtonId": 0,
+    "TitleSprite": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_Checkpoints1.SP_Checkpoints1",
+    "TeleportEntityConfigId": 138000021,
+    "UnlockCondition": 0,
+    "RegularReward": null,
+    "PowerCostShow": 60,
+    "MapBgPath": ""
+  },
+  {
+    "Id": 310000,
+    "MarkId": 390068,
+    "Name": "InstanceDungeonEntrance_310000_Name",
+    "Description": "InstanceDungeonEntrance_310000_Description",
+    "InstanceDungeonList": [
+      308030,
+      308031,
+      308032,
+      308033,
+      308034,
+      308035
+    ],
+    "FlowId": 1,
+    "HelpButtonId": 0,
+    "TitleSprite": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_Checkpoints1.SP_Checkpoints1",
+    "TeleportEntityConfigId": 138000023,
+    "UnlockCondition": 0,
+    "RegularReward": null,
+    "PowerCostShow": 60,
+    "MapBgPath": ""
+  },
+  {
+    "Id": 311000,
+    "MarkId": 390069,
+    "Name": "InstanceDungeonEntrance_311000_Name",
+    "Description": "InstanceDungeonEntrance_311000_Description",
+    "InstanceDungeonList": [
+      308040,
+      308041,
+      308042,
+      308043,
+      308044,
+      308045
+    ],
+    "FlowId": 1,
+    "HelpButtonId": 0,
+    "TitleSprite": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_Checkpoints1.SP_Checkpoints1",
+    "TeleportEntityConfigId": 138000024,
+    "UnlockCondition": 0,
+    "RegularReward": null,
+    "PowerCostShow": 60,
+    "MapBgPath": ""
+  },
+  {
+    "Id": 312000,
+    "MarkId": 390070,
+    "Name": "InstanceDungeonEntrance_312000_Name",
+    "Description": "InstanceDungeonEntrance_312000_Description",
+    "InstanceDungeonList": [
+      308050,
+      308051,
+      308052,
+      308053,
+      308054,
+      308055
+    ],
+    "FlowId": 1,
+    "HelpButtonId": 0,
+    "TitleSprite": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_Checkpoints1.SP_Checkpoints1",
+    "TeleportEntityConfigId": 138000025,
+    "UnlockCondition": 0,
+    "RegularReward": null,
+    "PowerCostShow": 60,
+    "MapBgPath": ""
+  },
+  {
+    "Id": 402,
+    "MarkId": 0,
+    "Name": "InstanceDungeonEntrance_402_Name",
+    "Description": "InstanceDungeonEntrance_402_Description",
+    "InstanceDungeonList": [
+      3224
+    ],
+    "FlowId": 1,
+    "HelpButtonId": 0,
+    "TitleSprite": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_Checkpoints1.SP_Checkpoints1",
+    "TeleportEntityConfigId": 0,
+    "UnlockCondition": 0,
+    "RegularReward": null,
+    "PowerCostShow": 0,
+    "MapBgPath": "/Game/Aki/UI/UIResources/Common/Image/ImgCopy/T_ImgCopy_001_UI.T_ImgCopy_001_UI"
+  },
+  {
+    "Id": 403,
+    "MarkId": 0,
+    "Name": "InstanceDungeonEntrance_403_Name",
+    "Description": "InstanceDungeonEntrance_403_Description",
+    "InstanceDungeonList": [
+      3225
+    ],
+    "FlowId": 1,
+    "HelpButtonId": 0,
+    "TitleSprite": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_Checkpoints1.SP_Checkpoints1",
+    "TeleportEntityConfigId": 0,
+    "UnlockCondition": 0,
+    "RegularReward": null,
+    "PowerCostShow": 0,
+    "MapBgPath": "/Game/Aki/UI/UIResources/Common/Image/ImgCopy/T_ImgCopy_001_UI.T_ImgCopy_001_UI"
+  },
+  {
     "Id": 8152,
     "MarkId": 380150,
     "Name": "InstanceDungeonEntrance_8152_Name",
@@ -2865,12 +3028,30 @@
     "InstanceDungeonList": [
       81680,
       81690,
-      81700
+      81700,
+      81701
     ],
     "FlowId": 1,
     "HelpButtonId": 0,
     "TitleSprite": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_Checkpoints1.SP_Checkpoints1",
     "TeleportEntityConfigId": 0,
+    "UnlockCondition": 0,
+    "RegularReward": null,
+    "PowerCostShow": 0,
+    "MapBgPath": "/Game/Aki/UI/UIResources/Common/Image/ImgCopy/T_ImgCopy_001_UI.T_ImgCopy_001_UI"
+  },
+  {
+    "Id": 3924,
+    "MarkId": 3924,
+    "Name": "InstanceDungeonEntrance_998_Name",
+    "Description": "InstanceDungeonEntrance_998_Description",
+    "InstanceDungeonList": [
+      3924
+    ],
+    "FlowId": 16,
+    "HelpButtonId": 0,
+    "TitleSprite": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_Checkpoints1.SP_Checkpoints1",
+    "TeleportEntityConfigId": 169700002,
     "UnlockCondition": 0,
     "RegularReward": null,
     "PowerCostShow": 0,
@@ -2888,6 +3069,143 @@
     "HelpButtonId": 0,
     "TitleSprite": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_Checkpoints1.SP_Checkpoints1",
     "TeleportEntityConfigId": 0,
+    "UnlockCondition": 0,
+    "RegularReward": null,
+    "PowerCostShow": 0,
+    "MapBgPath": "/Game/Aki/UI/UIResources/Common/Image/ImgCopy/T_ImgCopy_001_UI.T_ImgCopy_001_UI"
+  },
+  {
+    "Id": 9100,
+    "MarkId": 0,
+    "Name": "InstanceDungeonEntrance_9004_Name",
+    "Description": "InstanceDungeonEntrance_9004_Description",
+    "InstanceDungeonList": [
+      107700001,
+      107700002
+    ],
+    "FlowId": 17,
+    "HelpButtonId": 202,
+    "TitleSprite": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconActivityGongduolaOnline.SP_IconActivityGongduolaOnline",
+    "TeleportEntityConfigId": 194700004,
+    "UnlockCondition": 0,
+    "RegularReward": null,
+    "PowerCostShow": 0,
+    "MapBgPath": "/Game/Aki/UI/UIResources/Common/Image/ImgCopy/T_ImgCopy_001_UI.T_ImgCopy_001_UI"
+  },
+  {
+    "Id": 9503,
+    "MarkId": 0,
+    "Name": "InstanceDungeonEntrance_9000_Name",
+    "Description": "InstanceDungeonEntrance_9000_Description",
+    "InstanceDungeonList": [
+      9511
+    ],
+    "FlowId": 1,
+    "HelpButtonId": 0,
+    "TitleSprite": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconActivityGongduolaOnline.SP_IconActivityGongduolaOnline",
+    "TeleportEntityConfigId": 0,
+    "UnlockCondition": 0,
+    "RegularReward": null,
+    "PowerCostShow": 0,
+    "MapBgPath": "/Game/Aki/UI/UIResources/Common/Image/ImgCopy/T_ImgCopy_001_UI.T_ImgCopy_001_UI"
+  },
+  {
+    "Id": 9504,
+    "MarkId": 0,
+    "Name": "InstanceDungeonEntrance_9000_Name",
+    "Description": "InstanceDungeonEntrance_9000_Description",
+    "InstanceDungeonList": [
+      9512
+    ],
+    "FlowId": 1,
+    "HelpButtonId": 0,
+    "TitleSprite": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_IconActivityGongduolaOnline.SP_IconActivityGongduolaOnline",
+    "TeleportEntityConfigId": 0,
+    "UnlockCondition": 0,
+    "RegularReward": null,
+    "PowerCostShow": 0,
+    "MapBgPath": "/Game/Aki/UI/UIResources/Common/Image/ImgCopy/T_ImgCopy_001_UI.T_ImgCopy_001_UI"
+  },
+  {
+    "Id": 1101016,
+    "MarkId": 0,
+    "Name": "MonsterInfo_340000210_Name",
+    "Description": "MonsterInfo_340000210_DiscoveredDes",
+    "InstanceDungeonList": [
+      1101016
+    ],
+    "FlowId": 1,
+    "HelpButtonId": 0,
+    "TitleSprite": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_Checkpoints1.SP_Checkpoints1",
+    "TeleportEntityConfigId": 0,
+    "UnlockCondition": 0,
+    "RegularReward": null,
+    "PowerCostShow": 0,
+    "MapBgPath": "/Game/Aki/UI/UIResources/Common/Image/ImgCopy/T_ImgCopy_001_UI.T_ImgCopy_001_UI"
+  },
+  {
+    "Id": 1101017,
+    "MarkId": 0,
+    "Name": "MonsterInfo_340000220_Name",
+    "Description": "MonsterInfo_340000220_DiscoveredDes",
+    "InstanceDungeonList": [
+      1101017
+    ],
+    "FlowId": 1,
+    "HelpButtonId": 0,
+    "TitleSprite": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_Checkpoints1.SP_Checkpoints1",
+    "TeleportEntityConfigId": 0,
+    "UnlockCondition": 0,
+    "RegularReward": null,
+    "PowerCostShow": 0,
+    "MapBgPath": "/Game/Aki/UI/UIResources/Common/Image/ImgCopy/T_ImgCopy_001_UI.T_ImgCopy_001_UI"
+  },
+  {
+    "Id": 2516,
+    "MarkId": 0,
+    "Name": "InstanceDungeonEntrance_2516_Name",
+    "Description": "InstanceDungeonEntrance_2516_Description",
+    "InstanceDungeonList": [
+      2516
+    ],
+    "FlowId": 1,
+    "HelpButtonId": 0,
+    "TitleSprite": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_Checkpoints1.SP_Checkpoints1",
+    "TeleportEntityConfigId": 146700208,
+    "UnlockCondition": 0,
+    "RegularReward": null,
+    "PowerCostShow": 0,
+    "MapBgPath": "/Game/Aki/UI/UIResources/Common/Image/ImgCopy/T_ImgCopy_001_UI.T_ImgCopy_001_UI"
+  },
+  {
+    "Id": 2520,
+    "MarkId": 0,
+    "Name": "InstanceDungeonEntrance_2520_Name",
+    "Description": "InstanceDungeonEntrance_2520_Description",
+    "InstanceDungeonList": [
+      2520
+    ],
+    "FlowId": 1,
+    "HelpButtonId": 0,
+    "TitleSprite": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_Checkpoints1.SP_Checkpoints1",
+    "TeleportEntityConfigId": 936000059,
+    "UnlockCondition": 0,
+    "RegularReward": null,
+    "PowerCostShow": 0,
+    "MapBgPath": "/Game/Aki/UI/UIResources/Common/Image/ImgCopy/T_ImgCopy_001_UI.T_ImgCopy_001_UI"
+  },
+  {
+    "Id": 2517,
+    "MarkId": 0,
+    "Name": "InstanceDungeonEntrance_2517_Name",
+    "Description": "InstanceDungeonEntrance_2517_Description",
+    "InstanceDungeonList": [
+      2517
+    ],
+    "FlowId": 1,
+    "HelpButtonId": 0,
+    "TitleSprite": "/Game/Aki/UI/UIResources/Common/Atlas/TabIcon/SP_Checkpoints1.SP_Checkpoints1",
+    "TeleportEntityConfigId": 936700019,
     "UnlockCondition": 0,
     "RegularReward": null,
     "PowerCostShow": 0,

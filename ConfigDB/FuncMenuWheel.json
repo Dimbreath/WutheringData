@@ -66,7 +66,7 @@
     "FuncId": 10008,
     "FuncName": "FunctionMenu_10022_FunctionName",
     "FuncMenuIconPath": "/Game/Aki/UI/UIResources/UiFunc/Atlas/SP_FuncIconBaike2.SP_FuncIconBaike2",
-    "FuncMenuSequence": 8,
+    "FuncMenuSequence": 18,
     "AutoEquip": false,
     "UnlockCondition": 10022,
     "ShowInAssembly": true
@@ -205,5 +205,23 @@
     "AutoEquip": false,
     "UnlockCondition": 0,
     "ShowInAssembly": false
+  },
+  {
+    "FuncId": 10018,
+    "FuncName": "FunctionMenu_10130_FunctionName",
+    "FuncMenuIconPath": "/Game/Aki/UI/UIResources/UiFunc/Atlas/SP_FuncIconPhoneSystem.SP_FuncIconPhoneSystem",
+    "FuncMenuSequence": 8,
+    "AutoEquip": true,
+    "UnlockCondition": 10130,
+    "ShowInAssembly": true
+  },
+  {
+    "FuncId": 10019,
+    "FuncName": "FunctionMenu_10098_FunctionName",
+    "FuncMenuIconPath": "/Game/Aki/UI/UIResources/UiFunc/Atlas/SP_FuncIconMoto.SP_FuncIconMoto",
+    "FuncMenuSequence": 20,
+    "AutoEquip": false,
+    "UnlockCondition": 10098,
+    "ShowInAssembly": true
   }
 ]

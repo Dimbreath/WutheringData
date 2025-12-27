@@ -367,5 +367,59 @@
     "DeActiveDescriptionParams": null,
     "EntryId": 0,
     "SlotTendency": 0
+  },
+  {
+    "Id": 20,
+    "PhantomBattleEffectId": [
+      13031002
+    ],
+    "IsBeforeBattle": true,
+    "Tag": "",
+    "Sort": 20,
+    "Name": "PhantomBattleFactorName_20",
+    "Description": "PhantomBattleFactorDes_20",
+    "DescriptionParams": [
+      "1"
+    ],
+    "DeActiveDescription": "PhantomBattleFactorDeActiveDes_20",
+    "DeActiveDescriptionParams": [
+      "1"
+    ],
+    "EntryId": 0,
+    "SlotTendency": 0
+  },
+  {
+    "Id": 21,
+    "PhantomBattleEffectId": [
+      13031003,
+      13031005
+    ],
+    "IsBeforeBattle": true,
+    "Tag": "",
+    "Sort": 21,
+    "Name": "PhantomBattleFactorName_21",
+    "Description": "PhantomBattleFactorDes_21",
+    "DescriptionParams": null,
+    "DeActiveDescription": "PhantomBattleFactorDeActiveDes_21",
+    "DeActiveDescriptionParams": null,
+    "EntryId": 0,
+    "SlotTendency": 0
+  },
+  {
+    "Id": 22,
+    "PhantomBattleEffectId": [
+      13031006,
+      13031008
+    ],
+    "IsBeforeBattle": true,
+    "Tag": "",
+    "Sort": 22,
+    "Name": "PhantomBattleFactorName_22",
+    "Description": "PhantomBattleFactorDes_22",
+    "DescriptionParams": null,
+    "DeActiveDescription": "PhantomBattleFactorDeActiveDes_22",
+    "DeActiveDescriptionParams": null,
+    "EntryId": 0,
+    "SlotTendency": 0
   }
 ]

@@ -14,7 +14,8 @@
     "LittleMapDefaultScale": 1000,
     "LimitContent": "limit()",
     "IsGravityMap": false,
-    "IsNeedCustomizedThumbnail": false
+    "IsNeedCustomizedThumbnail": false,
+    "SafeAreaOffset": null
   },
   {
     "MapId": 2,
@@ -31,7 +32,8 @@
     "LittleMapDefaultScale": 100,
     "LimitContent": "limit()",
     "IsGravityMap": false,
-    "IsNeedCustomizedThumbnail": false
+    "IsNeedCustomizedThumbnail": false,
+    "SafeAreaOffset": null
   },
   {
     "MapId": 3,
@@ -48,7 +50,8 @@
     "LittleMapDefaultScale": 100,
     "LimitContent": "limit()",
     "IsGravityMap": false,
-    "IsNeedCustomizedThumbnail": false
+    "IsNeedCustomizedThumbnail": false,
+    "SafeAreaOffset": null
   },
   {
     "MapId": 4,
@@ -65,7 +68,8 @@
     "LittleMapDefaultScale": 100,
     "LimitContent": "limit()",
     "IsGravityMap": false,
-    "IsNeedCustomizedThumbnail": false
+    "IsNeedCustomizedThumbnail": false,
+    "SafeAreaOffset": null
   },
   {
     "MapId": 5,
@@ -82,7 +86,8 @@
     "LittleMapDefaultScale": 100,
     "LimitContent": "limit()",
     "IsGravityMap": false,
-    "IsNeedCustomizedThumbnail": false
+    "IsNeedCustomizedThumbnail": false,
+    "SafeAreaOffset": null
   },
   {
     "MapId": 6,
@@ -99,7 +104,8 @@
     "LittleMapDefaultScale": 100,
     "LimitContent": "limit()",
     "IsGravityMap": false,
-    "IsNeedCustomizedThumbnail": false
+    "IsNeedCustomizedThumbnail": false,
+    "SafeAreaOffset": null
   },
   {
     "MapId": 7,
@@ -116,7 +122,8 @@
     "LittleMapDefaultScale": 100,
     "LimitContent": "limit()",
     "IsGravityMap": false,
-    "IsNeedCustomizedThumbnail": false
+    "IsNeedCustomizedThumbnail": false,
+    "SafeAreaOffset": null
   },
   {
     "MapId": 8,
@@ -133,7 +140,8 @@
     "LittleMapDefaultScale": 150,
     "LimitContent": "limit()",
     "IsGravityMap": false,
-    "IsNeedCustomizedThumbnail": false
+    "IsNeedCustomizedThumbnail": false,
+    "SafeAreaOffset": null
   },
   {
     "MapId": 9,
@@ -150,7 +158,8 @@
     "LittleMapDefaultScale": 100,
     "LimitContent": "limit()",
     "IsGravityMap": false,
-    "IsNeedCustomizedThumbnail": false
+    "IsNeedCustomizedThumbnail": false,
+    "SafeAreaOffset": null
   },
   {
     "MapId": 900,
@@ -167,7 +176,8 @@
     "LittleMapDefaultScale": 150,
     "LimitContent": "limit()",
     "IsGravityMap": false,
-    "IsNeedCustomizedThumbnail": false
+    "IsNeedCustomizedThumbnail": false,
+    "SafeAreaOffset": null
   },
   {
     "MapId": 903,
@@ -184,7 +194,8 @@
     "LittleMapDefaultScale": 150,
     "LimitContent": "limit()",
     "IsGravityMap": true,
-    "IsNeedCustomizedThumbnail": false
+    "IsNeedCustomizedThumbnail": false,
+    "SafeAreaOffset": null
   },
   {
     "MapId": 902,
@@ -201,7 +212,8 @@
     "LittleMapDefaultScale": 150,
     "LimitContent": "limit()",
     "IsGravityMap": false,
-    "IsNeedCustomizedThumbnail": false
+    "IsNeedCustomizedThumbnail": false,
+    "SafeAreaOffset": null
   },
   {
     "MapId": 905,
@@ -218,7 +230,8 @@
     "LittleMapDefaultScale": 150,
     "LimitContent": "limit()",
     "IsGravityMap": false,
-    "IsNeedCustomizedThumbnail": true
+    "IsNeedCustomizedThumbnail": true,
+    "SafeAreaOffset": null
   },
   {
     "MapId": 9301,
@@ -235,7 +248,8 @@
     "LittleMapDefaultScale": 150,
     "LimitContent": "limit()",
     "IsGravityMap": false,
-    "IsNeedCustomizedThumbnail": false
+    "IsNeedCustomizedThumbnail": false,
+    "SafeAreaOffset": null
   },
   {
     "MapId": 100,
@@ -252,7 +266,8 @@
     "LittleMapDefaultScale": 100,
     "LimitContent": "limit()",
     "IsGravityMap": false,
-    "IsNeedCustomizedThumbnail": false
+    "IsNeedCustomizedThumbnail": false,
+    "SafeAreaOffset": null
   },
   {
     "MapId": 907,
@@ -269,7 +284,8 @@
     "LittleMapDefaultScale": 150,
     "LimitContent": "limit()",
     "IsGravityMap": false,
-    "IsNeedCustomizedThumbnail": false
+    "IsNeedCustomizedThumbnail": false,
+    "SafeAreaOffset": null
   },
   {
     "MapId": 910,
@@ -286,6 +302,30 @@
     "LittleMapDefaultScale": 150,
     "LimitContent": "limit()",
     "IsGravityMap": false,
-    "IsNeedCustomizedThumbnail": false
+    "IsNeedCustomizedThumbnail": false,
+    "SafeAreaOffset": null
+  },
+  {
+    "MapId": 906,
+    "MapName": "Area_41_Title",
+    "FatherMap": 1,
+    "GroupMark": 2001,
+    "Floor": -1,
+    "SwitchCondition": "",
+    "MapPic3d": "",
+    "MapPic2d": "",
+    "BigMapDefaultScale": 200,
+    "BigMapMinScale": 100,
+    "BigMapMaxScale": 500,
+    "LittleMapDefaultScale": 150,
+    "LimitContent": "limit()",
+    "IsGravityMap": false,
+    "IsNeedCustomizedThumbnail": false,
+    "SafeAreaOffset": [
+      0,
+      -17650,
+      3400,
+      0
+    ]
   }
 ]

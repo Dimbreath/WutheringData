@@ -2252,5 +2252,179 @@
     ],
     "IsHaveBattleScore": false,
     "OrderIndex": 12
+  },
+  {
+    "Id": 79,
+    "Season": 13,
+    "EndLess": false,
+    "InstIds": [
+      40156,
+      40157
+    ],
+    "PreLevel": [
+      6
+    ],
+    "PassScore": 1000,
+    "LevelPassReward": 20100040,
+    "Title": "GhostShipLevelName_Text7",
+    "Desc": "GhostShipLevelDesc_Text48",
+    "TargetScore": [
+      1500,
+      2000,
+      2500
+    ],
+    "ScoreStage": [
+      "B",
+      "A",
+      "S"
+    ],
+    "IsHaveBattleScore": false,
+    "OrderIndex": 7
+  },
+  {
+    "Id": 80,
+    "Season": 13,
+    "EndLess": false,
+    "InstIds": [
+      40158,
+      40159
+    ],
+    "PreLevel": [
+      79
+    ],
+    "PassScore": 1000,
+    "LevelPassReward": 20100041,
+    "Title": "GhostShipLevelName_Text8",
+    "Desc": "GhostShipLevelDesc_Text48",
+    "TargetScore": [
+      1500,
+      2000,
+      2500
+    ],
+    "ScoreStage": [
+      "B",
+      "A",
+      "S"
+    ],
+    "IsHaveBattleScore": false,
+    "OrderIndex": 8
+  },
+  {
+    "Id": 81,
+    "Season": 13,
+    "EndLess": false,
+    "InstIds": [
+      40160,
+      40161
+    ],
+    "PreLevel": [
+      80
+    ],
+    "PassScore": 1000,
+    "LevelPassReward": 0,
+    "Title": "GhostShipLevelName_Text9",
+    "Desc": "GhostShipLevelDesc_Text48",
+    "TargetScore": [
+      1500,
+      2500,
+      3500
+    ],
+    "ScoreStage": [
+      "B",
+      "A",
+      "S"
+    ],
+    "IsHaveBattleScore": false,
+    "OrderIndex": 9
+  },
+  {
+    "Id": 82,
+    "Season": 13,
+    "EndLess": false,
+    "InstIds": [
+      40162,
+      40163
+    ],
+    "PreLevel": [
+      80
+    ],
+    "PassScore": 1000,
+    "LevelPassReward": 0,
+    "Title": "GhostShipLevelName_Text10",
+    "Desc": "GhostShipLevelDesc_Text48",
+    "TargetScore": [
+      1500,
+      2500,
+      3500
+    ],
+    "ScoreStage": [
+      "B",
+      "A",
+      "S"
+    ],
+    "IsHaveBattleScore": false,
+    "OrderIndex": 10
+  },
+  {
+    "Id": 83,
+    "Season": 13,
+    "EndLess": false,
+    "InstIds": [
+      40164,
+      40165
+    ],
+    "PreLevel": [
+      80
+    ],
+    "PassScore": 1000,
+    "LevelPassReward": 0,
+    "Title": "GhostShipLevelName_Text11",
+    "Desc": "GhostShipLevelDesc_Text48",
+    "TargetScore": [
+      1500,
+      2500,
+      3500
+    ],
+    "ScoreStage": [
+      "B",
+      "A",
+      "S"
+    ],
+    "IsHaveBattleScore": false,
+    "OrderIndex": 11
+  },
+  {
+    "Id": 84,
+    "Season": 13,
+    "EndLess": true,
+    "InstIds": [
+      40166,
+      40167
+    ],
+    "PreLevel": [
+      81,
+      82,
+      83
+    ],
+    "PassScore": 999999,
+    "LevelPassReward": 0,
+    "Title": "GhostShipLevelName_Text12",
+    "Desc": "GhostShipLevelDesc_Text49",
+    "TargetScore": [
+      3500,
+      4000,
+      4500,
+      5000,
+      5500
+    ],
+    "ScoreStage": [
+      "B",
+      "A",
+      "S",
+      "SS",
+      "SSS"
+    ],
+    "IsHaveBattleScore": false,
+    "OrderIndex": 12
   }
 ]

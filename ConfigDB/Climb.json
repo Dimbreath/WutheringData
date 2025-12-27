@@ -621,5 +621,94 @@
       "Min": 0.0,
       "Max": 239.0
     }
+  },
+  {
+    "Id": "FemaleLinnaiSpecial",
+    "ClimbDetectPoints": [
+      {
+        "X": 0.0,
+        "Y": -30.0,
+        "Z": 45.0
+      },
+      {
+        "X": 0.0,
+        "Y": 30.0,
+        "Z": 45.0
+      },
+      {
+        "X": 0.0,
+        "Y": -30.0,
+        "Z": -20.0
+      },
+      {
+        "X": 0.0,
+        "Y": 30.0,
+        "Z": -20.0
+      }
+    ],
+    "DetectRadius": 20.0,
+    "ClimbRadius": 35.599998474121094,
+    "ClimbFromTop": {
+      "X": -40.0,
+      "Y": 0.0,
+      "Z": -154.0
+    },
+    "ClimbVault": {
+      "X": 46.0,
+      "Y": 0.0,
+      "Z": 72.0
+    },
+    "ClimbOnTop": {
+      "X": 46.0,
+      "Y": 0.0,
+      "Z": 154.0
+    },
+    "VaultRange": {
+      "Min": -30.0,
+      "Max": 45.0
+    },
+    "UpArriveRange": {
+      "Min": -50.0,
+      "Max": 10.0
+    },
+    "ClimbSprintVault": {
+      "X": 116.0,
+      "Y": 0.0,
+      "Z": 92.5
+    },
+    "SprintVaultRange": {
+      "Min": -50.0,
+      "Max": 28.0
+    },
+    "ForwardBlockHeight": 60.0,
+    "ForwardBlockRadius": 25.0,
+    "ForwardBlockDistance": {
+      "Min": 10.0,
+      "Max": 90.0
+    },
+    "SprintVaultLongNeedDistance": 50.0,
+    "SprintVaultLongHeight": 30.0,
+    "SprintVaultLongRange": {
+      "Min": 50.0,
+      "Max": 200.0
+    },
+    "BlockUpOffset": {
+      "X": -37.0,
+      "Y": 0.0,
+      "Z": 161.0
+    },
+    "BlockUpDetectRadius": 20.0,
+    "BlockUpDetectDistance": 150.0,
+    "BlockUpBackDistance": 180.0,
+    "BlockUpBackMinDist": 32.0,
+    "BlockUpFinalMove": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 300.0
+    },
+    "BlockUpVerticalRange": {
+      "Min": 0.0,
+      "Max": 237.0
+    }
   }
 ]

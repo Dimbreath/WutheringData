@@ -16,7 +16,8 @@
     ],
     "MarkId": null,
     "ConditionId": 0,
-    "QuestIdList": null
+    "QuestIdList": null,
+    "Disable": false
   },
   {
     "Id": 3,
@@ -35,7 +36,8 @@
     ],
     "MarkId": null,
     "ConditionId": 0,
-    "QuestIdList": null
+    "QuestIdList": null,
+    "Disable": false
   },
   {
     "Id": 4,
@@ -53,7 +55,8 @@
       880000001,
       880000002,
       880000003
-    ]
+    ],
+    "Disable": false
   },
   {
     "Id": 5,
@@ -72,7 +75,8 @@
     ],
     "MarkId": null,
     "ConditionId": 0,
-    "QuestIdList": null
+    "QuestIdList": null,
+    "Disable": false
   },
   {
     "Id": 8,
@@ -86,7 +90,8 @@
     "MarkIdMap": null,
     "MarkId": null,
     "ConditionId": 0,
-    "QuestIdList": null
+    "QuestIdList": null,
+    "Disable": true
   },
   {
     "Id": 9,
@@ -105,7 +110,8 @@
     ],
     "MarkId": null,
     "ConditionId": 0,
-    "QuestIdList": null
+    "QuestIdList": null,
+    "Disable": false
   },
   {
     "Id": 10,
@@ -124,7 +130,8 @@
     ],
     "MarkId": null,
     "ConditionId": 0,
-    "QuestIdList": null
+    "QuestIdList": null,
+    "Disable": false
   },
   {
     "Id": 11,
@@ -138,7 +145,8 @@
     "MarkIdMap": null,
     "MarkId": null,
     "ConditionId": 0,
-    "QuestIdList": null
+    "QuestIdList": null,
+    "Disable": true
   },
   {
     "Id": 12,
@@ -157,7 +165,8 @@
     ],
     "MarkId": null,
     "ConditionId": 0,
-    "QuestIdList": null
+    "QuestIdList": null,
+    "Disable": false
   },
   {
     "Id": 13,
@@ -176,7 +185,8 @@
     ],
     "MarkId": null,
     "ConditionId": 0,
-    "QuestIdList": null
+    "QuestIdList": null,
+    "Disable": false
   },
   {
     "Id": 14,
@@ -190,7 +200,8 @@
     "MarkIdMap": null,
     "MarkId": null,
     "ConditionId": 0,
-    "QuestIdList": null
+    "QuestIdList": null,
+    "Disable": false
   },
   {
     "Id": 15,
@@ -209,6 +220,47 @@
     ],
     "MarkId": null,
     "ConditionId": 0,
-    "QuestIdList": null
+    "QuestIdList": null,
+    "Disable": false
+  },
+  {
+    "Id": 16,
+    "Type": 1,
+    "MapId": 0,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconMap_Play_50_UI.SP_IconMap_Play_50_UI",
+    "Desc": "MapNote_LaHaiLuoCollect_Desc",
+    "Style": 1,
+    "Priority": 1,
+    "Rank": 2070,
+    "MarkIdMap": [
+      {
+        "Key": 6,
+        "Value": 381036
+      }
+    ],
+    "MarkId": null,
+    "ConditionId": 0,
+    "QuestIdList": null,
+    "Disable": false
+  },
+  {
+    "Id": 17,
+    "Type": 1,
+    "MapId": 0,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Atlas/WorldMapIcon/SP_IconMap_Play_51_UI.SP_IconMap_Play_51_UI",
+    "Desc": "MapNote_RilingCollect_Desc",
+    "Style": 1,
+    "Priority": 1,
+    "Rank": 2080,
+    "MarkIdMap": [
+      {
+        "Key": 7,
+        "Value": 381037
+      }
+    ],
+    "MarkId": null,
+    "ConditionId": 0,
+    "QuestIdList": null,
+    "Disable": false
   }
 ]

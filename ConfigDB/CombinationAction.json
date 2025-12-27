@@ -3,7 +3,10 @@
     "Id": 1,
     "ActionName": "幻象1",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": null,
+    "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftShoulder",
@@ -14,13 +17,18 @@
     "MobileIconPath": "",
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 3,
     "ActionName": "切换角色4",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": null,
+    "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftShoulder",
@@ -31,13 +39,18 @@
     "MobileIconPath": "",
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 2,
     "ActionName": "瞄准",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": null,
+    "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftShoulder",
@@ -48,13 +61,18 @@
     "MobileIconPath": "",
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 4,
     "ActionName": "ZoomIn",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": null,
+    "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftShoulder",
@@ -65,13 +83,18 @@
     "MobileIconPath": "",
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 5,
     "ActionName": "ZoomOut",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": null,
+    "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftShoulder",
@@ -82,13 +105,18 @@
     "MobileIconPath": "",
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 6,
     "ActionName": "任务追踪",
     "ActionType": 2,
+    "ExclusiveType": 0,
     "PcKeys": null,
+    "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftShoulder",
@@ -99,13 +127,18 @@
     "MobileIconPath": "",
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 7,
     "ActionName": "玩法放弃",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": null,
+    "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftThumbstick",
@@ -116,13 +149,18 @@
     "MobileIconPath": "",
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 8,
     "ActionName": "环境特性",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": null,
+    "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftShoulder",
@@ -133,13 +171,18 @@
     "MobileIconPath": "",
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 9,
     "ActionName": "GM指令",
     "ActionType": 3,
+    "ExclusiveType": 0,
     "PcKeys": null,
+    "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_Special_Left",
@@ -154,13 +197,23 @@
     "MobileIconPath": "",
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 1
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 1,
+    "GamepadVersionMap": [
+      {
+        "Key": 0,
+        "Value": 1
+      }
+    ]
   },
   {
     "Id": 10,
     "ActionName": "重新挑战",
     "ActionType": 2,
+    "ExclusiveType": 0,
     "PcKeys": null,
+    "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftShoulder",
@@ -171,13 +224,28 @@
     "MobileIconPath": "",
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 11,
     "ActionName": "退出精简模式",
     "ActionType": 2,
+    "ExclusiveType": 0,
     "PcKeys": [
+      {
+        "Key": "LeftAlt",
+        "Value": "C"
+      }
+    ],
+    "FrancePcKeys": [
+      {
+        "Key": "LeftAlt",
+        "Value": "C"
+      }
+    ],
+    "ThaiPcKeys": [
       {
         "Key": "LeftAlt",
         "Value": "C"
@@ -193,13 +261,18 @@
     "MobileIconPath": "",
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 12,
     "ActionName": "退出精简模式PC触摸板",
     "ActionType": 2,
+    "ExclusiveType": 0,
     "PcKeys": null,
+    "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftShoulder",
@@ -210,13 +283,18 @@
     "MobileIconPath": "",
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 14,
     "ActionName": "割草BUFF信息",
     "ActionType": 2,
+    "ExclusiveType": 0,
     "PcKeys": null,
+    "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_Special_Left",
@@ -227,13 +305,18 @@
     "MobileIconPath": "",
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 15,
     "ActionName": "割草BUFF信息PC触摸板",
     "ActionType": 2,
+    "ExclusiveType": 0,
     "PcKeys": null,
+    "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "GenericUSBController_Button14",
@@ -244,13 +327,18 @@
     "MobileIconPath": "",
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 16,
     "ActionName": "Link大招",
     "ActionType": 1,
+    "ExclusiveType": 0,
     "PcKeys": null,
+    "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftThumbstick",
@@ -261,13 +349,18 @@
     "MobileIconPath": "",
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   },
   {
     "Id": 18,
     "ActionName": "组合菜单键",
     "ActionType": 4,
+    "ExclusiveType": 0,
     "PcKeys": null,
+    "FrancePcKeys": null,
+    "ThaiPcKeys": null,
     "GamepadKeys": [
       {
         "Key": "Gamepad_LeftShoulder",
@@ -278,6 +371,118 @@
     "MobileIconPath": "",
     "DisplayName": "",
     "KeyboardVersion": 0,
-    "GamepadVersion": 0
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 20,
+    "ActionName": "载具探索工具",
+    "ActionType": 1,
+    "ExclusiveType": 1,
+    "PcKeys": null,
+    "FrancePcKeys": null,
+    "ThaiPcKeys": null,
+    "GamepadKeys": [
+      {
+        "Key": "Gamepad_LeftShoulder",
+        "Value": "Gamepad_FaceButton_Top"
+      }
+    ],
+    "SecondaryKeyValidTime": -1,
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 21,
+    "ActionName": "载具音乐上一首",
+    "ActionType": 1,
+    "ExclusiveType": 1,
+    "PcKeys": null,
+    "FrancePcKeys": null,
+    "ThaiPcKeys": null,
+    "GamepadKeys": [
+      {
+        "Key": "Gamepad_LeftShoulder",
+        "Value": "Gamepad_DPad_Left"
+      }
+    ],
+    "SecondaryKeyValidTime": -1,
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 22,
+    "ActionName": "载具音乐下一首",
+    "ActionType": 1,
+    "ExclusiveType": 1,
+    "PcKeys": null,
+    "FrancePcKeys": null,
+    "ThaiPcKeys": null,
+    "GamepadKeys": [
+      {
+        "Key": "Gamepad_LeftShoulder",
+        "Value": "Gamepad_DPad_Right"
+      }
+    ],
+    "SecondaryKeyValidTime": -1,
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 23,
+    "ActionName": "载具音乐播放暂停",
+    "ActionType": 1,
+    "ExclusiveType": 1,
+    "PcKeys": null,
+    "FrancePcKeys": null,
+    "ThaiPcKeys": null,
+    "GamepadKeys": [
+      {
+        "Key": "Gamepad_LeftShoulder",
+        "Value": "Gamepad_DPad_Up"
+      }
+    ],
+    "SecondaryKeyValidTime": -1,
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
+  },
+  {
+    "Id": 24,
+    "ActionName": "载具视角切换",
+    "ActionType": 1,
+    "ExclusiveType": 1,
+    "PcKeys": null,
+    "FrancePcKeys": null,
+    "ThaiPcKeys": null,
+    "GamepadKeys": [
+      {
+        "Key": "Gamepad_LeftShoulder",
+        "Value": "Gamepad_FaceButton_Left"
+      }
+    ],
+    "SecondaryKeyValidTime": -1,
+    "MobileIconPath": "",
+    "DisplayName": "",
+    "KeyboardVersion": 0,
+    "KeyboardVersionMap": null,
+    "GamepadVersion": 0,
+    "GamepadVersionMap": null
   }
 ]

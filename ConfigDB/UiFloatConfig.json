@@ -972,6 +972,33 @@
     "HideInPureMode": false
   },
   {
+    "ViewName": "PhoneMsgTipViewA",
+    "Area": "Bottom",
+    "Priority": 99,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 2,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "PhoneMsgTipViewB",
+    "Area": "Bottom",
+    "Priority": 99,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 2,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "MotorcycleCountDownView",
+    "Area": "CountDown",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
     "ViewName": "HonamiStoryNewTipsView",
     "Area": "HonamiTips",
     "Priority": 0,
@@ -979,5 +1006,104 @@
     "RootItemIndex": 0,
     "IsWaitNormal": true,
     "HideInPureMode": false
+  },
+  {
+    "ViewName": "RoadBookLevelTipsView",
+    "Area": "Top",
+    "Priority": 5,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "MotorParkourTimerView",
+    "Area": "CountDown",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "ActivityUnlockTipRoadBookView",
+    "Area": "Top",
+    "Priority": 20,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "PhoneMsgPanelViewSmall",
+    "Area": "Bottom",
+    "Priority": 99,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 2,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "LevelGamePlayMotorPrepareCountDown",
+    "Area": "Top",
+    "Priority": 5,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "MotorMusicNewMusicTips",
+    "Area": "Bottom",
+    "Priority": 98,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 1,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "InfrOpeningTipsView",
+    "Area": "Top",
+    "Priority": 20,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "VisionSettlementFloatTips",
+    "Area": "Top",
+    "Priority": 20,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "PanoramicPointUnlockTipsView",
+    "Area": "Bottom",
+    "Priority": 98,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "MotorParkourBattleView",
+    "Area": "MotorParkourBattleView",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": false
+  },
+  {
+    "ViewName": "MotorcycleRailMoveView",
+    "Area": "Control",
+    "Priority": 0,
+    "OnlyShowInMain": true,
+    "RootItemIndex": 0,
+    "IsWaitNormal": true,
+    "HideInPureMode": true
   }
 ]

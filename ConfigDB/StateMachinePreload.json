@@ -71,6 +71,18 @@
   },
   {
     "Id": 6,
+    "FsmKey": "SM_BeHit_LinNai",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 7,
     "FsmKey": "SM_Common",
     "ActorClass": null,
     "Animations": null,
@@ -98,11 +110,12 @@
       "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breacher_Moster_Buff_Box_Small.DA_Fx_Group_Breacher_Moster_Buff_Box_Small",
       "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breacher_Moster_Buff_Box_Middle.DA_Fx_Group_Breacher_Moster_Buff_Box_Middle",
       "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breacher_Moster_Buff_Box_Big.DA_Fx_Group_Breacher_Moster_Buff_Box_Big",
-      "/Game/Aki/Effect/MaterialController/Common/DA_Fx_Breacher_Moster_Buff_Explode.DA_Fx_Breacher_Moster_Buff_Explode"
+      "/Game/Aki/Effect/MaterialController/Common/DA_Fx_Breacher_Moster_Buff_Explode.DA_Fx_Breacher_Moster_Buff_Explode",
+      "/Game/Aki/Effect/EffectGroup/BigWorld/LHL/DA_Fx_Group_Sl2_LHL_Cibao_Loop.DA_Fx_Group_Sl2_LHL_Cibao_Loop"
     ]
   },
   {
-    "Id": 7,
+    "Id": 8,
     "FsmKey": "SM_Common_BVB",
     "ActorClass": null,
     "Animations": null,
@@ -112,12 +125,14 @@
     "Materials": null,
     "AnimationBlueprints": null,
     "Others": [
+      "/Game/Aki/Effect/DataAsset/SkeletalMesh/ML1HaiYaoMd00601/DA_Fx_Mesh_MLa_HaiYao_Huan.DA_Fx_Mesh_MLa_HaiYao_Huan",
+      "/Game/Aki/Effect/MaterialController/DA_Lord/ME1ZhuiLieZheMd00601/DA_Fx_ZhuiLieZhe_MEs_Group_Yinshen.DA_Fx_ZhuiLieZhe_MEs_Group_Yinshen",
       "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_CommonBornSmoke.DA_Fx_Group_CommonBornSmoke",
       "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born"
     ]
   },
   {
-    "Id": 8,
+    "Id": 9,
     "FsmKey": "SM_Common_Didi_JiyanInstance",
     "ActorClass": null,
     "Animations": null,
@@ -129,7 +144,7 @@
     "Others": null
   },
   {
-    "Id": 9,
+    "Id": 10,
     "FsmKey": "SM_JiaoHuang_DH",
     "ActorClass": null,
     "Animations": null,
@@ -141,7 +156,7 @@
     "Others": null
   },
   {
-    "Id": 10,
+    "Id": 11,
     "FsmKey": "SM_JiaoHuang_Light",
     "ActorClass": null,
     "Animations": null,
@@ -153,7 +168,7 @@
     "Others": null
   },
   {
-    "Id": 11,
+    "Id": 12,
     "FsmKey": "SM_JiaoHuang_SS",
     "ActorClass": null,
     "Animations": null,
@@ -168,7 +183,7 @@
     ]
   },
   {
-    "Id": 12,
+    "Id": 13,
     "FsmKey": "SM_MB1FuludelisiMd00401",
     "ActorClass": null,
     "Animations": null,
@@ -180,7 +195,7 @@
     "Others": null
   },
   {
-    "Id": 13,
+    "Id": 14,
     "FsmKey": "SM_MB1FuludelisiMd00411",
     "ActorClass": null,
     "Animations": null,
@@ -195,7 +210,7 @@
     ]
   },
   {
-    "Id": 14,
+    "Id": 15,
     "FsmKey": "SM_MB1FuludelisiMd00411_FenShen",
     "ActorClass": null,
     "Animations": null,
@@ -207,7 +222,7 @@
     "Others": null
   },
   {
-    "Id": 15,
+    "Id": 16,
     "FsmKey": "SM_MB1HecateMd00601",
     "ActorClass": null,
     "Animations": null,
@@ -222,7 +237,7 @@
     ]
   },
   {
-    "Id": 16,
+    "Id": 17,
     "FsmKey": "SM_MB1HecateMd00601_DaoGuan",
     "ActorClass": null,
     "Animations": null,
@@ -239,7 +254,7 @@
     ]
   },
   {
-    "Id": 17,
+    "Id": 18,
     "FsmKey": "SM_MB1HecateMd00611_DaoGuan",
     "ActorClass": null,
     "Animations": null,
@@ -254,7 +269,7 @@
     ]
   },
   {
-    "Id": 18,
+    "Id": 19,
     "FsmKey": "SM_MB1KatixiyaMd00201",
     "ActorClass": null,
     "Animations": null,
@@ -266,7 +281,7 @@
     "Others": null
   },
   {
-    "Id": 19,
+    "Id": 20,
     "FsmKey": "SM_MB1MingzhongzhiguiMd00201",
     "ActorClass": null,
     "Animations": null,
@@ -286,7 +301,7 @@
     ]
   },
   {
-    "Id": 20,
+    "Id": 21,
     "FsmKey": "SM_MB1MingzhongzhiguiMd00201_HuoDong",
     "ActorClass": null,
     "Animations": null,
@@ -306,7 +321,7 @@
     ]
   },
   {
-    "Id": 21,
+    "Id": 22,
     "FsmKey": "SM_MB1Wuguanzhe00601",
     "ActorClass": null,
     "Animations": null,
@@ -325,7 +340,7 @@
     ]
   },
   {
-    "Id": 22,
+    "Id": 23,
     "FsmKey": "SM_MB1Wuguanzhe00601_InZhenShenBOSSFight",
     "ActorClass": null,
     "Animations": null,
@@ -344,7 +359,7 @@
     ]
   },
   {
-    "Id": 23,
+    "Id": 24,
     "FsmKey": "SM_MB1Wuguanzhe00601_Layer3",
     "ActorClass": null,
     "Animations": null,
@@ -364,7 +379,7 @@
     ]
   },
   {
-    "Id": 24,
+    "Id": 25,
     "FsmKey": "SM_MB1Wuguanzhe00601_Layer3_DaMao",
     "ActorClass": null,
     "Animations": null,
@@ -384,7 +399,59 @@
     ]
   },
   {
-    "Id": 25,
+    "Id": 26,
+    "FsmKey": "SM_MB1Wuguanzhe00601_RuoDian",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Effect/EffectGroup/MB1Wuguanzhe00601/DA_Fx_Group_L2_MBa05_Buffglowshenti.DA_Fx_Group_L2_MBa05_Buffglowshenti",
+      "/Game/Aki/Effect/EffectGroup/MB1Wuguanzhe00601/DA_Fx_Group_L2_MBa05_Trail04.DA_Fx_Group_L2_MBa05_Trail04",
+      "/Game/Aki/Effect/EffectGroup/MB1Wuguanzhe00601/DA_Fx_Group_L2_MBa05_Buffwuqi.DA_Fx_Group_L2_MBa05_Buffwuqi",
+      "/Game/Aki/Effect/EffectGroup/MB1Wuguanzhe00601/DA_Fx_Group_L2_MBa05_Buffyumao.DA_Fx_Group_L2_MBa05_Buffyumao",
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born"
+    ]
+  },
+  {
+    "Id": 27,
+    "FsmKey": "SM_MB1XinjiLemuMd10011",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 28,
+    "FsmKey": "SM_MB1ZhenwuguanzheMd00601_Daoguan",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_CommonBornSmoke.DA_Fx_Group_CommonBornSmoke",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born",
+      "/Game/Aki/Effect/EffectGroup/MB1ZhenwuguanzheMd00601/L2/DA_Fx_Group_MBa_S2_Head.DA_Fx_Group_MBa_S2_Head",
+      "/Game/Aki/Effect/EffectGroup/MB1ZhenwuguanzheMd00601/L2/DA_Fx_Group_MBa_S2_Ham.DA_Fx_Group_MBa_S2_Ham",
+      "/Game/Aki/Effect/EffectGroup/MB1ZhenwuguanzheMd00601/L2/DA_Fx_Group_MBa_S2_Buff.DA_Fx_Group_MBa_S2_Buff"
+    ]
+  },
+  {
+    "Id": 29,
     "FsmKey": "SM_MB1ZhenwuguanzheMd00601_Layer3",
     "ActorClass": null,
     "Animations": null,
@@ -396,7 +463,7 @@
     "Others": null
   },
   {
-    "Id": 26,
+    "Id": 30,
     "FsmKey": "SM_MB1ZhenwuguanzheMd00601_Layer3_MainQuest",
     "ActorClass": null,
     "Animations": null,
@@ -411,7 +478,7 @@
     ]
   },
   {
-    "Id": 27,
+    "Id": 31,
     "FsmKey": "SM_MB1ZhenwuguanzheMd00601__Fushua",
     "ActorClass": null,
     "Animations": null,
@@ -430,7 +497,7 @@
     ]
   },
   {
-    "Id": 28,
+    "Id": 32,
     "FsmKey": "SM_MB1ZhenwuguanzheMd00601__Fushua_Link",
     "ActorClass": null,
     "Animations": null,
@@ -449,7 +516,7 @@
     ]
   },
   {
-    "Id": 29,
+    "Id": 33,
     "FsmKey": "SM_MB1ZhenwuguanzheMd00612",
     "ActorClass": null,
     "Animations": null,
@@ -461,7 +528,7 @@
     "Others": null
   },
   {
-    "Id": 30,
+    "Id": 34,
     "FsmKey": "SM_MB1ZhenwuguanzheMd00612_2",
     "ActorClass": null,
     "Animations": null,
@@ -473,7 +540,7 @@
     "Others": null
   },
   {
-    "Id": 31,
+    "Id": 35,
     "FsmKey": "SM_MB1ZhenwuguanzheMd00613",
     "ActorClass": null,
     "Animations": null,
@@ -485,7 +552,19 @@
     "Others": null
   },
   {
-    "Id": 32,
+    "Id": 36,
+    "FsmKey": "SM_MB1ZhenwuguanzheMd00613_Daoguan",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 37,
     "FsmKey": "SM_MB1ZhenwuguanzheMd00613_QTE",
     "ActorClass": null,
     "Animations": null,
@@ -497,7 +576,7 @@
     "Others": null
   },
   {
-    "Id": 33,
+    "Id": 38,
     "FsmKey": "SM_ME1AntankeMd00601",
     "ActorClass": null,
     "Animations": null,
@@ -509,7 +588,7 @@
     "Others": null
   },
   {
-    "Id": 34,
+    "Id": 39,
     "FsmKey": "SM_ME1AntankeMd00601_Guide",
     "ActorClass": null,
     "Animations": null,
@@ -526,7 +605,19 @@
     ]
   },
   {
-    "Id": 35,
+    "Id": 40,
+    "FsmKey": "SM_ME1BaoxiangguaiMd10501",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 41,
     "FsmKey": "SM_ME1BaoZiMd00001",
     "ActorClass": null,
     "Animations": null,
@@ -538,7 +629,7 @@
     "Others": null
   },
   {
-    "Id": 36,
+    "Id": 42,
     "FsmKey": "SM_ME1BingPaoTaiMd00201",
     "ActorClass": null,
     "Animations": null,
@@ -550,7 +641,7 @@
     "Others": null
   },
   {
-    "Id": 37,
+    "Id": 43,
     "FsmKey": "SM_ME1ChaoshengMd00401",
     "ActorClass": null,
     "Animations": null,
@@ -565,7 +656,7 @@
     ]
   },
   {
-    "Id": 38,
+    "Id": 44,
     "FsmKey": "SM_ME1ChaoshengMd00401_2",
     "ActorClass": null,
     "Animations": null,
@@ -580,7 +671,7 @@
     ]
   },
   {
-    "Id": 39,
+    "Id": 45,
     "FsmKey": "SM_ME1ChaoshengMd00401_LevelSpecial",
     "ActorClass": null,
     "Animations": null,
@@ -595,7 +686,7 @@
     ]
   },
   {
-    "Id": 40,
+    "Id": 46,
     "FsmKey": "SM_ME1ChaoshengMd00401_rhythm",
     "ActorClass": null,
     "Animations": null,
@@ -612,7 +703,7 @@
     ]
   },
   {
-    "Id": 41,
+    "Id": 47,
     "FsmKey": "SM_ME1ChaoshengMd00401_Sum",
     "ActorClass": null,
     "Animations": null,
@@ -626,7 +717,7 @@
     ]
   },
   {
-    "Id": 42,
+    "Id": 48,
     "FsmKey": "SM_ME1DabuouMd00001",
     "ActorClass": null,
     "Animations": null,
@@ -638,7 +729,7 @@
     "Others": null
   },
   {
-    "Id": 43,
+    "Id": 49,
     "FsmKey": "SM_ME1DabuouMd00001taofabaogao",
     "ActorClass": null,
     "Animations": null,
@@ -650,7 +741,7 @@
     "Others": null
   },
   {
-    "Id": 44,
+    "Id": 50,
     "FsmKey": "SM_ME1DuguizuMd00201",
     "ActorClass": null,
     "Animations": null,
@@ -662,7 +753,7 @@
     "Others": null
   },
   {
-    "Id": 45,
+    "Id": 51,
     "FsmKey": "SM_ME1DuguizuMd00201_sanchongtajianyi",
     "ActorClass": null,
     "Animations": null,
@@ -674,7 +765,7 @@
     "Others": null
   },
   {
-    "Id": 46,
+    "Id": 52,
     "FsmKey": "SM_ME1DuguizuMd00202_sanchongta",
     "ActorClass": null,
     "Animations": null,
@@ -689,7 +780,7 @@
     ]
   },
   {
-    "Id": 47,
+    "Id": 53,
     "FsmKey": "SM_ME1DuguizuMd00211",
     "ActorClass": null,
     "Animations": null,
@@ -701,7 +792,7 @@
     "Others": null
   },
   {
-    "Id": 48,
+    "Id": 54,
     "FsmKey": "SM_ME1DuguizuMd00211_sanchongta",
     "ActorClass": null,
     "Animations": null,
@@ -713,19 +804,7 @@
     "Others": null
   },
   {
-    "Id": 49,
-    "FsmKey": "SM_ME1DuguizuMd00221",
-    "ActorClass": null,
-    "Animations": null,
-    "Effects": null,
-    "Audios": null,
-    "Meshes": null,
-    "Materials": null,
-    "AnimationBlueprints": null,
-    "Others": null
-  },
-  {
-    "Id": 50,
+    "Id": 55,
     "FsmKey": "SM_ME1DuguizuMd00221_sanchongta",
     "ActorClass": null,
     "Animations": null,
@@ -737,7 +816,7 @@
     "Others": null
   },
   {
-    "Id": 51,
+    "Id": 56,
     "FsmKey": "SM_ME1DuguizuMd00221_sanchongtazhenchang",
     "ActorClass": null,
     "Animations": null,
@@ -749,7 +828,7 @@
     "Others": null
   },
   {
-    "Id": 52,
+    "Id": 57,
     "FsmKey": "SM_ME1FengrenlianMd00401",
     "ActorClass": null,
     "Animations": null,
@@ -761,7 +840,7 @@
     "Others": null
   },
   {
-    "Id": 53,
+    "Id": 58,
     "FsmKey": "SM_ME1GuangtankeMd00501",
     "ActorClass": null,
     "Animations": null,
@@ -773,7 +852,7 @@
     "Others": null
   },
   {
-    "Id": 54,
+    "Id": 59,
     "FsmKey": "SM_ME1GuangtankeMd00501_2",
     "ActorClass": null,
     "Animations": null,
@@ -785,7 +864,7 @@
     "Others": null
   },
   {
-    "Id": 55,
+    "Id": 60,
     "FsmKey": "SM_ME1GuguhetunMd00201_AnKeTask",
     "ActorClass": null,
     "Animations": null,
@@ -797,7 +876,7 @@
     "Others": null
   },
   {
-    "Id": 56,
+    "Id": 61,
     "FsmKey": "SM_ME1HuoJueDouShiMd00101_2",
     "ActorClass": null,
     "Animations": null,
@@ -812,7 +891,7 @@
     ]
   },
   {
-    "Id": 57,
+    "Id": 62,
     "FsmKey": "SM_ME1JiancuxiongMd00001_Pai",
     "ActorClass": null,
     "Animations": null,
@@ -824,19 +903,7 @@
     "Others": null
   },
   {
-    "Id": 58,
-    "FsmKey": "SM_ME1JingNiaoMd00401",
-    "ActorClass": null,
-    "Animations": null,
-    "Effects": null,
-    "Audios": null,
-    "Meshes": null,
-    "Materials": null,
-    "AnimationBlueprints": null,
-    "Others": null
-  },
-  {
-    "Id": 59,
+    "Id": 63,
     "FsmKey": "SM_ME1JTJunTuanZhangMd00501",
     "ActorClass": null,
     "Animations": null,
@@ -848,7 +915,7 @@
     "Others": null
   },
   {
-    "Id": 60,
+    "Id": 64,
     "FsmKey": "SM_ME1JTJunTuanZhangMd00501_QiuYuan",
     "ActorClass": null,
     "Animations": null,
@@ -860,7 +927,7 @@
     "Others": null
   },
   {
-    "Id": 61,
+    "Id": 65,
     "FsmKey": "SM_ME1JTJunTuanZhangMd00501_rhythm",
     "ActorClass": null,
     "Animations": null,
@@ -875,7 +942,7 @@
     ]
   },
   {
-    "Id": 62,
+    "Id": 66,
     "FsmKey": "SM_ME1JTJunTuanZhangMd00501_SpBorn",
     "ActorClass": null,
     "Animations": null,
@@ -890,7 +957,7 @@
     ]
   },
   {
-    "Id": 63,
+    "Id": 67,
     "FsmKey": "SM_ME1JTJunTuanZhangMd00501_Sum",
     "ActorClass": null,
     "Animations": null,
@@ -904,7 +971,7 @@
     ]
   },
   {
-    "Id": 64,
+    "Id": 68,
     "FsmKey": "SM_ME1JTJunTuanZhangMd00501_TaskUnDead",
     "ActorClass": null,
     "Animations": null,
@@ -919,7 +986,7 @@
     ]
   },
   {
-    "Id": 65,
+    "Id": 69,
     "FsmKey": "SM_ME1LeiFaMd00301_2",
     "ActorClass": null,
     "Animations": null,
@@ -931,7 +998,7 @@
     "Others": null
   },
   {
-    "Id": 66,
+    "Id": 70,
     "FsmKey": "SM_ME1LeiJueDouShiMd00301",
     "ActorClass": null,
     "Animations": null,
@@ -943,7 +1010,7 @@
     "Others": null
   },
   {
-    "Id": 67,
+    "Id": 71,
     "FsmKey": "SM_ME1LiufanggongmingMd00501",
     "ActorClass": null,
     "Animations": null,
@@ -955,7 +1022,7 @@
     "Others": null
   },
   {
-    "Id": 68,
+    "Id": 72,
     "FsmKey": "SM_ME1LiufangzheleaderMd00601",
     "ActorClass": null,
     "Animations": null,
@@ -969,7 +1036,7 @@
     ]
   },
   {
-    "Id": 69,
+    "Id": 73,
     "FsmKey": "SM_ME1LiulidaolingMd00301",
     "ActorClass": null,
     "Animations": null,
@@ -984,7 +1051,7 @@
     ]
   },
   {
-    "Id": 70,
+    "Id": 74,
     "FsmKey": "SM_ME1LiulidaolingMd00301_JinKu",
     "ActorClass": null,
     "Animations": null,
@@ -1001,7 +1068,7 @@
     ]
   },
   {
-    "Id": 71,
+    "Id": 75,
     "FsmKey": "SM_ME1LiulidaolingMd00301_Shanguang",
     "ActorClass": null,
     "Animations": null,
@@ -1016,7 +1083,37 @@
     ]
   },
   {
-    "Id": 72,
+    "Id": 76,
+    "FsmKey": "SM_ME1MiLu1Md00401",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Effect/EffectGroup/ME1SheNiuMd00101/DA_Fx_Group_SheNiu_Break_Loop1.DA_Fx_Group_SheNiu_Break_Loop1",
+      "/Game/Aki/Effect/EffectGroup/ME1MiLu2Md00301/DA_Fx_Group_MiLu_BehitSP.DA_Fx_Group_MiLu_BehitSP"
+    ]
+  },
+  {
+    "Id": 77,
+    "FsmKey": "SM_ME1MiLu2Md00301",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Effect/EffectGroup/ME1SheNiuMd00101/DA_Fx_Group_SheNiu_Break_Loop1.DA_Fx_Group_SheNiu_Break_Loop1",
+      "/Game/Aki/Effect/EffectGroup/ME1MiLu2Md00301/DA_Fx_Group_MiLu_BehitSP.DA_Fx_Group_MiLu_BehitSP"
+    ]
+  },
+  {
+    "Id": 78,
     "FsmKey": "SM_ME1QifuouMd00101_fengche",
     "ActorClass": null,
     "Animations": null,
@@ -1028,7 +1125,7 @@
     "Others": null
   },
   {
-    "Id": 73,
+    "Id": 79,
     "FsmKey": "SM_ME1QifuouMd00101_migong",
     "ActorClass": null,
     "Animations": null,
@@ -1040,7 +1137,7 @@
     "Others": null
   },
   {
-    "Id": 74,
+    "Id": 80,
     "FsmKey": "SM_ME1QunJingMd00001_Chong",
     "ActorClass": null,
     "Animations": null,
@@ -1052,7 +1149,7 @@
     "Others": null
   },
   {
-    "Id": 75,
+    "Id": 81,
     "FsmKey": "SM_ME1QunJingMd00501",
     "ActorClass": null,
     "Animations": null,
@@ -1064,7 +1161,7 @@
     "Others": null
   },
   {
-    "Id": 76,
+    "Id": 82,
     "FsmKey": "SM_ME1QunJingMd00501_Task",
     "ActorClass": null,
     "Animations": null,
@@ -1076,7 +1173,34 @@
     "Others": null
   },
   {
-    "Id": 77,
+    "Id": 83,
+    "FsmKey": "SM_ME1SheNiuMd00101",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Effect/EffectGroup/ME1SheNiuMd00101/DA_Fx_Group_SheNiu_Break_Horn.DA_Fx_Group_SheNiu_Break_Horn",
+      "/Game/Aki/Effect/EffectGroup/ME1SheNiuMd00101/DA_Fx_Group_SheNiu_Break_Loop1.DA_Fx_Group_SheNiu_Break_Loop1"
+    ]
+  },
+  {
+    "Id": 84,
+    "FsmKey": "SM_ME1ShenJiaMd00401",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 85,
     "FsmKey": "SM_ME1ShihuaxiMd00101",
     "ActorClass": null,
     "Animations": null,
@@ -1088,19 +1212,7 @@
     "Others": null
   },
   {
-    "Id": 78,
-    "FsmKey": "SM_ME1ShuimuguMd00601",
-    "ActorClass": null,
-    "Animations": null,
-    "Effects": null,
-    "Audios": null,
-    "Meshes": null,
-    "Materials": null,
-    "AnimationBlueprints": null,
-    "Others": null
-  },
-  {
-    "Id": 79,
+    "Id": 86,
     "FsmKey": "SM_ME1SiXiaoMd00201",
     "ActorClass": null,
     "Animations": null,
@@ -1112,7 +1224,7 @@
     "Others": null
   },
   {
-    "Id": 80,
+    "Id": 87,
     "FsmKey": "SM_ME1SiXiaoMd00601",
     "ActorClass": null,
     "Animations": null,
@@ -1124,7 +1236,22 @@
     "Others": null
   },
   {
-    "Id": 81,
+    "Id": 88,
+    "FsmKey": "SM_ME1TanSuiZhongJiMd00301",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Effect/EffectGroup/ME1TanSuiZhongJiMd00301/DA_Fx_Group_TanSuiZhongJi_MEa_Paralysis_Loop.DA_Fx_Group_TanSuiZhongJi_MEa_Paralysis_Loop",
+      "/Game/Aki/Effect/EffectGroup/ME1TanSuiZhongJiMd00301/DA_Fx_Group_TanSuiZhongJi_MEa_PartBreak_BaoZha01_Loop.DA_Fx_Group_TanSuiZhongJi_MEa_PartBreak_BaoZha01_Loop"
+    ]
+  },
+  {
+    "Id": 89,
     "FsmKey": "SM_ME1YouLinJiShuMd00201",
     "ActorClass": null,
     "Animations": null,
@@ -1141,7 +1268,60 @@
     ]
   },
   {
-    "Id": 82,
+    "Id": 90,
+    "FsmKey": "SM_ME1ZhuiLieZheMd00101",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Effect/EffectGroup/ME1ZhuiLieZheMd00601/DA_Fx_Group_ZhuiLieZhe_MEa_Lightning.DA_Fx_Group_ZhuiLieZhe_MEa_Lightning"
+    ]
+  },
+  {
+    "Id": 91,
+    "FsmKey": "SM_ME1ZhuiLieZheMd001011",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 92,
+    "FsmKey": "SM_ME1ZhuiLieZheMd00601",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Effect/MaterialController/DA_Lord/ME1ZhuiLieZheMd00601/DA_Fx_ZhuiLieZhe_MEs_Group_Yinshen.DA_Fx_ZhuiLieZhe_MEs_Group_Yinshen",
+      "/Game/Aki/Effect/EffectGroup/ME1ZhuiLieZheMd00601/DA_Fx_Group_ZhuiLieZhe_MEa_Lightning.DA_Fx_Group_ZhuiLieZhe_MEa_Lightning"
+    ]
+  },
+  {
+    "Id": 93,
+    "FsmKey": "SM_METanSuiZhongJiMd00301",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 94,
     "FsmKey": "SM_ML1AiShengGuYuanMd00501",
     "ActorClass": null,
     "Animations": null,
@@ -1157,7 +1337,7 @@
     ]
   },
   {
-    "Id": 83,
+    "Id": 95,
     "FsmKey": "SM_ML1AogusitaMd00101",
     "ActorClass": null,
     "Animations": null,
@@ -1169,7 +1349,7 @@
     "Others": null
   },
   {
-    "Id": 84,
+    "Id": 96,
     "FsmKey": "SM_ML1AogusitaMd00101_Fushua",
     "ActorClass": null,
     "Animations": null,
@@ -1181,7 +1361,7 @@
     "Others": null
   },
   {
-    "Id": 85,
+    "Id": 97,
     "FsmKey": "SM_ML1FerLianMd00201",
     "ActorClass": null,
     "Animations": null,
@@ -1197,7 +1377,7 @@
     ]
   },
   {
-    "Id": 86,
+    "Id": 98,
     "FsmKey": "SM_ML1GuLongMd00101",
     "ActorClass": null,
     "Animations": null,
@@ -1214,7 +1394,7 @@
     ]
   },
   {
-    "Id": 87,
+    "Id": 99,
     "FsmKey": "SM_ML1HaiYaoMd00601",
     "ActorClass": null,
     "Animations": null,
@@ -1231,7 +1411,7 @@
     ]
   },
   {
-    "Id": 88,
+    "Id": 100,
     "FsmKey": "SM_ML1HuiYingMd00101",
     "ActorClass": null,
     "Animations": null,
@@ -1247,7 +1427,7 @@
     ]
   },
   {
-    "Id": 89,
+    "Id": 101,
     "FsmKey": "SM_ML1HuiYingMd00101_New",
     "ActorClass": null,
     "Animations": null,
@@ -1259,7 +1439,7 @@
     "Others": null
   },
   {
-    "Id": 90,
+    "Id": 102,
     "FsmKey": "SM_ML1HypatiaMd00501",
     "ActorClass": null,
     "Animations": null,
@@ -1268,10 +1448,22 @@
     "Meshes": null,
     "Materials": null,
     "AnimationBlueprints": null,
-    "Others": null
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking",
+      "/Game/Aki/Effect/EffectGroup/ML1HypatiaMd00501/DA_Fx_Group_Hypatia_MLa_Xiongkou.DA_Fx_Group_Hypatia_MLa_Xiongkou",
+      "/Game/Aki/Effect/EffectGroup/ML1HypatiaMd00501/DA_Fx_Group_Hypatia_MLa_Guangjian.DA_Fx_Group_Hypatia_MLa_Guangjian",
+      "/Game/Aki/Effect/EffectGroup/ML1HypatiaMd00501/DA_Fx_Group_Hypatia_MLa_DianliuL.DA_Fx_Group_Hypatia_MLa_DianliuL",
+      "/Game/Aki/Effect/EffectGroup/ML1HypatiaMd00501/DA_Fx_Group_Hypatia_MLa_DianliuR.DA_Fx_Group_Hypatia_MLa_DianliuR",
+      "/Game/Aki/Effect/EffectGroup/ML1HypatiaMd00501/DA_Fx_Group_Hypatia_MLa_Tuijingqi.DA_Fx_Group_Hypatia_MLa_Tuijingqi",
+      "/Game/Aki/Effect/EffectGroup/ML1HypatiaMd00501/DA_Fx_Group_Hypatia_MLa_Yanjing.DA_Fx_Group_Hypatia_MLa_Yanjing",
+      "/Game/Aki/Effect/EffectGroup/ML1HypatiaMd00501/DA_Fx_Group_Hypatia_MLa_pao.DA_Fx_Group_Hypatia_MLa_pao",
+      "/Game/Aki/Effect/EffectGroup/ML1HypatiaMd00501/DA_Fx_Group_PatyolToFight_Hypatia_MLa_Zhao.DA_Fx_Group_PatyolToFight_Hypatia_MLa_Zhao",
+      "/Game/Aki/Effect/EffectGroup/Scenes/3_0/3_0ShiErZhiHu/DA_Fx_Group_SC2_Jit_06.DA_Fx_Group_SC2_Jit_06"
+    ]
   },
   {
-    "Id": 91,
+    "Id": 103,
     "FsmKey": "SM_ML1JiaoHuangMd00401",
     "ActorClass": null,
     "Animations": null,
@@ -1287,7 +1479,7 @@
     ]
   },
   {
-    "Id": 92,
+    "Id": 104,
     "FsmKey": "SM_ML1JiaoHuangMd00401_FuShua",
     "ActorClass": null,
     "Animations": null,
@@ -1303,7 +1495,7 @@
     ]
   },
   {
-    "Id": 93,
+    "Id": 105,
     "FsmKey": "SM_ML1JiaoHuangMd00401_QiuYuan",
     "ActorClass": null,
     "Animations": null,
@@ -1320,7 +1512,7 @@
     ]
   },
   {
-    "Id": 94,
+    "Id": 106,
     "FsmKey": "SM_ML1JiaoHuangMd00401_ReMake",
     "ActorClass": null,
     "Animations": null,
@@ -1337,7 +1529,7 @@
     ]
   },
   {
-    "Id": 95,
+    "Id": 107,
     "FsmKey": "SM_ML1LinrenMd00201",
     "ActorClass": null,
     "Animations": null,
@@ -1352,7 +1544,7 @@
     ]
   },
   {
-    "Id": 96,
+    "Id": 108,
     "FsmKey": "SM_ML1LinrenMd00201_DG",
     "ActorClass": null,
     "Animations": null,
@@ -1364,7 +1556,7 @@
     "Others": null
   },
   {
-    "Id": 97,
+    "Id": 109,
     "FsmKey": "SM_ML1LinrenMd00201_DG_FenShen1",
     "ActorClass": null,
     "Animations": null,
@@ -1376,7 +1568,7 @@
     "Others": null
   },
   {
-    "Id": 98,
+    "Id": 110,
     "FsmKey": "SM_ML1LinrenMd00201_DG_FenShen2",
     "ActorClass": null,
     "Animations": null,
@@ -1388,7 +1580,7 @@
     "Others": null
   },
   {
-    "Id": 99,
+    "Id": 111,
     "FsmKey": "SM_ML1LinrenMd00201_FenShen",
     "ActorClass": null,
     "Animations": null,
@@ -1403,7 +1595,7 @@
     ]
   },
   {
-    "Id": 100,
+    "Id": 112,
     "FsmKey": "SM_ML1LinrenMd00301",
     "ActorClass": null,
     "Animations": null,
@@ -1419,7 +1611,7 @@
     ]
   },
   {
-    "Id": 101,
+    "Id": 113,
     "FsmKey": "SM_ML1LinrenMd00311",
     "ActorClass": null,
     "Animations": null,
@@ -1431,7 +1623,7 @@
     "Others": null
   },
   {
-    "Id": 102,
+    "Id": 114,
     "FsmKey": "SM_ML1LuXinJiHaiMd00101",
     "ActorClass": null,
     "Animations": null,
@@ -1440,10 +1632,16 @@
     "Meshes": null,
     "Materials": null,
     "AnimationBlueprints": null,
-    "Others": null
+    "Others": [
+      "/Game/Aki/Effect/MaterialController/DA_Lord/ML1LuXinJiHaiMd00101/DA_Fx_Group_LuXinJiHai_MLa_XIN.DA_Fx_Group_LuXinJiHai_MLa_XIN",
+      "/Game/Aki/Effect/EffectGroup/ML1LuXinJiHaiMd00101/DA_Fx_Group_LuXinJiHai_MLa_Luxin.DA_Fx_Group_LuXinJiHai_MLa_Luxin",
+      "/Game/Aki/Effect/EffectGroup/ML1LuXinJiHaiMd00101/DA_Fx_Group_LuXinJiHai_MLs_GZ.DA_Fx_Group_LuXinJiHai_MLs_GZ",
+      "/Game/Aki/Effect/MaterialController/DA_Lord/ML1LuXinJiHaiMd00101/DA_Fx_Group_LuXinJiHai_MLa_GZ.DA_Fx_Group_LuXinJiHai_MLa_GZ",
+      "/Game/Aki/Effect/EffectGroup/ML1LuXinJiHaiMd00101/DA_Fx_Group_LuXinJiHai_MLa_Eye.DA_Fx_Group_LuXinJiHai_MLa_Eye"
+    ]
   },
   {
-    "Id": 103,
+    "Id": 115,
     "FsmKey": "SM_ML1MiuwuMd00501",
     "ActorClass": null,
     "Animations": null,
@@ -1460,7 +1658,7 @@
     ]
   },
   {
-    "Id": 104,
+    "Id": 116,
     "FsmKey": "SM_ML1MiuwuMd00501_DaMao",
     "ActorClass": null,
     "Animations": null,
@@ -1477,7 +1675,7 @@
     ]
   },
   {
-    "Id": 105,
+    "Id": 117,
     "FsmKey": "SM_ML1MiuwuMd00501_DG",
     "ActorClass": null,
     "Animations": null,
@@ -1494,7 +1692,7 @@
     ]
   },
   {
-    "Id": 106,
+    "Id": 118,
     "FsmKey": "SM_ML1QiShiMd00001",
     "ActorClass": null,
     "Animations": null,
@@ -1514,7 +1712,7 @@
     ]
   },
   {
-    "Id": 107,
+    "Id": 119,
     "FsmKey": "SM_ML1QiShiMd00002",
     "ActorClass": null,
     "Animations": null,
@@ -1535,7 +1733,7 @@
     ]
   },
   {
-    "Id": 108,
+    "Id": 120,
     "FsmKey": "SM_ML1QiShiMd00003",
     "ActorClass": null,
     "Animations": null,
@@ -1554,7 +1752,7 @@
     ]
   },
   {
-    "Id": 109,
+    "Id": 121,
     "FsmKey": "SM_ML1QiShiMd00101_BVB",
     "ActorClass": null,
     "Animations": null,
@@ -1568,7 +1766,7 @@
     ]
   },
   {
-    "Id": 110,
+    "Id": 122,
     "FsmKey": "SM_ML1QunnieMd00401",
     "ActorClass": null,
     "Animations": null,
@@ -1586,7 +1784,7 @@
     ]
   },
   {
-    "Id": 111,
+    "Id": 123,
     "FsmKey": "SM_ML1QunnieMd00401_Yinlin",
     "ActorClass": null,
     "Animations": null,
@@ -1601,7 +1799,7 @@
     ]
   },
   {
-    "Id": 112,
+    "Id": 124,
     "FsmKey": "SM_ML1QunnieMd00401_ZhuiYue",
     "ActorClass": null,
     "Animations": null,
@@ -1619,7 +1817,7 @@
     ]
   },
   {
-    "Id": 113,
+    "Id": 125,
     "FsmKey": "SM_ML1RongYaoHuiJinMd00201",
     "ActorClass": null,
     "Animations": null,
@@ -1635,7 +1833,7 @@
     ]
   },
   {
-    "Id": 114,
+    "Id": 126,
     "FsmKey": "SM_ML1RongYaoHuiJinMd00201_Daoguan",
     "ActorClass": null,
     "Animations": null,
@@ -1651,7 +1849,7 @@
     ]
   },
   {
-    "Id": 115,
+    "Id": 127,
     "FsmKey": "SM_ML1RongYaoShiXiangMd00101_DaoGuan",
     "ActorClass": null,
     "Animations": null,
@@ -1676,7 +1874,7 @@
     ]
   },
   {
-    "Id": 116,
+    "Id": 128,
     "FsmKey": "SM_ML1RongYaoShiXiangMd00101_MainTask",
     "ActorClass": null,
     "Animations": null,
@@ -1701,7 +1899,7 @@
     ]
   },
   {
-    "Id": 117,
+    "Id": 129,
     "FsmKey": "SM_ML1ShiXiangGuiMd00201",
     "ActorClass": null,
     "Animations": null,
@@ -1720,7 +1918,7 @@
     ]
   },
   {
-    "Id": 118,
+    "Id": 130,
     "FsmKey": "SM_ML1ShiXiangGuiMd00201_ForTask",
     "ActorClass": null,
     "Animations": null,
@@ -1736,7 +1934,7 @@
     ]
   },
   {
-    "Id": 119,
+    "Id": 131,
     "FsmKey": "SM_ML1ShiXiangGuiMd00201_ForTask_New",
     "ActorClass": null,
     "Animations": null,
@@ -1754,7 +1952,25 @@
     ]
   },
   {
-    "Id": 120,
+    "Id": 132,
+    "FsmKey": "SM_ML1ShiXiangGuiMd00201_NewTower",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking",
+      "/Game/Aki/Effect/MaterialController/DA_Lord/ML1ShiXiangGuiMd00201/DA_Fx_ShiXiangGui_HeadGlow_Blue.DA_Fx_ShiXiangGui_HeadGlow_Blue",
+      "/Game/Aki/Effect/MaterialController/DA_Lord/ML1ShiXiangGuiMd00201/DA_Fx_ShiXiangGui_HeadGlow_Red.DA_Fx_ShiXiangGui_HeadGlow_Red",
+      "/Game/Aki/Effect/MaterialController/DA_Lord/ML1ShiXiangGuiMd00201/DA_Fx_ShiXiangGui_Emissive_Red.DA_Fx_ShiXiangGui_Emissive_Red"
+    ]
+  },
+  {
+    "Id": 133,
     "FsmKey": "SM_ML1WeiWangHeiSheMd00601",
     "ActorClass": null,
     "Animations": null,
@@ -1766,7 +1982,7 @@
     "Others": null
   },
   {
-    "Id": 121,
+    "Id": 134,
     "FsmKey": "SM_ML1WeiWangHeiSheMd00611",
     "ActorClass": null,
     "Animations": null,
@@ -1778,7 +1994,7 @@
     "Others": null
   },
   {
-    "Id": 122,
+    "Id": 135,
     "FsmKey": "SM_ML1WeiZuoShenWangMd00601",
     "ActorClass": null,
     "Animations": null,
@@ -1790,7 +2006,7 @@
     "Others": null
   },
   {
-    "Id": 123,
+    "Id": 136,
     "FsmKey": "SM_ML1WuChangluMd00601",
     "ActorClass": null,
     "Animations": null,
@@ -1802,7 +2018,7 @@
     "Others": null
   },
   {
-    "Id": 124,
+    "Id": 137,
     "FsmKey": "SM_ML1WuChangluMd00601_ChunTask",
     "ActorClass": null,
     "Animations": null,
@@ -1814,7 +2030,7 @@
     "Others": null
   },
   {
-    "Id": 125,
+    "Id": 138,
     "FsmKey": "SM_ML1WuChangluMd00601_MainTask",
     "ActorClass": null,
     "Animations": null,
@@ -1826,7 +2042,7 @@
     "Others": null
   },
   {
-    "Id": 126,
+    "Id": 139,
     "FsmKey": "SM_ML1YangYangMd00001",
     "ActorClass": null,
     "Animations": null,
@@ -1838,7 +2054,7 @@
     "Others": null
   },
   {
-    "Id": 127,
+    "Id": 140,
     "FsmKey": "SM_ML1ZheZhiMd00001",
     "ActorClass": null,
     "Animations": null,
@@ -1850,7 +2066,7 @@
     "Others": null
   },
   {
-    "Id": 128,
+    "Id": 141,
     "FsmKey": "SM_MO1AnjinMd006001_rhythm",
     "ActorClass": null,
     "Animations": null,
@@ -1865,7 +2081,7 @@
     ]
   },
   {
-    "Id": 129,
+    "Id": 142,
     "FsmKey": "SM_MO1AWukakaMd00601",
     "ActorClass": null,
     "Animations": null,
@@ -1877,7 +2093,7 @@
     "Others": null
   },
   {
-    "Id": 130,
+    "Id": 143,
     "FsmKey": "SM_MO1BangpaiquanshouMd00001",
     "ActorClass": null,
     "Animations": null,
@@ -1889,7 +2105,7 @@
     "Others": null
   },
   {
-    "Id": 131,
+    "Id": 144,
     "FsmKey": "SM_MO1BaoxiangguaiMd00501",
     "ActorClass": null,
     "Animations": null,
@@ -1904,7 +2120,7 @@
     ]
   },
   {
-    "Id": 132,
+    "Id": 145,
     "FsmKey": "SM_MO1BaoxiangguaiMd00501_2",
     "ActorClass": null,
     "Animations": null,
@@ -1916,7 +2132,7 @@
     "Others": null
   },
   {
-    "Id": 133,
+    "Id": 146,
     "FsmKey": "SM_MO1BingciqiuMd00201",
     "ActorClass": null,
     "Animations": null,
@@ -1930,7 +2146,7 @@
     ]
   },
   {
-    "Id": 134,
+    "Id": 147,
     "FsmKey": "SM_MO1Bingjian1Md00201",
     "ActorClass": null,
     "Animations": null,
@@ -1942,7 +2158,7 @@
     "Others": null
   },
   {
-    "Id": 135,
+    "Id": 148,
     "FsmKey": "SM_MO1Bingjian2Md00201",
     "ActorClass": null,
     "Animations": null,
@@ -1954,7 +2170,7 @@
     "Others": null
   },
   {
-    "Id": 136,
+    "Id": 149,
     "FsmKey": "SM_MO1Bingjian3Md00201",
     "ActorClass": null,
     "Animations": null,
@@ -1966,7 +2182,7 @@
     "Others": null
   },
   {
-    "Id": 137,
+    "Id": 150,
     "FsmKey": "SM_MO1Bingjian4Md00201",
     "ActorClass": null,
     "Animations": null,
@@ -1978,7 +2194,7 @@
     "Others": null
   },
   {
-    "Id": 138,
+    "Id": 151,
     "FsmKey": "SM_MO1BinglieMd00201",
     "ActorClass": null,
     "Animations": null,
@@ -1990,7 +2206,7 @@
     "Others": null
   },
   {
-    "Id": 139,
+    "Id": 152,
     "FsmKey": "SM_MO1BinlangMd00101",
     "ActorClass": null,
     "Animations": null,
@@ -2002,7 +2218,7 @@
     "Others": null
   },
   {
-    "Id": 140,
+    "Id": 153,
     "FsmKey": "SM_MO1BuouMd00001",
     "ActorClass": null,
     "Animations": null,
@@ -2014,7 +2230,7 @@
     "Others": null
   },
   {
-    "Id": 141,
+    "Id": 154,
     "FsmKey": "SM_MO1ChaoshengzheMd00401_Sum",
     "ActorClass": null,
     "Animations": null,
@@ -2028,7 +2244,7 @@
     ]
   },
   {
-    "Id": 142,
+    "Id": 155,
     "FsmKey": "SM_MO1DaMaoMd00001_link",
     "ActorClass": null,
     "Animations": null,
@@ -2040,7 +2256,7 @@
     "Others": null
   },
   {
-    "Id": 143,
+    "Id": 156,
     "FsmKey": "SM_MO1DingdongdongMd00201",
     "ActorClass": null,
     "Animations": null,
@@ -2052,7 +2268,7 @@
     "Others": null
   },
   {
-    "Id": 144,
+    "Id": 157,
     "FsmKey": "SM_MO1DujiaoshouMd00001",
     "ActorClass": null,
     "Animations": null,
@@ -2064,7 +2280,7 @@
     "Others": null
   },
   {
-    "Id": 145,
+    "Id": 158,
     "FsmKey": "SM_MO1FenglieMd00401_2",
     "ActorClass": null,
     "Animations": null,
@@ -2076,7 +2292,7 @@
     "Others": null
   },
   {
-    "Id": 146,
+    "Id": 159,
     "FsmKey": "SM_MO1FHuxiuxiuMd00401",
     "ActorClass": null,
     "Animations": null,
@@ -2088,7 +2304,7 @@
     "Others": null
   },
   {
-    "Id": 147,
+    "Id": 160,
     "FsmKey": "SM_MO1GAziziMd00501",
     "ActorClass": null,
     "Animations": null,
@@ -2100,7 +2316,7 @@
     "Others": null
   },
   {
-    "Id": 148,
+    "Id": 161,
     "FsmKey": "SM_MO1GAziziMd00501_xxgtest",
     "ActorClass": null,
     "Animations": null,
@@ -2112,7 +2328,7 @@
     "Others": null
   },
   {
-    "Id": 149,
+    "Id": 162,
     "FsmKey": "SM_MO1GuangXYLMd00501",
     "ActorClass": null,
     "Animations": null,
@@ -2124,7 +2340,7 @@
     "Others": null
   },
   {
-    "Id": 150,
+    "Id": 163,
     "FsmKey": "SM_MO1GuangZhuMd00003",
     "ActorClass": null,
     "Animations": null,
@@ -2136,7 +2352,7 @@
     "Others": null
   },
   {
-    "Id": 151,
+    "Id": 164,
     "FsmKey": "SM_MO1GuguhetunMd00201_Dredge",
     "ActorClass": null,
     "Animations": null,
@@ -2148,7 +2364,7 @@
     "Others": null
   },
   {
-    "Id": 152,
+    "Id": 165,
     "FsmKey": "SM_MO1GuguhetunMd00201_JiYanTask",
     "ActorClass": null,
     "Animations": null,
@@ -2160,7 +2376,7 @@
     "Others": null
   },
   {
-    "Id": 153,
+    "Id": 166,
     "FsmKey": "SM_MO1GuguhetunMd00201_SpecialMonster",
     "ActorClass": null,
     "Animations": null,
@@ -2172,7 +2388,7 @@
     "Others": null
   },
   {
-    "Id": 154,
+    "Id": 167,
     "FsmKey": "SM_MO1HKacacaMd00101",
     "ActorClass": null,
     "Animations": null,
@@ -2184,7 +2400,7 @@
     "Others": null
   },
   {
-    "Id": 155,
+    "Id": 168,
     "FsmKey": "SM_MO1HongLvDengMd00501",
     "ActorClass": null,
     "Animations": null,
@@ -2196,7 +2412,7 @@
     "Others": null
   },
   {
-    "Id": 156,
+    "Id": 169,
     "FsmKey": "SM_MO1HuojinMd00101_2",
     "ActorClass": null,
     "Animations": null,
@@ -2208,7 +2424,7 @@
     "Others": null
   },
   {
-    "Id": 157,
+    "Id": 170,
     "FsmKey": "SM_MO1HuoXYLMd00101",
     "ActorClass": null,
     "Animations": null,
@@ -2220,7 +2436,7 @@
     "Others": null
   },
   {
-    "Id": 158,
+    "Id": 171,
     "FsmKey": "SM_MO1JiQiangKuLuoLuoMd00001",
     "ActorClass": null,
     "Animations": null,
@@ -2232,7 +2448,7 @@
     "Others": null
   },
   {
-    "Id": 159,
+    "Id": 172,
     "FsmKey": "SM_MO1JTMuShiMd00401",
     "ActorClass": null,
     "Animations": null,
@@ -2244,7 +2460,7 @@
     "Others": null
   },
   {
-    "Id": 160,
+    "Id": 173,
     "FsmKey": "SM_MO1JTQiShiMd00001",
     "ActorClass": null,
     "Animations": null,
@@ -2256,7 +2472,7 @@
     "Others": null
   },
   {
-    "Id": 161,
+    "Id": 174,
     "FsmKey": "SM_MO1JTQiShiMd00001_rhythm",
     "ActorClass": null,
     "Animations": null,
@@ -2271,7 +2487,7 @@
     ]
   },
   {
-    "Id": 162,
+    "Id": 175,
     "FsmKey": "SM_MO1JTQiShiMd00001_Sum",
     "ActorClass": null,
     "Animations": null,
@@ -2285,7 +2501,7 @@
     ]
   },
   {
-    "Id": 163,
+    "Id": 176,
     "FsmKey": "SM_MO1JTSheShouMd00501",
     "ActorClass": null,
     "Animations": null,
@@ -2297,7 +2513,7 @@
     "Others": null
   },
   {
-    "Id": 164,
+    "Id": 177,
     "FsmKey": "SM_MO1JTSheShouMd00501_rhythm",
     "ActorClass": null,
     "Animations": null,
@@ -2312,7 +2528,7 @@
     ]
   },
   {
-    "Id": 165,
+    "Id": 178,
     "FsmKey": "SM_MO1JTSheShouMd00501_Sum",
     "ActorClass": null,
     "Animations": null,
@@ -2326,7 +2542,7 @@
     ]
   },
   {
-    "Id": 166,
+    "Id": 179,
     "FsmKey": "SM_MO1LeilieMd00301",
     "ActorClass": null,
     "Animations": null,
@@ -2338,7 +2554,7 @@
     "Others": null
   },
   {
-    "Id": 167,
+    "Id": 180,
     "FsmKey": "SM_MO1LeilieMd00301_sanchongta",
     "ActorClass": null,
     "Animations": null,
@@ -2352,7 +2568,7 @@
     ]
   },
   {
-    "Id": 168,
+    "Id": 181,
     "FsmKey": "SM_MO1LeiXYLMd00301",
     "ActorClass": null,
     "Animations": null,
@@ -2364,7 +2580,7 @@
     "Others": null
   },
   {
-    "Id": 169,
+    "Id": 182,
     "FsmKey": "SM_MO1LiufangzhemanMd00001",
     "ActorClass": null,
     "Animations": null,
@@ -2379,7 +2595,7 @@
     ]
   },
   {
-    "Id": 170,
+    "Id": 183,
     "FsmKey": "SM_MO1LuguiMd00201",
     "ActorClass": null,
     "Animations": null,
@@ -2391,7 +2607,7 @@
     "Others": null
   },
   {
-    "Id": 171,
+    "Id": 184,
     "FsmKey": "SM_MO1QifuouyanjingMd00101",
     "ActorClass": null,
     "Animations": null,
@@ -2403,7 +2619,7 @@
     "Others": null
   },
   {
-    "Id": 172,
+    "Id": 185,
     "FsmKey": "SM_MO1QifuouyanjingMd00101_fengche",
     "ActorClass": null,
     "Animations": null,
@@ -2415,7 +2631,7 @@
     "Others": null
   },
   {
-    "Id": 173,
+    "Id": 186,
     "FsmKey": "SM_MO1QifuouyoushouMd00601",
     "ActorClass": null,
     "Animations": null,
@@ -2430,7 +2646,7 @@
     ]
   },
   {
-    "Id": 174,
+    "Id": 187,
     "FsmKey": "SM_MO1QifuouzuoshouMd00501",
     "ActorClass": null,
     "Animations": null,
@@ -2445,7 +2661,7 @@
     ]
   },
   {
-    "Id": 175,
+    "Id": 188,
     "FsmKey": "SM_MO1QifuouzuoshouMd00501_fengche",
     "ActorClass": null,
     "Animations": null,
@@ -2457,7 +2673,7 @@
     "Others": null
   },
   {
-    "Id": 176,
+    "Id": 189,
     "FsmKey": "SM_MO1QifuouzuoshouMd00501_taofabaogao",
     "ActorClass": null,
     "Animations": null,
@@ -2469,7 +2685,7 @@
     "Others": null
   },
   {
-    "Id": 177,
+    "Id": 190,
     "FsmKey": "SM_MO1RonhuochongMd00001",
     "ActorClass": null,
     "Animations": null,
@@ -2481,7 +2697,7 @@
     "Others": null
   },
   {
-    "Id": 178,
+    "Id": 191,
     "FsmKey": "SM_MO1RonhuochongMd00101",
     "ActorClass": null,
     "Animations": null,
@@ -2495,7 +2711,7 @@
     ]
   },
   {
-    "Id": 179,
+    "Id": 192,
     "FsmKey": "SM_MO1ShouhuMd00002",
     "ActorClass": null,
     "Animations": null,
@@ -2507,7 +2723,7 @@
     "Others": null
   },
   {
-    "Id": 180,
+    "Id": 193,
     "FsmKey": "SM_MO1SiXiaoMd00401",
     "ActorClass": null,
     "Animations": null,
@@ -2519,7 +2735,19 @@
     "Others": null
   },
   {
-    "Id": 181,
+    "Id": 194,
+    "FsmKey": "SM_MO1XiongFeng2Md00601",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 195,
     "FsmKey": "SM_MO1YeGuiManMd00001",
     "ActorClass": null,
     "Animations": null,
@@ -2534,7 +2762,7 @@
     ]
   },
   {
-    "Id": 182,
+    "Id": 196,
     "FsmKey": "SM_MO1YoulinghuoMd00101",
     "ActorClass": null,
     "Animations": null,
@@ -2546,7 +2774,7 @@
     "Others": null
   },
   {
-    "Id": 183,
+    "Id": 197,
     "FsmKey": "SM_MO1YoulinghuoMd00102_taofabaogao",
     "ActorClass": null,
     "Animations": null,
@@ -2558,7 +2786,7 @@
     "Others": null
   },
   {
-    "Id": 184,
+    "Id": 198,
     "FsmKey": "SM_MO1YouyidieMd00501",
     "ActorClass": null,
     "Animations": null,
@@ -2570,7 +2798,7 @@
     "Others": null
   },
   {
-    "Id": 185,
+    "Id": 199,
     "FsmKey": "SM_MO1YunhaiyaojingMd00501",
     "ActorClass": null,
     "Animations": null,
@@ -2582,7 +2810,7 @@
     "Others": null
   },
   {
-    "Id": 186,
+    "Id": 200,
     "FsmKey": "SM_MO1ZhuzhutuoMd00001",
     "ActorClass": null,
     "Animations": null,
@@ -2594,7 +2822,7 @@
     "Others": null
   },
   {
-    "Id": 187,
+    "Id": 201,
     "FsmKey": "SM_MOP1BuouMd00001",
     "ActorClass": null,
     "Animations": null,
@@ -2606,7 +2834,7 @@
     "Others": null
   },
   {
-    "Id": 188,
+    "Id": 202,
     "FsmKey": "SM_MOP1BuouMd00501",
     "ActorClass": null,
     "Animations": null,
@@ -2618,7 +2846,7 @@
     "Others": null
   },
   {
-    "Id": 189,
+    "Id": 203,
     "FsmKey": "SM_MOP1BuouMd00601",
     "ActorClass": null,
     "Animations": null,
@@ -2630,7 +2858,7 @@
     "Others": null
   },
   {
-    "Id": 190,
+    "Id": 204,
     "FsmKey": "SM_MP1HeibaiqishiMd00301",
     "ActorClass": null,
     "Animations": null,
@@ -2648,7 +2876,7 @@
     ]
   },
   {
-    "Id": 191,
+    "Id": 205,
     "FsmKey": "SM_MP1HeibaiqishiMd00301_Born",
     "ActorClass": null,
     "Animations": null,
@@ -2668,7 +2896,7 @@
     ]
   },
   {
-    "Id": 192,
+    "Id": 206,
     "FsmKey": "SM_MP1HeibaiqishiMd00501",
     "ActorClass": null,
     "Animations": null,
@@ -2684,7 +2912,7 @@
     ]
   },
   {
-    "Id": 193,
+    "Id": 207,
     "FsmKey": "SM_MP1HeibaiqishiMd00501_Born",
     "ActorClass": null,
     "Animations": null,
@@ -2702,7 +2930,7 @@
     ]
   },
   {
-    "Id": 194,
+    "Id": 208,
     "FsmKey": "SM_MP1HeibaiqishiMd00501_Born1",
     "ActorClass": null,
     "Animations": null,
@@ -2721,7 +2949,7 @@
     ]
   },
   {
-    "Id": 195,
+    "Id": 209,
     "FsmKey": "SM_MP1HeibaiqishiMd00601",
     "ActorClass": null,
     "Animations": null,
@@ -2737,7 +2965,7 @@
     ]
   },
   {
-    "Id": 196,
+    "Id": 210,
     "FsmKey": "SM_MP1HeibaiqishiMd00601_Born",
     "ActorClass": null,
     "Animations": null,
@@ -2755,7 +2983,7 @@
     ]
   },
   {
-    "Id": 197,
+    "Id": 211,
     "FsmKey": "SM_MP1HeibaiqishiMd00601_Born1",
     "ActorClass": null,
     "Animations": null,
@@ -2774,7 +3002,7 @@
     ]
   },
   {
-    "Id": 198,
+    "Id": 212,
     "FsmKey": "SM_MP1JiaoeMd00401",
     "ActorClass": null,
     "Animations": null,
@@ -2789,7 +3017,7 @@
     ]
   },
   {
-    "Id": 199,
+    "Id": 213,
     "FsmKey": "SM_MP1ShijilongMd00101",
     "ActorClass": null,
     "Animations": null,
@@ -2801,7 +3029,7 @@
     "Others": null
   },
   {
-    "Id": 200,
+    "Id": 214,
     "FsmKey": "SM_MP1ShijilongZhuxianMd00101",
     "ActorClass": null,
     "Animations": null,
@@ -2813,7 +3041,39 @@
     "Others": null
   },
   {
-    "Id": 201,
+    "Id": 215,
+    "FsmKey": "SM_MP1ShuangZiClawMd00301",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_CommonBornSmoke.DA_Fx_Group_CommonBornSmoke",
+      "/Game/Aki/Effect/MaterialController/DA_Character/DA_Fx_Ordinary_Born.DA_Fx_Ordinary_Born"
+    ]
+  },
+  {
+    "Id": 216,
+    "FsmKey": "SM_MP1ShuangZiGunMd00501",
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Monster/Common/Data/Presets/Paralysis/Camera/M_SizeM_ParalysisCamera.M_SizeM_ParalysisCamera",
+      "/Game/Aki/Effect/EffectGroup/Common/DA_Fx_Group_Breaking.DA_Fx_Group_Breaking"
+    ]
+  },
+  {
+    "Id": 217,
     "FsmKey": "SM_MP1TaguanghuMd00501",
     "ActorClass": null,
     "Animations": null,
@@ -2827,7 +3087,7 @@
     ]
   },
   {
-    "Id": 202,
+    "Id": 218,
     "FsmKey": "SM_MP1TaguanghuMd00501_02",
     "ActorClass": null,
     "Animations": null,
@@ -2841,7 +3101,7 @@
     ]
   },
   {
-    "Id": 203,
+    "Id": 219,
     "FsmKey": "SM_MP1TaguanghuMd00501_ForTaskNew",
     "ActorClass": null,
     "Animations": null,
@@ -2855,7 +3115,7 @@
     ]
   },
   {
-    "Id": 204,
+    "Id": 220,
     "FsmKey": "SM_MT1ShaChongMd00601",
     "ActorClass": null,
     "Animations": null,
@@ -2867,7 +3127,7 @@
     "Others": null
   },
   {
-    "Id": 205,
+    "Id": 221,
     "FsmKey": "SM_RoleBeHit",
     "ActorClass": null,
     "Animations": null,
@@ -2879,7 +3139,7 @@
     "Others": null
   },
   {
-    "Id": 206,
+    "Id": 222,
     "FsmKey": "SM_TuanziCommon",
     "ActorClass": null,
     "Animations": null,

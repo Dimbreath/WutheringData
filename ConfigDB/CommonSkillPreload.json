@@ -2402,7 +2402,7 @@
     "Others": null
   },
   {
-    "Id": 200061,
+    "Id": 210033,
     "IsCommon": true,
     "HasMontagePath": true,
     "ActorClass": null,
@@ -2413,7 +2413,7 @@
     "Materials": null,
     "AnimationBlueprints": null,
     "Others": [
-      "/Game/Aki/Character/Vision/GA/Role/GA_Role_Bianshen_JiaoEChuJue.GA_Role_Bianshen_JiaoEChuJue_C"
+      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_Role_FixHook_Cableway.GA_Role_FixHook_Cableway_C"
     ]
   },
   {
@@ -2567,6 +2567,21 @@
     ]
   },
   {
+    "Id": 800001,
+    "IsCommon": true,
+    "HasMontagePath": true,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_Motor_GetOn.GA_Motor_GetOn_C"
+    ]
+  },
+  {
     "Id": 220004,
     "IsCommon": true,
     "HasMontagePath": true,
@@ -2583,6 +2598,247 @@
     "Id": 220005,
     "IsCommon": true,
     "HasMontagePath": true,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 210040,
+    "IsCommon": true,
+    "HasMontagePath": true,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_Role_PilotThrow_Launch.GA_Role_PilotThrow_Launch_C"
+    ]
+  },
+  {
+    "Id": 800002,
+    "IsCommon": true,
+    "HasMontagePath": false,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_Motor_Photograph.GA_Motor_Photograph_C"
+    ]
+  },
+  {
+    "Id": 200053,
+    "IsCommon": true,
+    "HasMontagePath": true,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Vision/GA/GA_ShowVehicle.GA_ShowVehicle_C"
+    ]
+  },
+  {
+    "Id": 210041,
+    "IsCommon": true,
+    "HasMontagePath": true,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_Role_PilotHook.GA_Role_PilotHook_C"
+    ]
+  },
+  {
+    "Id": 2000007,
+    "IsCommon": true,
+    "HasMontagePath": true,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Vision/GA/GA_LevelInteracteDisable_Vision.GA_LevelInteracteDisable_Vision_C"
+    ]
+  },
+  {
+    "Id": 10001104,
+    "IsCommon": true,
+    "HasMontagePath": false,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 210042,
+    "IsCommon": true,
+    "HasMontagePath": true,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_Role_PilotAim.GA_Role_PilotAim_C"
+    ]
+  },
+  {
+    "Id": 800003,
+    "IsCommon": true,
+    "HasMontagePath": false,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 2100081,
+    "IsCommon": true,
+    "HasMontagePath": false,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 800004,
+    "IsCommon": true,
+    "HasMontagePath": true,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 800005,
+    "IsCommon": true,
+    "HasMontagePath": false,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_Motor_Shachong.GA_Motor_Shachong_C"
+    ]
+  },
+  {
+    "Id": 800006,
+    "IsCommon": true,
+    "HasMontagePath": false,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 200061,
+    "IsCommon": true,
+    "HasMontagePath": true,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Vision/GA/Role/GA_Role_Bianshen_JiaoEChuJue.GA_Role_Bianshen_JiaoEChuJue_C"
+    ]
+  },
+  {
+    "Id": 210034,
+    "IsCommon": true,
+    "HasMontagePath": true,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_Role_FixHook_Cableway_Motor.GA_Role_FixHook_Cableway_Motor_C"
+    ]
+  },
+  {
+    "Id": 210043,
+    "IsCommon": true,
+    "HasMontagePath": false,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": [
+      "/Game/Aki/Character/Role/Common/Abilities/GA/GA_Role_PilotAim_Auto.GA_Role_PilotAim_Auto_C"
+    ]
+  },
+  {
+    "Id": 220006,
+    "IsCommon": true,
+    "HasMontagePath": false,
+    "ActorClass": null,
+    "Animations": null,
+    "Effects": null,
+    "Audios": null,
+    "Meshes": null,
+    "Materials": null,
+    "AnimationBlueprints": null,
+    "Others": null
+  },
+  {
+    "Id": 220007,
+    "IsCommon": true,
+    "HasMontagePath": false,
     "ActorClass": null,
     "Animations": null,
     "Effects": null,

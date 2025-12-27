@@ -94,7 +94,8 @@
     "Money": [
       12,
       11,
-      34
+      34,
+      63
     ],
     "Notice": "",
     "Enable": true,
@@ -320,6 +321,20 @@
     "Name": "PayShop_100_Name",
     "Money": [
       80600001
+    ],
+    "Notice": "",
+    "Enable": true,
+    "Icon": "/Game/Aki/UI/UIResources/UiShop/Atlas/SP_ShopMaodinggouru.SP_ShopMaodinggouru",
+    "SortRule": 1
+  },
+  {
+    "Id": 219,
+    "ShopTabViewType": 7,
+    "DynamicTabId": 177,
+    "Sort": 213,
+    "Name": "PayShop_100_Name",
+    "Money": [
+      80700004
     ],
     "Notice": "",
     "Enable": true,

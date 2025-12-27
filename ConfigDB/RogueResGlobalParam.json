@@ -1,7 +1,7 @@
 [
   {
     "Id": 1,
-    "EventStartSeqType": [
+    "LimitedRoles": [
       1501,
       1502,
       1604,
@@ -9,7 +9,7 @@
       1406,
       1408
     ],
-    "EventStartSpineType": [
+    "EventStartSeqType": [
       1,
       2,
       3,
@@ -21,7 +21,7 @@
       10,
       12
     ],
-    "GridTakeTipsEventType": [
+    "EventStartSpineType": [
       1,
       2,
       3,
@@ -30,7 +30,19 @@
       6,
       12
     ],
-    "GridTakeSpineEventType": null,
+    "GridTakeTipsEventType": null,
+    "GridTakeSpineEventType": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10,
+      12
+    ],
     "EventDisappearEventType": [
       1,
       2,
@@ -38,6 +50,7 @@
       4,
       5,
       6,
+      7,
       8,
       9,
       10,
@@ -70,21 +83,10 @@
       12
     ],
     "ShowCurrencyChangeEventType": [
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9,
-      10,
-      12
+      7
     ],
-    "FocusTime": 1152,
-    "MainHelpImageDesc": null,
-    "MainHelpImageFig": [
+    "FocusTime": 500,
+    "MainHelpImageDesc": [
       "RogueResExploreDetails_2",
       "RogueResExploreDetails_1",
       "RogueResExploreDetails_9",
@@ -94,8 +96,18 @@
       "RogueResExploreDetails_8",
       "RogueRes_Event_Name_10"
     ],
-    "MainHelpRuleDesc": " \u0000\u0000\u0000|\u0000\u0000\u0000",
-    "GridValidRangeTolerance": 48,
+    "MainHelpImageFig": [
+      "/Game/Aki/UI/UIResources/Common/Image/IconRogueItem/T_IconRogueItem_007.T_IconRogueItem_007",
+      "/Game/Aki/UI/UIResources/Common/Image/IconRogueItem/T_IconRogueItem_006.T_IconRogueItem_006",
+      "/Game/Aki/UI/UIResources/Common/Image/IconRogueItem/T_IconRogueItem_004.T_IconRogueItem_004",
+      "/Game/Aki/UI/UIResources/Common/Image/IconRogueItem/T_IconRogueItem_008.T_IconRogueItem_008",
+      "/Game/Aki/UI/UIResources/Common/Image/IconRogueItem/T_IconRogueItem_002.T_IconRogueItem_002",
+      "/Game/Aki/UI/UIResources/Common/Image/IconRogueItem/T_IconRogueItem_005.T_IconRogueItem_005",
+      "/Game/Aki/UI/UIResources/Common/Image/IconRogueItem/T_IconRogueItem_003.T_IconRogueItem_003",
+      "/Game/Aki/UI/UIResources/Common/Image/IconRogueItem/T_IconRogueItem_001.T_IconRogueItem_001"
+    ],
+    "MainHelpRuleDesc": "RogueRes_MapRule",
+    "GridValidRangeTolerance": 1000,
     "OpenMapViewBlackScreen": true
   }
 ]

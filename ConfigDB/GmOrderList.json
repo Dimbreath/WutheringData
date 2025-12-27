@@ -1896,7 +1896,9 @@
       "add_new_role_config 14044",
       "add_new_role_config 14045",
       "add_new_role_config 14046",
-      "add_new_role_config 14049"
+      "add_new_role_config 14049",
+      "add_new_role_config 14047",
+      "add_new_role_config 14048"
     ]
   },
   {
@@ -1973,6 +1975,16 @@
     "Name": "风神90",
     "OrderList": [
       "add_new_role_config 14041"
+    ]
+  },
+  {
+    "Id": 152,
+    "Name": "摩托测试",
+    "OrderList": [
+      "add_new_role_config 40160600",
+      "add_new_role_config 40160700",
+      "add_new_role_config 40160800",
+      "add_new_role_config 40160900"
     ]
   },
   {
@@ -2123,6 +2135,20 @@
     ]
   },
   {
+    "Id": 158,
+    "Name": "莫宁90",
+    "OrderList": [
+      "add_new_role_config 14047"
+    ]
+  },
+  {
+    "Id": 159,
+    "Name": "琳奈90",
+    "OrderList": [
+      "add_new_role_config 14048"
+    ]
+  },
+  {
     "Id": 169,
     "Name": "一键2.8玩法 主线的功能开启",
     "OrderList": [
@@ -2148,6 +2174,76 @@
     "Name": "卜灵90",
     "OrderList": [
       "add_new_role_config 14049"
+    ]
+  },
+  {
+    "Id": 171,
+    "Name": "一键解锁3.0 bvb-所有前置",
+    "OrderList": [
+      "AddItem#72010042",
+      "10000",
+      "activateteleport 0",
+      "gmunlockfog 0",
+      "GmPhantomBattleUnlockRole 107000001 0",
+      "GmOnPhantomBattleUnlockAllCard 107000001",
+      "gmsetplayerallconditiongroupcomplete 1000012",
+      "accept_quest 192700008",
+      "finish_quest 192700008",
+      "accept_quest 192700019",
+      "finish_quest 192700019",
+      "gmsetplayerallconditiongroupcomplete 12903131",
+      "gmsetplayerallconditiongroupcomplete 12903132",
+      "gmsetplayerallconditiongroupcomplete 12903133",
+      "gmsetplayerallconditiongroupcomplete 12903134",
+      "gmsetplayerallconditiongroupcomplete 12903135",
+      "gmsetplayerallconditiongroupcomplete 12903136",
+      "gmsetplayerallconditiongroupcomplete 12903152",
+      "gmsetplayerallconditiongroupcomplete 12903153",
+      "gmsetplayerallconditiongroupcomplete 12903154",
+      "gmsetplayerallconditiongroupcomplete 12903156"
+    ]
+  },
+  {
+    "Id": 173,
+    "Name": "3.0 bvb-历程前置",
+    "OrderList": [
+      "gmsetplayerallconditiongroupcomplete 1000012",
+      "gmunlockfog 0",
+      "activateteleport 0"
+    ]
+  },
+  {
+    "Id": 174,
+    "Name": "3.0基建-跳转基建任务并开迷雾",
+    "OrderList": [
+      "SkipToQuestNode#169700001",
+      "22",
+      "1",
+      "0",
+      "gmunlockfog 0"
+    ]
+  },
+  {
+    "Id": 175,
+    "Name": "3.0基建-跳转+开迷雾",
+    "OrderList": [
+      "SkipToQuestNode#176000004",
+      "23",
+      "0",
+      "0",
+      "gmunlockfog 0",
+      "activateteleport 0"
+    ]
+  },
+  {
+    "Id": 176,
+    "Name": "3.0基建-获得所有基建道具",
+    "OrderList": [
+      "AddItem#80700001",
+      "10000",
+      "AddItem#80700002",
+      "10000",
+      "AddItem#80700003"
     ]
   }
 ]

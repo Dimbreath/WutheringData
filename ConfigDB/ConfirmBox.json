@@ -5540,7 +5540,7 @@
     "NeedMaskClose": true,
     "UiShowType": 0,
     "NeedClose": true,
-    "TimeDilation": 1
+    "TimeDilation": 0
   },
   {
     "Id": 353,
@@ -6086,6 +6086,22 @@
     "TimeDilation": 1
   },
   {
+    "Id": 392,
+    "Title": "ConfirmBox_1_Title",
+    "Content": "ConfirmBox_392_Content",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_1_ButtonText_0",
+      "ConfirmBox_1_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": true,
+    "UiShowType": 0,
+    "NeedClose": true,
+    "TimeDilation": 1
+  },
+  {
     "Id": 393,
     "Title": "ConfirmBox_1_Title",
     "Content": "ConfirmBox_393_Content",
@@ -6212,6 +6228,70 @@
     "TimeDilation": 1
   },
   {
+    "Id": 401,
+    "Title": "ConfirmBox_1_Title",
+    "Content": "ConfirmBox_401_Content",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_1_ButtonText_0",
+      "ConfirmBox_1_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": true,
+    "UiShowType": 0,
+    "NeedClose": true,
+    "TimeDilation": 1
+  },
+  {
+    "Id": 402,
+    "Title": "ConfirmBox_402_Title",
+    "Content": "ConfirmBox_402_Content",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_1_ButtonText_0",
+      "ConfirmBox_1_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": true,
+    "UiShowType": 0,
+    "NeedClose": true,
+    "TimeDilation": 1
+  },
+  {
+    "Id": 403,
+    "Title": "ConfirmBox_1_Title",
+    "Content": "ConfirmBox_403_Content",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_403_ButtonText_0",
+      "ConfirmBox_403_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": false,
+    "UiShowType": 0,
+    "NeedClose": true,
+    "TimeDilation": 1
+  },
+  {
+    "Id": 404,
+    "Title": "ConfirmBox_1_Title",
+    "Content": "ConfirmBox_404_Content",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_1_ButtonText_0",
+      "ConfirmBox_1_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": false,
+    "UiShowType": 0,
+    "NeedClose": true,
+    "TimeDilation": 1
+  },
+  {
     "Id": 405,
     "Title": "ConfirmBox_405_Title",
     "Content": "ConfirmBox_405_Content",
@@ -6224,6 +6304,181 @@
     "NeedMaskClose": true,
     "UiShowType": 0,
     "NeedClose": false,
+    "TimeDilation": 1
+  },
+  {
+    "Id": 406,
+    "Title": "ConfirmBox_1_Title",
+    "Content": "WheelBattleTip_BackWorld",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_1_ButtonText_0",
+      "ConfirmBox_1_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": false,
+    "UiShowType": 0,
+    "NeedClose": true,
+    "TimeDilation": 1
+  },
+  {
+    "Id": 407,
+    "Title": "ConfirmBox_1_Title",
+    "Content": "WheelBattleTip_ModReplace",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_1_ButtonText_0",
+      "ConfirmBox_1_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": false,
+    "UiShowType": 0,
+    "NeedClose": true,
+    "TimeDilation": 1
+  },
+  {
+    "Id": 408,
+    "Title": "ConfirmBox_1_Title",
+    "Content": "WheelBattleTip_BuffNoSellect",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_1_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": false,
+    "UiShowType": 0,
+    "NeedClose": true,
+    "TimeDilation": 1
+  },
+  {
+    "Id": 409,
+    "Title": "ConfirmBox_1_Title",
+    "Content": "WheelBattleTip_AllClearReopen",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_1_ButtonText_0",
+      "ConfirmBox_1_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": false,
+    "UiShowType": 0,
+    "NeedClose": true,
+    "TimeDilation": 1
+  },
+  {
+    "Id": 410,
+    "Title": "ConfirmBox_1_Title",
+    "Content": "WheelBattleTips_Dropout",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "WheelBattleTips_Dropout_Back",
+      "WheelBattleTips_Dropout_Retry"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": false,
+    "UiShowType": 0,
+    "NeedClose": true,
+    "TimeDilation": 1
+  },
+  {
+    "Id": 411,
+    "Title": "ConfirmBox_1_Title",
+    "Content": "WheelBattleTips_RetryConfirm",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_1_ButtonText_0",
+      "ConfirmBox_1_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": false,
+    "UiShowType": 0,
+    "NeedClose": true,
+    "TimeDilation": 1
+  },
+  {
+    "Id": 412,
+    "Title": "ConfirmBox_1_Title",
+    "Content": "PhantomBattle_1137",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_1_ButtonText_0",
+      "ConfirmBox_1_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": false,
+    "UiShowType": 0,
+    "NeedClose": true,
+    "TimeDilation": 1
+  },
+  {
+    "Id": 413,
+    "Title": "ConfirmBox_1_Title",
+    "Content": "PhantomBattle_1138",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_1_ButtonText_0",
+      "ConfirmBox_1_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": false,
+    "UiShowType": 0,
+    "NeedClose": true,
+    "TimeDilation": 1
+  },
+  {
+    "Id": 414,
+    "Title": "ConfirmBox_1_Title",
+    "Content": "PhantomBattle_1139",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_1_ButtonText_0",
+      "ConfirmBox_1_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": false,
+    "UiShowType": 0,
+    "NeedClose": true,
+    "TimeDilation": 1
+  },
+  {
+    "Id": 416,
+    "Title": "ConfirmBox_1_Title",
+    "Content": "ConfirmBox_416_Content",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_416_ButtonText_0",
+      "ConfirmBox_416_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": false,
+    "UiShowType": 0,
+    "NeedClose": true,
+    "TimeDilation": 0
+  },
+  {
+    "Id": 417,
+    "Title": "ConfirmBox_417_Title",
+    "Content": "ConfirmBox_417_Content",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_417_ButtonText_0",
+      "ConfirmBox_417_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": false,
+    "UiShowType": 0,
+    "NeedClose": true,
     "TimeDilation": 1
   },
   {
@@ -6240,6 +6495,38 @@
     "NeedMaskClose": false,
     "UiShowType": 0,
     "NeedClose": true,
+    "TimeDilation": 1
+  },
+  {
+    "Id": 419,
+    "Title": "ConfirmBox_419_Title",
+    "Content": "ConfirmBox_419_Content",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_100_ButtonText_0",
+      "ConfirmBox_100_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": true,
+    "UiShowType": 0,
+    "NeedClose": true,
+    "TimeDilation": 1
+  },
+  {
+    "Id": 420,
+    "Title": "ConfirmBox_1_Title",
+    "Content": "WheelBattleTip_UsedEquip",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_1_ButtonText_0",
+      "ConfirmBox_1_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": false,
+    "UiShowType": 0,
+    "NeedClose": false,
     "TimeDilation": 1
   },
   {
@@ -6275,6 +6562,38 @@
     "TimeDilation": 1
   },
   {
+    "Id": 423,
+    "Title": "ConfirmBox_1_Title",
+    "Content": "PhantomBattle_1166",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_1_ButtonText_0",
+      "ConfirmBox_1_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": false,
+    "UiShowType": 0,
+    "NeedClose": true,
+    "TimeDilation": 1
+  },
+  {
+    "Id": 424,
+    "Title": "ConfirmBox_1_Title",
+    "Content": "PhantomDisplay_QuickEquipTips",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_1_ButtonText_0",
+      "ConfirmBox_1_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": false,
+    "UiShowType": 0,
+    "NeedClose": true,
+    "TimeDilation": 1
+  },
+  {
     "Id": 425,
     "Title": "ConfirmBox_1_Title",
     "Content": "ConfirmBox_425_Content",
@@ -6286,6 +6605,116 @@
     "DelayTime": 0,
     "DelayButtonIndex": 0,
     "NeedMaskClose": false,
+    "UiShowType": 0,
+    "NeedClose": true,
+    "TimeDilation": 1
+  },
+  {
+    "Id": 426,
+    "Title": "ConfirmBox_1_Title",
+    "Content": "ConfirmBox_426_Content",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_1_ButtonText_0",
+      "ConfirmBox_1_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": false,
+    "UiShowType": 0,
+    "NeedClose": true,
+    "TimeDilation": 1
+  },
+  {
+    "Id": 427,
+    "Title": "ConfirmBox_216_Title",
+    "Content": "AutoPilot_RouteRearrangeTips",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_216_ButtonText_0",
+      "ConfirmBox_216_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": true,
+    "UiShowType": 0,
+    "NeedClose": true,
+    "TimeDilation": 1
+  },
+  {
+    "Id": 428,
+    "Title": "ConfirmBox_1_Title",
+    "Content": "ConfirmBox_428_Content",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_1_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": true,
+    "UiShowType": 0,
+    "NeedClose": true,
+    "TimeDilation": 1
+  },
+  {
+    "Id": 429,
+    "Title": "ConfirmBox_1_Title",
+    "Content": "ConfirmBox_429_Content",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_1_ButtonText_0",
+      "ConfirmBox_1_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": true,
+    "UiShowType": 0,
+    "NeedClose": true,
+    "TimeDilation": 1
+  },
+  {
+    "Id": 444,
+    "Title": "ConfirmBox_1_Title",
+    "Content": "ConfirmBox_444_Content",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_444_ButtonText_0",
+      "ConfirmBox_444_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": true,
+    "UiShowType": 0,
+    "NeedClose": true,
+    "TimeDilation": 1
+  },
+  {
+    "Id": 445,
+    "Title": "ConfirmBox_114_Title",
+    "Content": "ConfirmBox_445_Content",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_114_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": true,
+    "UiShowType": 0,
+    "NeedClose": true,
+    "TimeDilation": 1
+  },
+  {
+    "Id": 446,
+    "Title": "ConfirmBox_1_Title",
+    "Content": "ConfirmBox_446_Content",
+    "SecondaryContent": "",
+    "ButtonText": [
+      "ConfirmBox_1_ButtonText_0",
+      "ConfirmBox_1_ButtonText_1"
+    ],
+    "DelayTime": 0,
+    "DelayButtonIndex": 0,
+    "NeedMaskClose": true,
     "UiShowType": 0,
     "NeedClose": true,
     "TimeDilation": 1

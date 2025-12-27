@@ -3,6 +3,7 @@
     "Id": 1,
     "ItemId": 70140035,
     "RoleId": 1501,
+    "WearPos": 2,
     "Buffs": [
       1101013013.0
     ],
@@ -14,6 +15,7 @@
     "Id": 2,
     "ItemId": 70140035,
     "RoleId": 1605,
+    "WearPos": 2,
     "Buffs": [
       1101013013.0
     ],
@@ -25,6 +27,7 @@
     "Id": 3,
     "ItemId": 70140035,
     "RoleId": 1502,
+    "WearPos": 2,
     "Buffs": [
       1101013015.0
     ],
@@ -36,6 +39,7 @@
     "Id": 4,
     "ItemId": 70140035,
     "RoleId": 1604,
+    "WearPos": 2,
     "Buffs": [
       1101013015.0
     ],
@@ -47,6 +51,7 @@
     "Id": 5,
     "ItemId": 70140035,
     "RoleId": 1406,
+    "WearPos": 2,
     "Buffs": [
       1101013013.0
     ],
@@ -58,6 +63,7 @@
     "Id": 6,
     "ItemId": 70140035,
     "RoleId": 1408,
+    "WearPos": 2,
     "Buffs": [
       1101013015.0
     ],
@@ -69,6 +75,7 @@
     "Id": 7,
     "ItemId": 80004002,
     "RoleId": 1501,
+    "WearPos": 1,
     "Buffs": [
       1101014001.0
     ],
@@ -80,6 +87,7 @@
     "Id": 8,
     "ItemId": 80004002,
     "RoleId": 1605,
+    "WearPos": 1,
     "Buffs": [
       1101014001.0
     ],
@@ -90,7 +98,8 @@
   {
     "Id": 9,
     "ItemId": 80004002,
-    "RoleId": 1604,
+    "RoleId": 1406,
+    "WearPos": 1,
     "Buffs": [
       1101014001.0
     ],
@@ -102,6 +111,7 @@
     "Id": 10,
     "ItemId": 80004002,
     "RoleId": 1502,
+    "WearPos": 1,
     "Buffs": [
       1101014002.0
     ],
@@ -112,7 +122,8 @@
   {
     "Id": 11,
     "ItemId": 80004002,
-    "RoleId": 1406,
+    "RoleId": 1604,
+    "WearPos": 1,
     "Buffs": [
       1101014002.0
     ],
@@ -124,11 +135,84 @@
     "Id": 12,
     "ItemId": 80004002,
     "RoleId": 1408,
+    "WearPos": 1,
     "Buffs": [
       1101014002.0
     ],
     "EquipTips": "Tips_Crown_Wear",
     "UnequipTips": "Tips_Crown_Remove",
+    "EnableInUi": true
+  },
+  {
+    "Id": 13,
+    "ItemId": 80004005,
+    "RoleId": 1501,
+    "WearPos": 1,
+    "Buffs": [
+      1101014003.0
+    ],
+    "EquipTips": "Tips_Crown_2026_Wear",
+    "UnequipTips": "Tips_Crown_2026_Remove",
+    "EnableInUi": true
+  },
+  {
+    "Id": 14,
+    "ItemId": 80004005,
+    "RoleId": 1605,
+    "WearPos": 1,
+    "Buffs": [
+      1101014003.0
+    ],
+    "EquipTips": "Tips_Crown_2026_Wear",
+    "UnequipTips": "Tips_Crown_2026_Remove",
+    "EnableInUi": true
+  },
+  {
+    "Id": 15,
+    "ItemId": 80004005,
+    "RoleId": 1406,
+    "WearPos": 1,
+    "Buffs": [
+      1101014003.0
+    ],
+    "EquipTips": "Tips_Crown_2026_Wear",
+    "UnequipTips": "Tips_Crown_2026_Remove",
+    "EnableInUi": true
+  },
+  {
+    "Id": 16,
+    "ItemId": 80004005,
+    "RoleId": 1502,
+    "WearPos": 1,
+    "Buffs": [
+      1101014004.0
+    ],
+    "EquipTips": "Tips_Crown_2026_Wear",
+    "UnequipTips": "Tips_Crown_2026_Remove",
+    "EnableInUi": true
+  },
+  {
+    "Id": 17,
+    "ItemId": 80004005,
+    "RoleId": 1604,
+    "WearPos": 1,
+    "Buffs": [
+      1101014004.0
+    ],
+    "EquipTips": "Tips_Crown_2026_Wear",
+    "UnequipTips": "Tips_Crown_2026_Remove",
+    "EnableInUi": true
+  },
+  {
+    "Id": 18,
+    "ItemId": 80004005,
+    "RoleId": 1408,
+    "WearPos": 1,
+    "Buffs": [
+      1101014004.0
+    ],
+    "EquipTips": "Tips_Crown_2026_Wear",
+    "UnequipTips": "Tips_Crown_2026_Remove",
     "EnableInUi": true
   }
 ]

@@ -65,5 +65,35 @@
     ],
     "CreatorId": 610,
     "Remark": "不在滑轨及定点钩锁中"
+  },
+  {
+    "Id": 700002,
+    "Type": "玩家开始坐下",
+    "IncludedTags": [
+      "角色.BaseRole.状态通用标识.动作.坐下.启动"
+    ],
+    "ExcludedTags": null,
+    "CreatorId": 152,
+    "Remark": "玩家开始坐下"
+  },
+  {
+    "Id": 700003,
+    "Type": "玩家起身",
+    "IncludedTags": [
+      "角色.BaseRole.状态通用标识.动作.坐下.结束"
+    ],
+    "ExcludedTags": null,
+    "CreatorId": 152,
+    "Remark": "玩家起身"
+  },
+  {
+    "Id": 700004,
+    "Type": "日灵滚球进行中",
+    "IncludedTags": null,
+    "ExcludedTags": [
+      "关卡.aa0f7180.e0cc8c00"
+    ],
+    "CreatorId": 939,
+    "Remark": "日灵滚球进行中"
   }
 ]

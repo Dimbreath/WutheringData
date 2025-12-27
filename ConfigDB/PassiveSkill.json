@@ -34925,6 +34925,32 @@
     "Cdtype": "Owner"
   },
   {
+    "Id": 80037003.0,
+    "SkillDesc": "沙虫撞击判断",
+    "Cdtime": 1.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "RegionDetectTrigger",
+    "TriggerPreset": [
+      "身体碰撞1#身体碰撞2#身体碰撞3#身体碰撞4#身体碰撞5"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "IsInRegion==TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Target",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "80037100001"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 2,
+    "Cdtype": "Owner"
+  },
+  {
     "Id": 283004802.0,
     "SkillDesc": "敌人每受到1次【光效应】/【风效应】时候，受到伤害提高15%，可叠4层",
     "Cdtime": 0.0,
@@ -36536,6 +36562,90 @@
     "Cdtype": "Owner"
   },
   {
+    "Id": 1209007001.0,
+    "SkillDesc": "E回血触发器",
+    "Cdtime": 16.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "-1",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "SkillID==1209021\nOR\nSkillID==1209023",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "12090000401",
+      "1209700031",
+      "1209700032",
+      "1209700033",
+      "12090000403"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 80037004.0,
+    "SkillDesc": "沙虫撞击判断",
+    "Cdtime": 1.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "RegionDetectTrigger",
+    "TriggerPreset": [
+      "身体碰撞6#身体碰撞7#身体碰撞8#身体碰撞9#身体碰撞10"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "IsInRegion==TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Target",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "80037100001"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 2,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 80037005.0,
+    "SkillDesc": "沙虫撞击判断",
+    "Cdtime": 1.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "RegionDetectTrigger",
+    "TriggerPreset": [
+      "身体碰撞11#身体碰撞12#身体碰撞13#身体碰撞14#身体碰撞15"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "IsInRegion==TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Target",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "80037100001"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 2,
+    "Cdtype": "Owner"
+  },
+  {
     "Id": 287110240.0,
     "SkillDesc": "处于【增幅 · 调频】时，每受到伤害时，恢复2点稳定值",
     "Cdtime": 1.0,
@@ -37557,6 +37667,34 @@
     "Cdtype": "Owner"
   },
   {
+    "Id": 77073029.0,
+    "SkillDesc": "机械麝牛牛角震屏爆炸",
+    "Cdtime": 0.5,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffInstigatorTrigger",
+    "TriggerPreset": [
+      "0",
+      "77073027#77073028",
+      "1"
+    ],
+    "TriggerParams": "{\n    \"CheckOwnerTags\": [\n        \"怪物.common.状态标识.瘫痪中\"\n    ]\n}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBullet",
+    "SkillActionParams": [
+      "77073000002"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
     "Id": 283104802.0,
     "SkillDesc": "敌人每受到1次【光效应】/【风效应】时候，受到伤害提高12%，可叠4层",
     "Cdtime": 0.0,
@@ -37852,6 +37990,33 @@
     "Cdtype": "Owner"
   },
   {
+    "Id": 200083936.0,
+    "SkillDesc": "坠落炉芯-触发治疗时给队友加攻击力",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "Attacker==Owner",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "200083937"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
     "Id": 1508510001.0,
     "SkillDesc": "主动锁定目标触发台词",
     "Cdtime": 10.0,
@@ -38047,6 +38212,33 @@
     "Cdtype": "Owner"
   },
   {
+    "Id": 77071010.0,
+    "SkillDesc": "机械麋鹿惊吓反应",
+    "Cdtime": 0.30000001192092896,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeDamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "0"
+    ],
+    "TriggerParams": "{\n    \"CheckOwnerTags\": [\n        \"怪物.148f77cd.c7058453\"\n    ]\n}",
+    "TriggerFormula": "MatchAnyTag(Owner, CheckOwnerTags)\nAND\nDamageValue>=0\nAND\n(DamageType==1\nOR\nDamageType==2\nOR\nDamageType==3\nOR\nDamageType==4\nOR\nDamageType==5)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "77071009"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
     "Id": 2801999216.0,
     "SkillDesc": "监听角鳄破弱技能",
     "Cdtime": 0.0,
@@ -38104,6 +38296,33 @@
     "Cdtype": "Owner"
   },
   {
+    "Id": 924100044.0,
+    "SkillDesc": "造成道具伤时，添加buff",
+    "Cdtime": 2.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageSubType==3002",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "924100045"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
     "Id": 1508956010.0,
     "SkillDesc": "标记挂载监听-敌方",
     "Cdtime": 0.0,
@@ -38125,6 +38344,301 @@
     "SkillActionParams": [
       "1508956011",
       "1508956012"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 632740006.0,
+    "SkillDesc": "3.0磁暴玩法-破弱后减少易损",
+    "Cdtime": 5.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "0"
+    ],
+    "TriggerParams": "{\n\"CheckVictimBuff\":[632740024]\n}",
+    "TriggerFormula": "SkillType==13\nAND\nMatchAnyBuff(Victim,CheckVictimBuff)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "632740026"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 632740007.0,
+    "SkillDesc": "3.0磁暴玩法-破弱后减少回血-BOSS版",
+    "Cdtime": 5.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "0"
+    ],
+    "TriggerParams": "{\n\"CheckVictimBuff\":[632740024]\n}",
+    "TriggerFormula": "SkillType==13\nAND\nMatchAnyBuff(Victim,CheckVictimBuff)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "632740008"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 1209700012.0,
+    "SkillDesc": "击杀待解析或被解析的目标获得解析传递",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "KillTrigger",
+    "TriggerPreset": [
+      "1"
+    ],
+    "TriggerParams": "{\n    \"CheckVictimTags\": [\n        \"角色.e06e19c5.5f006053.7a57bf01\",\n        \"角色.e06e19c5.5f006053.0e33d630\"]\n}",
+    "TriggerFormula": "MatchAnyTag(Victim,CheckVictimTags)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1209700013"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 1209700014.0,
+    "SkillDesc": "拥有解析传递的队伍造成伤害时附加目标待解析",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "1",
+      "0"
+    ],
+    "TriggerParams": "{\n\"CheckOwnerTags\":[\"角色.e06e19c5.469fee12.3a1cad35\"]\n}",
+    "TriggerFormula": "DamageValue>=1\nAND\nMatchAnyTag(Owner,CheckOwnerTags)",
+    "SubSkillAction": null,
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1209300001"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 1209400000.0,
+    "SkillDesc": "共鸣效率转化为66号属性",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "AttributeChangedTrigger",
+    "TriggerPreset": [
+      "0",
+      "11"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1209400001"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 77085901.0,
+    "SkillDesc": "双极机甲弱点击破次数统计",
+    "Cdtime": 3.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "LeaveWeaknessTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "LeaveReason==0",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "77085010"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 110038110.0,
+    "SkillDesc": "莫宁专武治疗检测-1级",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "Attacker==Owner",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "110038111"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 110038120.0,
+    "SkillDesc": "莫宁专武治疗检测-2级",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "Attacker==Owner",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "110038121"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 110038130.0,
+    "SkillDesc": "莫宁专武治疗检测-3级",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "Attacker==Owner",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "110038131"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 110038140.0,
+    "SkillDesc": "莫宁专武治疗检测-4级",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "Attacker==Owner",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "110038141"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 110038150.0,
+    "SkillDesc": "莫宁专武治疗检测-5级",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "Attacker==Owner",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "110038151"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE",
@@ -38194,6 +38708,66 @@
     "Cdtype": "Owner"
   },
   {
+    "Id": 31000024001.0,
+    "SkillDesc": "弱点拐套-检测角色添加a/b弱点",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffInstigatorTrigger",
+    "TriggerPreset": [
+      "0",
+      "3159#3160"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "31000024002",
+      "31000024003",
+      "31000024004",
+      "31000024005",
+      "31000024006",
+      "31000024007",
+      "31000024008"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 31000025001.0,
+    "SkillDesc": "弱点奶套-进行治疗时判断自身Tag全队加爆伤",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "1"
+    ],
+    "TriggerParams": "{\n    \"CheckOwnerTags\": [\n        \"角色.Common.a168bdc1.a9601c38\",\n        \"角色.Common.a168bdc1.5dec6dd4\"]\n}",
+    "TriggerFormula": "Attacker==Owner\nAND\nMatchAnyTag(Owner,CheckOwnerTags)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "31000025002"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
     "Id": 287110905.0,
     "SkillDesc": "进入水中移除子弹跑",
     "Cdtime": 0.0,
@@ -38223,6 +38797,1565 @@
       "640003020",
       "640003029",
       "640003026"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 1209300007.0,
+    "SkillDesc": "队伍中的角色击破结算造成伤害时，莫宁给目标附加待解析",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "1",
+      "0"
+    ],
+    "TriggerParams": "{\n\"CheckVictimTags\":[\"角色.e06e19c5.5f006053.0e33d630\"]\n}",
+    "TriggerFormula": "DamageValue>=1\nAND\nDamageType==11\nAND\nMatchAnyTag(Victim,CheckVictimTags)",
+    "SubSkillAction": null,
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1209300002",
+      "1209300004",
+      "1209300008"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 1509002301.0,
+    "SkillDesc": "琳奈监听全队命中被爆破破弱的敌人",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffInstigatorTrigger",
+    "TriggerPreset": [
+      "1",
+      "3169",
+      "0"
+    ],
+    "TriggerParams": "{\n\"CheckVictimBuffs\":[1509002302]\n}",
+    "TriggerFormula": "!MatchAnyBuff(Victim,CheckVictimBuffs)",
+    "SubSkillAction": null,
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1509002302",
+      "1509002303",
+      "1509002304"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 70347032.0,
+    "SkillDesc": "狼人检测部位破坏被动",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "怪物.a3945adc.01578f9e.2e9e331e"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "70347033"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 632740008.0,
+    "SkillDesc": "3.0磁暴玩法-破弱后对自身造成10%最大生命的伤害",
+    "Cdtime": 5.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "0"
+    ],
+    "TriggerParams": "{\n\"CheckVictimBuff\":[632740024]\n}",
+    "TriggerFormula": "SkillType==13\nAND\nMatchAnyBuff(Victim,CheckVictimBuff)",
+    "SubSkillAction": null,
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "632740016",
+      "632740017"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 110037121.0,
+    "SkillDesc": "敌人被上【爆破】/【诅咒】标记的触发器-1阶",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffInstigatorTrigger",
+    "TriggerPreset": [
+      "0",
+      "3159#3160",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Attacker",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "110037126"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 110037122.0,
+    "SkillDesc": "敌人被上【爆破】/【诅咒】标记的触发器-2阶",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffInstigatorTrigger",
+    "TriggerPreset": [
+      "0",
+      "3159#3160",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Attacker",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "110037127"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 110037123.0,
+    "SkillDesc": "敌人被上【爆破】/【诅咒】标记的触发器-3阶",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffInstigatorTrigger",
+    "TriggerPreset": [
+      "0",
+      "3159#3160",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Attacker",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "110037128"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 110037124.0,
+    "SkillDesc": "敌人被上【爆破】/【诅咒】标记的触发器-4阶",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffInstigatorTrigger",
+    "TriggerPreset": [
+      "0",
+      "3159#3160",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Attacker",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "110037129"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 110037125.0,
+    "SkillDesc": "敌人被上【爆破】/【诅咒】标记的触发器-5阶",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffInstigatorTrigger",
+    "TriggerPreset": [
+      "0",
+      "3159#3160",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Attacker",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "110037130"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 600000001.0,
+    "SkillDesc": "声骸套装-检测队伍声骸技能种类施放",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffVictimTrigger",
+    "TriggerPreset": [
+      "0",
+      "0#640025056#100"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "6100000004"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 600000002.0,
+    "SkillDesc": "声骸套装-检测角色发出光异常",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffInstigatorTrigger",
+    "TriggerPreset": [
+      "0",
+      "10051000"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "31000011002"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 1209700034.0,
+    "SkillDesc": "3共E回能触发器",
+    "Cdtime": 25.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "1209023",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1209700031",
+      "1209700032"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 770780013.0,
+    "SkillDesc": "追猎专怪被动",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeDamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "0"
+    ],
+    "TriggerParams": "{\n    \"CheckVictimTags\": [\n        \"功能.逻辑状态标识.6067066e.0cbeb185.198e9254\"\n    ]\n}",
+    "TriggerFormula": "MatchAnyTag(Victim, CheckVictimTags)\nAND\nDamageType==11\nAND\nSkillType==13",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "770780014"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 70347045.0,
+    "SkillDesc": "双子专怪被动",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "LeaveWeaknessTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "70347046"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 9100002201.0,
+    "SkillDesc": "检测怪物发出冰异常",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": true,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffInstigatorTrigger",
+    "TriggerPreset": [
+      "0",
+      "10010000#10011000"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "9100002202"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 9100002402.0,
+    "SkillDesc": "猩猩1档破弱监听",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "功能.逻辑状态标识.6067066e.876ed03e.755cd28d",
+      "0",
+      "0",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "9100002404"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 1209800001.0,
+    "SkillDesc": "莫宁监听全队命中被爆破破弱的敌人",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffInstigatorTrigger",
+    "TriggerPreset": [
+      "1",
+      "3169",
+      "0"
+    ],
+    "TriggerParams": "{\n\"CheckVictimBuffs\":[1209800002]\n}",
+    "TriggerFormula": "!MatchAnyBuff(Victim,CheckVictimBuffs)",
+    "SubSkillAction": null,
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1209800002",
+      "1209800004",
+      "1209800005"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 1209800002.0,
+    "SkillDesc": "莫宁给被爆破的怪物上冷却buff",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "",
+    "TriggerPreset": null,
+    "TriggerParams": "{}",
+    "TriggerFormula": "FALSE",
+    "SubSkillAction": null,
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1209800002"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 70347047.0,
+    "SkillDesc": "麝牛专怪被动",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeDamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "0"
+    ],
+    "TriggerParams": "{\n    \"CheckVictimTags\": [\n        \"功能.逻辑状态标识.6067066e.0cbeb185.b56357f7\"\n    ]\n}",
+    "TriggerFormula": "MatchAnyTag(Victim, CheckVictimTags)\nAND\nDamageType==11\nAND\nSkillType==13",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "70347048"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 1509001308.0,
+    "SkillDesc": "琳奈光学迷彩效果-添加",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "1509053",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "15090000178",
+      "15090000170"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 1509001309.0,
+    "SkillDesc": "琳奈光学迷彩效果-移除",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "0",
+      "-1",
+      "0"
+    ],
+    "TriggerParams": "{\n\"CheckOwnerBuffs\":[15090000178]\n}",
+    "TriggerFormula": "MatchAnyBuff(Owner, CheckOwnerBuffs)\nAND\nSkillID!=1509052\nAND\nSkillID!=1509053\nAND\nSkillID!=100003\nAND\nSkillID!=100004",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "15090000179"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 2103004501.0,
+    "SkillDesc": "3.0普池武器-枪-1级被动",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "1",
+      "-1",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "SkillType==13",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "110039021",
+      "110039031",
+      "110039041",
+      "110039051",
+      "110039061",
+      "110039071"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 2103004502.0,
+    "SkillDesc": "3.0普池武器-枪-2级被动",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "1",
+      "-1",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "SkillType==13",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "110039022",
+      "110039032",
+      "110039042",
+      "110039052",
+      "110039062",
+      "110039072"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 2103004503.0,
+    "SkillDesc": "3.0普池武器-枪-3级被动",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "1",
+      "-1",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "SkillType==13",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "110039023",
+      "110039033",
+      "110039043",
+      "110039053",
+      "110039063",
+      "110039073"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 2103004504.0,
+    "SkillDesc": "3.0普池武器-枪-4级被动",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "1",
+      "-1",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "SkillType==13",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "110039024",
+      "110039034",
+      "110039044",
+      "110039054",
+      "110039064",
+      "110039074"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 2103004505.0,
+    "SkillDesc": "3.0普池武器-枪-5级被动",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "1",
+      "-1",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "SkillType==13",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "110039025",
+      "110039035",
+      "110039045",
+      "110039055",
+      "110039065",
+      "110039075"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 2105004501.0,
+    "SkillDesc": "3.0普池武器-音感仪-1级被动",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "1",
+      "-1",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "SkillType==13",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "110043021",
+      "110043031"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 2105004502.0,
+    "SkillDesc": "3.0普池武器-音感仪-2级被动",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "1",
+      "-1",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "SkillType==13",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "110043022",
+      "110043032"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 2105004503.0,
+    "SkillDesc": "3.0普池武器-音感仪-3级被动",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "1",
+      "-1",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "SkillType==13",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "110043023",
+      "110043033"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 2105004504.0,
+    "SkillDesc": "3.0普池武器-音感仪-4级被动",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "1",
+      "-1",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "SkillType==13",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "110043024",
+      "110043034"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 2105004505.0,
+    "SkillDesc": "3.0普池武器-音感仪-5级被动",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "SkillTrigger",
+    "TriggerPreset": [
+      "1",
+      "-1",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "SkillType==13",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "110043025",
+      "110043035"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 632740010.0,
+    "SkillDesc": "3.0磁暴玩法-破弱后减少回血-精英版",
+    "Cdtime": 5.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "0"
+    ],
+    "TriggerParams": "{\n\"CheckVictimBuff\":[632740023]\n}",
+    "TriggerFormula": "SkillType==13\nAND\nMatchAnyBuff(Victim,CheckVictimBuff)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "632740010"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 632740011.0,
+    "SkillDesc": "3.0磁暴玩法-精英死亡且有破弱tag给攻击者回血",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DeathTrigger",
+    "TriggerPreset": [
+      "0"
+    ],
+    "TriggerParams": "{\n\"CheckOwnerTags\": [\"功能.逻辑状态标识.6067066e.39f6ce36\"],\n\"CheckOwnerBuff\":[632740023]\n}",
+    "TriggerFormula": "MatchAnyBuff(Owner,CheckOwnerBuff)\nAND\nMatchAnyTag(Owner,CheckOwnerTags)",
+    "SubSkillAction": null,
+    "InstigatorType": "Attacker",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "632740010"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 3001999001.0,
+    "SkillDesc": "监听谐度破坏伤害结算\n-93000038",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageType==11",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "93000038"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 3001999002.0,
+    "SkillDesc": "监听谐度破坏伤害结算\n-93000039",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageType==11",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "93000039"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 3001999003.0,
+    "SkillDesc": "监听谐度破坏伤害结算\n-93000040",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageType==11",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "93000040"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 3001999004.0,
+    "SkillDesc": "监听谐度破坏伤害结算\n-93000041",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageType==11",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "93000041"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 3001999005.0,
+    "SkillDesc": "监听谐度破坏伤害结算\n-93000042",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageType==11",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "93000042"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 3001999006.0,
+    "SkillDesc": "监听谐度破坏伤害结算\n-93000043",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageType==11",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "93000043"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 3001999007.0,
+    "SkillDesc": "监听谐度破坏伤害结算\n-93000044",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageType==11",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "93000044"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 3001999008.0,
+    "SkillDesc": "监听谐度破坏伤害结算\n-93000045",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageType==11",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "93000045"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 3001999000.0,
+    "SkillDesc": "监听谐度破坏秒杀",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "功能.逻辑状态标识.6067066e.0cbeb185.14d851f7",
+      "0",
+      "0",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1108"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 674010603.0,
+    "SkillDesc": "谐振破坏伤害监听",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageType==11",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "680051502",
+      "680051503",
+      "680051504",
+      "680051505",
+      "680051506",
+      "680051507"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 1509002701.0,
+    "SkillDesc": "琳奈骑摩托进轮滑",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "角色.Common.c7f43df1.a57a7759"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "15090000111",
+      "15090000103",
+      "1509001004",
+      "15090000136",
+      "15090000137"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 31000025010.0,
+    "SkillDesc": "弱点奶套-进行治疗时全队增伤",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "Attacker==Owner",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "31000025017"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 31000026012.0,
+    "SkillDesc": "弱点a输出套-叠层buff上限时走这个触发",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffVictimTrigger",
+    "TriggerPreset": [
+      "0",
+      "0#31000026011#3"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "31000026013"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 9101000202.0,
+    "SkillDesc": "延奏异常挂载判断",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffInstigatorTrigger",
+    "TriggerPreset": [
+      "0",
+      "10011000#10021000#10031000#10041000#10051000#10061000"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "9101000201"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 9101000203.0,
+    "SkillDesc": "延奏异常失败监听",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BuffAddFailureTrigger",
+    "TriggerPreset": [
+      "0",
+      "10011000#10021000#10031000#10041000#10051000#10061000"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Victim",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "9101000201"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 9101000802.0,
+    "SkillDesc": "施放声骸技能监听，每次施放获得1层最终伤害标记",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "VisionTrigger",
+    "TriggerPreset": [
+      "0",
+      "-1",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "9101000803"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 7000100207.0,
+    "SkillDesc": "摩托期间监听是否退出战斗",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.逻辑状态.进入战斗",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "7000100205"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 680051301.0,
+    "SkillDesc": "13期-爆破监听",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "2",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageType==12",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "680051302",
+      "680051303"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 92008116.0,
+    "SkillDesc": "聚爆与震谐监听器",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeDamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageType==12\nOR\nHasInt(1004, DamageSubType)",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "920081161",
+      "920081162",
+      "920081163",
+      "920081164",
+      "920081165",
+      "920081166"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 9200811361.0,
+    "SkillDesc": "震谐监听器",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "BeDamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageType==12",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "9200811362"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 920081124.0,
+    "SkillDesc": "触发震谐监听器",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "DamageTrigger",
+    "TriggerPreset": [
+      "0",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "DamageType==12",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "9200811241"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 1209900001.0,
+    "SkillDesc": "",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "行为状态.动作状态.滑翔",
+      "0",
+      "0",
+      "1"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "TRUE",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1209900001"
     ],
     "ActionScriptParams": "{}",
     "SkillActionScript": "FALSE",

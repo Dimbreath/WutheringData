@@ -1943,5 +1943,413 @@
     "FoodContent": "",
     "FoodBackground": "",
     "RoleList": null
+  },
+  {
+    "Id": 10068,
+    "FormulaItemId": 80010068,
+    "FoodItemId": 80000068,
+    "TypeId": 1,
+    "Unlock": false,
+    "Name": "生拌化石鳍",
+    "ConsumeItems": [
+      {
+        "ItemId": 42400120,
+        "Count": 3
+      },
+      {
+        "ItemId": 80050008,
+        "Count": 2
+      },
+      {
+        "ItemId": 42601320,
+        "Count": 3
+      }
+    ],
+    "Proficiency": 20,
+    "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10069,
+    "FormulaItemId": 80010069,
+    "FoodItemId": 80000069,
+    "TypeId": 1,
+    "Unlock": false,
+    "Name": "岩绒沙拉",
+    "ConsumeItems": [
+      {
+        "ItemId": 42601360,
+        "Count": 2
+      },
+      {
+        "ItemId": 42601320,
+        "Count": 1
+      },
+      {
+        "ItemId": 80050008,
+        "Count": 2
+      },
+      {
+        "ItemId": 80050001,
+        "Count": 1
+      }
+    ],
+    "Proficiency": 20,
+    "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10070,
+    "FormulaItemId": 80010070,
+    "FoodItemId": 80000070,
+    "TypeId": 1,
+    "Unlock": false,
+    "Name": "松针苏打",
+    "ConsumeItems": [
+      {
+        "ItemId": 42601320,
+        "Count": 4
+      },
+      {
+        "ItemId": 80050003,
+        "Count": 2
+      }
+    ],
+    "Proficiency": 20,
+    "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10071,
+    "FormulaItemId": 80010071,
+    "FoodItemId": 80000071,
+    "TypeId": 1,
+    "Unlock": false,
+    "Name": "蜜罐果酱",
+    "ConsumeItems": [
+      {
+        "ItemId": 42601340,
+        "Count": 4
+      },
+      {
+        "ItemId": 80050003,
+        "Count": 2
+      }
+    ],
+    "Proficiency": 20,
+    "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10072,
+    "FormulaItemId": 80010072,
+    "FoodItemId": 80000072,
+    "TypeId": 1,
+    "Unlock": false,
+    "Name": "浓香熏肉烩炖",
+    "ConsumeItems": [
+      {
+        "ItemId": 42400010,
+        "Count": 3
+      },
+      {
+        "ItemId": 42400030,
+        "Count": 2
+      },
+      {
+        "ItemId": 42601340,
+        "Count": 3
+      }
+    ],
+    "Proficiency": 40,
+    "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10073,
+    "FormulaItemId": 80010073,
+    "FoodItemId": 80000073,
+    "TypeId": 1,
+    "Unlock": false,
+    "Name": "烤蕨团蕨",
+    "ConsumeItems": [
+      {
+        "ItemId": 42601350,
+        "Count": 4
+      },
+      {
+        "ItemId": 80050001,
+        "Count": 1
+      }
+    ],
+    "Proficiency": 20,
+    "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10074,
+    "FormulaItemId": 80010074,
+    "FoodItemId": 80000074,
+    "TypeId": 1,
+    "Unlock": false,
+    "Name": "喀拉喀拉",
+    "ConsumeItems": [
+      {
+        "ItemId": 42601340,
+        "Count": 3
+      },
+      {
+        "ItemId": 80050003,
+        "Count": 3
+      }
+    ],
+    "Proficiency": 20,
+    "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10075,
+    "FormulaItemId": 80010075,
+    "FoodItemId": 80000075,
+    "TypeId": 1,
+    "Unlock": false,
+    "Name": "“裂了就跑”鱼罐头",
+    "ConsumeItems": [
+      {
+        "ItemId": 42400120,
+        "Count": 4
+      },
+      {
+        "ItemId": 80050008,
+        "Count": 3
+      }
+    ],
+    "Proficiency": 40,
+    "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10076,
+    "FormulaItemId": 80010076,
+    "FoodItemId": 80000076,
+    "TypeId": 1,
+    "Unlock": false,
+    "Name": "“没事吃一个”面包",
+    "ConsumeItems": [
+      {
+        "ItemId": 80050000,
+        "Count": 4
+      },
+      {
+        "ItemId": 42600010,
+        "Count": 3
+      }
+    ],
+    "Proficiency": 40,
+    "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10077,
+    "FormulaItemId": 80010077,
+    "FoodItemId": 80000077,
+    "TypeId": 1,
+    "Unlock": false,
+    "Name": "全营养嘻嘻果冻",
+    "ConsumeItems": [
+      {
+        "ItemId": 42601350,
+        "Count": 4
+      },
+      {
+        "ItemId": 80050003,
+        "Count": 3
+      }
+    ],
+    "Proficiency": 20,
+    "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10078,
+    "FormulaItemId": 80010078,
+    "FoodItemId": 80000078,
+    "TypeId": 1,
+    "Unlock": false,
+    "Name": "拉海洛特产纯植物奶",
+    "ConsumeItems": [
+      {
+        "ItemId": 42601320,
+        "Count": 3
+      },
+      {
+        "ItemId": 80050005,
+        "Count": 3
+      }
+    ],
+    "Proficiency": 20,
+    "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10079,
+    "FormulaItemId": 80010079,
+    "FoodItemId": 80000079,
+    "TypeId": 1,
+    "Unlock": false,
+    "Name": "罐装惊喜",
+    "ConsumeItems": [
+      {
+        "ItemId": 42600010,
+        "Count": 2
+      },
+      {
+        "ItemId": 80050000,
+        "Count": 1
+      },
+      {
+        "ItemId": 80050005,
+        "Count": 2
+      },
+      {
+        "ItemId": 42601340,
+        "Count": 1
+      }
+    ],
+    "Proficiency": 40,
+    "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": [
+      1209
+    ]
+  },
+  {
+    "Id": 10080,
+    "FormulaItemId": 80010080,
+    "FoodItemId": 80000080,
+    "TypeId": 1,
+    "Unlock": false,
+    "Name": "速醒能量补充胶",
+    "ConsumeItems": [
+      {
+        "ItemId": 42400010,
+        "Count": 3
+      },
+      {
+        "ItemId": 42400030,
+        "Count": 2
+      },
+      {
+        "ItemId": 42400120,
+        "Count": 3
+      }
+    ],
+    "Proficiency": 20,
+    "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10081,
+    "FormulaItemId": 80010081,
+    "FoodItemId": 80000081,
+    "TypeId": 1,
+    "Unlock": false,
+    "Name": "午夜妙妙杯面",
+    "ConsumeItems": [
+      {
+        "ItemId": 80050000,
+        "Count": 3
+      },
+      {
+        "ItemId": 42600010,
+        "Count": 2
+      },
+      {
+        "ItemId": 42601360,
+        "Count": 3
+      }
+    ],
+    "Proficiency": 40,
+    "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": [
+      1509
+    ]
+  },
+  {
+    "Id": 10082,
+    "FormulaItemId": 80010082,
+    "FoodItemId": 80000082,
+    "TypeId": 1,
+    "Unlock": false,
+    "Name": "“街角邂逅”巧克力礼盒",
+    "ConsumeItems": [
+      {
+        "ItemId": 80050003,
+        "Count": 3
+      },
+      {
+        "ItemId": 80050005,
+        "Count": 3
+      }
+    ],
+    "Proficiency": 40,
+    "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
+  },
+  {
+    "Id": 10083,
+    "FormulaItemId": 80010083,
+    "FoodItemId": 80000083,
+    "TypeId": 1,
+    "Unlock": false,
+    "Name": "外酥里嫩炸猪排便当",
+    "ConsumeItems": [
+      {
+        "ItemId": 42400030,
+        "Count": 3
+      },
+      {
+        "ItemId": 80050001,
+        "Count": 2
+      },
+      {
+        "ItemId": 80050008,
+        "Count": 2
+      }
+    ],
+    "Proficiency": 40,
+    "MaxProficiencyCount": 10,
+    "FoodContent": "",
+    "FoodBackground": "",
+    "RoleList": null
   }
 ]

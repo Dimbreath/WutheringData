@@ -38,7 +38,8 @@
       4009,
       4010
     ],
-    "AutoTake": true
+    "AutoTake": true,
+    "CanLevelUpTips": null
   },
   {
     "Id": 2,
@@ -67,7 +68,8 @@
       4025,
       4026
     ],
-    "AutoTake": true
+    "AutoTake": true,
+    "CanLevelUpTips": null
   },
   {
     "Id": 3,
@@ -93,7 +95,8 @@
       4,
       5
     ],
-    "AutoTake": false
+    "AutoTake": false,
+    "CanLevelUpTips": null
   },
   {
     "Id": 4,
@@ -129,7 +132,8 @@
       4,
       5
     ],
-    "AutoTake": true
+    "AutoTake": true,
+    "CanLevelUpTips": null
   },
   {
     "Id": 5,
@@ -163,6 +167,71 @@
       4,
       5
     ],
-    "AutoTake": true
+    "AutoTake": true,
+    "CanLevelUpTips": null
+  },
+  {
+    "Id": 6,
+    "CoreId": 40040006,
+    "Goal": [
+      4,
+      6,
+      8,
+      10,
+      12,
+      15
+    ],
+    "DropIds": [
+      4060,
+      4061,
+      4062,
+      4063,
+      4064,
+      4065
+    ],
+    "DarkCoastDeliveryList": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "AutoTake": true,
+    "CanLevelUpTips": [
+      "剧情_3.0拉海洛_阿尔塞尼声匣集齐提示",
+      "7",
+      "1"
+    ]
+  },
+  {
+    "Id": 7,
+    "CoreId": 40040007,
+    "Goal": [
+      6,
+      8,
+      10,
+      12,
+      15
+    ],
+    "DropIds": [
+      4070,
+      4071,
+      4072,
+      4073,
+      4074
+    ],
+    "DarkCoastDeliveryList": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "AutoTake": true,
+    "CanLevelUpTips": [
+      "剧情_3.0拉海洛_浮光林日灵集齐提示",
+      "7",
+      "1"
+    ]
   }
 ]

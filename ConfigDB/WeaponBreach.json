@@ -14572,5 +14572,796 @@
     "LevelLimit": 90,
     "Consume": null,
     "GoldConsume": 0
+  },
+  {
+    "Id": 1100,
+    "BreachId": 21021100,
+    "Level": 0,
+    "ConditionId": 504002,
+    "LevelLimit": 20,
+    "Consume": [
+      {
+        "Key": 41100081,
+        "Value": 6
+      }
+    ],
+    "GoldConsume": 10000
+  },
+  {
+    "Id": 1101,
+    "BreachId": 21021100,
+    "Level": 1,
+    "ConditionId": 504003,
+    "LevelLimit": 40,
+    "Consume": [
+      {
+        "Key": 43021041,
+        "Value": 6
+      },
+      {
+        "Key": 41100082,
+        "Value": 6
+      }
+    ],
+    "GoldConsume": 20000
+  },
+  {
+    "Id": 1102,
+    "BreachId": 21021100,
+    "Level": 2,
+    "ConditionId": 504004,
+    "LevelLimit": 50,
+    "Consume": [
+      {
+        "Key": 43021042,
+        "Value": 8
+      },
+      {
+        "Key": 41100083,
+        "Value": 4
+      }
+    ],
+    "GoldConsume": 40000
+  },
+  {
+    "Id": 1103,
+    "BreachId": 21021100,
+    "Level": 3,
+    "ConditionId": 504005,
+    "LevelLimit": 60,
+    "Consume": [
+      {
+        "Key": 43021043,
+        "Value": 6
+      },
+      {
+        "Key": 41100083,
+        "Value": 6
+      }
+    ],
+    "GoldConsume": 60000
+  },
+  {
+    "Id": 1104,
+    "BreachId": 21021100,
+    "Level": 4,
+    "ConditionId": 504006,
+    "LevelLimit": 70,
+    "Consume": [
+      {
+        "Key": 43021044,
+        "Value": 8
+      },
+      {
+        "Key": 41100084,
+        "Value": 4
+      }
+    ],
+    "GoldConsume": 80000
+  },
+  {
+    "Id": 1105,
+    "BreachId": 21021100,
+    "Level": 5,
+    "ConditionId": 504007,
+    "LevelLimit": 80,
+    "Consume": [
+      {
+        "Key": 43021044,
+        "Value": 12
+      },
+      {
+        "Key": 41100084,
+        "Value": 8
+      }
+    ],
+    "GoldConsume": 120000
+  },
+  {
+    "Id": 1106,
+    "BreachId": 21021100,
+    "Level": 6,
+    "ConditionId": 504007,
+    "LevelLimit": 90,
+    "Consume": null,
+    "GoldConsume": 0
+  },
+  {
+    "Id": 1110,
+    "BreachId": 21021110,
+    "Level": 0,
+    "ConditionId": 504002,
+    "LevelLimit": 20,
+    "Consume": [
+      {
+        "Key": 41100071,
+        "Value": 6
+      }
+    ],
+    "GoldConsume": 10000
+  },
+  {
+    "Id": 1111,
+    "BreachId": 21021110,
+    "Level": 1,
+    "ConditionId": 504003,
+    "LevelLimit": 40,
+    "Consume": [
+      {
+        "Key": 43021011,
+        "Value": 6
+      },
+      {
+        "Key": 41100072,
+        "Value": 6
+      }
+    ],
+    "GoldConsume": 20000
+  },
+  {
+    "Id": 1112,
+    "BreachId": 21021110,
+    "Level": 2,
+    "ConditionId": 504004,
+    "LevelLimit": 50,
+    "Consume": [
+      {
+        "Key": 43021012,
+        "Value": 8
+      },
+      {
+        "Key": 41100073,
+        "Value": 4
+      }
+    ],
+    "GoldConsume": 40000
+  },
+  {
+    "Id": 1113,
+    "BreachId": 21021110,
+    "Level": 3,
+    "ConditionId": 504005,
+    "LevelLimit": 60,
+    "Consume": [
+      {
+        "Key": 43021013,
+        "Value": 6
+      },
+      {
+        "Key": 41100073,
+        "Value": 6
+      }
+    ],
+    "GoldConsume": 60000
+  },
+  {
+    "Id": 1114,
+    "BreachId": 21021110,
+    "Level": 4,
+    "ConditionId": 504006,
+    "LevelLimit": 70,
+    "Consume": [
+      {
+        "Key": 43021014,
+        "Value": 8
+      },
+      {
+        "Key": 41100074,
+        "Value": 4
+      }
+    ],
+    "GoldConsume": 80000
+  },
+  {
+    "Id": 1115,
+    "BreachId": 21021110,
+    "Level": 5,
+    "ConditionId": 504007,
+    "LevelLimit": 80,
+    "Consume": [
+      {
+        "Key": 43021014,
+        "Value": 12
+      },
+      {
+        "Key": 41100074,
+        "Value": 8
+      }
+    ],
+    "GoldConsume": 120000
+  },
+  {
+    "Id": 1116,
+    "BreachId": 21021110,
+    "Level": 6,
+    "ConditionId": 504007,
+    "LevelLimit": 90,
+    "Consume": null,
+    "GoldConsume": 0
+  },
+  {
+    "Id": 1120,
+    "BreachId": 21021120,
+    "Level": 0,
+    "ConditionId": 504002,
+    "LevelLimit": 20,
+    "Consume": [
+      {
+        "Key": 41100081,
+        "Value": 6
+      }
+    ],
+    "GoldConsume": 10000
+  },
+  {
+    "Id": 1121,
+    "BreachId": 21021120,
+    "Level": 1,
+    "ConditionId": 504003,
+    "LevelLimit": 40,
+    "Consume": [
+      {
+        "Key": 43021021,
+        "Value": 6
+      },
+      {
+        "Key": 41100082,
+        "Value": 6
+      }
+    ],
+    "GoldConsume": 20000
+  },
+  {
+    "Id": 1122,
+    "BreachId": 21021120,
+    "Level": 2,
+    "ConditionId": 504004,
+    "LevelLimit": 50,
+    "Consume": [
+      {
+        "Key": 43021022,
+        "Value": 8
+      },
+      {
+        "Key": 41100083,
+        "Value": 4
+      }
+    ],
+    "GoldConsume": 40000
+  },
+  {
+    "Id": 1123,
+    "BreachId": 21021120,
+    "Level": 3,
+    "ConditionId": 504005,
+    "LevelLimit": 60,
+    "Consume": [
+      {
+        "Key": 43021023,
+        "Value": 6
+      },
+      {
+        "Key": 41100083,
+        "Value": 6
+      }
+    ],
+    "GoldConsume": 60000
+  },
+  {
+    "Id": 1124,
+    "BreachId": 21021120,
+    "Level": 4,
+    "ConditionId": 504006,
+    "LevelLimit": 70,
+    "Consume": [
+      {
+        "Key": 43021024,
+        "Value": 8
+      },
+      {
+        "Key": 41100084,
+        "Value": 4
+      }
+    ],
+    "GoldConsume": 80000
+  },
+  {
+    "Id": 1125,
+    "BreachId": 21021120,
+    "Level": 5,
+    "ConditionId": 504007,
+    "LevelLimit": 80,
+    "Consume": [
+      {
+        "Key": 43021024,
+        "Value": 12
+      },
+      {
+        "Key": 41100084,
+        "Value": 8
+      }
+    ],
+    "GoldConsume": 120000
+  },
+  {
+    "Id": 1126,
+    "BreachId": 21021120,
+    "Level": 6,
+    "ConditionId": 504007,
+    "LevelLimit": 90,
+    "Consume": null,
+    "GoldConsume": 0
+  },
+  {
+    "Id": 1130,
+    "BreachId": 21021130,
+    "Level": 0,
+    "ConditionId": 504002,
+    "LevelLimit": 20,
+    "Consume": [
+      {
+        "Key": 41100071,
+        "Value": 6
+      }
+    ],
+    "GoldConsume": 10000
+  },
+  {
+    "Id": 1131,
+    "BreachId": 21021130,
+    "Level": 1,
+    "ConditionId": 504003,
+    "LevelLimit": 40,
+    "Consume": [
+      {
+        "Key": 43021051,
+        "Value": 6
+      },
+      {
+        "Key": 41100072,
+        "Value": 6
+      }
+    ],
+    "GoldConsume": 20000
+  },
+  {
+    "Id": 1132,
+    "BreachId": 21021130,
+    "Level": 2,
+    "ConditionId": 504004,
+    "LevelLimit": 50,
+    "Consume": [
+      {
+        "Key": 43021052,
+        "Value": 8
+      },
+      {
+        "Key": 41100073,
+        "Value": 4
+      }
+    ],
+    "GoldConsume": 40000
+  },
+  {
+    "Id": 1133,
+    "BreachId": 21021130,
+    "Level": 3,
+    "ConditionId": 504005,
+    "LevelLimit": 60,
+    "Consume": [
+      {
+        "Key": 43021053,
+        "Value": 6
+      },
+      {
+        "Key": 41100073,
+        "Value": 6
+      }
+    ],
+    "GoldConsume": 60000
+  },
+  {
+    "Id": 1134,
+    "BreachId": 21021130,
+    "Level": 4,
+    "ConditionId": 504006,
+    "LevelLimit": 70,
+    "Consume": [
+      {
+        "Key": 43021054,
+        "Value": 8
+      },
+      {
+        "Key": 41100074,
+        "Value": 4
+      }
+    ],
+    "GoldConsume": 80000
+  },
+  {
+    "Id": 1135,
+    "BreachId": 21021130,
+    "Level": 5,
+    "ConditionId": 504007,
+    "LevelLimit": 80,
+    "Consume": [
+      {
+        "Key": 43021054,
+        "Value": 12
+      },
+      {
+        "Key": 41100074,
+        "Value": 8
+      }
+    ],
+    "GoldConsume": 120000
+  },
+  {
+    "Id": 1136,
+    "BreachId": 21021130,
+    "Level": 6,
+    "ConditionId": 504007,
+    "LevelLimit": 90,
+    "Consume": null,
+    "GoldConsume": 0
+  },
+  {
+    "Id": 1140,
+    "BreachId": 21021140,
+    "Level": 0,
+    "ConditionId": 504002,
+    "LevelLimit": 20,
+    "Consume": [
+      {
+        "Key": 41100061,
+        "Value": 6
+      }
+    ],
+    "GoldConsume": 10000
+  },
+  {
+    "Id": 1141,
+    "BreachId": 21021140,
+    "Level": 1,
+    "ConditionId": 504003,
+    "LevelLimit": 40,
+    "Consume": [
+      {
+        "Key": 43021031,
+        "Value": 6
+      },
+      {
+        "Key": 41100062,
+        "Value": 6
+      }
+    ],
+    "GoldConsume": 20000
+  },
+  {
+    "Id": 1142,
+    "BreachId": 21021140,
+    "Level": 2,
+    "ConditionId": 504004,
+    "LevelLimit": 50,
+    "Consume": [
+      {
+        "Key": 43021032,
+        "Value": 8
+      },
+      {
+        "Key": 41100063,
+        "Value": 4
+      }
+    ],
+    "GoldConsume": 40000
+  },
+  {
+    "Id": 1143,
+    "BreachId": 21021140,
+    "Level": 3,
+    "ConditionId": 504005,
+    "LevelLimit": 60,
+    "Consume": [
+      {
+        "Key": 43021033,
+        "Value": 6
+      },
+      {
+        "Key": 41100063,
+        "Value": 6
+      }
+    ],
+    "GoldConsume": 60000
+  },
+  {
+    "Id": 1144,
+    "BreachId": 21021140,
+    "Level": 4,
+    "ConditionId": 504006,
+    "LevelLimit": 70,
+    "Consume": [
+      {
+        "Key": 43021034,
+        "Value": 8
+      },
+      {
+        "Key": 41100064,
+        "Value": 4
+      }
+    ],
+    "GoldConsume": 80000
+  },
+  {
+    "Id": 1145,
+    "BreachId": 21021140,
+    "Level": 5,
+    "ConditionId": 504007,
+    "LevelLimit": 80,
+    "Consume": [
+      {
+        "Key": 43021034,
+        "Value": 12
+      },
+      {
+        "Key": 41100064,
+        "Value": 8
+      }
+    ],
+    "GoldConsume": 120000
+  },
+  {
+    "Id": 1146,
+    "BreachId": 21021140,
+    "Level": 6,
+    "ConditionId": 504007,
+    "LevelLimit": 90,
+    "Consume": null,
+    "GoldConsume": 0
+  },
+  {
+    "Id": 980,
+    "BreachId": 21030046,
+    "Level": 0,
+    "ConditionId": 504002,
+    "LevelLimit": 20,
+    "Consume": [
+      {
+        "Key": 41100081,
+        "Value": 6
+      }
+    ],
+    "GoldConsume": 10000
+  },
+  {
+    "Id": 981,
+    "BreachId": 21030046,
+    "Level": 1,
+    "ConditionId": 504003,
+    "LevelLimit": 40,
+    "Consume": [
+      {
+        "Key": 43021021,
+        "Value": 6
+      },
+      {
+        "Key": 41100082,
+        "Value": 6
+      }
+    ],
+    "GoldConsume": 20000
+  },
+  {
+    "Id": 982,
+    "BreachId": 21030046,
+    "Level": 2,
+    "ConditionId": 504004,
+    "LevelLimit": 50,
+    "Consume": [
+      {
+        "Key": 43021022,
+        "Value": 8
+      },
+      {
+        "Key": 41100083,
+        "Value": 4
+      }
+    ],
+    "GoldConsume": 40000
+  },
+  {
+    "Id": 983,
+    "BreachId": 21030046,
+    "Level": 3,
+    "ConditionId": 504005,
+    "LevelLimit": 60,
+    "Consume": [
+      {
+        "Key": 43021023,
+        "Value": 6
+      },
+      {
+        "Key": 41100083,
+        "Value": 6
+      }
+    ],
+    "GoldConsume": 60000
+  },
+  {
+    "Id": 984,
+    "BreachId": 21030046,
+    "Level": 4,
+    "ConditionId": 504006,
+    "LevelLimit": 70,
+    "Consume": [
+      {
+        "Key": 43021024,
+        "Value": 8
+      },
+      {
+        "Key": 41100084,
+        "Value": 4
+      }
+    ],
+    "GoldConsume": 80000
+  },
+  {
+    "Id": 985,
+    "BreachId": 21030046,
+    "Level": 5,
+    "ConditionId": 504007,
+    "LevelLimit": 80,
+    "Consume": [
+      {
+        "Key": 43021024,
+        "Value": 12
+      },
+      {
+        "Key": 41100084,
+        "Value": 8
+      }
+    ],
+    "GoldConsume": 120000
+  },
+  {
+    "Id": 986,
+    "BreachId": 21030046,
+    "Level": 6,
+    "ConditionId": 504007,
+    "LevelLimit": 90,
+    "Consume": null,
+    "GoldConsume": 0
+  },
+  {
+    "Id": 987,
+    "BreachId": 21010066,
+    "Level": 0,
+    "ConditionId": 504002,
+    "LevelLimit": 20,
+    "Consume": [
+      {
+        "Key": 41100081,
+        "Value": 6
+      }
+    ],
+    "GoldConsume": 10000
+  },
+  {
+    "Id": 988,
+    "BreachId": 21010066,
+    "Level": 1,
+    "ConditionId": 504003,
+    "LevelLimit": 40,
+    "Consume": [
+      {
+        "Key": 43021041,
+        "Value": 6
+      },
+      {
+        "Key": 41100082,
+        "Value": 6
+      }
+    ],
+    "GoldConsume": 20000
+  },
+  {
+    "Id": 989,
+    "BreachId": 21010066,
+    "Level": 2,
+    "ConditionId": 504004,
+    "LevelLimit": 50,
+    "Consume": [
+      {
+        "Key": 43021042,
+        "Value": 8
+      },
+      {
+        "Key": 41100083,
+        "Value": 4
+      }
+    ],
+    "GoldConsume": 40000
+  },
+  {
+    "Id": 990,
+    "BreachId": 21010066,
+    "Level": 3,
+    "ConditionId": 504005,
+    "LevelLimit": 60,
+    "Consume": [
+      {
+        "Key": 43021043,
+        "Value": 6
+      },
+      {
+        "Key": 41100083,
+        "Value": 6
+      }
+    ],
+    "GoldConsume": 60000
+  },
+  {
+    "Id": 991,
+    "BreachId": 21010066,
+    "Level": 4,
+    "ConditionId": 504006,
+    "LevelLimit": 70,
+    "Consume": [
+      {
+        "Key": 43021044,
+        "Value": 8
+      },
+      {
+        "Key": 41100084,
+        "Value": 4
+      }
+    ],
+    "GoldConsume": 80000
+  },
+  {
+    "Id": 992,
+    "BreachId": 21010066,
+    "Level": 5,
+    "ConditionId": 504007,
+    "LevelLimit": 80,
+    "Consume": [
+      {
+        "Key": 43021044,
+        "Value": 12
+      },
+      {
+        "Key": 41100084,
+        "Value": 8
+      }
+    ],
+    "GoldConsume": 120000
+  },
+  {
+    "Id": 993,
+    "BreachId": 21010066,
+    "Level": 6,
+    "ConditionId": 504007,
+    "LevelLimit": 90,
+    "Consume": null,
+    "GoldConsume": 0
   }
 ]

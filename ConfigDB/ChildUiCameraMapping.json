@@ -788,5 +788,125 @@
       }
     ],
     "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 2039,
+    "ViewName": "MotorcycleTechTreeTabView",
+    "DefaultUiCameraSettingsName": "Cam_MotorBike_TechTree",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "PlayLoadingCameraAnimation": false,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": null,
+    "DefaultCameraBlendName": "1001",
+    "UiCameraBlendNameMap": [
+      {
+        "Key": "MotorcycleLevelInfoTabView",
+        "Value": "1001"
+      },
+      {
+        "Key": "MotorcycleTaskTabView",
+        "Value": "1001"
+      },
+      {
+        "Key": "MotorcycleDiyMainView",
+        "Value": "1001"
+      },
+      {
+        "Key": "MotorcycleRootView",
+        "Value": "1001"
+      }
+    ],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 2040,
+    "ViewName": "MotorcycleTaskTabView",
+    "DefaultUiCameraSettingsName": "Cam_MotorBike_TechTree",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "PlayLoadingCameraAnimation": false,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": null,
+    "DefaultCameraBlendName": "1001",
+    "UiCameraBlendNameMap": [
+      {
+        "Key": "MotorcycleLevelInfoTabView",
+        "Value": "1001"
+      },
+      {
+        "Key": "MotorcycleTechTreeTabView",
+        "Value": "1001"
+      },
+      {
+        "Key": "MotorcycleDiyMainView",
+        "Value": "1001"
+      },
+      {
+        "Key": "MotorcycleRootView",
+        "Value": "1001"
+      }
+    ],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 2041,
+    "ViewName": "MotorcycleLevelInfoTabView",
+    "DefaultUiCameraSettingsName": "Cam_MotorBike",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "PlayLoadingCameraAnimation": false,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": null,
+    "DefaultCameraBlendName": "1001",
+    "UiCameraBlendNameMap": [
+      {
+        "Key": "MotorcycleTaskTabView",
+        "Value": "1001"
+      },
+      {
+        "Key": "MotorcycleTechTreeTabView",
+        "Value": "1001"
+      },
+      {
+        "Key": "MotorcycleDiyMainView",
+        "Value": "1001"
+      },
+      {
+        "Key": "MotorcycleRootView",
+        "Value": "1001"
+      }
+    ],
+    "UiCameraDelayTime": 0
+  },
+  {
+    "Id": 2042,
+    "ViewName": "MotorcycleDiyMainView",
+    "DefaultUiCameraSettingsName": "Cam_MotorStickerAL_0",
+    "IsCheckSpecialState": false,
+    "SpecialStateCameraSettingName": "1002",
+    "PlayLoadingCameraAnimation": false,
+    "BodyTargetType": 0,
+    "BodyCameraSettingsNameMap": null,
+    "DefaultCameraBlendName": "1001",
+    "UiCameraBlendNameMap": [
+      {
+        "Key": "MotorcycleTaskTabView",
+        "Value": "1001"
+      },
+      {
+        "Key": "MotorcycleTechTreeTabView",
+        "Value": "1001"
+      },
+      {
+        "Key": "MotorcycleLevelInfoTabView",
+        "Value": "1001"
+      },
+      {
+        "Key": "MotorcycleRootView",
+        "Value": "1001"
+      }
+    ],
+    "UiCameraDelayTime": 0
   }
 ]

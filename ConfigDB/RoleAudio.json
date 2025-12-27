@@ -2344,5 +2344,97 @@
     "UseExploreHookEvent": "play_vo_zanni_com_hook",
     "ClimbLeapEvent": "play_vo_zanni_com_jump",
     "AccelerateEvent": "play_vo_zanni_com_accelerate"
+  },
+  {
+    "Id": 81001509,
+    "Name": "linnai",
+    "FootstepEvent": "role_footstep_blockheels",
+    "FoleyEvent": "role_foley_danjin",
+    "FastClimbEvent": "play_vo_linnai_com_fastclimb",
+    "VisionMorphEvent": "play_vo_linnai_com_hxchange",
+    "VisionSummonEvent": "play_vo_linnai_com_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_linnai_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_linnai_com_scan",
+    "JoinTeamEvent": "play_vo_linnai_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_linnai_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_linnai_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_linnai_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_linnai_com_die",
+    "LowStrengthEvent": "play_vo_linnai_com_tired",
+    "BreakUpEventList": [
+      "play_vo_linnai_sys_rankup01",
+      "play_vo_linnai_sys_rankup01",
+      "play_vo_linnai_sys_rankup02",
+      "play_vo_linnai_sys_rankup03",
+      "play_vo_linnai_sys_rankup04",
+      "play_vo_linnai_sys_rankup05",
+      "play_vo_linnai_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_linnai_com_limitdodge",
+    "ParryEvent": "play_vo_linnai_com_parry",
+    "EnterBattleEvent": "play_vo_linnai_com_engage",
+    "UnderAttackEvent": "play_vo_linnai_com_behit",
+    "KnockUpEvent": "play_vo_linnai_com_behitfly",
+    "EnterGlideEvent": "play_vo_linnai_com_fly",
+    "UseExploreHookEvent": "play_vo_linnai_com_hook",
+    "ClimbLeapEvent": "play_vo_linnai_com_jump",
+    "AccelerateEvent": "play_vo_linnai_com_accelerate"
+  },
+  {
+    "Id": 81001209,
+    "Name": "moning",
+    "FootstepEvent": "role_footstep_heels",
+    "FoleyEvent": "role_foley_chixia",
+    "FastClimbEvent": "play_vo_moning_com_fastclimb",
+    "VisionMorphEvent": "play_vo_moning_com_hxchange",
+    "VisionSummonEvent": "play_vo_moning_com_hxsummon",
+    "OpenTreasureBoxEvent": "play_vo_moning_com_openbox",
+    "ScanTreasureBoxEvent": "play_vo_moning_com_scan",
+    "JoinTeamEvent": "play_vo_moning_sys_jointeam",
+    "LostHealthEventMap": [
+      {
+        "Key": 70,
+        "Value": "play_vo_moning_com_hpdown01"
+      },
+      {
+        "Key": 50,
+        "Value": "play_vo_moning_com_hpdown02"
+      },
+      {
+        "Key": 30,
+        "Value": "play_vo_moning_com_hpdown03"
+      }
+    ],
+    "DeathEvent": "play_vo_moning_com_die",
+    "LowStrengthEvent": "play_vo_moning_com_tired",
+    "BreakUpEventList": [
+      "play_vo_moning_sys_rankup01",
+      "play_vo_moning_sys_rankup01",
+      "play_vo_moning_sys_rankup02",
+      "play_vo_moning_sys_rankup03",
+      "play_vo_moning_sys_rankup04",
+      "play_vo_moning_sys_rankup05",
+      "play_vo_moning_sys_rankup05"
+    ],
+    "ExtremeDodgeEvent": "play_vo_moning_com_limitdodge",
+    "ParryEvent": "play_vo_moning_com_parry",
+    "EnterBattleEvent": "play_vo_moning_com_engage",
+    "UnderAttackEvent": "play_vo_moning_com_behit",
+    "KnockUpEvent": "play_vo_moning_com_behitfly",
+    "EnterGlideEvent": "play_vo_moning_com_fly",
+    "UseExploreHookEvent": "play_vo_moning_com_hook",
+    "ClimbLeapEvent": "play_vo_moning_com_jump",
+    "AccelerateEvent": "play_vo_moning_com_accelerate"
   }
 ]

@@ -1,0 +1,261 @@
+[
+  {
+    "Id": 11000,
+    "TreeType": 10000,
+    "GeneralNodeSortOrder": 0,
+    "ExclusiveNodeSortOrder": [
+      0,
+      0
+    ],
+    "DetailOrder": 10,
+    "ShowStyle": 2,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMotorcycleSkill/T_IconMotorT.T_IconMotorT",
+    "VideoName": "TowerDefense_Ground_02",
+    "Video": "/Game/Aki/UI/UIResources/UiMotorcycle/Mp4/VideoMotoSkill03.VideoMotoSkill03",
+    "VideoFemale": "/Game/Aki/UI/UIResources/UiMotorcycle/Mp4/VideoMotoSkill04.VideoMotoSkill04",
+    "Title": "MotorBike_TechTree_11000_Name",
+    "DescSimple": "MotorBike_TechTree_11000_Desc",
+    "TagId": 1,
+    "Type": 1,
+    "PreNode": null,
+    "TechLv": [
+      110000,
+      110001,
+      110002
+    ],
+    "InitLevel": 1,
+    "UnlockCondition": 0,
+    "UnlockConditionDesc": "",
+    "NotActivatedPreviewDesc": "MotorBike_TechTree_11000_LevelUpPreview"
+  },
+  {
+    "Id": 11001,
+    "TreeType": 10000,
+    "GeneralNodeSortOrder": 0,
+    "ExclusiveNodeSortOrder": [
+      1,
+      0
+    ],
+    "DetailOrder": 20,
+    "ShowStyle": 3,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMotorcycleSkill/T_IconMotorcycleSkill_03.T_IconMotorcycleSkill_03",
+    "VideoName": "TowerDefense_Ground_07",
+    "Video": "",
+    "VideoFemale": "",
+    "Title": "MotorBike_TechTree_11001_Name",
+    "DescSimple": "MotorBike_TechTree_11001_Desc",
+    "TagId": 1,
+    "Type": 1,
+    "PreNode": [
+      11000
+    ],
+    "TechLv": [
+      110010,
+      110011,
+      110012
+    ],
+    "InitLevel": 0,
+    "UnlockCondition": 0,
+    "UnlockConditionDesc": "",
+    "NotActivatedPreviewDesc": "MotorBike_TechTree_11001_LevelUpPreview"
+  },
+  {
+    "Id": 11002,
+    "TreeType": 10000,
+    "GeneralNodeSortOrder": 0,
+    "ExclusiveNodeSortOrder": [
+      2,
+      0
+    ],
+    "DetailOrder": 30,
+    "ShowStyle": 3,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMotorcycleSkill/T_IconMotorcycleSkill_05.T_IconMotorcycleSkill_05",
+    "VideoName": "TowerDefense_Ground_05",
+    "Video": "",
+    "VideoFemale": "",
+    "Title": "MotorBike_TechTree_11002_Name",
+    "DescSimple": "MotorBike_TechTree_11002_Desc",
+    "TagId": 1,
+    "Type": 1,
+    "PreNode": [
+      11001
+    ],
+    "TechLv": [
+      110020,
+      110021
+    ],
+    "InitLevel": 0,
+    "UnlockCondition": 0,
+    "UnlockConditionDesc": "",
+    "NotActivatedPreviewDesc": "MotorBike_TechTree_11002_LevelUpPreview"
+  },
+  {
+    "Id": 11003,
+    "TreeType": 10000,
+    "GeneralNodeSortOrder": 0,
+    "ExclusiveNodeSortOrder": [
+      3,
+      0
+    ],
+    "DetailOrder": 40,
+    "ShowStyle": 3,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMotorcycleSkill/T_IconMotorcycleSkill_06.T_IconMotorcycleSkill_06",
+    "VideoName": "TowerDefense_Ground_06",
+    "Video": "",
+    "VideoFemale": "",
+    "Title": "MotorBike_TechTree_11003_Name",
+    "DescSimple": "MotorBike_TechTree_11003_Desc",
+    "TagId": 1,
+    "Type": 1,
+    "PreNode": [
+      11002
+    ],
+    "TechLv": [
+      110030
+    ],
+    "InitLevel": 0,
+    "UnlockCondition": 0,
+    "UnlockConditionDesc": "",
+    "NotActivatedPreviewDesc": "MotorBike_TechTree_11003_LevelUpPreview"
+  },
+  {
+    "Id": 10001,
+    "TreeType": 10000,
+    "GeneralNodeSortOrder": 2,
+    "ExclusiveNodeSortOrder": [
+      0,
+      0
+    ],
+    "DetailOrder": 1100,
+    "ShowStyle": 1,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMotorcycleSkill/T_IconMotorcycleSkill_08.T_IconMotorcycleSkill_08",
+    "VideoName": "TowerDefense_Wall_05",
+    "Video": "/Game/Aki/UI/UIResources/UiMotorcycle/Mp4/VideoMotoSkill05.VideoMotoSkill05",
+    "VideoFemale": "/Game/Aki/UI/UIResources/UiMotorcycle/Mp4/VideoMotoSkill06.VideoMotoSkill06",
+    "Title": "MotorBike_TechTree_10001_Name",
+    "DescSimple": "MotorBike_TechTree_10001_Desc",
+    "TagId": 3,
+    "Type": 0,
+    "PreNode": null,
+    "TechLv": [
+      100010
+    ],
+    "InitLevel": 0,
+    "UnlockCondition": 12903317,
+    "UnlockConditionDesc": "MotorBike_TechTree_10002_Hint",
+    "NotActivatedPreviewDesc": "MotorBike_TechTree_10001_LevelUpPreview"
+  },
+  {
+    "Id": 11004,
+    "TreeType": 10000,
+    "GeneralNodeSortOrder": 0,
+    "ExclusiveNodeSortOrder": [
+      2,
+      -1
+    ],
+    "DetailOrder": 50,
+    "ShowStyle": 3,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMotorcycleSkill/T_IconMotorcycleSkill_04.T_IconMotorcycleSkill_04",
+    "VideoName": "TowerDefense_Ground_04",
+    "Video": "",
+    "VideoFemale": "",
+    "Title": "MotorBike_TechTree_11004_Name",
+    "DescSimple": "MotorBike_TechTree_11004_Desc",
+    "TagId": 1,
+    "Type": 1,
+    "PreNode": [
+      11002
+    ],
+    "TechLv": [
+      110040,
+      110041
+    ],
+    "InitLevel": 0,
+    "UnlockCondition": 0,
+    "UnlockConditionDesc": "",
+    "NotActivatedPreviewDesc": "MotorBike_TechTree_11004_LevelUpPreview"
+  },
+  {
+    "Id": 11005,
+    "TreeType": 10000,
+    "GeneralNodeSortOrder": 0,
+    "ExclusiveNodeSortOrder": [
+      3,
+      1
+    ],
+    "DetailOrder": 60,
+    "ShowStyle": 3,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMotorcycleSkill/T_IconMotorcycleSkill_10.T_IconMotorcycleSkill_10",
+    "VideoName": "TowerDefense_Ground_01",
+    "Video": "",
+    "VideoFemale": "",
+    "Title": "MotorBike_TechTree_11005_Name",
+    "DescSimple": "MotorBike_TechTree_11005_Desc",
+    "TagId": 1,
+    "Type": 1,
+    "PreNode": [
+      11003
+    ],
+    "TechLv": [
+      110050
+    ],
+    "InitLevel": 0,
+    "UnlockCondition": 0,
+    "UnlockConditionDesc": "",
+    "NotActivatedPreviewDesc": "MotorBike_TechTree_11005_LevelUpPreview"
+  },
+  {
+    "Id": 10002,
+    "TreeType": 10000,
+    "GeneralNodeSortOrder": 1,
+    "ExclusiveNodeSortOrder": [
+      0,
+      0
+    ],
+    "DetailOrder": 1000,
+    "ShowStyle": 1,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMotorcycleSkill/T_IconMotorBulletJump.T_IconMotorBulletJump",
+    "VideoName": "TowerDefense_Wall_06",
+    "Video": "/Game/Aki/UI/UIResources/UiMotorcycle/Mp4/VideoMotoSkill01.VideoMotoSkill01",
+    "VideoFemale": "/Game/Aki/UI/UIResources/UiMotorcycle/Mp4/VideoMotoSkill02.VideoMotoSkill02",
+    "Title": "MotorBike_TechTree_10002_Name",
+    "DescSimple": "MotorBike_TechTree_10002_Desc",
+    "TagId": 3,
+    "Type": 0,
+    "PreNode": null,
+    "TechLv": [
+      100020
+    ],
+    "InitLevel": 0,
+    "UnlockCondition": 0,
+    "UnlockConditionDesc": "",
+    "NotActivatedPreviewDesc": "MotorBike_TechTree_10002_LevelUpPreview"
+  },
+  {
+    "Id": 10003,
+    "TreeType": 10000,
+    "GeneralNodeSortOrder": 3,
+    "ExclusiveNodeSortOrder": [
+      0,
+      0
+    ],
+    "DetailOrder": 1200,
+    "ShowStyle": 1,
+    "Icon": "/Game/Aki/UI/UIResources/Common/Image/IconMotorcycleSkill/T_IconMotorcycleSkill_07.T_IconMotorcycleSkill_07",
+    "VideoName": "TowerDefense_Wall_02",
+    "Video": "",
+    "VideoFemale": "",
+    "Title": "MotorBike_TechTree_10003_Name",
+    "DescSimple": "MotorBike_TechTree_10003_Desc",
+    "TagId": 3,
+    "Type": 0,
+    "PreNode": null,
+    "TechLv": [
+      100030
+    ],
+    "InitLevel": 0,
+    "UnlockCondition": 12903318,
+    "UnlockConditionDesc": "MotorBike_TechTree_10003_Hint",
+    "NotActivatedPreviewDesc": "MotorBike_TechTree_10003_LevelUpPreview"
+  }
+]

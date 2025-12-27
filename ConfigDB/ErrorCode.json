@@ -19069,9 +19069,9 @@
   },
   {
     "Id": 2500182,
-    "DebugText": "已经有目标",
+    "DebugText": "所选位置已有卡牌",
     "Text": "ErrorCode_2624057_Text",
-    "IsTip": false
+    "IsTip": true
   },
   {
     "Id": 900076,
@@ -19477,9 +19477,9 @@
   },
   {
     "Id": 2500185,
-    "DebugText": "不能操作对方单位",
+    "DebugText": "无法操作对方卡牌",
     "Text": "ErrorCode_2624060_Text",
-    "IsTip": false
+    "IsTip": true
   },
   {
     "Id": 2500186,
@@ -21476,7 +21476,7 @@
   {
     "Id": 200646,
     "DebugText": "账号已注销",
-    "Text": "",
+    "Text": "ErrorCode_ErrAccountDeactivation",
     "IsTip": false
   },
   {
@@ -21494,7 +21494,7 @@
   {
     "Id": 200647,
     "DebugText": "查询玩家账号已注销",
-    "Text": "",
+    "Text": "ErrorCode_ErrPlayerAccountDeactivation",
     "IsTip": true
   },
   {
@@ -21753,6 +21753,48 @@
     "Id": 3100025,
     "DebugText": "奖励组剩余可抽奖次数错误",
     "Text": "ErrorCode_3100033_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100026,
+    "DebugText": "多人联机不可更改天气",
+    "Text": "ErrorCode_WeatherCtlInvalidInMulti_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100027,
+    "DebugText": "没有找到地图天气数据",
+    "Text": "ErrorCode_WeatherCtlMapDataNotFound_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100028,
+    "DebugText": "WeatherSwitch配置未找到",
+    "Text": "ErrorCode_WeatherCtlSwitchCfgNotFound_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100029,
+    "DebugText": "WeatherSwitch未解锁",
+    "Text": "ErrorCode_WeatherCtlSwitchLocked_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100030,
+    "DebugText": "区域天气锁",
+    "Text": "ErrorCode_WeatherCtlAreaWeatherLocked_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100031,
+    "DebugText": "区域时间锁",
+    "Text": "ErrorCode_WeatherCtlAreaDateLocked_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100032,
+    "DebugText": "增加时间不可为负",
+    "Text": "ErrorCode_WeatherCtlAddHourNoNegative_Text",
     "IsTip": false
   },
   {
@@ -22072,6 +22114,120 @@
     "DebugText": "没有可领取的任务",
     "Text": "ErrorCode_SurvivorsTaskEmpty_Text",
     "IsTip": true
+  },
+  {
+    "Id": 3100033,
+    "DebugText": "没有找到InfrArchiveTask配置",
+    "Text": "ErrorCode_InfrArchiveTaskCfgNotFound_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100034,
+    "DebugText": "没有找到InfrLevel配置",
+    "Text": "ErrorCode_InfrLevelCfgNotFound_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100035,
+    "DebugText": "没有找到InfrShopPhase配置",
+    "Text": "ErrorCode_InfrShopPhaseCfgNotFound_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100036,
+    "DebugText": "没有找到InfrShopGoods配置",
+    "Text": "ErrorCode_InfrShopGoodsCfgNotFound_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100037,
+    "DebugText": "不能增加负数经验",
+    "Text": "ErrorCode_InfrFireAddExpNegative_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100038,
+    "DebugText": "天文台已经达到最大等级",
+    "Text": "ErrorCode_InfrFireAlreadyMaxLevel_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100039,
+    "DebugText": "天文台升级条件未满足",
+    "Text": "ErrorCode_InfrFireConditionNotMet_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100040,
+    "DebugText": "没有找到InfrRoadBuild配置",
+    "Text": "ErrorCode_InfrRoadBuildCfgNotFound_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100041,
+    "DebugText": "当前道路不可跟踪",
+    "Text": "ErrorCode_InfrRoadCannotTrace_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100042,
+    "DebugText": "没有找到InfrFireShopGoods配置",
+    "Text": "ErrorCode_InfrFireShopGoodsNotFound_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100043,
+    "DebugText": "火种商店阶段未解锁",
+    "Text": "ErrorCode_InfrFireShopPhaseNotUnlocked_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100044,
+    "DebugText": "火种商店物品购买数量到达上限",
+    "Text": "ErrorCode_InfrFireShopBuyLimitExceeded_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100045,
+    "DebugText": "火种商店物品购买次数非法",
+    "Text": "ErrorCode_InfrFireShopBuyTimesInvalid_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100046,
+    "DebugText": "档案馆档案任务领奖参数非法",
+    "Text": "ErrorCode_InfrArchiveTaskInvalidInput_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100047,
+    "DebugText": "档案馆档案任务不可领奖",
+    "Text": "ErrorCode_InfrArchiveTaskCannotRewarded_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100048,
+    "DebugText": "天文台升级经验不足",
+    "Text": "ErrorCode_InfrFireExpNotEnough_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100049,
+    "DebugText": "道路不是可修建状态",
+    "Text": "ErrorCode_InfrRoadNotInProgress_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100050,
+    "DebugText": "天文台不是可修建状态",
+    "Text": "ErrorCode_InfrFireLevelNotInProgress_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100051,
+    "DebugText": "道路修建前置条件未满足",
+    "Text": "ErrorCode_InfrRoadConditionNotMet_Text",
+    "IsTip": false
   },
   {
     "Id": 1100503,
@@ -22482,6 +22638,24 @@
     "IsTip": true
   },
   {
+    "Id": 3100052,
+    "DebugText": "联机模式不可修改天气",
+    "Text": "ErrorCode_WeatherCtlInMulti_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100053,
+    "DebugText": "战中不可修改天气",
+    "Text": "ErrorCode_WeatherCtlInBattle_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 3100054,
+    "DebugText": "任务占用中不可修改天气",
+    "Text": "ErrorCode_WeatherCtlInQuest_Text",
+    "IsTip": false
+  },
+  {
     "Id": 2700178,
     "DebugText": "参数长度超限",
     "Text": "",
@@ -22494,9 +22668,285 @@
     "IsTip": false
   },
   {
+    "Id": 3100055,
+    "DebugText": "摩托科技树前置节点未解锁",
+    "Text": "ErrorCode_MotorTechPreNodeLock_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 3100056,
+    "DebugText": "摩托科技树前置节点未升级",
+    "Text": "ErrorCode_MotorTechPreNotUpgraded_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 3100057,
+    "DebugText": "摩托科技树节点等级不可降级",
+    "Text": "ErrorCode_MotorTechLevelLower_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100058,
+    "DebugText": "摩托科技树节点未解锁",
+    "Text": "ErrorCode_MotorTechNotUnlocked_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 3100059,
+    "DebugText": "摩托科技树节点等级已达到最大",
+    "Text": "ErrorCode_MotorTechLevelMax_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100060,
+    "DebugText": "摩托科技点配置未找到",
+    "Text": "ErrorCode_MotorTechCfgNotFound_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100061,
+    "DebugText": "摩托等级配置未找到",
+    "Text": "ErrorCode_MotorLvlConfigNotFound_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100062,
+    "DebugText": "摩托功能未解锁",
+    "Text": "ErrorCode_MotorFuncNotOpen_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 3100063,
+    "DebugText": "摩托任务存在不可领奖的任务",
+    "Text": "ErrorCode_MotorTaskCannotRewarded_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100064,
+    "DebugText": "摩托任务领奖参数非法",
+    "Text": "ErrorCode_MotorTaskInvalidParam_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100065,
+    "DebugText": "摩托任务配置未找到",
+    "Text": "ErrorCode_MotorTaskCfgNotFound_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100066,
+    "DebugText": "摩托科技树配置未找到",
+    "Text": "ErrorCode_MotorTechTreeCfgNotFound_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100067,
+    "DebugText": "摩托科技树未解锁",
+    "Text": "ErrorCode_MotorTechTreeLocked_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2900012,
+    "DebugText": "日灵收集超出数量上限",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2900013,
+    "DebugText": "日灵交互行为组最多只能配一个给予行为",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2900014,
+    "DebugText": "日灵获取组件配置失败",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2900015,
+    "DebugText": "日灵实体删除失败",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2900016,
+    "DebugText": "日灵重复添加",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2900017,
+    "DebugText": "日灵数量不满足",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2900018,
+    "DebugText": "日灵当前启动器已经启用过",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2900019,
+    "DebugText": "日灵获取临时占用信息错误",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2900020,
+    "DebugText": "日灵找不到行为执行者",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2900021,
+    "DebugText": "日灵获取不到行为信息",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2900022,
+    "DebugText": "日灵行为下标不匹配",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2900023,
+    "DebugText": "日灵行为类型不匹配",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2900024,
+    "DebugText": "日灵行为操作类型错误",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2900025,
+    "DebugText": "日灵获取区域配置错误",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2900026,
+    "DebugText": "日灵不是主机操作",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2200212,
+    "DebugText": "只能开启一个滚方块玩法",
+    "Text": "ErrorCode_2200187_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2200213,
+    "DebugText": "滚方块组配置不存在",
+    "Text": "ErrorCode_2200188_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200214,
+    "DebugText": "滚方块组内特定难度配置不存在",
+    "Text": "ErrorCode_2200189_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200215,
+    "DebugText": "滚方块组内找不到下一个难度配置",
+    "Text": "ErrorCode_2200190_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200216,
+    "DebugText": "滚方块玩法id不存在",
+    "Text": "ErrorCode_2200191_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200217,
+    "DebugText": "场景中不存在滚方块玩法",
+    "Text": "ErrorCode_2200192_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200218,
+    "DebugText": "滚方块玩法请求移动的实体不存在",
+    "Text": "ErrorCode_2200193_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200219,
+    "DebugText": "滚方块玩法请求移动的实体不是方块",
+    "Text": "ErrorCode_2200194_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200220,
+    "DebugText": "滚方块玩法主控玩家不存在",
+    "Text": "ErrorCode_2200195_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200221,
+    "DebugText": "滚方块玩法请求移动的实体不处于移动状态",
+    "Text": "ErrorCode_2200196_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200222,
+    "DebugText": "滚方块滚动方向上没有格子",
+    "Text": "ErrorCode_2200197_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200223,
+    "DebugText": "滚方块模板组配置不存在",
+    "Text": "ErrorCode_2200198_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200224,
+    "DebugText": "不是滚方块玩法的主控玩家",
+    "Text": "ErrorCode_2200199_Text",
+    "IsTip": false
+  },
+  {
     "Id": 2500319,
     "DebugText": "穗波奇妙物语武器已被穿戴",
     "Text": "ErrorCode_2624179_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 3100068,
+    "DebugText": "玩家正在释放技能",
+    "Text": "ErrorCode_MotorPlayerUsingSkill_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 3100069,
+    "DebugText": "玩家正在攀爬",
+    "Text": "ErrorCode_MotorPlayerClimbing_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 3100070,
+    "DebugText": "玩家在水里",
+    "Text": "ErrorCode_MotorPlayerInWater_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 3100071,
+    "DebugText": "玩家在空中",
+    "Text": "ErrorCode_MotorPlayerInAir_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 3100072,
+    "DebugText": "玩家在摩托上",
+    "Text": "ErrorCode_MotorPlayerOnMotor_Text",
     "IsTip": true
   },
   {
@@ -22518,6 +22968,42 @@
     "IsTip": true
   },
   {
+    "Id": 3100073,
+    "DebugText": "基建功能未开启",
+    "Text": "ErrorCode_InfrNotOpen_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100074,
+    "DebugText": "基建活动任务配置未找到",
+    "Text": "ErrorCode_InfrThemeActivityTaskNotFound_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100075,
+    "DebugText": "基建活动任务已领奖",
+    "Text": "ErrorCode_InfrThemeActivityTaskRewarded_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100076,
+    "DebugText": "基建活动任务未完成",
+    "Text": "ErrorCode_InfrThemeActivityTaskNotComplete_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100077,
+    "DebugText": "基建活动输入参数非法",
+    "Text": "ErrorCode_InfrThemeActivityInputInvalid_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100078,
+    "DebugText": "基建活动任务不可领奖",
+    "Text": "ErrorCode_InfrThemeActivityTaskCannotRewarded_Text",
+    "IsTip": false
+  },
+  {
     "Id": 2500323,
     "DebugText": "塔顶不能操作",
     "Text": "ErrorCode_2624183_Text",
@@ -22534,6 +23020,60 @@
     "DebugText": "{0}行为组并行太多",
     "Text": "ErrorCode_600144_Text",
     "IsTip": false
+  },
+  {
+    "Id": 2700180,
+    "DebugText": "玩家卡组构建失败",
+    "Text": "ErrorCode_2625101_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2700181,
+    "DebugText": "玩家卡组构建失败",
+    "Text": "ErrorCode_2625102_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 3000008,
+    "DebugText": "声骸皮肤配置不存在",
+    "Text": "ErrorCode_ErrPhantomSkinNotExist_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3000009,
+    "DebugText": "声骸皮肤未解锁",
+    "Text": "ErrorCode_ErrPhantomSkinNotUnlock_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3000010,
+    "DebugText": "声骸互动未解锁",
+    "Text": "ErrorCode_ErrPhantomInteractionNotUnlock_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3000011,
+    "DebugText": "声骸图鉴未解锁",
+    "Text": "ErrorCode_ErrIllustratedNotUnlock_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3000012,
+    "DebugText": "装备声骸数与配置不匹配",
+    "Text": "ErrorCode_ErrPhantomInteractionEquipCountNotMatch_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3000013,
+    "DebugText": "声骸互动配置不存在",
+    "Text": "ErrorCode_ErrPhantomInteractionConfigNotFind_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700182,
+    "DebugText": "Npc行为加载失败",
+    "Text": "ErrorCode_2625103_Text",
+    "IsTip": true
   },
   {
     "Id": 1100504,
@@ -22578,6 +23118,60 @@
     "IsTip": false
   },
   {
+    "Id": 3100079,
+    "DebugText": "摩托任务领奖不在一棵树上",
+    "Text": "ErrorCode_MotorTaskNotInOneTree_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100080,
+    "DebugText": "摩托车经验不可小于0",
+    "Text": "ErrorCode_MotorExpInvalid_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3000014,
+    "DebugText": "节点配置不存在",
+    "Text": "ErrorCode_ErrArtemisNodeNoConfig_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3000015,
+    "DebugText": "活动未开启",
+    "Text": "ErrorCode_ErrArtemisActivityNotOpen_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3000016,
+    "DebugText": "节点不存在数据",
+    "Text": "ErrorCode_ErrArtemisNodeNoData_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3000017,
+    "DebugText": "节点未解锁",
+    "Text": "ErrorCode_ErrArtemisNodeNoUnlock_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3000018,
+    "DebugText": "节点未到发奖状态",
+    "Text": "ErrorCode_ErrArtemisNodeNotRewardStatus_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3000019,
+    "DebugText": "节点已经修复",
+    "Text": "ErrorCode_ErrArtemisNodeAlreadyFixed_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3000020,
+    "DebugText": "节点已完成",
+    "Text": "ErrorCode_ErrArtemisNodeAlreadyFinished_Text",
+    "IsTip": false
+  },
+  {
     "Id": 1100506,
     "DebugText": "幸存者无尽模式需要先通关普通模式",
     "Text": "ErrorCode_SurvivorsNeedPassNormalMode_Text",
@@ -22600,6 +23194,24 @@
     "DebugText": "请求参数错误",
     "Text": "",
     "IsTip": true
+  },
+  {
+    "Id": 3000021,
+    "DebugText": "错误的节点状态",
+    "Text": "ErrorCode_ErrArtemisState_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3000022,
+    "DebugText": "节点更新错误",
+    "Text": "ErrorCode_ErrArtemisInvalidUpdate_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3000023,
+    "DebugText": "请求的节点下标越界",
+    "Text": "ErrorCode_ErrIndexOutOfRange_Text",
+    "IsTip": false
   },
   {
     "Id": 1100507,
@@ -22632,9 +23244,183 @@
     "IsTip": true
   },
   {
+    "Id": 3000024,
+    "DebugText": "活动不存在",
+    "Text": "ErrorCode_ErrArtemisActivityNotExist_Text",
+    "IsTip": false
+  },
+  {
     "Id": 3200000,
     "DebugText": "无法根据副本id获取其DtTypeList",
     "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1900245,
+    "DebugText": "摩托车Ip找不到配置",
+    "Text": "ErrorCode_1900242_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1900246,
+    "DebugText": "没有奖励可以领取",
+    "Text": "ErrorCode_1900243_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 3300000,
+    "DebugText": "请求场景与当前场景不匹配",
+    "Text": "ErrorCode_3300001_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3300001,
+    "DebugText": "实体不为死眼受击类型",
+    "Text": "ErrorCode_3300002_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100512,
+    "DebugText": "短信配置找不到",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100513,
+    "DebugText": "短信对话配置找不到",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100514,
+    "DebugText": "短信数据不存在",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100515,
+    "DebugText": "短信数据不存在",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100516,
+    "DebugText": "短信数据已阅读",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100517,
+    "DebugText": "短信对话不匹配短信id",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100518,
+    "DebugText": "短信对话不可回复",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100519,
+    "DebugText": "短信对话重复回复",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100520,
+    "DebugText": "短信无奖励配置",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100521,
+    "DebugText": "短信奖励已领取",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100522,
+    "DebugText": "短信回复未完成",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 3100082,
+    "DebugText": "非大世界不可修改天气",
+    "Text": "ErrorCode_WeatherCtlNotInBigWorld_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100083,
+    "DebugText": "档案馆手机任务领奖参数非法",
+    "Text": "ErrorCode_InfrPhoneTaskInvalidInput_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100084,
+    "DebugText": "档案馆手机任务不可领奖",
+    "Text": "ErrorCode_InfrPhoneTaskCannotRewarded_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100085,
+    "DebugText": "没有找到InfrPhoneTask配置",
+    "Text": "ErrorCode_InfrPhoneTaskCfgNotFound_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100086,
+    "DebugText": "摩托外观未解锁",
+    "Text": "ErrorCode_MotorOutlookLocked_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100087,
+    "DebugText": "摩托车架配置未找到",
+    "Text": "ErrorCode_MotorFrameCfgNotFound_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100088,
+    "DebugText": "摩托贴纸配置未找到",
+    "Text": "ErrorCode_MotorStickerCfgNotFound_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100089,
+    "DebugText": "摩托外观在当前地区不可用",
+    "Text": "ErrorCode_MotorOutlookBanInRegion_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100090,
+    "DebugText": "摩托外观组冲突",
+    "Text": "ErrorCode_MotorOutlookConflict_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100091,
+    "DebugText": "摩托贴纸分区数错误",
+    "Text": "ErrorCode_MotorStickerPartCountError_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100092,
+    "DebugText": "摩托车贴纸分区对应错误",
+    "Text": "ErrorCode_MotorStickerPartIdError_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100093,
+    "DebugText": "摩托车外观未拥有",
+    "Text": "ErrorCode_MotorOutlookNotOwned_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3300002,
+    "DebugText": "传入死眼实体数量过多",
+    "Text": "ErrorCode_3300003_Text",
     "IsTip": false
   },
   {
@@ -22662,9 +23448,291 @@
     "IsTip": false
   },
   {
+    "Id": 1900247,
+    "DebugText": "找不到活动数据",
+    "Text": "ErrorCode_1900244_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900248,
+    "DebugText": "活动还未开启",
+    "Text": "ErrorCode_1900245_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900249,
+    "DebugText": "奖励条件未达成",
+    "Text": "ErrorCode_1900246_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900250,
+    "DebugText": "已经领取过奖励",
+    "Text": "ErrorCode_1900247_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900251,
+    "DebugText": "已达到最高等级",
+    "Text": "ErrorCode_1900248_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900252,
+    "DebugText": "找不到对应配置",
+    "Text": "ErrorCode_1900249_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900253,
+    "DebugText": "任务还未解锁",
+    "Text": "ErrorCode_1900250_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900254,
+    "DebugText": "挑战积分未达到",
+    "Text": "ErrorCode_1900251_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3300003,
+    "DebugText": "缺少移动模式",
+    "Text": "ErrorCode_3300004_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3000025,
+    "DebugText": "关卡未到开启日期",
+    "Text": "ErrorCode_MotorParkourLevelNoOpen",
+    "IsTip": true
+  },
+  {
+    "Id": 3000026,
+    "DebugText": "摩托跑酷配置找不到",
+    "Text": "ErrorCode_MotorParkourNoConfig",
+    "IsTip": true
+  },
+  {
+    "Id": 3000027,
+    "DebugText": "实例组件不存在",
+    "Text": "ErrorCode_MotorParkourInstComponentNotExist",
+    "IsTip": true
+  },
+  {
+    "Id": 3000028,
+    "DebugText": "获取不到时间记录",
+    "Text": "ErrorCode_MotorParkourGetTimeRecordFailed",
+    "IsTip": true
+  },
+  {
+    "Id": 3000029,
+    "DebugText": "请求领奖下标数量与配置不匹配",
+    "Text": "ErrorCode_ErrMotorParkourLevelRewardIndexLengthError",
+    "IsTip": true
+  },
+  {
+    "Id": 3000030,
+    "DebugText": "玩家数据不存在",
+    "Text": "ErrorCode_ErrMotorParkourActivityDataNotExist",
+    "IsTip": true
+  },
+  {
+    "Id": 3000031,
+    "DebugText": "请求领奖下标非法",
+    "Text": "ErrorCode_ErrMotorParkourLevelRewardIndexInvalid",
+    "IsTip": true
+  },
+  {
+    "Id": 3000032,
+    "DebugText": "摩托跑酷记录配置不存在",
+    "Text": "ErrorCode_ErrMotorParkourRecordCfgNotExist",
+    "IsTip": true
+  },
+  {
+    "Id": 3000033,
+    "DebugText": "无法获取领奖状态",
+    "Text": "ErrorCode_ErrMotorParkourGetRewardStatusFail",
+    "IsTip": true
+  },
+  {
+    "Id": 3000034,
+    "DebugText": "领奖状态异常",
+    "Text": "ErrorCode_ErrMotorParkourRewardNotAvailable",
+    "IsTip": true
+  },
+  {
+    "Id": 3000035,
+    "DebugText": "领奖下标重复",
+    "Text": "ErrorCode_ErrMotorParkourLevelRewardIndexDuplicate",
+    "IsTip": true
+  },
+  {
     "Id": 200657,
     "DebugText": "登录失败，请尝试重启客户端并重新登录。",
     "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700183,
+    "DebugText": "卡牌类型错误",
+    "Text": "ErrorCode_2625104_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2700184,
+    "DebugText": "活动类型错误",
+    "Text": "ErrorCode_2625105_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2700185,
+    "DebugText": "活动类型错误",
+    "Text": "ErrorCode_2625106_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2700186,
+    "DebugText": "领域卡数量限制",
+    "Text": "ErrorCode_2625107_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2700187,
+    "DebugText": "道具卡数量限制",
+    "Text": "ErrorCode_2625108_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2700188,
+    "DebugText": "参数错误",
+    "Text": "ErrorCode_2625109_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2700189,
+    "DebugText": "无可上阵位置",
+    "Text": "ErrorCode_2625110_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2700190,
+    "DebugText": "最大上阵限制",
+    "Text": "ErrorCode_2625111_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2700191,
+    "DebugText": "任务id错误",
+    "Text": "ErrorCode_2625112_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2700192,
+    "DebugText": "活动id错误",
+    "Text": "ErrorCode_2625113_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2700193,
+    "DebugText": "领域卡配置错误",
+    "Text": "ErrorCode_2625114_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2700194,
+    "DebugText": "技能条件参数错误",
+    "Text": "ErrorCode_2625115_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 3100094,
+    "DebugText": "基建活动活动id不匹配",
+    "Text": "ErrorCode_InfrThemeActivityIdMisMatch_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700195,
+    "DebugText": "区域封锁中",
+    "Text": "ErrorCode_2625116_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 3000036,
+    "DebugText": "可置顶数量已达最大值",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 3000037,
+    "DebugText": "置顶的对象已存在",
+    "Text": "ErrorCode_ErrAreaTerminalPinExist_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 3000038,
+    "DebugText": "取消置顶的对象不存在",
+    "Text": "ErrorCode_ErrAreaTerminalPinNotExist_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 3000039,
+    "DebugText": "区域终端系统参数错误",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 3000040,
+    "DebugText": "活动未解锁",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 3000041,
+    "DebugText": "功能未解锁",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 3000042,
+    "DebugText": "配置不存在",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1900255,
+    "DebugText": "奖励参数重复",
+    "Text": "ErrorCode_1900252_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1900256,
+    "DebugText": "没有奖励可领取",
+    "Text": "ErrorCode_1900253_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2600071,
+    "DebugText": "非AtomicProcess子节点",
+    "Text": "非AtomicProcess子节点",
+    "IsTip": false
+  },
+  {
+    "Id": 2600072,
+    "DebugText": "非tomicProcessStoveCoreFall子节点",
+    "Text": "非tomicProcessStoveCoreFall子节点",
+    "IsTip": false
+  },
+  {
+    "Id": 2600073,
+    "DebugText": "样条实体配置错误",
+    "Text": "样条实体配置错误",
+    "IsTip": false
+  },
+  {
+    "Id": 2600074,
+    "DebugText": "样条实体不存在",
+    "Text": "样条实体不存在",
     "IsTip": false
   },
   {
@@ -22672,6 +23740,12 @@
     "DebugText": "系统错误，请稍后再试。",
     "Text": "ErrorCode_33_Text",
     "IsTip": false
+  },
+  {
+    "Id": 2700196,
+    "DebugText": "引导活动表不存在",
+    "Text": "ErrorCode_2625117_Text",
+    "IsTip": true
   },
   {
     "Id": 200667,
@@ -22692,9 +23766,963 @@
     "IsTip": true
   },
   {
+    "Id": 3300004,
+    "DebugText": "实体类型不支持当前操作",
+    "Text": "ErrorCode_3300005_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 600145,
+    "DebugText": "不能移除最后一个试用角色",
+    "Text": "ErrorCode_600145_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100523,
+    "DebugText": "收藏列表已达上限",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100524,
+    "DebugText": "收藏列表包含重复歌曲",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100525,
+    "DebugText": "收藏列表包含未解锁歌曲",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 900080,
+    "DebugText": "钩锁采集超出最大限制",
+    "Text": "",
+    "IsTip": true
+  },
+  {
+    "Id": 2000067,
+    "DebugText": "当前载具不是摩托",
+    "Text": "ErrorCode_2000070_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2000068,
+    "DebugText": "切换摩托编队失败",
+    "Text": "ErrorCode_2000071_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2000069,
+    "DebugText": "已经在共乘模式中，不能重复进入",
+    "Text": "ErrorCode_2000072_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2000070,
+    "DebugText": "共乘模式不存在",
+    "Text": "ErrorCode_2000073_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2000071,
+    "DebugText": "未在共乘模式中",
+    "Text": "ErrorCode_2000074_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2000072,
+    "DebugText": "当前没有乘坐载具",
+    "Text": "ErrorCode_2000075_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2000073,
+    "DebugText": "当前场景没有路网配置",
+    "Text": "ErrorCode_2000076_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 900081,
+    "DebugText": "当前实体无法被钩锁采集",
+    "Text": "",
+    "IsTip": true
+  },
+  {
+    "Id": 3000043,
+    "DebugText": "奖励配置不存在",
+    "Text": "ErrorCode_ErrMotorParkourRewardCfgNotExist",
+    "IsTip": true
+  },
+  {
+    "Id": 1100526,
+    "DebugText": "获取场景组件失败",
+    "Text": "ErrorCode_ErrorNoSceneComp",
+    "IsTip": true
+  },
+  {
+    "Id": 1100527,
+    "DebugText": "挑战进行中",
+    "Text": "ErrorCode_ErrorNewTowerIsInChallenge",
+    "IsTip": true
+  },
+  {
+    "Id": 1100528,
+    "DebugText": "未在挑战中",
+    "Text": "ErrorCode_ErrorNewTowerIsNoChallenge",
+    "IsTip": true
+  },
+  {
+    "Id": 1100529,
+    "DebugText": "关卡id不一致",
+    "Text": "ErrorCode_ErrorNewTowerLevelIdNotMatch",
+    "IsTip": true
+  },
+  {
+    "Id": 1100530,
+    "DebugText": "关卡配置找不到",
+    "Text": "ErrorCode_ErrorNewTowerLevelNoConf",
+    "IsTip": true
+  },
+  {
+    "Id": 1100531,
+    "DebugText": "周期配置找不到",
+    "Text": "ErrorCode_ErrorNewTowerCycleNoConf",
+    "IsTip": true
+  },
+  {
+    "Id": 1100532,
+    "DebugText": "关卡未解锁",
+    "Text": "ErrorCode_ErrorNewTowerLevelNoData",
+    "IsTip": true
+  },
+  {
+    "Id": 1100533,
+    "DebugText": "队伍轮次缓存为空",
+    "Text": "ErrorCode_ErrorNewTowerNoTeamCache",
+    "IsTip": true
+  },
+  {
+    "Id": 1100534,
+    "DebugText": "指定队伍轮次缓存为空",
+    "Text": "ErrorCode_ErrorNewTowerNoIndexTeamCache",
+    "IsTip": true
+  },
+  {
+    "Id": 1100535,
+    "DebugText": "爬塔积分奖励超过最大数量",
+    "Text": "ErrorCode_ErrorNewTowerScoreRewardMax",
+    "IsTip": true
+  },
+  {
+    "Id": 1100536,
+    "DebugText": "爬塔积分奖励配置找不到",
+    "Text": "ErrorCode_ErrorNewTowerScoreNoConf",
+    "IsTip": true
+  },
+  {
+    "Id": 1100537,
+    "DebugText": "爬塔积分奖励重复",
+    "Text": "ErrorCode_ErrorNewTowerScoreRepeat",
+    "IsTip": true
+  },
+  {
+    "Id": 1100538,
+    "DebugText": "爬塔积分奖励为空",
+    "Text": "ErrorCode_ErrorNewTowerScoreEmpty",
+    "IsTip": true
+  },
+  {
+    "Id": 1100539,
+    "DebugText": "不在周期时间区间内",
+    "Text": "ErrorCode_ErrorNewTowerCycleNoInTime",
+    "IsTip": true
+  },
+  {
+    "Id": 1100540,
+    "DebugText": "当前周期配置找不到",
+    "Text": "ErrorCode_ErrorNewTowerCurCycleNoConf",
+    "IsTip": true
+  },
+  {
+    "Id": 1100541,
+    "DebugText": "周期没有对应关卡",
+    "Text": "ErrorCode_ErrorNewTowerCycleNoLevel",
+    "IsTip": true
+  },
+  {
+    "Id": 1100542,
+    "DebugText": "无法跨轮次挑战",
+    "Text": "ErrorCode_ErrorNewTowerTeamIndexErr",
+    "IsTip": true
+  },
+  {
+    "Id": 1100543,
+    "DebugText": "达到队伍轮次上线",
+    "Text": "ErrorCode_ErrorNewTowerTeamMax",
+    "IsTip": true
+  },
+  {
+    "Id": 1100544,
+    "DebugText": "词条选取达到上限",
+    "Text": "ErrorCode_ErrorNewTowerBuffMax",
+    "IsTip": true
+  },
+  {
+    "Id": 1100545,
+    "DebugText": "词条选取重复",
+    "Text": "ErrorCode_ErrorNewTowerBuffRepeat",
+    "IsTip": true
+  },
+  {
+    "Id": 1100546,
+    "DebugText": "角色选取重复",
+    "Text": "ErrorCode_ErrorNewTowerRoleRepeat",
+    "IsTip": true
+  },
+  {
+    "Id": 1100547,
+    "DebugText": "角色为空",
+    "Text": "ErrorCode_ErrorNewTowerRoleEmpty",
+    "IsTip": true
+  },
+  {
+    "Id": 1100548,
+    "DebugText": "角色为空",
+    "Text": "ErrorCode_ErrorNewTowerRoleNoMatch",
+    "IsTip": true
+  },
+  {
+    "Id": 1100549,
+    "DebugText": "角色选取达到上限",
+    "Text": "ErrorCode_ErrorNewTowerRoleMax",
+    "IsTip": true
+  },
+  {
+    "Id": 1100550,
+    "DebugText": "关卡无法使用该词条",
+    "Text": "ErrorCode_ErrorNewTowerBuffNoMatch",
+    "IsTip": true
+  },
+  {
+    "Id": 1100551,
+    "DebugText": "角色体力不足",
+    "Text": "ErrorCode_ErrorNewTowerRoleNoEnergy",
+    "IsTip": true
+  },
+  {
+    "Id": 1100552,
+    "DebugText": "获取波次信息失败",
+    "Text": "ErrorCode_ErrorNewTowerWaveNoInfo",
+    "IsTip": true
+  },
+  {
+    "Id": 1100553,
+    "DebugText": "已完成全部波次",
+    "Text": "ErrorCode_ErrorNewTowerWaveFinish",
+    "IsTip": true
+  },
+  {
+    "Id": 200668,
+    "DebugText": "请求键位类型异常",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 3100159,
+    "DebugText": "摩托车奖励已经领奖",
+    "Text": "ErrorCode_MotorLevelRewardAllClaimed_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100554,
+    "DebugText": "手机系统功能未开启",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100555,
+    "DebugText": "玩家单短信回复数量已达上限",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100556,
+    "DebugText": "短信气泡皮肤未解锁",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100557,
+    "DebugText": "短信气泡皮肤找不到配置",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100558,
+    "DebugText": "短信背景皮肤未解锁",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100559,
+    "DebugText": "短信背景皮肤找不到配置",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2200225,
+    "DebugText": "滚方块实体不存在",
+    "Text": "ErrorCode_2200200_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200226,
+    "DebugText": "滚方块方块处于改变状态中",
+    "Text": "ErrorCode_2200201_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200227,
+    "DebugText": "滚方块方块状态没有发生改变",
+    "Text": "ErrorCode_2200202_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200228,
+    "DebugText": "滚方块玩法主控方块不存在",
+    "Text": "ErrorCode_2200203_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200229,
+    "DebugText": "滚方块难度数据不存在",
+    "Text": "ErrorCode_2200204_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200230,
+    "DebugText": "滚方块对应位置没有地板",
+    "Text": "ErrorCode_2200205_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200231,
+    "DebugText": "滚方块对应位置有机关阻碍",
+    "Text": "ErrorCode_2200206_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200232,
+    "DebugText": "滚方块对应位置有方块阻碍",
+    "Text": "ErrorCode_2200207_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200233,
+    "DebugText": "滚方块输入没有对应的移动",
+    "Text": "ErrorCode_2200208_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200234,
+    "DebugText": "滚方块对应位置有地板阻碍",
+    "Text": "ErrorCode_2200209_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200235,
+    "DebugText": "滚方块提示已经激活",
+    "Text": "ErrorCode_2200210_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500158,
+    "DebugText": "技能播蒙太奇非普通蒙太奇",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500159,
+    "DebugText": "找不到蒙太奇配置",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500160,
+    "DebugText": "蒙太奇校验an失败",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500161,
+    "DebugText": "死亡播蒙太奇校验失败",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500162,
+    "DebugText": "死亡蒙太奇没有记录状态机相关配置",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500163,
+    "DebugText": "死亡蒙太奇找不到状态机配置",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500164,
+    "DebugText": "状态机行为校验播蒙太奇失败",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1500165,
+    "DebugText": "蒙太奇播蒙太奇校验失败",
+    "Text": "ErrorCode_2200016_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3000044,
+    "DebugText": "声骸皮肤操作重复",
+    "Text": "ErrorCode_ErrPhantomSkinRepeatOperation_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 600146,
+    "DebugText": "实体不是激活态",
+    "Text": "ErrorCode_600146_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700197,
+    "DebugText": "任务配置不存在",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700198,
+    "DebugText": "任务配置错误",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700199,
+    "DebugText": "请求参数错误",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700200,
+    "DebugText": "请求参数重复",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700201,
+    "DebugText": "任务已领取",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700202,
+    "DebugText": "任务未完成",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700203,
+    "DebugText": "数据不存在",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700204,
+    "DebugText": "不存在试用角色",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700205,
+    "DebugText": "角色未解锁",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700206,
+    "DebugText": "索拉等级错误",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700207,
+    "DebugText": "数据封装失败",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 3300008,
+    "DebugText": "怪物实体缺少Tag组件",
+    "Text": "ErrorCode_3300009_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3000045,
+    "DebugText": "声骸不可显示于列表中",
+    "Text": "ErrorCode_ErrPhantomInteractionNotShowable_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 3100160,
+    "DebugText": "不在摩托车可用区域",
+    "Text": "ErrorCode_PlayerNotInMotorArea_Text",
+    "IsTip": true
+  },
+  {
     "Id": 600147,
     "DebugText": "恢复试用角色行为没有在试用区域内用",
     "Text": "ErrorCode_600147_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700208,
+    "DebugText": "试用角色校验失败",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700209,
+    "DebugText": "副本配置不存在",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700210,
+    "DebugText": "副本不允许使用试用角色",
+    "Text": "Error_Trial_Role_Unavailable",
+    "IsTip": true
+  },
+  {
+    "Id": 2700211,
+    "DebugText": "处理逻辑不存在",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700212,
+    "DebugText": "代理逻辑不存在",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 3000046,
+    "DebugText": "关卡信息打包失败",
+    "Text": "ErrorCode_ErrMotorParkourLevelInfoFailed",
+    "IsTip": true
+  },
+  {
+    "Id": 2700213,
+    "DebugText": "不存在试用角色配置",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700214,
+    "DebugText": "不存在活动试用角色数据",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700215,
+    "DebugText": "已领取一次性奖励",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700216,
+    "DebugText": "一次性奖励配置不存在",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700217,
+    "DebugText": "付费积分奖励购买限制",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700218,
+    "DebugText": "卡池up角色推荐副本未开",
+    "Text": "ErrorCode_GachaRoleDevelopInsNotOpen",
+    "IsTip": true
+  },
+  {
+    "Id": 2900028,
+    "DebugText": "资源分包Sdk校验失败",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2900029,
+    "DebugText": "资源分包获取功能关闭",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2900030,
+    "DebugText": "资源分包回写redis失败",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2900031,
+    "DebugText": "资源分包非法Token",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2900032,
+    "DebugText": "资源分包限速器熔断",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2900033,
+    "DebugText": "资源分包限速器繁忙",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2900034,
+    "DebugText": "资源分包功能异常",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2900035,
+    "DebugText": "资源分包超时拒绝",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700219,
+    "DebugText": "场景组件不存在",
+    "Text": "ErrorCode_2625118_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700220,
+    "DebugText": "禁止跳过",
+    "Text": "ErrorCode_2625119_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 200669,
+    "DebugText": "参数异常",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 3300009,
+    "DebugText": "贴花特效配置不存在",
+    "Text": "ErrorCode_3300010_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700221,
+    "DebugText": "积分数量限制",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700222,
+    "DebugText": "积分奖励配置不存在",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700223,
+    "DebugText": "积分购买限制",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700224,
+    "DebugText": "召唤卡牌限制",
+    "Text": "ErrorCode_2625120_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2700225,
+    "DebugText": "召唤道具限制",
+    "Text": "ErrorCode_2625121_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 3100162,
+    "DebugText": "天气控制器界面未解锁",
+    "Text": "ErrorCode_WeatherCtlNotOpen_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100560,
+    "DebugText": "副本流程状态错误",
+    "Text": "ErrorCode_ErrorNewTowerInstStateErr_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1100561,
+    "DebugText": "角色武器声骸数据异常",
+    "Text": "ErrorCode_ErrorNewTowerRoleWeaponPhantom_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1100562,
+    "DebugText": "副本不是设置编队数据状态",
+    "Text": "ErrorCode_ErrorNewTowerNoTeamData_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1100563,
+    "DebugText": "副本没有设置缓存",
+    "Text": "ErrorCode_ErrorNewTowerNoCacheSet_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1100564,
+    "DebugText": "新爬塔角色武器不匹配",
+    "Text": "ErrorCode_ErrorNewTowerRoleWeaponNoMatch_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1100565,
+    "DebugText": "新爬塔角色声骸不匹配",
+    "Text": "ErrorCode_ErrorNewTowerRolePhantomNoMatch_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 200670,
+    "DebugText": "角色参数异常",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 200671,
+    "DebugText": "技能分支参数异常",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 200672,
+    "DebugText": "技能分支参数异常",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2200236,
+    "DebugText": "滚方块对应的提示方块不存在",
+    "Text": "ErrorCode_2200211_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200237,
+    "DebugText": "滚方块提示步骤为空",
+    "Text": "ErrorCode_2200212_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200238,
+    "DebugText": "滚方块奖励已经发放",
+    "Text": "ErrorCode_2200213_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200239,
+    "DebugText": "滚方块没有通关",
+    "Text": "ErrorCode_2200214_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200240,
+    "DebugText": "滚方块提示步骤没有在执行中",
+    "Text": "ErrorCode_2200215_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200241,
+    "DebugText": "滚方块当前的难度不存在",
+    "Text": "ErrorCode_2200216_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200242,
+    "DebugText": "滚方块已经有提示步骤在执行中",
+    "Text": "ErrorCode_2200217_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700226,
+    "DebugText": "卡池推荐角色副本进入限制",
+    "Text": "NightMareCountDown",
+    "IsTip": true
+  },
+  {
+    "Id": 2700227,
+    "DebugText": "无音区id不存在",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700228,
+    "DebugText": "无音区已解锁",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700229,
+    "DebugText": "试用角色配置不存在",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2200243,
+    "DebugText": "滚方块子任务玩法已经开启",
+    "Text": "ErrorCode_2200218_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200244,
+    "DebugText": "滚方块只有一个可以控制的方块",
+    "Text": "ErrorCode_2200219_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 1100566,
+    "DebugText": "短信对话配置不匹配",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1100567,
+    "DebugText": "短信对话配置不匹配",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2200245,
+    "DebugText": "滚方块玩法状态没有发生变更",
+    "Text": "ErrorCode_2200220_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200246,
+    "DebugText": "滚方块玩法无法进入准备状态",
+    "Text": "ErrorCode_2200221_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2200247,
+    "DebugText": "滚方块玩法还没有准备好",
+    "Text": "ErrorCode_2200222_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700230,
+    "DebugText": "改关卡已经跳过",
+    "Text": "ErrorCode_2625122_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700231,
+    "DebugText": "当期up表不存在",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700232,
+    "DebugText": "角色未解锁",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700233,
+    "DebugText": "角色未解锁",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 3000072,
+    "DebugText": "探索度类型不存在",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700234,
+    "DebugText": "复制卡牌限制",
+    "Text": "ErrorCode_2625110_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 3000073,
+    "DebugText": "前一关卡未完成",
+    "Text": "ErrorCode_ErrMotorParkourPreLevelNotComplete",
+    "IsTip": true
+  },
+  {
+    "Id": 2700235,
+    "DebugText": "没有可领取的奖励",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2700236,
+    "DebugText": "没有可领取的奖励",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 2200248,
+    "DebugText": "滚方块玩法发送重置请求过于频繁",
+    "Text": "ErrorCode_2200223_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 3100173,
+    "DebugText": "联机模式不能切换路网标记",
+    "Text": "ErrorCode_InfrRoadSwitchTraceInMulti_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2700245,
+    "DebugText": "当前出战编队中含有新试用角色",
+    "Text": "Text_OnlineDisabledByTrialRole_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 2700246,
+    "DebugText": "轮次结束时间错误",
+    "Text": "",
+    "IsTip": false
+  },
+  {
+    "Id": 1900305,
+    "DebugText": "养成任务已屏蔽无法领取",
+    "Text": "ErrorCode_1900302_Text",
+    "IsTip": false
+  },
+  {
+    "Id": 2700247,
+    "DebugText": "匹配中不允许切换试用角色",
+    "Text": "ErrorCode_1800049_Text",
+    "IsTip": true
+  },
+  {
+    "Id": 1900306,
+    "DebugText": "版本校验不通过",
+    "Text": "ErrorCode_1900303_Text",
     "IsTip": false
   }
 ]
