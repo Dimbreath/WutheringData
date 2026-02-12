@@ -268,6 +268,15 @@
         }
       },
       {
+        "Key": 11899082,
+        "Value": {
+          "ArrayInt": [
+            1,
+            7
+          ]
+        }
+      },
+      {
         "Key": -1254507003,
         "Value": {
           "ArrayInt": [
@@ -539,6 +548,55 @@
             8
           ]
         }
+      },
+      {
+        "Key": 2092030875,
+        "Value": {
+          "ArrayInt": [
+            1,
+            4,
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      },
+      {
+        "Key": -1488309485,
+        "Value": {
+          "ArrayInt": [
+            4,
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      },
+      {
+        "Key": 755426796,
+        "Value": {
+          "ArrayInt": [
+            4,
+            7,
+            6,
+            9,
+            8
+          ]
+        }
+      },
+      {
+        "Key": 701626516,
+        "Value": {
+          "ArrayInt": [
+            4,
+            7,
+            6,
+            9,
+            8
+          ]
+        }
       }
     ],
     "PadButtonTypeMap": [
@@ -726,44 +784,16 @@
         }
       },
       {
-        "Key": 859914495,
+        "Key": 11899082,
         "Value": {
           "ArrayInt": [
-            4,
-            6,
             -1,
             -1,
             -1,
-            -1,
-            -1
-          ]
-        }
-      },
-      {
-        "Key": -1785184580,
-        "Value": {
-          "ArrayInt": [
-            201,
-            4,
-            8,
             7,
-            5,
-            6,
-            202
-          ]
-        }
-      },
-      {
-        "Key": 346080557,
-        "Value": {
-          "ArrayInt": [
-            201,
-            1,
-            8,
-            7,
-            5,
-            6,
-            202
+            -1,
+            -1,
+            1
           ]
         }
       },
@@ -958,6 +988,15 @@
         }
       },
       {
+        "Key": 11899082,
+        "Value": {
+          "ArrayInt": [
+            1,
+            7
+          ]
+        }
+      },
+      {
         "Key": -1254507003,
         "Value": {
           "ArrayInt": [
@@ -972,6 +1011,94 @@
             4,
             8,
             5
+          ]
+        }
+      }
+    ],
+    "MotorPadButtonTypeMap": [
+      {
+        "Key": 859914495,
+        "Value": {
+          "ArrayInt": [
+            4,
+            6,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": -1785184580,
+        "Value": {
+          "ArrayInt": [
+            201,
+            4,
+            8,
+            7,
+            5,
+            6,
+            202
+          ]
+        }
+      },
+      {
+        "Key": 346080557,
+        "Value": {
+          "ArrayInt": [
+            201,
+            1,
+            8,
+            7,
+            5,
+            6,
+            202
+          ]
+        }
+      }
+    ],
+    "MotorJoystickPadButtonTypeMap": [
+      {
+        "Key": 859914495,
+        "Value": {
+          "ArrayInt": [
+            4,
+            6,
+            -1,
+            -1,
+            -1,
+            -1,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": -1785184580,
+        "Value": {
+          "ArrayInt": [
+            5,
+            4,
+            8,
+            7,
+            -1,
+            6,
+            -1
+          ]
+        }
+      },
+      {
+        "Key": 346080557,
+        "Value": {
+          "ArrayInt": [
+            5,
+            1,
+            8,
+            7,
+            -1,
+            6,
+            -1
           ]
         }
       }
@@ -996,7 +1123,9 @@
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
     "PadButtonTypeMap": null,
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5009,
@@ -1017,7 +1146,9 @@
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
     "PadButtonTypeMap": null,
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5010,
@@ -1040,7 +1171,9 @@
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
     "PadButtonTypeMap": null,
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5012,
@@ -1055,7 +1188,9 @@
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
     "PadButtonTypeMap": null,
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5011,
@@ -1078,7 +1213,9 @@
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
     "PadButtonTypeMap": null,
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5006,
@@ -1100,7 +1237,9 @@
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
     "PadButtonTypeMap": null,
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5007,
@@ -1123,7 +1262,9 @@
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
     "PadButtonTypeMap": null,
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5013,
@@ -1145,7 +1286,9 @@
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
     "PadButtonTypeMap": null,
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5014,
@@ -1167,7 +1310,9 @@
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
     "PadButtonTypeMap": null,
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5002,
@@ -1189,7 +1334,9 @@
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
     "PadButtonTypeMap": null,
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5001,
@@ -1316,7 +1463,9 @@
         }
       }
     ],
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5003,
@@ -1443,7 +1592,9 @@
         }
       }
     ],
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5004,
@@ -1570,7 +1721,9 @@
         }
       }
     ],
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5005,
@@ -1697,7 +1850,9 @@
         }
       }
     ],
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5015,
@@ -1824,7 +1979,9 @@
         }
       }
     ],
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5016,
@@ -1951,7 +2108,9 @@
         }
       }
     ],
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5017,
@@ -1977,7 +2136,9 @@
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
     "PadButtonTypeMap": null,
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5018,
@@ -2003,7 +2164,9 @@
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
     "PadButtonTypeMap": null,
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5020,
@@ -2018,7 +2181,9 @@
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
     "PadButtonTypeMap": null,
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 50171,
@@ -2033,7 +2198,9 @@
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
     "PadButtonTypeMap": null,
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5026,
@@ -2163,7 +2330,9 @@
           ]
         }
       }
-    ]
+    ],
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5027,
@@ -2293,7 +2462,9 @@
           ]
         }
       }
-    ]
+    ],
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5021,
@@ -2317,7 +2488,9 @@
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
     "PadButtonTypeMap": null,
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5022,
@@ -2332,7 +2505,9 @@
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
     "PadButtonTypeMap": null,
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5023,
@@ -2347,7 +2522,9 @@
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
     "PadButtonTypeMap": null,
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5029,
@@ -2362,7 +2539,9 @@
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
     "PadButtonTypeMap": null,
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5030,
@@ -2377,7 +2556,9 @@
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
     "PadButtonTypeMap": null,
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5024,
@@ -2392,7 +2573,9 @@
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
     "PadButtonTypeMap": null,
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5031,
@@ -2510,7 +2693,9 @@
         }
       }
     ],
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5032,
@@ -2628,7 +2813,9 @@
         }
       }
     ],
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5033,
@@ -2746,7 +2933,9 @@
         }
       }
     ],
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5028,
@@ -2761,7 +2950,9 @@
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
     "PadButtonTypeMap": null,
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5034,
@@ -2776,7 +2967,9 @@
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
     "PadButtonTypeMap": null,
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5025,
@@ -2791,7 +2984,9 @@
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
     "PadButtonTypeMap": null,
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5036,
@@ -2909,7 +3104,9 @@
         }
       }
     ],
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5037,
@@ -3027,7 +3224,9 @@
         }
       }
     ],
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5042,
@@ -3155,7 +3354,9 @@
         }
       }
     ],
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5043,
@@ -3293,7 +3494,9 @@
         }
       }
     ],
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5044,
@@ -3421,7 +3624,9 @@
         }
       }
     ],
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   },
   {
     "Id": 5046,
@@ -3436,6 +3641,76 @@
     "TagPadButtonTypeList": null,
     "DesktopButtonTypeMap": null,
     "PadButtonTypeMap": null,
-    "GamepadButtonTypeMap": null
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
+  },
+  {
+    "Id": 5038,
+    "DesktopButtonTypeList": [
+      0
+    ],
+    "PadButtonTypeList": [
+      0
+    ],
+    "TagList": null,
+    "TagDesktopButtonTypeList": null,
+    "TagPadButtonTypeList": null,
+    "DesktopButtonTypeMap": null,
+    "PadButtonTypeMap": null,
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
+  },
+  {
+    "Id": 5039,
+    "DesktopButtonTypeList": [
+      0
+    ],
+    "PadButtonTypeList": [
+      0
+    ],
+    "TagList": null,
+    "TagDesktopButtonTypeList": null,
+    "TagPadButtonTypeList": null,
+    "DesktopButtonTypeMap": null,
+    "PadButtonTypeMap": null,
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
+  },
+  {
+    "Id": 5040,
+    "DesktopButtonTypeList": [
+      0
+    ],
+    "PadButtonTypeList": [
+      0
+    ],
+    "TagList": null,
+    "TagDesktopButtonTypeList": null,
+    "TagPadButtonTypeList": null,
+    "DesktopButtonTypeMap": null,
+    "PadButtonTypeMap": null,
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
+  },
+  {
+    "Id": 5041,
+    "DesktopButtonTypeList": [
+      0
+    ],
+    "PadButtonTypeList": [
+      0
+    ],
+    "TagList": null,
+    "TagDesktopButtonTypeList": null,
+    "TagPadButtonTypeList": null,
+    "DesktopButtonTypeMap": null,
+    "PadButtonTypeMap": null,
+    "GamepadButtonTypeMap": null,
+    "MotorPadButtonTypeMap": null,
+    "MotorJoystickPadButtonTypeMap": null
   }
 ]

@@ -1,0 +1,58 @@
+[
+  {
+    "Id": 1,
+    "MapId": 8,
+    "BlockBorder": [
+      {
+        "Xmin": -2,
+        "Ymin": -4,
+        "Xmax": 4,
+        "Ymax": 2
+      }
+    ],
+    "InstanceDungeon": [
+      900
+    ],
+    "UnlockCondition": 0
+  },
+  {
+    "Id": 2,
+    "MapId": 8,
+    "BlockBorder": [
+      {
+        "Xmin": 8,
+        "Ymin": -11,
+        "Xmax": 13,
+        "Ymax": -3
+      },
+      {
+        "Xmin": 13,
+        "Ymin": -16,
+        "Xmax": 17,
+        "Ymax": -12
+      }
+    ],
+    "InstanceDungeon": [
+      903,
+      902,
+      905
+    ],
+    "UnlockCondition": 13000215
+  },
+  {
+    "Id": 3,
+    "MapId": 8,
+    "BlockBorder": [
+      {
+        "Xmin": -4,
+        "Ymin": 5,
+        "Xmax": 2,
+        "Ymax": 14
+      }
+    ],
+    "InstanceDungeon": [
+      906
+    ],
+    "UnlockCondition": 13000214
+  }
+]
