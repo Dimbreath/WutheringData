@@ -44738,5 +44738,64 @@
     "SkillActionScript": "FALSE",
     "ActionExecuteFlag": 0,
     "Cdtype": "Owner"
+  },
+  {
+    "Id": 1210071312.0,
+    "SkillDesc": "监听-变身时-判断45号-低能量",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "角色.Common.c8a7b6be.2991c335",
+      "0",
+      "0",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "GetAttributeByID(Owner,45)<=20000",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1210011024"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
+  },
+  {
+    "Id": 1210071313.0,
+    "SkillDesc": "监听-变身时-判断45号-空能量",
+    "Cdtime": 0.0,
+    "CdThreshold": -1.0,
+    "ShareGroupId": 0,
+    "MaxCount": 1,
+    "IsShareAllCdSkill": false,
+    "IsDefaultActivated": true,
+    "TriggerType": "TagTrigger",
+    "TriggerPreset": [
+      "角色.Common.c8a7b6be.2991c335",
+      "0",
+      "0",
+      "0"
+    ],
+    "TriggerParams": "{}",
+    "TriggerFormula": "GetAttributeByID(Owner,45)<=200",
+    "SubSkillAction": null,
+    "InstigatorType": "Owner",
+    "SkillAction": "AddBuff",
+    "SkillActionParams": [
+      "1210011021",
+      "1210081015"
+    ],
+    "ActionScriptParams": "{}",
+    "SkillActionScript": "FALSE",
+    "ActionExecuteFlag": 0,
+    "Cdtype": "Owner"
   }
 ]
