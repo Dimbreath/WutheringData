@@ -15837,12 +15837,12 @@
   {
     "Id": "Mail_400021_Content",
     "IsIncludeRichText": true,
-    "IsIncludeGameText": false
+    "IsIncludeGameText": true
   },
   {
     "Id": "Mail_400022_Content",
     "IsIncludeRichText": true,
-    "IsIncludeGameText": false
+    "IsIncludeGameText": true
   },
   {
     "Id": "Mail_9_Content",
@@ -166633,5 +166633,20 @@
     "Id": "WFLKDJS_14_43",
     "IsIncludeRichText": false,
     "IsIncludeGameText": true
+  },
+  {
+    "Id": "AdvertisingActivity_3110605_ContentText",
+    "IsIncludeRichText": true,
+    "IsIncludeGameText": false
+  },
+  {
+    "Id": "AdvertisingStory_3110201_ContentText",
+    "IsIncludeRichText": true,
+    "IsIncludeGameText": true
+  },
+  {
+    "Id": "AdvertisingStory_3110202_ContentText",
+    "IsIncludeRichText": true,
+    "IsIncludeGameText": false
   }
 ]
